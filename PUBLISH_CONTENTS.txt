@@ -1,0 +1,18 @@
+공개 저장소에 포함할 파일:
+README.md
+.gitattributes
+.gitignore
+PUBLISH_CONTENTS.txt
+patch/README.md
+patch/manifest.json (빌드 시 생성되는 해시 명세)
+docs/QA_STATUS.md
+docs/RELEASE_NOTES_v0.1.0-beta.md
+tools/apply_patch.py
+tools/verify_release.py
+
+GitHub Releases에만 첨부:
+manifest.json
+bia-dday-korean-v0.1.0-beta.xdelta (또는 분할 파일)
+
+절대 업로드 금지:
+원본 ISO, 수정 ISO, 세이브, 원본 게임 추출 리소스, 개인 작업 로그, PPSSPP 설정

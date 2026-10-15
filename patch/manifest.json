@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "game": "Brothers in Arms: D-Day",
+  "platform": "PSP",
+  "game_id": "ULUS10193",
+  "edition": "USA v1.01",
+  "version": "v0.1.0-beta",
+  "release_build": "STEP129 COMPACT based on STEP127 FIX1",
+  "original_iso": {
+    "size_bytes": 1454997504,
+    "sha256": "3d138a30a4e468532d551c74c848b4ec1ab7a044a726c5434e8a6a20e6814f66"
+  },
+  "patched_iso": {
+    "size_bytes": 1413019648,
+    "sha256": "99091ae6abd1c3d5462ba1e299116eb77081aa4fb5bb417542f2039fe2254cae"
+  },
+  "xdelta": {
+    "format": "VCDIFF / xdelta3",
+    "filename": "bia-dday-korean-v0.1.0-beta.xdelta",
+    "size_bytes": 711461445,
+    "sha256": "90ba149e29c4463a7e7a2e489bcda8d79d7e6a12b0414449807ea5530b6b1f48",
+    "parts": [
+      {
+        "filename": "bia-dday-korean-v0.1.0-beta.xdelta",
+        "size_bytes": 711461445,
+        "sha256": "90ba149e29c4463a7e7a2e489bcda8d79d7e6a12b0414449807ea5530b6b1f48"
+      }
+    ]
+  },
+  "verification": {
+    "source_hash_checked": true,
+    "target_hash_checked": true,
+    "xdelta_decode_sha256_checked": true
+  },
+  "distribution": "xdelta-only; no ISO"
+}
