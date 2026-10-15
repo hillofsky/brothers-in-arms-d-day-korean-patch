@@ -16,3 +16,11 @@ bia-dday-korean-v0.1.0-beta.xdelta (또는 분할 파일)
 
 절대 업로드 금지:
 원본 ISO, 수정 ISO, 세이브, 원본 게임 추출 리소스, 개인 작업 로그, PPSSPP 설정
+
+세션 재개 문서/도구:
+AGENTS.md
+PROJECT_STATE.md
+HANDOFF.md
+docs/OPERATIONS.md
+docs/resume_baseline.json
+tools/check_resume.py

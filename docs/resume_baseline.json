@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "inspected_commit": "9358177671e8d49e53e59e11bf15b6c3dbddf836",
+  "verified_this_session": "Repository file integrity only; no ISO, patch decode or runtime verification",
+  "files": {
+    "patch/manifest.json": "170d3815a483d9f196c9682be1c02fbf9e6c7165938549ac6f657eee45026fa7",
+    "docs/QA_STATUS.md": "e4fc9f0fb9f781f32469ff49df10d936c0dac453ce6298a4af69ed4a17292ce6",
+    "tools/apply_patch.py": "61da797f5e41445c3abe0acff8824ce6549ed0718e9ae6165c034fe3b9167809",
+    "tools/verify_release.py": "a8ce3ab83c43ffd502b9f6d104d03efd18a56bd390a8e54ac279f17729681928"
+  }
+}

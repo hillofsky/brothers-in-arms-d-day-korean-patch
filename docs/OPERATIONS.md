@@ -1,0 +1,34 @@
+# 운영 절차
+
+## 새 세션 점검 (게임 자료 불필요)
+
+저장소 루트에서 Python 3.9+로 실행한다. 현재 작업 디렉터리에 의존하지 않고 스크립트 위치를 기준으로 점검한다.
+
+```powershell
+python tools/check_resume.py
+git status --short
+git diff --check
+```
+
+점검은 문서 존재와 docs/resume_baseline.json에 고정한 파일의 SHA-256만 확인한다. 실패하면 원인을 확인하고 기준 문서를 검토한다. 통과시키기 위해 해시만 자동 재생성하지 않는다. 고정 해시는 이번에 읽은 저장소 파일의 기준이며 게임 출력 검증 결과가 아니다.
+
+## 로컬 자료
+
+원본 ISO·중간 결과·추출 자료·개인 세이브는 저장소 밖 또는 무시되는 local/에 둔다. 원본은 읽기 전용으로 취급하며 기존 결과를 덮어쓰지 않는다. Python과 xdelta3가 필요하고, PPSSPP는 별도로 준비한다. 이 저장소에는 게임 자료나 xdelta 실행 파일이 없다. 릴리즈 링크와 입력/출력 해시는 README 및 해당 manifest를 따른다.
+
+## 배포 패치 재현
+
+README의 v0.1.0-beta 릴리즈에서 manifest와 xdelta(분할이면 모든 part)를 같은 외부 폴더에 받는다. 아래 파일명은 실제 경로로 대체한다.
+
+```powershell
+python tools/verify_release.py "manifest.json"
+python tools/apply_patch.py --manifest "manifest.json" --source "SOURCE.iso" --output "OUTPUT.iso" --xdelta "xdelta3.exe"
+```
+
+verify_release는 manifest가 가리키는 파트 해시만 검사하며 ISO 검증은 apply_patch에서 수행한다. 공개 저장소에는 개발 빌더/번역 원장이 없으므로 STEP129 재빌드 명령을 제공할 근거가 없다. 후속 개발 전 사용자가 보유한 소스·매핑·단계별 보고서를 별도로 복구하고 게임 자산은 공개하지 않는다.
+
+## 실행 후 검증과 종료
+
+결과 해시 일치 → PPSSPP normal boot → 알려진 화면 재현 → 일반 저장/불러오기 및 추가 플레이 순서로 범위를 늘린다. 이전 세이브스테이트는 신규 빌드 QA 근거로 사용하지 않는다. 각 항목의 날짜·환경·결과·근거와 미검증 범위를 별도로 남긴다.
+
+공개 전 git diff --stat, git diff --check, git status --short로 변경과 신규 파일을 검토한다. ISO·원본 자산·비밀정보를 stage하지 않는다. 사용자가 commit/push를 명시적으로 승인한 뒤 연결과 대상 원격/브랜치를 확인하고 문서·스크립트만 명시적으로 stage한다. 이번 작업은 로컬 수정 상태다.

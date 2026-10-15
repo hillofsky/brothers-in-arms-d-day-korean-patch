@@ -52,3 +52,16 @@ __pycache__/
 /release_artifacts/
 /local/
 /temp/
+
+# Local session assets (case-insensitive extension patterns)
+*.[iI][sS][oO]
+*.[cC][sS][oO]
+*.[pP][mM][fF]
+*.[aA][tT]3
+*.[cC][cC][sS]
+*.[iI][dD][xX]
+*.[dD][aA][tT]
+*.[bB][iI][nN]
+*.[pP][pP][sS][tT]
+*.partial
+/local/

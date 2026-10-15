@@ -58,3 +58,7 @@ GUI [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)에서도 같
 비공식 팬 번역 프로젝트입니다. 원본 게임·이름·상표에 대한 권리는 각 권리자에게 있으며 제작사의 공식 지원을 받지 않습니다. 게임 ISO 또는 추출 리소스는 배포하지 않습니다. **패치 적용을 위해 적법하게 보유한 해당 판본의 ISO가 필요합니다.**
 
 문제 제보에는 게임 버전, 패치 버전, 재현 위치, 스크린샷만 첨부해 주세요. 원본 ISO나 세이브 데이터는 첨부하지 마세요.
+
+## Codex 세션에서 이어가기
+
+[현재 상태](PROJECT_STATE.md) → [세션 인계](HANDOFF.md) → [운영 절차](docs/OPERATIONS.md)를 확인하세요. 저장소만으로 가능한 점검은 `python tools/check_resume.py`입니다. 전체 개발 재빌드 가능 여부와 게임 QA는 별도입니다.
