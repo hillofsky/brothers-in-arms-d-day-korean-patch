@@ -1,0 +1,5 @@
+from pathlib import Path
+p=Path('work/stage43a_live.py');s=p.read_text(encoding='utf-8-sig').replace('stage43a_validation','stage43b_trace').replace('nav43_command.json','nav43b_command.json');s=s.replace("   if c.get('trace'):\n    ws.request('cpu.breakpoint.remove'", "   if c.get('trace') and not c.get('keep_trace'):\n    ws.request('cpu.breakpoint.remove'")
+s=s.replace("   for button in c.get('buttons',[]):", "   if c.get('watch'):\n    for a in c['watch']: print(ws.request('memory.breakpoint.add',address=int(a,0),size=1,enabled=False,log=True,read=True,write=False,logFormat='HUDREAD pc={pc} ra={ra} a0={a0} a1={a1} s0={s0} s1={s1} s2={s2}'),flush=True)\n   for button in c.get('buttons',[]):")
+s=s.replace("   if c.get('analog'):","   if c.get('hold_button'):\n    ws.request('input.buttons.send',buttons={c['hold_button']:True});time.sleep(c.get('hold_seconds',.3));ws.request('input.buttons.send',buttons={c['hold_button']:False});time.sleep(c.get('settle',1))\n   if c.get('analog'):")
+Path('work/stage43b_live.py').write_text(s,encoding='utf-8')

@@ -1,0 +1,26 @@
+{
+  "step": "STEP_082",
+  "status": "VERIFIED_BINARY_EVIDENCE_EXPORTED",
+  "iso_modified": false,
+  "source_iso_sha256_before": {
+    "stage69": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+    "stage79": "ca320d514c32d34767e7255ea3079f7449783cdb2b98ec49797a87bdd69544d9"
+  },
+  "capture_kind": "exact D0_0700 source+patched MDI/DSL/DSX, first-mission patched MDI for cross-comparison",
+  "source_mdi_font_logical_integrity_only": true,
+  "runtime_font_visual_verified": false,
+  "source_iso_sha256_after": {
+    "stage69": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+    "stage79": "ca320d514c32d34767e7255ea3079f7449783cdb2b98ec49797a87bdd69544d9"
+  },
+  "source_isos_preserved": true,
+  "resource_count": 7,
+  "int_files_checked": 124,
+  "ascii_keyword_hits_in_decoded_MDI_and_INT": 66,
+  "korean_test_strings_found_in_stage79_mission2": 3,
+  "captured_zip": "PROJECT_ROOT\\log\\STEP_082\\outputs\\mission1_2_exact_binary_evidence.zip",
+  "captured_zip_bytes": 18684709,
+  "compiled967_visual_runtime_verified": false,
+  "second_mission_rendering": "BROKEN_ANGLE_BRACKET_FALLBACK_USER_SCREENSHOT",
+  "next_action": "Inspect exact Stage79 MDI/DSL/DSX binary difference and resolved English-source locations to construct a narrowly scoped runtime-safe fix. Do not promote Stage79 as visually verified."
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "mdi": "D07_1501.MDI",
+    "current_levelinfo": {
+      "title": "Bloody Gulch",
+      "date": "D+7 1500 June 13, 1944",
+      "location": "Near Hill 30, France"
+    }
+  },
+  {
+    "mdi": "D08_1030.MDI",
+    "current_levelinfo": {
+      "title": "Close Quarters",
+      "date": "D+8 1030 June 14, 1944",
+      "location": "Carentan, France"
+    }
+  },
+  {
+    "mdi": "D09_0800.MDI",
+    "current_levelinfo": {
+      "title": "Baupte",
+      "date": "D+9 0800 June 15, 1944",
+      "location": "Baupte, France"
+    }
+  },
+  {
+    "mdi": "D0_0130_.MDI",
+    "current_levelinfo": {
+      "title": "운명과의 합류",
+      "date": "D-Day 0119 June 6, 1944",
+      "location": "프랑스 생메르에글리즈 상공"
+    }
+  },
+  {
+    "mdi": "D0_0700_.MDI",
+    "current_levelinfo": {
+      "title": "Ambush at Exit 4",
+      "date": "D-Day 0600   June 6, 1944",
+      "location": "프랑스 유타 해변 인근"
+    }
+  },
+  {
+    "mdi": "D0_1015_.MDI",
+    "current_levelinfo": {
+      "title": "Objective XYZ",
+      "date": "D-Day 1015  June 6, 1944",
+      "location": "프랑스 노르망디"
+    }
+  },
+  {
+    "mdi": "D10_0600.MDI",
+    "current_levelinfo": {
+      "title": "Run of the Mill",
+      "date": "D+10 0600 June 16, 1944",
+      "location": "St. Sauveur-Le-Vicomte, France"
+    }
+  },
+  {
+    "mdi": "D10_0801.MDI",
+    "current_levelinfo": {
+      "title": "올 아메리칸 1부",
+      "date": "D+10 0800 June 16, 1944",
+      "location": "St. Sauveur, France"
+    }
+  },
+  {
+    "mdi": "D10_0802.MDI",
+    "current_levelinfo": {
+      "title": "올 아메리칸 2부",
+      "date": "D+10 0800 June 16, 1944",
+      "location": "St. Sauveur, France"
+    }
+  },
+  {
+    "mdi": "D1_0900_.MDI",
+    "current_levelinfo": {
+      "title": "Action at Vierville",
+      "date": "D+1 0930  June 7, 1944",
+      "location": "프랑스 비에르빌"
+    }
+  },
+  {
+    "mdi": "D1_1830_.MDI",
+    "current_levelinfo": {
+      "title": "Dead Man's Corner",
+      "date": "D+1 1830  June 7, 1944",
+      "location": "프랑스 생콤뒤몽 남동쪽"
+    }
+  },
+  {
+    "mdi": "D2_0630_.MDI",
+    "current_levelinfo": {
+      "title": "The Crack of Dawn",
+      "date": "D+2 0550  June 8, 1944",
+      "location": "프랑스 생콤뒤몽 남동쪽"
+    }
+  },
+  {
+    "mdi": "D2_1000_.MDI",
+    "current_levelinfo": {
+      "title": "생콤뒤몽 함락",
+      "date": "D+2 1000  June 8, 1944",
+      "location": "프랑스 생콤뒤몽"
+    }
+  },
+  {
+    "mdi": "D3_0900_.MDI",
+    "current_levelinfo": {
+      "title": "Buying the Farm",
+      "date": "D+3 0900  June 9, 1944",
+      "location": "프랑스 생콤뒤몽 서쪽"
+    }
+  },
+  {
+    "mdi": "D4_1800_.MDI",
+    "current_levelinfo": {
+      "title": "퍼플 하트 레인",
+      "date": "D+4 18:00  1944년 6월 10일",
+      "location": "프랑스 카랑탕 북서쪽"
+    }
+  },
+  {
+    "mdi": "D5_0615_.MDI",
+    "current_levelinfo": {
+      "title": "Cole's Charge",
+      "date": "D+5 0615  June 11, 1944",
+      "location": "프랑스 카랑탕 인근"
+    }
+  },
+  {
+    "mdi": "D6_0500_.MDI",
+    "current_levelinfo": {
+      "title": "카랑탕 진격",
+      "date": "D+6 05:00  1944년 6월 12일",
+      "location": "프랑스 카랑탕"
+    }
+  },
+  {
+    "mdi": "D6_1200_.MDI",
+    "current_levelinfo": {
+      "title": "Cat and Mouse",
+      "date": "D+6 1200  June 12, 1944",
+      "location": "Carentan, France"
+    }
+  },
+  {
+    "mdi": "D7_1400_.MDI",
+    "current_levelinfo": {
+      "title": "죽기에 이보다 좋은 곳은 없다 1부",
+      "date": "D-D+7 1345  June 13, 1944",
+      "location": "Near Hill 30, France"
+    }
+  },
+  {
+    "mdi": "D7_1500_.MDI",
+    "current_levelinfo": {
+      "title": "죽기에 이보다 좋은 곳은 없다 2부",
+      "date": "D-D+7 1500  June 13, 1944",
+      "location": "Near Hill 30, France"
+    }
+  },
+  {
+    "mdi": "SKR_DE_CHUR.MDI",
+    "current_levelinfo": {
+      "title": "Flanked from Above",
+      "date": "<?(null)?s_skr_de_church.LevelInfo0.TitleDay?> <?(null)?s_skr_de_church.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?s_skr_de_church.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_DE_CITY.MDI",
+    "current_levelinfo": {
+      "title": "Through the Rubble",
+      "date": "<?(null)?S_SKR_DE_CityFighting.LevelInfo0.TitleDay?> <?(null)?S_SKR_DE_CityFighting.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?S_SKR_DE_CityFighting.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_DE_DDAY.MDI",
+    "current_levelinfo": {
+      "title": "Night Lights",
+      "date": "<?(null)?s_skr_de_ddaydrop.LevelInfo0.TitleDay?> <?(null)?s_skr_de_ddaydrop.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?s_skr_de_ddaydrop.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_DE_HAML.MDI",
+    "current_levelinfo": {
+      "title": "Taking Back the Hamlet",
+      "date": "<?(null)?s_skr_de_hamlet.LevelInfo0.TitleDay?> <?(null)?s_skr_de_hamlet.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?s_skr_de_hamlet.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_DE_HOLD.MDI",
+    "current_levelinfo": {
+      "title": "Holding the Line",
+      "date": "<?(null)?s_skr_de_holdingtheline.LevelInfo0.TitleDay?> <?(null)?s_skr_de_holdingtheline.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?s_skr_de_holdingtheline.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_DE_WARE.MDI",
+    "current_levelinfo": {
+      "title": "The Warehouse District",
+      "date": "<?(null)?S_SKR_DE_Warehouse.LevelInfo0.TitleDay?> <?(null)?S_SKR_DE_Warehouse.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?S_SKR_DE_Warehouse.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_US_BROK.MDI",
+    "current_levelinfo": {
+      "title": "Broken Tanks",
+      "date": "<?(null)?s_skr_us_brokentanks.LevelInfo0.TitleDay?> <?(null)?s_skr_us_brokentanks.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?s_skr_us_brokentanks.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_US_BUNK.MDI",
+    "current_levelinfo": {
+      "title": "High Ground",
+      "date": "<?(null)?s_skr_us_bunker.LevelInfo0.TitleDay?> <?(null)?s_skr_us_bunker.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?s_skr_us_bunker.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_US_CROS.MDI",
+    "current_levelinfo": {
+      "title": "Crossing Guard",
+      "date": "<?(null)?s_skr_us_crossing.LevelInfo0.TitleDay?> <?(null)?s_skr_us_crossing.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?s_skr_us_crossing.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_US_RAIL.MDI",
+    "current_levelinfo": {
+      "title": "Last Stop",
+      "date": "<?(null)?S_SKR_US_Railyard.LevelInfo0.TitleDay?> <?(null)?S_SKR_US_Railyard.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?S_SKR_US_Railyard.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_US_SNIP.MDI",
+    "current_levelinfo": {
+      "title": "Through the Valley",
+      "date": "<?(null)?S_SKR_US_SniperHill.LevelInfo0.TitleDay?> <?(null)?S_SKR_US_SniperHill.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?S_SKR_US_SniperHill.LevelInfo0.TitleLocation?>"
+    }
+  },
+  {
+    "mdi": "SKR_US_TAKI.MDI",
+    "current_levelinfo": {
+      "title": "Taking the Hill",
+      "date": "<?(null)?s_skr_us_takingthehill.LevelInfo0.TitleDay?> <?(null)?s_skr_us_takingthehill.LevelInfo0.TitleDate?>",
+      "location": "<?(null)?s_skr_us_takingthehill.LevelInfo0.TitleLocation?>"
+    }
+  }
+]

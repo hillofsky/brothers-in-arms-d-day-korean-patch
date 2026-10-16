@@ -1,0 +1,27 @@
+{
+  "stage": 37,
+  "source_root": "PROJECT_ROOT",
+  "included_source_count": 10,
+  "merged_unique_text_lines": 27,
+  "hangul_total_occurrences": 47,
+  "hangul_unique_syllables": 10,
+  "actual_high_byte_page_count": 10,
+  "actual_high_bytes": [
+    "0xAE",
+    "0xB0",
+    "0xBF",
+    "0xC2",
+    "0xC7",
+    "0xC8",
+    "0xCD",
+    "0xD1",
+    "0xD2",
+    "0xD5"
+  ],
+  "atlas_safe_capacity": 756,
+  "planned_hangul_glyphs_including_stage36_proven": 10,
+  "fits_single_512_atlas": true,
+  "overflow_count": 0,
+  "stream23_storage_fits": true,
+  "next_step": "Build Stage38 production atlas/font from this exact plan."
+}

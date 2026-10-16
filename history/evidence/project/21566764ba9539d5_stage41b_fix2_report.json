@@ -1,0 +1,586 @@
+{
+  "stage": "41B_FIX2",
+  "iso": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "started": "2026-10-06 20:30:01",
+  "version": {
+    "event": "version",
+    "ticket": 2001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "title_vram": [
+    {
+      "address_hex": "0x04000000",
+      "path": "PROJECT_ROOT\\analysis\\stage41b_fix2_manual\\title_wait_04000000.bin",
+      "bytes": 557056
+    },
+    {
+      "address_hex": "0x04044000",
+      "path": "PROJECT_ROOT\\analysis\\stage41b_fix2_manual\\title_wait_04044000.bin",
+      "bytes": 557056
+    }
+  ],
+  "search_attempts": [
+    {
+      "t": 0.02,
+      "known_score": 0
+    },
+    {
+      "t": 2.46,
+      "known_score": 0
+    },
+    {
+      "t": 3.33,
+      "known_score": 0
+    },
+    {
+      "t": 4.2,
+      "known_score": 0
+    },
+    {
+      "t": 5.07,
+      "known_score": 0
+    },
+    {
+      "t": 5.93,
+      "known_score": 0
+    },
+    {
+      "t": 6.8,
+      "known_score": 0
+    },
+    {
+      "t": 7.67,
+      "known_score": 0
+    },
+    {
+      "t": 8.54,
+      "known_score": 0
+    },
+    {
+      "t": 9.4,
+      "known_score": 0
+    },
+    {
+      "t": 10.27,
+      "known_score": 0
+    },
+    {
+      "t": 11.14,
+      "known_score": 0
+    },
+    {
+      "t": 12.0,
+      "known_score": 0
+    },
+    {
+      "t": 12.87,
+      "known_score": 0
+    },
+    {
+      "t": 15.53,
+      "known_score": 0
+    },
+    {
+      "t": 16.39,
+      "known_score": 0
+    },
+    {
+      "t": 17.27,
+      "known_score": 0
+    },
+    {
+      "t": 18.13,
+      "known_score": 0
+    },
+    {
+      "t": 19.0,
+      "known_score": 0
+    },
+    {
+      "t": 19.87,
+      "known_score": 0
+    },
+    {
+      "t": 20.74,
+      "known_score": 0
+    },
+    {
+      "t": 21.6,
+      "known_score": 0
+    },
+    {
+      "t": 22.47,
+      "known_score": 0
+    },
+    {
+      "t": 23.33,
+      "known_score": 0
+    },
+    {
+      "t": 24.2,
+      "known_score": 0
+    },
+    {
+      "t": 25.07,
+      "known_score": 0
+    },
+    {
+      "t": 26.99,
+      "known_score": 0
+    },
+    {
+      "t": 27.85,
+      "known_score": 0
+    },
+    {
+      "t": 28.72,
+      "known_score": 0
+    },
+    {
+      "t": 29.59,
+      "known_score": 0
+    },
+    {
+      "t": 30.46,
+      "known_score": 0
+    },
+    {
+      "t": 31.32,
+      "known_score": 0
+    },
+    {
+      "t": 32.19,
+      "known_score": 0
+    },
+    {
+      "t": 33.06,
+      "known_score": 0
+    },
+    {
+      "t": 33.93,
+      "known_score": 0
+    },
+    {
+      "t": 34.79,
+      "known_score": 0
+    },
+    {
+      "t": 35.66,
+      "known_score": 0
+    },
+    {
+      "t": 36.53,
+      "known_score": 0
+    },
+    {
+      "t": 37.4,
+      "known_score": 0
+    },
+    {
+      "t": 39.72,
+      "known_score": 0
+    },
+    {
+      "t": 40.58,
+      "known_score": 0
+    },
+    {
+      "t": 41.45,
+      "known_score": 0
+    },
+    {
+      "t": 42.32,
+      "known_score": 0
+    },
+    {
+      "t": 43.19,
+      "known_score": 0
+    },
+    {
+      "t": 44.05,
+      "known_score": 0
+    },
+    {
+      "t": 44.92,
+      "known_score": 0
+    },
+    {
+      "t": 45.78,
+      "known_score": 0
+    },
+    {
+      "t": 46.65,
+      "known_score": 0
+    },
+    {
+      "t": 47.52,
+      "known_score": 0
+    },
+    {
+      "t": 48.39,
+      "known_score": 0
+    },
+    {
+      "t": 49.26,
+      "known_score": 0
+    },
+    {
+      "t": 50.12,
+      "known_score": 0
+    },
+    {
+      "t": 52.77,
+      "known_score": 0
+    },
+    {
+      "t": 53.63,
+      "known_score": 0
+    },
+    {
+      "t": 54.5,
+      "known_score": 0
+    },
+    {
+      "t": 55.37,
+      "known_score": 0
+    },
+    {
+      "t": 56.24,
+      "known_score": 0
+    },
+    {
+      "t": 57.11,
+      "known_score": 0
+    },
+    {
+      "t": 57.97,
+      "known_score": 0
+    },
+    {
+      "t": 58.84,
+      "known_score": 0
+    },
+    {
+      "t": 59.71,
+      "known_score": 0
+    },
+    {
+      "t": 60.58,
+      "known_score": 0
+    },
+    {
+      "t": 61.44,
+      "known_score": 0
+    },
+    {
+      "t": 62.31,
+      "known_score": 0
+    },
+    {
+      "t": 65.97,
+      "known_score": 0
+    },
+    {
+      "t": 66.8,
+      "known_score": 0
+    },
+    {
+      "t": 67.91,
+      "known_score": 0
+    },
+    {
+      "t": 68.75,
+      "known_score": 0
+    },
+    {
+      "t": 69.6,
+      "known_score": 0
+    },
+    {
+      "t": 70.45,
+      "known_score": 0
+    },
+    {
+      "t": 71.3,
+      "known_score": 0
+    },
+    {
+      "t": 72.17,
+      "known_score": 0
+    },
+    {
+      "t": 73.04,
+      "known_score": 0
+    },
+    {
+      "t": 73.91,
+      "known_score": 0
+    },
+    {
+      "t": 74.77,
+      "known_score": 0
+    },
+    {
+      "t": 76.85,
+      "known_score": 0
+    },
+    {
+      "t": 77.73,
+      "known_score": 0
+    },
+    {
+      "t": 78.6,
+      "known_score": 0
+    },
+    {
+      "t": 79.47,
+      "known_score": 0
+    },
+    {
+      "t": 80.33,
+      "known_score": 0
+    },
+    {
+      "t": 82.19,
+      "known_score": 0
+    },
+    {
+      "t": 83.05,
+      "known_score": 0
+    },
+    {
+      "t": 83.92,
+      "known_score": 0
+    },
+    {
+      "t": 84.79,
+      "known_score": 0
+    },
+    {
+      "t": 85.66,
+      "known_score": 0
+    },
+    {
+      "t": 86.52,
+      "known_score": 0
+    },
+    {
+      "t": 87.39,
+      "known_score": 0
+    },
+    {
+      "t": 90.03,
+      "known_score": 0
+    },
+    {
+      "t": 90.89,
+      "known_score": 0
+    },
+    {
+      "t": 91.76,
+      "known_score": 0
+    },
+    {
+      "t": 92.63,
+      "known_score": 0
+    },
+    {
+      "t": 93.48,
+      "known_score": 0
+    },
+    {
+      "t": 94.34,
+      "known_score": 0
+    },
+    {
+      "t": 95.21,
+      "known_score": 0
+    },
+    {
+      "t": 96.04,
+      "known_score": 0
+    },
+    {
+      "t": 96.88,
+      "known_score": 0
+    },
+    {
+      "t": 97.71,
+      "known_score": 0
+    },
+    {
+      "t": 98.55,
+      "known_score": 0
+    },
+    {
+      "t": 99.38,
+      "known_score": 0
+    },
+    {
+      "t": 100.22,
+      "known_score": 0
+    },
+    {
+      "t": 102.65,
+      "known_score": 0
+    },
+    {
+      "t": 103.48,
+      "known_score": 0
+    },
+    {
+      "t": 104.32,
+      "known_score": 0
+    },
+    {
+      "t": 105.15,
+      "known_score": 0
+    },
+    {
+      "t": 105.98,
+      "known_score": 0
+    },
+    {
+      "t": 106.82,
+      "known_score": 0
+    },
+    {
+      "t": 107.65,
+      "known_score": 0
+    },
+    {
+      "t": 108.49,
+      "known_score": 0
+    },
+    {
+      "t": 109.32,
+      "known_score": 0
+    },
+    {
+      "t": 110.16,
+      "known_score": 3
+    }
+  ],
+  "st1_base_hex": "0x08E1F21C",
+  "st1_verify": {
+    "score": 3,
+    "rows": [
+      {
+        "label": "title",
+        "address_hex": "0x08E1F21C",
+        "ok": true,
+        "got_hex": "ec9ab4ebaa85ec9d9820eb9e91eb8db0ebb680"
+      },
+      {
+        "label": "baker",
+        "address_hex": "0x08E1F28A",
+        "ok": true,
+        "got_hex": "ebb2a0ec9db4ecbba43a"
+      },
+      {
+        "label": "mac",
+        "address_hex": "0x08E1F4AB",
+        "ok": true,
+        "got_hex": "eba7a53a"
+      }
+    ]
+  },
+  "st1_vram": [
+    {
+      "address_hex": "0x04000000",
+      "path": "PROJECT_ROOT\\analysis\\stage41b_fix2_manual\\st1_loaded_04000000.bin",
+      "bytes": 557056
+    },
+    {
+      "address_hex": "0x04044000",
+      "path": "PROJECT_ROOT\\analysis\\stage41b_fix2_manual\\st1_loaded_04044000.bin",
+      "bytes": 557056
+    }
+  ],
+  "watchpoints": [
+    {
+      "offset_hex": "0x0",
+      "address_hex": "0x08E1F21C",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 4643
+        }
+      }
+    },
+    {
+      "offset_hex": "0x6e",
+      "address_hex": "0x08E1F28A",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 4644
+        }
+      }
+    },
+    {
+      "offset_hex": "0x28f",
+      "address_hex": "0x08E1F4AB",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 4645
+        }
+      }
+    },
+    {
+      "offset_hex": "0x39e",
+      "address_hex": "0x08E1F5BA",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 4646
+        }
+      }
+    },
+    {
+      "offset_hex": "0x4b5",
+      "address_hex": "0x08E1F6D1",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 4647
+        }
+      }
+    },
+    {
+      "offset_hex": "0x55c",
+      "address_hex": "0x08E1F778",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 4648
+        }
+      }
+    },
+    {
+      "offset_hex": "0x59d",
+      "address_hex": "0x08E1F7B9",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 4649
+        }
+      }
+    }
+  ],
+  "memory_hit_count": 0,
+  "reader_pcs": [],
+  "disasm": [],
+  "completed": false,
+  "error": "RuntimeError('ST1 loaded, but no read watchpoint hits were captured.')",
+  "finished": "2026-10-06 20:33:21"
+}

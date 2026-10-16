@@ -1,0 +1,28 @@
+{
+  "stage": "40G",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40F_ON_MEMU_RESIDENT_MASS_TEST.iso",
+  "expected_mdi_sha1": "297216ed0f00948f64dd644952b90a71a58dd638",
+  "first_frame_probes": {
+    "Skirmish": "커",
+    "Options": "옵",
+    "Profile": "프",
+    "Story_control": "토"
+  },
+  "top_level_metadata": {
+    "Skirmish": [
+      "0x095EC790",
+      "0x09902998",
+      13
+    ],
+    "Options": [
+      "0x095EC7AC",
+      "0x099028F0",
+      7
+    ],
+    "Profile": [
+      "0x095EC7C8",
+      "0x099028A0",
+      10
+    ]
+  }
+}

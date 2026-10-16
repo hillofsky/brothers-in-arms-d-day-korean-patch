@@ -1,0 +1,1213 @@
+{
+  "stage": "40Z-fix1",
+  "purpose": "Fix Stage40Z startup detection, then reproduce/resolve the later pause Down-input symptom and prove main-menu return if possible.",
+  "previous_failure": {
+    "cause": "Stage40Z waited for a MENUINT0.RAW log marker that was never emitted in this run and sent no input while waiting.",
+    "effect": "The opening Bink sequence ran under software renderer for about 11 minutes; campaign navigation never started.",
+    "evidence": "PPSSPP booted Stage40Y and the debugger was healthy, but menu_marker_count stayed 0 and BIAOFF campaign hook remained unloaded (0x0898E354 read 0x14A00007).",
+    "stage40y_not_implicated": true
+  },
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "modifies_iso": false,
+  "ppsspp_pid": 17236,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "cpu_ready": {
+    "ready": true,
+    "attempts": 6,
+    "status": {
+      "event": "cpu.status",
+      "ticket": 1011,
+      "stepping": false,
+      "paused": false,
+      "pc": 134217728,
+      "ticks": 3640871
+    }
+  },
+  "main_menu_entry": {
+    "ok": true,
+    "arm": {
+      "ok": true,
+      "response": {
+        "event": "cpu.breakpoint.add",
+        "ticket": 1014
+      }
+    },
+    "events": [
+      {
+        "event": "start_pulse",
+        "result": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1021
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1022
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1023
+            }
+          }
+        ]
+      },
+      {
+        "event": "start_pulse",
+        "result": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1088
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1089
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1090
+            }
+          }
+        ]
+      },
+      {
+        "event": "start_pulse",
+        "result": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1153
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1154
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1155
+            }
+          }
+        ]
+      },
+      {
+        "event": "start_pulse",
+        "result": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1218
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1219
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1220
+            }
+          }
+        ]
+      },
+      {
+        "event": "start_pulse",
+        "result": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1283
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1284
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1285
+            }
+          }
+        ]
+      },
+      {
+        "event": "start_pulse",
+        "result": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1351
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1352
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1353
+            }
+          }
+        ]
+      },
+      {
+        "event": "start_pulse",
+        "result": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1417
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1418
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1419
+            }
+          }
+        ]
+      },
+      {
+        "event": "start_pulse",
+        "result": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1485
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1486
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1487
+            }
+          }
+        ]
+      },
+      {
+        "event": "start_pulse",
+        "result": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1550
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1551
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1552
+            }
+          }
+        ]
+      },
+      {
+        "event": "story_breakpoint_hit",
+        "elapsed": 14.269148349761963
+      }
+    ],
+    "capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\main_menu_detected_04000000.png",
+          "visible_sha1": "ff4946b1b63775d791f5453653db24bd0b4e3be8",
+          "underline": {
+            "found": true,
+            "row": 225,
+            "red_pixels": 88
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\main_menu_detected_04044000.png",
+          "visible_sha1": "ff4946b1b63775d791f5453653db24bd0b4e3be8",
+          "underline": {
+            "found": true,
+            "row": 225,
+            "red_pixels": 88
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 225,
+        "red_pixels": 88
+      }
+    }
+  },
+  "campaign_entry": {
+    "main_story_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1567
+        }
+      },
+      {
+        "phase": "down",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1568
+        }
+      },
+      {
+        "phase": "up",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1569
+        }
+      }
+    ],
+    "continue_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1570
+        }
+      },
+      {
+        "phase": "down",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1571
+        }
+      },
+      {
+        "phase": "up",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1572
+        }
+      }
+    ],
+    "continue_failed_capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\continue_failed_04000000.png",
+          "visible_sha1": "99962180c3302afdb0bf83422d854261136789e0",
+          "underline": {
+            "found": true,
+            "row": 92,
+            "red_pixels": 52
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\continue_failed_04044000.png",
+          "visible_sha1": "99962180c3302afdb0bf83422d854261136789e0",
+          "underline": {
+            "found": true,
+            "row": 92,
+            "red_pixels": 52
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 92,
+        "red_pixels": 52
+      }
+    },
+    "fallback_circle": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1780
+        }
+      },
+      {
+        "phase": "down",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1781
+        }
+      },
+      {
+        "phase": "up",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1782
+        }
+      }
+    ],
+    "fallback_story_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1783
+        }
+      },
+      {
+        "phase": "down",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1784
+        }
+      },
+      {
+        "phase": "up",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1785
+        }
+      }
+    ],
+    "fallback_newgame_down": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1786
+        }
+      },
+      {
+        "phase": "down",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1787
+        }
+      },
+      {
+        "phase": "up",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1788
+        }
+      }
+    ],
+    "fallback_newgame_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1789
+        }
+      },
+      {
+        "phase": "down",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1790
+        }
+      },
+      {
+        "phase": "up",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1791
+        }
+      }
+    ],
+    "fallback_confirm_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1792
+        }
+      },
+      {
+        "phase": "down",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1793
+        }
+      },
+      {
+        "phase": "up",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1794
+        }
+      }
+    ],
+    "fallback_normal_down": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1795
+        }
+      },
+      {
+        "phase": "down",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1796
+        }
+      },
+      {
+        "phase": "up",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1797
+        }
+      }
+    ],
+    "fallback_normal_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1798
+        }
+      },
+      {
+        "phase": "down",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1799
+        }
+      },
+      {
+        "phase": "up",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1800
+        }
+      }
+    ],
+    "path": "NewGameNormal",
+    "campaign_word": {
+      "ok": true,
+      "word": "0x0E327D1A",
+      "samples": [
+        "0x0E327D1A"
+      ]
+    },
+    "skip_pulses_fallback": [
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1803
+          }
+        },
+        {
+          "phase": "down",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1804
+          }
+        },
+        {
+          "phase": "up",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1805
+          }
+        }
+      ]
+    ]
+  },
+  "first_pause_open": {
+    "ok": true,
+    "records": [
+      {
+        "attempt": 1,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 1808
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1809
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1810
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1811
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_1_04000000.png",
+              "visible_sha1": "ab4acee5ac4a662e1c96e87593b19d50947b8976",
+              "underline": {
+                "found": true,
+                "row": 226,
+                "red_pixels": 38
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_1_04044000.png",
+              "visible_sha1": "de691ab812b7c1c4deda302f595e0aba88cf2208",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 226,
+            "red_pixels": 38
+          }
+        }
+      },
+      {
+        "attempt": 2,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 1987
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1988
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1989
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1990
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_2_04000000.png",
+              "visible_sha1": "288bbe71938d293315134b33303807a9f41bbe8e",
+              "underline": {
+                "found": true,
+                "row": 226,
+                "red_pixels": 35
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_2_04044000.png",
+              "visible_sha1": "eafe76c91164872e0d6ad35c6600d9dab16b24ca",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 226,
+            "red_pixels": 35
+          }
+        }
+      },
+      {
+        "attempt": 3,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 2166
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2167
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2168
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2169
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_3_04000000.png",
+              "visible_sha1": "a14512673fcaa26d32822641750e680928b50cf7",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_3_04044000.png",
+              "visible_sha1": "4b7a7e093296e178b72f3a193d7fc17b1e80e055",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": false,
+            "row": null,
+            "red_pixels": 0
+          }
+        }
+      },
+      {
+        "attempt": 4,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 2346
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2347
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2348
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2349
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_4_04000000.png",
+              "visible_sha1": "5c2ba1af0e20235174c52697f4e886435106406b",
+              "underline": {
+                "found": true,
+                "row": 177,
+                "red_pixels": 168
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_4_04044000.png",
+              "visible_sha1": "6614e5bc92ce33ff2f1a9af3ac486ec58d9441b9",
+              "underline": {
+                "found": true,
+                "row": 72,
+                "red_pixels": 165
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 177,
+            "red_pixels": 168
+          }
+        }
+      },
+      {
+        "attempt": 5,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 2525
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2526
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2527
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2528
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_5_04000000.png",
+              "visible_sha1": "8a6967dbc5afd7722ea861b23eeb44b4adddaa51",
+              "underline": {
+                "found": true,
+                "row": 48,
+                "red_pixels": 182
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_5_04044000.png",
+              "visible_sha1": "9872b94eff94ca8e08eba57b82022414dad175cb",
+              "underline": {
+                "found": true,
+                "row": 170,
+                "red_pixels": 159
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 48,
+            "red_pixels": 182
+          }
+        }
+      },
+      {
+        "attempt": 6,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 2704
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2705
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2706
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2707
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_6_04000000.png",
+              "visible_sha1": "26b4742cbd754888adf9ac58a7e16d2177c2461b",
+              "underline": {
+                "found": true,
+                "row": 52,
+                "red_pixels": 240
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_6_04044000.png",
+              "visible_sha1": "39b709103c1c86228b31957b71577183b0d60574",
+              "underline": {
+                "found": true,
+                "row": 60,
+                "red_pixels": 228
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 52,
+            "red_pixels": 240
+          }
+        }
+      },
+      {
+        "attempt": 7,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 2882
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2883
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2884
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 2885
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_7_04000000.png",
+              "visible_sha1": "1c6fb7dd8c1318b3532c8b29f40cd185cf74f852",
+              "underline": {
+                "found": true,
+                "row": 107,
+                "red_pixels": 205
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_7_04044000.png",
+              "visible_sha1": "37b242e409f6df28c6e1218564b244810bdfa020",
+              "underline": {
+                "found": true,
+                "row": 105,
+                "red_pixels": 196
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 107,
+            "red_pixels": 205
+          }
+        }
+      },
+      {
+        "attempt": 8,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 3061
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3062
+            }
+          },
+          {
+            "phase": "down",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3063
+            }
+          },
+          {
+            "phase": "up",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3064
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_8_04000000.png",
+              "visible_sha1": "6a14887b3bdb64c88168c1c4c70985b5ca142c33",
+              "underline": {
+                "found": true,
+                "row": 62,
+                "red_pixels": 232
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix1_pause_input\\first_pause_attempt_8_04044000.png",
+              "visible_sha1": "f9c25a929b552260f0aea6427032755603bacd22",
+              "underline": {
+                "found": true,
+                "row": 198,
+                "red_pixels": 230
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 62,
+            "red_pixels": 232
+          }
+        }
+      }
+    ],
+    "visual_fallback": true
+  },
+  "campaign_invariants": {
+    "renderer_call": {
+      "actual": "0x0E327D1A",
+      "expected": "0x0E327D1A"
+    },
+    "width_call1": {
+      "actual": "0x0E327D58",
+      "expected": "0x0E327D58"
+    },
+    "width_call2": {
+      "actual": "0x0E327D98",
+      "expected": "0x0E327D98"
+    },
+    "fonts": [
+      {
+        "object": "0x09C1AF84",
+        "count": 0,
+        "count_ok": false,
+        "glyph_ptr": "0x00000000",
+        "glyph_ptr_ok": false
+      },
+      {
+        "object": "0x09C1D11C",
+        "count": 0,
+        "count_ok": false,
+        "glyph_ptr": "0x00000000",
+        "glyph_ptr_ok": false
+      }
+    ],
+    "ok": false
+  },
+  "exception": "Stage40Y campaign hooks/fonts are not intact",
+  "traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\bia_stage40z_fix1_tools\\bia_stage40z_fix1_pause_input.py\", line 1305, in main\n    raise RuntimeError(\nRuntimeError: Stage40Y campaign hooks/fonts are not intact\n",
+  "completed": false,
+  "owned_ppsspp_closed": true
+}

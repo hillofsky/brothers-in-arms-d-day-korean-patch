@@ -1,0 +1,36 @@
+{
+  "stage": "39T",
+  "helper_size": 232,
+  "helper_sha1": "5b6b493c890ea797f0b59d176a1a7b84fa0913a2",
+  "helper_vaddr": "0x004C0390",
+  "helper_runtime": "0x08CC4390",
+  "renderer_call_vaddr": "0x0016E360",
+  "renderer_call_runtime": "0x08972360",
+  "renderer_jal_disk": "e400130c",
+  "renderer_jal_runtime_expected": "e410330e",
+  "renderer_relocation_file_offset": "0x006493EC",
+  "renderer_relocation": [
+    "0x0016E360",
+    4
+  ],
+  "helper_relocations_disabled": {
+    "0x00734BEC": [
+      "0x004C03F0",
+      5
+    ],
+    "0x00734BF4": [
+      "0x004C0414",
+      6
+    ],
+    "0x00734BFC": [
+      "0x004C03F4",
+      5
+    ],
+    "0x00734C04": [
+      "0x004C0418",
+      6
+    ]
+  },
+  "boot_sha1": "8c7033ca15103fa51afa9c7ec61f37c531d07ede",
+  "eboot_sha1": "0ea1b9eeb594440545fe0310b229439cbbd12fa9"
+}

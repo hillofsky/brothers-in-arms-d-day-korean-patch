@@ -1,0 +1,812 @@
+{
+  "stage": "42G_FIX12",
+  "purpose": "Separate 512 texture-upload failure from >255/>127 coordinate/UV failure.",
+  "source": "Stage42G global 512x512 probe",
+  "first_movie_fields": 19,
+  "first_movie_unique_token_keys": 46,
+  "diagnostic_atlas": {
+    "physical_width": 512,
+    "physical_height": 512,
+    "first_movie_token_region_width": 256,
+    "first_movie_token_region_height": 128,
+    "rows_used": 7,
+    "max_x": 255,
+    "max_y": 83
+  },
+  "interpretation": {
+    "normal_korean": "512x512 upload works; corruption is caused by coordinates/UV outside legacy 256x128 range.",
+    "vertical_bars_still_present": "512x512 texture upload/path itself still needs another dimension/stride patch."
+  },
+  "source_sha1": {
+    "INI": "c9d5ccad298d814f6f52093a0671e7c355e3e310",
+    "RAW": "[OMITTED: possible raw game or memory payload]"
+  },
+  "output_sha1": {
+    "INI": "cf6536df752d248920b956c0a23612d58a1f9ce5",
+    "RAW": "[OMITTED: possible raw game or memory payload]"
+  },
+  "relocations": [
+    {
+      "key": 32,
+      "key_hex": "0x20",
+      "text": " ",
+      "old_rect": {
+        "x": 0,
+        "y": 324,
+        "w": 5,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 250,
+        "y": 60,
+        "w": 5,
+        "h": 11
+      }
+    },
+    {
+      "key": 47,
+      "key_hex": "0x2F",
+      "text": "살아남게 해주길 바라는 열세 명",
+      "old_rect": {
+        "x": 122,
+        "y": 36,
+        "w": 122,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 0,
+        "y": 0,
+        "w": 122,
+        "h": 11
+      }
+    },
+    {
+      "key": 58,
+      "key_hex": "0x3A",
+      "text": "기억해! 분대는 함께 움직인",
+      "old_rect": {
+        "x": 0,
+        "y": 84,
+        "w": 107,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 123,
+        "y": 0,
+        "w": 107,
+        "h": 11
+      }
+    },
+    {
+      "key": 61,
+      "key_hex": "0x3D",
+      "text": "앨런: 중사님, 뛰어야 해요",
+      "old_rect": {
+        "x": 201,
+        "y": 108,
+        "w": 100,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 102,
+        "y": 12,
+        "w": 100,
+        "h": 11
+      }
+    },
+    {
+      "key": 86,
+      "key_hex": "0x56",
+      "text": "빌어먹을 초록불도 없어요",
+      "old_rect": {
+        "x": 308,
+        "y": 96,
+        "w": 101,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 0,
+        "y": 12,
+        "w": 101,
+        "h": 11
+      }
+    },
+    {
+      "key": 95,
+      "key_hex": "0x5F",
+      "text": "남편과 아들이 돌아오길",
+      "old_rect": {
+        "x": 190,
+        "y": 144,
+        "w": 92,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 0,
+        "y": 24,
+        "w": 92,
+        "h": 11
+      }
+    },
+    {
+      "key": 97,
+      "key_hex": "0x61",
+      "text": "내가 옳은 결정을 내려",
+      "old_rect": {
+        "x": 0,
+        "y": 168,
+        "w": 86,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 93,
+        "y": 24,
+        "w": 86,
+        "h": 11
+      }
+    },
+    {
+      "key": 119,
+      "key_hex": "0x77",
+      "text": "제 열세 명을 지휘한",
+      "old_rect": {
+        "x": 312,
+        "y": 204,
+        "w": 78,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 85,
+        "y": 36,
+        "w": 78,
+        "h": 11
+      }
+    },
+    {
+      "key": 123,
+      "key_hex": "0x7B",
+      "text": "착지하면 베이커를 찾",
+      "old_rect": {
+        "x": 252,
+        "y": 180,
+        "w": 84,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 0,
+        "y": 36,
+        "w": 84,
+        "h": 11
+      }
+    },
+    {
+      "key": 129,
+      "key_hex": "0x81",
+      "text": "기다리는 열세 가족",
+      "old_rect": {
+        "x": 306,
+        "y": 216,
+        "w": 75,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 180,
+        "y": 24,
+        "w": 75,
+        "h": 11
+      }
+    },
+    {
+      "key": 130,
+      "key_hex": "0x82",
+      "text": "넷: 여기서 나가자",
+      "old_rect": {
+        "x": 442,
+        "y": 60,
+        "w": 69,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 164,
+        "y": 36,
+        "w": 69,
+        "h": 11
+      }
+    },
+    {
+      "key": 135,
+      "key_hex": "0x87",
+      "text": "앨런: 더 기다리면",
+      "old_rect": {
+        "x": 145,
+        "y": 240,
+        "w": 69,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 0,
+        "y": 48,
+        "w": 69,
+        "h": 11
+      }
+    },
+    {
+      "key": 158,
+      "key_hex": "0x9E",
+      "text": "초록불을 기다려",
+      "old_rect": {
+        "x": 64,
+        "y": 264,
+        "w": 64,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 70,
+        "y": 48,
+        "w": 64,
+        "h": 11
+      }
+    },
+    {
+      "key": 175,
+      "key_hex": "0xAF",
+      "text": "문 앞에 서",
+      "old_rect": {
+        "x": 468,
+        "y": 276,
+        "w": 41,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 183,
+        "y": 48,
+        "w": 41,
+        "h": 11
+      }
+    },
+    {
+      "key": 177,
+      "key_hex": "0xB1",
+      "text": "불길한 숫자",
+      "old_rect": {
+        "x": 47,
+        "y": 288,
+        "w": 47,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 203,
+        "y": 12,
+        "w": 47,
+        "h": 11
+      }
+    },
+    {
+      "key": 180,
+      "key_hex": "0xB4",
+      "text": "선택권은 없",
+      "old_rect": {
+        "x": 188,
+        "y": 288,
+        "w": 47,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 135,
+        "y": 48,
+        "w": 47,
+        "h": 11
+      }
+    },
+    {
+      "key": 185,
+      "key_hex": "0xB9",
+      "text": "운명의 날",
+      "old_rect": {
+        "x": 407,
+        "y": 288,
+        "w": 39,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 0,
+        "y": 60,
+        "w": 39,
+        "h": 11
+      }
+    },
+    {
+      "key": 197,
+      "key_hex": "0xC5",
+      "text": "원한 건",
+      "old_rect": {
+        "x": 171,
+        "y": 300,
+        "w": 30,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 225,
+        "y": 48,
+        "w": 30,
+        "h": 11
+      }
+    },
+    {
+      "key": 204,
+      "key_hex": "0xCC",
+      "text": "베이커",
+      "old_rect": {
+        "x": 343,
+        "y": 300,
+        "w": 28,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 40,
+        "y": 60,
+        "w": 28,
+        "h": 11
+      }
+    },
+    {
+      "key": 209,
+      "key_hex": "0xD1",
+      "text": "코리온",
+      "old_rect": {
+        "x": 483,
+        "y": 300,
+        "w": 28,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 69,
+        "y": 60,
+        "w": 28,
+        "h": 11
+      }
+    },
+    {
+      "key": 211,
+      "key_hex": "0xD3",
+      "text": "결속",
+      "old_rect": {
+        "x": 0,
+        "y": 312,
+        "w": 19,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 231,
+        "y": 0,
+        "w": 19,
+        "h": 11
+      }
+    },
+    {
+      "key": 212,
+      "key_hex": "0xD4",
+      "text": "기립",
+      "old_rect": {
+        "x": 19,
+        "y": 312,
+        "w": 19,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 234,
+        "y": 36,
+        "w": 19,
+        "h": 11
+      }
+    },
+    {
+      "key": 218,
+      "key_hex": "0xDA",
+      "text": "번호",
+      "old_rect": {
+        "x": 133,
+        "y": 312,
+        "w": 19,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 98,
+        "y": 60,
+        "w": 19,
+        "h": 11
+      }
+    },
+    {
+      "key": 221,
+      "key_hex": "0xDD",
+      "text": "장비",
+      "old_rect": {
+        "x": 190,
+        "y": 312,
+        "w": 19,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 118,
+        "y": 60,
+        "w": 19,
+        "h": 11
+      }
+    },
+    {
+      "key": 223,
+      "key_hex": "0xDF",
+      "text": "피격",
+      "old_rect": {
+        "x": 228,
+        "y": 312,
+        "w": 19,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 138,
+        "y": 60,
+        "w": 19,
+        "h": 11
+      }
+    },
+    {
+      "key": 224,
+      "key_hex": "0xE0",
+      "text": "확인",
+      "old_rect": {
+        "x": 247,
+        "y": 312,
+        "w": 19,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 158,
+        "y": 60,
+        "w": 19,
+        "h": 11
+      }
+    },
+    {
+      "key": 225,
+      "key_hex": "0xE1",
+      "text": "!",
+      "old_rect": {
+        "x": 503,
+        "y": 312,
+        "w": 6,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 102,
+        "y": 72,
+        "w": 6,
+        "h": 11
+      }
+    },
+    {
+      "key": 226,
+      "key_hex": "0xE2",
+      "text": ",",
+      "old_rect": {
+        "x": 5,
+        "y": 324,
+        "w": 5,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 109,
+        "y": 72,
+        "w": 5,
+        "h": 11
+      }
+    },
+    {
+      "key": 227,
+      "key_hex": "0xE3",
+      "text": ".",
+      "old_rect": {
+        "x": 10,
+        "y": 324,
+        "w": 5,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 115,
+        "y": 72,
+        "w": 5,
+        "h": 11
+      }
+    },
+    {
+      "key": 229,
+      "key_hex": "0xE5",
+      "text": "1",
+      "old_rect": {
+        "x": 503,
+        "y": 180,
+        "w": 8,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 48,
+        "y": 72,
+        "w": 8,
+        "h": 11
+      }
+    },
+    {
+      "key": 230,
+      "key_hex": "0xE6",
+      "text": "2",
+      "old_rect": {
+        "x": 504,
+        "y": 288,
+        "w": 8,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 57,
+        "y": 72,
+        "w": 8,
+        "h": 11
+      }
+    },
+    {
+      "key": 231,
+      "key_hex": "0xE7",
+      "text": "3",
+      "old_rect": {
+        "x": 464,
+        "y": 312,
+        "w": 8,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 66,
+        "y": 72,
+        "w": 8,
+        "h": 11
+      }
+    },
+    {
+      "key": 232,
+      "key_hex": "0xE8",
+      "text": "4",
+      "old_rect": {
+        "x": 472,
+        "y": 312,
+        "w": 8,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 75,
+        "y": 72,
+        "w": 8,
+        "h": 11
+      }
+    },
+    {
+      "key": 233,
+      "key_hex": "0xE9",
+      "text": "6",
+      "old_rect": {
+        "x": 480,
+        "y": 312,
+        "w": 8,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 84,
+        "y": 72,
+        "w": 8,
+        "h": 11
+      }
+    },
+    {
+      "key": 234,
+      "key_hex": "0xEA",
+      "text": "9",
+      "old_rect": {
+        "x": 488,
+        "y": 312,
+        "w": 8,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 93,
+        "y": 72,
+        "w": 8,
+        "h": 11
+      }
+    },
+    {
+      "key": 235,
+      "key_hex": "0xEB",
+      "text": ":",
+      "old_rect": {
+        "x": 15,
+        "y": 324,
+        "w": 5,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 121,
+        "y": 72,
+        "w": 5,
+        "h": 11
+      }
+    },
+    {
+      "key": 237,
+      "key_hex": "0xED",
+      "text": "가",
+      "old_rect": {
+        "x": 501,
+        "y": 108,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 178,
+        "y": 60,
+        "w": 11,
+        "h": 11
+      }
+    },
+    {
+      "key": 240,
+      "key_hex": "0xF0",
+      "text": "니",
+      "old_rect": {
+        "x": 288,
+        "y": 312,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 190,
+        "y": 60,
+        "w": 11,
+        "h": 11
+      }
+    },
+    {
+      "key": 242,
+      "key_hex": "0xF2",
+      "text": "다",
+      "old_rect": {
+        "x": 310,
+        "y": 312,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 202,
+        "y": 60,
+        "w": 11,
+        "h": 11
+      }
+    },
+    {
+      "key": 244,
+      "key_hex": "0xF4",
+      "text": "만",
+      "old_rect": {
+        "x": 332,
+        "y": 312,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 214,
+        "y": 60,
+        "w": 11,
+        "h": 11
+      }
+    },
+    {
+      "key": 245,
+      "key_hex": "0xF5",
+      "text": "맥",
+      "old_rect": {
+        "x": 343,
+        "y": 312,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 226,
+        "y": 60,
+        "w": 11,
+        "h": 11
+      }
+    },
+    {
+      "key": 247,
+      "key_hex": "0xF7",
+      "text": "아",
+      "old_rect": {
+        "x": 365,
+        "y": 312,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 238,
+        "y": 60,
+        "w": 11,
+        "h": 11
+      }
+    },
+    {
+      "key": 248,
+      "key_hex": "0xF8",
+      "text": "었",
+      "old_rect": {
+        "x": 376,
+        "y": 312,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 0,
+        "y": 72,
+        "w": 11,
+        "h": 11
+      }
+    },
+    {
+      "key": 249,
+      "key_hex": "0xF9",
+      "text": "은",
+      "old_rect": {
+        "x": 387,
+        "y": 312,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 12,
+        "y": 72,
+        "w": 11,
+        "h": 11
+      }
+    },
+    {
+      "key": 250,
+      "key_hex": "0xFA",
+      "text": "이",
+      "old_rect": {
+        "x": 398,
+        "y": 312,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 24,
+        "y": 72,
+        "w": 11,
+        "h": 11
+      }
+    },
+    {
+      "key": 254,
+      "key_hex": "0xFE",
+      "text": "지",
+      "old_rect": {
+        "x": 442,
+        "y": 312,
+        "w": 11,
+        "h": 11
+      },
+      "new_rect": {
+        "x": 36,
+        "y": 72,
+        "w": 11,
+        "h": 11
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+import struct
+exec(open('work/inventory097.py',encoding='utf-8-sig').read().split('for a in')[0])
+meta=st[35];cps=[struct.unpack_from('<H',meta,j*24)[0] for j in range(878)];print('CPS',len(set(cps)),sum(0xac00<=cp<=0xd7a3 for cp in cps));print('last',cps[-35:]);print('tex',hex(struct.unpack_from('<I',meta,0xab20)[0]));a=struct.unpack_from('<I',meta,0xab20)[0];i,o=divmod(a-base,stride);print('clone',i,hex(o),st[i][o:o+0xf0].hex());print('native missing',set(cps)-set(cp for nxt,cp,gi in [struct.unpack_from('<iHH',st[(0x09b18270-base)//stride],(0x09b18270-base)%stride+j*8) for j in range(150)]))

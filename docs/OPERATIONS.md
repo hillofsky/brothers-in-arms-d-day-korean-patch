@@ -25,7 +25,7 @@ python tools/verify_release.py "manifest.json"
 python tools/apply_patch.py --manifest "manifest.json" --source "SOURCE.iso" --output "OUTPUT.iso" --xdelta "xdelta3.exe"
 ```
 
-verify_release는 manifest가 가리키는 파트 해시만 검사하며 ISO 검증은 apply_patch에서 수행한다. 공개 저장소에는 개발 빌더/번역 원장이 없으므로 STEP129 재빌드 명령을 제공할 근거가 없다. 후속 개발 전 사용자가 보유한 소스·매핑·단계별 보고서를 별도로 복구하고 게임 자산은 공개하지 않는다.
+verify_release는 manifest가 가리키는 파트 해시만 검사하며 ISO 검증은 apply_patch에서 수행한다. 현재는 번역 원장과 제한된 후보 빌드 도구를 복구했다. 다만 원본에서 STEP129까지의 전체 재빌드 체인은 검증하지 않았다. DEVELOPMENT.md와 HISTORY_INDEX.md에서 현재 실행 도구와 역사적 보관본을 구분한다.
 
 ## 실행 후 검증과 종료
 

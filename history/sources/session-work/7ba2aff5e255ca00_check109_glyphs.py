@@ -1,0 +1,4 @@
+import json,importlib.util,struct
+from pathlib import Path
+j=json.load(open('outputs/step109/reference_audit.json',encoding='utf-8'));print('refs',len(j['refs']),'valid',sum(r['key_verified'] for r in j['refs']));print('invalid LevelInfo',[(r['mdi'],r['stream'],hex(r['offset']),r['english']) for r in j['refs'] if not r['key_verified'] and r['stream']==13 and r['offset'] in [0x5444c,0x54470]][:30])
+exec(open('work/audit109_titles.py',encoding='utf-8-sig').read().split('allrefs=[]')[0]);name='D4_1800_.MDI';_,blob=b.iso_read_file(src,['PSP_GAME','USRDIR','SYSTEM',name]);st={e['index']:bytes(e['decoded']) for e in b.parse_mdi(blob)};gp,n,cap,tp,tn,tc,rp,rn,rc,bp,bn=struct.unpack_from('<11I',st[3],0x58c80+0x28);i,o=divmod(rp-0x8e03020,0x78000);cps={struct.unpack_from('<H',st[i],o+j*8+4)[0] for j in range(rn)};needed={ord(c) for v in targets.values() for c in v};print('MISSING', ''.join(chr(x) for x in sorted(needed-cps)))

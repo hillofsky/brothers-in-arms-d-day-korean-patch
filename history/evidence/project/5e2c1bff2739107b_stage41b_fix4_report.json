@@ -1,0 +1,842 @@
+{
+  "stage": "41B_FIX4",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "purpose": "Keep fully automatic Stage41A/Fix3 entry, but pre-arm ST1 R/W watchpoints before difficulty selection so the load/copy/parser access cannot be missed.",
+  "started": "2026-10-06 20:46:54",
+  "version": {
+    "event": "version",
+    "ticket": 3001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "cpu_status_start": {
+    "ok": true,
+    "response": {
+      "event": "cpu.status",
+      "ticket": 3002,
+      "stepping": false,
+      "paused": false,
+      "pc": 147587088,
+      "ticks": 1225904
+    }
+  },
+  "auto_navigation": {
+    "logo": {
+      "ended": true,
+      "samples": [
+        {
+          "t": 0.0,
+          "active": false
+        },
+        {
+          "t": 0.74,
+          "active": true
+        },
+        {
+          "t": 1.47,
+          "active": true
+        },
+        {
+          "t": 2.19,
+          "active": true
+        },
+        {
+          "t": 2.9,
+          "active": true
+        },
+        {
+          "t": 3.62,
+          "active": true
+        },
+        {
+          "t": 4.34,
+          "active": true
+        },
+        {
+          "t": 5.06,
+          "active": true
+        },
+        {
+          "t": 5.78,
+          "active": true
+        },
+        {
+          "t": 6.51,
+          "active": true
+        },
+        {
+          "t": 7.25,
+          "active": true
+        },
+        {
+          "t": 7.98,
+          "active": true
+        },
+        {
+          "t": 8.7,
+          "active": true
+        },
+        {
+          "t": 9.42,
+          "active": true
+        },
+        {
+          "t": 10.13,
+          "active": true
+        },
+        {
+          "t": 10.85,
+          "active": true
+        },
+        {
+          "t": 11.56,
+          "active": true
+        },
+        {
+          "t": 12.28,
+          "active": true
+        },
+        {
+          "t": 13.01,
+          "active": true
+        },
+        {
+          "t": 13.76,
+          "active": true
+        },
+        {
+          "t": 14.47,
+          "active": false
+        }
+      ]
+    },
+    "frontend_route": [
+      {
+        "attempt": 1,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3024
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3025
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3026
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3027
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 1.0,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.43,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.84,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.26,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.68,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.11,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.51,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.95,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.37,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.78,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.21,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.64,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.07,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.5,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 9.9,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3043
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3044
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3045
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3046
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.42,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.85,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.28,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.71,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.13,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.56,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.99,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.39,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.82,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.25,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.67,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.1,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.53,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.96,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.38,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.81,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3064
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3065
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3066
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3067
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.84,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.27,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.7,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.1,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.5,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.94,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.36,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.79,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.22,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.64,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 9.04,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3081
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3082
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3083
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3084
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.47,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.88,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.29,
+            "word_hex": "0x0E327D1A"
+          }
+        ]
+      }
+    ],
+    "campaign_loaded": true,
+    "new_game_route": {
+      "down_to_new_game": {
+        "down": {
+          "event": "input.buttons.send",
+          "ticket": 3089
+        },
+        "up": {
+          "event": "input.buttons.send",
+          "ticket": 3090
+        }
+      },
+      "cross_new_game": {
+        "down": {
+          "event": "input.buttons.send",
+          "ticket": 3091
+        },
+        "up": {
+          "event": "input.buttons.send",
+          "ticket": 3092
+        }
+      },
+      "preload_watchpoints": [
+        {
+          "offset_hex": "0x0",
+          "address_hex": "0x08E1F21C",
+          "result": {
+            "ok": true,
+            "response": {
+              "event": "memory.breakpoint.add",
+              "ticket": 3093
+            }
+          }
+        },
+        {
+          "offset_hex": "0x6e",
+          "address_hex": "0x08E1F28A",
+          "result": {
+            "ok": true,
+            "response": {
+              "event": "memory.breakpoint.add",
+              "ticket": 3094
+            }
+          }
+        },
+        {
+          "offset_hex": "0x28f",
+          "address_hex": "0x08E1F4AB",
+          "result": {
+            "ok": true,
+            "response": {
+              "event": "memory.breakpoint.add",
+              "ticket": 3095
+            }
+          }
+        },
+        {
+          "offset_hex": "0x39e",
+          "address_hex": "0x08E1F5BA",
+          "result": {
+            "ok": true,
+            "response": {
+              "event": "memory.breakpoint.add",
+              "ticket": 3096
+            }
+          }
+        },
+        {
+          "offset_hex": "0x4b5",
+          "address_hex": "0x08E1F6D1",
+          "result": {
+            "ok": true,
+            "response": {
+              "event": "memory.breakpoint.add",
+              "ticket": 3097
+            }
+          }
+        },
+        {
+          "offset_hex": "0x55c",
+          "address_hex": "0x08E1F778",
+          "result": {
+            "ok": true,
+            "response": {
+              "event": "memory.breakpoint.add",
+              "ticket": 3098
+            }
+          }
+        },
+        {
+          "offset_hex": "0x59d",
+          "address_hex": "0x08E1F7B9",
+          "result": {
+            "ok": true,
+            "response": {
+              "event": "memory.breakpoint.add",
+              "ticket": 3099
+            }
+          }
+        }
+      ],
+      "pre_cross_pending": 229153,
+      "cross_normal": {
+        "down": {
+          "event": "input.buttons.send",
+          "ticket": 3100
+        },
+        "up": {
+          "event": "input.buttons.send",
+          "ticket": 3101
+        }
+      }
+    },
+    "early_hit_count": 0
+  },
+  "st1_search": [
+    {
+      "t": 0.01,
+      "known_score": 3
+    }
+  ],
+  "st1_base_hex": "0x08E1F21C",
+  "st1_verify": [
+    {
+      "label": "title",
+      "address_hex": "0x08E1F21C",
+      "ok": true,
+      "got_hex": "ec9ab4ebaa85ec9d9820eb9e91eb8db0ebb680"
+    },
+    {
+      "label": "baker",
+      "address_hex": "0x08E1F28A",
+      "ok": true,
+      "got_hex": "ebb2a0ec9db4ecbba43a"
+    },
+    {
+      "label": "mac",
+      "address_hex": "0x08E1F4AB",
+      "ok": true,
+      "got_hex": "eba7a53a"
+    }
+  ],
+  "subtitle_ram_copies": {
+    "title": [
+      "0x08E1F21C"
+    ],
+    "baker": [
+      "0x08E1F28A",
+      "0x08E1F2EB",
+      "0x08E1F344",
+      "0x08E1F3C0",
+      "0x08E1F431",
+      "0x08E1F463",
+      "0x08E1F7B9"
+    ],
+    "mac": [
+      "0x08E1F4AB",
+      "0x08E1F4DB",
+      "0x08E1F50A",
+      "0x08E1F546",
+      "0x08E1F5BA",
+      "0x08E1F6D1",
+      "0x08E1F778"
+    ]
+  },
+  "memory_hit_count": 0,
+  "early_memory_hit_count": 0,
+  "later_memory_hit_count": 0,
+  "reader_writer_pcs": [],
+  "breakpoint_event_shapes": [],
+  "candidate_disasm": [],
+  "watchpoint_remove": [
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3361
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3362
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3363
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3364
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3365
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3366
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3367
+      }
+    }
+  ],
+  "threads_end": {
+    "ok": true,
+    "response": {
+      "event": "hle.thread.list",
+      "ticket": 3368,
+      "threads": [
+        {
+          "id": 272,
+          "name": "idle0",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138407936,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 273,
+          "name": "idle1",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138403840,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 323,
+          "name": "user_main",
+          "status": 1,
+          "statuses": [
+            "running"
+          ],
+          "pc": 147166028,
+          "entry": 142718184,
+          "initialStackSize": 167463936,
+          "currentStackSize": 307200,
+          "priority": 96,
+          "waitType": 0,
+          "isCurrent": true
+        },
+        {
+          "id": 325,
+          "name": "ExitCallbackThread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 142717376,
+          "entry": 142717312,
+          "initialStackSize": 167771136,
+          "currentStackSize": 1024,
+          "priority": 16,
+          "waitType": 1,
+          "isCurrent": false
+        },
+        {
+          "id": 364,
+          "name": "Bink audio thread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 147098716,
+          "entry": 147096768,
+          "initialStackSize": 167431168,
+          "currentStackSize": 32768,
+          "priority": 14,
+          "waitType": 10,
+          "isCurrent": false
+        },
+        {
+          "id": 367,
+          "name": "Bink thread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 147123172,
+          "entry": 147123096,
+          "initialStackSize": 167398400,
+          "currentStackSize": 32768,
+          "priority": 18,
+          "waitType": 13,
+          "isCurrent": false
+        }
+      ]
+    }
+  },
+  "completed": false,
+  "error": "RuntimeError('ST1 loaded but no R/W watchpoint event was emitted even though watchpoints were armed before difficulty selection. This distinguishes JIT/interpreter watchpoint behavior from a timing miss.')",
+  "threads_at_failure": {
+    "ok": true,
+    "response": {
+      "event": "hle.thread.list",
+      "ticket": 3369,
+      "threads": [
+        {
+          "id": 272,
+          "name": "idle0",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138407936,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 273,
+          "name": "idle1",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138403840,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 323,
+          "name": "user_main",
+          "status": 1,
+          "statuses": [
+            "running"
+          ],
+          "pc": 147167320,
+          "entry": 142718184,
+          "initialStackSize": 167463936,
+          "currentStackSize": 307200,
+          "priority": 96,
+          "waitType": 0,
+          "isCurrent": true
+        },
+        {
+          "id": 325,
+          "name": "ExitCallbackThread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 142717376,
+          "entry": 142717312,
+          "initialStackSize": 167771136,
+          "currentStackSize": 1024,
+          "priority": 16,
+          "waitType": 1,
+          "isCurrent": false
+        },
+        {
+          "id": 364,
+          "name": "Bink audio thread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 147098716,
+          "entry": 147096768,
+          "initialStackSize": 167431168,
+          "currentStackSize": 32768,
+          "priority": 14,
+          "waitType": 10,
+          "isCurrent": false
+        },
+        {
+          "id": 367,
+          "name": "Bink thread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 147123172,
+          "entry": 147123096,
+          "initialStackSize": 167398400,
+          "currentStackSize": 32768,
+          "priority": 18,
+          "waitType": 13,
+          "isCurrent": false
+        }
+      ]
+    }
+  },
+  "watchpoint_list_at_failure": {
+    "ok": true,
+    "response": {
+      "event": "memory.breakpoint.list",
+      "ticket": 3370,
+      "breakpoints": []
+    }
+  },
+  "finished": "2026-10-06 20:49:47"
+}

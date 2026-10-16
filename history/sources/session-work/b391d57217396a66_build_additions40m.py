@@ -1,0 +1,14 @@
+import importlib.util,json,struct,shutil
+from pathlib import Path
+s=importlib.util.spec_from_file_location('m','PROJECT_ROOT/bia_stage40i_tools/bia_stage40i_actual_resource_trace.py');m=importlib.util.module_from_spec(s);s.loader.exec_module(m);_,b=m.load_helpers();source=Path('PROJECT_ROOT/BIA_STAGE40L_CONTROLS_UTF8_WIDTH_TEST.iso');target=Path('PROJECT_ROOT/BIA_STAGE40M_CONTROLS_COMPLETE_TEST.iso');out=Path('outputs/stage40m');out.mkdir(exist_ok=True)
+_,blob=b.iso_read_file(source,b.TARGET_MDI);st={x['index']:bytes(x['decoded']) for x in b.parse_mdi(blob)};d16=bytearray(st[16]);d23=bytearray(st[23]);seq=b.MDI_SEQ_BASE;stride=b.MDI_STREAM_SIZE
+f=json.loads(Path('PROJECT_ROOT/analysis/stage40f_on_memu_resident_mass/stage40f_report.json').read_text(encoding='utf-8'));start=(int(f['build']['allocation_end_used'],0)+3)&~3;cursor=start;changes=[];plan=json.loads(Path('PROJECT_ROOT/bia_stage39b_tools/stage39a_font_plan.json').read_text(encoding='utf-8'));chars={x['char'] for x in plan['layout']}
+for off,key,english,ko in [(0x44ea8,'STANCE_OR_ACTION','Stance/Action','자세/행동'),(0x44f18,'RELOAD_OR_ACTION','Reload/Action','재장전/행동')]:
+ assert all(ch in chars or ord(ch)<128 for ch in ko)
+ p,n,cap=struct.unpack_from('<III',d16,off);si=(p-seq)//stride;po=(p-seq)%stride;assert st[si][po:po+n]==english.encode()+b'\0'
+ kp,kn,kc=struct.unpack_from('<III',d16,off-12);ksi=(kp-seq)//stride;kpo=(kp-seq)%stride;assert st[ksi][kpo:kpo+kn]==key.encode()+b'\0'
+ payload=ko.encode()+b'\0';assert not any(d23[cursor:cursor+len(payload)])
+ ptr=seq+23*stride+cursor;d23[cursor:cursor+len(payload)]=payload;struct.pack_into('<III',d16,off,ptr,len(payload),len(payload));changes.append({'key':key,'english':english,'korean':ko,'metadata_offset':hex(off),'runtime':hex(ptr),'bytes':len(payload),'allocation_offset':hex(cursor)});cursor=(cursor+len(payload)+3)&~3
+patched=b.rebuild_mdi(blob,{16:bytes(d16),23:bytes(d23)});v={x['index']:bytes(x['decoded']) for x in b.parse_mdi(patched)};assert v[16]==bytes(d16) and v[23]==bytes(d23);assert all(v[i]==data for i,data in st.items() if i not in [16,23]);assert not target.exists();shutil.copy2(source,target);b.append_iso_file_and_repoint(target,b.TARGET_MDI,patched);assert b.iso_read_file(target,b.TARGET_MDI)[1]==patched
+for path in [['PSP_GAME','SYSDIR','BOOT.BIN'],['PSP_GAME','USRDIR','SYSTEM','BIAON.PRX'],b.TARGET_DSL,b.TARGET_DSX]:assert b.iso_read_file(target,path)[1]==b.iso_read_file(source,path)[1]
+r={'source':str(source),'test_iso':str(target),'new_ui_translations':changes,'allocation_start':hex(start),'allocation_end':hex(cursor),'key_identifiers_unchanged':True,'iso_readback_ok':True,'runtime_verified':False};(out/'ui_additions_report.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(r,ensure_ascii=False))

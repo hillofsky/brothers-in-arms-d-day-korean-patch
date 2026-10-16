@@ -1,0 +1,79 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE40O_CONTROLS_UTF8_COMPLETE_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40R_CAMPAIGN_RENDERER_TEST.iso",
+  "modified_file": "BIAOFF.PRX",
+  "original_sha1": "e765ad5cc663df2297ae7f8b76a5d6c377b4e396",
+  "patched_sha1": "051116e87585ab1da44b1d759d36948989251f62",
+  "helpers": [
+    {
+      "va": "0x49b468",
+      "runtime": "0x8c9f468",
+      "size": 232,
+      "sha1": "d1fe089a69f290dc74b6bfd6cd3fdacfbff37c75"
+    },
+    {
+      "va": "0x49b560",
+      "runtime": "0x8c9f560",
+      "size": 256,
+      "sha1": "e7ee04ed87c4982d4dc733de8eea788a1fee130d"
+    },
+    {
+      "va": "0x49b660",
+      "runtime": "0x8c9f660",
+      "size": 256,
+      "sha1": "f828fba980a97cf4fee28f5a41ed2a141c96a601"
+    }
+  ],
+  "calls": [
+    {
+      "runtime": "0x898e354",
+      "target": "0x8c9f468",
+      "expected_word": "0xe327d1a"
+    },
+    {
+      "runtime": "0x8852b3c",
+      "target": "0x8c9f560",
+      "expected_word": "0xe327d58"
+    },
+    {
+      "runtime": "0x88520c0",
+      "target": "0x8c9f660",
+      "expected_word": "0xe327d98"
+    }
+  ],
+  "disabled_old_cjis_relocations": [
+    {
+      "record": "0x6f51b8",
+      "address": "0x49b4c8",
+      "type": 5
+    },
+    {
+      "record": "0x6f51c0",
+      "address": "0x49b4ec",
+      "type": 6
+    },
+    {
+      "record": "0x6f51c8",
+      "address": "0x49b4cc",
+      "type": 5
+    },
+    {
+      "record": "0x6f51d0",
+      "address": "0x49b4f0",
+      "type": 6
+    },
+    {
+      "record": "0x6f51d8",
+      "address": "0x49b608",
+      "type": 5
+    },
+    {
+      "record": "0x6f51e0",
+      "address": "0x49b610",
+      "type": 6
+    }
+  ],
+  "renderer_tail_delta": "0x2ceb78",
+  "iso_readback_ok": true,
+  "runtime_verified": false
+}

@@ -1,0 +1,28 @@
+{
+  "pid": 23140,
+  "psp_base": "0x0000017D7FF20000",
+  "renderer_function": "0x08C7F2FC",
+  "page_lookup_instruction": "0x08C7F31C lw a0,0(a0)",
+  "glyph_lookup_instruction": "0x08C7F35C lhu v0,0(v0)",
+  "test_codepoint": "U+D55C",
+  "target_glyph": "A (glyph index 33, map value 34)",
+  "fonts": [
+    {
+      "font_table": "0x09723FF0",
+      "page_table": "0x097238B4",
+      "page_00": "0x09724E10",
+      "borrowed_page_21": "0x09725020",
+      "patched_page_D5_slot": "0x09723C08",
+      "patched_D55C_entry": "0x097250D8"
+    },
+    {
+      "font_table": "0x097256F8",
+      "page_table": "0x097252A4",
+      "page_00": "0x09726510",
+      "borrowed_page_21": "0x09726720",
+      "patched_page_D5_slot": "0x097255F8",
+      "patched_D55C_entry": "0x097267D8"
+    }
+  ],
+  "visual_result": "y"
+}

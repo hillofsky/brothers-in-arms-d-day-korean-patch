@@ -1,0 +1,153 @@
+{
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40J_LOCALIZATION_KEYS_RESTORED_TEST.iso",
+  "restored_keys": [
+    {
+      "key": "DELETE",
+      "value": "Delete",
+      "metadata_offset": "0x4545c",
+      "source_offset": "0x5c630"
+    },
+    {
+      "key": "YES",
+      "value": "Yes",
+      "metadata_offset": "0x449cc",
+      "source_offset": "0x5c690"
+    },
+    {
+      "key": "YES",
+      "value": "Yes",
+      "metadata_offset": "0x454b0",
+      "source_offset": "0x5c690"
+    },
+    {
+      "key": "NO",
+      "value": "No",
+      "metadata_offset": "0x44a04",
+      "source_offset": "0x5c710"
+    },
+    {
+      "key": "NO",
+      "value": "No",
+      "metadata_offset": "0x454e8",
+      "source_offset": "0x5c710"
+    },
+    {
+      "key": "CONTINUE",
+      "value": "Continue",
+      "metadata_offset": "0x45520",
+      "source_offset": "0x5c750"
+    },
+    {
+      "key": "BACK",
+      "value": "Back",
+      "metadata_offset": "0x4553c",
+      "source_offset": "0x5c770"
+    },
+    {
+      "key": "HOST",
+      "value": "Host",
+      "metadata_offset": "0x44ae4",
+      "source_offset": "0x5c810"
+    },
+    {
+      "key": "HOST",
+      "value": "Host",
+      "metadata_offset": "0x44fdc",
+      "source_offset": "0x5c810"
+    },
+    {
+      "key": "HOST",
+      "value": "Host",
+      "metadata_offset": "0x455c8",
+      "source_offset": "0x5c810"
+    },
+    {
+      "key": "JOIN",
+      "value": "Join",
+      "metadata_offset": "0x44b00",
+      "source_offset": "0x5c830"
+    },
+    {
+      "key": "JOIN",
+      "value": "Join",
+      "metadata_offset": "0x44ff8",
+      "source_offset": "0x5c830"
+    },
+    {
+      "key": "JOIN",
+      "value": "Join",
+      "metadata_offset": "0x455e4",
+      "source_offset": "0x5c830"
+    },
+    {
+      "key": "READY",
+      "value": "Ready",
+      "metadata_offset": "0x45638",
+      "source_offset": "0x5c890"
+    },
+    {
+      "key": "START",
+      "value": "Start",
+      "metadata_offset": "0x45654",
+      "source_offset": "0x5c8b0"
+    },
+    {
+      "key": "PLAYERS",
+      "value": "Players",
+      "metadata_offset": "0x45670",
+      "source_offset": "0x5c8d0"
+    },
+    {
+      "key": "RETRY",
+      "value": "Retry",
+      "metadata_offset": "0x44be0",
+      "source_offset": "0x5c920"
+    },
+    {
+      "key": "RETRY",
+      "value": "Retry",
+      "metadata_offset": "0x456c4",
+      "source_offset": "0x5c920"
+    },
+    {
+      "key": "CONTINUE",
+      "value": "Continue",
+      "metadata_offset": "0x44748",
+      "source_offset": "0x5cbe0"
+    },
+    {
+      "key": "GAME",
+      "value": "Game",
+      "metadata_offset": "0x44a80",
+      "source_offset": "0x5d140"
+    },
+    {
+      "key": "TYPE",
+      "value": "Type",
+      "metadata_offset": "0x44c50",
+      "source_offset": "0x5d2b0"
+    },
+    {
+      "key": "PAUSE",
+      "value": "Pause Menu",
+      "metadata_offset": "0x44eb8",
+      "source_offset": "0x5d590"
+    },
+    {
+      "key": "HUD",
+      "value": "Hud",
+      "metadata_offset": "0x45060",
+      "source_offset": "0x5d780"
+    },
+    {
+      "key": "READY",
+      "value": "Ready",
+      "metadata_offset": "0x45f68",
+      "source_offset": "0x5dc10"
+    }
+  ],
+  "restored_count": 24,
+  "only_stream16_changed": true,
+  "iso_readback_ok": true,
+  "runtime_verified": false
+}

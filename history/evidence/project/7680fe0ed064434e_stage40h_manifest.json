@@ -1,0 +1,12 @@
+{
+  "stage": "40H",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40F_ON_MEMU_RESIDENT_MASS_TEST.iso",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE40H_LOCALIZE_ENCODING_TEST.iso",
+  "target": "PSP_GAME\\USRDIR\\SYSTEM\\LOCALIZE.INT",
+  "probe_count": 4,
+  "variants": [
+    "utf8",
+    "utf8_bom",
+    "utf16le_bom"
+  ]
+}

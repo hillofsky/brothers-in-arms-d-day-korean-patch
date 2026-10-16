@@ -1,0 +1,11 @@
+{
+  "stage": "40C",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE39U_BOOT_RENDER_UTF8_TEST.iso",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE40C_MENU_MASS_TEST.iso",
+  "target_mdi": "ON_MEMU_O.MDI",
+  "action_count": 1675,
+  "unique_units": 690,
+  "action_kind": "narrow_reloc",
+  "utf16_fixed_disabled": true,
+  "mission_mdis_disabled": true
+}

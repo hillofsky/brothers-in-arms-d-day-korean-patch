@@ -1,0 +1,1204 @@
+{
+  "step": "STEP_044_FIX6",
+  "structured_files_scanned": 485,
+  "structured_files_with_records": [
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage01_inventory\\utf16le_strings.tsv",
+      "size": 2714867,
+      "records": 2,
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    }
+  ],
+  "parse_errors": [
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_OUTPUTS\\stage40k\\font_comparison.json",
+      "error": "UnicodeDecodeError('utf-8', b'{\\r\\n  \"0x972385c\": {\\r\\n    \"count\": 847,\\r\\n    \"glyph_ptr\": \"0x98f5020\",\\r\\n    \"0x474\": {\\r\\n      \"ptr\": \"0x98ff820\",\\r\\n      \"data\": \"80008000800080000000000000000000\"\\r\\n    },\\r\\n    \"0x478\": {\\r\\n      \"ptr\": \"0x98ff830\",\\r\\n      \"data\": \"00010001000100010000000000000000\"\\r\\n    },\\r\\n    \"0x488\": {\\r\\n      \"ptr\": \"0x98ff840\",\\r\\n      \"data\": \"c0215e09c0215e09c0215e09c0215e09\"\\r\\n    },\\r\\n    \"A\": {\\r\\n      \"page\": \"0x9724e10\",\\r\\n      \"glyph_index\": 34,\\r\\n      \"glyph\": \"4100100f000f101c0000803b00805a3f00000c3e00806a3f\"\\r\\n    },\\r\\n    \"\\xc0\\xaf\": {\\r\\n      \"page\": \"0x98fd620\",\\r\\n      \"glyph_index\": 610,\\r\\n      \"glyph\": \"20c7100f000f101c004011400040983f00c019400040a03f\"\\r\\n    },\\r\\n    \"\\xc7\\xfc\": {\\r\\n      \"page\": \"0x98ff420\",\\r\\n      \"glyph_index\": 821,\\r\\n      \"glyph\": \"15d6100f000f101c004062400040903f00c06a400040983f\"\\r\\n    },\\r\\n    \"\\xc1\\xb6\": {\\r\\n      \"page\": \"0x98fd820\",\\r\\n      \"glyph_index\": 652,\\r\\n      \"glyph\": \"70c8100f000f101c004011400040c83f00c019400040d03f\"\\r\\n    },\\r\\n    \"\\xc1\\xd8\": {\\r\\n      \"page\": \"0x98fda20\",\\r\\n      \"glyph_index\": 662,\\r\\n      \"glyph\": \"00c9100f000f101c00c02a400040d03f004033400040d83f\"\\r\\n    },\\r\\n    \"\\xb9\\xdd\": {\\r\\n      \"page\": \"0x98fc020\",\\r\\n      \"glyph_index\": 436,\\r\\n      \"glyph\": \"18bc100f000f101c0080a23f0040c83f0080b33f0040d03f\"\\r\\n    },\\r\\n    \"\\xc0\\xfc\": {\\r\\n      \"page\": \"0x98fd820\",\\r\\n      \"glyph_index\": 643,\\r\\n      \"glyph\": \"04c8100f000f101c004000400040c03f00c008400040c83f\"\\r\\n    },\\r\\n    \"\\xba\\xb8\": {\\r\\n      \"page\": \"0x98fc020\",\\r\\n      \"glyph_index\": 455,\\r\\n      \"glyph\": \"f4bc100f000f101c0080803f0040e03f0080913f0040e83f\"\\r\\n    }\\r\\n  },\\r\\n  \"0x972524c\": {\\r\\n    \"count\": 151,\\r\\n    \"glyph_ptr\": \"0x97256e0\",\\r\\n    \"0x474\": {\\r\\n      \"ptr\": \"0x8e2d2cc\",\\r\\n      \"data\": \"8000e2080002e2085015e408d0977209\"\\r\\n    },\\r\\n    \"0x478\": {\\r\\n      \"ptr\": \"0x8e2d2d0\",\\r\\n      \"data\": \"0002e2085015e408d0977209f0225e09\"\\r\\n    },\\r\\n    \"0x488\": {\\r\\n      \"ptr\": \"0x8e2d2dc\",\\r\\n      \"data\": \"f0225e09c0650000ec97720908987209\"\\r\\n    },\\r\\n    \"A\": {\\r\\n      \"page\": \"0x9726510\",\\r\\n      \"glyph_index\": 34,\\r\\n      \"glyph\": \"410012120012110a0000803b0080ec3e00001c3e0080ff3e\"\\r\\n    },\\r\\n    \"\\xc0\\xaf\": {\\r\\n      \"page\": \"0x0\",\\r\\n      \"glyph_index\": null,\\r\\n      \"glyph\": null\\r\\n    },\\r\\n    \"\\xc7\\xfc\": {\\r\\n      \"page\": \"0x0\",\\r\\n      \"glyph_index\": null,\\r\\n      \"glyph\": null\\r\\n    },\\r\\n    \"\\xc1\\xb6\": {\\r\\n      \"page\": \"0x0\",\\r\\n      \"glyph_index\": null,\\r\\n      \"glyph\": null\\r\\n    },\\r\\n    \"\\xc1\\xd8\": {\\r\\n      \"page\": \"0x0\",\\r\\n      \"glyph_index\": null,\\r\\n      \"glyph\": null\\r\\n    },\\r\\n    \"\\xb9\\xdd\": {\\r\\n      \"page\": \"0x0\",\\r\\n      \"glyph_index\": null,\\r\\n      \"glyph\": null\\r\\n    },\\r\\n    \"\\xc0\\xfc\": {\\r\\n      \"page\": \"0x0\",\\r\\n      \"glyph_index\": null,\\r\\n      \"glyph\": null\\r\\n    },\\r\\n    \"\\xba\\xb8\": {\\r\\n      \"page\": \"0x0\",\\r\\n      \"glyph_index\": null,\\r\\n      \"glyph\": null\\r\\n    }\\r\\n  }\\r\\n}', 520, 521, 'invalid start byte')"
+    }
+  ],
+  "deduplicated_records": 2,
+  "remaining_group_counts": {},
+  "source_code_hits": [
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\prepaudit43.py",
+      "size": 353,
+      "markers": [
+        "first_campaign_units",
+        "campaign_second_units",
+        "campaign_first_reference_audit",
+        "campaign_second_reference_audit",
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "campaign_units",
+        "reference_audit"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\audit_campaign_first.py",
+      "size": 2255,
+      "markers": [
+        "first_campaign_units",
+        "campaign_first_reference_audit",
+        "D0_0130_.MDI",
+        "campaign_units",
+        "reference_audit"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\PROJECT_STATE.md",
+      "size": 2699,
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302",
+        "priority-b"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "LOCAL_PATH",
+      "size": 2758,
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302",
+        "priority-b"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\audit_campaign_second.py",
+      "size": 2257,
+      "markers": [
+        "campaign_second_units",
+        "campaign_second_reference_audit",
+        "D0_0700_.MDI",
+        "reference_audit"
+      ],
+      "missions": [
+        "D0_0700_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\prep43m_title.py",
+      "size": 498,
+      "markers": [
+        "first_campaign_units",
+        "campaign_first_reference_audit",
+        "campaign_units",
+        "reference_audit"
+      ],
+      "missions": []
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\build_campaign43a.py",
+      "size": 7206,
+      "markers": [
+        "first_campaign_units",
+        "campaign_first_reference_audit",
+        "campaign_units",
+        "reference_audit"
+      ],
+      "missions": []
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_OUTPUTS\\stage40i_recovered\\stage40i_iso_inventory.tsv",
+      "size": 86521,
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage40i_actual_resource_trace\\stage40i_iso_inventory.tsv",
+      "size": 86521,
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage03_font_asset_locator\\font_asset_hits.tsv",
+      "size": 106345,
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\build43i_fit.py",
+      "size": 2760,
+      "markers": [
+        "first_campaign_units",
+        "D0_0130_.MDI",
+        "campaign_units"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage03_font_asset_locator\\selected_assets.tsv",
+      "size": 8881,
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage01_inventory\\files.tsv",
+      "size": 71839,
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage40a_asset_inventory\\stage40a_tree.txt",
+      "size": 132088,
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage41d_subtitle_resources\\system_directory_listing.json",
+      "size": 157945,
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\audit43m_title.py",
+      "size": 2239,
+      "markers": [
+        "D0_0130_.MDI",
+        "reference_audit"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\report43h_second.py",
+      "size": 792,
+      "markers": [
+        "campaign_second_reference_audit",
+        "reference_audit"
+      ],
+      "missions": []
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\inspect_mission_streams.py",
+      "size": 340,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\find43p_hint_properties.py",
+      "size": 614,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\inspect_mission_mdi.py",
+      "size": 637,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\inventory43ufont.py",
+      "size": 731,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\inspect43p_font.py",
+      "size": 870,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_OUTPUTS\\stage43t\\integrity_check.json",
+      "size": 988,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\inspect_mission_values.py",
+      "size": 1034,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\verify43t.py",
+      "size": 1206,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\find43k_fonts_relaxed.py",
+      "size": 1328,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\audit_y_keys.py",
+      "size": 1363,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\test43l_width.py",
+      "size": 1695,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\test43m_width.py",
+      "size": 1695,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\test43f_fontwidth.py",
+      "size": 1712,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\build43g_texture.py",
+      "size": 1962,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\build43s_title.py",
+      "size": 2404,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\build43h_fonts.py",
+      "size": 2765,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\build43d_ufont.py",
+      "size": 3558,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\bia_stage03_tools\\bia_stage03_font_assets.py",
+      "size": 10742,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_OUTPUTS\\bia_handoff_2026-10-06.md",
+      "size": 10895,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\package_handoff.py",
+      "size": 12011,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage01_inventory\\utf16le_strings.tsv",
+      "size": 2714867,
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\second43.py",
+      "size": 571,
+      "markers": [
+        "campaign_second_units"
+      ],
+      "missions": []
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_WORK\\check_second43.py",
+      "size": 717,
+      "markers": [
+        "campaign_second_units"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage38_translation_worklist\\stage38_summary.json",
+      "size": 1161,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage38b_translation_worklist\\stage38b_summary.json",
+      "size": 1462,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_OUTPUTS\\stage40n\\width_probe_regs.json",
+      "size": 11450,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "LEGACY_CODEX",
+      "file": "SESSION_SESSION_OUTPUTS\\stage43r_title_probe\\title_post_hit_regs.json",
+      "size": 11453,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage38_translation_worklist\\batches\\bia_translation_batch_006.tsv",
+      "size": 39980,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage40a_asset_inventory\\collected\\analysis_stage38_translation_worklist_batches_bia_translation_batch_006.tsv",
+      "size": 39980,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage38b_translation_worklist\\batches\\bia_translation_clean_batch_006.tsv",
+      "size": 44888,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage40a_asset_inventory\\collected\\analysis_stage38b_translation_worklist_batches_bia_translation_clean_batch_006.tsv",
+      "size": 44888,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage42g_fix9_dedicated_config_port\\stage42g_fix16_report.json",
+      "size": 313994,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage38b_translation_worklist\\stage38b_translation_units.tsv",
+      "size": 423471,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage40a_asset_inventory\\collected\\analysis_stage38b_translation_worklist_stage38b_translation_units.tsv",
+      "size": 423471,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage38_translation_worklist\\stage38_translation_units.tsv",
+      "size": 447134,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage40a_asset_inventory\\collected\\analysis_stage38_translation_worklist_stage38_translation_units.tsv",
+      "size": 447134,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage38b_translation_worklist\\stage38b_entry_map.tsv",
+      "size": 663680,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage40a_asset_inventory\\collected\\analysis_stage38b_translation_worklist_stage38b_entry_map.tsv",
+      "size": 663680,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\bia_stage40b_tools\\stage38b_entry_map.tsv",
+      "size": 663680,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage42g_fix19_local_ge_trace\\stage42g_fix19_local_report.json",
+      "size": 706865,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage42g_fix17_local_ge_trace\\stage42g_fix17_local_report.json",
+      "size": 706918,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage42g_fix18_local_ge_trace\\stage42g_fix18_local_report.json",
+      "size": 707393,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage42g_stage42h_bookends_ge_trace\\stage42g_stage42h_bookends_report.json",
+      "size": 707970,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage42h_resume_capture\\stage42g_stage42h_resume_report.json",
+      "size": 708748,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage38_translation_worklist\\stage38_entry_map.tsv",
+      "size": 708880,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage40a_asset_inventory\\collected\\analysis_stage38_translation_worklist_stage38_entry_map.tsv",
+      "size": 708880,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage42g_stage42h_ge_trace\\stage42g_stage42h_report.json",
+      "size": 709497,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage42g_fix1_texture_trace\\stage42g_fix1_report.json",
+      "size": 3241907,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage42g_fix2_deep_trace\\stage42g_fix2_report.json",
+      "size": 3990290,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage02_localization_font\\localization_entries.tsv",
+      "size": 4562484,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    },
+    {
+      "label": "D_BIA",
+      "file": "PROJECT_ROOT\\analysis\\stage40a_asset_inventory\\collected\\analysis_stage02_localization_font_localization_entries.tsv",
+      "size": 4562484,
+      "markers": [
+        "1302"
+      ],
+      "missions": []
+    }
+  ],
+  "source_evidence_copied": [
+    {
+      "source": "SESSION_SESSION_WORK\\prepaudit43.py",
+      "copied": "01_prepaudit43.py",
+      "markers": [
+        "first_campaign_units",
+        "campaign_second_units",
+        "campaign_first_reference_audit",
+        "campaign_second_reference_audit",
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "campaign_units",
+        "reference_audit"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\audit_campaign_first.py",
+      "copied": "02_audit_campaign_first.py",
+      "markers": [
+        "first_campaign_units",
+        "campaign_first_reference_audit",
+        "D0_0130_.MDI",
+        "campaign_units",
+        "reference_audit"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "PROJECT_ROOT\\PROJECT_STATE.md",
+      "copied": "03_PROJECT_STATE.md",
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302",
+        "priority-b"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ]
+    },
+    {
+      "source": "LOCAL_PATH",
+      "copied": "04_PROJECT_STATE.md",
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302",
+        "priority-b"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\audit_campaign_second.py",
+      "copied": "05_audit_campaign_second.py",
+      "markers": [
+        "campaign_second_units",
+        "campaign_second_reference_audit",
+        "D0_0700_.MDI",
+        "reference_audit"
+      ],
+      "missions": [
+        "D0_0700_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\prep43m_title.py",
+      "copied": "06_prep43m_title.py",
+      "markers": [
+        "first_campaign_units",
+        "campaign_first_reference_audit",
+        "campaign_units",
+        "reference_audit"
+      ],
+      "missions": []
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\build_campaign43a.py",
+      "copied": "07_build_campaign43a.py",
+      "markers": [
+        "first_campaign_units",
+        "campaign_first_reference_audit",
+        "campaign_units",
+        "reference_audit"
+      ],
+      "missions": []
+    },
+    {
+      "source": "SESSION_SESSION_OUTPUTS\\stage40i_recovered\\stage40i_iso_inventory.tsv",
+      "copied": "08_stage40i_iso_inventory.tsv",
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "source": "PROJECT_ROOT\\analysis\\stage40i_actual_resource_trace\\stage40i_iso_inventory.tsv",
+      "copied": "09_stage40i_iso_inventory.tsv",
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "source": "PROJECT_ROOT\\analysis\\stage03_font_asset_locator\\font_asset_hits.tsv",
+      "copied": "10_font_asset_hits.tsv",
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "1302"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\build43i_fit.py",
+      "copied": "11_build43i_fit.py",
+      "markers": [
+        "first_campaign_units",
+        "D0_0130_.MDI",
+        "campaign_units"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "PROJECT_ROOT\\analysis\\stage03_font_asset_locator\\selected_assets.tsv",
+      "copied": "12_selected_assets.tsv",
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "source": "PROJECT_ROOT\\analysis\\stage01_inventory\\files.tsv",
+      "copied": "13_files.tsv",
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "source": "PROJECT_ROOT\\analysis\\stage40a_asset_inventory\\stage40a_tree.txt",
+      "copied": "14_stage40a_tree.txt",
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "source": "PROJECT_ROOT\\analysis\\stage41d_subtitle_resources\\system_directory_listing.json",
+      "copied": "15_system_directory_listing.json",
+      "markers": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI",
+        "D0_0700_.MDI",
+        "D0_1015_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\audit43m_title.py",
+      "copied": "16_audit43m_title.py",
+      "markers": [
+        "D0_0130_.MDI",
+        "reference_audit"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\report43h_second.py",
+      "copied": "17_report43h_second.py",
+      "markers": [
+        "campaign_second_reference_audit",
+        "reference_audit"
+      ],
+      "missions": []
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\inspect_mission_streams.py",
+      "copied": "18_inspect_mission_streams.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\find43p_hint_properties.py",
+      "copied": "19_find43p_hint_properties.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\inspect_mission_mdi.py",
+      "copied": "20_inspect_mission_mdi.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\inventory43ufont.py",
+      "copied": "21_inventory43ufont.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\inspect43p_font.py",
+      "copied": "22_inspect43p_font.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_OUTPUTS\\stage43t\\integrity_check.json",
+      "copied": "23_integrity_check.json",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\inspect_mission_values.py",
+      "copied": "24_inspect_mission_values.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\verify43t.py",
+      "copied": "25_verify43t.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\find43k_fonts_relaxed.py",
+      "copied": "26_find43k_fonts_relaxed.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\audit_y_keys.py",
+      "copied": "27_audit_y_keys.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\test43l_width.py",
+      "copied": "28_test43l_width.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\test43m_width.py",
+      "copied": "29_test43m_width.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\test43f_fontwidth.py",
+      "copied": "30_test43f_fontwidth.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\build43g_texture.py",
+      "copied": "31_build43g_texture.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\build43s_title.py",
+      "copied": "32_build43s_title.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\build43h_fonts.py",
+      "copied": "33_build43h_fonts.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\build43d_ufont.py",
+      "copied": "34_build43d_ufont.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "PROJECT_ROOT\\bia_stage03_tools\\bia_stage03_font_assets.py",
+      "copied": "35_bia_stage03_font_assets.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_OUTPUTS\\bia_handoff_2026-10-06.md",
+      "copied": "36_bia_handoff_2026-10-06.md",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\package_handoff.py",
+      "copied": "37_package_handoff.py",
+      "markers": [
+        "D0_0130_.MDI"
+      ],
+      "missions": [
+        "D0_0130_.MDI"
+      ]
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\second43.py",
+      "copied": "39_second43.py",
+      "markers": [
+        "campaign_second_units"
+      ],
+      "missions": []
+    },
+    {
+      "source": "SESSION_SESSION_WORK\\check_second43.py",
+      "copied": "40_check_second43.py",
+      "markers": [
+        "campaign_second_units"
+      ],
+      "missions": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pid": 27540,
+  "psp_base": "0x0000029E791F0000",
+  "test_codepoint": "U+0100",
+  "target_glyph": "A (glyph index 33, map value 34)",
+  "font_tables": [
+    {
+      "font_table": "0x09723FF0",
+      "charmap": "0x09724E10",
+      "bytes_after_nominal_map": "72 6c 69 66 00 08 79 00 00 00 00 00 10 02 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    },
+    {
+      "font_table": "0x097256F8",
+      "charmap": "0x09726510",
+      "bytes_after_nominal_map": "00 00 00 00 00 f1 78 00 00 00 00 00 10 02 00 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+    }
+  ],
+  "visual_result": "n"
+}

@@ -1,0 +1,50 @@
+{
+  "stage": "42C",
+  "purpose": "Exercise newly-added high-byte subtitle hashmap keys 0xFD/0xFE/0xFF in a visible subtitle.",
+  "source_hashes": {
+    "Stage42B_HASHMAP": "fad63cc62590b1ad96ef11b941d0a6ed6bf900d4",
+    "Stage41F_ST1": "b449f7b3afb0bfd41286462f136fa0bf49abcfdb"
+  },
+  "output_hashes": {
+    "SUBTITLEHASHMAP_42C.INI": "441c1fb76940bc2924333920537ac39ff6e49590",
+    "FM_0115EAGLESJUMP_42C.ST1": "f86716f20e80eb9110c7deb86780fe66a54367ea"
+  },
+  "visible_probe": {
+    "st1_offset": "0x06E",
+    "old_bytes": "54 77 E8 3A",
+    "new_bytes": "FD FE FF 3A",
+    "expected_text_prefix": "베이커:",
+    "aliases": [
+      {
+        "byte": "0xFD",
+        "char": "베",
+        "rect": [
+          108,
+          28,
+          11,
+          13
+        ]
+      },
+      {
+        "byte": "0xFE",
+        "char": "이",
+        "rect": [
+          0,
+          56,
+          11,
+          13
+        ]
+      },
+      {
+        "byte": "0xFF",
+        "char": "커",
+        "rect": [
+          168,
+          56,
+          11,
+          13
+        ]
+      }
+    ]
+  }
+}

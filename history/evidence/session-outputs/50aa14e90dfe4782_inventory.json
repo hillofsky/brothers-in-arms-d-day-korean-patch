@@ -1,0 +1,1250 @@
+[
+  {
+    "mdi": "D07_1501.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9a1d640",
+        "stream": 25,
+        "offset": "0x62620",
+        "glyph_count": 150,
+        "texture_array": "0x8e0359c",
+        "glyphs": "0x9b79bd8",
+        "remap": "0x9b7a7a0"
+      },
+      {
+        "runtime": "0x9a1d7a0",
+        "stream": 25,
+        "offset": "0x62780",
+        "glyph_count": 11,
+        "texture_array": "0x8e03594",
+        "glyphs": "0x9b78064",
+        "remap": "0x9b78148"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x107b3"
+  },
+  {
+    "mdi": "D08_1030.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b49f30",
+        "stream": 28,
+        "offset": "0x26f10",
+        "glyph_count": 150,
+        "texture_array": "0x8e03a68",
+        "glyphs": "0x9b89968",
+        "remap": "0x9b8a530"
+      },
+      {
+        "runtime": "0x9b4a090",
+        "stream": 28,
+        "offset": "0x27070",
+        "glyph_count": 11,
+        "texture_array": "0x8e03a60",
+        "glyphs": "0x9b3fc8c",
+        "remap": "0x9b79578"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x1099d"
+  },
+  {
+    "mdi": "D09_0800.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9a3c950",
+        "stream": 26,
+        "offset": "0x9930",
+        "glyph_count": 150,
+        "texture_array": "0x8e03648",
+        "glyphs": "0x9ba73f8",
+        "remap": "0x9ba7fc0"
+      },
+      {
+        "runtime": "0x9a3cab0",
+        "stream": 26,
+        "offset": "0x9a90",
+        "glyph_count": 11,
+        "texture_array": "0x8e03660",
+        "glyphs": "0x9ba8474",
+        "remap": "0x9ba8558"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10d33"
+  },
+  {
+    "mdi": "D0_0130_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 879,
+        "texture_array": "0x9e90020",
+        "glyphs": "0x9e94020",
+        "remap": "0x9e92020"
+      },
+      {
+        "runtime": "0x9a8cac0",
+        "stream": 26,
+        "offset": "0x59aa0",
+        "glyph_count": 879,
+        "texture_array": "0x9e82020",
+        "glyphs": "0x9e8b020",
+        "remap": "0x9e84020"
+      },
+      {
+        "runtime": "0x9a8cc20",
+        "stream": 26,
+        "offset": "0x59c00",
+        "glyph_count": 11,
+        "texture_array": "0x8e03998",
+        "glyphs": "0x9c08964",
+        "remap": "0x9c08a70"
+      }
+    ],
+    "native_font_counts": [
+      879,
+      879,
+      11
+    ],
+    "rfont_mode": "PRESERVE_EXISTING_STAGE43A",
+    "metadata_used_end": "0x2d4bc"
+  },
+  {
+    "mdi": "D0_0700_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 877,
+        "texture_array": "0x9e90020",
+        "glyphs": "0x9e94020",
+        "remap": "0x9e92020"
+      },
+      {
+        "runtime": "0x9a74150",
+        "stream": 26,
+        "offset": "0x41130",
+        "glyph_count": 877,
+        "texture_array": "0x9e82020",
+        "glyphs": "0x9e8b020",
+        "remap": "0x9e84020"
+      },
+      {
+        "runtime": "0x9a742b0",
+        "stream": 26,
+        "offset": "0x41290",
+        "glyph_count": 11,
+        "texture_array": "0x8e03b6c",
+        "glyphs": "0x9ac10fc",
+        "remap": "0x9ac1208"
+      }
+    ],
+    "native_font_counts": [
+      877,
+      877,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x2d480"
+  },
+  {
+    "mdi": "D0_1015_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b79cf0",
+        "stream": 28,
+        "offset": "0x56cd0",
+        "glyph_count": 150,
+        "texture_array": "0x8e03930",
+        "glyphs": "0x9bb4b88",
+        "remap": "0x9ba44f0"
+      },
+      {
+        "runtime": "0x9b79e50",
+        "stream": 28,
+        "offset": "0x56e30",
+        "glyph_count": 11,
+        "texture_array": "0x8e03928",
+        "glyphs": "0x9ba49a4",
+        "remap": "0x9b98e80"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10d00"
+  },
+  {
+    "mdi": "D10_0600.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9a9e390",
+        "stream": 26,
+        "offset": "0x6b370",
+        "glyph_count": 150,
+        "texture_array": "0x8e03764",
+        "glyphs": "0x9bbab08",
+        "remap": "0x9bbb6d0"
+      },
+      {
+        "runtime": "0x9a9e4f0",
+        "stream": 26,
+        "offset": "0x6b4d0",
+        "glyph_count": 11,
+        "texture_array": "0x8e0375c",
+        "glyphs": "0x9ac964c",
+        "remap": "0x9ac9758"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10e2b"
+  },
+  {
+    "mdi": "D10_0801.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x99173c0",
+        "stream": 23,
+        "offset": "0x4c3a0",
+        "glyph_count": 150,
+        "texture_array": "0x8e03870",
+        "glyphs": "0x9a62bc8",
+        "remap": "0x9a63790"
+      },
+      {
+        "runtime": "0x9917520",
+        "stream": 23,
+        "offset": "0x4c500",
+        "glyph_count": 11,
+        "texture_array": "0x8e03868",
+        "glyphs": "0x9a59314",
+        "remap": "0x9a58328"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x1070f"
+  },
+  {
+    "mdi": "D10_0802.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b417a0",
+        "stream": 28,
+        "offset": "0x1e780",
+        "glyph_count": 150,
+        "texture_array": "0x8e0395c",
+        "glyphs": "0x9b15808",
+        "remap": "0x9a790a0"
+      },
+      {
+        "runtime": "0x9b41900",
+        "stream": 28,
+        "offset": "0x1e8e0",
+        "glyph_count": 11,
+        "texture_array": "0x8e03954",
+        "glyphs": "0x9a78b6c",
+        "remap": "0x9a78c78"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10916"
+  },
+  {
+    "mdi": "D1_0900_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b2cd80",
+        "stream": 28,
+        "offset": "0x9d60",
+        "glyph_count": 150,
+        "texture_array": "0x8e037fc",
+        "glyphs": "0x9b69fc8",
+        "remap": "0x9b61890"
+      },
+      {
+        "runtime": "0x9b2cee0",
+        "stream": 28,
+        "offset": "0x9ec0",
+        "glyph_count": 11,
+        "texture_array": "0x8e037e8",
+        "glyphs": "0x9b60474",
+        "remap": "0x9b5e0a0"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x11046"
+  },
+  {
+    "mdi": "D1_1830_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b251f0",
+        "stream": 28,
+        "offset": "0x21d0",
+        "glyph_count": 150,
+        "texture_array": "0x8e03a8c",
+        "glyphs": "0x9b5ced8",
+        "remap": "0x9b5e880"
+      },
+      {
+        "runtime": "0x9b25350",
+        "stream": 28,
+        "offset": "0x2330",
+        "glyph_count": 11,
+        "texture_array": "0x8e03a84",
+        "glyphs": "0x9b51524",
+        "remap": "0x9b51630"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x1074a"
+  },
+  {
+    "mdi": "D2_0630_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9a8e270",
+        "stream": 26,
+        "offset": "0x5b250",
+        "glyph_count": 150,
+        "texture_array": "0x8e03794",
+        "glyphs": "0x9b0ebe8",
+        "remap": "0x9b0f7b0"
+      },
+      {
+        "runtime": "0x9a8e3d0",
+        "stream": 26,
+        "offset": "0x5b3b0",
+        "glyph_count": 11,
+        "texture_array": "0x8e0378c",
+        "glyphs": "0x9b05d14",
+        "remap": "0x9b05e20"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x105ea"
+  },
+  {
+    "mdi": "D2_1000_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b4e9b0",
+        "stream": 28,
+        "offset": "0x2b990",
+        "glyph_count": 150,
+        "texture_array": "0x8e03704",
+        "glyphs": "0x9baa230",
+        "remap": "0x9baadf0"
+      },
+      {
+        "runtime": "0x9b4eb10",
+        "stream": 28,
+        "offset": "0x2baf0",
+        "glyph_count": 11,
+        "texture_array": "0x8e036fc",
+        "glyphs": "0x9ba1154",
+        "remap": "0x9ba1238"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10d85"
+  },
+  {
+    "mdi": "D3_0900_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b55900",
+        "stream": 28,
+        "offset": "0x328e0",
+        "glyph_count": 150,
+        "texture_array": "0x8e036a0",
+        "glyphs": "0x9b83818",
+        "remap": "0x9b7a1c0"
+      },
+      {
+        "runtime": "0x9b55a60",
+        "stream": 28,
+        "offset": "0x32a40",
+        "glyph_count": 11,
+        "texture_array": "0x8e03698",
+        "glyphs": "0x9b493a4",
+        "remap": "0x9a05030"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10782"
+  },
+  {
+    "mdi": "D4_1800_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9ac4de0",
+        "stream": 27,
+        "offset": "0x19dc0",
+        "glyph_count": 150,
+        "texture_array": "0x8e036b8",
+        "glyphs": "0x9b0bbb8",
+        "remap": "0x9b0c780"
+      },
+      {
+        "runtime": "0x9ac4f40",
+        "stream": 27,
+        "offset": "0x19f20",
+        "glyph_count": 11,
+        "texture_array": "0x8e036fc",
+        "glyphs": "0x9b0aac4",
+        "remap": "0x9ae7098"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x109d1"
+  },
+  {
+    "mdi": "D5_0615_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b26610",
+        "stream": 28,
+        "offset": "0x35f0",
+        "glyph_count": 150,
+        "texture_array": "0x8e038e0",
+        "glyphs": "0x9b0b2f8",
+        "remap": "0x9b1bf80"
+      },
+      {
+        "runtime": "0x9b26770",
+        "stream": 28,
+        "offset": "0x3750",
+        "glyph_count": 11,
+        "texture_array": "0x8e038e8",
+        "glyphs": "0x9b07e3c",
+        "remap": "0x9b09698"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10946"
+  },
+  {
+    "mdi": "D6_0500_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b56ed0",
+        "stream": 28,
+        "offset": "0x33eb0",
+        "glyph_count": 150,
+        "texture_array": "0x8e0393c",
+        "glyphs": "0x9bacb88",
+        "remap": "0x9bad750"
+      },
+      {
+        "runtime": "0x9b57030",
+        "stream": 28,
+        "offset": "0x34010",
+        "glyph_count": 11,
+        "texture_array": "0x8e038f0",
+        "glyphs": "0x9bab794",
+        "remap": "0x9bab8a0"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10aa3"
+  },
+  {
+    "mdi": "D6_1200_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9a1f6d0",
+        "stream": 25,
+        "offset": "0x646b0",
+        "glyph_count": 150,
+        "texture_array": "0x8e036bc",
+        "glyphs": "0x9a735d8",
+        "remap": "0x9a71f60"
+      },
+      {
+        "runtime": "0x9a1f830",
+        "stream": 25,
+        "offset": "0x64810",
+        "glyph_count": 11,
+        "texture_array": "0x8e036b4",
+        "glyphs": "0x9a66e64",
+        "remap": "0x9a65258"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10d79"
+  },
+  {
+    "mdi": "D7_1400_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9b17170",
+        "stream": 27,
+        "offset": "0x6c150",
+        "glyph_count": 150,
+        "texture_array": "0x8e03848",
+        "glyphs": "0x9b54a70",
+        "remap": "0x9b53620"
+      },
+      {
+        "runtime": "0x9b172d0",
+        "stream": 27,
+        "offset": "0x6c2b0",
+        "glyph_count": 11,
+        "texture_array": "0x8e03840",
+        "glyphs": "0x9b51c8c",
+        "remap": "0x9b53ad8"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x1104d"
+  },
+  {
+    "mdi": "D7_1500_.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x97f6770",
+        "stream": 21,
+        "offset": "0x1b750",
+        "glyph_count": 150,
+        "texture_array": "0x8e03920",
+        "glyphs": "0x9ab1248",
+        "remap": "0x9aa0000"
+      },
+      {
+        "runtime": "0x9955fa0",
+        "stream": 24,
+        "offset": "0x12f80",
+        "glyph_count": 11,
+        "texture_array": "0x8e03918",
+        "glyphs": "0x9aa04b4",
+        "remap": "0x9a9f8a8"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x11015"
+  },
+  {
+    "mdi": "SKR_DE_CHUR.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x99bb470",
+        "stream": 25,
+        "offset": "0x450",
+        "glyph_count": 150,
+        "texture_array": "0x8e03858",
+        "glyphs": "0x9a18018",
+        "remap": "0x9a18be0"
+      },
+      {
+        "runtime": "0x99bb5d0",
+        "stream": 25,
+        "offset": "0x5b0",
+        "glyph_count": 11,
+        "texture_array": "0x8e0383c",
+        "glyphs": "0x99edc04",
+        "remap": "0x99fc8e8"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x1015f"
+  },
+  {
+    "mdi": "SKR_DE_CITY.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x98f9da0",
+        "stream": 23,
+        "offset": "0x2ed80",
+        "glyph_count": 150,
+        "texture_array": "0x8e0383c",
+        "glyphs": "0x9a97968",
+        "remap": "0x9a820e0"
+      },
+      {
+        "runtime": "0x98f9f00",
+        "stream": 23,
+        "offset": "0x2eee0",
+        "glyph_count": 11,
+        "texture_array": "0x8e03834",
+        "glyphs": "0x9a82594",
+        "remap": "0x9a82678"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x1025f"
+  },
+  {
+    "mdi": "SKR_DE_DDAY.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x99ec1f0",
+        "stream": 25,
+        "offset": "0x311d0",
+        "glyph_count": 150,
+        "texture_array": "0x8e038a0",
+        "glyphs": "0x9a41458",
+        "remap": "0x9a1d990"
+      },
+      {
+        "runtime": "0x99ec350",
+        "stream": 25,
+        "offset": "0x31330",
+        "glyph_count": 11,
+        "texture_array": "0x8e038a8",
+        "glyphs": "0x9a1ef34",
+        "remap": "0x988c918"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10351"
+  },
+  {
+    "mdi": "SKR_DE_HAML.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9a2c3b0",
+        "stream": 25,
+        "offset": "0x71390",
+        "glyph_count": 150,
+        "texture_array": "0x8e035c0",
+        "glyphs": "0x9a83f08",
+        "remap": "0x9a56af0"
+      },
+      {
+        "runtime": "0x9a2c510",
+        "stream": 25,
+        "offset": "0x714f0",
+        "glyph_count": 11,
+        "texture_array": "0x8e035e4",
+        "glyphs": "0x9a551ec",
+        "remap": "0x9a552f8"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10253"
+  },
+  {
+    "mdi": "SKR_DE_HOLD.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x98e9580",
+        "stream": 23,
+        "offset": "0x1e560",
+        "glyph_count": 150,
+        "texture_array": "0x8e035c8",
+        "glyphs": "0x9a5c740",
+        "remap": "0x9a82030"
+      },
+      {
+        "runtime": "0x98e96e0",
+        "stream": 23,
+        "offset": "0x1e6c0",
+        "glyph_count": 11,
+        "texture_array": "0x8e035d0",
+        "glyphs": "0x9a5d324",
+        "remap": "0x9a5d430"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x101ca"
+  },
+  {
+    "mdi": "SKR_DE_WARE.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9852430",
+        "stream": 21,
+        "offset": "0x77410",
+        "glyph_count": 150,
+        "texture_array": "0x8e036f4",
+        "glyphs": "0x99f0708",
+        "remap": "0x99f12d0"
+      },
+      {
+        "runtime": "0x9852590",
+        "stream": 21,
+        "offset": "0x77570",
+        "glyph_count": 11,
+        "texture_array": "0x8e036ec",
+        "glyphs": "0x99f1784",
+        "remap": "0x99db9e8"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10193"
+  },
+  {
+    "mdi": "SKR_US_BROK.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x99c9190",
+        "stream": 25,
+        "offset": "0xe170",
+        "glyph_count": 150,
+        "texture_array": "0x8e03724",
+        "glyphs": "0x9a0e8f8",
+        "remap": "0x9a0f4c0"
+      },
+      {
+        "runtime": "0x99c92f0",
+        "stream": 25,
+        "offset": "0xe2d0",
+        "glyph_count": 11,
+        "texture_array": "0x8e0371c",
+        "glyphs": "0x99f9764",
+        "remap": "0x99f9870"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x101cc"
+  },
+  {
+    "mdi": "SKR_US_BUNK.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9a75de0",
+        "stream": 26,
+        "offset": "0x42dc0",
+        "glyph_count": 150,
+        "texture_array": "0x8e03540",
+        "glyphs": "0x9abb528",
+        "remap": "0x9abc0f0"
+      },
+      {
+        "runtime": "0x9a75f40",
+        "stream": 26,
+        "offset": "0x42f20",
+        "glyph_count": 11,
+        "texture_array": "0x8e03548",
+        "glyphs": "0x9a6dbb4",
+        "remap": "0x9a5fe08"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10500"
+  },
+  {
+    "mdi": "SKR_US_CROS.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x98f21e0",
+        "stream": 23,
+        "offset": "0x271c0",
+        "glyph_count": 150,
+        "texture_array": "0x8e03784",
+        "glyphs": "0x9a80a38",
+        "remap": "0x9a81600"
+      },
+      {
+        "runtime": "0x98f2340",
+        "stream": 23,
+        "offset": "0x27320",
+        "glyph_count": 11,
+        "texture_array": "0x8e037bc",
+        "glyphs": "0x9a6b884",
+        "remap": "0x98cf980"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10184"
+  },
+  {
+    "mdi": "SKR_US_RAIL.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x99f1e60",
+        "stream": 25,
+        "offset": "0x36e40",
+        "glyph_count": 150,
+        "texture_array": "0x8e037c0",
+        "glyphs": "0x9a3c2f8",
+        "remap": "0x9a16be0"
+      },
+      {
+        "runtime": "0x99f1fc0",
+        "stream": 25,
+        "offset": "0x36fa0",
+        "glyph_count": 11,
+        "texture_array": "0x8e037c8",
+        "glyphs": "0x9a17094",
+        "remap": "0x9a17178"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x10207"
+  },
+  {
+    "mdi": "SKR_US_SNIP.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x9886eb0",
+        "stream": 22,
+        "offset": "0x33e90",
+        "glyph_count": 150,
+        "texture_array": "0x8e038dc",
+        "glyphs": "0x9a17f38",
+        "remap": "0x9a04d30"
+      },
+      {
+        "runtime": "0x9887010",
+        "stream": 22,
+        "offset": "0x33ff0",
+        "glyph_count": 11,
+        "texture_array": "0x8e038d4",
+        "glyphs": "0x9a051e4",
+        "remap": "0x9a18af8"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x1028b"
+  },
+  {
+    "mdi": "SKR_US_TAKI.MDI",
+    "fonts": [
+      {
+        "runtime": "0x8fc3ca0",
+        "stream": 3,
+        "offset": "0x58c80",
+        "glyph_count": 150,
+        "texture_array": "0x8e03060",
+        "glyphs": "0x906d908",
+        "remap": "0x906e990"
+      },
+      {
+        "runtime": "0x987ba70",
+        "stream": 22,
+        "offset": "0x28a50",
+        "glyph_count": 150,
+        "texture_array": "0x8e038ac",
+        "glyphs": "0x9a123e8",
+        "remap": "0x99fcfd0"
+      },
+      {
+        "runtime": "0x987bbd0",
+        "stream": 22,
+        "offset": "0x28bb0",
+        "glyph_count": 11,
+        "texture_array": "0x8e038b4",
+        "glyphs": "0x9a12fa4",
+        "remap": "0x99fd4b0"
+      }
+    ],
+    "native_font_counts": [
+      150,
+      150,
+      11
+    ],
+    "rfont_mode": "INSTALL_STAGE39A_PLUS_MDI_EXTRAS",
+    "metadata_used_end": "0x1026a"
+  }
+]

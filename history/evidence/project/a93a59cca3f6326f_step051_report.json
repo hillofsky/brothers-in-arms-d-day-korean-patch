@@ -1,0 +1,78 @@
+{
+  "step": "STEP_051",
+  "translations_applied_to_metadata": 45,
+  "status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "NEEDS_TRANSLATION": 716,
+    "TRANSLATED_REVIEWED": 359,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "next_reference_group": "D6_0500_PUSHINTOCARENTAN",
+  "next_unit_count": 43,
+  "remaining_group_summary": [
+    {
+      "reference_group": "D6_0500_PUSHINTOCARENTAN",
+      "remaining_unique_units": 43
+    },
+    {
+      "reference_group": "D6_1200_CHURCHTOWER",
+      "remaining_unique_units": 63
+    },
+    {
+      "reference_group": "D7_1400_NOBETTERSPOT",
+      "remaining_unique_units": 75
+    },
+    {
+      "reference_group": "D07_1500_BLOODYGULCH",
+      "remaining_unique_units": 32
+    },
+    {
+      "reference_group": "D7_1500_NOBETTERSPOT",
+      "remaining_unique_units": 75
+    },
+    {
+      "reference_group": "D8_0930_VICTORYINCARENTAN",
+      "remaining_unique_units": 31
+    },
+    {
+      "reference_group": "D08_1030_CLOSEQUARTERS",
+      "remaining_unique_units": 35
+    },
+    {
+      "reference_group": "D09_0800_BAUPTE",
+      "remaining_unique_units": 46
+    },
+    {
+      "reference_group": "D10_0600_RUNOFTHEMILL",
+      "remaining_unique_units": 51
+    },
+    {
+      "reference_group": "D10_0801_THEALLAMERICANS",
+      "remaining_unique_units": 25
+    },
+    {
+      "reference_group": "D10_0802_THEALLAMERICANS",
+      "remaining_unique_units": 41
+    },
+    {
+      "reference_group": "D15_1130_BOOKENDS",
+      "remaining_unique_units": 44
+    },
+    {
+      "reference_group": "D15_1230_BOOKENDS2",
+      "remaining_unique_units": 29
+    },
+    {
+      "reference_group": "D15_1300_BOOKENDS4",
+      "remaining_unique_units": 25
+    },
+    {
+      "reference_group": "D15_1330_BOOKENDS3",
+      "remaining_unique_units": 29
+    }
+  ],
+  "master_sha256": "2710dd633d1933ffd8ec6c52ba0d682e628ed8dbd004f1a451e8b63b50f5cca5",
+  "next_batch_sha256": "69fe9313bc18cddea0d96699708e7b64fec18858929fc4af8633013e729c09ea",
+  "iso_modified": false,
+  "movie_validation_resumed": false
+}

@@ -1,0 +1,35 @@
+{
+  "stage": "42G",
+  "purpose": "Probe a single global 221-token dictionary in an expanded 512x512 RGBA8888 subtitle atlas.",
+  "global_corpus": {
+    "st1_files": 8,
+    "fields": 133,
+    "dictionary_tokens": 221,
+    "all_field_byte_budgets_pass": true,
+    "sum_token_advance_px_font9": 13587,
+    "max_token_width_px_font9": 144
+  },
+  "atlas": {
+    "width": 512,
+    "height": 512,
+    "format": "RGBA8888",
+    "bytes": 1048576,
+    "rows_used": 28,
+    "max_y_used": 336,
+    "font": "NanumGothic",
+    "font_size": 9
+  },
+  "probe_scope": "Global dictionary/map/atlas installed; only FM_0115EAGLESJUMP.ST1 is token-encoded in this stage.",
+  "source_sha1": {
+    "SUBTITLEHASHMAP.INI": "441c1fb76940bc2924333920537ac39ff6e49590",
+    "FM_0115EAGLESJUMP.ST1": "f86716f20e80eb9110c7deb86780fe66a54367ea",
+    "SUBTITLETEXTURE.RAW": "d25634c34ecdd27abd16b4706781f6d5e04d3e4d"
+  },
+  "output_sha1": {
+    "SUBTITLEHASHMAP.INI": "c9d5ccad298d814f6f52093a0671e7c355e3e310",
+    "FM_0115EAGLESJUMP.ST1": "db4155d8ad32422df0339dff1dd968260e022612",
+    "SUBTITLETEXTURE.RAW": "9ab68dee919c47de559ede488f2c3835e43ca4a8"
+  },
+  "expected_14s_prefix": "베이커:",
+  "success_meaning": "SubtitleManager accepts the 512x512 RAW resource/dimensions; Stage42H can patch all 8 ST1 files to one global map."
+}

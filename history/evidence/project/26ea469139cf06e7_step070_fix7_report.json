@@ -1,0 +1,598 @@
+{
+  "step": "STEP_070_FIX7",
+  "status": "MAIN_MENU_ROUTE_CAPTURED",
+  "route_discovery_only": true,
+  "capture_method": "RAW_VRAM_RGB565",
+  "title_detection": "FIX6_PIXEL_SIGNATURE",
+  "runtime_verified": false,
+  "version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "game": {
+    "id": "ULUS10193",
+    "version": "1.01",
+    "title": "Brothers in Arms D-Day"
+  },
+  "title_seek": [
+    {
+      "attempt": 0,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "00_seek_title_00_vram0_04000000.png",
+            "raw_sha256": "55a4fcae02ed6b0e4ecfe438d8abafaf1fa81869a189c77b18330eb6b6ee4dba",
+            "score": 4858221,
+            "title_similarity": {
+              "mae": 90.075,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "00_seek_title_00_vram1_04044000.png",
+            "raw_sha256": "96f8e81e77182f67493eb5fc40054d4bdb95f4593efbefc771ee226a02a21bc6",
+            "score": 4858385,
+            "title_similarity": {
+              "mae": 115.46979166666667,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "00_seek_title_00_vram1_04044000.png"
+      }
+    },
+    {
+      "attempt": 1,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "00_seek_title_01_vram0_04000000.png",
+            "raw_sha256": "1527f4d193548cc32505ce14f7247d426bbb2623e12bbda619040753fcba3012",
+            "score": 1664316,
+            "title_similarity": {
+              "mae": 91.940625,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "00_seek_title_01_vram1_04044000.png",
+            "raw_sha256": "7979e23cd345443287413c6e63688a9bccea08fee505d78ccbbc7d0dd3f56bab",
+            "score": 1798164,
+            "title_similarity": {
+              "mae": 93.46666666666667,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "00_seek_title_01_vram1_04044000.png"
+      }
+    },
+    {
+      "attempt": 2,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "00_seek_title_02_vram0_04000000.png",
+            "raw_sha256": "25ddd825025b6a1ffbda1607bc10e053b3c1af889b8294907d2e78eb695083f4",
+            "score": 346600,
+            "title_similarity": {
+              "mae": 103.5125,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "00_seek_title_02_vram1_04044000.png",
+            "raw_sha256": "8c4dcb913b17826bba70f25db457d0d0e8663850dfefd7c78a13fe23a03a6671",
+            "score": 672367,
+            "title_similarity": {
+              "mae": 99.57083333333334,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "00_seek_title_02_vram1_04044000.png"
+      }
+    },
+    {
+      "attempt": 3,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "00_seek_title_03_vram0_04000000.png",
+            "raw_sha256": "b40966725fa96d8471bca4595170204de8e261c562158007d53d1ffeb59e21ec",
+            "score": 4187015,
+            "title_similarity": {
+              "mae": 71.30833333333334,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "00_seek_title_03_vram1_04044000.png",
+            "raw_sha256": "a39ab5067c7aeeac74c6124f04f9a60723a00c089100a62fbd916471d38e04da",
+            "score": 4354929,
+            "title_similarity": {
+              "mae": 74.79375,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "00_seek_title_03_vram1_04044000.png"
+      }
+    },
+    {
+      "attempt": 4,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "00_seek_title_04_vram0_04000000.png",
+            "raw_sha256": "b77ef01c5343f84cc744641e99455f6923ff578abaceb87f478b3d294e2fb97e",
+            "score": 4536847,
+            "title_similarity": {
+              "mae": 75.2,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "00_seek_title_04_vram1_04044000.png",
+            "raw_sha256": "b2fa12f5a46dd331c444362290fab0e952506952087af38a4a273a928ba938e9",
+            "score": 4473019,
+            "title_similarity": {
+              "mae": 71.340625,
+              "exactish_ratio": 0.003125,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "00_seek_title_04_vram0_04000000.png"
+      }
+    },
+    {
+      "attempt": 5,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "00_seek_title_05_vram0_04000000.png",
+            "raw_sha256": "45876842eee444f3992efe54823d524a26d333c5c608bd4e001b0b0bb6c18c7b",
+            "score": 438377,
+            "title_similarity": {
+              "mae": 105.903125,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "00_seek_title_05_vram1_04044000.png",
+            "raw_sha256": "115b9444f0c4fb8ce9220a849352c7771d72a07b6e1a926719480b4b63c603fe",
+            "score": 566556,
+            "title_similarity": {
+              "mae": 102.1125,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "00_seek_title_05_vram1_04044000.png"
+      }
+    },
+    {
+      "attempt": 6,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "00_seek_title_06_vram0_04000000.png",
+            "raw_sha256": "b17d65a49560005f5bf6d03003faf5e97511759e8411a97a095feadb28dac081",
+            "score": 4811715,
+            "title_similarity": {
+              "mae": 52.759375,
+              "exactish_ratio": 0.028125,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "00_seek_title_06_vram1_04044000.png",
+            "raw_sha256": "b17d65a49560005f5bf6d03003faf5e97511759e8411a97a095feadb28dac081",
+            "score": 4811715,
+            "title_similarity": {
+              "mae": 52.759375,
+              "exactish_ratio": 0.028125,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "00_seek_title_06_vram0_04000000.png"
+      }
+    },
+    {
+      "attempt": 7,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "00_seek_title_07_vram0_04000000.png",
+            "raw_sha256": "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094",
+            "score": 4819705,
+            "title_similarity": {
+              "mae": 52.759375,
+              "exactish_ratio": 0.028125,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "00_seek_title_07_vram1_04044000.png",
+            "raw_sha256": "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094",
+            "score": 4819705,
+            "title_similarity": {
+              "mae": 52.759375,
+              "exactish_ratio": 0.028125,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "00_seek_title_07_vram0_04000000.png"
+      }
+    },
+    {
+      "attempt": 8,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "00_seek_title_08_vram0_04000000.png",
+            "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+            "score": 3251097,
+            "title_similarity": {
+              "mae": 0.0,
+              "exactish_ratio": 1.0,
+              "is_title": true
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "00_seek_title_08_vram1_04044000.png",
+            "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+            "score": 3251097,
+            "title_similarity": {
+              "mae": 0.0,
+              "exactish_ratio": 1.0,
+              "is_title": true
+            }
+          }
+        ],
+        "preferred": "00_seek_title_08_vram0_04000000.png"
+      }
+    }
+  ],
+  "title_detected": true,
+  "main_menu_capture": {
+    "buffers": [
+      {
+        "buffer_index": 0,
+        "address": "0x04000000",
+        "file": "01_main_menu_candidate_vram0_04000000.png",
+        "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+        "score": 0,
+        "title_similarity": {
+          "mae": 105.409375,
+          "exactish_ratio": 0.0,
+          "is_title": false
+        }
+      },
+      {
+        "buffer_index": 1,
+        "address": "0x04044000",
+        "file": "01_main_menu_candidate_vram1_04044000.png",
+        "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+        "score": 0,
+        "title_similarity": {
+          "mae": 105.409375,
+          "exactish_ratio": 0.0,
+          "is_title": false
+        }
+      }
+    ],
+    "preferred": "01_main_menu_candidate_vram0_04000000.png"
+  },
+  "main_menu_start_retries": 0,
+  "ram_search_at_main_menu": {
+    "START 버튼을 누르십시오": [
+      "0x08DC65E9",
+      "0x099026A0"
+    ],
+    "스토리": [
+      "0x093B1B40",
+      "0x093B1BF0"
+    ],
+    "스커미시": [
+      "0x09902998",
+      "0x09902FF4",
+      "0x0990301C",
+      "0x09903034",
+      "0x0990304C",
+      "0x09903108",
+      "0x09903448",
+      "0x09903460",
+      "0x09903478",
+      "0x099034D0",
+      "0x099034EC",
+      "0x09903508"
+    ],
+    "옵션": [
+      "0x099028F0"
+    ],
+    "스커미시 로비": [],
+    "게임 팁:": [],
+    "늪을 건너": []
+  },
+  "main_menu_down_sweep": [
+    {
+      "down_count": 0,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "01_main_menu_candidate_vram0_04000000.png",
+            "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+            "score": 0,
+            "title_similarity": {
+              "mae": 105.409375,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "01_main_menu_candidate_vram1_04044000.png",
+            "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+            "score": 0,
+            "title_similarity": {
+              "mae": 105.409375,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "01_main_menu_candidate_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 1,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_main_down_1_vram0_04000000.png",
+            "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+            "score": 3490527,
+            "title_similarity": {
+              "mae": 74.01354166666667,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_main_down_1_vram1_04044000.png",
+            "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+            "score": 3490527,
+            "title_similarity": {
+              "mae": 74.01354166666667,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "02_main_down_1_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 2,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_main_down_2_vram0_04000000.png",
+            "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+            "score": 3490527,
+            "title_similarity": {
+              "mae": 74.01354166666667,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_main_down_2_vram1_04044000.png",
+            "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+            "score": 3490527,
+            "title_similarity": {
+              "mae": 74.01354166666667,
+              "exactish_ratio": 0.0,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "02_main_down_2_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 3,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_main_down_3_vram0_04000000.png",
+            "raw_sha256": "47136d342d2e30bca2cbada4a88d7ffca27571248b8486e809ad3f6961c426fd",
+            "score": 3590019,
+            "title_similarity": {
+              "mae": 68.8375,
+              "exactish_ratio": 0.01875,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_main_down_3_vram1_04044000.png",
+            "raw_sha256": "47136d342d2e30bca2cbada4a88d7ffca27571248b8486e809ad3f6961c426fd",
+            "score": 3590019,
+            "title_similarity": {
+              "mae": 68.8375,
+              "exactish_ratio": 0.01875,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "02_main_down_3_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 4,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_main_down_4_vram0_04000000.png",
+            "raw_sha256": "be331c12b9e5512481babc5a0483986a67304043eeb00164cfce113aa1aa3c96",
+            "score": 3590024,
+            "title_similarity": {
+              "mae": 68.8375,
+              "exactish_ratio": 0.01875,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_main_down_4_vram1_04044000.png",
+            "raw_sha256": "be331c12b9e5512481babc5a0483986a67304043eeb00164cfce113aa1aa3c96",
+            "score": 3590024,
+            "title_similarity": {
+              "mae": 68.8375,
+              "exactish_ratio": 0.01875,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "02_main_down_4_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 5,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_main_down_5_vram0_04000000.png",
+            "raw_sha256": "cbac0b0ad14c097af1d141d9aa354181e64dc0727329fd27cb14d8413384b620",
+            "score": 3590021,
+            "title_similarity": {
+              "mae": 68.86458333333333,
+              "exactish_ratio": 0.01875,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_main_down_5_vram1_04044000.png",
+            "raw_sha256": "cbac0b0ad14c097af1d141d9aa354181e64dc0727329fd27cb14d8413384b620",
+            "score": 3590021,
+            "title_similarity": {
+              "mae": 68.86458333333333,
+              "exactish_ratio": 0.01875,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "02_main_down_5_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 6,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_main_down_6_vram0_04000000.png",
+            "raw_sha256": "bf7d1240c91b3b5ae9d79c2bba8f54af59e3483dea0febcee18d0341fe03bc0a",
+            "score": 3590020,
+            "title_similarity": {
+              "mae": 68.79166666666667,
+              "exactish_ratio": 0.01875,
+              "is_title": false
+            }
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_main_down_6_vram1_04044000.png",
+            "raw_sha256": "bf7d1240c91b3b5ae9d79c2bba8f54af59e3483dea0febcee18d0341fe03bc0a",
+            "score": 3590020,
+            "title_similarity": {
+              "mae": 68.79166666666667,
+              "exactish_ratio": 0.01875,
+              "is_title": false
+            }
+          }
+        ],
+        "preferred": "02_main_down_6_vram0_04000000.png"
+      }
+    }
+  ],
+  "runtime_render_verified": false,
+  "next_action": "Inspect down_count 0..6 captures, identify exact Skirmish selection, then confirm only that item."
+}

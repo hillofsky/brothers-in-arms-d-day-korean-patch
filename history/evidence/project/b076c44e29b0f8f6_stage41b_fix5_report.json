@@ -1,0 +1,1325 @@
+{
+  "stage": "41B_FIX5",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "purpose": "Correct Fix4 event-queue loss: flush pre-existing events BEFORE arming, retain all post-arm breakpoint events, record memory.breakpoint.list hit counters, and optionally use one pause-on-read breakpoint for an exact reader PC.",
+  "started": "2026-10-06 20:56:31",
+  "version": {
+    "event": "version",
+    "ticket": 3001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "cpu_status_start": {
+    "ok": true,
+    "response": {
+      "event": "cpu.status",
+      "ticket": 3002,
+      "stepping": false,
+      "paused": true,
+      "pc": 142622896,
+      "ticks": 0
+    }
+  },
+  "auto_navigation": {
+    "logo": {
+      "ended": true,
+      "samples": [
+        {
+          "t": 0.0,
+          "active": false
+        },
+        {
+          "t": 0.74,
+          "active": false
+        },
+        {
+          "t": 1.47,
+          "active": true
+        },
+        {
+          "t": 2.18,
+          "active": true
+        },
+        {
+          "t": 2.9,
+          "active": true
+        },
+        {
+          "t": 3.62,
+          "active": true
+        },
+        {
+          "t": 4.33,
+          "active": true
+        },
+        {
+          "t": 5.05,
+          "active": true
+        },
+        {
+          "t": 5.77,
+          "active": true
+        },
+        {
+          "t": 6.5,
+          "active": true
+        },
+        {
+          "t": 7.24,
+          "active": true
+        },
+        {
+          "t": 7.96,
+          "active": true
+        },
+        {
+          "t": 8.68,
+          "active": true
+        },
+        {
+          "t": 9.39,
+          "active": true
+        },
+        {
+          "t": 10.11,
+          "active": true
+        },
+        {
+          "t": 10.82,
+          "active": true
+        },
+        {
+          "t": 11.54,
+          "active": true
+        },
+        {
+          "t": 12.26,
+          "active": true
+        },
+        {
+          "t": 12.99,
+          "active": true
+        },
+        {
+          "t": 13.73,
+          "active": false
+        }
+      ]
+    },
+    "frontend_route": [
+      {
+        "attempt": 1,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3023
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3024
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3025
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3026
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.43,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.85,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.27,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.69,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.11,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.54,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.97,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.39,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.83,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.25,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.68,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.11,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.54,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.96,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.39,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.79,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 9.19,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3045
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3046
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3047
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3048
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.3,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.73,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.16,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.58,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.41,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.85,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.25,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.68,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.11,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.53,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.96,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.39,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.81,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3066
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3067
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3068
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3069
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.29,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.72,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.14,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.57,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.0,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.4,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.83,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.25,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.68,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.11,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.51,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.94,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.36,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.79,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3087
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3088
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3089
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3090
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.47,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.88,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.29,
+            "word_hex": "0x0E327D1A"
+          }
+        ]
+      }
+    ],
+    "campaign_loaded": true,
+    "down_to_new_game": {
+      "down": {
+        "event": "input.buttons.send",
+        "ticket": 3095
+      },
+      "up": {
+        "event": "input.buttons.send",
+        "ticket": 3096
+      }
+    },
+    "cross_new_game": {
+      "down": {
+        "event": "input.buttons.send",
+        "ticket": 3097
+      },
+      "up": {
+        "event": "input.buttons.send",
+        "ticket": 3098
+      }
+    }
+  },
+  "pre_arm_flush": {
+    "count": 237329,
+    "types": {
+      "log": 237306,
+      "input.buttons": 20,
+      "input.analog": 2,
+      "game.start": 1
+    },
+    "memory_hits": 0
+  },
+  "watchpoint_add": [
+    {
+      "offset_hex": "0x0",
+      "address_hex": "0x08E1F21C",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3099
+        }
+      }
+    },
+    {
+      "offset_hex": "0x6e",
+      "address_hex": "0x08E1F28A",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3100
+        }
+      }
+    },
+    {
+      "offset_hex": "0x28f",
+      "address_hex": "0x08E1F4AB",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3101
+        }
+      }
+    },
+    {
+      "offset_hex": "0x39e",
+      "address_hex": "0x08E1F5BA",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3102
+        }
+      }
+    },
+    {
+      "offset_hex": "0x4b5",
+      "address_hex": "0x08E1F6D1",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3103
+        }
+      }
+    },
+    {
+      "offset_hex": "0x55c",
+      "address_hex": "0x08E1F778",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3104
+        }
+      }
+    },
+    {
+      "offset_hex": "0x59d",
+      "address_hex": "0x08E1F7B9",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3105
+        }
+      }
+    }
+  ],
+  "bp_list_immediately_after_arm": {
+    "ok": true,
+    "breakpoints": [
+      {
+        "address": 149025308,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025418,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025963,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026234,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026513,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026680,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026745,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      }
+    ],
+    "total_hits": 0
+  },
+  "pre_cross_events": {
+    "count": 1072,
+    "types": {
+      "log": 1072
+    },
+    "memory_hit_count": 0
+  },
+  "bp_list_before_cross": {
+    "ok": true,
+    "breakpoints": [
+      {
+        "address": 149025308,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025418,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025963,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026234,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026513,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026680,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026745,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      }
+    ],
+    "total_hits": 0
+  },
+  "pause_read_add": {
+    "ok": true,
+    "response": {
+      "event": "memory.breakpoint.add",
+      "ticket": 3108
+    }
+  },
+  "bp_list_pre_difficulty": {
+    "ok": true,
+    "breakpoints": [
+      {
+        "address": 149025308,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025418,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025963,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026234,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026513,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026680,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026745,
+        "size": 8,
+        "enabled": true,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      }
+    ],
+    "total_hits": 0
+  },
+  "cross_normal": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3110
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3111
+    }
+  },
+  "early_event_types": {
+    "log": 6353,
+    "input.buttons": 2,
+    "cpu.stepping": 1
+  },
+  "early_memory_hit_count": 0,
+  "pause_hit_details": [],
+  "bp_list_after_25s": {
+    "ok": true,
+    "breakpoints": [
+      {
+        "address": 149025308,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 34,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025418,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 24,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025963,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 24,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026234,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 24,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026513,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 24,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026680,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 25,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026745,
+        "size": 8,
+        "enabled": true,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 1,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      }
+    ],
+    "total_hits": 156
+  },
+  "st1_search": [
+    {
+      "t": 0.0,
+      "known_score": 3
+    }
+  ],
+  "st1_base_hex": "0x08E1F21C",
+  "st1_verify": [
+    {
+      "label": "title",
+      "address_hex": "0x08E1F21C",
+      "ok": true,
+      "got_hex": "ec9ab4ebaa85ec9d9820eb9e91eb8db0ebb680"
+    },
+    {
+      "label": "baker",
+      "address_hex": "0x08E1F28A",
+      "ok": true,
+      "got_hex": "ebb2a0ec9db4ecbba43a"
+    },
+    {
+      "label": "mac",
+      "address_hex": "0x08E1F4AB",
+      "ok": true,
+      "got_hex": "eba7a53a"
+    }
+  ],
+  "subtitle_ram_copies": {
+    "title": [
+      "0x08E1F21C"
+    ],
+    "baker": [
+      "0x08E1F28A",
+      "0x08E1F2EB",
+      "0x08E1F344",
+      "0x08E1F3C0",
+      "0x08E1F431",
+      "0x08E1F463",
+      "0x08E1F7B9"
+    ],
+    "mac": [
+      "0x08E1F4AB",
+      "0x08E1F4DB",
+      "0x08E1F50A",
+      "0x08E1F546",
+      "0x08E1F5BA",
+      "0x08E1F6D1",
+      "0x08E1F778"
+    ]
+  },
+  "fallback_pause_read_add": {
+    "ok": true,
+    "response": {
+      "event": "memory.breakpoint.add",
+      "ticket": 3373
+    }
+  },
+  "later_event_types": {
+    "log": 262
+  },
+  "later_memory_hit_count": 0,
+  "fallback_pause_hit_details": [],
+  "bp_list_after_movie_window": {
+    "ok": true,
+    "breakpoints": [
+      {
+        "address": 149025308,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 34,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025418,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 24,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149025963,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 24,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026234,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 24,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026513,
+        "size": 8,
+        "enabled": false,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 24,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026745,
+        "size": 8,
+        "enabled": true,
+        "log": true,
+        "read": true,
+        "write": true,
+        "change": false,
+        "hits": 1,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      },
+      {
+        "address": 149026680,
+        "size": 8,
+        "enabled": true,
+        "log": true,
+        "read": true,
+        "write": false,
+        "change": false,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      }
+    ],
+    "total_hits": 131
+  },
+  "memory_event_hit_count": 0,
+  "event_sequence_minmax": null,
+  "reader_writer_pcs": [],
+  "candidate_disasm": [],
+  "watchpoint_remove": [
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3375
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3376
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3377
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3378
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3379
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3380
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "memory.breakpoint.remove",
+        "ticket": 3381
+      }
+    }
+  ],
+  "threads_end": {
+    "ok": true,
+    "response": {
+      "event": "hle.thread.list",
+      "ticket": 3382,
+      "threads": [
+        {
+          "id": 272,
+          "name": "idle0",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138407936,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 273,
+          "name": "idle1",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138403840,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 323,
+          "name": "user_main",
+          "status": 1,
+          "statuses": [
+            "running"
+          ],
+          "pc": 143907820,
+          "entry": 142718184,
+          "initialStackSize": 167463936,
+          "currentStackSize": 307200,
+          "priority": 96,
+          "waitType": 0,
+          "isCurrent": true
+        },
+        {
+          "id": 325,
+          "name": "ExitCallbackThread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 142717376,
+          "entry": 142717312,
+          "initialStackSize": 167771136,
+          "currentStackSize": 1024,
+          "priority": 16,
+          "waitType": 1,
+          "isCurrent": false
+        }
+      ]
+    }
+  },
+  "completed": false,
+  "error": "RuntimeError('No memory breakpoint PC event captured. Breakpoint-list hit counters are preserved in the report for the next diagnostic.')",
+  "bp_list_at_failure": {
+    "ok": true,
+    "breakpoints": [],
+    "total_hits": 0
+  },
+  "threads_at_failure": {
+    "ok": true,
+    "response": {
+      "event": "hle.thread.list",
+      "ticket": 3384,
+      "threads": [
+        {
+          "id": 272,
+          "name": "idle0",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138407936,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 273,
+          "name": "idle1",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138403840,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 323,
+          "name": "user_main",
+          "status": 1,
+          "statuses": [
+            "running"
+          ],
+          "pc": 143907820,
+          "entry": 142718184,
+          "initialStackSize": 167463936,
+          "currentStackSize": 307200,
+          "priority": 96,
+          "waitType": 0,
+          "isCurrent": true
+        },
+        {
+          "id": 325,
+          "name": "ExitCallbackThread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 142717376,
+          "entry": 142717312,
+          "initialStackSize": 167771136,
+          "currentStackSize": 1024,
+          "priority": 16,
+          "waitType": 1,
+          "isCurrent": false
+        }
+      ]
+    }
+  },
+  "finished": "2026-10-06 20:59:28"
+}

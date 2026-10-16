@@ -1,0 +1,556 @@
+{
+  "step": "STEP_048",
+  "reference_group": "D2_1000_FALLOFSTCOMEDUMONT",
+  "rows": 47,
+  "control_tokens_pass": true,
+  "pipe_counts_pass": true,
+  "expected_status_after": {
+    "VERIFIED_APPLIED": 137,
+    "TRANSLATED_PENDING_APPLY": 90,
+    "TRANSLATED_REVIEWED": 227,
+    "NEEDS_TRANSLATION": 848
+  },
+  "iso_modified": false,
+  "movie_validation_resumed": false,
+  "checks": [
+    {
+      "resource_id": "BIA-01318",
+      "source_text": "Mac and Leggett",
+      "ko": "맥과 레겟",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 13,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01343",
+      "source_text": "Clear the Southwest quadrant of St. Come-Du-Mont.",
+      "ko": "생콤뒤몽 남서 구역을 소탕하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 43,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01369",
+      "source_text": "Find a Panzerfaust for use against the tank.",
+      "ko": "전차를 파괴할 판처파우스트를 찾아라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 52,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01456",
+      "source_text": "The Fall of St. Come-du-Mont",
+      "ko": "생콤뒤몽 함락",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 19,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01486",
+      "source_text": "Allen: All I'm saying is, logistically Superman would break Batman in half.",
+      "ko": "앨런: 내 말은, 현실적으로 따지면 슈퍼맨이 배트맨을 반으로 접어 버릴 거라는 거야.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 113,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01488",
+      "source_text": "Allen: And it's a wonder you don't like him Leggett.",
+      "ko": "앨런: 레겟, 네가 그런 놈을 안 좋아한다니 놀랍네.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 67,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01495",
+      "source_text": "Allen: Leggett, he can melt things with his eyes.  HIS EYES.",
+      "ko": "앨런: 레겟, 걘 눈으로 물건을 녹일 수 있다고. 눈으로!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 72,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01556",
+      "source_text": "Baker: I look at these guys and I see them as my family, my brothers.",
+      "ko": "베이커: 이 녀석들을 보면 가족 같아. 내 형제들.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 64,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01557",
+      "source_text": "Baker: I mean, I'm eight years old and my dad is driving away and out of my life.",
+      "ko": "베이커: 난 여덟 살인데, 아버지가 차를 몰고 떠나 내 인생에서 사라지고 있어.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 104,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01561",
+      "source_text": "Baker: I remember in high school thinking that George was the only family I needed.",
+      "ko": "베이커: 고등학교 때 조지만 있으면 다른 가족은 필요 없다고 생각했던 게 기억난다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 112,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01568",
+      "source_text": "Baker: I'm just thinking, you're my dad, why the hell aren't you here for me?  Duty.",
+      "ko": "베이커: 아버지잖아. 왜 나한테 있어 주지 않는 거지? 의무라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 81,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01590",
+      "source_text": "Baker: That even though he didn't want to leave, he had to.",
+      "ko": "베이커: 떠나고 싶지 않았어도, 떠나야 했다는 걸.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 66,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01594",
+      "source_text": "Baker: They're the only family I got left.",
+      "ko": "베이커: 내게 남은 가족은 이들뿐이다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 51,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01605",
+      "source_text": "Baker: When my parents split up I was eight.  My Dad packed up his car and gave me some stupid speech about duty, honor and country.",
+      "ko": "베이커: 부모님이 갈라섰을 때 난 여덟 살이었다. 아버지는 차에 짐을 싣고 의무, 명예, 조국이 어쩌고 하는 멍청한 연설을 했다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 170,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01702",
+      "source_text": "Corrion: Everybody get down!",
+      "ko": "코리온: 모두 엎드려!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 28,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01737",
+      "source_text": "D+2 1000",
+      "ko": "D+2 10:00",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 9,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01752",
+      "source_text": "Defend against the infantry attack before attempting to destroy the tank.",
+      "ko": "전차를 파괴하기 전에 보병의 공격을 막아라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 60,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01902",
+      "source_text": "Garnett: Why would you fill-",
+      "ko": "가넷: 왜 굳이 채우려고-",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 32,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01904",
+      "source_text": "Garnett: Yeah with a name like bat-a-rang, why would anyone think Batman is a sissy?",
+      "ko": "가넷: 그래, 이름부터 배터랭인데 누가 배트맨을 겁쟁이라고 생각하겠어?",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 97,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01915",
+      "source_text": "German Stug",
+      "ko": "독일군 StuG",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 14,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01933",
+      "source_text": "Hartsock: Baker, CONTACT!",
+      "ko": "하트삭: 베이커, 적이다!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 32,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02056",
+      "source_text": "Leggett: Are you calling the bat-a-rang a sissy toy?",
+      "ko": "레겟: 지금 배터랭이 겁쟁이 장난감이란 거야?",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 61,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02071",
+      "source_text": "Leggett: I happen to like superheroes that have a brain.",
+      "ko": "레겟: 난 머리 쓰는 슈퍼히어로가 좋거든.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 55,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02095",
+      "source_text": "Leggett: Superman doesn't even have a cool identity.  He just puts on glasses and acts like a jackass.",
+      "ko": "레겟: 슈퍼맨은 멋진 정체도 없어. 안경만 쓰고 얼간이처럼 굴잖아.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 89,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02117",
+      "source_text": "Link up with Mac and Leggett.",
+      "ko": "맥과 레겟에게 합류하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 33,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02118",
+      "source_text": "Look for a German Panzerfaust to destroy the tank.",
+      "ko": "독일군 판처파우스트를 찾아 전차를 파괴하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 62,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02126",
+      "source_text": "Mac: ...and you didn't want to be squad leader.",
+      "ko": "맥: ...분대장 하기 싫다더니.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 38,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02128",
+      "source_text": "Mac: Alright boy wonder, we gotta get movin'.",
+      "ko": "맥: 좋아, 꼬마 영웅. 움직여야 한다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 48,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02129",
+      "source_text": "Mac: Alright, Baker.  Make it happen.",
+      "ko": "맥: 좋아, 베이커. 해치워.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 34,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02168",
+      "source_text": "Mac: Don't.",
+      "ko": "맥: 하지 마.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 16,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02207",
+      "source_text": "Mac: Knock it off.  There's enough bullshit to fill a swimming pool around here.",
+      "ko": "맥: 그만해. 여기 헛소리만 모아도 수영장 하나는 채우겠다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 79,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02216",
+      "source_text": "Mac: Listen, Baker.  I need this town cleared.",
+      "ko": "맥: 잘 들어, 베이커. 이 마을을 소탕해야 한다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 62,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02221",
+      "source_text": "Mac: Not a lot of time here Baker.  Leggett got word from upstairs that a tank is moving into this area.",
+      "ko": "맥: 시간 별로 없어, 베이커. 레겟이 상부에서 이쪽으로 전차가 움직이고 있다는 연락을 받았다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 127,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02248",
+      "source_text": "Mac: The whole 101st is moving in tomorrow and we want to make sure things are nice and cozy for them when they get here.",
+      "ko": "맥: 내일 101공수사단 전체가 들어온다. 도착했을 때 편히 자리 잡을 수 있게 해 주자.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 112,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02249",
+      "source_text": "Mac: Their ammo resupply is right on the other side of this building, so find anything you can to make sure that tank doesn't get into town.",
+      "ko": "맥: 놈들의 탄약 보급소가 이 건물 바로 반대편에 있다. 그 전차가 마을에 들어오지 못하게 할 수 있는 건 뭐든 찾아.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 154,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02253",
+      "source_text": "Mac: There's a lot of movement still in the area, so we'll stay here and cover your ass.  Go.",
+      "ko": "맥: 아직 주변에 움직임이 많다. 우린 여기서 네 뒤를 봐주겠다. 가.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 89,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02280",
+      "source_text": "Mac: You know if I gave anyone else the order to attack a tank on foot, they'd probably just tell me to go to hell.",
+      "ko": "맥: 다른 누구에게 맨몸으로 전차를 공격하라고 명령했으면 아마 나더러 꺼지라고 했을 거다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 124,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02283",
+      "source_text": "Mac: You're one tough son of a bitch.",
+      "ko": "맥: 넌 정말 독한 놈이야.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 33,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02381",
+      "source_text": "Order your teammate to destroy the enemy tank. %newline%Press %Button_Cross% to continue.",
+      "ko": "분대원에게 적 전차를 파괴하라고 명령한다. %newline%계속하려면 %Button_Cross%를 누른다.",
+      "source_tokens": [
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "ko_tokens": [
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 113,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02382",
+      "source_text": "Order your teammates to mount the MG42 and then issue a Suppress Order.",
+      "ko": "분대원들에게 MG42를 운용하게 한 뒤 제압 명령을 내린다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 75,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02409",
+      "source_text": "Press %icon_order% on the weapon to order your teammates to use the Panzerfaust left behind by the enemy.",
+      "ko": "%icon_order%를 눌러 분대원에게 적이 남긴 판처파우스트를 사용하라고 명령한다.",
+      "source_tokens": [
+        "%icon_order%"
+      ],
+      "ko_tokens": [
+        "%icon_order%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 104,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02469",
+      "source_text": "St. Come-du-Mont, France",
+      "ko": "프랑스 생콤뒤몽",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 22,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02485",
+      "source_text": "Tanks are only vulnerable to anti-tank weapons such as the Panzerfaust. %newline%Press %Button_Cross% to continue.",
+      "ko": "전차는 판처파우스트 같은 대전차 무기에만 피해를 입는다. %newline%계속하려면 %Button_Cross%를 누른다.",
+      "source_tokens": [
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "ko_tokens": [
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 133,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02538",
+      "source_text": "Use the Panzerfasut to destroy the enemy tank.",
+      "ko": "판처파우스트로 적 전차를 파괴하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 49,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02539",
+      "source_text": "Use the Panzerfaust to destroy the enemy tank. %newline%Press %Button_Cross% to continue.",
+      "ko": "판처파우스트로 적 전차를 파괴하라. %newline%계속하려면 %Button_Cross%를 누른다.",
+      "source_tokens": [
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "ko_tokens": [
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 103,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02542",
+      "source_text": "Use the walls to flank the enemies.",
+      "ko": "벽을 이용해 적의 측면을 공격하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 47,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02586",
+      "source_text": "Your teammates can use Panzerfausts, in the same way as the MG42.",
+      "ko": "분대원은 MG42와 같은 방식으로 판처파우스트를 사용할 수 있다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 84,
+      "max_bytes": ""
+    }
+  ]
+}

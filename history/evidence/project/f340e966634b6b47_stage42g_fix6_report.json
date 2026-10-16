@@ -1,0 +1,26 @@
+{
+  "stage": "42G_FIX6_AUTOENTRY_REGISTER_512_PROOF",
+  "iso": "PROJECT_ROOT\\BIA_STAGE42G_GLOBAL_512_ATLAS_PROBE.iso",
+  "purpose": "Avoid JIT/code-memory ambiguity entirely: stop immediately before the subtitle texture-image call and override its live arguments a1/a2/a3 from 256/128/256 to 512/512/512.",
+  "expected_call": {
+    "loader_pc_hex": "0x0893D454",
+    "loader_ra_hex": "0x0893E760",
+    "texture_call_site_hex": "0x0893D980",
+    "before": {
+      "a1": 256,
+      "a2": 128,
+      "a3": 256
+    },
+    "after": {
+      "a1": 512,
+      "a2": 512,
+      "a3": 512
+    }
+  },
+  "started": "2026-10-07 11:45:47",
+  "event_counts": {},
+  "screenshots": [],
+  "completed": false,
+  "error": "RuntimeError('debugger unavailable')",
+  "finished": "2026-10-07 11:50:44"
+}

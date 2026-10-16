@@ -1,0 +1,145 @@
+{
+  "stage": "42D_BOOKENDS2_KO_PROOF",
+  "source": "PROJECT_ROOT\\BIA_STAGE42C_HIGHBYTE_KEY_PROBE.iso",
+  "output": "PROJECT_ROOT\\BIA_STAGE42D_BOOKENDS2_KO_PROOF.iso",
+  "patches": [
+    {
+      "name": "SUBTITLEHASHMAP.INI",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLEHASHMAP.INI",
+      "lbn": 510976,
+      "size": 4275,
+      "old_sha1": "441c1fb76940bc2924333920537ac39ff6e49590",
+      "new_sha1": "439a54faede2a852617706d7b1d95d6e7c5a687b"
+    },
+    {
+      "name": "SUBTITLETEXTURE.RAW",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLETEXTURE.RAW",
+      "lbn": 510992,
+      "size": 131072,
+      "old_sha1": "d25634c34ecdd27abd16b4706781f6d5e04d3e4d",
+      "new_sha1": "e2096f8c39c7dc6d2c53620b1a1929af65cfb4b5"
+    },
+    {
+      "name": "EM_1230_BOOKENDS2.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1",
+      "lbn": 133472,
+      "size": 3190,
+      "old_sha1": "6d30acd73ce6c206b06af938ed86dead891ba4da",
+      "new_sha1": "8e265840cb5fbd490fb639a29f5560dfc50f1d69"
+    }
+  ],
+  "aliases": [
+    {
+      "target": "FM_0115EAGLESJUMP.BIK",
+      "source": "EM_1230_BOOKENDS2.BIK",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.BIK",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.BIK",
+      "old_extent": 630336,
+      "old_size": 59632900,
+      "new_extent": 514032,
+      "new_size": 59114156
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.ST1",
+      "source": "EM_1230_BOOKENDS2.ST1",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1",
+      "old_extent": 727332,
+      "old_size": 1482,
+      "new_extent": 133472,
+      "new_size": 3190
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.ST2",
+      "source": "EM_1230_BOOKENDS2.ST2",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST2",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST2",
+      "old_extent": 140384,
+      "old_size": 1603,
+      "new_extent": 133488,
+      "new_size": 3509
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.ST3",
+      "source": "EM_1230_BOOKENDS2.ST3",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST3",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST3",
+      "old_extent": 140400,
+      "old_size": 1535,
+      "new_extent": 133504,
+      "new_size": 3201
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.ST4",
+      "source": "EM_1230_BOOKENDS2.ST4",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST4",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST4",
+      "old_extent": 140416,
+      "old_size": 1574,
+      "new_extent": 133520,
+      "new_size": 3261
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.ST5",
+      "source": "EM_1230_BOOKENDS2.ST5",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST5",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST5",
+      "old_extent": 140432,
+      "old_size": 1525,
+      "new_extent": 133536,
+      "new_size": 3116
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.TI1",
+      "source": "EM_1230_BOOKENDS2.TI1",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.TI1",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.TI1",
+      "old_extent": 140448,
+      "old_size": 1048576,
+      "new_extent": 133552,
+      "new_size": 1048576
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.TI2",
+      "source": "EM_1230_BOOKENDS2.TI2",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.TI2",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.TI2",
+      "old_extent": 140960,
+      "old_size": 1048576,
+      "new_extent": 134064,
+      "new_size": 1048576
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.TI3",
+      "source": "EM_1230_BOOKENDS2.TI3",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.TI3",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.TI3",
+      "old_extent": 141472,
+      "old_size": 1048576,
+      "new_extent": 134576,
+      "new_size": 1048576
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.TI4",
+      "source": "EM_1230_BOOKENDS2.TI4",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.TI4",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.TI4",
+      "old_extent": 141984,
+      "old_size": 1048576,
+      "new_extent": 135088,
+      "new_size": 1048576
+    },
+    {
+      "target": "FM_0115EAGLESJUMP.TI5",
+      "source": "EM_1230_BOOKENDS2.TI5",
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.TI5",
+      "source_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.TI5",
+      "old_extent": 142496,
+      "old_size": 1048576,
+      "new_extent": 135600,
+      "new_size": 1048576
+    }
+  ],
+  "completed": true,
+  "output_size": 1489577984
+}

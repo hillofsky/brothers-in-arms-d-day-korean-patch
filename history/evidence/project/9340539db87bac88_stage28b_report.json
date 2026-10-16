@@ -1,0 +1,175 @@
+{
+  "stage": "28B",
+  "purpose": "Use a conditional decoder execution breakpoint with nonblocking PSP Start injection so the script can observe the CPU pause and capture exact decode state/caller",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso_fallback": "PROJECT_ROOT\\BIA_STAGE22_RUNTIME_DESCRIPTOR_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "texture_replacement_enabled": false,
+  "texture_storage": {
+    "mdi_stream": 22,
+    "runtime_address": "0x0987D020",
+    "bytes": 32768,
+    "sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "boot_iso": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso",
+  "iso_prepare": {
+    "mode": "reuse",
+    "path": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso"
+  },
+  "previous_ppsspp": {
+    "found": false
+  },
+  "launched_ppsspp_pid": 26108,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "descriptor_breakpoint_add": {
+    "attempts": 1,
+    "condition": "a0 == 0x08E693C1",
+    "break_pc": "0x0881BF5C",
+    "actual_store_pc": "0x0881BF60",
+    "result": {
+      "event": "cpu.breakpoint.add",
+      "ticket": 1002
+    }
+  },
+  "descriptor_breakpoint_before": {
+    "event": "memory.breakpoint.list",
+    "ticket": 1003,
+    "breakpoints": []
+  },
+  "advance_to_pause": {
+    "paused": true,
+    "status": {
+      "event": "cpu.status",
+      "ticket": 3550,
+      "stepping": true,
+      "paused": false,
+      "pc": 142720860,
+      "ticks": 2593175989
+    },
+    "start_presses": 183,
+    "pending_input_tickets": [
+      3275,
+      3289,
+      3303,
+      3317,
+      3331,
+      3345,
+      3359,
+      3373,
+      3387,
+      3400,
+      3414,
+      3428,
+      3441,
+      3454,
+      3468,
+      3482,
+      3496,
+      3510,
+      3524,
+      3538
+    ],
+    "elapsed_seconds": 34.932
+  },
+  "pause_snapshot": {
+    "cpu_status": {
+      "event": "cpu.status",
+      "ticket": 3551,
+      "stepping": true,
+      "paused": false,
+      "pc": 142720860,
+      "ticks": 2593175989
+    },
+    "pc": "0x0881BF5C",
+    "expected_break_pc": "0x0881BF5C",
+    "actual_store_pc": "0x0881BF60",
+    "pc_matches_expected_break": true,
+    "condition": "a0 == 0x08E693C1",
+    "registers": {
+      "zero": "0x00000000",
+      "at": "0x08E69460",
+      "v0": "0x00000000",
+      "v1": "0x00000001",
+      "a0": "0x08E693C1",
+      "a1": "0x08EA5020",
+      "a2": "0x041061E0",
+      "a3": "0x09FEC368",
+      "t0": "0x00000000",
+      "t1": "0x00004000",
+      "t2": "0x00000001",
+      "t3": "0x09FEC292",
+      "t4": "0xFFFFFFFE",
+      "t5": "0x09FEC292",
+      "t6": "0x08E2D020",
+      "t7": "0x08CE9380",
+      "s0": "0x00078000",
+      "s1": "0x010887F0",
+      "s2": "0x08E2D020",
+      "s3": "0x08D10000",
+      "s4": "0x08E693C1",
+      "s5": "0x08DB0000",
+      "s6": "0x00000001",
+      "s7": "0x09FEE3A4",
+      "t8": "0x92492492",
+      "t9": "0xFFFFFFF5",
+      "k0": "0x09FFFB00",
+      "k1": "0xDEADBEEF",
+      "gp": "0x08DCA7F0",
+      "sp": "0x09FEBFE0",
+      "fp": "0x04100000",
+      "ra": "0x0881BF48",
+      "pc": "0x0881BF5C",
+      "hi": "0x0881BEE0",
+      "lo": "0xDEADBEEF"
+    },
+    "decoder_interpretation": {
+      "output_start_t6": "0x08E2D020",
+      "output_end_a1": "0x08EA5020",
+      "current_output_a0": "0x08E693C1",
+      "predicted_write_a0_minus_1": "0x08E693C0",
+      "compressed_cursor_a2": "0x041061E0",
+      "optional_updated_cursor_ptr_a3": "0x09FEC368",
+      "lz_backref_s4": "0x08E693C1",
+      "descriptor_offset_from_output_start": "0x3C3A0"
+    },
+    "stack_frame": {
+      "sp": "0x09FEBFE0",
+      "saved_caller_ra_sp_plus_310": "0x08805CB8",
+      "caller_jal_candidate_ra_minus_8": "0x08805CB0",
+      "saved_s4_sp_plus_308": "0x09FEC364"
+    }
+  },
+  "descriptor_breakpoint_remove": {
+    "event": "cpu.breakpoint.remove",
+    "ticket": 3557
+  },
+  "resume_status": {
+    "event": "cpu.status",
+    "ticket": 3558,
+    "stepping": false,
+    "paused": false,
+    "pc": 142720860,
+    "ticks": 2593175989
+  },
+  "boot_automation_after_pause": {
+    "input_method": "PPSSPP WebSocket input.buttons.press",
+    "fast_forward_supported": false,
+    "fast_forward_response": null,
+    "fast_forward_error": "Bad message: unknown event",
+    "start_presses": 43,
+    "elapsed_seconds": 9.004
+  },
+  "menu_detected": true,
+  "ppsspp_log_parse_error": "name 're' is not defined",
+  "completed": true,
+  "expected_before": "garbled menu before UV repair",
+  "expected_after_descriptor": "normal English menu after V-coordinate x2 repair",
+  "expected_after": "한한한한한; other menu labels normal"
+}

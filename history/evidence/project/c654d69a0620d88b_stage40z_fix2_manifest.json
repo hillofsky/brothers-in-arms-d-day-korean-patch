@@ -1,0 +1,19 @@
+{
+  "stage": "40Z-fix2",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "modifies_iso": false,
+  "corrected_gates": {
+    "selectable_main_menu": "Skirmish U+CEE4 at 0x08C7F2FC with RA 0x08972368 after title Start",
+    "first_mission_ready": {
+      "font_objects": [
+        "0x09C1AF84",
+        "0x09C1D11C"
+      ],
+      "glyph_count": 847,
+      "glyph_ptr": "0x09E6B020",
+      "atlas": "0x09DF3020 / 0x20000 / SHA1 b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "pause_payload": "0x09E76FC4 = 챕터 계속"
+    },
+    "pause": "U+CC55 hit at campaign Unicode lookup 0x08C5CED4 only"
+  }
+}

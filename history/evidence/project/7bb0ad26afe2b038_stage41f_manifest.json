@@ -1,0 +1,1522 @@
+{
+  "stage": "41F",
+  "scope": "complete first movie: 19 ST1 fields one-byte mapped",
+  "source_expected_sha1": {
+    "FM_0115EAGLESJUMP.ST1": "22376d64818e019c78a1e26d371a7111e0f06dc9",
+    "SUBTITLEHASHMAP.INI": "e151e11e3fe4f71200fa031c236c62a55bd72542",
+    "SUBTITLETEXTURE.RAW": "dd5969a9ff241ab56481d2c96e107322e9b598b0"
+  },
+  "output_sha1": {
+    "FM_0115EAGLESJUMP_41F.ST1": "b449f7b3afb0bfd41286462f136fa0bf49abcfdb",
+    "SUBTITLEHASHMAP_41F.INI": "373904d416b40b19190a86b7fc28194a28de9c10",
+    "SUBTITLETEXTURE_41F.RAW": "d25634c34ecdd27abd16b4706781f6d5e04d3e4d"
+  },
+  "slot_budget": {
+    "hashmap_unique_keys": 112,
+    "visible_chars_used": 110,
+    "hangul": 99,
+    "ascii_visible": 11,
+    "duplicate_key_reused": "0xFC",
+    "spare_unique_keys": 2
+  },
+  "title_changed_for_slot_budget": {
+    "from": "운명의 랑데부\\생트메르에글리즈 상공\\D-Day 0115 1944.6.6^",
+    "to": "운명의 날\\1944.6.6^"
+  },
+  "mapping": [
+    {
+      "char": " ",
+      "key": 32,
+      "key_hex": "0x20",
+      "ini_lines": [
+        22
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 13
+    },
+    {
+      "char": "!",
+      "key": 33,
+      "key_hex": "0x21",
+      "ini_lines": [
+        1
+      ],
+      "x": 12,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "가",
+      "key": 34,
+      "key_hex": "0x22",
+      "ini_lines": [
+        2
+      ],
+      "x": 132,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "건",
+      "key": 35,
+      "key_hex": "0x23",
+      "ini_lines": [
+        3
+      ],
+      "x": 144,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "게",
+      "key": 36,
+      "key_hex": "0x24",
+      "ini_lines": [
+        4
+      ],
+      "x": 156,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "격",
+      "key": 37,
+      "key_hex": "0x25",
+      "ini_lines": [
+        5
+      ],
+      "x": 168,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "결",
+      "key": 38,
+      "key_hex": "0x26",
+      "ini_lines": [
+        6
+      ],
+      "x": 180,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "과",
+      "key": 39,
+      "key_hex": "0x27",
+      "ini_lines": [
+        7
+      ],
+      "x": 192,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "권",
+      "key": 40,
+      "key_hex": "0x28",
+      "ini_lines": [
+        8
+      ],
+      "x": 204,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "기",
+      "key": 41,
+      "key_hex": "0x29",
+      "ini_lines": [
+        9
+      ],
+      "x": 216,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "길",
+      "key": 42,
+      "key_hex": "0x2A",
+      "ini_lines": [
+        10
+      ],
+      "x": 228,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "께",
+      "key": 43,
+      "key_hex": "0x2B",
+      "ini_lines": [
+        11
+      ],
+      "x": 240,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": ",",
+      "key": 44,
+      "key_hex": "0x2C",
+      "ini_lines": [
+        12
+      ],
+      "x": 24,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "나",
+      "key": 45,
+      "key_hex": "0x2D",
+      "ini_lines": [
+        13
+      ],
+      "x": 0,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": ".",
+      "key": 46,
+      "key_hex": "0x2E",
+      "ini_lines": [
+        14
+      ],
+      "x": 36,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "날",
+      "key": 47,
+      "key_hex": "0x2F",
+      "ini_lines": [
+        15
+      ],
+      "x": 12,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "남",
+      "key": 48,
+      "key_hex": "0x30",
+      "ini_lines": [
+        23
+      ],
+      "x": 24,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "1",
+      "key": 49,
+      "key_hex": "0x31",
+      "ini_lines": [
+        24
+      ],
+      "x": 48,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "2",
+      "key": 50,
+      "key_hex": "0x32",
+      "ini_lines": [
+        25
+      ],
+      "x": 60,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "3",
+      "key": 51,
+      "key_hex": "0x33",
+      "ini_lines": [
+        26
+      ],
+      "x": 72,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "4",
+      "key": 52,
+      "key_hex": "0x34",
+      "ini_lines": [
+        27
+      ],
+      "x": 84,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "내",
+      "key": 53,
+      "key_hex": "0x35",
+      "ini_lines": [
+        28
+      ],
+      "x": 36,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "6",
+      "key": 54,
+      "key_hex": "0x36",
+      "ini_lines": [
+        29
+      ],
+      "x": 96,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "넷",
+      "key": 55,
+      "key_hex": "0x37",
+      "ini_lines": [
+        30
+      ],
+      "x": 48,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "는",
+      "key": 56,
+      "key_hex": "0x38",
+      "ini_lines": [
+        31
+      ],
+      "x": 60,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "9",
+      "key": 57,
+      "key_hex": "0x39",
+      "ini_lines": [
+        32
+      ],
+      "x": 108,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": ":",
+      "key": 58,
+      "key_hex": "0x3A",
+      "ini_lines": [
+        16
+      ],
+      "x": 120,
+      "y": 0,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "니",
+      "key": 59,
+      "key_hex": "0x3B",
+      "ini_lines": [
+        17
+      ],
+      "x": 72,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "님",
+      "key": 60,
+      "key_hex": "0x3C",
+      "ini_lines": [
+        18
+      ],
+      "x": 84,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "다",
+      "key": 61,
+      "key_hex": "0x3D",
+      "ini_lines": [
+        19
+      ],
+      "x": 96,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "대",
+      "key": 62,
+      "key_hex": "0x3E",
+      "ini_lines": [
+        20
+      ],
+      "x": 108,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "더",
+      "key": 63,
+      "key_hex": "0x3F",
+      "ini_lines": [
+        21
+      ],
+      "x": 120,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "도",
+      "key": 65,
+      "key_hex": "0x41",
+      "ini_lines": [
+        34
+      ],
+      "x": 132,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "돌",
+      "key": 66,
+      "key_hex": "0x42",
+      "ini_lines": [
+        35
+      ],
+      "x": 144,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "들",
+      "key": 67,
+      "key_hex": "0x43",
+      "ini_lines": [
+        36
+      ],
+      "x": 156,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "뛰",
+      "key": 68,
+      "key_hex": "0x44",
+      "ini_lines": [
+        37
+      ],
+      "x": 168,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "라",
+      "key": 69,
+      "key_hex": "0x45",
+      "ini_lines": [
+        38
+      ],
+      "x": 180,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "런",
+      "key": 70,
+      "key_hex": "0x46",
+      "ini_lines": [
+        39
+      ],
+      "x": 192,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "려",
+      "key": 71,
+      "key_hex": "0x47",
+      "ini_lines": [
+        40
+      ],
+      "x": 204,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "록",
+      "key": 72,
+      "key_hex": "0x48",
+      "ini_lines": [
+        41
+      ],
+      "x": 216,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "를",
+      "key": 73,
+      "key_hex": "0x49",
+      "ini_lines": [
+        42
+      ],
+      "x": 228,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "리",
+      "key": 74,
+      "key_hex": "0x4A",
+      "ini_lines": [
+        43
+      ],
+      "x": 240,
+      "y": 14,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "립",
+      "key": 75,
+      "key_hex": "0x4B",
+      "ini_lines": [
+        44
+      ],
+      "x": 0,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "만",
+      "key": 76,
+      "key_hex": "0x4C",
+      "ini_lines": [
+        45
+      ],
+      "x": 12,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "맥",
+      "key": 77,
+      "key_hex": "0x4D",
+      "ini_lines": [
+        46
+      ],
+      "x": 24,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "먹",
+      "key": 78,
+      "key_hex": "0x4E",
+      "ini_lines": [
+        47
+      ],
+      "x": 36,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "면",
+      "key": 79,
+      "key_hex": "0x4F",
+      "ini_lines": [
+        48
+      ],
+      "x": 48,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "명",
+      "key": 80,
+      "key_hex": "0x50",
+      "ini_lines": [
+        49
+      ],
+      "x": 60,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "문",
+      "key": 81,
+      "key_hex": "0x51",
+      "ini_lines": [
+        50
+      ],
+      "x": 72,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "바",
+      "key": 82,
+      "key_hex": "0x52",
+      "ini_lines": [
+        51
+      ],
+      "x": 84,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "번",
+      "key": 83,
+      "key_hex": "0x53",
+      "ini_lines": [
+        52
+      ],
+      "x": 96,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "베",
+      "key": 84,
+      "key_hex": "0x54",
+      "ini_lines": [
+        53
+      ],
+      "x": 108,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "분",
+      "key": 85,
+      "key_hex": "0x55",
+      "ini_lines": [
+        54
+      ],
+      "x": 120,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "불",
+      "key": 86,
+      "key_hex": "0x56",
+      "ini_lines": [
+        55
+      ],
+      "x": 132,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "비",
+      "key": 87,
+      "key_hex": "0x57",
+      "ini_lines": [
+        56
+      ],
+      "x": 144,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "빌",
+      "key": 88,
+      "key_hex": "0x58",
+      "ini_lines": [
+        57
+      ],
+      "x": 156,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "사",
+      "key": 89,
+      "key_hex": "0x59",
+      "ini_lines": [
+        58
+      ],
+      "x": 168,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "살",
+      "key": 90,
+      "key_hex": "0x5A",
+      "ini_lines": [
+        59
+      ],
+      "x": 180,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "서",
+      "key": 91,
+      "key_hex": "0x5B",
+      "ini_lines": [
+        60
+      ],
+      "x": 192,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "선",
+      "key": 93,
+      "key_hex": "0x5D",
+      "ini_lines": [
+        61
+      ],
+      "x": 204,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "세",
+      "key": 95,
+      "key_hex": "0x5F",
+      "ini_lines": [
+        63
+      ],
+      "x": 216,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "속",
+      "key": 96,
+      "key_hex": "0x60",
+      "ini_lines": [
+        64
+      ],
+      "x": 228,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "숫",
+      "key": 97,
+      "key_hex": "0x61",
+      "ini_lines": [
+        66
+      ],
+      "x": 240,
+      "y": 28,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "아",
+      "key": 98,
+      "key_hex": "0x62",
+      "ini_lines": [
+        67
+      ],
+      "x": 0,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "앞",
+      "key": 99,
+      "key_hex": "0x63",
+      "ini_lines": [
+        68
+      ],
+      "x": 12,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "앨",
+      "key": 100,
+      "key_hex": "0x64",
+      "ini_lines": [
+        69
+      ],
+      "x": 24,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "야",
+      "key": 101,
+      "key_hex": "0x65",
+      "ini_lines": [
+        70
+      ],
+      "x": 36,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "어",
+      "key": 102,
+      "key_hex": "0x66",
+      "ini_lines": [
+        71
+      ],
+      "x": 48,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "억",
+      "key": 103,
+      "key_hex": "0x67",
+      "ini_lines": [
+        72
+      ],
+      "x": 60,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "없",
+      "key": 104,
+      "key_hex": "0x68",
+      "ini_lines": [
+        73
+      ],
+      "x": 72,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "었",
+      "key": 105,
+      "key_hex": "0x69",
+      "ini_lines": [
+        74
+      ],
+      "x": 84,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "에",
+      "key": 106,
+      "key_hex": "0x6A",
+      "ini_lines": [
+        75
+      ],
+      "x": 96,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "여",
+      "key": 107,
+      "key_hex": "0x6B",
+      "ini_lines": [
+        76
+      ],
+      "x": 108,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "열",
+      "key": 108,
+      "key_hex": "0x6C",
+      "ini_lines": [
+        77
+      ],
+      "x": 120,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "오",
+      "key": 109,
+      "key_hex": "0x6D",
+      "ini_lines": [
+        78
+      ],
+      "x": 132,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "온",
+      "key": 110,
+      "key_hex": "0x6E",
+      "ini_lines": [
+        79
+      ],
+      "x": 144,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "옳",
+      "key": 111,
+      "key_hex": "0x6F",
+      "ini_lines": [
+        80
+      ],
+      "x": 156,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "요",
+      "key": 112,
+      "key_hex": "0x70",
+      "ini_lines": [
+        81
+      ],
+      "x": 168,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "운",
+      "key": 113,
+      "key_hex": "0x71",
+      "ini_lines": [
+        82
+      ],
+      "x": 180,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "움",
+      "key": 114,
+      "key_hex": "0x72",
+      "ini_lines": [
+        83
+      ],
+      "x": 192,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "원",
+      "key": 115,
+      "key_hex": "0x73",
+      "ini_lines": [
+        84
+      ],
+      "x": 204,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "은",
+      "key": 116,
+      "key_hex": "0x74",
+      "ini_lines": [
+        85
+      ],
+      "x": 216,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "을",
+      "key": 117,
+      "key_hex": "0x75",
+      "ini_lines": [
+        86
+      ],
+      "x": 228,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "의",
+      "key": 118,
+      "key_hex": "0x76",
+      "ini_lines": [
+        87
+      ],
+      "x": 240,
+      "y": 42,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "이",
+      "key": 119,
+      "key_hex": "0x77",
+      "ini_lines": [
+        88
+      ],
+      "x": 0,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "인",
+      "key": 120,
+      "key_hex": "0x78",
+      "ini_lines": [
+        89
+      ],
+      "x": 12,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "자",
+      "key": 121,
+      "key_hex": "0x79",
+      "ini_lines": [
+        90
+      ],
+      "x": 24,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "장",
+      "key": 122,
+      "key_hex": "0x7A",
+      "ini_lines": [
+        91
+      ],
+      "x": 36,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "정",
+      "key": 161,
+      "key_hex": "0xA1",
+      "ini_lines": [
+        113
+      ],
+      "x": 48,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "제",
+      "key": 191,
+      "key_hex": "0xBF",
+      "ini_lines": [
+        112
+      ],
+      "x": 60,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "족",
+      "key": 192,
+      "key_hex": "0xC0",
+      "ini_lines": [
+        101
+      ],
+      "x": 72,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "주",
+      "key": 199,
+      "key_hex": "0xC7",
+      "ini_lines": [
+        92
+      ],
+      "x": 84,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "중",
+      "key": 201,
+      "key_hex": "0xC9",
+      "ini_lines": [
+        97
+      ],
+      "x": 96,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "지",
+      "key": 223,
+      "key_hex": "0xDF",
+      "ini_lines": [
+        109
+      ],
+      "x": 108,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "직",
+      "key": 224,
+      "key_hex": "0xE0",
+      "ini_lines": [
+        102
+      ],
+      "x": 120,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "착",
+      "key": 226,
+      "key_hex": "0xE2",
+      "ini_lines": [
+        103
+      ],
+      "x": 132,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "찾",
+      "key": 228,
+      "key_hex": "0xE4",
+      "ini_lines": [
+        104
+      ],
+      "x": 144,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "초",
+      "key": 231,
+      "key_hex": "0xE7",
+      "ini_lines": [
+        93
+      ],
+      "x": 156,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "커",
+      "key": 232,
+      "key_hex": "0xE8",
+      "ini_lines": [
+        100
+      ],
+      "x": 168,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "코",
+      "key": 233,
+      "key_hex": "0xE9",
+      "ini_lines": [
+        98
+      ],
+      "x": 180,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "택",
+      "key": 234,
+      "key_hex": "0xEA",
+      "ini_lines": [
+        99
+      ],
+      "x": 192,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "편",
+      "key": 237,
+      "key_hex": "0xED",
+      "ini_lines": [
+        106
+      ],
+      "x": 204,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "피",
+      "key": 238,
+      "key_hex": "0xEE",
+      "ini_lines": [
+        105
+      ],
+      "x": 216,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "하",
+      "key": 239,
+      "key_hex": "0xEF",
+      "ini_lines": [
+        114
+      ],
+      "x": 228,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "한",
+      "key": 241,
+      "key_hex": "0xF1",
+      "ini_lines": [
+        110
+      ],
+      "x": 240,
+      "y": 56,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "함",
+      "key": 244,
+      "key_hex": "0xF4",
+      "ini_lines": [
+        107
+      ],
+      "x": 0,
+      "y": 70,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "해",
+      "key": 246,
+      "key_hex": "0xF6",
+      "ini_lines": [
+        108
+      ],
+      "x": 12,
+      "y": 70,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "호",
+      "key": 249,
+      "key_hex": "0xF9",
+      "ini_lines": [
+        94
+      ],
+      "x": 24,
+      "y": 70,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "확",
+      "key": 251,
+      "key_hex": "0xFB",
+      "ini_lines": [
+        95
+      ],
+      "x": 36,
+      "y": 70,
+      "w": 11,
+      "h": 13
+    },
+    {
+      "char": "휘",
+      "key": 252,
+      "key_hex": "0xFC",
+      "ini_lines": [
+        96,
+        111
+      ],
+      "x": 48,
+      "y": 70,
+      "w": 11,
+      "h": 13
+    }
+  ],
+  "fields": [
+    {
+      "index": 1,
+      "offset": 0,
+      "field_bytes": 79,
+      "english": "Rendezvous with Destiny\\ Over Ste. Mere Eglise, France\\D-Day 0115 June 6, 1944^",
+      "korean": "운명의 날\\1944.6.6^",
+      "encoded_len": 15,
+      "replacement_hex": "715076202f5c313934342e362e36202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 2,
+      "offset": 110,
+      "field_bytes": 64,
+      "english": "Baker: I never asked to be squad leader,\\  but I had no choice.^",
+      "korean": "베이커: 원한 건 아니지만,\\  선택권은 없었다.^",
+      "encoded_len": 28,
+      "replacement_hex": "5477e83a2073f1202320623bdf4c2c5c20205dea28742068693d2e2020202020202020202020202020202020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 3,
+      "offset": 207,
+      "field_bytes": 56,
+      "english": "Baker: Now I've got thirteen soldiers under my command.^",
+      "korean": "베이커: 이제 열세 명을 지휘한다.^",
+      "encoded_len": 20,
+      "replacement_hex": "5477e83a2077bf206c5f20507520dffcf13d2e2020202020202020202020202020202020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 4,
+      "offset": 296,
+      "field_bytes": 91,
+      "english": "Baker: Thirteen men depending on me to make the right\\  decisions and not get them killed.^",
+      "korean": "베이커: 내가 옳은 결정을 내려\\  살아남게 해주길 바라는 열세 명.^",
+      "encoded_len": 39,
+      "replacement_hex": "5477e83a203522206f742026a1752035475c20205a62302420f6c72a20524538206c5f20502e202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 5,
+      "offset": 420,
+      "field_bytes": 80,
+      "english": "Baker: Thirteen families relying on me to bring their\\  husbands and sons home.^",
+      "korean": "베이커: 남편과 아들이 돌아오길\\  기다리는 열세 가족.^",
+      "encoded_len": 32,
+      "replacement_hex": "5477e83a2030ed27206243772042626d2a5c2020293d4a38206c5f2022c02e2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 6,
+      "offset": 533,
+      "field_bytes": 17,
+      "english": "Baker: Thirteen.^",
+      "korean": "베이커: 13.^",
+      "encoded_len": 9,
+      "replacement_hex": "5477e83a2031332e20202020202020205e"
+    },
+    {
+      "index": 7,
+      "offset": 583,
+      "field_bytes": 39,
+      "english": "Baker: Thirteen is not a lucky number.^",
+      "korean": "베이커: 13은 불길한 숫자다.^",
+      "encoded_len": 18,
+      "replacement_hex": "5477e83a2031337420562af12061793d2e2020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 8,
+      "offset": 655,
+      "field_bytes": 15,
+      "english": "Mac: Stand up!^",
+      "korean": "맥: 기립!^",
+      "encoded_len": 7,
+      "replacement_hex": "4d3a20294b2120202020202020205e"
+    },
+    {
+      "index": 9,
+      "offset": 703,
+      "field_bytes": 14,
+      "english": "Mac: Hook up!^",
+      "korean": "맥: 결속!^",
+      "encoded_len": 7,
+      "replacement_hex": "4d3a20266021202020202020205e"
+    },
+    {
+      "index": 10,
+      "offset": 750,
+      "field_bytes": 27,
+      "english": "Mac: Check your equipment!^",
+      "korean": "맥: 장비 확인!^",
+      "encoded_len": 10,
+      "replacement_hex": "4d3a207a5720fb782120202020202020202020202020202020205e"
+    },
+    {
+      "index": 11,
+      "offset": 810,
+      "field_bytes": 83,
+      "english": "Mac: Remember!  This squad sticks together!\\  Once you hit the ground, find Baker!^",
+      "korean": "맥: 기억해! 분대는 함께 움직인다!\\  착지하면 베이커를 찾아!^",
+      "encoded_len": 37,
+      "replacement_hex": "4d3a202967f62120553e3820f42b2072e0783d215c2020e2dfef4f205477e84920e46221202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 12,
+      "offset": 926,
+      "field_bytes": 16,
+      "english": "Mac: Sound Off!^",
+      "korean": "맥: 번호!^",
+      "encoded_len": 7,
+      "replacement_hex": "4d3a2053f9212020202020202020205e"
+    },
+    {
+      "index": 13,
+      "offset": 975,
+      "field_bytes": 37,
+      "english": "Fourteen OK!\\Thirteen OK!\\Twelve OK!^",
+      "korean": "14 확인!\\13 확인!\\12 확인!^",
+      "encoded_len": 21,
+      "replacement_hex": "313420fb78215c313320fb78215c313220fb7821202020202020202020202020202020205e"
+    },
+    {
+      "index": 14,
+      "offset": 1045,
+      "field_bytes": 24,
+      "english": "Hartsock: Corrions hit!^",
+      "korean": "코리온 피격!^",
+      "encoded_len": 8,
+      "replacement_hex": "e94a6e20ee2521202020202020202020202020202020205e"
+    },
+    {
+      "index": 15,
+      "offset": 1102,
+      "field_bytes": 70,
+      "english": "Garnett: Lets get the hell out of here!\\  Allen: We gotta jump Sarge!^",
+      "korean": "가넷: 여기서 나가자!\\  앨런: 중사님, 뛰어야 해요!^",
+      "encoded_len": 32,
+      "replacement_hex": "22373a206b295b202d2279215c202064463a20c9593c2c2044666520f6702120202020202020202020202020202020202020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 16,
+      "offset": 1205,
+      "field_bytes": 34,
+      "english": "Mac: We wait for the green light!^",
+      "korean": "맥: 초록불을 기다려!^",
+      "encoded_len": 13,
+      "replacement_hex": "4d3a20e748567520293d47212020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 17,
+      "offset": 1272,
+      "field_bytes": 67,
+      "english": "Allen: We wait any longer, there won't be a\\  fucking green light!^",
+      "korean": "앨런: 더 기다리면\\  빌어먹을 초록불도 없어요!^",
+      "encoded_len": 28,
+      "replacement_hex": "64463a203f20293d4a4f5c202058664e7520e748564120686670212020202020202020202020202020202020202020202020202020202020202020202020202020205e"
+    },
+    {
+      "index": 18,
+      "offset": 1372,
+      "field_bytes": 32,
+      "english": "Mac: Baker!  Stand in the door!^",
+      "korean": "맥: 베이커! 문 앞에 서!^",
+      "encoded_len": 16,
+      "replacement_hex": "4d3a205477e821205120636a205b21202020202020202020202020202020205e"
+    },
+    {
+      "index": 19,
+      "offset": 1437,
+      "field_bytes": 41,
+      "english": "Baker: I never asked to be squad leader.^",
+      "korean": "베이커: 원한 건 아니었다.^",
+      "encoded_len": 16,
+      "replacement_hex": "5477e83a2073f1202320623b693d2e202020202020202020202020202020202020202020202020205e"
+    }
+  ]
+}

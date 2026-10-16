@@ -1,0 +1,570 @@
+{
+  "step": "STEP109",
+  "source": "SESSION_SESSION_OUTPUTS\\step108\\BIA_STEP108_CARENTAN_LOCATION_KO_TEST.iso",
+  "output": "SESSION_SESSION_OUTPUTS\\step109\\BIA_STEP109_ALL_MISSION_NAMES_KO_TEST.iso",
+  "source_sha256": "585e93894e1a94515d5bd4e761b0ef385636c0f1b82787fcbdbcf28f2ec77c10",
+  "source_preserved": true,
+  "output_sha256": "726c164be36f176c59911415bb928e39c99a4732c5cc5194067586c8158b60b7",
+  "translations": {
+    "Rendezvous with Destiny": "운명과의 만남",
+    "Ambush at Exit 4": "제4출구 매복",
+    "Objective XYZ": "XYZ 목표",
+    "Action at Vierville": "비에르빌 전투",
+    "Dead Man's Corner": "죽음의 교차로",
+    "The Crack of Dawn": "동이 틀 때",
+    "The Fall of St. Come-du-Mont": "생콤뒤몽 함락",
+    "St. Come-du-Mont": "생콤뒤몽",
+    "Buying the Farm": "죽음의 농장",
+    "Purple Heart Lane": "퍼플 하트 레인",
+    "Cole's Charge": "콜의 돌격",
+    "Push Into Carentan": "카랑탕 진격",
+    "Cat and Mouse": "고양이와 쥐",
+    "No Better Spot to Die": "죽기에 더없이 좋은 곳",
+    "No Better Spot to Die Part 1": "죽기에 더없이 좋은 곳 1부",
+    "No Better Spot to Die Part 2": "죽기에 더없이 좋은 곳 2부",
+    "No Better Spot to Die - Part 1": "죽기에 더없이 좋은 곳 1부",
+    "No Better Spot to Die - Part 2": "죽기에 더없이 좋은 곳 2부",
+    "Bloody Gulch": "피의 계곡",
+    "Close Quarters": "근접 전투",
+    "Baupte": "보트",
+    "Run of the Mill": "풍차 전투",
+    "The All Americans": "올 아메리칸",
+    "The All Americans Part 1": "올 아메리칸 1부",
+    "The All Americans Part 2": "올 아메리칸 2부",
+    "The All Americans - Part 1": "올 아메리칸 1부",
+    "The All Americans - Part 2": "올 아메리칸 2부",
+    "Bookends": "에필로그",
+    "Victory in Carentan": "카랑탕의 승리",
+    "Through the Rubble": "잔해를 뚫고",
+    "Night Lights": "야간 조명",
+    "Hamlet": "마을",
+    "Taking Back the Hamlet": "마을 탈환",
+    "Holding the Line": "전선 사수",
+    "Warehouse": "창고",
+    "The Warehouse District": "창고 지구",
+    "Church": "교회",
+    "Flanked from Above": "공중에서의 기습",
+    "Broken Tanks": "파괴된 전차들",
+    "High Ground": "고지",
+    "Last Stop": "종착역",
+    "Through the Valley": "계곡을 지나",
+    "Taking the Hill": "고지 점령",
+    "Crossing Guard": "교차로 경비",
+    "Over Ste. Mere Eglise, France": "프랑스 생메르에글리즈 상공",
+    "Near Utah Beach, France": "프랑스 유타 해변 인근",
+    "Normandy, France": "프랑스 노르망디",
+    "Vierville, France": "프랑스 비에르빌",
+    "Southeast of St. Come-du-Mont, France": "프랑스 생콤뒤몽 남동쪽",
+    "St. Come-du-Mont, France": "프랑스 생콤뒤몽",
+    "West of St. Come-du-Mont, France": "프랑스 생콤뒤몽 서쪽",
+    "Northwest of Carentan, France": "프랑스 카랑탕 북서쪽",
+    "Near Carentan, France": "프랑스 카랑탕 인근",
+    "Carentan, France": "프랑스 카랑탕",
+    "Near Hill 30, France": "프랑스 30고지 인근",
+    "Baupte, France": "프랑스 보트",
+    "St. Sauveur-Le-Vicomte, France": "프랑스 생소뵈르르비콩트",
+    "St. Sauveur, France": "프랑스 생소뵈르",
+    "Near Cherbourg, France": "프랑스 셰르부르 인근",
+    "Northwest of Carentan, France ": "프랑스 카랑탕 북서쪽",
+    "June 6, 1944": "1944년 6월 6일",
+    " June 6, 1944": "1944년 6월 6일",
+    "  June 6, 1944": "1944년 6월 6일",
+    "June 7, 1944": "1944년 6월 7일",
+    " June 7, 1944": "1944년 6월 7일",
+    "  June 7, 1944": "1944년 6월 7일",
+    "June 8, 1944": "1944년 6월 8일",
+    " June 8, 1944": "1944년 6월 8일",
+    "  June 8, 1944": "1944년 6월 8일",
+    "June 9, 1944": "1944년 6월 9일",
+    " June 9, 1944": "1944년 6월 9일",
+    "  June 9, 1944": "1944년 6월 9일",
+    "June 10, 1944": "1944년 6월 10일",
+    " June 10, 1944": "1944년 6월 10일",
+    "  June 10, 1944": "1944년 6월 10일",
+    "June 11, 1944": "1944년 6월 11일",
+    " June 11, 1944": "1944년 6월 11일",
+    "  June 11, 1944": "1944년 6월 11일",
+    "June 12, 1944": "1944년 6월 12일",
+    " June 12, 1944": "1944년 6월 12일",
+    "  June 12, 1944": "1944년 6월 12일",
+    "June 13, 1944": "1944년 6월 13일",
+    " June 13, 1944": "1944년 6월 13일",
+    "  June 13, 1944": "1944년 6월 13일",
+    "June 14, 1944": "1944년 6월 14일",
+    " June 14, 1944": "1944년 6월 14일",
+    "  June 14, 1944": "1944년 6월 14일",
+    "June 15, 1944": "1944년 6월 15일",
+    " June 15, 1944": "1944년 6월 15일",
+    "  June 15, 1944": "1944년 6월 15일",
+    "June 16, 1944": "1944년 6월 16일",
+    " June 16, 1944": "1944년 6월 16일",
+    "  June 16, 1944": "1944년 6월 16일",
+    "June 17, 1944": "1944년 6월 17일",
+    " June 17, 1944": "1944년 6월 17일",
+    "  June 17, 1944": "1944년 6월 17일",
+    "June 18, 1944": "1944년 6월 18일",
+    " June 18, 1944": "1944년 6월 18일",
+    "  June 18, 1944": "1944년 6월 18일",
+    "June 19, 1944": "1944년 6월 19일",
+    " June 19, 1944": "1944년 6월 19일",
+    "  June 19, 1944": "1944년 6월 19일",
+    "June 20, 1944": "1944년 6월 20일",
+    " June 20, 1944": "1944년 6월 20일",
+    "  June 20, 1944": "1944년 6월 20일",
+    "June 21, 1944": "1944년 6월 21일",
+    " June 21, 1944": "1944년 6월 21일",
+    "  June 21, 1944": "1944년 6월 21일"
+  },
+  "maps_patched": 31,
+  "value_refs_patched": 1993,
+  "key_metadata_preserved": true,
+  "font_and_atlas_and_prx_preserved": true,
+  "all_new_ui_glyphs_available": true,
+  "mdi_and_iso_readback_verified": true,
+  "runtime_visually_verified": false,
+  "maps": [
+    {
+      "mdi": "D07_1501.MDI",
+      "value_refs_patched": 67,
+      "unique_translations": 44,
+      "changed_streams": [
+        13,
+        14,
+        24,
+        35
+      ],
+      "payload_end": "0x39480",
+      "mdi_sha256": "4c0cba6d9c334d53a030b09f66ab7757a72753997cdce1631ada85383b01000f",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "value_refs_patched": 67,
+      "unique_translations": 44,
+      "changed_streams": [
+        13,
+        14,
+        24,
+        35
+      ],
+      "payload_end": "0x39480",
+      "mdi_sha256": "b029aa28478d1850dc6d57cee6b4cdefc23ade04255ae0d9d5eab3b7cc145990",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "value_refs_patched": 68,
+      "unique_translations": 44,
+      "changed_streams": [
+        13,
+        14,
+        24,
+        35
+      ],
+      "payload_end": "0x39480",
+      "mdi_sha256": "1c9e94b0c5580d6b37c2bb585da878c366ef2c9dd2422ced31fb9ebace304820",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "value_refs_patched": 65,
+      "unique_translations": 42,
+      "changed_streams": [
+        6,
+        13,
+        23,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "002205dd7355ca51753a3960bb7b37e75592d1a0dd5c4a2a96b75c063a88caf8",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "value_refs_patched": 65,
+      "unique_translations": 42,
+      "changed_streams": [
+        6,
+        13,
+        24,
+        25,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "04791896f9c76b5344126c92e99ceddf42caf891ecf80fb823deb30a15688ba5",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "value_refs_patched": 72,
+      "unique_translations": 44,
+      "changed_streams": [
+        13,
+        14,
+        24,
+        35
+      ],
+      "payload_end": "0x39490",
+      "mdi_sha256": "163a5b493fa56159a9937f87e9d92d28309556876ef8530a791a0003fae40632",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "value_refs_patched": 68,
+      "unique_translations": 44,
+      "changed_streams": [
+        13,
+        14,
+        15,
+        22,
+        35
+      ],
+      "payload_end": "0x39480",
+      "mdi_sha256": "2b98e95a6be99e7533240d36e076fb3b1e4cdf51b810c9f7234863a0df275b8a",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "value_refs_patched": 57,
+      "unique_translations": 35,
+      "changed_streams": [
+        13,
+        14,
+        15,
+        23,
+        35
+      ],
+      "payload_end": "0x39390",
+      "mdi_sha256": "d79bf2d0e80873d8b8db061fc5652f0191d903bdc8d49f61047861915e12d1ac",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "value_refs_patched": 44,
+      "unique_translations": 29,
+      "changed_streams": [
+        13,
+        14,
+        24,
+        35
+      ],
+      "payload_end": "0x392d0",
+      "mdi_sha256": "3760a68fc0ddf354ffa85830cab03af7a491514102ffc936e12dbf8902f984e4",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "value_refs_patched": 65,
+      "unique_translations": 43,
+      "changed_streams": [
+        13,
+        14,
+        23,
+        35
+      ],
+      "payload_end": "0x39460",
+      "mdi_sha256": "56769ae7b08e41eb21cd7352ec10de69daaddd60281fcd8f42e20eb8149c9933",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "value_refs_patched": 65,
+      "unique_translations": 43,
+      "changed_streams": [
+        13,
+        14,
+        23,
+        35
+      ],
+      "payload_end": "0x39460",
+      "mdi_sha256": "f22c750a50966892acb658b1c5a25e8add633cb2ad7322eea6082c7247f8bfaf",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "value_refs_patched": 61,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        14,
+        15,
+        24,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "93e930efe96ba5f897d9a078f19e1eb87ac9cfe7fddad38962c89227e3cf098d",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "value_refs_patched": 66,
+      "unique_translations": 43,
+      "changed_streams": [
+        13,
+        14,
+        22,
+        35
+      ],
+      "payload_end": "0x39460",
+      "mdi_sha256": "14abc28efb2e7beca7c8d103a505b9e946aba05c8f338253254c3a021bc6d8d5",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "value_refs_patched": 61,
+      "unique_translations": 42,
+      "changed_streams": [
+        23,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "7c193616c9cdde7d7dbe0ed6164cb7124d6238a8d9a0e6149c03044d29095afc",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "value_refs_patched": 66,
+      "unique_translations": 43,
+      "changed_streams": [
+        6,
+        13,
+        23,
+        35
+      ],
+      "payload_end": "0x39460",
+      "mdi_sha256": "85253c838c916d0662e33639db29c9b282b6287dae099d03b9675b7fb3f7cde0",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "value_refs_patched": 58,
+      "unique_translations": 39,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x393e0",
+      "mdi_sha256": "65e5e8f31aba339fe5dac88531cb408776bbc4ae6cb563b54be91a4372f03757",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "value_refs_patched": 66,
+      "unique_translations": 44,
+      "changed_streams": [
+        6,
+        13,
+        22,
+        35
+      ],
+      "payload_end": "0x39480",
+      "mdi_sha256": "bb17cf6ddb2eb9edf442bc262c0d487e7caf4e1f9acd3ec50d7db224f50340c1",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "value_refs_patched": 64,
+      "unique_translations": 43,
+      "changed_streams": [
+        6,
+        13,
+        23,
+        35
+      ],
+      "payload_end": "0x39460",
+      "mdi_sha256": "a9aecb808fb21eb2abfe63b61b34fc38834b438b31c77857107f5535c6740f6a",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "value_refs_patched": 65,
+      "unique_translations": 43,
+      "changed_streams": [
+        6,
+        13,
+        22,
+        35
+      ],
+      "payload_end": "0x39460",
+      "mdi_sha256": "0b6f969148727ecee09183a6e7eb0d8056d1dcaf99e301cc7d3d756510f5d6b9",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "value_refs_patched": 66,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        15,
+        24,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "09de65fad3bfbe6d2a95f5e1efde5aec77c4abfcfa96beb7563a12adb57b2e4a",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "value_refs_patched": 66,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        15,
+        26,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "e08b62af4e659889d17e51ce144fdf9e2688676c90884330dd7f657b68dc7b15",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "value_refs_patched": 64,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        15,
+        25,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "3600068b41e7965e3821500d936afc28c975142169414070e169373a2bc6c57c",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "value_refs_patched": 66,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        15,
+        25,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "e9427359fdd91139542427942d9452f204dc651894cd9ed54e09a7a1c8fffb16",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "value_refs_patched": 65,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        14,
+        15,
+        25,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "1fba259a8d8acc325aafe919905cdb8c39e0a39b609574e604b15f3bb92f503f",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "value_refs_patched": 58,
+      "unique_translations": 39,
+      "changed_streams": [
+        13,
+        14,
+        15,
+        25,
+        35
+      ],
+      "payload_end": "0x39400",
+      "mdi_sha256": "54baf3ae9452eafcb63eeda7aef1af00a8318cdb667c74d50d1f88734a630b68",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "value_refs_patched": 66,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        15,
+        24,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "8267b1b223de723556a6d6493df62a7737041fa5246c184c273818a5a6121e2f",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "value_refs_patched": 63,
+      "unique_translations": 41,
+      "changed_streams": [
+        13,
+        15,
+        25,
+        35
+      ],
+      "payload_end": "0x39420",
+      "mdi_sha256": "f511eca98c0c898076ff70f6713513a14623bd089d6da02cdcc78da60384ef4c",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "value_refs_patched": 68,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        15,
+        25,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "affb8e0018bc640a67d2deeda29d0f3d069c494874acf51a2405b86377e22018",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "value_refs_patched": 69,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        15,
+        25,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "b0b67e113b9635e7ae0e51cb57ba4bad6d0ef2ca3c9b70cd5190d44972784942",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "value_refs_patched": 67,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        14,
+        15,
+        25,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "f408b7057272486aba7f8fd59977287f7f5dc954e106be34b1063502f4496285",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "value_refs_patched": 65,
+      "unique_translations": 42,
+      "changed_streams": [
+        13,
+        25,
+        35
+      ],
+      "payload_end": "0x39440",
+      "mdi_sha256": "3af34abc2555a0d8be5305c702ef66506da4be65f114e82bff60ebbc084264c3",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    }
+  ],
+  "all_32_active_map_titles_korean_verified": true,
+  "all_20_campaign_locations_korean_verified": true,
+  "additional_header_refs": 8,
+  "external_int_files_updated": 39,
+  "external_int_values_updated": 230,
+  "levelsummary_refs": 2,
+  "alternate_network_resource_bundles_not_modified": 24
+}

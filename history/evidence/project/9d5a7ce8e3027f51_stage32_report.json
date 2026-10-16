@@ -1,0 +1,154 @@
+{
+  "stage": 32,
+  "purpose": "Prove permanent MDI + DSL + runtime DSX TMR relocation, corrected UV, and 128x512 TEXSIZE without any runtime descriptor/font watcher",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE32_PERMANENT_DSX_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "texture_replacement_enabled": false,
+  "runtime_font_patch_enabled": false,
+  "runtime_descriptor_watcher_enabled": false,
+  "texture_storage": {
+    "mdi_stream": 22,
+    "runtime_address": "0x0987D020",
+    "bytes": 32768,
+    "sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "boot_iso": "PROJECT_ROOT\\BIA_STAGE32_PERMANENT_DSX_TEST.iso",
+  "iso_prepare": {
+    "mode": "fresh_from_original",
+    "path": "PROJECT_ROOT\\BIA_STAGE32_PERMANENT_DSX_TEST.iso",
+    "mdi_patch": {
+      "stream19_old_csize": 59805,
+      "stream19_new_csize": 61857,
+      "stream22_old_csize": 499,
+      "stream22_new_csize": 8580,
+      "new_glyph_ptr": "0x0971BB20",
+      "new_D5_page": "0x0971CA20",
+      "latin_records_unchanged": true,
+      "korean_record_v0": 1.001953125,
+      "korean_record_v1": 1.064453125,
+      "texture_runtime_address": "0x0987D020",
+      "texture_sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+    },
+    "dsl_permanent_patch": {
+      "relocation_file_offset": "0x169E12",
+      "old_entry": [
+        "0x40006580",
+        "0x00000080",
+        "0x4011BF40"
+      ],
+      "new_entry": [
+        "0x40006580",
+        "0x00000080",
+        "0x41419020"
+      ],
+      "relocation_base2": "0x08464000",
+      "target_runtime_texture": "0x0987D020",
+      "new_e2": "0x41419020",
+      "unique_old_entry_occurrences": 1,
+      "b8_source_offset": "0x17513F",
+      "old_B8": "0xB8000807",
+      "new_B8": "0xB8000907",
+      "source_A0_A8_left_untouched": true,
+      "expected_runtime_descriptor": [
+        "0xA087D020",
+        "0xA8090080",
+        "0xB8000907"
+      ]
+    },
+    "dsx_permanent_patch": {
+      "block_count": 94,
+      "old_size": 811149,
+      "new_size": 811148,
+      "changed_blocks": [
+        {
+          "index": 90,
+          "logical_start": "0x168000",
+          "logical_end": "0x16C000",
+          "old_csize": 7108,
+          "new_csize": 7110
+        },
+        {
+          "index": 93,
+          "logical_start": "0x174000",
+          "logical_end": "0x1751BC",
+          "old_csize": 887,
+          "new_csize": 884
+        }
+      ],
+      "logical_size": 1528252,
+      "logical_sha1": "c349e1ed897c25a4bb59ec9db0dac1deea58f245",
+      "rebuilt_sha1": "57bf4bf76184d9f788664a787994f21b4b5da6de",
+      "logical_matches_patched_dsl": true
+    },
+    "mdi_iso_relocation": {
+      "old_extent": 147920,
+      "old_size": 3775810,
+      "new_extent": 710448,
+      "new_size": 3785943
+    },
+    "dsx_iso_relocation": {
+      "old_extent": 147520,
+      "old_size": 811149,
+      "new_extent": 712297,
+      "new_size": 811148
+    },
+    "iso_readback_verified": true,
+    "dsx_decompresses_exactly_to_patched_dsl": true
+  },
+  "previous_ppsspp": {
+    "found": false
+  },
+  "launched_ppsspp_pid": 22244,
+  "ppsspp_auto_close": true,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "boot_automation": {
+    "input_method": "PPSSPP WebSocket input.buttons.press",
+    "fast_forward_supported": false,
+    "fast_forward_response": null,
+    "fast_forward_error": "Bad message: unknown event",
+    "start_presses": 89,
+    "elapsed_seconds": 20.003
+  },
+  "menu_detected": true,
+  "loaded_font": {
+    "glyph_count": 152,
+    "glyph_ptr": "0x0971BB20",
+    "expected_glyph_ptr": "0x0971BB20",
+    "D5_page": "0x0971CA20",
+    "expected_D5_page": "0x0971CA20",
+    "D55C_map": 151,
+    "texture_address": "0x0987D020",
+    "texture_sha1": "0fa604d1f92d576128995257311c36c5e6eac188",
+    "texture_expected_sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "runtime_descriptor": [
+    "0xA087D020",
+    "0xA8090080",
+    "0xB8000907"
+  ],
+  "expected_runtime_descriptor": [
+    "0xA087D020",
+    "0xA8090080",
+    "0xB8000907"
+  ],
+  "runtime_descriptor_matches": true,
+  "permanent_A0_A8_match": true,
+  "permanent_B8_match": true,
+  "runtime_descriptor_after_korean": [
+    "0xA087D020",
+    "0xA8090080",
+    "0xB8000907"
+  ],
+  "runtime_patch_scope": "Story UTF-16 test text only; NO font/UV/texture/descriptor RAM patch",
+  "permanent_font_proof": true,
+  "completed": true,
+  "ppsspp_closed_after_test": true
+}

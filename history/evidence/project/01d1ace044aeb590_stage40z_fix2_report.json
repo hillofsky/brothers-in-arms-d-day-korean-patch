@@ -1,0 +1,588 @@
+{
+  "stage": "40Z-fix2",
+  "purpose": "Correct the two remaining Stage40Z harness mistakes: distinguish title-screen Story preload from the selectable menu, and wait for the actual D0_0130 Stage40Y font/atlas/payload resources before attempting the first pause.",
+  "previous_fix1_result": {
+    "selectable_menu_not_proven": "Story/토 breakpoint fired while VRAM still showed the title screen.",
+    "campaign_module_did_load": "Fallback path reached BIAOFF and 0x0898E354 became 0x0E327D1A.",
+    "pause_test_started_too_early": "Both first-mission font objects were still count=0, ptr=0 when fix1 declared a visual pause fallback.",
+    "visual_false_positive": "Bink/movie frames contained strong red scanlines, so red-line detection cannot be used to prove a pause before U+CC55 hits.",
+    "stage40y_regression_proven": false
+  },
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "modifies_iso": false,
+  "ppsspp_pid": 28624,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "cpu_ready": {
+    "ready": true,
+    "attempts": 2,
+    "status": {
+      "event": "cpu.status",
+      "ticket": 1003,
+      "stepping": false,
+      "paused": false,
+      "pc": 142622792,
+      "ticks": 21121
+    }
+  },
+  "title_story_preload": {
+    "ok": true,
+    "arm": {
+      "ok": true,
+      "response": {
+        "event": "cpu.breakpoint.add",
+        "ticket": 1006
+      }
+    },
+    "events": [
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1013
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1014
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1015
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1086
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1087
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1088
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1156
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1157
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1158
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1228
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1229
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1230
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1299
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1300
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1301
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1369
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1370
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1371
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1441
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1442
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1443
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1508
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1509
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1510
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1577
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1578
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1579
+          }
+        }
+      ]
+    ],
+    "capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix2_pause_input\\title_story_preload_04000000.png",
+          "visible_sha1": "ff4946b1b63775d791f5453653db24bd0b4e3be8",
+          "underline": {
+            "found": true,
+            "row": 225,
+            "red_pixels": 88
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix2_pause_input\\title_story_preload_04044000.png",
+          "visible_sha1": "ff4946b1b63775d791f5453653db24bd0b4e3be8",
+          "underline": {
+            "found": true,
+            "row": 225,
+            "red_pixels": 88
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 225,
+        "red_pixels": 88
+      }
+    }
+  },
+  "selectable_main_menu": {
+    "ok": true,
+    "records": [
+      {
+        "attempt": 1,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 1610
+          }
+        },
+        "start": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1611
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1612
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1613
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix2_pause_input\\selectable_menu_try_1_04000000.png",
+              "visible_sha1": "831e8cdfa1b2fa90b354addbf7ebbd2b1a4267c0",
+              "underline": {
+                "found": true,
+                "row": 126,
+                "red_pixels": 20
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix2_pause_input\\selectable_menu_try_1_04044000.png",
+              "visible_sha1": "99962180c3302afdb0bf83422d854261136789e0",
+              "underline": {
+                "found": true,
+                "row": 92,
+                "red_pixels": 52
+              }
+            }
+          ],
+          "best_address": "0x04044000",
+          "underline": {
+            "found": true,
+            "row": 92,
+            "red_pixels": 52
+          }
+        }
+      },
+      {
+        "attempt": 2,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 1902
+          }
+        },
+        "start": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1903
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1904
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1905
+            }
+          }
+        ],
+        "hit": true,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix2_pause_input\\selectable_main_menu_04000000.png",
+              "visible_sha1": "99962180c3302afdb0bf83422d854261136789e0",
+              "underline": {
+                "found": true,
+                "row": 92,
+                "red_pixels": 52
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix2_pause_input\\selectable_main_menu_04044000.png",
+              "visible_sha1": "99962180c3302afdb0bf83422d854261136789e0",
+              "underline": {
+                "found": true,
+                "row": 92,
+                "red_pixels": 52
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 92,
+            "red_pixels": 52
+          }
+        }
+      }
+    ]
+  },
+  "story_continue": {
+    "story_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1911
+        }
+      },
+      {
+        "phase": "press",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1912
+        }
+      },
+      {
+        "phase": "release",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1913
+        }
+      }
+    ],
+    "continue_renderer_hit": true,
+    "story_submenu_capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix2_pause_input\\story_submenu_04000000.png",
+          "visible_sha1": "97983f44830766ea73a89d5bef29785349511a4e",
+          "underline": {
+            "found": true,
+            "row": 152,
+            "red_pixels": 100
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix2_pause_input\\story_submenu_04044000.png",
+          "visible_sha1": "97983f44830766ea73a89d5bef29785349511a4e",
+          "underline": {
+            "found": true,
+            "row": 152,
+            "red_pixels": 100
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 152,
+        "red_pixels": 100
+      }
+    },
+    "continue_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1922
+        }
+      },
+      {
+        "phase": "press",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1923
+        }
+      },
+      {
+        "phase": "release",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1924
+        }
+      }
+    ]
+  },
+  "campaign_module": {
+    "ok": false,
+    "samples": [
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007"
+    ],
+    "start_pulse_count": 118
+  },
+  "exception": "Continue did not load the Stage40R/Y campaign executable",
+  "traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\bia_stage40z_fix2_tools\\bia_stage40z_fix2_pause_input.py\", line 1492, in main\n    raise RuntimeError(\nRuntimeError: Continue did not load the Stage40R/Y campaign executable\n",
+  "completed": false,
+  "owned_ppsspp_closed": true
+}

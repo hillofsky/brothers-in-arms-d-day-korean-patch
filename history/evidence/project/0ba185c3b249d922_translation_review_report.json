@@ -1,0 +1,373 @@
+{
+  "step": "STEP_055",
+  "reference_group": "D07_1500_BLOODYGULCH",
+  "rows": 32,
+  "control_tokens_pass": true,
+  "pipe_counts_pass": true,
+  "expected_status_after": {
+    "VERIFIED_APPLIED": 137,
+    "TRANSLATED_PENDING_APPLY": 90,
+    "TRANSLATED_REVIEWED": 574,
+    "NEEDS_TRANSLATION": 501
+  },
+  "iso_modified": false,
+  "movie_validation_resumed": false,
+  "checks": [
+    {
+      "resource_id": "BIA-01311",
+      "source_text": "Road",
+      "ko": "도로",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 6,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01317",
+      "source_text": "Lure the tank away from the panzerfaust crate to successfully defeat it.",
+      "ko": "전차를 판처파우스트 상자에서 멀리 유인한 뒤 파괴하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 76,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01458",
+      "source_text": "To force open the hatch on a tank, you must damage it with your tank or a panzerfaust.",
+      "ko": "전차의 해치를 강제로 열려면 아군 전차나 판처파우스트로 피해를 입혀야 한다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 106,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01534",
+      "source_text": "Baker: Anyone got a light?",
+      "ko": "베이커: 불 좀 빌려줄 사람?",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 36,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01633",
+      "source_text": "Clear the left flank.",
+      "ko": "좌측 측면을 소탕하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 30,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01743",
+      "source_text": "D+7 1500",
+      "ko": "D+7 15:00",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 9,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01753",
+      "source_text": "Defend Hill 30 until Baker arrives with reinforcements.",
+      "ko": "베이커가 증원군과 도착할 때까지 30고지를 방어하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 71,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01845",
+      "source_text": "Exit the trench and engage the German forces on the left flank.",
+      "ko": "참호를 나가 좌측 측면의 독일군과 교전하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 60,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01848",
+      "source_text": "Find the crate of Panzerfausts in order to destroy the tanks.",
+      "ko": "전차를 파괴할 판처파우스트 상자를 찾아라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 59,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01912",
+      "source_text": "German reinforcements and armor moved in from the south along the 101st's left flank.",
+      "ko": "독일군 증원군과 기갑부대가 남쪽에서 101공수사단의 좌측 측면을 따라 진입했다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 108,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01916",
+      "source_text": "German Supplies",
+      "ko": "독일군 보급품",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 19,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01921",
+      "source_text": "Gulch",
+      "ko": "협곡",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 6,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-01922",
+      "source_text": "Gulch Exit",
+      "ko": "협곡 출구",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 13,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02042",
+      "source_text": "If the hatch is open walk up behind the tank and press %icon_use% to blow it up with a grenade.",
+      "ko": "해치가 열렸다면 전차 뒤로 접근해 %icon_use%를 눌러 수류탄으로 파괴한다.",
+      "source_tokens": [
+        "%icon_use%"
+      ],
+      "ko_tokens": [
+        "%icon_use%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 97,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02058",
+      "source_text": "Leggett: Baker looks pretty bad, Sarge!",
+      "ko": "레겟: 병장님, 베이커 상태가 안 좋습니다!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 56,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02061",
+      "source_text": "Leggett: Baker!  You okay Baker?",
+      "ko": "레겟: 베이커! 괜찮아요, 베이커?",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 43,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02065",
+      "source_text": "Leggett: Christ.  He's not moving!",
+      "ko": "레겟: 맙소사. 움직이지 않아요!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 42,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02124",
+      "source_text": "Mac and his men were holding down the line until Baker returned with reinforcements.",
+      "ko": "맥과 대원들은 베이커가 증원군과 돌아올 때까지 방어선을 지키고 있었다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 99,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02125",
+      "source_text": "Mac at Hill30",
+      "ko": "30고지의 맥",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 15,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02174",
+      "source_text": "Mac: Get moving!  Paddock, you're with Hartsock!",
+      "ko": "맥: 움직여! 패독, 넌 하트삭과 함께 가!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 52,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02181",
+      "source_text": "Mac: Hartsock!  There's just too many of 'em.  You have to cut off their reinforcements on the left flank or we're all dead.",
+      "ko": "맥: 하트삭! 놈들이 너무 많아. 좌측 측면의 증원군을 끊지 않으면 우린 다 죽는다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 109,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02183",
+      "source_text": "Mac: He's fine get him on his feet!",
+      "ko": "맥: 괜찮아, 일으켜 세워!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 33,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02250",
+      "source_text": "Mac: Then get your ass back here.  We can't hold the line all God damn day.",
+      "ko": "맥: 그럼 당장 돌아와. 하루 종일 이 빌어먹을 방어선을 붙들고 있을 순 없어.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 102,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02301",
+      "source_text": "Marshall: How intense would you say the fighting was?",
+      "ko": "마셜: 전투가 얼마나 격렬했다고 보나?",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 51,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02341",
+      "source_text": "Meet with Mac and wait for Baker coming.",
+      "ko": "맥과 합류해 베이커가 올 때까지 기다려라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 57,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02427",
+      "source_text": "Rendezvous with Mac.",
+      "ko": "맥과 합류하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 20,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02490",
+      "source_text": "The 101st was holding the line until Baker returned with reinforcements.",
+      "ko": "101공수사단은 베이커가 증원군과 돌아올 때까지 방어선을 지키고 있었다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 98,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02505",
+      "source_text": "The narrow path will lead you back down to Mac, where you began the mission.",
+      "ko": "좁은 길을 따라가면 임무를 시작했던 맥이 있는 곳으로 돌아갈 수 있다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 95,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02526",
+      "source_text": "Try to distract the tanks before exposing yourself at vulnerable flanking positions.",
+      "ko": "측면 공격 위치에서 몸을 드러내기 전에 전차의 주의를 다른 곳으로 돌려라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 101,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02560",
+      "source_text": "You and your squad are vulnerable to German fire until Baker returns with reinforcements.",
+      "ko": "베이커가 증원군과 돌아올 때까지 당신과 분대원들은 독일군 사격에 취약하다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 105,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02574",
+      "source_text": "You can take out the first enemy unit silently.",
+      "ko": "첫 번째 적 부대는 조용히 제거할 수 있다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 56,
+      "max_bytes": ""
+    },
+    {
+      "resource_id": "BIA-02581",
+      "source_text": "You must clear the German forces before returning back.",
+      "ko": "돌아가기 전에 독일군을 소탕해야 한다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 53,
+      "max_bytes": ""
+    }
+  ]
+}

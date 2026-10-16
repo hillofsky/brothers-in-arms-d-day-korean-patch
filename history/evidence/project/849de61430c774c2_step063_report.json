@@ -1,0 +1,34 @@
+{
+  "step": "STEP_063",
+  "status": "VERIFIED",
+  "campaign_status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "TRANSLATED_REVIEWED": 1075,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "unapplied_campaign_units": 1165,
+  "reference_groups_visible_in_master": 41,
+  "parsed_reference_tokens": 1413,
+  "truncation_markers_in_master": 3,
+  "stage38_matching_rows": 3765,
+  "pipeline_candidate_files": 67,
+  "candidate_files_copied": 66,
+  "local_resource_candidates": 0,
+  "iso_baselines": [
+    {
+      "path": "PROJECT_ROOT\\BIA_STAGE43T_TITLE_PROMPT_FIX.iso",
+      "exists": true,
+      "size": 1551773696,
+      "sha256": "28ba5e9e8fd2eedc7e665817558dabc500daa7e218c3bd4b825d1dd1a2f9d9d0"
+    },
+    {
+      "path": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+      "exists": true,
+      "size": 1454997504,
+      "sha256": "3d138a30a4e468532d551c74c848b4ec1ab7a044a726c5434e8a6a20e6814f66"
+    }
+  ],
+  "iso_modified": false,
+  "movie_validation_resumed": false,
+  "next_phase": "BUILD_EXACT_CAMPAIGN_APPLY_MANIFEST_AND_PATCHER"
+}

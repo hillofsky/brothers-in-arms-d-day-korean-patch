@@ -1,0 +1,20 @@
+[
+  {
+    "stream": 0,
+    "decoded_offset": "0x14E90",
+    "english_compiled": "NO",
+    "korean": "아니요",
+    "original_chars": 2,
+    "capacity_chars": 2,
+    "reason": "Korean text exceeds fixed UTF-16 field capacity"
+  },
+  {
+    "stream": 0,
+    "decoded_offset": "0x15560",
+    "english_compiled": "NO",
+    "korean": "아니요",
+    "original_chars": 2,
+    "capacity_chars": 2,
+    "reason": "Korean text exceeds fixed UTF-16 field capacity"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "stage": "42B_HASHMAP_223_PROBE",
+  "source": "PROJECT_ROOT\\BIA_STAGE41F_FIRST_MOVIE_FULL_KO_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STAGE42B_HASHMAP_223_PROBE.iso",
+  "iso_path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLEHASHMAP.INI",
+  "lbn": 510976,
+  "old_size": 2172,
+  "new_size": 4275,
+  "old_sha1": "373904d416b40b19190a86b7fc28194a28de9c10",
+  "new_sha1": "fad63cc62590b1ad96ef11b941d0a6ed6bf900d4",
+  "unique_map_entries": 223,
+  "usable_content_keys": 222,
+  "completed": true
+}

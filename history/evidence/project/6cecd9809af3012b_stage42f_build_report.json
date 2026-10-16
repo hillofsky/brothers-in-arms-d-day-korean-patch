@@ -1,0 +1,31 @@
+{
+  "stage": "42F_MULTIGLYPH_TOKEN_PROBE",
+  "patches": [
+    {
+      "name": "SUBTITLEHASHMAP.INI",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLEHASHMAP.INI",
+      "lbn": 510976,
+      "size": 4275,
+      "old_sha1": "441c1fb76940bc2924333920537ac39ff6e49590",
+      "new_sha1": "53898f7b2c6e14c022bb8a86484fbc3e61c9a4c9"
+    },
+    {
+      "name": "SUBTITLETEXTURE.RAW",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLETEXTURE.RAW",
+      "lbn": 510992,
+      "size": 131072,
+      "old_sha1": "d25634c34ecdd27abd16b4706781f6d5e04d3e4d",
+      "new_sha1": "2ca5e9e80e23009594d71776ccc2131b362bc794"
+    },
+    {
+      "name": "FM_0115EAGLESJUMP.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1",
+      "lbn": 727332,
+      "size": 1482,
+      "old_sha1": "f86716f20e80eb9110c7deb86780fe66a54367ea",
+      "new_sha1": "ef4c6e9505bf65d418d621af0b37587e3ec9312e"
+    }
+  ],
+  "completed": true,
+  "output": "PROJECT_ROOT\\BIA_STAGE42F_MULTIGLYPH_TOKEN_PROBE.iso"
+}

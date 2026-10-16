@@ -1,0 +1,272 @@
+{
+  "stage": 33,
+  "purpose": "Prove permanent 512x512 TMR atlas, multiple Unicode pages, and five distinct Hangul glyphs without runtime font/descriptor patching",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE33_SCALABLE_ATLAS_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "texture_replacement_enabled": false,
+  "runtime_font_patch_enabled": false,
+  "runtime_descriptor_watcher_enabled": false,
+  "texture_storage": {
+    "mdi_stream": 22,
+    "runtime_address": "0x0987D020",
+    "bytes": 131072,
+    "sha1": "8957c2ac5cb2c572b062ca4768e3cf22840af2bd"
+  },
+  "boot_iso": "PROJECT_ROOT\\BIA_STAGE33_SCALABLE_ATLAS_TEST.iso",
+  "iso_prepare": {
+    "mode": "fresh_from_original",
+    "path": "PROJECT_ROOT\\BIA_STAGE33_SCALABLE_ATLAS_TEST.iso",
+    "mdi_patch": {
+      "stream19_old_csize": 59805,
+      "stream19_new_csize": 61937,
+      "stream22_old_csize": 499,
+      "stream22_new_csize": 9327,
+      "glyph_count": 156,
+      "new_glyph_ptr": "0x0971BB20",
+      "latin_records_unchanged": true,
+      "hangul_pages": {
+        "U+D55C": {
+          "char": "한",
+          "glyph_index": 151,
+          "page_runtime": "0x0971CA20",
+          "atlas_xy": [
+            128,
+            256
+          ]
+        },
+        "U+AE00": {
+          "char": "글",
+          "glyph_index": 152,
+          "page_runtime": "0x0971CC20",
+          "atlas_xy": [
+            256,
+            256
+          ]
+        },
+        "U+D14C": {
+          "char": "테",
+          "glyph_index": 153,
+          "page_runtime": "0x0971CE20",
+          "atlas_xy": [
+            384,
+            256
+          ]
+        },
+        "U+C2A4": {
+          "char": "스",
+          "glyph_index": 154,
+          "page_runtime": "0x0971D020",
+          "atlas_xy": [
+            128,
+            384
+          ]
+        },
+        "U+D2B8": {
+          "char": "트",
+          "glyph_index": 155,
+          "page_runtime": "0x0971D220",
+          "atlas_xy": [
+            384,
+            384
+          ]
+        }
+      },
+      "mapping_checks": {
+        "U+D55C": {
+          "char": "한",
+          "page_ptr": "0x0971CA20",
+          "map_value": 151
+        },
+        "U+AE00": {
+          "char": "글",
+          "page_ptr": "0x0971CC20",
+          "map_value": 152
+        },
+        "U+D14C": {
+          "char": "테",
+          "page_ptr": "0x0971CE20",
+          "map_value": 153
+        },
+        "U+C2A4": {
+          "char": "스",
+          "page_ptr": "0x0971D020",
+          "map_value": 154
+        },
+        "U+D2B8": {
+          "char": "트",
+          "page_ptr": "0x0971D220",
+          "map_value": 155
+        }
+      },
+      "texture_dimensions": [
+        512,
+        512
+      ],
+      "texture_runtime_address": "0x0987D020",
+      "texture_bytes": 131072,
+      "texture_sha1": "8957c2ac5cb2c572b062ca4768e3cf22840af2bd"
+    },
+    "dsl_permanent_patch": {
+      "relocation_file_offset": "0x169E12",
+      "old_entry": [
+        "0x40006580",
+        "0x00000080",
+        "0x4011BF40"
+      ],
+      "new_entry": [
+        "0x40006580",
+        "0x00000200",
+        "0x41419020"
+      ],
+      "target_runtime_texture": "0x0987D020",
+      "buffer_width": 512,
+      "new_e1": "0x00000200",
+      "new_e2": "0x41419020",
+      "b8_source_offset": "0x17513F",
+      "old_B8": "0xB8000807",
+      "new_B8": "0xB8000909",
+      "expected_runtime_descriptor": [
+        "0xA087D020",
+        "0xA8090200",
+        "0xB8000909"
+      ]
+    },
+    "dsx_permanent_patch": {
+      "block_count": 94,
+      "old_size": 811149,
+      "new_size": 811152,
+      "changed_blocks": [
+        {
+          "index": 90,
+          "logical_start": "0x168000",
+          "logical_end": "0x16C000",
+          "old_csize": 7108,
+          "new_csize": 7109
+        },
+        {
+          "index": 93,
+          "logical_start": "0x174000",
+          "logical_end": "0x1751BC",
+          "old_csize": 887,
+          "new_csize": 889
+        }
+      ],
+      "logical_size": 1528252,
+      "logical_sha1": "7cb5439c468e14a19aaba753683dce0771a93184",
+      "rebuilt_sha1": "88a1c85d56fd16fdd1f30a7b60114d5bc1150e7d",
+      "logical_matches_patched_dsl": true
+    },
+    "mdi_iso_relocation": {
+      "old_extent": 147920,
+      "old_size": 3775810,
+      "new_extent": 710448,
+      "new_size": 3786770
+    },
+    "dsx_iso_relocation": {
+      "old_extent": 147520,
+      "old_size": 811149,
+      "new_extent": 712298,
+      "new_size": 811152
+    },
+    "iso_readback_verified": true,
+    "dsx_decompresses_exactly_to_patched_dsl": true
+  },
+  "previous_ppsspp": {
+    "found": false
+  },
+  "launched_ppsspp_pid": 19508,
+  "ppsspp_auto_close": true,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "boot_automation": {
+    "input_method": "PPSSPP WebSocket input.buttons.press",
+    "fast_forward_supported": false,
+    "fast_forward_response": null,
+    "fast_forward_error": "Bad message: unknown event",
+    "start_presses": 97,
+    "elapsed_seconds": 19.559
+  },
+  "menu_detected": true,
+  "loaded_font": {
+    "glyph_count": 156,
+    "glyph_ptr": "0x0971BB20",
+    "expected_glyph_ptr": "0x0971BB20",
+    "mappings": {
+      "U+D55C": {
+        "char": "한",
+        "page_ptr": "0x0971CA20",
+        "map_value": 151,
+        "expected_index": 151
+      },
+      "U+AE00": {
+        "char": "글",
+        "page_ptr": "0x0971CC20",
+        "map_value": 152,
+        "expected_index": 152
+      },
+      "U+D14C": {
+        "char": "테",
+        "page_ptr": "0x0971CE20",
+        "map_value": 153,
+        "expected_index": 153
+      },
+      "U+C2A4": {
+        "char": "스",
+        "page_ptr": "0x0971D020",
+        "map_value": 154,
+        "expected_index": 154
+      },
+      "U+D2B8": {
+        "char": "트",
+        "page_ptr": "0x0971D220",
+        "map_value": 155,
+        "expected_index": 155
+      }
+    },
+    "texture_address": "0x0987D020",
+    "texture_dimensions": [
+      512,
+      512
+    ],
+    "texture_bytes": 131072,
+    "texture_sha1": "8957c2ac5cb2c572b062ca4768e3cf22840af2bd",
+    "texture_expected_sha1": "8957c2ac5cb2c572b062ca4768e3cf22840af2bd"
+  },
+  "runtime_descriptor": [
+    "0xA087D020",
+    "0xA8090200",
+    "0xB8000909"
+  ],
+  "expected_runtime_descriptor": [
+    "0xA087D020",
+    "0xA8090200",
+    "0xB8000909"
+  ],
+  "runtime_descriptor_matches": true,
+  "permanent_A0_A8_match": true,
+  "permanent_B8_match": true,
+  "korean_test_text": "한글테스트",
+  "korean_test_codepoints": [
+    "U+D55C",
+    "U+AE00",
+    "U+D14C",
+    "U+C2A4",
+    "U+D2B8"
+  ],
+  "runtime_descriptor_after_korean": [
+    "0xA087D020",
+    "0xA8090200",
+    "0xB8000909"
+  ],
+  "runtime_patch_scope": "Story UTF-16 test text only; NO font/UV/texture/descriptor RAM patch",
+  "permanent_font_proof": true,
+  "completed": true,
+  "ppsspp_closed_after_test": true
+}

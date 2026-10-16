@@ -1,0 +1,327 @@
+{
+  "fonts": 64,
+  "lookup_cases": 55046,
+  "passed": true,
+  "resources": [
+    {
+      "mdi": "D07_1501.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 857
+    },
+    {
+      "mdi": "D07_1501.MDI",
+      "font": "0x9a1d640",
+      "glyphs": 857
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 865
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "font": "0x9b49f30",
+      "glyphs": 865
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 868
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "font": "0x9a3c950",
+      "glyphs": 868
+    },
+    {
+      "mdi": "D0_0130_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 881
+    },
+    {
+      "mdi": "D0_0130_.MDI",
+      "font": "0x9a8cac0",
+      "glyphs": 881
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 879
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "font": "0x9a74150",
+      "glyphs": 879
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 871
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "font": "0x9b79cf0",
+      "glyphs": 871
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 874
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "font": "0x9a9e390",
+      "glyphs": 874
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 857
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "font": "0x99173c0",
+      "glyphs": 857
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 858
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "font": "0x9b417a0",
+      "glyphs": 858
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 866
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "font": "0x9b2cd80",
+      "glyphs": 866
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 856
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "font": "0x9b251f0",
+      "glyphs": 856
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 863
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "font": "0x9a8e270",
+      "glyphs": 863
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 875
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "font": "0x9b4e9b0",
+      "glyphs": 875
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 862
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "font": "0x9b55900",
+      "glyphs": 862
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 862
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "font": "0x9ac4de0",
+      "glyphs": 862
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 864
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "font": "0x9b26610",
+      "glyphs": 864
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 865
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "font": "0x9b56ed0",
+      "glyphs": 865
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 862
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "font": "0x9a1f6d0",
+      "glyphs": 862
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 870
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "font": "0x9b17170",
+      "glyphs": 870
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 870
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "font": "0x97f6770",
+      "glyphs": 870
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "font": "0x99bb470",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "font": "0x98f9da0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "font": "0x99ec1f0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "font": "0x9a2c3b0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 853
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "font": "0x98e9580",
+      "glyphs": 853
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 850
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "font": "0x9852430",
+      "glyphs": 850
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 850
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "font": "0x99c9190",
+      "glyphs": 850
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 852
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "font": "0x9a75de0",
+      "glyphs": 852
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "font": "0x98f21e0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "font": "0x99f1e60",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "font": "0x9886eb0",
+      "glyphs": 849
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "font": "0x8fc3ca0",
+      "glyphs": 850
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "font": "0x987ba70",
+      "glyphs": 850
+    }
+  ]
+}

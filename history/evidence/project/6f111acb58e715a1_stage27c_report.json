@@ -1,0 +1,163 @@
+{
+  "stage": "27C",
+  "purpose": "Retry breakpoint installation until CPU startup, then pause on the first 0x08E693C0 write and capture decoder state/caller",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso_fallback": "PROJECT_ROOT\\BIA_STAGE22_RUNTIME_DESCRIPTOR_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "texture_replacement_enabled": false,
+  "texture_storage": {
+    "mdi_stream": 22,
+    "runtime_address": "0x0987D020",
+    "bytes": 32768,
+    "sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "boot_iso": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso",
+  "iso_prepare": {
+    "mode": "reuse",
+    "path": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso"
+  },
+  "previous_ppsspp": {
+    "found": false
+  },
+  "launched_ppsspp_pid": 28212,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "descriptor_breakpoint_add": {
+    "attempts": 1,
+    "elapsed_seconds": 0.0,
+    "result": {
+      "event": "memory.breakpoint.add",
+      "ticket": 1002
+    }
+  },
+  "descriptor_breakpoint_before": {
+    "event": "memory.breakpoint.list",
+    "ticket": 1003,
+    "breakpoints": [
+      {
+        "address": 149328832,
+        "size": 1,
+        "enabled": true,
+        "log": true,
+        "read": false,
+        "write": true,
+        "change": true,
+        "hits": 0,
+        "condition": null,
+        "logFormat": null,
+        "symbol": null
+      }
+    ]
+  },
+  "advance_to_pause": {
+    "paused": true,
+    "status": {
+      "event": "cpu.status",
+      "ticket": 1014,
+      "stepping": true,
+      "paused": false,
+      "pc": 134217728,
+      "ticks": 154528029
+    },
+    "start_presses": 5,
+    "elapsed_seconds": 0.848
+  },
+  "pause_snapshot": {
+    "cpu_status": {
+      "event": "cpu.status",
+      "ticket": 1015,
+      "stepping": true,
+      "paused": false,
+      "pc": 134217728,
+      "ticks": 154528029
+    },
+    "pc": "0x08000000",
+    "expected_writer_pc": "0x0881BF60",
+    "pc_matches_stage27_log": false,
+    "registers": {
+      "zero": "0x00000000",
+      "at": "0xDEADBEEF",
+      "v0": "0xDEADBEEF",
+      "v1": "0xDEADBEEF",
+      "a0": "0xDEADBEEF",
+      "a1": "0xDEADBEEF",
+      "a2": "0xDEADBEEF",
+      "a3": "0xDEADBEEF",
+      "t0": "0xDEADBEEF",
+      "t1": "0xDEADBEEF",
+      "t2": "0xDEADBEEF",
+      "t3": "0xDEADBEEF",
+      "t4": "0xDEADBEEF",
+      "t5": "0xDEADBEEF",
+      "t6": "0xDEADBEEF",
+      "t7": "0xDEADBEEF",
+      "s0": "0xDEADBEEF",
+      "s1": "0xDEADBEEF",
+      "s2": "0xDEADBEEF",
+      "s3": "0xDEADBEEF",
+      "s4": "0xDEADBEEF",
+      "s5": "0xDEADBEEF",
+      "s6": "0xDEADBEEF",
+      "s7": "0xDEADBEEF",
+      "t8": "0xDEADBEEF",
+      "t9": "0xDEADBEEF",
+      "k0": "0x083FFF00",
+      "k1": "0xDEADBEEF",
+      "gp": "0x08DCA7F0",
+      "sp": "0x083FFF00",
+      "fp": "0xDEADBEEF",
+      "ra": "0x08000000",
+      "pc": "0x08000000",
+      "hi": "0xDEADBEEF",
+      "lo": "0xDEADBEEF"
+    },
+    "decoder_interpretation": {
+      "output_start_t6": "0xDEADBEEF",
+      "output_end_a1": "0xDEADBEEF",
+      "current_output_a0": "0xDEADBEEF",
+      "predicted_write_a0_minus_1": "0xDEADBEEE",
+      "compressed_cursor_a2": "0xDEADBEEF",
+      "optional_updated_cursor_ptr_a3": "0xDEADBEEF",
+      "lz_backref_s4": "0xDEADBEEF",
+      "descriptor_offset_from_output_start": "0x2A38D4D1"
+    },
+    "stack_frame": {
+      "sp": "0x083FFF00",
+      "saved_caller_ra_sp_plus_310": "0x00000000",
+      "caller_jal_candidate_ra_minus_8": "0xFFFFFFF8",
+      "saved_s4_sp_plus_308": "0x00000000"
+    }
+  },
+  "descriptor_breakpoint_remove": {
+    "event": "memory.breakpoint.remove",
+    "ticket": 1019
+  },
+  "resume_status": {
+    "event": "cpu.status",
+    "ticket": 1020,
+    "stepping": false,
+    "paused": false,
+    "pc": 134217728,
+    "ticks": 154528029
+  },
+  "boot_automation_after_pause": {
+    "input_method": "PPSSPP WebSocket input.buttons.press",
+    "fast_forward_supported": false,
+    "fast_forward_response": null,
+    "fast_forward_error": "Bad message: unknown event",
+    "start_presses": 104,
+    "elapsed_seconds": 21.246
+  },
+  "menu_detected": true,
+  "ppsspp_log_parse_error": "name 're' is not defined",
+  "completed": true,
+  "expected_before": "garbled menu before UV repair",
+  "expected_after_descriptor": "normal English menu after V-coordinate x2 repair",
+  "expected_after": "한한한한한; other menu labels normal"
+}

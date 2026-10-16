@@ -1,0 +1,23 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE43O_RESTART_LIFETIME_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STAGE43Q_HINT_HEIGHT_TEST.iso",
+  "helper_va": "0x5fef70",
+  "helper_bytes": 52,
+  "hooks": {
+    "0x20fb8": "0xc17fbdc",
+    "0x20fbc": "0x34110000",
+    "0x20fc0": "0x10c00089",
+    "0x211d8": "0xc17fbdc",
+    "0x211dc": "0x3119021"
+  },
+  "module_end": "0x8e02fb0",
+  "new_relocations": [
+    "0x20fb8",
+    "0x211d8",
+    "0x5fef84"
+  ],
+  "chapter_restart_fix_preserved": true,
+  "runtime_verified": true,
+  "user_verified": true,
+  "user_verification": "상단 자막 잘림 수정 정상 반영 확인"
+}

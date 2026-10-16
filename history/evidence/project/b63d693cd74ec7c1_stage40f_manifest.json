@@ -1,0 +1,13 @@
+{
+  "stage": "40F",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE39U_BOOT_RENDER_UTF8_TEST.iso",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE40F_ON_MEMU_RESIDENT_MASS_TEST.iso",
+  "target_mdi": "ON_MEMU_O.MDI",
+  "metadata_actions": 1675,
+  "unique_units": 690,
+  "unique_payloads": 656,
+  "allocation_stream": 23,
+  "allocation_runtime_base": "0x098F5020",
+  "allocation_start": "0xA870",
+  "allocation_end": "0x77FC0"
+}

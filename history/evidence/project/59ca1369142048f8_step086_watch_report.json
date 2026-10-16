@@ -1,0 +1,2377 @@
+{
+  "step": "STEP_086",
+  "status": "WATCH_TRACE_COLLECTED_UNVERIFIED",
+  "read_only_game_memory": true,
+  "psp_ram_writes": false,
+  "iso_modified": false,
+  "pid_prechecked_by_launcher": 21012,
+  "mission2_korean_render_fixed": false,
+  "watchpoint_mode": "log only, no pause",
+  "source_screenshot": "copied native PPSSPP key 1 image from launcher",
+  "version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "game_status": {
+    "event": "game.status",
+    "ticket": 2,
+    "game": {
+      "id": "ULUS10193",
+      "version": "1.01",
+      "title": "Brothers in Arms D-Day"
+    },
+    "paused": false
+  },
+  "scene_anchor": {
+    "address": "0x09E7B040",
+    "utf8": "프랑스 유타 해변 인근",
+    "adjacent_time": "D-Day 06:00"
+  },
+  "cpu_before": {
+    "event": "cpu.status",
+    "ticket": 5,
+    "stepping": false,
+    "paused": false,
+    "pc": 147436404,
+    "ticks": 7303258198
+  },
+  "added_watchpoints": [
+    {
+      "name": "mission2_utf8_source",
+      "address": "0x9e7b040",
+      "size": 30,
+      "response": {
+        "event": "memory.breakpoint.add",
+        "ticket": 6
+      }
+    },
+    {
+      "name": "hangul_page_index_peu",
+      "address": "0x9e75528",
+      "size": 2,
+      "response": {
+        "event": "memory.breakpoint.add",
+        "ticket": 7
+      }
+    },
+    {
+      "name": "mission2_fontA_glyph_pointer",
+      "address": "0x9b1cf78",
+      "size": 4,
+      "response": {
+        "event": "memory.breakpoint.add",
+        "ticket": 8
+      }
+    },
+    {
+      "name": "mission2_fontB_glyph_pointer",
+      "address": "0x9b1f110",
+      "size": 4,
+      "response": {
+        "event": "memory.breakpoint.add",
+        "ticket": 9
+      }
+    }
+  ],
+  "samples": [
+    {
+      "elapsed_seconds": 0.5,
+      "stepping": false,
+      "hits": [
+        {
+          "name": "mission2_utf8_source",
+          "address": "0x9e7b040",
+          "hits": 2119,
+          "found": true
+        },
+        {
+          "name": "hangul_page_index_peu",
+          "address": "0x9e75528",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontA_glyph_pointer",
+          "address": "0x9b1cf78",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontB_glyph_pointer",
+          "address": "0x9b1f110",
+          "hits": 0,
+          "found": true
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 1.0,
+      "stepping": false,
+      "hits": [
+        {
+          "name": "mission2_utf8_source",
+          "address": "0x9e7b040",
+          "hits": 4564,
+          "found": true
+        },
+        {
+          "name": "hangul_page_index_peu",
+          "address": "0x9e75528",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontA_glyph_pointer",
+          "address": "0x9b1cf78",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontB_glyph_pointer",
+          "address": "0x9b1f110",
+          "hits": 0,
+          "found": true
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 1.5,
+      "stepping": false,
+      "hits": [
+        {
+          "name": "mission2_utf8_source",
+          "address": "0x9e7b040",
+          "hits": 6883,
+          "found": true
+        },
+        {
+          "name": "hangul_page_index_peu",
+          "address": "0x9e75528",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontA_glyph_pointer",
+          "address": "0x9b1cf78",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontB_glyph_pointer",
+          "address": "0x9b1f110",
+          "hits": 0,
+          "found": true
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 2.0,
+      "stepping": false,
+      "hits": [
+        {
+          "name": "mission2_utf8_source",
+          "address": "0x9e7b040",
+          "hits": 9128,
+          "found": true
+        },
+        {
+          "name": "hangul_page_index_peu",
+          "address": "0x9e75528",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontA_glyph_pointer",
+          "address": "0x9b1cf78",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontB_glyph_pointer",
+          "address": "0x9b1f110",
+          "hits": 0,
+          "found": true
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 2.5,
+      "stepping": false,
+      "hits": [
+        {
+          "name": "mission2_utf8_source",
+          "address": "0x9e7b040",
+          "hits": 11410,
+          "found": true
+        },
+        {
+          "name": "hangul_page_index_peu",
+          "address": "0x9e75528",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontA_glyph_pointer",
+          "address": "0x9b1cf78",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontB_glyph_pointer",
+          "address": "0x9b1f110",
+          "hits": 0,
+          "found": true
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 3.0,
+      "stepping": false,
+      "hits": [
+        {
+          "name": "mission2_utf8_source",
+          "address": "0x9e7b040",
+          "hits": 13529,
+          "found": true
+        },
+        {
+          "name": "hangul_page_index_peu",
+          "address": "0x9e75528",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontA_glyph_pointer",
+          "address": "0x9b1cf78",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontB_glyph_pointer",
+          "address": "0x9b1f110",
+          "hits": 0,
+          "found": true
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 3.5,
+      "stepping": false,
+      "hits": [
+        {
+          "name": "mission2_utf8_source",
+          "address": "0x9e7b040",
+          "hits": 15811,
+          "found": true
+        },
+        {
+          "name": "hangul_page_index_peu",
+          "address": "0x9e75528",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontA_glyph_pointer",
+          "address": "0x9b1cf78",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontB_glyph_pointer",
+          "address": "0x9b1f110",
+          "hits": 0,
+          "found": true
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 4.0,
+      "stepping": false,
+      "hits": [
+        {
+          "name": "mission2_utf8_source",
+          "address": "0x9e7b040",
+          "hits": 18093,
+          "found": true
+        },
+        {
+          "name": "hangul_page_index_peu",
+          "address": "0x9e75528",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontA_glyph_pointer",
+          "address": "0x9b1cf78",
+          "hits": 0,
+          "found": true
+        },
+        {
+          "name": "mission2_fontB_glyph_pointer",
+          "address": "0x9b1f110",
+          "hits": 0,
+          "found": true
+        }
+      ]
+    }
+  ],
+  "last_hits": [
+    {
+      "name": "mission2_utf8_source",
+      "address": "0x9e7b040",
+      "hits": 18093,
+      "found": true
+    },
+    {
+      "name": "hangul_page_index_peu",
+      "address": "0x9e75528",
+      "hits": 0,
+      "found": true
+    },
+    {
+      "name": "mission2_fontA_glyph_pointer",
+      "address": "0x9b1cf78",
+      "hits": 0,
+      "found": true
+    },
+    {
+      "name": "mission2_fontB_glyph_pointer",
+      "address": "0x9b1f110",
+      "hits": 0,
+      "found": true
+    }
+  ],
+  "cpu_after": {
+    "event": "cpu.status",
+    "ticket": 26,
+    "stepping": false,
+    "paused": false,
+    "pc": 144662704,
+    "ticks": 7618583999
+  },
+  "sampled_pc_logs": [
+    {
+      "event": "log",
+      "timestamp": "49:01:777",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08ca04a0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read240(ReplaceMemcpy/ReplaceMemset) at 09e7b040: STEP086_mission2_utf8_source pc=08ca028c ra=08ca4f98\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f5f84 ra=089f6dd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:779",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:780",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:781",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f56e0 ra=089f6200\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02c44 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02c64 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:782",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02c44 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02c64 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02c44 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02c64 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02c44 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02c64 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02c44 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02c64 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02c44 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:783",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02c64 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08e02c44 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08e02c64 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08e02c44 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08e02c64 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08e02c28 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08e02c44 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08e02c64 ra=089f570c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=089f56e0 ra=089f5d94\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=089f626c ra=089f6200\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=089f6278 ra=089f6200\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:784",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=089f628c ra=089f6200\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:815",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08ca04a0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:815",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:815",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:815",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:815",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:815",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:815",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b058: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b05c: STEP086_mission2_utf8_source pc=08ca04b0 ra=08ca440c\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:816",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read240(ReplaceMemcpy/ReplaceMemset) at 09e7b040: STEP086_mission2_utf8_source pc=08ca028c ra=08ca4f98\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f5f84 ra=089f6dd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b040: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b044: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:817",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b048: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b04c: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:818",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f60b0 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:819",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=089f60c4 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:819",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02e98 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:819",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02eb4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:819",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b050: STEP086_mission2_utf8_source pc=08e02ed4 ra=089f5fcc\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:819",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f6064 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:819",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f6070 ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    },
+    {
+      "event": "log",
+      "timestamp": "49:01:819",
+      "header": "user_main    N[MEMMAP]: Debugger\\Breakpoints.cpp:43",
+      "message": "CHK Read8(interpret) at 09e7b054: STEP086_mission2_utf8_source pc=089f607c ra=089f5fd8\n",
+      "level": 1,
+      "channel": "MEMMAP"
+    }
+  ],
+  "dropped_log_messages_locally": 17880,
+  "interpretation": "Hits>0 proves RAM address accessed during sample; zero hits cannot disprove earlier one-time loading, nor prove renderer path.",
+  "watch_cleanup": [
+    {
+      "name": "mission2_fontB_glyph_pointer",
+      "removed": true
+    },
+    {
+      "name": "mission2_fontA_glyph_pointer",
+      "removed": true
+    },
+    {
+      "name": "hangul_page_index_peu",
+      "removed": true
+    },
+    {
+      "name": "mission2_utf8_source",
+      "removed": true
+    }
+  ],
+  "completed_at": "2026-10-08T18:49:06+09:00"
+}

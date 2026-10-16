@@ -1,0 +1,421 @@
+{
+  "step": "STEP099",
+  "source": "PROJECT_ROOT\\BIA_STEP098_ALL_CHAPTER_UFONT_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STEP099_COMPLETION_SAVE_KO_TEST.iso",
+  "source_sha256": "e7a675ff56ae7167607782295561f89d5b476a23d8710ca5c8c7e6dc9bfb84c8",
+  "source_preserved": true,
+  "output_sha256": "0acee8119eacf559b6b2f6db4240ebb15e40bbf9d6ebd8707d907bb04a161f41",
+  "translations": {
+    "Chapter Completed": "챕터 완료",
+    "A medal has been awarded!": "훈장을 받았습니다!",
+    "Do you want to save the game?": "게임을 저장하시겠습니까?",
+    "Confirm": "확인",
+    "No": "아니요",
+    "Yes": "예",
+    "Quit": "종료",
+    "Continue": "계속"
+  },
+  "maps_patched": 32,
+  "value_refs_patched": 474,
+  "key_metadata_preserved": true,
+  "font_and_atlas_and_prx_preserved": true,
+  "all_new_ui_glyphs_available": true,
+  "mdi_and_iso_readback_verified": true,
+  "runtime_visually_verified": false,
+  "maps": [
+    {
+      "mdi": "D07_1501.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "dc223f161082ce46e31638168ddc07a6f11a5b20350949a0ceab7e1b2319fc1b",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "value_refs_patched": 10,
+      "unique_translations": 5,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x31060",
+      "mdi_sha256": "e8bfdfe1ea9d6d00f87ae000ff5f2cd728b13848121c82dd6286824c6dd4e91b",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "b41b3fd7fd08f8da333f9c0def61de45eef167acb4a68ddf539fd33da77e947d",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_0130_.MDI",
+      "value_refs_patched": 1,
+      "unique_translations": 1,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x31008",
+      "mdi_sha256": "c0328ade0f50cbc52614c46844e91daf72e6a1a7a1002ab77e9f6102fa86481c",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "value_refs_patched": 19,
+      "unique_translations": 8,
+      "changed_streams": [
+        23,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "0b59c95df5e603dc8ed96f110f11f9871daf17799dabb670e8156adea3721599",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "505654deb44cc0e59c7d1da97517a96a7a5c13d3808b6e4c161d1acaa3007e48",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "9f489cc95c914930af09226312832eb672f8e6eac0fd931545ab761413dcdcce",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "value_refs_patched": 15,
+      "unique_translations": 8,
+      "changed_streams": [
+        22,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "2044164d4b35477b9f8b1e8b3b230126f89eebebf5bd992e3506f7a2e65c8984",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "value_refs_patched": 6,
+      "unique_translations": 5,
+      "changed_streams": [
+        23,
+        35
+      ],
+      "payload_end": "0x31060",
+      "mdi_sha256": "878e8aa9cddabd5ba37681399c386c5620703ff41b8933daf3198eea803c5361",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "value_refs_patched": 3,
+      "unique_translations": 2,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x3101c",
+      "mdi_sha256": "f5236a67b47da93b9d082a4e91671b62bdc05ed942c4547bc8679f22030ab49e",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "value_refs_patched": 19,
+      "unique_translations": 8,
+      "changed_streams": [
+        6,
+        23,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "76515dee98f6b2211732b26f9f6df430bb0995c732b5d93666c32899f37e7d81",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        23,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "f734aec04d86de87675b29df8b360b70294eba5a8390ba093e19faccb3cf4501",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "3532df703603acc06502453e1c8fc20be04a499b7f5db0d3b2656f8958003812",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        22,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "fc0db561b64834b6d1b4e422979b7757a5544ee2d1cd046b474b1861daa221c6",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        23,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "1b73d38417ba6bf4e0e6858394f93fcf8b1e046f7da3ed06ea4c589fbeaa88d7",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "value_refs_patched": 17,
+      "unique_translations": 8,
+      "changed_streams": [
+        23,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "0657dcc71b033423d4f3ad26eddc6f75cf6b8bfc14a67b76de057c22a50cbbd5",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "value_refs_patched": 15,
+      "unique_translations": 8,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "814801bd9ade5ab33089e7301bcf269f86bd1e9c75bab49f05db760677a964a6",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        22,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "6793061730a012c945c1e8491f9c446769734bb6eba3b9cd89eccea9318dc6a2",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        23,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "3d04cb6ae71222bb7f6e708f8532a05f5c678aaba3b3bab2f2ce932b61bb7348",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        22,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "91ce497a3f7bcfce840e5949a18054fe0a81f99ee8621908194184adb4402f0a",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "value_refs_patched": 11,
+      "unique_translations": 7,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x3105c",
+      "mdi_sha256": "f0ab10393bedc80881c4af10223477964e23afb31ea7aee7da94291a7b948558",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "value_refs_patched": 14,
+      "unique_translations": 6,
+      "changed_streams": [
+        6,
+        26,
+        35
+      ],
+      "payload_end": "0x31058",
+      "mdi_sha256": "59ba32137ebcb54123b5121deb5483e44f902afca47d3be3c06cd056c5477fc7",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "3ac914683ae08d0df599cd9ea16d13a4c70ddf409ddbf3f19597a915fafb6063",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "value_refs_patched": 19,
+      "unique_translations": 8,
+      "changed_streams": [
+        6,
+        25,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "bd7bcd4515001c6e333d61a4279a03cbea3284fcb9f82c3577f0779c49be6328",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "value_refs_patched": 19,
+      "unique_translations": 8,
+      "changed_streams": [
+        6,
+        25,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "32d5f194e90e81309365c59b401d96b4615adf2211115321fac1680a5dc343a7",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        24,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "fbdf3656a05b28e8bbc9517b617aab34a0c666800e1e833b52fafd175d6d289a",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "value_refs_patched": 19,
+      "unique_translations": 8,
+      "changed_streams": [
+        6,
+        24,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "e98bb75bcb9d59923179e175c02bcfeaf83cec5dda3729c09a27030e7e8adb7e",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "value_refs_patched": 13,
+      "unique_translations": 6,
+      "changed_streams": [
+        6,
+        25,
+        35
+      ],
+      "payload_end": "0x31068",
+      "mdi_sha256": "8571e22f319acb6f50bee66cd61e0c4e9420247e63199e5d7b92a933c53602c4",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "value_refs_patched": 13,
+      "unique_translations": 6,
+      "changed_streams": [
+        25,
+        35
+      ],
+      "payload_end": "0x31068",
+      "mdi_sha256": "51a3a0937bfe3f6c93c2a697ac53106a5b5a35b22b78ad1407bc8bf0809d796d",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "value_refs_patched": 19,
+      "unique_translations": 8,
+      "changed_streams": [
+        6,
+        25,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "cbf2a3daee95dc0ebf970350d5137a1fb51a263d6a8cc94085e8672b4e78fe40",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "value_refs_patched": 16,
+      "unique_translations": 8,
+      "changed_streams": [
+        25,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "1809b023cdb6dab0f1b7b3c4ea8dc5ba965770dbe09355066ad1eee211e1a86e",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "value_refs_patched": 18,
+      "unique_translations": 8,
+      "changed_streams": [
+        6,
+        25,
+        35
+      ],
+      "payload_end": "0x31078",
+      "mdi_sha256": "b0c48300d5e2a20630c437920248d59a481eda6ffa24021473509033e1d7a999",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    }
+  ],
+  "independent_iso_translation_refs_verified": 474,
+  "runtime_note": "Posted screenshots prove English residuals; replacement localization values and glyph availability verified statically. New UI screenshots after restart remain user QA."
+}

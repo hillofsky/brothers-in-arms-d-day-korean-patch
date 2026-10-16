@@ -1,0 +1,161 @@
+{
+  "stage": "25B",
+  "purpose": "Record complete fragmented PPSSPP GPU frame-dump responses for command-by-command comparison against the known-good original frame",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso_fallback": "PROJECT_ROOT\\BIA_STAGE22_RUNTIME_DESCRIPTOR_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "texture_replacement_enabled": false,
+  "texture_storage": {
+    "mdi_stream": 22,
+    "runtime_address": "0x0987D020",
+    "bytes": 32768,
+    "sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "boot_iso": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso",
+  "iso_prepare": {
+    "mode": "reuse",
+    "path": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso"
+  },
+  "previous_ppsspp": {
+    "found": true,
+    "pid": 11708,
+    "closed_normally": true
+  },
+  "launched_ppsspp_pid": 29204,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "pre_menu_descriptor_watcher_started": true,
+  "boot_automation": {
+    "input_method": "PPSSPP WebSocket input.buttons.press",
+    "fast_forward_supported": false,
+    "fast_forward_response": null,
+    "fast_forward_error": "Bad message: unknown event",
+    "start_presses": 96,
+    "elapsed_seconds": 19.435
+  },
+  "menu_detected": true,
+  "loaded_font": {
+    "glyph_count": 152,
+    "glyph_ptr": "0x0971BB20",
+    "expected_glyph_ptr": "0x0971BB20",
+    "D5_page": "0x0971CA20",
+    "expected_D5_page": "0x0971CA20",
+    "D55C_map": 151,
+    "texture_address": "0x0987D020",
+    "texture_sha1": "0fa604d1f92d576128995257311c36c5e6eac188",
+    "texture_expected_sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "garbled_menu_frame_dump": {
+    "path": "PROJECT_ROOT\\analysis\\stage25b_frame_compare\\stage25b_garbled_menu.ppdmp",
+    "bytes": 93551,
+    "sha256": "5ab9631103a36370f1c732aacd947341b8b075493169aebba712ebc2a01f6881",
+    "magic": "PPSSPPGE",
+    "version": 6
+  },
+  "runtime_inventory": {
+    "A057FF40": [],
+    "A087D020": [
+      "SUB:0x08E693C0"
+    ],
+    "A8080080": [
+      "SUB:0x08E62FC4",
+      "SUB:0x08E63004",
+      "SUB:0x08E63304",
+      "SUB:0x08E63344",
+      "SUB:0x08E63444",
+      "SUB:0x08E63504",
+      "SUB:0x08E63E84",
+      "SUB:0x08E68884",
+      "SUB:0x08E688C4",
+      "SUB:0x08E68904",
+      "SUB:0x08E68944",
+      "SUB:0x08E68984",
+      "SUB:0x08E689C4",
+      "SUB:0x08E68A04",
+      "SUB:0x08E68A44",
+      "SUB:0x08E68A84",
+      "SUB:0x08E68AC4",
+      "SUB:0x08E68B04",
+      "SUB:0x08E68B44",
+      "SUB:0x08E68B84",
+      "SUB:0x08E68BC4",
+      "SUB:0x08E68C04",
+      "SUB:0x08E68C44",
+      "SUB:0x08E68C84",
+      "SUB:0x08E68CC4",
+      "SUB:0x08E68D04",
+      "SUB:0x08E68D44",
+      "SUB:0x08E68D84",
+      "SUB:0x08E68DC4",
+      "SUB:0x08E68E04",
+      "SUB:0x08E68E44",
+      "SUB:0x08E68E84",
+      "SUB:0x08E68EC4",
+      "SUB:0x08E68F04",
+      "SUB:0x08E68F44",
+      "SUB:0x08E68F84",
+      "SUB:0x08E68FC4",
+      "SUB:0x08E69004",
+      "SUB:0x08E69044",
+      "SUB:0x08E69184",
+      "SUB:0x08E69204",
+      "SUB:0x08E69284",
+      "SUB:0x08E69404"
+    ],
+    "A8090080": [
+      "SUB:0x08E693C4"
+    ],
+    "B8000807": [],
+    "B8000907": [
+      "SUB:0x08E693C8",
+      "SUB:0x08E69408"
+    ],
+    "ptr_08E693C0": [],
+    "ptr_08E08D40": []
+  },
+  "garbled_korean_frame_dump": {
+    "path": "PROJECT_ROOT\\analysis\\stage25b_frame_compare\\stage25b_garbled_korean.ppdmp",
+    "bytes": 93522,
+    "sha256": "bb3ae01f6ce02f923fa5c3056a1f505193490e29957d8870f9c047bf286313a3",
+    "magic": "PPSSPPGE",
+    "version": 6
+  },
+  "runtime_patch_scope": "pre-menu 0x08E693C0 descriptor watcher + Story UTF-16 test only",
+  "pre_menu_descriptor_watcher": {
+    "reads": 7043,
+    "patches": 1,
+    "first_seen_epoch": 1791072621.3612056,
+    "first_patch_epoch": 1791072621.3612056,
+    "observed_descriptors": {
+      "00000000/00000000/00000000": 768,
+      "5B15E31E/BE134D33/BD6FEBAE": 146,
+      "5548525E/05538030/9CB940A7": 332,
+      "B6FC3112/CC1870ED/AA7B5A55": 330,
+      "CB15A9F2/0D88C038/F800A68E": 349,
+      "AA000044/80000222/14401002": 496,
+      "D46C0EBE/3C0576E7/121450F1": 369,
+      "34969A32/D9995E8D/C873BB18": 303,
+      "A3A96AB6/F9A8315D/398F3E18": 316,
+      "6AF3F2F8/44EA620D/CF09F7E7": 552,
+      "A05C1980/A8080080/B8000807": 187,
+      "A0EB8100/A8090080/B8000807": 511,
+      "A057FF40/A8080080/B8000807": 1,
+      "A087D020/A8090080/B8000907": 2383
+    },
+    "target": [
+      "0xA087D020",
+      "0xA8090080",
+      "0xB8000907"
+    ]
+  },
+  "completed": true,
+  "expected_before": "normal menu if pre-menu descriptor timing is the missing piece",
+  "expected_after_descriptor": "normal English menu",
+  "expected_after": "한한한한한; other menu labels normal"
+}

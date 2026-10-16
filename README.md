@@ -64,3 +64,5 @@ GUI [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher)에서도 같
 [현재 상태](PROJECT_STATE.md) → [세션 인계](HANDOFF.md) → [운영 절차](docs/OPERATIONS.md)를 확인하세요. 저장소만으로 가능한 점검은 `python tools/check_resume.py`입니다. 전체 개발 재빌드 가능 여부와 게임 QA는 별도입니다.
 
 개발 재개 도구와 지원 범위는 [개발 안내](docs/DEVELOPMENT.md)를 참고하세요.
+
+과거 분석과 실패 기록은 [작업 이력 탐색](docs/HISTORY_INDEX.md)과 [지식 정리](docs/KNOWLEDGE_LEDGER.md)를 참고하세요.

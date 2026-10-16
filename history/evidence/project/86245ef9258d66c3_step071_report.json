@@ -1,0 +1,4073 @@
+{
+  "step": "STEP_071",
+  "status": "SKIRMISH_ENTERED_INT92_RUNTIME_SCAN_COMPLETE",
+  "runtime_verified": false,
+  "scope": "INT92_SKIRMISH_CANARY",
+  "capture_method": "RAW_VRAM_RGB565",
+  "version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "game": {
+    "id": "ULUS10193",
+    "version": "1.01",
+    "title": "Brothers in Arms D-Day"
+  },
+  "title_seek": [
+    {
+      "attempt": 0,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "00_title_seek_00_vram0_04000000.png",
+          "raw_sha256": "55a4fcae02ed6b0e4ecfe438d8abafaf1fa81869a189c77b18330eb6b6ee4dba",
+          "similarity": {
+            "title": {
+              "mae": 85.016,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 121.45,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 121.67533333333333,
+              "close_ratio": 0.0
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "00_title_seek_00_vram1_04044000.png",
+          "raw_sha256": "96f8e81e77182f67493eb5fc40054d4bdb95f4593efbefc771ee226a02a21bc6",
+          "similarity": {
+            "title": {
+              "mae": 111.06866666666667,
+              "close_ratio": 0.002
+            },
+            "menu_story": {
+              "mae": 159.15533333333335,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 158.64466666666667,
+              "close_ratio": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "00_title_seek_01_vram0_04000000.png",
+          "raw_sha256": "1527f4d193548cc32505ce14f7247d426bbb2623e12bbda619040753fcba3012",
+          "similarity": {
+            "title": {
+              "mae": 96.20933333333333,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 60.86066666666667,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 61.48866666666667,
+              "close_ratio": 0.0
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "00_title_seek_01_vram1_04044000.png",
+          "raw_sha256": "7979e23cd345443287413c6e63688a9bccea08fee505d78ccbbc7d0dd3f56bab",
+          "similarity": {
+            "title": {
+              "mae": 94.88733333333333,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 67.96133333333333,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 68.55466666666666,
+              "close_ratio": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "00_title_seek_02_vram0_04000000.png",
+          "raw_sha256": "26f9c13d1de77e3273fc82e8cd6b517b5a00ec679cf155438673fa4b1581d3ea",
+          "similarity": {
+            "title": {
+              "mae": 106.50266666666667,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 57.392,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 58.02,
+              "close_ratio": 0.0
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "00_title_seek_02_vram1_04044000.png",
+          "raw_sha256": "001330af3fa25ca32f08ea59fca5cd89c9a32f55d0ebe75c0ca607ef547ea0f7",
+          "similarity": {
+            "title": {
+              "mae": 101.748,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 57.836666666666666,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 58.464666666666666,
+              "close_ratio": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "00_title_seek_03_vram0_04000000.png",
+          "raw_sha256": "d5e48bd1e4ba89d245904123396bcf0af84937cdd221ad60222a5e8ce3c11e93",
+          "similarity": {
+            "title": {
+              "mae": 74.614,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 66.426,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 66.63266666666667,
+              "close_ratio": 0.0
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "00_title_seek_03_vram1_04044000.png",
+          "raw_sha256": "7f9a98080e45f74feb7e2ef59152e3b7c39aededb1cfbb651eb1f3ec41eb467c",
+          "similarity": {
+            "title": {
+              "mae": 75.09333333333333,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 66.238,
+              "close_ratio": 0.002
+            },
+            "menu_skirmish": {
+              "mae": 66.51266666666666,
+              "close_ratio": 0.002
+            }
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 4,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "00_title_seek_04_vram0_04000000.png",
+          "raw_sha256": "839ca746b7dcae29c09ebd3806347d7113cfd35c1f4a44fac0be8e81f9d67443",
+          "similarity": {
+            "title": {
+              "mae": 87.01466666666667,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 59.948,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 60.428,
+              "close_ratio": 0.0
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "00_title_seek_04_vram1_04044000.png",
+          "raw_sha256": "08f3ab18de583fa25fbc3fb005e04694254b4cb831e3f01e1104d98d67a30ffd",
+          "similarity": {
+            "title": {
+              "mae": 79.07266666666666,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 63.39066666666667,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 64.044,
+              "close_ratio": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 5,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "00_title_seek_05_vram0_04000000.png",
+          "raw_sha256": "2050fa4b6c111dce79918620f43f598fe4cabdb0492c800d18af0474943e4187",
+          "similarity": {
+            "title": {
+              "mae": 107.64133333333334,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 56.86866666666667,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 57.49666666666667,
+              "close_ratio": 0.0
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "00_title_seek_05_vram1_04044000.png",
+          "raw_sha256": "a99171330e2d4830c94cc5636d96de5e752347d7d7d65d8dd1b538cc5f6d55e4",
+          "similarity": {
+            "title": {
+              "mae": 104.52266666666667,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 58.157333333333334,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 58.808,
+              "close_ratio": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 6,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "00_title_seek_06_vram0_04000000.png",
+          "raw_sha256": "a23bdb87f633f51d4f6da5e9a423deec5b949cce420918a5d83f1fa9cf71a40e",
+          "similarity": {
+            "title": {
+              "mae": 48.952666666666666,
+              "close_ratio": 0.048
+            },
+            "menu_story": {
+              "mae": 34.239333333333335,
+              "close_ratio": 0.128
+            },
+            "menu_skirmish": {
+              "mae": 34.694,
+              "close_ratio": 0.132
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "00_title_seek_06_vram1_04044000.png",
+          "raw_sha256": "a23bdb87f633f51d4f6da5e9a423deec5b949cce420918a5d83f1fa9cf71a40e",
+          "similarity": {
+            "title": {
+              "mae": 48.952666666666666,
+              "close_ratio": 0.048
+            },
+            "menu_story": {
+              "mae": 34.239333333333335,
+              "close_ratio": 0.128
+            },
+            "menu_skirmish": {
+              "mae": 34.694,
+              "close_ratio": 0.132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 7,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "00_title_seek_07_vram0_04000000.png",
+          "raw_sha256": "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094",
+          "similarity": {
+            "title": {
+              "mae": 48.952666666666666,
+              "close_ratio": 0.048
+            },
+            "menu_story": {
+              "mae": 34.239333333333335,
+              "close_ratio": 0.128
+            },
+            "menu_skirmish": {
+              "mae": 34.694,
+              "close_ratio": 0.132
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "00_title_seek_07_vram1_04044000.png",
+          "raw_sha256": "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094",
+          "similarity": {
+            "title": {
+              "mae": 48.952666666666666,
+              "close_ratio": 0.048
+            },
+            "menu_story": {
+              "mae": 34.239333333333335,
+              "close_ratio": 0.128
+            },
+            "menu_skirmish": {
+              "mae": 34.694,
+              "close_ratio": 0.132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 8,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "00_title_seek_08_vram0_04000000.png",
+          "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+          "similarity": {
+            "title": {
+              "mae": 0.0,
+              "close_ratio": 1.0
+            },
+            "menu_story": {
+              "mae": 49.49333333333333,
+              "close_ratio": 0.03
+            },
+            "menu_skirmish": {
+              "mae": 49.78666666666667,
+              "close_ratio": 0.03
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "00_title_seek_08_vram1_04044000.png",
+          "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+          "similarity": {
+            "title": {
+              "mae": 0.0,
+              "close_ratio": 1.0
+            },
+            "menu_story": {
+              "mae": 49.49333333333333,
+              "close_ratio": 0.03
+            },
+            "menu_skirmish": {
+              "mae": 49.78666666666667,
+              "close_ratio": 0.03
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "main_menu_wait": [
+    {
+      "poll": 0,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "01_menu_wait_00_vram0_04000000.png",
+          "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+          "similarity": {
+            "title": {
+              "mae": 107.64133333333334,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 56.86866666666667,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 57.49666666666667,
+              "close_ratio": 0.0
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "01_menu_wait_00_vram1_04044000.png",
+          "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+          "similarity": {
+            "title": {
+              "mae": 107.64133333333334,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 56.86866666666667,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 57.49666666666667,
+              "close_ratio": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "poll": 1,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "01_menu_wait_01_vram0_04000000.png",
+          "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+          "similarity": {
+            "title": {
+              "mae": 107.64133333333334,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 56.86866666666667,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 57.49666666666667,
+              "close_ratio": 0.0
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "01_menu_wait_01_vram1_04044000.png",
+          "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+          "similarity": {
+            "title": {
+              "mae": 107.64133333333334,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 56.86866666666667,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 57.49666666666667,
+              "close_ratio": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "poll": 2,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "01_menu_wait_02_vram0_04000000.png",
+          "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+          "similarity": {
+            "title": {
+              "mae": 107.64133333333334,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 56.86866666666667,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 57.49666666666667,
+              "close_ratio": 0.0
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "01_menu_wait_02_vram1_04044000.png",
+          "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+          "similarity": {
+            "title": {
+              "mae": 107.64133333333334,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 56.86866666666667,
+              "close_ratio": 0.0
+            },
+            "menu_skirmish": {
+              "mae": 57.49666666666667,
+              "close_ratio": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "poll": 3,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "01_menu_wait_03_vram0_04000000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "01_menu_wait_03_vram1_04044000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        }
+      ]
+    },
+    {
+      "poll": 4,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "01_menu_wait_04_vram0_04000000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "01_menu_wait_04_vram1_04044000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        }
+      ]
+    },
+    {
+      "poll": 5,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "01_menu_wait_05_vram0_04000000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "01_menu_wait_05_vram1_04044000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        }
+      ]
+    },
+    {
+      "poll": 6,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "01_menu_wait_06_vram0_04000000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "01_menu_wait_06_vram1_04044000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        }
+      ]
+    },
+    {
+      "poll": 7,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "01_menu_wait_07_vram0_04000000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "01_menu_wait_07_vram1_04044000.png",
+          "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "similarity": {
+            "title": {
+              "mae": 77.714,
+              "close_ratio": 0.0
+            },
+            "menu_story": {
+              "mae": 31.865333333333332,
+              "close_ratio": 0.014
+            },
+            "menu_skirmish": {
+              "mae": 32.30533333333333,
+              "close_ratio": 0.014
+            }
+          }
+        }
+      ]
+    },
+    {
+      "poll": 8,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "01_menu_wait_08_vram0_04000000.png",
+          "raw_sha256": "47136d342d2e30bca2cbada4a88d7ffca27571248b8486e809ad3f6961c426fd",
+          "similarity": {
+            "title": {
+              "mae": 69.54933333333334,
+              "close_ratio": 0.03
+            },
+            "menu_story": {
+              "mae": 0.0,
+              "close_ratio": 1.0
+            },
+            "menu_skirmish": {
+              "mae": 1.6453333333333333,
+              "close_ratio": 0.962
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "01_menu_wait_08_vram1_04044000.png",
+          "raw_sha256": "47136d342d2e30bca2cbada4a88d7ffca27571248b8486e809ad3f6961c426fd",
+          "similarity": {
+            "title": {
+              "mae": 69.54933333333334,
+              "close_ratio": 0.03
+            },
+            "menu_story": {
+              "mae": 0.0,
+              "close_ratio": 1.0
+            },
+            "menu_skirmish": {
+              "mae": 1.6453333333333333,
+              "close_ratio": 0.962
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "int92_before_skirmish": {
+    "BIA-02123": {
+      "korean": "\"전차를 판처파우스트 상자에서 멀리 유인한 뒤 파괴하라.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D10_0802_THEALLAMERICANS.INT",
+          "section": "LocalizedStrings",
+          "key": "HINT_G",
+          "original_raw_value": "\"Lure the tanks away from the panzerfaust crates to successfully defeat them.\""
+        }
+      ]
+    },
+    "BIA-01732": {
+      "korean": "D+15 11:30",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LevelInfo0",
+          "key": "TitleDay",
+          "original_raw_value": "D+15 1130"
+        }
+      ]
+    },
+    "BIA-02363": {
+      "korean": "갓 병장으로 진급한 하트삭은 SLA 마셜 대령과 커피를 마시며 노르망디에서 겪은 일을 되짚어 본다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LevelInfo0",
+          "key": "TitleCaption",
+          "original_raw_value": "Newly promoted Sergeant Hartsock sits down for a cup of coffee with Col. SLA Marshall to recount his trip through Normandy."
+        }
+      ]
+    },
+    "BIA-02334": {
+      "korean": "\"마셜: 자네... 커피 좀 마시겠나? 갓 내렸네.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_A2",
+          "original_raw_value": "\"Marshall: You... You want some coffee son?  It's fresh.\""
+        }
+      ]
+    },
+    "BIA-02326": {
+      "korean": "\"마셜: 뭐, 여기선 이 정도면 갓 내린 거나 다름없지.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_A3",
+          "original_raw_value": "\"Marshall: Well, as fresh as it gets around here.\""
+        }
+      ]
+    },
+    "BIA-02004": {
+      "korean": "\"하트삭: 예.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_B3",
+          "original_raw_value": "\"Hartsock: Sir.\""
+        }
+      ]
+    },
+    "BIA-01994": {
+      "korean": "\"하트삭: 아! 예. 카랑탕에서 2분대가 큰 피해를 입었습니다. 당시 저는 3분대에 있었고-\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_D",
+          "original_raw_value": "\"Hartsock: Oh!  Yes, sir.  2nd took heavy losses in Carentan.  I was with 3rd at the time-\""
+        }
+      ]
+    },
+    "BIA-02316": {
+      "korean": "\"마셜: 그런 셈이라고?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_F",
+          "original_raw_value": "\"Marshall: Sort of?\""
+        }
+      ]
+    },
+    "BIA-02023": {
+      "korean": "\"하트삭: 우린 20일도 차이 나지 않게 병장이 됐습니다. 생소뵈르에서 벌어진 일에 비하면 카랑탕은 별일 아닌 것처럼 느껴졌죠.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_F",
+          "original_raw_value": "\"Hartsock: We were promoted less than twenty days apart.  Carentan seemed so minor next to what happened in St. Sauveur.\""
+        }
+      ]
+    },
+    "BIA-02293": {
+      "korean": "\"마셜: 병장이 된 뒤 첫 목표가 생소뵈르 점령이었나?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_G",
+          "original_raw_value": "\"Marshall: And your first objective as a Sergeant was taking St. Sauveur?\""
+        }
+      ]
+    },
+    "BIA-02300": {
+      "korean": "\"마셜: 강하는 어땠나?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_H",
+          "original_raw_value": "\"Marshall: How did the drop go?\""
+        }
+      ]
+    },
+    "BIA-01893": {
+      "korean": "\"가넷: 여기서 당장 빠져나가자!\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "GARNETT_A",
+          "original_raw_value": "\"Garnett: Let's get the hell outta here!\""
+        }
+      ]
+    },
+    "BIA-01506": {
+      "korean": "\"앨런: 뛰어내려야 합니다, 병장님!\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "ALLEN_A",
+          "original_raw_value": "\"Allen: We gotta jump, Sarge!\""
+        }
+      ]
+    },
+    "BIA-01507": {
+      "korean": "\"앨런: 더 기다리면 빌어먹을 초록불도 못 봐요!\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "ALLEN_B",
+          "original_raw_value": "\"Allen: We wait any longer there won't be a fucking green light!\""
+        }
+      ]
+    },
+    "BIA-02169": {
+      "korean": "\"맥: 모두 내려! 가, 가, 가!\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MAC_C",
+          "original_raw_value": "\"Mac: Everybody out! Go go go!\""
+        }
+      ]
+    },
+    "BIA-01998": {
+      "korean": "\"하트삭: 로키.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_H1",
+          "original_raw_value": "\"Hartsock: Rocky.\""
+        }
+      ]
+    },
+    "BIA-02017": {
+      "korean": "\"하트삭: 연기와 불길이 너무 심해서 무자가 있는 줄도 몰랐습니다.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_H2",
+          "original_raw_value": "\"Hartsock: There was so much smoke and fire we didn't even see Muzza.\""
+        }
+      ]
+    },
+    "BIA-02307": {
+      "korean": "\"마셜: 무자?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_I",
+          "original_raw_value": "\"Marshall: Muzza?\""
+        }
+      ]
+    },
+    "BIA-01961": {
+      "korean": "\"하트삭: 강하조 맨 마지막이었습니다. 가슴에 대공포 파편을 맞았죠.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_I1",
+          "original_raw_value": "\"Hartsock: He was the last in the stick.  Took a piece of flak in the chest.\""
+        }
+      ]
+    },
+    "BIA-01960": {
+      "korean": "\"하트삭: 바닥에 쓰러진 걸 알아채기도 전에 이미 죽어 있었습니다.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_I2",
+          "original_raw_value": "\"Hartsock: He was dead before we even noticed he was on the floor.\""
+        }
+      ]
+    },
+    "BIA-02022": {
+      "korean": "\"하트삭: 그냥 비행기에 두고 내렸습니다.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_J",
+          "original_raw_value": "\"Hartsock: We just left him in the plane.\""
+        }
+      ]
+    },
+    "BIA-01943": {
+      "korean": "\"하트삭: 다른 얘기 하면 안 되겠습니까?\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_K",
+          "original_raw_value": "\"Hartsock: Can we talk about something else, sir?\""
+        }
+      ]
+    },
+    "BIA-02290": {
+      "korean": "\"마셜: 좋아, 노르망디에 강하한 뒤 무슨 일이 있었는지 말해 보게.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_J",
+          "original_raw_value": "\"Marshall: Alright, tell me what happened after you landed in Normandy.\""
+        }
+      ]
+    },
+    "BIA-02529": {
+      "korean": "\"유비소프트\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_A1",
+          "original_raw_value": "\"UBISOFT\""
+        }
+      ]
+    },
+    "BIA-01843": {
+      "korean": "\"엔터테인먼트\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_A2",
+          "original_raw_value": "\"ENTERTAINMENT\""
+        }
+      ]
+    },
+    "BIA-02408": {
+      "korean": "\"제공\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_A3",
+          "original_raw_value": "\"PRESENTS\""
+        }
+      ]
+    },
+    "BIA-01907": {
+      "korean": "\"기어박스\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_B2",
+          "original_raw_value": "\"GEARBOX\""
+        }
+      ]
+    },
+    "BIA-02466": {
+      "korean": "\"소프트웨어\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_B3",
+          "original_raw_value": "\"SOFTWARE\""
+        }
+      ]
+    },
+    "BIA-01833": {
+      "korean": "\"피로 얻은 명예\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_C",
+          "original_raw_value": "\"Earned In Blood\""
+        }
+      ]
+    },
+    "BIA-01642": {
+      "korean": "마셜 대령은 하트삭 병장이 들려준 30고지의 이야기가 다른 이들에게 들은 내용과는 사뭇 달라 놀란다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1230_BOOKENDS2.INT",
+          "section": "LevelInfo0",
+          "key": "TitleCaption",
+          "original_raw_value": "Col. Marshall is surprised to hear that what Sgt. Hartsock tells him about Hill 30, is not exactly what some others had told him."
+        }
+      ]
+    },
+    "BIA-01831": {
+      "korean": "\"취객: 내 아내야. 감히 내 아내한테 손을 대!\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1230_BOOKENDS2.INT",
+          "section": "LocalizedStrings",
+          "key": "DRUNKEN_MAN_A",
+          "original_raw_value": "\"Drunken Man: She is my wife. How dare you touch my wife!\""
+        }
+      ]
+    },
+    "BIA-01830": {
+      "korean": "\"취객: 죽여 버리겠어!\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1230_BOOKENDS2.INT",
+          "section": "LocalizedStrings",
+          "key": "DRUNKEN_MAN_B",
+          "original_raw_value": "\"Drunken Man: I'll kill you!\""
+        }
+      ]
+    },
+    "BIA-01924": {
+      "korean": "하트삭은 퍼플 하트 레인에서 친구들에게 벌어진 일을 마주해야 하자 천천히 깊은 숨을 들이쉰다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1300_BOOKENDS4.INT",
+          "section": "LevelInfo0",
+          "key": "TitleCaption",
+          "original_raw_value": "Hartsock takes a slow and deep breath when he's forced to confront what happened at Purple Heart Lane to his friends."
+        }
+      ]
+    },
+    "BIA-02462": {
+      "korean": "하트삭 병장이 이야기를 마칠 즈음 낯익은 얼굴이 나타나 마셜 대령에게 자신의 이야기를 시작한다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1330_BOOKENDS3.INT",
+          "section": "LevelInfo0",
+          "key": "TitleCaption",
+          "original_raw_value": "Sgt. Hartsock finishes his story just in time for a familiar face to show up and start his for Col. Marshall."
+        }
+      ]
+    },
+    "BIA-01611": {
+      "korean": "\"베이커: 있잖아, 우리 책 한 권 써야겠다. \"베이커와 레드, 지옥과 풍파를 헤치고.\"\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1330_BOOKENDS3.INT",
+          "section": "LocalizedStrings",
+          "key": "BAKER_B2",
+          "original_raw_value": "\"Baker: You know, we should write a book.  \"Baker and Red, Through Hell and Highwater.\"\""
+        }
+      ]
+    },
+    "BIA-02031": {
+      "korean": "\"하트삭: 왜 \"레드와 베이커\"는 안 되는데?\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1330_BOOKENDS3.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_G",
+          "original_raw_value": "\"Hartsock: Why not \"Red and Baker?\"\""
+        }
+      ]
+    },
+    "BIA-01339": {
+      "korean": "지역을 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D1_1830_DEADMANSCORNER.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Clear the Area."
+        },
+        {
+          "file": "D1_1830_DEADMANSCORNER.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Clear the Area."
+        }
+      ]
+    },
+    "BIA-01481": {
+      "korean": "(Caption=\"렌더링\",Parent=\"Advanced Options\")",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D3DDRV.INT",
+          "section": "Public",
+          "key": "Preferences",
+          "original_raw_value": "(Caption=\"Rendering\",Parent=\"Advanced Options\")"
+        }
+      ]
+    },
+    "BIA-01480": {
+      "korean": "(Caption=\"Direct3D 지원\",Parent=\"렌더링\",Class=D3DDrv.D3DRenderDevice,Immediate=True)",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D3DDRV.INT",
+          "section": "Public",
+          "key": "Preferences",
+          "original_raw_value": "(Caption=\"Direct3D support\",Parent=\"Rendering\",Class=D3DDrv.D3DRenderDevice,Immediate=True)"
+        }
+      ]
+    },
+    "BIA-01789": {
+      "korean": "\"Direct3D 지원\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D3DDRV.INT",
+          "section": "D3DRenderDevice",
+          "key": "ClassCaption",
+          "original_raw_value": "\"Direct3D Support\""
+        }
+      ]
+    },
+    "BIA-01792": {
+      "korean": "Direct3D를 사용하시겠습니까?",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D3DDRV.INT",
+          "section": "D3DRenderDevice",
+          "key": "AskInstalled",
+          "original_raw_value": "Do you want to use Direct3D?"
+        }
+      ]
+    },
+    "BIA-02368": {
+      "korean": "프랑스 카랑탕 북서쪽",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D4_1800_PURPLEHEARTLANE.INT",
+          "section": "LevelInfo0",
+          "key": "TitleLocation",
+          "original_raw_value": "Northwest of Carentan, France"
+        }
+      ]
+    },
+    "BIA-02322": {
+      "korean": "\"마셜: 이때 병장으로 진급했지, 맞나?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "VOICEOVER_A1",
+          "original_raw_value": "\"Marshall: This is when you were promoted to Sergeant, correct?\""
+        }
+      ]
+    },
+    "BIA-02289": {
+      "korean": "\"마셜: 카랑탕을 점령한 뒤였나?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "VOICEOVER_A2",
+          "original_raw_value": "\"Marshall: After you took Carentan?\""
+        }
+      ]
+    },
+    "BIA-02036": {
+      "korean": "\"하트삭: 예, 교회 앞에서 간단히 의식을 치렀습니다.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "VOICEOVER_B",
+          "original_raw_value": "\"Hartsock: Yes sir, had a little ceremony at the base of the church.\""
+        }
+      ]
+    },
+    "BIA-01939": {
+      "korean": "\"하트삭: 하지만 마을 남쪽에서 날아온 독일군 박격포탄 때문에 오래가진 못했습니다.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "VOICEOVER_D",
+          "original_raw_value": "\"Hartsock: But it was cut short by German mortar fire coming from the south side of town.\""
+        }
+      ]
+    },
+    "BIA-02160": {
+      "korean": "\"맥: 하지만 그 모든 시간 동안...\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "MAC_LINE_F",
+          "original_raw_value": "\"Mac: But in all that time...\""
+        }
+      ]
+    },
+    "BIA-02274": {
+      "korean": "\"맥: 그래, 너희 모두 잘했다고 말해 주고 싶다.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "MAC_LINE_G",
+          "original_raw_value": "\"Mac: Well, I just want to say that you guys did good.\""
+        }
+      ]
+    },
+    "BIA-02040": {
+      "korean": "지옥의 고속도로",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "NewTitle",
+          "original_raw_value": "Hell's Highway"
+        }
+      ]
+    },
+    "BIA-01482": {
+      "korean": "1944년 9월 17일 13:30",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "NewTitleDate",
+          "original_raw_value": "1330 September 17, 1944"
+        }
+      ]
+    },
+    "BIA-01523": {
+      "korean": "네덜란드 아른험",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "NewTitleLocation",
+          "original_raw_value": "Arnhem, Holland"
+        }
+      ]
+    },
+    "BIA-01791": {
+      "korean": "미군 공수부대가 집의 탄약 보급품을 빼앗지 못하게 하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_DE_HOLDINGTHELINE.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Do not let the American paratroopers seize the ammo supply at the house."
+        }
+      ]
+    },
+    "BIA-01641": {
+      "korean": "창고 지구의 미군을 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [
+        "0x099025C4"
+      ],
+      "loaded": true,
+      "sources": [
+        {
+          "file": "S_SKR_DE_WAREHOUSE.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Clear the warehouse district of US forces"
+        }
+      ]
+    },
+    "BIA-01884": {
+      "korean": "게임 팁:%newline%",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "HintCaption",
+          "original_raw_value": "Gameplay Tip:%newline%"
+        }
+      ]
+    },
+    "BIA-02540": {
+      "korean": "전술 상황 보기 %icon_sa_view%를 사용해 적의 움직임을 추적하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint0",
+          "original_raw_value": "Use the situational awareness view %icon_sa_view% to help track enemy movements."
+        }
+      ]
+    },
+    "BIA-02045": {
+      "korean": "팀원이 전투가 끝나기 전에 이탈하면, 그가 쓰지 않은 증원 횟수를 받는다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint1",
+          "original_raw_value": "If your teammate leaves the battle before it is over, you will receive his unused reinforcements."
+        }
+      ]
+    },
+    "BIA-02584": {
+      "korean": "팀원과 그의 사격조 위치는 항상 확인할 수 있다! 이를 활용해 공격을 연계하라!",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint2",
+          "original_raw_value": "Your teammate and his fire team are always visible to you! Use this to coordinate your attacks!"
+        }
+      ]
+    },
+    "BIA-02044": {
+      "korean": "사격조가 제압당하면 %icon_order%로 사격 명령을 내려 제압 상태에서 벗어나게 하라!",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint3",
+          "original_raw_value": "If your fireteam becomes suppressed, issue a fire command %icon_order% to rally them out of it!"
+        }
+      ]
+    },
+    "BIA-02527": {
+      "korean": "적에게 측면을 잡히기 전에 먼저 측면을 공격하라!",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint4",
+          "original_raw_value": "Try to flank attacking enemies before they flank you!"
+        }
+      ]
+    },
+    "BIA-01855": {
+      "korean": "사격과 기동이 승리의 열쇠다. 반드시 적을 제압하라.",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint5",
+          "original_raw_value": "Fire and movement is the key to success. Make sure the enemy is pinned down."
+        }
+      ]
+    },
+    "BIA-02369": {
+      "korean": "모든 교전에서 측면 공격이 가능한 것은 아니다. 돌격하거나 수류탄을 사용하라.",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint6",
+          "original_raw_value": "Not all encounters have flanks. Try to assault or use your grenades."
+        }
+      ]
+    },
+    "BIA-01442": {
+      "korean": "스커미시 로비",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_MENU_MAP.INT",
+          "section": "MissionInfo",
+          "key": "Name",
+          "original_raw_value": "Skirmish Lobby"
+        },
+        {
+          "file": "S_SKR_MENU_MAP.INT",
+          "section": "MissionInfo",
+          "key": "NameLong",
+          "original_raw_value": "Skirmish Lobby"
+        }
+      ]
+    },
+    "BIA-01832": {
+      "korean": "각 맵과 게임 모드에는 플레이어가 협동해 달성해야 하는 고유 목표가 있다. 목표 내용은 로비, 임무 시작 시, 목표가 갱신되거나 새 목표가 생겼을 때 표시된다. 스커미시 임무는 총 10개이며, 미군 5개와 독일군 5개를 플레이할 수 있다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_MENU_MAP.INT",
+          "section": "MissionInfo",
+          "key": "MP",
+          "original_raw_value": "Each map and game mode has a unique objective for the players to accomplish cooperatively. Objective text is presented in the lobby, at the beginning of a mission, and when an objective updates or a new objective is available. Ten Skirmish missions are available; five are playable as Americans and five as Germans."
+        }
+      ]
+    },
+    "BIA-01363": {
+      "korean": "남은 병력을 모두 제거하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_BROKENTANKS.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Eliminate any remaining soldiers."
+        },
+        {
+          "file": "S_SKR_US_CROSSING.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Eliminate any remaining soldiers."
+        }
+      ]
+    },
+    "BIA-01312": {
+      "korean": "늪을 건너",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "LevelInfo",
+          "key": "Title",
+          "original_raw_value": "Across the Marsh"
+        },
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "MissionInfo",
+          "key": "Name",
+          "original_raw_value": "Across the Marsh"
+        },
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "MissionInfo",
+          "key": "NameLong",
+          "original_raw_value": "Across the Marsh"
+        }
+      ]
+    },
+    "BIA-01516": {
+      "korean": "미군 증원군이 몇 시간 뒤 도착한다. 도로의 적을 모두 제거한 뒤 시내로 진입해 남은 적군도 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "MissionInfo",
+          "key": "SKR_Objective",
+          "original_raw_value": "American reinforcements are a few hours out.  Clear the road of all enemy activity, and then proceed into the city to eliminate any hostile encounters."
+        }
+      ]
+    },
+    "BIA-02458": {
+      "korean": "도로를 확보하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Secure the road."
+        }
+      ]
+    },
+    "BIA-02457": {
+      "korean": "증원군을 위해 도로를 확보하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Secure the road for reinforcements."
+        }
+      ]
+    },
+    "BIA-01842": {
+      "korean": "시내로 진입하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Enter the city."
+        }
+      ]
+    },
+    "BIA-01883": {
+      "korean": "시내로 진입하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Gain entrance into the city."
+        }
+      ]
+    },
+    "BIA-01627": {
+      "korean": "시내의 적군을 모두 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo2",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Clear out the city of all enemy forces."
+        }
+      ]
+    },
+    "BIA-01758": {
+      "korean": "다가오는 공격으로부터 도심을 방어하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo3",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Defend the center of the city from the oncoming assault."
+        }
+      ]
+    },
+    "BIA-02487": {
+      "korean": "임시 이름",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "McGuffinTriggerMessage2",
+          "key": "BEACONNAME",
+          "original_raw_value": "TEMP NAME"
+        }
+      ]
+    },
+    "BIA-01527": {
+      "korean": "후문",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "McGuffinTriggerMessage3",
+          "key": "BEACONNAME",
+          "original_raw_value": "Back entrance"
+        }
+      ]
+    },
+    "BIA-02049": {
+      "korean": "교차로",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [
+        "0x099023DC",
+        "0x099024DA"
+      ],
+      "loaded": true,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "McGuffinTriggerMessage4",
+          "key": "BEACONNAME",
+          "original_raw_value": "Intersection"
+        }
+      ]
+    },
+    "BIA-01316": {
+      "korean": "농장으로",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "LevelInfo",
+          "key": "Title",
+          "original_raw_value": "Into the Farm"
+        },
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "MissionInfo",
+          "key": "Name",
+          "original_raw_value": "Into the Farm"
+        },
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "MissionInfo",
+          "key": "NameLong",
+          "original_raw_value": "Into the Farm"
+        }
+      ]
+    },
+    "BIA-02459": {
+      "korean": "농장을 점령하고 벙커의 4연장 대공포 2문을 모두 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "MissionInfo",
+          "key": "SKR_Objective",
+          "original_raw_value": "Seize the farm and destroy both flakvierlings at the bunker."
+        }
+      ]
+    },
+    "BIA-02446": {
+      "korean": "\"도로 봉쇄물\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage1",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Road block\""
+        }
+      ]
+    },
+    "BIA-02378": {
+      "korean": "\"오펠 블리츠 트럭\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage4",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Opel Blitz truck\""
+        }
+      ]
+    },
+    "BIA-01619": {
+      "korean": "\"폭격당한 집\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage5",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Bombed house\""
+        }
+      ]
+    },
+    "BIA-01866": {
+      "korean": "\"오솔길\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage6",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Foot path\""
+        }
+      ]
+    },
+    "BIA-01726": {
+      "korean": "\"안뜰\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage7",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Courtyard\""
+        }
+      ]
+    },
+    "BIA-01622": {
+      "korean": "\"벙커\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage8",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Bunker\""
+        }
+      ]
+    },
+    "BIA-01861": {
+      "korean": "\"4연장 대공포\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage9",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Flakvierling\""
+        }
+      ]
+    },
+    "BIA-01623": {
+      "korean": "\"벙커 뒤뜰\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage10",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Bunker backyard\""
+        }
+      ]
+    },
+    "BIA-02475": {
+      "korean": "농장을 장악하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Take control of the farm."
+        }
+      ]
+    },
+    "BIA-01910": {
+      "korean": "독일군이 미군에 필요한 주요 도로를 장악하고 있다. 도로 주변 농장의 독일군을 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "German forces have control of a key road that the Americans need. Clear the farm surrounding the roadway."
+        }
+      ]
+    },
+    "BIA-01780": {
+      "korean": "4연장 대공포 2문을 모두 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Destroy both Flakvierlings."
+        }
+      ]
+    },
+    "BIA-02512": {
+      "korean": "농장 남동쪽 끝에 4연장 대공포 2문이 있다. 미군 항공기가 안전하게 통과할 수 있도록 둘 다 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szLongDesc",
+          "original_raw_value": "There are two Flakvierling guns at the South-East end of the farm. Destroy both of them to provide safe air passage for American planes."
+        }
+      ]
+    },
+    "BIA-02416": {
+      "korean": "독일군이 벙커를 점령하지 못하게 하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo2",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Prevent the Germans from capturing the bunker."
+        }
+      ]
+    },
+    "BIA-01781": {
+      "korean": "다리와 화차를 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_RAILYARD.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Destroy the bridge and train cars."
+        }
+      ]
+    },
+    "BIA-02357": {
+      "korean": "철로를 따라 이동해 다리를 폭파하여 독일군 보급로를 끊어라. 그다음 철로 위 화차의 보급품을 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_RAILYARD.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Move down the rail line and blow up the bridge to break the German supply route. Then destroy the supplies inside the cars on the tracks."
+        }
+      ]
+    }
+  },
+  "skirmish_selection_verified": true,
+  "skirmish_selected_capture": [
+    {
+      "buffer": 0,
+      "address": "0x04000000",
+      "file": "02_skirmish_selected_vram0_04000000.png",
+      "raw_sha256": "be331c12b9e5512481babc5a0483986a67304043eeb00164cfce113aa1aa3c96",
+      "similarity": {
+        "title": {
+          "mae": 69.84266666666667,
+          "close_ratio": 0.03
+        },
+        "menu_story": {
+          "mae": 1.6453333333333333,
+          "close_ratio": 0.962
+        },
+        "menu_skirmish": {
+          "mae": 0.0,
+          "close_ratio": 1.0
+        }
+      }
+    },
+    {
+      "buffer": 1,
+      "address": "0x04044000",
+      "file": "02_skirmish_selected_vram1_04044000.png",
+      "raw_sha256": "be331c12b9e5512481babc5a0483986a67304043eeb00164cfce113aa1aa3c96",
+      "similarity": {
+        "title": {
+          "mae": 69.84266666666667,
+          "close_ratio": 0.03
+        },
+        "menu_story": {
+          "mae": 1.6453333333333333,
+          "close_ratio": 0.962
+        },
+        "menu_skirmish": {
+          "mae": 0.0,
+          "close_ratio": 1.0
+        }
+      }
+    }
+  ],
+  "post_skirmish_captures": [
+    {
+      "sample": 0,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_00_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_00_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 1,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_01_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_01_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 2,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_02_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_02_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 3,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_03_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_03_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 4,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_04_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_04_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 5,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_05_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_05_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 6,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_06_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_06_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 7,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_07_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_07_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 8,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_08_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_08_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    },
+    {
+      "sample": 9,
+      "capture": [
+        {
+          "buffer": 0,
+          "address": "0x04000000",
+          "file": "03_skirmish_post_09_vram0_04000000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        },
+        {
+          "buffer": 1,
+          "address": "0x04044000",
+          "file": "03_skirmish_post_09_vram1_04044000.png",
+          "raw_sha256": "d7fefb7594fc0e1bd313bf93143ec33f47b464870ff5ef92531f1f3ee291448d",
+          "similarity": {
+            "title": {
+              "mae": 69.50733333333334,
+              "close_ratio": 0.032
+            },
+            "menu_story": {
+              "mae": 2.9206666666666665,
+              "close_ratio": 0.94
+            },
+            "menu_skirmish": {
+              "mae": 2.094,
+              "close_ratio": 0.958
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "int92_after_skirmish": {
+    "BIA-02123": {
+      "korean": "\"전차를 판처파우스트 상자에서 멀리 유인한 뒤 파괴하라.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D10_0802_THEALLAMERICANS.INT",
+          "section": "LocalizedStrings",
+          "key": "HINT_G",
+          "original_raw_value": "\"Lure the tanks away from the panzerfaust crates to successfully defeat them.\""
+        }
+      ]
+    },
+    "BIA-01732": {
+      "korean": "D+15 11:30",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LevelInfo0",
+          "key": "TitleDay",
+          "original_raw_value": "D+15 1130"
+        }
+      ]
+    },
+    "BIA-02363": {
+      "korean": "갓 병장으로 진급한 하트삭은 SLA 마셜 대령과 커피를 마시며 노르망디에서 겪은 일을 되짚어 본다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LevelInfo0",
+          "key": "TitleCaption",
+          "original_raw_value": "Newly promoted Sergeant Hartsock sits down for a cup of coffee with Col. SLA Marshall to recount his trip through Normandy."
+        }
+      ]
+    },
+    "BIA-02334": {
+      "korean": "\"마셜: 자네... 커피 좀 마시겠나? 갓 내렸네.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_A2",
+          "original_raw_value": "\"Marshall: You... You want some coffee son?  It's fresh.\""
+        }
+      ]
+    },
+    "BIA-02326": {
+      "korean": "\"마셜: 뭐, 여기선 이 정도면 갓 내린 거나 다름없지.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_A3",
+          "original_raw_value": "\"Marshall: Well, as fresh as it gets around here.\""
+        }
+      ]
+    },
+    "BIA-02004": {
+      "korean": "\"하트삭: 예.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_B3",
+          "original_raw_value": "\"Hartsock: Sir.\""
+        }
+      ]
+    },
+    "BIA-01994": {
+      "korean": "\"하트삭: 아! 예. 카랑탕에서 2분대가 큰 피해를 입었습니다. 당시 저는 3분대에 있었고-\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_D",
+          "original_raw_value": "\"Hartsock: Oh!  Yes, sir.  2nd took heavy losses in Carentan.  I was with 3rd at the time-\""
+        }
+      ]
+    },
+    "BIA-02316": {
+      "korean": "\"마셜: 그런 셈이라고?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_F",
+          "original_raw_value": "\"Marshall: Sort of?\""
+        }
+      ]
+    },
+    "BIA-02023": {
+      "korean": "\"하트삭: 우린 20일도 차이 나지 않게 병장이 됐습니다. 생소뵈르에서 벌어진 일에 비하면 카랑탕은 별일 아닌 것처럼 느껴졌죠.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_F",
+          "original_raw_value": "\"Hartsock: We were promoted less than twenty days apart.  Carentan seemed so minor next to what happened in St. Sauveur.\""
+        }
+      ]
+    },
+    "BIA-02293": {
+      "korean": "\"마셜: 병장이 된 뒤 첫 목표가 생소뵈르 점령이었나?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_G",
+          "original_raw_value": "\"Marshall: And your first objective as a Sergeant was taking St. Sauveur?\""
+        }
+      ]
+    },
+    "BIA-02300": {
+      "korean": "\"마셜: 강하는 어땠나?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_H",
+          "original_raw_value": "\"Marshall: How did the drop go?\""
+        }
+      ]
+    },
+    "BIA-01893": {
+      "korean": "\"가넷: 여기서 당장 빠져나가자!\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "GARNETT_A",
+          "original_raw_value": "\"Garnett: Let's get the hell outta here!\""
+        }
+      ]
+    },
+    "BIA-01506": {
+      "korean": "\"앨런: 뛰어내려야 합니다, 병장님!\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "ALLEN_A",
+          "original_raw_value": "\"Allen: We gotta jump, Sarge!\""
+        }
+      ]
+    },
+    "BIA-01507": {
+      "korean": "\"앨런: 더 기다리면 빌어먹을 초록불도 못 봐요!\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "ALLEN_B",
+          "original_raw_value": "\"Allen: We wait any longer there won't be a fucking green light!\""
+        }
+      ]
+    },
+    "BIA-02169": {
+      "korean": "\"맥: 모두 내려! 가, 가, 가!\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MAC_C",
+          "original_raw_value": "\"Mac: Everybody out! Go go go!\""
+        }
+      ]
+    },
+    "BIA-01998": {
+      "korean": "\"하트삭: 로키.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_H1",
+          "original_raw_value": "\"Hartsock: Rocky.\""
+        }
+      ]
+    },
+    "BIA-02017": {
+      "korean": "\"하트삭: 연기와 불길이 너무 심해서 무자가 있는 줄도 몰랐습니다.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_H2",
+          "original_raw_value": "\"Hartsock: There was so much smoke and fire we didn't even see Muzza.\""
+        }
+      ]
+    },
+    "BIA-02307": {
+      "korean": "\"마셜: 무자?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_I",
+          "original_raw_value": "\"Marshall: Muzza?\""
+        }
+      ]
+    },
+    "BIA-01961": {
+      "korean": "\"하트삭: 강하조 맨 마지막이었습니다. 가슴에 대공포 파편을 맞았죠.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_I1",
+          "original_raw_value": "\"Hartsock: He was the last in the stick.  Took a piece of flak in the chest.\""
+        }
+      ]
+    },
+    "BIA-01960": {
+      "korean": "\"하트삭: 바닥에 쓰러진 걸 알아채기도 전에 이미 죽어 있었습니다.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_I2",
+          "original_raw_value": "\"Hartsock: He was dead before we even noticed he was on the floor.\""
+        }
+      ]
+    },
+    "BIA-02022": {
+      "korean": "\"하트삭: 그냥 비행기에 두고 내렸습니다.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_J",
+          "original_raw_value": "\"Hartsock: We just left him in the plane.\""
+        }
+      ]
+    },
+    "BIA-01943": {
+      "korean": "\"하트삭: 다른 얘기 하면 안 되겠습니까?\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_K",
+          "original_raw_value": "\"Hartsock: Can we talk about something else, sir?\""
+        }
+      ]
+    },
+    "BIA-02290": {
+      "korean": "\"마셜: 좋아, 노르망디에 강하한 뒤 무슨 일이 있었는지 말해 보게.\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "MARSHALL_J",
+          "original_raw_value": "\"Marshall: Alright, tell me what happened after you landed in Normandy.\""
+        }
+      ]
+    },
+    "BIA-02529": {
+      "korean": "\"유비소프트\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_A1",
+          "original_raw_value": "\"UBISOFT\""
+        }
+      ]
+    },
+    "BIA-01843": {
+      "korean": "\"엔터테인먼트\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_A2",
+          "original_raw_value": "\"ENTERTAINMENT\""
+        }
+      ]
+    },
+    "BIA-02408": {
+      "korean": "\"제공\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_A3",
+          "original_raw_value": "\"PRESENTS\""
+        }
+      ]
+    },
+    "BIA-01907": {
+      "korean": "\"기어박스\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_B2",
+          "original_raw_value": "\"GEARBOX\""
+        }
+      ]
+    },
+    "BIA-02466": {
+      "korean": "\"소프트웨어\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_B3",
+          "original_raw_value": "\"SOFTWARE\""
+        }
+      ]
+    },
+    "BIA-01833": {
+      "korean": "\"피로 얻은 명예\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1130_BOOKENDS.INT",
+          "section": "LocalizedStrings",
+          "key": "NEWTITLE_C",
+          "original_raw_value": "\"Earned In Blood\""
+        }
+      ]
+    },
+    "BIA-01642": {
+      "korean": "마셜 대령은 하트삭 병장이 들려준 30고지의 이야기가 다른 이들에게 들은 내용과는 사뭇 달라 놀란다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1230_BOOKENDS2.INT",
+          "section": "LevelInfo0",
+          "key": "TitleCaption",
+          "original_raw_value": "Col. Marshall is surprised to hear that what Sgt. Hartsock tells him about Hill 30, is not exactly what some others had told him."
+        }
+      ]
+    },
+    "BIA-01831": {
+      "korean": "\"취객: 내 아내야. 감히 내 아내한테 손을 대!\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1230_BOOKENDS2.INT",
+          "section": "LocalizedStrings",
+          "key": "DRUNKEN_MAN_A",
+          "original_raw_value": "\"Drunken Man: She is my wife. How dare you touch my wife!\""
+        }
+      ]
+    },
+    "BIA-01830": {
+      "korean": "\"취객: 죽여 버리겠어!\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1230_BOOKENDS2.INT",
+          "section": "LocalizedStrings",
+          "key": "DRUNKEN_MAN_B",
+          "original_raw_value": "\"Drunken Man: I'll kill you!\""
+        }
+      ]
+    },
+    "BIA-01924": {
+      "korean": "하트삭은 퍼플 하트 레인에서 친구들에게 벌어진 일을 마주해야 하자 천천히 깊은 숨을 들이쉰다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1300_BOOKENDS4.INT",
+          "section": "LevelInfo0",
+          "key": "TitleCaption",
+          "original_raw_value": "Hartsock takes a slow and deep breath when he's forced to confront what happened at Purple Heart Lane to his friends."
+        }
+      ]
+    },
+    "BIA-02462": {
+      "korean": "하트삭 병장이 이야기를 마칠 즈음 낯익은 얼굴이 나타나 마셜 대령에게 자신의 이야기를 시작한다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1330_BOOKENDS3.INT",
+          "section": "LevelInfo0",
+          "key": "TitleCaption",
+          "original_raw_value": "Sgt. Hartsock finishes his story just in time for a familiar face to show up and start his for Col. Marshall."
+        }
+      ]
+    },
+    "BIA-01611": {
+      "korean": "\"베이커: 있잖아, 우리 책 한 권 써야겠다. \"베이커와 레드, 지옥과 풍파를 헤치고.\"\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1330_BOOKENDS3.INT",
+          "section": "LocalizedStrings",
+          "key": "BAKER_B2",
+          "original_raw_value": "\"Baker: You know, we should write a book.  \"Baker and Red, Through Hell and Highwater.\"\""
+        }
+      ]
+    },
+    "BIA-02031": {
+      "korean": "\"하트삭: 왜 \"레드와 베이커\"는 안 되는데?\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D15_1330_BOOKENDS3.INT",
+          "section": "LocalizedStrings",
+          "key": "HARTSOCK_G",
+          "original_raw_value": "\"Hartsock: Why not \"Red and Baker?\"\""
+        }
+      ]
+    },
+    "BIA-01339": {
+      "korean": "지역을 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D1_1830_DEADMANSCORNER.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Clear the Area."
+        },
+        {
+          "file": "D1_1830_DEADMANSCORNER.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Clear the Area."
+        }
+      ]
+    },
+    "BIA-01481": {
+      "korean": "(Caption=\"렌더링\",Parent=\"Advanced Options\")",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D3DDRV.INT",
+          "section": "Public",
+          "key": "Preferences",
+          "original_raw_value": "(Caption=\"Rendering\",Parent=\"Advanced Options\")"
+        }
+      ]
+    },
+    "BIA-01480": {
+      "korean": "(Caption=\"Direct3D 지원\",Parent=\"렌더링\",Class=D3DDrv.D3DRenderDevice,Immediate=True)",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D3DDRV.INT",
+          "section": "Public",
+          "key": "Preferences",
+          "original_raw_value": "(Caption=\"Direct3D support\",Parent=\"Rendering\",Class=D3DDrv.D3DRenderDevice,Immediate=True)"
+        }
+      ]
+    },
+    "BIA-01789": {
+      "korean": "\"Direct3D 지원\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D3DDRV.INT",
+          "section": "D3DRenderDevice",
+          "key": "ClassCaption",
+          "original_raw_value": "\"Direct3D Support\""
+        }
+      ]
+    },
+    "BIA-01792": {
+      "korean": "Direct3D를 사용하시겠습니까?",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D3DDRV.INT",
+          "section": "D3DRenderDevice",
+          "key": "AskInstalled",
+          "original_raw_value": "Do you want to use Direct3D?"
+        }
+      ]
+    },
+    "BIA-02368": {
+      "korean": "프랑스 카랑탕 북서쪽",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D4_1800_PURPLEHEARTLANE.INT",
+          "section": "LevelInfo0",
+          "key": "TitleLocation",
+          "original_raw_value": "Northwest of Carentan, France"
+        }
+      ]
+    },
+    "BIA-02322": {
+      "korean": "\"마셜: 이때 병장으로 진급했지, 맞나?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "VOICEOVER_A1",
+          "original_raw_value": "\"Marshall: This is when you were promoted to Sergeant, correct?\""
+        }
+      ]
+    },
+    "BIA-02289": {
+      "korean": "\"마셜: 카랑탕을 점령한 뒤였나?\"",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "VOICEOVER_A2",
+          "original_raw_value": "\"Marshall: After you took Carentan?\""
+        }
+      ]
+    },
+    "BIA-02036": {
+      "korean": "\"하트삭: 예, 교회 앞에서 간단히 의식을 치렀습니다.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "VOICEOVER_B",
+          "original_raw_value": "\"Hartsock: Yes sir, had a little ceremony at the base of the church.\""
+        }
+      ]
+    },
+    "BIA-01939": {
+      "korean": "\"하트삭: 하지만 마을 남쪽에서 날아온 독일군 박격포탄 때문에 오래가진 못했습니다.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "VOICEOVER_D",
+          "original_raw_value": "\"Hartsock: But it was cut short by German mortar fire coming from the south side of town.\""
+        }
+      ]
+    },
+    "BIA-02160": {
+      "korean": "\"맥: 하지만 그 모든 시간 동안...\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "MAC_LINE_F",
+          "original_raw_value": "\"Mac: But in all that time...\""
+        }
+      ]
+    },
+    "BIA-02274": {
+      "korean": "\"맥: 그래, 너희 모두 잘했다고 말해 주고 싶다.\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "MAC_LINE_G",
+          "original_raw_value": "\"Mac: Well, I just want to say that you guys did good.\""
+        }
+      ]
+    },
+    "BIA-02040": {
+      "korean": "지옥의 고속도로",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "NewTitle",
+          "original_raw_value": "Hell's Highway"
+        }
+      ]
+    },
+    "BIA-01482": {
+      "korean": "1944년 9월 17일 13:30",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "NewTitleDate",
+          "original_raw_value": "1330 September 17, 1944"
+        }
+      ]
+    },
+    "BIA-01523": {
+      "korean": "네덜란드 아른험",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "D8_0930_VICTORYINCARENTAN.INT",
+          "section": "LocalizedStrings",
+          "key": "NewTitleLocation",
+          "original_raw_value": "Arnhem, Holland"
+        }
+      ]
+    },
+    "BIA-01791": {
+      "korean": "미군 공수부대가 집의 탄약 보급품을 빼앗지 못하게 하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_DE_HOLDINGTHELINE.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Do not let the American paratroopers seize the ammo supply at the house."
+        }
+      ]
+    },
+    "BIA-01641": {
+      "korean": "창고 지구의 미군을 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [
+        "0x099025C4"
+      ],
+      "loaded": true,
+      "sources": [
+        {
+          "file": "S_SKR_DE_WAREHOUSE.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Clear the warehouse district of US forces"
+        }
+      ]
+    },
+    "BIA-01884": {
+      "korean": "게임 팁:%newline%",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "HintCaption",
+          "original_raw_value": "Gameplay Tip:%newline%"
+        }
+      ]
+    },
+    "BIA-02540": {
+      "korean": "전술 상황 보기 %icon_sa_view%를 사용해 적의 움직임을 추적하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint0",
+          "original_raw_value": "Use the situational awareness view %icon_sa_view% to help track enemy movements."
+        }
+      ]
+    },
+    "BIA-02045": {
+      "korean": "팀원이 전투가 끝나기 전에 이탈하면, 그가 쓰지 않은 증원 횟수를 받는다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint1",
+          "original_raw_value": "If your teammate leaves the battle before it is over, you will receive his unused reinforcements."
+        }
+      ]
+    },
+    "BIA-02584": {
+      "korean": "팀원과 그의 사격조 위치는 항상 확인할 수 있다! 이를 활용해 공격을 연계하라!",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint2",
+          "original_raw_value": "Your teammate and his fire team are always visible to you! Use this to coordinate your attacks!"
+        }
+      ]
+    },
+    "BIA-02044": {
+      "korean": "사격조가 제압당하면 %icon_order%로 사격 명령을 내려 제압 상태에서 벗어나게 하라!",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint3",
+          "original_raw_value": "If your fireteam becomes suppressed, issue a fire command %icon_order% to rally them out of it!"
+        }
+      ]
+    },
+    "BIA-02527": {
+      "korean": "적에게 측면을 잡히기 전에 먼저 측면을 공격하라!",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint4",
+          "original_raw_value": "Try to flank attacking enemies before they flank you!"
+        }
+      ]
+    },
+    "BIA-01855": {
+      "korean": "사격과 기동이 승리의 열쇠다. 반드시 적을 제압하라.",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint5",
+          "original_raw_value": "Fire and movement is the key to success. Make sure the enemy is pinned down."
+        }
+      ]
+    },
+    "BIA-02369": {
+      "korean": "모든 교전에서 측면 공격이 가능한 것은 아니다. 돌격하거나 수류탄을 사용하라.",
+      "classification": "INT_ONLY_OR_UNUSED_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "Hint6",
+          "original_raw_value": "Not all encounters have flanks. Try to assault or use your grenades."
+        }
+      ]
+    },
+    "BIA-01442": {
+      "korean": "스커미시 로비",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_MENU_MAP.INT",
+          "section": "MissionInfo",
+          "key": "Name",
+          "original_raw_value": "Skirmish Lobby"
+        },
+        {
+          "file": "S_SKR_MENU_MAP.INT",
+          "section": "MissionInfo",
+          "key": "NameLong",
+          "original_raw_value": "Skirmish Lobby"
+        }
+      ]
+    },
+    "BIA-01832": {
+      "korean": "각 맵과 게임 모드에는 플레이어가 협동해 달성해야 하는 고유 목표가 있다. 목표 내용은 로비, 임무 시작 시, 목표가 갱신되거나 새 목표가 생겼을 때 표시된다. 스커미시 임무는 총 10개이며, 미군 5개와 독일군 5개를 플레이할 수 있다.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_MENU_MAP.INT",
+          "section": "MissionInfo",
+          "key": "MP",
+          "original_raw_value": "Each map and game mode has a unique objective for the players to accomplish cooperatively. Objective text is presented in the lobby, at the beginning of a mission, and when an objective updates or a new objective is available. Ten Skirmish missions are available; five are playable as Americans and five as Germans."
+        }
+      ]
+    },
+    "BIA-01363": {
+      "korean": "남은 병력을 모두 제거하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_BROKENTANKS.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Eliminate any remaining soldiers."
+        },
+        {
+          "file": "S_SKR_US_CROSSING.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Eliminate any remaining soldiers."
+        }
+      ]
+    },
+    "BIA-01312": {
+      "korean": "늪을 건너",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "LevelInfo",
+          "key": "Title",
+          "original_raw_value": "Across the Marsh"
+        },
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "MissionInfo",
+          "key": "Name",
+          "original_raw_value": "Across the Marsh"
+        },
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "MissionInfo",
+          "key": "NameLong",
+          "original_raw_value": "Across the Marsh"
+        }
+      ]
+    },
+    "BIA-01516": {
+      "korean": "미군 증원군이 몇 시간 뒤 도착한다. 도로의 적을 모두 제거한 뒤 시내로 진입해 남은 적군도 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "MissionInfo",
+          "key": "SKR_Objective",
+          "original_raw_value": "American reinforcements are a few hours out.  Clear the road of all enemy activity, and then proceed into the city to eliminate any hostile encounters."
+        }
+      ]
+    },
+    "BIA-02458": {
+      "korean": "도로를 확보하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Secure the road."
+        }
+      ]
+    },
+    "BIA-02457": {
+      "korean": "증원군을 위해 도로를 확보하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Secure the road for reinforcements."
+        }
+      ]
+    },
+    "BIA-01842": {
+      "korean": "시내로 진입하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Enter the city."
+        }
+      ]
+    },
+    "BIA-01883": {
+      "korean": "시내로 진입하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Gain entrance into the city."
+        }
+      ]
+    },
+    "BIA-01627": {
+      "korean": "시내의 적군을 모두 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo2",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Clear out the city of all enemy forces."
+        }
+      ]
+    },
+    "BIA-01758": {
+      "korean": "다가오는 공격으로부터 도심을 방어하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "ObjectiveInfo3",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Defend the center of the city from the oncoming assault."
+        }
+      ]
+    },
+    "BIA-02487": {
+      "korean": "임시 이름",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "McGuffinTriggerMessage2",
+          "key": "BEACONNAME",
+          "original_raw_value": "TEMP NAME"
+        }
+      ]
+    },
+    "BIA-01527": {
+      "korean": "후문",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "McGuffinTriggerMessage3",
+          "key": "BEACONNAME",
+          "original_raw_value": "Back entrance"
+        }
+      ]
+    },
+    "BIA-02049": {
+      "korean": "교차로",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [
+        "0x099023DC",
+        "0x099024DA"
+      ],
+      "loaded": true,
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "McGuffinTriggerMessage4",
+          "key": "BEACONNAME",
+          "original_raw_value": "Intersection"
+        }
+      ]
+    },
+    "BIA-01316": {
+      "korean": "농장으로",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "LevelInfo",
+          "key": "Title",
+          "original_raw_value": "Into the Farm"
+        },
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "MissionInfo",
+          "key": "Name",
+          "original_raw_value": "Into the Farm"
+        },
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "MissionInfo",
+          "key": "NameLong",
+          "original_raw_value": "Into the Farm"
+        }
+      ]
+    },
+    "BIA-02459": {
+      "korean": "농장을 점령하고 벙커의 4연장 대공포 2문을 모두 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "MissionInfo",
+          "key": "SKR_Objective",
+          "original_raw_value": "Seize the farm and destroy both flakvierlings at the bunker."
+        }
+      ]
+    },
+    "BIA-02446": {
+      "korean": "\"도로 봉쇄물\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage1",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Road block\""
+        }
+      ]
+    },
+    "BIA-02378": {
+      "korean": "\"오펠 블리츠 트럭\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage4",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Opel Blitz truck\""
+        }
+      ]
+    },
+    "BIA-01619": {
+      "korean": "\"폭격당한 집\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage5",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Bombed house\""
+        }
+      ]
+    },
+    "BIA-01866": {
+      "korean": "\"오솔길\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage6",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Foot path\""
+        }
+      ]
+    },
+    "BIA-01726": {
+      "korean": "\"안뜰\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage7",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Courtyard\""
+        }
+      ]
+    },
+    "BIA-01622": {
+      "korean": "\"벙커\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage8",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Bunker\""
+        }
+      ]
+    },
+    "BIA-01861": {
+      "korean": "\"4연장 대공포\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage9",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Flakvierling\""
+        }
+      ]
+    },
+    "BIA-01623": {
+      "korean": "\"벙커 뒤뜰\"",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "McGuffinTriggerMessage10",
+          "key": "BEACONNAME",
+          "original_raw_value": "\"Bunker backyard\""
+        }
+      ]
+    },
+    "BIA-02475": {
+      "korean": "농장을 장악하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Take control of the farm."
+        }
+      ]
+    },
+    "BIA-01910": {
+      "korean": "독일군이 미군에 필요한 주요 도로를 장악하고 있다. 도로 주변 농장의 독일군을 소탕하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "German forces have control of a key road that the Americans need. Clear the farm surrounding the roadway."
+        }
+      ]
+    },
+    "BIA-01780": {
+      "korean": "4연장 대공포 2문을 모두 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Destroy both Flakvierlings."
+        }
+      ]
+    },
+    "BIA-02512": {
+      "korean": "농장 남동쪽 끝에 4연장 대공포 2문이 있다. 미군 항공기가 안전하게 통과할 수 있도록 둘 다 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo1",
+          "key": "m_szLongDesc",
+          "original_raw_value": "There are two Flakvierling guns at the South-East end of the farm. Destroy both of them to provide safe air passage for American planes."
+        }
+      ]
+    },
+    "BIA-02416": {
+      "korean": "독일군이 벙커를 점령하지 못하게 하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_OUTDOORS.INT",
+          "section": "ObjectiveInfo2",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Prevent the Germans from capturing the bunker."
+        }
+      ]
+    },
+    "BIA-01781": {
+      "korean": "다리와 화차를 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_RAILYARD.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szShortDesc",
+          "original_raw_value": "Destroy the bridge and train cars."
+        }
+      ]
+    },
+    "BIA-02357": {
+      "korean": "철로를 따라 이동해 다리를 폭파하여 독일군 보급로를 끊어라. 그다음 철로 위 화차의 보급품을 파괴하라.",
+      "classification": "DYNAMIC_INT_KEY_CANDIDATE",
+      "addresses": [],
+      "loaded": false,
+      "sources": [
+        {
+          "file": "S_SKR_US_RAILYARD.INT",
+          "section": "ObjectiveInfo0",
+          "key": "m_szLongDesc",
+          "original_raw_value": "Move down the rail line and blow up the bridge to break the German supply route. Then destroy the supplies inside the cars on the tracks."
+        }
+      ]
+    }
+  },
+  "loaded_after_count": 2,
+  "newly_loaded_after_skirmish_count": 0,
+  "newly_loaded_after_skirmish_ids": [],
+  "newly_loaded_details": [],
+  "explicit_canaries": [
+    {
+      "resource_id": "BIA-01884",
+      "korean": "게임 팁:%newline%",
+      "before_loaded": false,
+      "after_loaded": false,
+      "addresses": [],
+      "sources": [
+        {
+          "file": "S_SKR_HINTS.INT",
+          "section": "HINTS",
+          "key": "HintCaption",
+          "original_raw_value": "Gameplay Tip:%newline%"
+        }
+      ]
+    },
+    {
+      "resource_id": "BIA-01442",
+      "korean": "스커미시 로비",
+      "before_loaded": false,
+      "after_loaded": false,
+      "addresses": [],
+      "sources": [
+        {
+          "file": "S_SKR_MENU_MAP.INT",
+          "section": "MissionInfo",
+          "key": "Name",
+          "original_raw_value": "Skirmish Lobby"
+        },
+        {
+          "file": "S_SKR_MENU_MAP.INT",
+          "section": "MissionInfo",
+          "key": "NameLong",
+          "original_raw_value": "Skirmish Lobby"
+        }
+      ]
+    },
+    {
+      "resource_id": "BIA-01312",
+      "korean": "늪을 건너",
+      "before_loaded": false,
+      "after_loaded": false,
+      "addresses": [],
+      "sources": [
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "LevelInfo",
+          "key": "Title",
+          "original_raw_value": "Across the Marsh"
+        },
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "MissionInfo",
+          "key": "Name",
+          "original_raw_value": "Across the Marsh"
+        },
+        {
+          "file": "S_SKR_US_MARSH.INT",
+          "section": "MissionInfo",
+          "key": "NameLong",
+          "original_raw_value": "Across the Marsh"
+        }
+      ]
+    }
+  ],
+  "runtime_loaded_int92": true,
+  "runtime_render_verified": false,
+  "next_action": "Inspect post-entry VRAM captures and explicit/newly-loaded INT92 strings; promote only what is actually evidenced."
+}

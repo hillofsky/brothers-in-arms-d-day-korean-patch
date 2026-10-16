@@ -1,0 +1,15 @@
+{
+  "stage": "39D",
+  "decoder_blob_size": 236,
+  "decoder_blob_sha1": "8eeb1e68f096e92dab1a3274b3120732c42eb532",
+  "converter_vaddr": "0x004C0108",
+  "converter_runtime": "0x08CC4108",
+  "dispatch_branch_vaddr": "0x004C0388",
+  "dispatch_branch_file_offset": "0x4C0408",
+  "utf8_decoder_vaddr": "0x004C0390",
+  "utf8_decoder_file_offset": "0x4C0410",
+  "utf8_3byte_store_runtime": "0x08CC4460",
+  "epilogue_target_vaddr": "0x004C06C0",
+  "expected_original_branch_bytes": "c6004014",
+  "patched_branch_bytes": "00000000"
+}

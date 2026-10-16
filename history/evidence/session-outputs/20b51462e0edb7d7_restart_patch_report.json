@@ -1,0 +1,16 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE43M_CAMPAIGN_OBJECTIVE_UTF8_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STAGE43O_RESTART_LIFETIME_TEST.iso",
+  "hook_va": "0x17480",
+  "helper_va": "0x5fef40",
+  "helper_bytes": 36,
+  "module_end": "0x8e02f70",
+  "section_payloads_preserved": true,
+  "existing_relocations_preserved": true,
+  "iso_readback_verified": true,
+  "runtime_verified": true,
+  "helper_execution_cases_passed": 3,
+  "hardware_rendering_attempt": "excluded: framebuffer capture and menu input could not be verified while window minimized",
+  "runtime_validation": "outputs/stage43o2_validation/restart_validation_report.json",
+  "verified_scope": "first mission chapter restart"
+}

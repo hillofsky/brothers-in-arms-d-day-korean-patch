@@ -1,0 +1,327 @@
+{
+  "step": "STEP_070_FIX6",
+  "status": "RUNTIME_ROUTE_DISCOVERY_CAPTURED",
+  "port": 26420,
+  "capture_method": "RAW_VRAM_RGB565",
+  "vram_addresses": [
+    "0x04000000",
+    "0x04044000"
+  ],
+  "stride": 512,
+  "width": 480,
+  "height": 272,
+  "runtime_verified": false,
+  "route_discovery_only": true,
+  "version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "last_game_status": {
+    "event": "game.status",
+    "ticket": 2,
+    "game": {
+      "id": "ULUS10193",
+      "version": "1.01",
+      "title": "Brothers in Arms D-Day"
+    },
+    "paused": false
+  },
+  "game": {
+    "id": "ULUS10193",
+    "version": "1.01",
+    "title": "Brothers in Arms D-Day"
+  },
+  "boot_capture": {
+    "buffers": [
+      {
+        "buffer_index": 0,
+        "address": "0x04000000",
+        "file": "00_boot_vram0_04000000.png",
+        "raw_sha256": "78c899cf8706e0ec1fda8fd64e50bb1399e5583fb7083b8197ac91dedbcfa670",
+        "png_sha256": "afb6ef53f6a0f79bd44f73eea528bfcf56759e5d45c776b765110f77a04d57c2",
+        "score": 4854397
+      },
+      {
+        "buffer_index": 1,
+        "address": "0x04044000",
+        "file": "00_boot_vram1_04044000.png",
+        "raw_sha256": "e68fe726cc067db67a8d6dc8d78e04ae315faf43121c51d4c719a1c108729ff0",
+        "png_sha256": "28330c933ddeaa30a78898e5ca05a28a3c85a4dc11aaab296d7b6721a45678f9",
+        "score": 4853568
+      }
+    ],
+    "preferred": "00_boot_vram0_04000000.png"
+  },
+  "start_sweep": [
+    {
+      "start_count": 1,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "01_start_1_vram0_04000000.png",
+            "raw_sha256": "3b2c394d88d1a3fcd1503b28eaa451e2faeb036c26bfd934d0ec8b5a8428bcf9",
+            "png_sha256": "02e250a56174552a1cb9ee513107057d12311fee4beabbb8a53bd165acef2e44",
+            "score": 368963
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "01_start_1_vram1_04044000.png",
+            "raw_sha256": "2c25eef7798675843cca7f33683d64d277c96c32780f9080c043931261b984da",
+            "png_sha256": "f1df9b790c03d9c2cd8d29b1c1cf3e02381f2566ee002641da7379856fde2cce",
+            "score": 737257
+          }
+        ],
+        "preferred": "01_start_1_vram1_04044000.png"
+      }
+    },
+    {
+      "start_count": 2,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "01_start_2_vram0_04000000.png",
+            "raw_sha256": "33ecf1658a95c9207d143d692aa9d298d24d9b8b89020810d00e82e95276ac56",
+            "png_sha256": "5f57556066dda8fb18d38e92541d1da3f97d3bdc752e28946877921bcad1ce3b",
+            "score": 4284901
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "01_start_2_vram1_04044000.png",
+            "raw_sha256": "88b8f4ad426a5fd077c055bb4d4b241d92b67b4eaabecf7ed3046a6199000e15",
+            "png_sha256": "81e1f63e08b151fb81c8f80df4d8d3546a63222bd05ab16a7fe9bec47eeb75ca",
+            "score": 4292065
+          }
+        ],
+        "preferred": "01_start_2_vram1_04044000.png"
+      }
+    },
+    {
+      "start_count": 3,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "01_start_3_vram0_04000000.png",
+            "raw_sha256": "1bfb3c58cb9928dcb7ffcf2c2b89d51cc295caf99b5b7da0b089a12b836f781e",
+            "png_sha256": "0f2f3d1560e23315292aa8c371059761dd365287a694ef638eb61cedd6ca1396",
+            "score": 4559792
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "01_start_3_vram1_04044000.png",
+            "raw_sha256": "43151bbc29bed138bf409bd34d28cf2095c1dfc38e00b87bfed4d8f6c1ab21e7",
+            "png_sha256": "1ece9e02f943b22f96488f26f493afd9699f2521ef3ecb315bbc69d00cefca57",
+            "score": 4493029
+          }
+        ],
+        "preferred": "01_start_3_vram0_04000000.png"
+      }
+    },
+    {
+      "start_count": 4,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "01_start_4_vram0_04000000.png",
+            "raw_sha256": "1329fe365e4b1eb572cb2404edcd1fbc9297fcd57aa0239cd176a83b065d5062",
+            "png_sha256": "841da718ee086c92bf9a841b6ccc6ee913e57e8f2b30353167f64b7dd19a9ace",
+            "score": 1743776
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "01_start_4_vram1_04044000.png",
+            "raw_sha256": "2406d38517fa74fbbfb29b4b2b4a3c006918cddbeb9b94cee3f7bd9f613fcf28",
+            "png_sha256": "2a920c19d534d47183af544f71e77758f923125ad0f7bb8a9b0ad0c367032fd6",
+            "score": 2079798
+          }
+        ],
+        "preferred": "01_start_4_vram1_04044000.png"
+      }
+    }
+  ],
+  "memory_after_start_sweep": {
+    "스커미시 로비": {
+      "error": "memory.search error: {'event': 'error', 'message': 'Bad message: unknown event', 'level': 2, 'ticket': 36}"
+    },
+    "게임 팁:": {
+      "error": "memory.search error: {'event': 'error', 'message': 'Bad message: unknown event', 'level': 2, 'ticket': 37}"
+    },
+    "늪을 건너": {
+      "error": "memory.search error: {'event': 'error', 'message': 'Bad message: unknown event', 'level': 2, 'ticket': 38}"
+    }
+  },
+  "down_sweep": [
+    {
+      "down_count": 1,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_down_1_vram0_04000000.png",
+            "raw_sha256": "2557b012431fa8167d981861a660589d44a8a90e428cdd5fbddd7dd924b20ffd",
+            "png_sha256": "2f9494a2dd3fcda6cbf3c524ae461b65203be9eabaed9e9436fbb249fd4fdc44",
+            "score": 428403
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_down_1_vram1_04044000.png",
+            "raw_sha256": "e5f20dcba1bb3e3101453133f6e529b78fa0691a824cbe37af1c25f8ec8a0afe",
+            "png_sha256": "32b858d6486dea6961347652070d24b1783dc84197abce57aa60c6df0789b09c",
+            "score": 549553
+          }
+        ],
+        "preferred": "02_down_1_vram1_04044000.png"
+      }
+    },
+    {
+      "down_count": 2,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_down_2_vram0_04000000.png",
+            "raw_sha256": "79095a8a9c81e1d95e90442adcddeae93061fac4611d4c1f768850eaf6787c69",
+            "png_sha256": "eb54ec205e81757897d286e8b5472631522b8fe70f9fda48b51eb2c722b77582",
+            "score": 0
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_down_2_vram1_04044000.png",
+            "raw_sha256": "79095a8a9c81e1d95e90442adcddeae93061fac4611d4c1f768850eaf6787c69",
+            "png_sha256": "eb54ec205e81757897d286e8b5472631522b8fe70f9fda48b51eb2c722b77582",
+            "score": 0
+          }
+        ],
+        "preferred": "02_down_2_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 3,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_down_3_vram0_04000000.png",
+            "raw_sha256": "a23bdb87f633f51d4f6da5e9a423deec5b949cce420918a5d83f1fa9cf71a40e",
+            "png_sha256": "24ffb65c573b2d4bc5c0bd8521b664837855d4edd4b6f640748d1a9bd973b081",
+            "score": 4816711
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_down_3_vram1_04044000.png",
+            "raw_sha256": "a23bdb87f633f51d4f6da5e9a423deec5b949cce420918a5d83f1fa9cf71a40e",
+            "png_sha256": "24ffb65c573b2d4bc5c0bd8521b664837855d4edd4b6f640748d1a9bd973b081",
+            "score": 4816711
+          }
+        ],
+        "preferred": "02_down_3_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 4,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_down_4_vram0_04000000.png",
+            "raw_sha256": "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094",
+            "png_sha256": "273d92a6adaa2ba1de454dcd75c834c1a20a5f348c712be025ac63e925660e75",
+            "score": 4819705
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_down_4_vram1_04044000.png",
+            "raw_sha256": "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094",
+            "png_sha256": "273d92a6adaa2ba1de454dcd75c834c1a20a5f348c712be025ac63e925660e75",
+            "score": 4819705
+          }
+        ],
+        "preferred": "02_down_4_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 5,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_down_5_vram0_04000000.png",
+            "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+            "png_sha256": "4bbcebcdd92648f0d9074ae1c7409f92671eca730583ce35d16c2b81a8e83a92",
+            "score": 3251097
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_down_5_vram1_04044000.png",
+            "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+            "png_sha256": "4bbcebcdd92648f0d9074ae1c7409f92671eca730583ce35d16c2b81a8e83a92",
+            "score": 3251097
+          }
+        ],
+        "preferred": "02_down_5_vram0_04000000.png"
+      }
+    },
+    {
+      "down_count": 6,
+      "capture": {
+        "buffers": [
+          {
+            "buffer_index": 0,
+            "address": "0x04000000",
+            "file": "02_down_6_vram0_04000000.png",
+            "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+            "png_sha256": "4bbcebcdd92648f0d9074ae1c7409f92671eca730583ce35d16c2b81a8e83a92",
+            "score": 3251097
+          },
+          {
+            "buffer_index": 1,
+            "address": "0x04044000",
+            "file": "02_down_6_vram1_04044000.png",
+            "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+            "png_sha256": "4bbcebcdd92648f0d9074ae1c7409f92671eca730583ce35d16c2b81a8e83a92",
+            "score": 3251097
+          }
+        ],
+        "preferred": "02_down_6_vram0_04000000.png"
+      }
+    }
+  ],
+  "memory_after_down_sweep": {
+    "스커미시 로비": {
+      "error": "memory.search error: {'event': 'error', 'message': 'Bad message: unknown event', 'level': 2, 'ticket': 81}"
+    },
+    "게임 팁:": {
+      "error": "memory.search error: {'event': 'error', 'message': 'Bad message: unknown event', 'level': 2, 'ticket': 82}"
+    },
+    "늪을 건너": {
+      "error": "memory.search error: {'event': 'error', 'message': 'Bad message: unknown event', 'level': 2, 'ticket': 83}"
+    }
+  },
+  "korean_runtime_memory_hits": [],
+  "runtime_loaded_korean": false,
+  "runtime_render_verified": false,
+  "next_action": "Inspect raw-VRAM captures to identify the exact Skirmish selection, then confirm only that entry."
+}

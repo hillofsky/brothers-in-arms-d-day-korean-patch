@@ -1,0 +1,2 @@
+from pathlib import Path
+s=Path('work/stage40m_validate.py').read_text(encoding='utf-8').replace('outputs/stage40m_validation','outputs/stage40n');s=s.replace("condition='ra == 0x08C7F9BC && a1 >= 0xE0 && s0 == 0x0972524C'", "condition='ra == 0x08C7F9BC && a1 >= 0xE0 && a1 < 0xF0 && s0 == 0x0972524C'");s=s.replace("logFormat='BIA40K a0={a0}","logFormat='BIA40N caller={word[sp+4]} a0={a0}");Path('work/stage40n_live.py').write_text(s,encoding='utf-8')

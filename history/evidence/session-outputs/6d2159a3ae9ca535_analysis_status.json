@@ -1,0 +1,11 @@
+{
+  "crash_reproduced": true,
+  "pc": "0x088b9c8c",
+  "invalid_pointer": "0x305f3244",
+  "invalid_pointer_bytes": "D2_0",
+  "map_resource": "D2_0630_.MDI",
+  "fstring_object": "0x09a857e4",
+  "root_cause_unproven": true,
+  "patch_built": false,
+  "registers_and_32MiB_ram_captured": true
+}

@@ -1,0 +1,265 @@
+{
+  "step": "STEP_073",
+  "status": "VERIFIED_SOURCE_RECOVERY",
+  "iso_modified": false,
+  "step064_zip": "PROJECT_ROOT\\log\\bia_STEP_064_exact_campaign_apply_recovery_RESULT.zip",
+  "step064_entry": "outputs/recovered_pipeline_files/FS_log__STEP_044_FIX6__outputs__source_evidence__07_build_campaign43a.py__07_build_campaign43a.py",
+  "exact_campaign43a_recovered": true,
+  "plain_files": [
+    {
+      "path": "PROJECT_ROOT\\bia_stage39b_tools\\bia_stage39b_compiled_mdi_text.py",
+      "exists": true,
+      "size": 12984,
+      "sha256": "ca0fa1a7f24032b18d414b5c442ef28f91925cae70815f7e52f130a6d185631f"
+    },
+    {
+      "path": "PROJECT_ROOT\\bia_stage39b_tools\\bia_stage36_base.py",
+      "exists": true,
+      "size": 91950,
+      "sha256": "8203ee8d2d1956cace39be848151c479cf8b901b52354ab2e688f14bb761da8c"
+    },
+    {
+      "path": "PROJECT_ROOT\\bia_stage40i_tools\\bia_stage40i_actual_resource_trace.py",
+      "exists": true,
+      "size": 27218,
+      "sha256": "cfee1d5862a1dec643871b6d5128805785966a54f92c432fab62d98ae438c51c"
+    }
+  ],
+  "archive_candidates": [
+    {
+      "zip": "SESSION_SESSION_OUTPUTS\\bia_stage40y_handoff.zip",
+      "exists": true,
+      "matches": [
+        {
+          "entry": "tools/build_campaign40r.py",
+          "basename": "build_campaign40r.py",
+          "sha256": "cb99a33b8e7ca5d4d773b43c81d5771a5c4380004e3edf0c4f972673a9593b3f"
+        },
+        {
+          "entry": "tools/build_firstmission40y.py",
+          "basename": "build_firstmission40y.py",
+          "sha256": "5f3c4bb2bb75b75b9f632510e31deb9d34e201ff3b14b14105b6318a17aa8aa4"
+        }
+      ]
+    },
+    {
+      "zip": "PROJECT_ROOT\\log\\fall_bia_STEP_044_campaign_next_batch_RESULT.zip",
+      "exists": true,
+      "matches": []
+    },
+    {
+      "zip": "PROJECT_ROOT\\log\\fall_bia_STEP_068_movie_nonmdi_reconcile_RESULT.zip",
+      "exists": true,
+      "matches": []
+    }
+  ],
+  "campaign43a_output": "PROJECT_ROOT\\log\\STEP_073\\outputs\\recovered\\build_campaign43a.py",
+  "capabilities": [
+    {
+      "label": "build_campaign43a.py",
+      "functions": [],
+      "classes": [],
+      "mentions": {
+        "append_iso_file_and_repoint": true,
+        "rebuild_mdi": true,
+        "rebuild_dsx": false,
+        "stage39a_font_plan": true,
+        "payload_stream35": false,
+        "atlas_stream34": false,
+        "dsl_relocation": false,
+        "fstring": false,
+        "glyph": true,
+        "atlas": true
+      }
+    },
+    {
+      "label": "bia_stage39b_compiled_mdi_text.py",
+      "functions": [
+        "log",
+        "load_translations",
+        "extra_null_capacity",
+        "patch_compiled_utf16_strings",
+        "build_iso",
+        "run_runtime",
+        "make_zip",
+        "main"
+      ],
+      "classes": [],
+      "mentions": {
+        "append_iso_file_and_repoint": true,
+        "rebuild_mdi": true,
+        "rebuild_dsx": false,
+        "stage39a_font_plan": true,
+        "payload_stream35": false,
+        "atlas_stream34": false,
+        "dsl_relocation": false,
+        "fstring": false,
+        "glyph": true,
+        "atlas": true
+      }
+    },
+    {
+      "label": "bia_stage36_base.py",
+      "functions": [
+        "log",
+        "sha1_bytes",
+        "iso_norm_name",
+        "iso_read_record",
+        "iso_list_dir",
+        "iso_find_record",
+        "iso_read_file",
+        "patch_dir_record_extent_size",
+        "update_volume_space_size",
+        "align_up",
+        "append_iso_file_and_repoint",
+        "overwrite_iso_same_size",
+        "valid_zlib_header",
+        "parse_mdi",
+        "rebuild_mdi",
+        "patch_mdi",
+        "patch_dsl_descriptor",
+        "parse_dsx",
+        "dsx_logical_bytes",
+        "rebuild_dsx_from_logical",
+        "find_stage09_memstick",
+        "find_ppsspp_exe",
+        "find_original_iso",
+        "write_append_config",
+        "choose_free_port",
+        "wait_for_actual_debugger_port",
+        "find_ppsspp_hwnd",
+        "get_pid_base",
+        "open_process",
+        "rpm",
+        "wpm",
+        "guest_read",
+        "guest_write",
+        "foreground",
+        "capture",
+        "record_gpu_frame",
+        "connect_debugger",
+        "wait_for_story_native",
+        "inspect_loaded",
+        "descriptor_words_for_expanded_tmr",
+        "pre_menu_descriptor_watcher",
+        "dump_runtime_regions",
+        "inspect_tmr_vertex_uv_samples",
+        "patch_loaded_tmr_uvs",
+        "install_descriptor_pause_breakpoint",
+        "remove_descriptor_pause_breakpoint",
+        "fire_and_forget",
+        "send_request_no_wait",
+        "wait_cpu_running",
+        "regs_to_dict",
+        "hexregs",
+        "safe_guest_dump",
+        "disasm_window",
+        "u32",
+        "s32",
+        "collect_pause_snapshot",
+        "advance_until_descriptor_pause",
+        "make_zip",
+        "copy_file_with_progress",
+        "prepare_boot_iso",
+        "close_existing_ppsspp",
+        "register_ppsspp_auto_close",
+        "main"
+      ],
+      "classes": [
+        "MiniWebSocket"
+      ],
+      "mentions": {
+        "append_iso_file_and_repoint": true,
+        "rebuild_mdi": true,
+        "rebuild_dsx": true,
+        "stage39a_font_plan": false,
+        "payload_stream35": false,
+        "atlas_stream34": false,
+        "dsl_relocation": true,
+        "fstring": false,
+        "glyph": true,
+        "atlas": true
+      }
+    },
+    {
+      "label": "bia_stage40i_actual_resource_trace.py",
+      "functions": [
+        "log",
+        "load_helpers",
+        "read_dir_record",
+        "normalize_iso_name",
+        "iso_inventory",
+        "map_offset_to_file",
+        "make_static_patterns",
+        "raw_iso_search",
+        "mdi_decoded_search",
+        "write_tsv",
+        "read_ws",
+        "wait_cpu_ready",
+        "wait_menu_resource",
+        "press",
+        "make_runtime_patterns",
+        "scan_ram",
+        "summarize_runtime_hits",
+        "runtime_trace",
+        "parse_lbn_log",
+        "make_zip",
+        "main"
+      ],
+      "classes": [],
+      "mentions": {
+        "append_iso_file_and_repoint": false,
+        "rebuild_mdi": false,
+        "rebuild_dsx": false,
+        "stage39a_font_plan": false,
+        "payload_stream35": false,
+        "atlas_stream34": false,
+        "dsl_relocation": false,
+        "fstring": false,
+        "glyph": true,
+        "atlas": false
+      }
+    },
+    {
+      "label": "build_campaign40r.py",
+      "functions": [],
+      "classes": [],
+      "mentions": {
+        "append_iso_file_and_repoint": false,
+        "rebuild_mdi": false,
+        "rebuild_dsx": false,
+        "stage39a_font_plan": false,
+        "payload_stream35": false,
+        "atlas_stream34": false,
+        "dsl_relocation": false,
+        "fstring": false,
+        "glyph": false,
+        "atlas": false
+      }
+    },
+    {
+      "label": "build_firstmission40y.py",
+      "functions": [],
+      "classes": [],
+      "mentions": {
+        "append_iso_file_and_repoint": true,
+        "rebuild_mdi": true,
+        "rebuild_dsx": true,
+        "stage39a_font_plan": true,
+        "payload_stream35": false,
+        "atlas_stream34": false,
+        "dsl_relocation": true,
+        "fstring": true,
+        "glyph": true,
+        "atlas": true
+      }
+    }
+  ],
+  "required_labels": [
+    "build_campaign43a.py",
+    "bia_stage39b_compiled_mdi_text.py",
+    "bia_stage36_base.py"
+  ],
+  "missing_required_labels": [],
+  "manifest_count": 6
+}

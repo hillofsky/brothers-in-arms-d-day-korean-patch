@@ -1,0 +1,31 @@
+{
+  "stage": "42G_512_GLOBAL_ATLAS_PROBE",
+  "patches": [
+    {
+      "name": "SUBTITLEHASHMAP.INI",
+      "old_sha1": "441c1fb76940bc2924333920537ac39ff6e49590",
+      "new_sha1": "c9d5ccad298d814f6f52093a0671e7c355e3e310",
+      "size": 4275
+    },
+    {
+      "name": "FM_0115EAGLESJUMP.ST1",
+      "old_sha1": "f86716f20e80eb9110c7deb86780fe66a54367ea",
+      "new_sha1": "db4155d8ad32422df0339dff1dd968260e022612",
+      "size": 1482
+    },
+    {
+      "name": "SUBTITLETEXTURE.RAW",
+      "old_lbn": 510992,
+      "old_size": 131072,
+      "new_lbn": 727333,
+      "new_size": 1048576,
+      "old_sha1": "d25634c34ecdd27abd16b4706781f6d5e04d3e4d",
+      "new_sha1": "9ab68dee919c47de559ede488f2c3835e43ca4a8"
+    }
+  ],
+  "old_volume_sectors": 727333,
+  "new_volume_sectors": 727845,
+  "completed": true,
+  "output": "PROJECT_ROOT\\BIA_STAGE42G_GLOBAL_512_ATLAS_PROBE.iso",
+  "output_size": 1490626560
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "resource": "stage69/D0_0700_.MDI",
+    "size": 4405254,
+    "sha256": "293179a89cfef8f0f2c70be8ec28e9b71769781aade64566cb32e47256386532"
+  },
+  {
+    "resource": "stage69/D0_0700_.DSL",
+    "size": 3352130,
+    "sha256": "694758bf982eba531a1b4c41ab999f49eea081a07a49f864aedbfa4dd6f3908d"
+  },
+  {
+    "resource": "stage69/D0_0700_.DSX",
+    "size": 1287336,
+    "sha256": "75a26f6c06dc46400231f44b9de656aaba7a9f03df26d68bbf0f1dce4efb878a"
+  },
+  {
+    "resource": "stage79/D0_0700_.MDI",
+    "size": 4475876,
+    "sha256": "4c9cdcb92998a61cfd030b68d5132553b8d57fcbef1f010b4378dfaddc4365e1"
+  },
+  {
+    "resource": "stage79/D0_0700_.DSL",
+    "size": 3352130,
+    "sha256": "a50c3d56c8ba47f4df96025b721984e17b237d189b234b63e7a4f1d7c742fa27"
+  },
+  {
+    "resource": "stage79/D0_0700_.DSX",
+    "size": 1287340,
+    "sha256": "7ffedbac816b68a81e96d978891e7a202cc48661b5d7960c37a2af5c05c71e1d"
+  },
+  {
+    "resource": "stage79/D0_0130_.MDI",
+    "size": 4862825,
+    "sha256": "fcff4f219edf7dd5aa843051b03aa9fb5c7ae6060193530e707bd36a2118a2cf"
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "stage": 17,
+  "purpose": "locate live TMR18/AB18 textures in PSP VRAM and trace address/GE references",
+  "iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "tmr_source": {
+    "dsl_offset": "0x15D964",
+    "size": 16384,
+    "sha1": "b64ac2e19f620bcc6049f60315ed3352276fc9af",
+    "dimensions": [
+      128,
+      256
+    ],
+    "format": "PSP 4bpp swizzled"
+  },
+  "ab_source": {
+    "dsl_offset": "0x1619A4",
+    "size": 32768,
+    "sha1": "03366859beeeb58d067a893ea42db54581811797",
+    "expected_sha1_note": "97fd85e308121bf749970e70706b43bec67bd203",
+    "dimensions": [
+      128,
+      512
+    ],
+    "format": "PSP 4bpp swizzled"
+  },
+  "pid": 15660,
+  "psp_base": "0x0000023BEBEC0000",
+  "runtime_textures": {
+    "TMR18": {
+      "exact_full_vram_hits": [],
+      "first_0x400_vram_hits": [],
+      "exact_full_mainram_hits": [],
+      "palette_vram_hits": [],
+      "palette_mainram_hits": [],
+      "mainram_pointer_refs_to_vram": {},
+      "dimension_like_values_near_pointer_refs": [],
+      "ge_exact_address_commands": [],
+      "ge_command_neighborhoods": []
+    },
+    "AB18": {
+      "exact_full_vram_hits": [],
+      "first_0x400_vram_hits": [],
+      "exact_full_mainram_hits": [],
+      "palette_vram_hits": [],
+      "palette_mainram_hits": [],
+      "mainram_pointer_refs_to_vram": {},
+      "dimension_like_values_near_pointer_refs": [],
+      "ge_exact_address_commands": [],
+      "ge_command_neighborhoods": []
+    }
+  },
+  "ppsspp_texture_reload_addresses": [
+    {
+      "address": "0x0417D680",
+      "count": 258
+    },
+    {
+      "address": "0x041A5480",
+      "count": 228
+    },
+    {
+      "address": "0x041AD400",
+      "count": 228
+    },
+    {
+      "address": "0x04175700",
+      "count": 226
+    },
+    {
+      "address": "0x04155900",
+      "count": 152
+    },
+    {
+      "address": "0x04185680",
+      "count": 151
+    }
+  ],
+  "completed": true
+}

@@ -1,0 +1,195 @@
+{
+  "stage": "40E",
+  "purpose": "Re-evaluate Stage40D using live-RAM pointer search, actual Unicode renderer breakpoints, and raw PSP VRAM captures instead of the misleading early metadata addresses/window screenshot.",
+  "stage40d_key_findings": {
+    "build": "The three translations rebuilt correctly and point into stream23.",
+    "runtime": "All four Korean labels (Story, Skirmish, Options, Profile) were found as proper UTF-16 strings in RAM after entering menu.",
+    "font": "Production font remained correct: 847 / 0x098F5020.",
+    "old_runtime_metadata_check": "0x095EC790 etc. were sampled before the relevant live object was initialized and read as zero. Stage40E searches the real ptr/Num/Max triplets across main RAM after menu initialization.",
+    "old_screenshot": "The Stage40D window capture shows PPSSPP's Developer Menu overlay, not a reliable PSP framebuffer. Stage40E dumps both raw 480x272 RGB565 VRAM buffers directly."
+  },
+  "source": {
+    "already_present": true,
+    "path": "PROJECT_ROOT\\BIA_STAGE40D_LIVE_STREAM23_MENU_TEST.iso"
+  },
+  "runtime": {
+    "pid": 11416,
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "cpu_ready": {
+      "ready": true,
+      "attempts": 3,
+      "status": {
+        "event": "cpu.status",
+        "ticket": 1005,
+        "stepping": false,
+        "paused": false,
+        "pc": 144009992,
+        "ticks": 138501
+      },
+      "probe": "e410330e"
+    },
+    "renderer_jal": {
+      "actual": "e410330e",
+      "expected": "e410330e"
+    },
+    "menu_resource": {
+      "opened": true,
+      "startup_start_presses": 9
+    },
+    "menu_confirmed": {
+      "found": true,
+      "address": "0x08E416C0"
+    },
+    "stream23_allocations": [
+      {
+        "label": "Skirmish",
+        "ptr": "0x098FF890",
+        "expected_hex": "ec8aa4ecbba4ebafb8ec8b9c00",
+        "actual_hex": "ec8aa4ecbba4ebafb8ec8b9c00",
+        "ok": true
+      },
+      {
+        "label": "Options",
+        "ptr": "0x098FF8A0",
+        "expected_hex": "ec98b5ec859800",
+        "actual_hex": "ec98b5ec859800",
+        "ok": true
+      },
+      {
+        "label": "Profile",
+        "ptr": "0x098FF8A8",
+        "expected_hex": "ed9484eba19ced958400",
+        "actual_hex": "ed9484eba19ced958400",
+        "ok": true
+      }
+    ],
+    "ram_pattern_hits": {
+      "metadata_Skirmish": [
+        "0x095EC790"
+      ],
+      "utf8_Skirmish": [
+        "0x098FF890"
+      ],
+      "utf16_Skirmish": [
+        "0x08FF57C1",
+        "0x08FFF0F8",
+        "0x09745DCC",
+        "0x097488AC"
+      ],
+      "metadata_Options": [
+        "0x095EC7AC"
+      ],
+      "utf8_Options": [
+        "0x098FF8A0"
+      ],
+      "utf16_Options": [
+        "0x08E42640",
+        "0x08E431B0",
+        "0x08E431F0",
+        "0x08FFB765",
+        "0x08FFF1C8",
+        "0x08FFFE46"
+      ],
+      "metadata_Profile": [
+        "0x095EC7C8"
+      ],
+      "utf8_Profile": [
+        "0x098FF8A8"
+      ],
+      "utf16_Profile": [
+        "0x08E425B0",
+        "0x08E432F0",
+        "0x08FFB2D4"
+      ],
+      "utf16_Story": [
+        "0x08E416C0",
+        "0x08E431A0",
+        "0x08FF4B89"
+      ]
+    },
+    "renderer_unicode_probes": [
+      {
+        "char": "토",
+        "codepoint": "U+D1A0",
+        "hit": true,
+        "pc": "0x08C7F2FC",
+        "ra": "0x08972368",
+        "a1": "0x0000D1A0",
+        "s0": "0x08E2E7BA",
+        "s4": 255,
+        "s5": 1,
+        "source_sample_hex": "a0d1acb90000b0e7e208acb90000584b74096c4b7409804b7409944b7409a84b7409bc4b7409d04b",
+        "label": "Story"
+      },
+      {
+        "char": "커",
+        "codepoint": "U+CEE4",
+        "hit": true,
+        "pc": "0x08C7F2FC",
+        "ra": "0x08972368",
+        "a1": "0x0000CEE4",
+        "s0": "0x08E4E8FE",
+        "s4": 255,
+        "s5": 5,
+        "source_sample_hex": "a400eb00af00b800ec008b009c000000aedc33000000b002000090f2e408c0e8e40840000e007f7f",
+        "label": "Skirmish"
+      },
+      {
+        "char": "옵",
+        "codepoint": "U+C635",
+        "hit": true,
+        "pc": "0x08C7F2FC",
+        "ra": "0x08972368",
+        "a1": "0x0000C635",
+        "s0": "0x08E41644",
+        "s4": 255,
+        "s5": 2,
+        "source_sample_hex": "b500ec0085009800000000003016e408543f7209713f7209723f7209ec009800b500ec0085009800",
+        "label": "Options"
+      },
+      {
+        "char": "프",
+        "codepoint": "U+D504",
+        "hit": true,
+        "pc": "0x08C7F2FC",
+        "ra": "0x08972368",
+        "a1": "0x0000D504",
+        "s0": "0x08E4E880",
+        "s4": 255,
+        "s5": 2,
+        "source_sample_hex": "8400eb00a1009c00ed00950084000000180000000000000000009041461765420000000000000000",
+        "label": "Profile"
+      }
+    ],
+    "font_after_menu": {
+      "glyph_count": 847,
+      "glyph_count_ok": true,
+      "glyph_ptr": "0x098F5020",
+      "glyph_ptr_ok": true
+    },
+    "vram_framebuffers": [
+      {
+        "address": "0x04000000",
+        "captured": true,
+        "path": "PROJECT_ROOT\\analysis\\stage40e_live_runtime_proof\\stage40e_vram_04000000.png",
+        "size": [
+          480,
+          272
+        ]
+      },
+      {
+        "address": "0x04044000",
+        "captured": true,
+        "path": "PROJECT_ROOT\\analysis\\stage40e_live_runtime_proof\\stage40e_vram_04044000.png",
+        "size": [
+          480,
+          272
+        ]
+      }
+    ],
+    "ok": true,
+    "ppsspp_closed": true
+  },
+  "completed": true
+}

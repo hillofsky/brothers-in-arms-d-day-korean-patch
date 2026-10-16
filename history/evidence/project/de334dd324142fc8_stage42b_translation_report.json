@@ -1,0 +1,66 @@
+{
+  "stage": "42B",
+  "translation_fields": 133,
+  "st1_files": 8,
+  "field_overflow_count": 0,
+  "global_unique_hangul": 371,
+  "global_unique_visible_chars": 389,
+  "current_hashmap_unique_entries": 112,
+  "expanded_probe_unique_entries": 223,
+  "expanded_usable_content_keys": 222,
+  "per_file": {
+    "EM_1230_BOOKENDS2.ST1": {
+      "fields": 37,
+      "hangul_unique": 195,
+      "visible_unique": 211,
+      "fits_222_usable_keys": true
+    },
+    "EM_1300_BOOKENDS4.ST1": {
+      "fields": 22,
+      "hangul_unique": 142,
+      "visible_unique": 157,
+      "fits_222_usable_keys": true
+    },
+    "EM_1330_BOOKENDS3.ST1": {
+      "fields": 26,
+      "hangul_unique": 168,
+      "visible_unique": 184,
+      "fits_222_usable_keys": true
+    },
+    "EM_1830RISNERSDEATH.ST1": {
+      "fields": 3,
+      "hangul_unique": 26,
+      "visible_unique": 31,
+      "fits_222_usable_keys": true
+    },
+    "EM_D30900DEATH.ST1": {
+      "fields": 1,
+      "hangul_unique": 15,
+      "visible_unique": 18,
+      "fits_222_usable_keys": true
+    },
+    "EM_EXIT4_ENDING.ST1": {
+      "fields": 3,
+      "hangul_unique": 47,
+      "visible_unique": 51,
+      "fits_222_usable_keys": true
+    },
+    "EM_VICTORYINCARETAN.ST1": {
+      "fields": 22,
+      "hangul_unique": 156,
+      "visible_unique": 172,
+      "fits_222_usable_keys": true
+    },
+    "FM_0115EAGLESJUMP.ST1": {
+      "fields": 19,
+      "hangul_unique": 99,
+      "visible_unique": 110,
+      "fits_222_usable_keys": true
+    }
+  },
+  "conclusion": [
+    "All 133 translations fit original ST1 field sizes under one-byte token encoding.",
+    "The full corpus has 371 unique Hangul syllables, so a global one-syllable-per-byte map cannot fit.",
+    "Every individual ST1 needs at most 211 visible symbols, so a 222-key per-movie/token mapping would be sufficient if the manager accepts the expanded map."
+  ]
+}

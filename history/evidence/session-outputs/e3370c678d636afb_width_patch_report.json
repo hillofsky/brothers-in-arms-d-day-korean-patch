@@ -1,0 +1,18 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE40M_CONTROLS_COMPLETE_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40O_CONTROLS_UTF8_COMPLETE_TEST.iso",
+  "helper_size": 256,
+  "helper_va": "0x4c0580",
+  "helper_runtime": "0x8cc4580",
+  "width_call_runtime": "0x8853244",
+  "width_call_disk": "0xc130160",
+  "width_call_runtime_word": "0xe331160",
+  "helper_sha1": "f828fba980a97cf4fee28f5a41ed2a141c96a601",
+  "source_boot_sha1": "b83356d10ccf9ee37dd2acb572e04e1b31a208e4",
+  "new_boot_sha1": "f0adbd087a95e685d3832b8bb0a80da25c2fec05",
+  "disabled_old_cjis_relocs": [],
+  "reused_none_relocation_record": "0x734bf4",
+  "resource_files_and_eboot_unchanged": true,
+  "iso_readback_ok": true,
+  "runtime_verified": false
+}

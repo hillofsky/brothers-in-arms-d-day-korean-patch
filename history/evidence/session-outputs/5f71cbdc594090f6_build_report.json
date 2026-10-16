@@ -1,0 +1,632 @@
+{
+  "step": "STEP124",
+  "source": "PROJECT_ROOT\\BIA_STEP123_SKIRMISH_KO_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STEP124_TEXT_REVIEW_KO_TEST.iso",
+  "source_sha256": "1c9742f5a4ce3b619069da41d597b44876e2d64dcb88eb299a507a9f305cd14b",
+  "source_preserved": true,
+  "output_sha256": "5aafabfbdb4c3d1d0faa44d4bc6e120db85c456bf4c7aa1f1121ef4f177abf4a",
+  "translations": {
+    "해시 병장이 이 위치 바로 앞의 독일군과 교전할 준비를 하고 있다!%newline%%Button_Cross%를 눌러 계속한다.": "맥 중사이 이 위치 바로 앞의 독일군과 교전할 준비를 하고 있다!%newline%%Button_Cross%를 눌러 계속한다.",
+    "제압된 적은 엄폐물 뒤에 머무는 시간이 늘고 사격하는 시간은 줄어든다. 해시 병장은 그 틈에 적의 사격을 피해 이동할 수 있다.%newline%%Button_Cross%를 눌러 계속한다.": "제압된 적은 엄폐물 뒤에 머무는 시간이 늘고 사격하는 시간은 줄어든다. 맥 중사은 그 틈에 적의 사격을 피해 이동할 수 있다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "적을 제압하려면 맥 상사가 엄폐물을 피해 사격할 수 있는 새 위치로 이동해야 한다. 이런 기동을 측면 공격이라 한다.%newline%계속하려면 %Button_Cross%를 누른다.": "적을 제압하려면 맥 중사가 엄폐물을 피해 사격할 수 있는 새 위치로 이동해야 한다. 이런 기동을 측면 공격이라 한다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "맥 상사가 이 위치에 도착하면 적을 직접 조준하여 쉽게 제압할 수 있다.%newline%계속하려면 %Button_Cross%를 누른다.": "맥 중사가 이 위치에 도착하면 적을 직접 조준하여 쉽게 제압할 수 있다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "맥 상사가 이동하는 동안 당신과 레겟은 적에게 제압 사격을 가해야 한다.%newline%계속하려면 %Button_Cross%를 누른다.": "맥 중사가 이동하는 동안 당신과 레겟은 적에게 제압 사격을 가해야 한다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "하세이 상사": "맥 중사",
+    "맥 상사": "맥 중사",
+    "German K98 Rifle": "독일군 K98 소총",
+    "German K98 Rifle.": "독일군 K98 소총.",
+    "German K98 Sniper Rifle": "독일군 K98 저격 소총",
+    "German K98 Sniper Rifle.": "독일군 K98 저격 소총.",
+    "German FG42": "독일군 FG42",
+    "German FG42.": "독일군 FG42.",
+    "German FG42 Machine Gun": "독일군 FG42 기관총",
+    "German FG42 Machine Gun.": "독일군 FG42 기관총.",
+    "German FG42 Sniper Machine Gun": "독일군 FG42 저격 기관총",
+    "German FG42 Sniper Machine Gun.": "독일군 FG42 저격 기관총.",
+    "German MP 40": "독일군 MP40",
+    "German MP 40.": "독일군 MP40.",
+    "German MP40": "독일군 MP40",
+    "German MP40.": "독일군 MP40.",
+    "German Machine Pistol 40": "독일군 MP40 기관단총",
+    "German Machine Pistol 40.": "독일군 MP40 기관단총.",
+    "German Panzerfaust": "독일군 Panzerfaust",
+    "German Panzerfaust.": "독일군 Panzerfaust.",
+    "독일군 판처파우스트": "독일군 Panzerfaust",
+    "German P38 Pistol": "독일군 P38 권총",
+    "German P38 Pistol.": "독일군 P38 권총.",
+    "German STG44 Machine Gun": "독일군 STG44 기관총",
+    "German STG44 Machine Gun.": "독일군 STG44 기관총.",
+    "German MG42 Machinegun": "독일군 MG42 기관총",
+    "German MG42 Machinegun.": "독일군 MG42 기관총.",
+    "German Mortar": "독일군 박격포",
+    "German Mortar.": "독일군 박격포.",
+    "US Bar Machine Gun": "미군 BAR 기관총",
+    "US Bar Machine Gun.": "미군 BAR 기관총.",
+    "US BAR": "미군 BAR",
+    "US BAR.": "미군 BAR.",
+    "US Bazooka": "미군 Bazooka",
+    "US Bazooka.": "미군 Bazooka.",
+    "미군 바주카": "미군 Bazooka",
+    "US .45 Pistol": "미군 .45 권총",
+    "US .45 Pistol.": "미군 .45 권총.",
+    "미군 45구경 권총": "미군 .45 권총",
+    "US M1 Carbine Rifle": "미군 M1 카빈 소총",
+    "US M1 Carbine Rifle.": "미군 M1 카빈 소총.",
+    "US M1 Rifle": "미군 M1 소총",
+    "US M1 Rifle.": "미군 M1 소총.",
+    "US Springfield Rifle": "미군 Springfield 소총",
+    "US Springfield Rifle.": "미군 Springfield 소총.",
+    "미군 스프링필드 소총": "미군 Springfield 소총",
+    "US M1A1 Sub-Machine Gun": "미군 M1A1 기관단총",
+    "US M1A1 Sub-Machine Gun.": "미군 M1A1 기관단총.",
+    "US M3A1 Sub-Machine Gun": "미군 M3A1 기관단총",
+    "US M3A1 Sub-Machine Gun.": "미군 M3A1 기관단총."
+  },
+  "maps_patched": 33,
+  "value_refs_patched": 1821,
+  "key_metadata_preserved": true,
+  "font_and_atlas_and_prx_preserved": true,
+  "all_new_ui_glyphs_available": true,
+  "mdi_and_iso_readback_verified": true,
+  "runtime_visually_verified": false,
+  "maps": [
+    {
+      "mdi": "D07_1501.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        17,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "35fba0e726a22febbe391db341ae6fc1d9983d6742f12fe56dcecc9922154185",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "value_refs_patched": 57,
+      "unique_translations": 16,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        17,
+        28,
+        35
+      ],
+      "payload_end": "0x5c1c0",
+      "mdi_sha256": "cbffa79f23e936933b6cce22b988e4272231045107e8fdeae3ec06577d39e247",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "value_refs_patched": 55,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        23,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "39b2dc81f101dbf24e0a6a17b82193c9b90c11a217b2836312828917f5e33798",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_0130_.MDI",
+      "value_refs_patched": 62,
+      "unique_translations": 20,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        18,
+        26,
+        35
+      ],
+      "payload_end": "0x5c530",
+      "mdi_sha256": "691a3da95538150f86821dcc417b9eda111693fa066db582919038565e7ed352",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "value_refs_patched": 60,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        22,
+        26,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "63a8e57c6b960a324ceddcd2bcbd005fb50dbd14d3cd609bfbb5b8f0e1271aef",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "value_refs_patched": 59,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        25,
+        28,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "9d7028fdd738346b28a650f9d1d5adaa4d0969272b00f42c5b7b61e684783018",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "b4b1e0e4d5f5aece25136fd32e7e2880b36e9bd3e5660ed0a795a78a956a8d4f",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        17,
+        23,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "f908c29010d2817c1657da789a086eface39e4eb133624d5f5bc383e81956c7b",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "value_refs_patched": 57,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        17,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "09ae8e570d0ae2b4a236efd6e0d0d6e662c4d910319a0a7fe7af069155e05cce",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "value_refs_patched": 59,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        16,
+        17,
+        28,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "1cc46dccf8c2ff5df398801870588ab89a4dc186f42122fd98ac0694a509d02e",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        24,
+        28,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "2c6cb25faa3c3645575d36b738e086abdc430eb17e942065c309413eb70ecab5",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "value_refs_patched": 55,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        26,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "346ab54ead793d8464a4426a53a8cf5ae53193ca07759fdcb21a58458cb46edf",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "value_refs_patched": 57,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        17,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "6faffce859d2eb9f464b9428090b73e894db4c1bfd3d08895d9e122d8279fd58",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        22,
+        25,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "502c994427f8d85b9cbaf28cafb6563470d95723dfbcf6cdd1f2f869d7b65cee",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "value_refs_patched": 55,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        22,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "eff9d90081177006b350f0a1a923a8867df39d950e89307ccd93079fb88715e2",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "value_refs_patched": 58,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        26,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "894f355200882f74d5d27359692091f042ef4354c5a9a69a9c3e334cefaf93bb",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "value_refs_patched": 57,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        17,
+        28,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "fc5dead15678c2dd95d55770872f708f13709d691e7730be149eb3f29814722b",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "value_refs_patched": 60,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        16,
+        21,
+        25,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "d9de023a8af382f994b7854d12d2fd1c49c0341e527fbcb172b90b08ea7c0d07",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "value_refs_patched": 58,
+      "unique_translations": 16,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        26,
+        27,
+        35
+      ],
+      "payload_end": "0x5c1c0",
+      "mdi_sha256": "003250a81a4fd5ad34648e7c008dec9476ce68b378f8ff1795fd86ab36c44408",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "0011d52dfe1cf1b19a529acac3f1ee59b26c301be3ccb0beaaaee6e810a566ce",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "bfbaa6566765c7df499cb2ce4adc4371343d5bf7942ed089b83faea3657b4088",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "612d62c094b9cc82959d46014e65f56c692d478ce7f0cd2354164e36787fa89e",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "8b7be14b8458456b679d2a55d41f301fa2d27339b1fe8cd1d25a6d844a1d5d66",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "f9106724c25268eb4da4c15c79c8103e874da170d159cda346e6190537bd3881",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "2d21bd762c91613e788125d348cc7b9e36787ce96c51fc6814dfb8251cb08a4a",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "06419d4690c4d23a94f43a7e4db65d8918908080d347b69e24f590819aaacee2",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "3fcccb7f51fdf36a9e9c7447804c47ba458deab08bab4a76a0578d76629c2bd8",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "7de1d0ea1eef68795f2cdeec289a6cf2724efbdf4f70b995f3135824f4127e15",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "3130cff41fff8b633fcf4fbde26f1bf952efb268b6c5e0fb54761d2f8b5c10db",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "175d532cd48c27cfafbba7127798af652edcc0095d915ed7aec8e41fe7eb3a40",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "value_refs_patched": 55,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        22,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "e742ed800b3db938f5ea5acc3c3e9ff3acaeaafa86fc50ac09ee8257ab2e5b8f",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "value_refs_patched": 54,
+      "unique_translations": 15,
+      "changed_streams": [
+        3,
+        4,
+        6,
+        9,
+        10,
+        35
+      ],
+      "payload_end": "0x5c1a0",
+      "mdi_sha256": "0dcbeefe1079659a26cc81c0b556d64e327e08a0b8c40e87532af75993279e4c",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "ON_MEMU_O.MDI",
+      "value_refs_patched": 31,
+      "unique_translations": 4,
+      "changed_streams": [
+        8,
+        10,
+        11,
+        35
+      ],
+      "payload_end": "0x7070",
+      "mdi_sha256": "ffa3cb5529e878a4b3a23d3a33c6b8316c2643fb6044208a1ab1f3b3d353177e",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    }
+  ]
+}

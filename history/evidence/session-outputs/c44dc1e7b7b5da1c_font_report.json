@@ -1,0 +1,22 @@
+{
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE43H_CAMPAIGN_ALL_TEXT_FONTS_TEST.iso",
+  "font": "0x08fc3ca0",
+  "glyph_count": 879,
+  "hangul_added": 729,
+  "original_latin_preserved": 150,
+  "lookup_checks": 879,
+  "iso_readback_verified": true,
+  "runtime_verified": true,
+  "addresses": {
+    "textures": "0x9e90020",
+    "buckets": "0x9e91020",
+    "remap": "0x9e92020",
+    "glyphs": "0x9e94020"
+  },
+  "runtime_evidence": "outputs/stage43h_validation/first_hint_0x4000000.png",
+  "remaining_issues": [
+    "long hint left edge clipped",
+    "mission restart stability unverified",
+    "second mission translations not applied"
+  ]
+}

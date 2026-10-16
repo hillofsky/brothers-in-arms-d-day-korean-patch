@@ -1,0 +1,8 @@
+{
+  "event": "cpu.status",
+  "ticket": 1313,
+  "stepping": false,
+  "paused": true,
+  "pc": 143367308,
+  "ticks": 23388826999
+}

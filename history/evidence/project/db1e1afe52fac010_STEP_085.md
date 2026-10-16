@@ -1,0 +1,1 @@
+2026-10-08T18:40:45+09:00 [20261008_184010_011_7080] CAPTURE_COLLECTED_VISUAL_UNVERIFIED: run=20261008_184010_011_7080; phase=postflight_hash; key1 screenshot + RAM/VRAM evidence requires visual review; no ISO writes

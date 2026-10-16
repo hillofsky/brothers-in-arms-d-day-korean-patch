@@ -1,0 +1,67 @@
+{
+  "stage": "42E",
+  "purpose": "Test whether SubtitleManagerPreRendered accepts multi-byte UTF-8 keys in SUBTITLEHASHMAP.INI.",
+  "expected_visible_at_first_baker": "베이커:",
+  "isolation": {
+    "st1_field_offset": "0x06E",
+    "st1_payload_utf8_hex": "ebb2a0ec9db4ecbba43a",
+    "individual_utf8_component_bytes_blanked": [
+      "0x9D",
+      "0xA0",
+      "0xA4",
+      "0xB2",
+      "0xB4",
+      "0xBB",
+      "0xEB",
+      "0xEC"
+    ],
+    "multi_byte_keys": [
+      {
+        "char": "베",
+        "utf8_hex": "ebb2a0",
+        "rect": [
+          108,
+          28,
+          11,
+          13
+        ]
+      },
+      {
+        "char": "이",
+        "utf8_hex": "ec9db4",
+        "rect": [
+          0,
+          56,
+          11,
+          13
+        ]
+      },
+      {
+        "char": "커",
+        "utf8_hex": "ecbba4",
+        "rect": [
+          168,
+          56,
+          11,
+          13
+        ]
+      }
+    ],
+    "interpretation": {
+      "shows_베이커": "multi-byte UTF-8 hashmap keys are supported",
+      "shows_only_colon_or_blank_prefix": "renderer/lookup is byte-oriented; use per-movie map switching or code hook"
+    }
+  },
+  "source_sha1": {
+    "Stage42C_INI": "441c1fb76940bc2924333920537ac39ff6e49590",
+    "Stage42C_ST1": "21a9cc8d55c89d70938acdcd353276f383c53d6d"
+  },
+  "output_sha1": {
+    "INI": "0c5fb9580a0d56dbc45016c2cc39d45943b77850",
+    "ST1": "6a85cec55f6c33a1b069fe575fec8cb22c6217f0"
+  },
+  "sizes": {
+    "ini": 4338,
+    "st1": 1482
+  }
+}

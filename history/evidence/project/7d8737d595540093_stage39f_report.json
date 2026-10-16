@@ -1,0 +1,155 @@
+{
+  "stage": "39F",
+  "purpose": "Correct the Stage39C narrow-string source locations and FString length metadata, then test whether the existing game path produces real UTF-16 Korean without any decoder patch.",
+  "stage39e_new_finding": "The writer at PC 0x08C74EAC / caller RA 0x08C71A74 is inside the MDI decompressor, not a Unicode converter. The old widened scratch-copy observation is therefore not proof of byte-wise character conversion.",
+  "critical_stage39c_corrections": [
+    "stream11+0x5CB94 is inside internal key MenuStory, not a display value",
+    "second real Story display is stream11+0x5CBD0",
+    "stream16 FString-like Num/Max metadata must change from 6 to 10 when Story (5+NUL bytes) becomes UTF-8 Korean (9+NUL bytes)"
+  ],
+  "decoder_patch": false,
+  "runtime_patch": false,
+  "uses_old_fixed_story_slot": false,
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE39B_COMPILED_MDI_TEXT_TEST.iso",
+  "source_description": "Stage39B production-font ISO",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE39F_CORRECT_NARROW_METADATA_TEST.iso",
+  "build": {
+    "before": {
+      "display1": "53746f72790000000000000000000000",
+      "menustory_key": "4d656e7553746f727900000000000000",
+      "display2": "53746f72790000000000000000000000",
+      "meta1": [
+        154868544,
+        6,
+        6
+      ],
+      "meta2": [
+        154868720,
+        6,
+        6
+      ]
+    },
+    "after": {
+      "display1_runtime": "0x093B1B40",
+      "display1_utf8_hex": "ec8aa4ed86a0eba6ac00",
+      "display2_runtime": "0x093B1BF0",
+      "display2_utf8_hex": "ec8aa4ed86a0eba6ac00",
+      "menustory_key_runtime": "0x093B1BB0",
+      "menustory_key": "MenuStory",
+      "meta1_runtime": "0x095EC774",
+      "meta1": [
+        "0x093B1B40",
+        10,
+        10
+      ],
+      "meta2_runtime": "0x095F1758",
+      "meta2": [
+        "0x093B1BF0",
+        10,
+        10
+      ]
+    },
+    "critical_correction": "0x093B1BB4 is inside internal key MenuStory; the second real Story display is 0x093B1BF0."
+  },
+  "runtime": {
+    "pid": 24500,
+    "ppsspp_exe": "LOCAL_PATH",
+    "previous_ppsspp_cleanup": {
+      "found": false
+    },
+    "normal_jit": true,
+    "runtime_patch": false,
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "version": {
+      "event": "version",
+      "ticket": 1001,
+      "name": "PPSSPP",
+      "version": "v1.20.4"
+    },
+    "runtime_sources": {
+      "display1_hex": "ec8aa4ed86a0eba6ac00000000000000",
+      "display1_ok": true,
+      "menustory_key_hex": "4d656e7553746f727900000000000000",
+      "menustory_key_ok": true,
+      "display2_hex": "ec8aa4ed86a0eba6ac00000000000000",
+      "display2_ok": true,
+      "meta1": [
+        "0x093B1B40",
+        10,
+        10
+      ],
+      "meta1_ok": true,
+      "meta2": [
+        "0x093B1BF0",
+        10,
+        10
+      ],
+      "meta2_ok": true
+    },
+    "search_attempts": [
+      {
+        "start_presses": 0,
+        "true_utf16_matches": [],
+        "true_utf16_error": "Bad message: unknown event",
+        "bytewise_widened_matches": [],
+        "bytewise_widened_error": "Bad message: unknown event"
+      },
+      {
+        "start_presses": 1,
+        "true_utf16_matches": [],
+        "true_utf16_error": "Bad message: unknown event",
+        "bytewise_widened_matches": [],
+        "bytewise_widened_error": "Bad message: unknown event"
+      },
+      {
+        "start_presses": 2,
+        "true_utf16_matches": [],
+        "true_utf16_error": "Bad message: unknown event",
+        "bytewise_widened_matches": [],
+        "bytewise_widened_error": "Bad message: unknown event"
+      },
+      {
+        "start_presses": 3,
+        "true_utf16_matches": [],
+        "true_utf16_error": "Bad message: unknown event",
+        "bytewise_widened_matches": [],
+        "bytewise_widened_error": "Bad message: unknown event"
+      }
+    ],
+    "unicode_conversion_proof": false,
+    "bytewise_widening_observed": false,
+    "production_font_runtime": {
+      "glyph_count": 847,
+      "expected_glyph_count": 847,
+      "glyph_ptr": "0x098F5020",
+      "expected_glyph_ptr": "0x098F5020",
+      "descriptor": [
+        "0xA087D020",
+        "0xA8090200",
+        "0xB8000909"
+      ],
+      "expected_descriptor": [
+        "0xA087D020",
+        "0xA8090200",
+        "0xB8000909"
+      ],
+      "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "expected_atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "bad_mapping_samples": [],
+      "all_production_mappings_ok": true,
+      "ok": true
+    },
+    "screenshot": "PROJECT_ROOT\\analysis\\stage39f_correct_narrow_metadata\\stage39f_menu.png",
+    "gpu_frame": {
+      "path": "PROJECT_ROOT\\analysis\\stage39f_correct_narrow_metadata\\stage39f_menu.ppdmp",
+      "bytes": 131993,
+      "sha256": "1b4bd29ffdb3dfaf1c3348d519a645b23531868d90ce95169f51a02450b2ce46",
+      "magic": "PPSSPPGE",
+      "version": 6
+    },
+    "completed": false,
+    "ppsspp_closed": true
+  },
+  "completed": false
+}

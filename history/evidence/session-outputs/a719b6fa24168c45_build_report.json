@@ -1,0 +1,47 @@
+{
+  "step": "STEP111",
+  "source": "SESSION_SESSION_OUTPUTS\\step110\\BIA_STEP110_PAUSE_MENU_KO_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STEP111_RADIO_SUBTITLE_KO_TEST.iso",
+  "source_sha256": "dc27dad91412ae44ac5cd03838e35ea37caa331551c650f45914175e2845cbf5",
+  "source_preserved": true,
+  "output_sha256": "ba3ab55cb96fa03af7445ea68d168d015b3c5cf40835ad14eb2276f042413920",
+  "translations": {
+    "Mac: We're all gonna die if you don't get on that fucking radio!": "맥: 젠장, 무전기로 연락하지 않으면 우리 다 죽어!"
+  },
+  "maps_patched": 2,
+  "value_refs_patched": 2,
+  "key_metadata_preserved": true,
+  "font_and_atlas_and_prx_preserved": true,
+  "all_new_ui_glyphs_available": true,
+  "mdi_and_iso_readback_verified": true,
+  "runtime_visually_verified": false,
+  "maps": [
+    {
+      "mdi": "D7_1400_.MDI",
+      "value_refs_patched": 1,
+      "unique_translations": 1,
+      "changed_streams": [
+        23,
+        35
+      ],
+      "payload_end": "0x45050",
+      "mdi_sha256": "481d4955243cf9775f273129c3551c4c625246e7978e726f7fa53f5d116ac5c9",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "value_refs_patched": 1,
+      "unique_translations": 1,
+      "changed_streams": [
+        22,
+        35
+      ],
+      "payload_end": "0x45050",
+      "mdi_sha256": "b3c73046b4f02c725c202c24193fee4756f3c6fc801dfd054dd1fdb47c68bf0e",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    }
+  ],
+  "all_1147_active_files_verified_after_repack_and_patch": true,
+  "iso_size_bytes": 1422385152,
+  "default_output_directory": "PROJECT_ROOT"
+}

@@ -1,0 +1,7 @@
+import sys
+sys.path.insert(0,'work/python_deps')
+from capstone import *
+from pathlib import Path
+d=Path('work/biaoff43.prx').read_bytes();md=Cs(CS_ARCH_MIPS,CS_MODE_MIPS32+CS_MODE_LITTLE_ENDIAN)
+for i in md.disasm(d[0x23b00+0x80:0x23f00+0x80],0x08827b00):print(hex(i.address),i.mnemonic,i.op_str)
+

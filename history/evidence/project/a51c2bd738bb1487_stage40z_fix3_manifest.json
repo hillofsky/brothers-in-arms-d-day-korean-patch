@@ -1,0 +1,24 @@
+{
+  "stage": "40Z-fix3",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "modifies_iso": false,
+  "fix2_observation": {
+    "continue": "visible but greyed out",
+    "new_game_start": "selected",
+    "story_submenu_underline_row": 152
+  },
+  "route": [
+    "selectable main menu",
+    "Story",
+    "New Game Start",
+    "difficulty renderer proof",
+    "current/default difficulty Cross",
+    "BIAOFF",
+    "D0_0130 readiness",
+    "first pause",
+    "resume + analog turn",
+    "second pause"
+  ],
+  "success_zip": "PROJECT_ROOT\\log\\bia_stage40z_fix3_upload.zip",
+  "failure_zip": "PROJECT_ROOT\\log\\fail_bia_stage40z_fix3_upload.zip"
+}

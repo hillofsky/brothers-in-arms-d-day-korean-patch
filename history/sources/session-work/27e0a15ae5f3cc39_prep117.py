@@ -1,0 +1,3 @@
+from pathlib import Path
+s=Path('work/capture115_font.py').read_text(encoding='utf-8-sig').replace('outputs/step115_font','outputs/step117_icon');Path('work/capture117_icon.py').write_text(s,encoding='utf-8')
+s=Path('work/audit114_menu.py').read_text(encoding='utf-8-sig');start=s.index(';targets=');end=s.index(';keys=set()',start);s=s[:start]+";targets={'New Objective':'새 목표','New objective':'새 목표'}"+s[end:];s=s.replace('BIA_STEP112_DIALOGUE_AND_INTERACTION_KO_TEST.iso','BIA_STEP116_TUTORIAL_CHARACTER_NAMES_KO_TEST.iso').replace('outputs/step114_menu','outputs/step117_icon');Path('work/audit117.py').write_text(s,encoding='utf-8')

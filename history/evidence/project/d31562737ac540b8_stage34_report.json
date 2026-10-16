@@ -1,0 +1,229 @@
+{
+  "stage": 34,
+  "purpose": "Capture complete good-English and bad-Hangul GPU frames from the permanent 512x512 Stage33 ISO to locate the horizontal UV failure",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE33_SCALABLE_ATLAS_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "texture_replacement_enabled": false,
+  "runtime_font_patch_enabled": false,
+  "runtime_descriptor_watcher_enabled": false,
+  "texture_storage": {
+    "mdi_stream": 22,
+    "runtime_address": "0x0987D020",
+    "bytes": 131072,
+    "sha1": "8957c2ac5cb2c572b062ca4768e3cf22840af2bd"
+  },
+  "boot_iso": "PROJECT_ROOT\\BIA_STAGE33_SCALABLE_ATLAS_TEST.iso",
+  "iso_prepare": {
+    "mode": "reuse_existing_stage33_iso",
+    "path": "PROJECT_ROOT\\BIA_STAGE33_SCALABLE_ATLAS_TEST.iso"
+  },
+  "previous_ppsspp": {
+    "found": false
+  },
+  "launched_ppsspp_pid": 24280,
+  "ppsspp_auto_close": true,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "boot_automation": {
+    "input_method": "PPSSPP WebSocket input.buttons.press",
+    "fast_forward_supported": false,
+    "fast_forward_response": null,
+    "fast_forward_error": "Bad message: unknown event",
+    "start_presses": 96,
+    "elapsed_seconds": 19.727
+  },
+  "menu_detected": true,
+  "loaded_font": {
+    "glyph_count": 156,
+    "glyph_ptr": "0x0971BB20",
+    "expected_glyph_ptr": "0x0971BB20",
+    "mappings": {
+      "U+D55C": {
+        "char": "한",
+        "page_ptr": "0x0971CA20",
+        "map_value": 151,
+        "expected_index": 151
+      },
+      "U+AE00": {
+        "char": "글",
+        "page_ptr": "0x0971CC20",
+        "map_value": 152,
+        "expected_index": 152
+      },
+      "U+D14C": {
+        "char": "테",
+        "page_ptr": "0x0971CE20",
+        "map_value": 153,
+        "expected_index": 153
+      },
+      "U+C2A4": {
+        "char": "스",
+        "page_ptr": "0x0971D020",
+        "map_value": 154,
+        "expected_index": 154
+      },
+      "U+D2B8": {
+        "char": "트",
+        "page_ptr": "0x0971D220",
+        "map_value": 155,
+        "expected_index": 155
+      }
+    },
+    "texture_address": "0x0987D020",
+    "texture_dimensions": [
+      512,
+      512
+    ],
+    "texture_bytes": 131072,
+    "texture_sha1": "8957c2ac5cb2c572b062ca4768e3cf22840af2bd",
+    "texture_expected_sha1": "8957c2ac5cb2c572b062ca4768e3cf22840af2bd"
+  },
+  "glyph_records": {
+    "U+D55C": {
+      "char": "한",
+      "glyph_index": 151,
+      "intended_atlas_xy": [
+        128,
+        256
+      ],
+      "raw_hex": "5cd5100f000f101c0080803f0040803f0080913f0040883f",
+      "u0": 1.00390625,
+      "v0": 1.001953125,
+      "u1": 1.13671875,
+      "v1": 1.064453125,
+      "expected_texel_uv": [
+        128.5,
+        256.5,
+        145.5,
+        272.5
+      ]
+    },
+    "U+AE00": {
+      "char": "글",
+      "glyph_index": 152,
+      "intended_atlas_xy": [
+        256,
+        256
+      ],
+      "raw_hex": "00ae100f000f101c004000400040803f00c008400040883f",
+      "u0": 2.00390625,
+      "v0": 1.001953125,
+      "u1": 2.13671875,
+      "v1": 1.064453125,
+      "expected_texel_uv": [
+        256.5,
+        256.5,
+        273.5,
+        272.5
+      ]
+    },
+    "U+D14C": {
+      "char": "테",
+      "glyph_index": 153,
+      "intended_atlas_xy": [
+        384,
+        256
+      ],
+      "raw_hex": "4cd1100f000f101c004040400040803f00c048400040883f",
+      "u0": 3.00390625,
+      "v0": 1.001953125,
+      "u1": 3.13671875,
+      "v1": 1.064453125,
+      "expected_texel_uv": [
+        384.5,
+        256.5,
+        401.5,
+        272.5
+      ]
+    },
+    "U+C2A4": {
+      "char": "스",
+      "glyph_index": 154,
+      "intended_atlas_xy": [
+        128,
+        384
+      ],
+      "raw_hex": "a4c2100f000f101c0080803f0040c03f0080913f0040c83f",
+      "u0": 1.00390625,
+      "v0": 1.501953125,
+      "u1": 1.13671875,
+      "v1": 1.564453125,
+      "expected_texel_uv": [
+        128.5,
+        384.5,
+        145.5,
+        400.5
+      ]
+    },
+    "U+D2B8": {
+      "char": "트",
+      "glyph_index": 155,
+      "intended_atlas_xy": [
+        384,
+        384
+      ],
+      "raw_hex": "b8d2100f000f101c004040400040c03f00c048400040c83f",
+      "u0": 3.00390625,
+      "v0": 1.501953125,
+      "u1": 3.13671875,
+      "v1": 1.564453125,
+      "expected_texel_uv": [
+        384.5,
+        384.5,
+        401.5,
+        400.5
+      ]
+    }
+  },
+  "runtime_descriptor": [
+    "0xA087D020",
+    "0xA8090200",
+    "0xB8000909"
+  ],
+  "expected_runtime_descriptor": [
+    "0xA087D020",
+    "0xA8090200",
+    "0xB8000909"
+  ],
+  "runtime_descriptor_matches": true,
+  "permanent_A0_A8_match": true,
+  "permanent_B8_match": true,
+  "english_gpu_frame": {
+    "path": "PROJECT_ROOT\\analysis\\stage34_gpu_uv_diagnosis\\stage34_menu_english.ppdmp",
+    "bytes": 92568,
+    "sha256": "631f08e6e9e038b2820688f4c0e31b61ff43677de5d5aaa097457515c2ebe4bf",
+    "magic": "PPSSPPGE",
+    "version": 6
+  },
+  "korean_test_text": "한글테스트",
+  "korean_test_codepoints": [
+    "U+D55C",
+    "U+AE00",
+    "U+D14C",
+    "U+C2A4",
+    "U+D2B8"
+  ],
+  "korean_gpu_frame": {
+    "path": "PROJECT_ROOT\\analysis\\stage34_gpu_uv_diagnosis\\stage34_menu_korean.ppdmp",
+    "bytes": 92611,
+    "sha256": "5442501abc1418451bce20d975e48824897272c6ce84d68452f8bac5fcec9ab7",
+    "magic": "PPSSPPGE",
+    "version": 6
+  },
+  "runtime_descriptor_after_korean": [
+    "0xA087D020",
+    "0xA8090200",
+    "0xB8000909"
+  ],
+  "runtime_patch_scope": "Story UTF-16 test text only; NO font/UV/texture/descriptor RAM patch",
+  "stage33_visual_issue_reproduced": true,
+  "completed": true,
+  "ppsspp_closed_after_test": true
+}

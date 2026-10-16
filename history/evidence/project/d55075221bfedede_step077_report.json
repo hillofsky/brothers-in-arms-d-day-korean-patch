@@ -1,0 +1,18 @@
+{
+  "step": "STEP_077",
+  "status": "VERIFIED_PAYLOAD_CORRELATION_DIAGNOSTIC",
+  "iso_modified": false,
+  "output_iso_created": false,
+  "target_mdis": 32,
+  "positive_control_found": true,
+  "positive_control_ranked_first": true,
+  "other_mdis_with_exact_c_128_match": 0,
+  "other_mdis_with_unique_exact_c_128_match": 0,
+  "other_mdis_with_strong_a_or_c_64_match": 0,
+  "validated_per_mdi_patch_targets": 0,
+  "why_not_verified": "Shared raw payload data or record rank alone cannot prove the MDI TMR18 font binding or identify which GPU B8 command to patch.",
+  "source_iso_sha_before": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+  "source_iso_sha_after": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+  "next_action": "If cross-MDI signatures are unique, corroborate with runtime TMR18 texture binding and GPU state; otherwise inspect verified first-mission pointer semantics in decoded DSL/DSX loader. No patch until semantic linkage proven.",
+  "source_iso_preserved": true
+}

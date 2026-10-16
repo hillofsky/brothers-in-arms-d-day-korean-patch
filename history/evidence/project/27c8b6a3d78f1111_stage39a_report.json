@@ -1,0 +1,501 @@
+{
+  "stage": "39A",
+  "purpose": "Build the production A-priority Korean font and prove which on-disc .INT Unicode encoding reaches the renderer without runtime text patching",
+  "reviewed_A_translation_units": 1082,
+  "production_unique_hangul": 696,
+  "production_glyph_count": 847,
+  "production_high_byte_pages": 44,
+  "atlas_unused_safe_slots": 60,
+  "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+  "runtime_text_patch": false,
+  "screenshot_failure_is_not_test_failure": true,
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE39A_PRODUCTION_FONT_ENCODING_TEST.iso",
+  "production_iso": {
+    "mdi": {
+      "hangul_glyphs": 696,
+      "glyph_count_total": 847,
+      "glyph_ptr": "0x098F5020",
+      "stream23_base": "0x098F5020",
+      "stream23_used_bytes": 43056,
+      "stream23_capacity": 491520,
+      "unicode_high_byte_pages": 44,
+      "high_bytes": [
+        "0xAC",
+        "0xAD",
+        "0xAE",
+        "0xAF",
+        "0xB0",
+        "0xB1",
+        "0xB2",
+        "0xB3",
+        "0xB4",
+        "0xB5",
+        "0xB6",
+        "0xB7",
+        "0xB8",
+        "0xB9",
+        "0xBA",
+        "0xBB",
+        "0xBC",
+        "0xBD",
+        "0xBE",
+        "0xBF",
+        "0xC0",
+        "0xC1",
+        "0xC2",
+        "0xC3",
+        "0xC4",
+        "0xC5",
+        "0xC6",
+        "0xC7",
+        "0xC8",
+        "0xC9",
+        "0xCA",
+        "0xCB",
+        "0xCC",
+        "0xCD",
+        "0xCE",
+        "0xCF",
+        "0xD0",
+        "0xD1",
+        "0xD2",
+        "0xD3",
+        "0xD4",
+        "0xD5",
+        "0xD6",
+        "0xD7"
+      ],
+      "renderer_page_widths": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "renderer_page_heights": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "renderer_texture_object": "0x095E21C0",
+      "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "latin_records_unchanged": true
+    },
+    "dsl": {
+      "relocation_file_offset": "0x169E12",
+      "old_entry": [
+        "0x40006580",
+        "0x00000080",
+        "0x4011BF40"
+      ],
+      "new_entry": [
+        "0x40006580",
+        "0x00000200",
+        "0x41419020"
+      ],
+      "target_runtime_texture": "0x0987D020",
+      "buffer_width": 512,
+      "new_e1": "0x00000200",
+      "new_e2": "0x41419020",
+      "b8_source_offset": "0x17513F",
+      "old_B8": "0xB8000807",
+      "new_B8": "0xB8000909",
+      "expected_runtime_descriptor": [
+        "0xA087D020",
+        "0xA8090200",
+        "0xB8000909"
+      ]
+    },
+    "dsx": {
+      "block_count": 94,
+      "old_size": 811149,
+      "new_size": 811152,
+      "changed_blocks": [
+        {
+          "index": 90,
+          "logical_start": "0x168000",
+          "logical_end": "0x16C000",
+          "old_csize": 7108,
+          "new_csize": 7109
+        },
+        {
+          "index": 93,
+          "logical_start": "0x174000",
+          "logical_end": "0x1751BC",
+          "old_csize": 887,
+          "new_csize": 889
+        }
+      ],
+      "logical_size": 1528252,
+      "logical_sha1": "7cb5439c468e14a19aaba753683dce0771a93184",
+      "rebuilt_sha1": "88a1c85d56fd16fdd1f30a7b60114d5bc1150e7d",
+      "logical_matches_patched_dsl": true
+    },
+    "iso_readback_verified": true,
+    "localize_sha1": "da7dedd4a2dfa6bbbff379e1cd28984c99f8deb5",
+    "newlocalize_sha1": "5409986cde2dbd0bfe6596a20c9722c8ad9401ad"
+  },
+  "encoding_attempts": [
+    {
+      "source_patch": {
+        "LOCALIZE.INT": {
+          "original_encoding": "cp1252",
+          "original_sha1": "da7dedd4a2dfa6bbbff379e1cd28984c99f8deb5",
+          "patched_sha1": "d88703ce60e75dccd6e64f8565c6ad8540451886",
+          "patched_bytes": 29143,
+          "changed_story_values": [
+            {
+              "line": 53,
+              "section": "MENU",
+              "key": "MAINMENU_SINGLEPLAYER",
+              "old": "Story",
+              "new": "스토리"
+            }
+          ],
+          "iso_relocation": {
+            "old_extent": 145568,
+            "old_size": 29137,
+            "new_extent": 712721,
+            "new_size": 29143
+          }
+        },
+        "NEWLOCALIZE.INT": {
+          "original_encoding": "utf-8",
+          "original_sha1": "5409986cde2dbd0bfe6596a20c9722c8ad9401ad",
+          "patched_sha1": "34418fd4c2a5e357f9c1da5aa94541629f979cf6",
+          "patched_bytes": 19821,
+          "changed_story_values": [
+            {
+              "line": 61,
+              "section": "MenuMain",
+              "key": "SINGLEPLAYER",
+              "old": "Story",
+              "new": "스토리"
+            },
+            {
+              "line": 67,
+              "section": "MenuStory",
+              "key": "TITLE",
+              "old": "Story",
+              "new": "스토리"
+            }
+          ],
+          "iso_relocation": {
+            "old_extent": 146752,
+            "old_size": 19813,
+            "new_extent": 712736,
+            "new_size": 19821
+          }
+        },
+        "total_changed_story_values": 3,
+        "variant": "utf8"
+      },
+      "runtime": {
+        "variant": "utf8",
+        "launched_pid": 27976,
+        "log": "PROJECT_ROOT\\analysis\\stage39a_source_encoding_proof\\stage39a_utf8_ppsspp.log",
+        "debugger_host": "::1",
+        "debugger_port": 26222,
+        "version": {
+          "event": "version",
+          "ticket": 1001,
+          "name": "PPSSPP",
+          "version": "v1.20.4"
+        },
+        "advance": {
+          "success": false,
+          "elapsed_seconds": 60.009,
+          "start_presses": 270,
+          "saw_original_story": true,
+          "slot_samples_hex": [
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "0000e4084d454e5500007400000000005033e408303f72094d3f72094e3f7209",
+            "0000e4084d454e5500007400000000005033e408303f72094d3f72094e3f7209"
+          ]
+        },
+        "production_font_runtime": {
+          "glyph_count": 847,
+          "expected_glyph_count": 847,
+          "glyph_ptr": "0x098F5020",
+          "expected_glyph_ptr": "0x098F5020",
+          "descriptor": [
+            "0xA087D020",
+            "0xA8090200",
+            "0xB8000909"
+          ],
+          "expected_descriptor": [
+            "0xA087D020",
+            "0xA8090200",
+            "0xB8000909"
+          ],
+          "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+          "expected_atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+          "bad_mapping_samples": [],
+          "all_production_mappings_ok": true,
+          "ok": true
+        },
+        "screenshot": "PROJECT_ROOT\\analysis\\stage39a_source_encoding_proof\\stage39a_utf8.png",
+        "ppsspp_closed": true
+      }
+    },
+    {
+      "source_patch": {
+        "LOCALIZE.INT": {
+          "original_encoding": "cp1252",
+          "original_sha1": "da7dedd4a2dfa6bbbff379e1cd28984c99f8deb5",
+          "patched_sha1": "d27772e56779c367a130d0583f1d0e3373a72870",
+          "patched_bytes": 29146,
+          "changed_story_values": [
+            {
+              "line": 53,
+              "section": "MENU",
+              "key": "MAINMENU_SINGLEPLAYER",
+              "old": "Story",
+              "new": "스토리"
+            }
+          ],
+          "iso_relocation": {
+            "old_extent": 712721,
+            "old_size": 29143,
+            "new_extent": 712746,
+            "new_size": 29146
+          }
+        },
+        "NEWLOCALIZE.INT": {
+          "original_encoding": "utf-8",
+          "original_sha1": "5409986cde2dbd0bfe6596a20c9722c8ad9401ad",
+          "patched_sha1": "c5ed604b4c320cdcdacee8fba6a55cb8a31dcfbd",
+          "patched_bytes": 19824,
+          "changed_story_values": [
+            {
+              "line": 61,
+              "section": "MenuMain",
+              "key": "SINGLEPLAYER",
+              "old": "Story",
+              "new": "스토리"
+            },
+            {
+              "line": 67,
+              "section": "MenuStory",
+              "key": "TITLE",
+              "old": "Story",
+              "new": "스토리"
+            }
+          ],
+          "iso_relocation": {
+            "old_extent": 712736,
+            "old_size": 19821,
+            "new_extent": 712761,
+            "new_size": 19824
+          }
+        },
+        "total_changed_story_values": 3,
+        "variant": "utf8_bom"
+      },
+      "runtime": {
+        "variant": "utf8_bom",
+        "launched_pid": 12568,
+        "log": "PROJECT_ROOT\\analysis\\stage39a_source_encoding_proof\\stage39a_utf8_bom_ppsspp.log",
+        "debugger_host": "::1",
+        "debugger_port": 26222,
+        "version": {
+          "event": "version",
+          "ticket": 1001,
+          "name": "PPSSPP",
+          "version": "v1.20.4"
+        },
+        "advance": {
+          "success": false,
+          "elapsed_seconds": 60.043,
+          "start_presses": 268,
+          "saw_original_story": true,
+          "slot_samples_hex": [
+            "0000000000000000000000000000000000000000000000000000000000000000",
+            "0000000000000000000000000000000000000000000000000000000000000000",
+            "0000000000000000000000000000000000000000000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000"
+          ]
+        },
+        "production_font_runtime": {
+          "glyph_count": 847,
+          "expected_glyph_count": 847,
+          "glyph_ptr": "0x098F5020",
+          "expected_glyph_ptr": "0x098F5020",
+          "descriptor": [
+            "0xA087D020",
+            "0xA8090200",
+            "0xB8000909"
+          ],
+          "expected_descriptor": [
+            "0xA087D020",
+            "0xA8090200",
+            "0xB8000909"
+          ],
+          "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+          "expected_atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+          "bad_mapping_samples": [],
+          "all_production_mappings_ok": true,
+          "ok": true
+        },
+        "screenshot": "PROJECT_ROOT\\analysis\\stage39a_source_encoding_proof\\stage39a_utf8_bom.png",
+        "ppsspp_closed": true
+      }
+    },
+    {
+      "source_patch": {
+        "LOCALIZE.INT": {
+          "original_encoding": "cp1252",
+          "original_sha1": "da7dedd4a2dfa6bbbff379e1cd28984c99f8deb5",
+          "patched_sha1": "28734d6f2607158d495dccbd24e179b7be7f747b",
+          "patched_bytes": 58272,
+          "changed_story_values": [
+            {
+              "line": 53,
+              "section": "MENU",
+              "key": "MAINMENU_SINGLEPLAYER",
+              "old": "Story",
+              "new": "스토리"
+            }
+          ],
+          "iso_relocation": {
+            "old_extent": 712746,
+            "old_size": 29146,
+            "new_extent": 712771,
+            "new_size": 58272
+          }
+        },
+        "NEWLOCALIZE.INT": {
+          "original_encoding": "utf-8",
+          "original_sha1": "5409986cde2dbd0bfe6596a20c9722c8ad9401ad",
+          "patched_sha1": "1fcc0cfced49294897aceab8695eefb7f58bc5cd",
+          "patched_bytes": 39620,
+          "changed_story_values": [
+            {
+              "line": 61,
+              "section": "MenuMain",
+              "key": "SINGLEPLAYER",
+              "old": "Story",
+              "new": "스토리"
+            },
+            {
+              "line": 67,
+              "section": "MenuStory",
+              "key": "TITLE",
+              "old": "Story",
+              "new": "스토리"
+            }
+          ],
+          "iso_relocation": {
+            "old_extent": 712761,
+            "old_size": 19824,
+            "new_extent": 712800,
+            "new_size": 39620
+          }
+        },
+        "total_changed_story_values": 3,
+        "variant": "utf16le_bom"
+      },
+      "runtime": {
+        "variant": "utf16le_bom",
+        "launched_pid": 19056,
+        "log": "PROJECT_ROOT\\analysis\\stage39a_source_encoding_proof\\stage39a_utf16le_bom_ppsspp.log",
+        "debugger_host": "::1",
+        "debugger_port": 26222,
+        "version": {
+          "event": "version",
+          "ticket": 1001,
+          "name": "PPSSPP",
+          "version": "v1.20.4"
+        },
+        "advance": {
+          "success": false,
+          "elapsed_seconds": 60.022,
+          "start_presses": 267,
+          "saw_original_story": true,
+          "slot_samples_hex": [
+            "0000000000000000000000000000000000000000000000000000000000000000",
+            "0000000000000000000000000000000000000000000000000000000000000000",
+            "0000000000000000000000000000000000000000000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000",
+            "3016e4080000000000000000000000004016e408000000000000000000000000"
+          ]
+        },
+        "production_font_runtime": {
+          "glyph_count": 847,
+          "expected_glyph_count": 847,
+          "glyph_ptr": "0x098F5020",
+          "expected_glyph_ptr": "0x098F5020",
+          "descriptor": [
+            "0xA087D020",
+            "0xA8090200",
+            "0xB8000909"
+          ],
+          "expected_descriptor": [
+            "0xA087D020",
+            "0xA8090200",
+            "0xB8000909"
+          ],
+          "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+          "expected_atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+          "bad_mapping_samples": [],
+          "all_production_mappings_ok": true,
+          "ok": true
+        },
+        "screenshot": "PROJECT_ROOT\\analysis\\stage39a_source_encoding_proof\\stage39a_utf16le_bom.png",
+        "ppsspp_closed": true
+      }
+    }
+  ],
+  "selected_int_encoding": null,
+  "source_encoding_proof": false
+}

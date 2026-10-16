@@ -1,0 +1,4 @@
+import json
+from pathlib import Path
+p=Path('outputs/step097/build_report.json');r=json.loads(p.read_text(encoding='utf-8'));r['user_verified']=True;r['user_verification']='한글 잘 나오네';r['verified_scope'].append('Chapter2 top tutorial hint in gameplay');r['objective_and_top_hint_visual_check_pending']=False;r['objective_popup_visual_check_pending']=True;r['screenshots'].append('step097_validation/chapter2_final_screen_0x4000000.png');p.write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf-8')
+p=Path('PROJECT_ROOT/PROJECT_STATE.md');s=p.read_text(encoding='utf-8');s+='\nSTEP097 추가 확인: 챕터2 플레이 화면의 상단 사격조 튜토리얼 문구도 한글 표시됨. 사용자가 “한글 잘 나오네”로 확인. 전체 캠페인 검수는 사용자 플레이로 진행 예정이며 다른 미션의 native UIFont 확장은 아직 미적용. 현재 실행은 테스트용 복사 memstick을 사용하므로 본 검수는 사용자의 평소 PPSSPP에서 STEP097 ISO를 열어 진행 권장.\n';p.write_text(s,encoding='utf-8')

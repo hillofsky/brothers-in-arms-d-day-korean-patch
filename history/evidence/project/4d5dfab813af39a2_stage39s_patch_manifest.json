@@ -1,0 +1,12 @@
+{
+  "stage": "39S",
+  "helper_size": 220,
+  "helper_sha1": "aeadae01df32c385fb5b149ed83144522d4527f2",
+  "helper_va": "0x004C0390",
+  "helper_file_offset": "0x004C0410",
+  "renderer_call_va": "0x0016E360",
+  "renderer_call_file_offset": "0x0016E3E0",
+  "expected_renderer_jal": "bfec110c",
+  "patched_renderer_jal": "e400130c",
+  "original_helper_region_sha1": "588ac2a13e15bb85145e24dd5fad9880f0c49d93"
+}

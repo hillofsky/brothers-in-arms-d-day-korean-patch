@@ -1,0 +1,56 @@
+{
+  "stage": 16,
+  "purpose": "disc-native font path: patch ISO MDI Unicode page + DSL 4bpp font pixels, with PPSSPP texture replacement disabled",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE16_DISC_FONT_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "test_codepoint": "U+D55C",
+  "runtime_patch_scope": "Story UTF-16 string only; font map/bitmap must come from patched ISO",
+  "texture_replacement_enabled": false,
+  "source_mdi_sha1": "22de1f889d1617199a3e21d4a1f63fcaf87b944a",
+  "source_dsl_sha1": "e009f2e259861f60d0aeeb03f46422d5473b88aa",
+  "mdi_patch": {
+    "stream_index": 19,
+    "original_csize": 59805,
+    "new_deflate_size_before_padding": 58277,
+    "padding_bytes": 1528,
+    "tmr_D5_pointer": "0x09725020",
+    "ab_D5_pointer": "0x09726720",
+    "D55C_map_value": 34
+  },
+  "dsl_patch": {
+    "tmr_raw_offset": "0x15D964",
+    "tmr_raw_size": 16384,
+    "original_tmr_raw_sha1": "b64ac2e19f620bcc6049f60315ed3352276fc9af",
+    "patched_tmr_raw_sha1": "15b9d31d7bf6238fc8e020b2b45473eced30cf9e",
+    "ab_raw_offset_confirmed_but_not_modified": "0x1619A4",
+    "ab_raw_size": 32768
+  },
+  "mdi_iso_extent": 147920,
+  "dsl_iso_extent": 146768,
+  "patched_mdi_sha1": "67f833a4fdaa97f63a1fcfd713547101cdca74c0",
+  "patched_dsl_sha1": "202e98fce50a309cea56d4f8aece157c55d93580",
+  "iso_readback_verified": true,
+  "pid": 22544,
+  "psp_base": "0x0000022E8D1B0000",
+  "menu_detected": true,
+  "loaded_font_checks": [
+    {
+      "font": "TMR18",
+      "D5_page": "0x09725020",
+      "D55C_map_value": 34
+    },
+    {
+      "font": "AB18",
+      "D5_page": "0x09726720",
+      "D55C_map_value": 34
+    }
+  ],
+  "disc_font_map_loaded_verified": true,
+  "runtime_text_patch_verified": true,
+  "ram_restored": true,
+  "completed": true,
+  "expected_after": "한한한한한",
+  "before_png": "PROJECT_ROOT\\analysis\\stage16_disc_native_font\\stage16_before.png",
+  "after_png": "PROJECT_ROOT\\analysis\\stage16_disc_native_font\\stage16_after.png"
+}

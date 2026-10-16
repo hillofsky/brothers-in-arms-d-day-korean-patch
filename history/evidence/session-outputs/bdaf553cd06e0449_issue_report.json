@@ -1,0 +1,18 @@
+{
+  "step": "STEP100",
+  "status": "UNRESOLVED_REQUIRES_ENDING_SCENE_CAPTURE",
+  "reported_chapter": "Action at Vierville / D1_0900_.MDI",
+  "reported_stage": "end of mission",
+  "screenshot": "LOCAL_PATH",
+  "visible_text": "ton",
+  "facts": [
+    "Vierville ending Risner dialogue translation values exist in STEP099",
+    "Standalone ton fragments also exist in original unmodified MDI data and cannot be treated as translated dialogue",
+    "Read-only native RAM capture succeeded without pausing game or requesting process write permissions",
+    "Capture appears to be later mission: small UIFont count853 matches D1_1830, not Vierville861",
+    "Displayed ton source and causal bug not proven"
+  ],
+  "fix_applied": false,
+  "latest_iso_remains": "PROJECT_ROOT/BIA_STEP099_COMPLETION_SAVE_KO_TEST.iso",
+  "need": "RAM capture at exact ending scene or preceding audible dialogue / saved state at the scene"
+}

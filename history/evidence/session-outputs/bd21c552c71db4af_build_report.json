@@ -1,0 +1,20 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STEP103_RELOAD_CONFIRM_KO_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STEP104_CHECKPOINT_STRING_LIFETIME_TEST.iso",
+  "source_sha256": "9e31671acfe059ac74d864a4287e3ad8d45734276afaab81b1c4e7703a56aa9f",
+  "output_sha256": "6c6f9aa81b42298357139c8ab9fb51757a1dad7e4f9af94bc03e97dac1827cd3",
+  "source_preserved": true,
+  "changes": "Skip string-pool free for static campaign stream35 storage; preserve original free path for all other pointers",
+  "section_payloads_preserved_except_entry_hook": true,
+  "existing_relocations_preserved": true,
+  "helper_boundary_tests": 8,
+  "iso_readback_verified": true,
+  "runtime_verified": true,
+  "runtime_validation": {
+    "method": "user reproduced checkpoint restart in monitored STEP104 PPSSPP",
+    "user_result": "정상작동한다",
+    "scope": "reported chapter checkpoint restart",
+    "monitor_crash_capture_present": false,
+    "limitations": "other chapters and Vierville ton issue not verified by this test"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "stage": "41E",
+  "scope": "single-byte alias proof: title + first Baker subtitle only",
+  "source_expected_sha1": {
+    "FM_0115EAGLESJUMP.ST1": "22376d64818e019c78a1e26d371a7111e0f06dc9",
+    "SUBTITLEHASHMAP.INI": "e151e11e3fe4f71200fa031c236c62a55bd72542",
+    "SUBTITLETEXTURE.RAW": "dd5969a9ff241ab56481d2c96e107322e9b598b0"
+  },
+  "output_sha1": {
+    "FM_0115EAGLESJUMP_41E.ST1": "97a9b19909b476184f4ea39efbccfaf7b41182ca",
+    "SUBTITLEHASHMAP_41E.INI": "705e21fd15ad05b2ffd3c8f3e11ae524e4e4636d",
+    "SUBTITLETEXTURE_41E.RAW": "7904a8cd3490df433dea2ebd1c3cfd26da18d3e4"
+  },
+  "hangul_count": 33,
+  "hangul": "건공권글니다데랑르리만메명베부상생선아없었에운원은의이즈지커택트한",
+  "mapping": [
+    {
+      "hangul": "건",
+      "alias_byte": 199,
+      "alias_hex": "0xC7",
+      "x": 0,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 92
+    },
+    {
+      "hangul": "공",
+      "alias_byte": 231,
+      "alias_hex": "0xE7",
+      "x": 12,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 93
+    },
+    {
+      "hangul": "권",
+      "alias_byte": 249,
+      "alias_hex": "0xF9",
+      "x": 24,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 94
+    },
+    {
+      "hangul": "글",
+      "alias_byte": 251,
+      "alias_hex": "0xFB",
+      "x": 36,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 95
+    },
+    {
+      "hangul": "니",
+      "alias_byte": 201,
+      "alias_hex": "0xC9",
+      "x": 48,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 97
+    },
+    {
+      "hangul": "다",
+      "alias_byte": 233,
+      "alias_hex": "0xE9",
+      "x": 60,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 98
+    },
+    {
+      "hangul": "데",
+      "alias_byte": 234,
+      "alias_hex": "0xEA",
+      "x": 72,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 99
+    },
+    {
+      "hangul": "랑",
+      "alias_byte": 232,
+      "alias_hex": "0xE8",
+      "x": 84,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 100
+    },
+    {
+      "hangul": "르",
+      "alias_byte": 192,
+      "alias_hex": "0xC0",
+      "x": 96,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 101
+    },
+    {
+      "hangul": "리",
+      "alias_byte": 224,
+      "alias_hex": "0xE0",
+      "x": 108,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 102
+    },
+    {
+      "hangul": "만",
+      "alias_byte": 226,
+      "alias_hex": "0xE2",
+      "x": 120,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 103
+    },
+    {
+      "hangul": "메",
+      "alias_byte": 228,
+      "alias_hex": "0xE4",
+      "x": 132,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 104
+    },
+    {
+      "hangul": "명",
+      "alias_byte": 238,
+      "alias_hex": "0xEE",
+      "x": 144,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 105
+    },
+    {
+      "hangul": "베",
+      "alias_byte": 237,
+      "alias_hex": "0xED",
+      "x": 156,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 106
+    },
+    {
+      "hangul": "부",
+      "alias_byte": 244,
+      "alias_hex": "0xF4",
+      "x": 168,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 107
+    },
+    {
+      "hangul": "상",
+      "alias_byte": 246,
+      "alias_hex": "0xF6",
+      "x": 180,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 108
+    },
+    {
+      "hangul": "생",
+      "alias_byte": 223,
+      "alias_hex": "0xDF",
+      "x": 192,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 109
+    },
+    {
+      "hangul": "선",
+      "alias_byte": 241,
+      "alias_hex": "0xF1",
+      "x": 204,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 110
+    },
+    {
+      "hangul": "아",
+      "alias_byte": 191,
+      "alias_hex": "0xBF",
+      "x": 216,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 112
+    },
+    {
+      "hangul": "없",
+      "alias_byte": 161,
+      "alias_hex": "0xA1",
+      "x": 228,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 113
+    },
+    {
+      "hangul": "었",
+      "alias_byte": 239,
+      "alias_hex": "0xEF",
+      "x": 240,
+      "y": 101,
+      "w": 11,
+      "h": 13,
+      "ini_line": 114
+    },
+    {
+      "hangul": "에",
+      "alias_byte": 33,
+      "alias_hex": "0x21",
+      "x": 0,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 1
+    },
+    {
+      "hangul": "운",
+      "alias_byte": 34,
+      "alias_hex": "0x22",
+      "x": 12,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 2
+    },
+    {
+      "hangul": "원",
+      "alias_byte": 35,
+      "alias_hex": "0x23",
+      "x": 24,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 3
+    },
+    {
+      "hangul": "은",
+      "alias_byte": 36,
+      "alias_hex": "0x24",
+      "x": 36,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 4
+    },
+    {
+      "hangul": "의",
+      "alias_byte": 37,
+      "alias_hex": "0x25",
+      "x": 48,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 5
+    },
+    {
+      "hangul": "이",
+      "alias_byte": 38,
+      "alias_hex": "0x26",
+      "x": 60,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 6
+    },
+    {
+      "hangul": "즈",
+      "alias_byte": 39,
+      "alias_hex": "0x27",
+      "x": 72,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 7
+    },
+    {
+      "hangul": "지",
+      "alias_byte": 40,
+      "alias_hex": "0x28",
+      "x": 84,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 8
+    },
+    {
+      "hangul": "커",
+      "alias_byte": 41,
+      "alias_hex": "0x29",
+      "x": 96,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 9
+    },
+    {
+      "hangul": "택",
+      "alias_byte": 42,
+      "alias_hex": "0x2A",
+      "x": 108,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 10
+    },
+    {
+      "hangul": "트",
+      "alias_byte": 43,
+      "alias_hex": "0x2B",
+      "x": 120,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 11
+    },
+    {
+      "hangul": "한",
+      "alias_byte": 47,
+      "alias_hex": "0x2F",
+      "x": 132,
+      "y": 115,
+      "w": 11,
+      "h": 13,
+      "ini_line": 15
+    }
+  ],
+  "patched_fields": [
+    {
+      "name": "title",
+      "offset": "0x0",
+      "field_len": 79,
+      "encoded_len_before_padding": 40,
+      "replacement_hex": "22ee2520e8eaf45cdf2be4c021fbe02720f6e75c442d446179203031313520313934342e362e362020202020202020202020202020202020202020202020202020202020202020202020202020205e"
+    },
+    {
+      "name": "baker1",
+      "offset": "0x6E",
+      "field_len": 64,
+      "encoded_len_before_padding": 28,
+      "replacement_hex": "ed26293a20232f20c720bfc928e22c5c2020f12af92420a1efe92e2020202020202020202020202020202020202020202020202020202020202020202020205e"
+    }
+  ],
+  "atlas": {
+    "format": "RGBA8888",
+    "width": 256,
+    "height": 128,
+    "proof_area": "y=101..127"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE43S_TITLE_PROMPT_FIX.iso",
+  "output": "PROJECT_ROOT\\BIA_STAGE43T_TITLE_PROMPT_FIX.iso",
+  "fixed_file": "ON_MEMU.DSL and equivalent ON_MEMU.DSX",
+  "relocation_offset": "0x169e12",
+  "old_entry": [
+    "0x40006580",
+    "0x200",
+    "0x41419020"
+  ],
+  "new_entry": [
+    "0x40006580",
+    "0x200",
+    "0xf6782fe0"
+  ],
+  "atlas_runtime": "0x987d020",
+  "previous_blank_atlas_runtime": "0x098BEA60",
+  "translation": "START 버튼을 누르십시오",
+  "prx_and_campaign_and_font_metadata_unchanged": true,
+  "chapter_restart_and_hint_height_fixes_preserved": true,
+  "iso_readback_verified": true,
+  "runtime_verified": true,
+  "font_texture_runtime": "0x095E21C0",
+  "font_texture_old_size": [
+    128,
+    256
+  ],
+  "font_texture_new_size": [
+    512,
+    512
+  ],
+  "changed_mdi_stream": 16,
+  "changed_mdi_offset": "0x351e4",
+  "font_glyphs_and_strings_preserved": true,
+  "fresh_iso_boot_verified": true,
+  "no_runtime_memory_or_register_changes": true,
+  "title_prompt_visually_verified": true,
+  "title_screenshot": "outputs/stage43t_validation/fresh_title_verified_0x4044000.png",
+  "start_menu_transition_verified": false,
+  "start_menu_note": "START 입력 직후 전환 중 검은 화면만 캡처했고 사용자의 인계 요청으로 후속 메뉴 확인은 중단"
+}

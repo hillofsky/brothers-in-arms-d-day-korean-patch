@@ -1,0 +1,28 @@
+{
+  "step": "STEP_064",
+  "status": "VERIFIED",
+  "campaign_status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "TRANSLATED_REVIEWED": 1075,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "unapplied_campaign_units": 1165,
+  "entry_map_path": "PROJECT_ROOT\\analysis\\stage38_translation_worklist\\stage38_entry_map.tsv",
+  "exact_occurrences": 1435,
+  "exact_ids_covered": 1165,
+  "reference_count_mismatches": 0,
+  "source_int_dir": "PROJECT_ROOT\\extracted\\PSP_GAME\\USRDIR\\SYSTEM",
+  "source_int_unique_files": 41,
+  "source_int_hash_matches": 41,
+  "source_int_missing": 0,
+  "source_int_sha_mismatches": 0,
+  "source_line_mismatches": 0,
+  "stage43t_iso_asset_candidates": 455,
+  "filesystem_pipeline_hits": 395,
+  "zip_archives_scanned": 134,
+  "archive_pipeline_hits": 202,
+  "recovered_pipeline_files": 110,
+  "iso_modified": false,
+  "movie_validation_resumed": false,
+  "next_phase": "ANALYZE_RECOVERED_PATCHER_AND_BUILD_BULK_ISO_APPLICATION"
+}

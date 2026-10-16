@@ -1,0 +1,64 @@
+{
+  "test_iso": "PROJECT_ROOT/BIA_STAGE40O_CONTROLS_UTF8_COMPLETE_TEST.iso",
+  "payload_exact_count": 658,
+  "payload_total": 658,
+  "restored_keys_verified": 24,
+  "fonts": [
+    {
+      "font": "0x972385c",
+      "glyph_count": 847,
+      "glyph_pointer": "0x98f5020"
+    },
+    {
+      "font": "0x972524c",
+      "glyph_count": 847,
+      "glyph_pointer": "0x98f5020"
+    }
+  ],
+  "renderer_jal": "e410330e",
+  "width_helpers": [
+    {
+      "runtime": "0x8cc4480",
+      "bytes": 256,
+      "original_instructions_match": true,
+      "sha1": "e7ee04ed87c4982d4dc733de8eea788a1fee130d"
+    },
+    {
+      "runtime": "0x8cc4580",
+      "bytes": 256,
+      "original_instructions_match": true,
+      "sha1": "f828fba980a97cf4fee28f5a41ed2a141c96a601"
+    }
+  ],
+  "width_lookup_trace": {
+    "calls": 19235,
+    "hangul_calls": 19235,
+    "raw_utf8_byte_calls": 0
+  },
+  "ram": {
+    "start": "0x08000000",
+    "end": "0x0A000000",
+    "bytes": 33554432,
+    "chunks": 256,
+    "all_reads_complete": true
+  },
+  "verified_screens": [
+    "main_menu",
+    "options",
+    "controls",
+    "audio",
+    "game"
+  ],
+  "controls_boxes_resolved": true,
+  "missing_labels_added": [
+    "자세/행동",
+    "재장전/행동"
+  ],
+  "runtime_verified": true,
+  "ready_for_final_release": false,
+  "scope": "Verified menu rendering in PPSSPP software renderer; full campaign and physical PSP not tested.",
+  "width_call_words": [
+    "0xe331120",
+    "0xe331160"
+  ]
+}

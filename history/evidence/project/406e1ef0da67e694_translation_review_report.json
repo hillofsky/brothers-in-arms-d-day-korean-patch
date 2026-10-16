@@ -1,0 +1,267 @@
+{
+  "step": "STEP_047",
+  "reference_group": "D2_0630_CRACKOFDAWN",
+  "rows": 25,
+  "control_tokens_pass": true,
+  "pipe_counts_pass": true,
+  "expected_status_after": {
+    "VERIFIED_APPLIED": 137,
+    "TRANSLATED_PENDING_APPLY": 90,
+    "TRANSLATED_REVIEWED": 180,
+    "NEEDS_TRANSLATION": 895
+  },
+  "iso_modified": false,
+  "movie_validation_resumed": false,
+  "checks": [
+    {
+      "resource_id": "BIA-01304",
+      "source_text": "Farmhouse",
+      "ko": "농가",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 6
+    },
+    {
+      "resource_id": "BIA-01322",
+      "source_text": "Receive orders from Mac.",
+      "ko": "맥에게 지시를 받아라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 30
+    },
+    {
+      "resource_id": "BIA-01342",
+      "source_text": "Clear the Southwest quadrant of St. Come-du-Mont.",
+      "ko": "생콤뒤몽 남서 구역을 소탕하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 43
+    },
+    {
+      "resource_id": "BIA-01536",
+      "source_text": "Baker: But he's gone and I'll never see him again.",
+      "ko": "베이커: 하지만 그는 죽었고, 다시는 볼 수 없다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 64
+    },
+    {
+      "resource_id": "BIA-01538",
+      "source_text": "Baker: Day three.",
+      "ko": "베이커: 셋째 날.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 22
+    },
+    {
+      "resource_id": "BIA-01544",
+      "source_text": "Baker: He died a hero.  He died for the man next to him.",
+      "ko": "베이커: 그는 영웅으로 죽었다. 곁에 있던 전우를 위해 죽었다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 83
+    },
+    {
+      "resource_id": "BIA-01563",
+      "source_text": "Baker: I rested my head on my helmet for an hour and pretended I was asleep.",
+      "ko": "베이커: 한 시간 동안 헬멧에 머리를 기대고 잠든 척했다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 76
+    },
+    {
+      "resource_id": "BIA-01564",
+      "source_text": "Baker: I spent most of the night trying to figure out what I'd say to George's mom when I saw her again.",
+      "ko": "베이커: 밤 대부분을 조지의 어머니를 다시 만나면 무슨 말을 해야 할지 고민하며 보냈다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 119
+    },
+    {
+      "resource_id": "BIA-01567",
+      "source_text": "Baker: I'll never see George again.",
+      "ko": "베이커: 조지를 다시는 볼 수 없다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 46
+    },
+    {
+      "resource_id": "BIA-01736",
+      "source_text": "D+2 0550",
+      "ko": "D+2 05:50",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 9
+    },
+    {
+      "resource_id": "BIA-01770",
+      "source_text": "Defend the outpost until Mac arrives.",
+      "ko": "맥이 도착할 때까지 전초기지를 방어하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 56
+    },
+    {
+      "resource_id": "BIA-01778",
+      "source_text": "Desola: Well in war, everybody gets a shitty deal.",
+      "ko": "데솔라: 뭐, 전쟁에선 누구나 엿같은 일을 겪는 거지.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 70
+    },
+    {
+      "resource_id": "BIA-01847",
+      "source_text": "Find a way around the machine gun.",
+      "ko": "기관총 진지를 우회할 길을 찾아라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 47
+    },
+    {
+      "resource_id": "BIA-01891",
+      "source_text": "Garnett: Just a shitty deal.",
+      "ko": "가넷: 그냥 엿같은 일이야.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 35
+    },
+    {
+      "resource_id": "BIA-01964",
+      "source_text": "Hartsock: Hey Baker, Mac wanted to talk to you... sounded important.",
+      "ko": "하트삭: 이봐, 베이커. 맥이 너랑 얘기하고 싶다더라... 중요한 일 같던데.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 97
+    },
+    {
+      "resource_id": "BIA-02069",
+      "source_text": "Leggett: Hey Baker, sorry about your friend.",
+      "ko": "레겟: 베이커, 친구 일은 유감이에요.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 49
+    },
+    {
+      "resource_id": "BIA-02158",
+      "source_text": "Mac: Baker... eat something, you look like hell.",
+      "ko": "맥: 베이커... 뭐라도 좀 먹어. 꼴이 말이 아니군.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 64
+    },
+    {
+      "resource_id": "BIA-02161",
+      "source_text": "Mac: Check your equipment and make sure you have enough ammo.",
+      "ko": "맥: 장비를 점검하고 탄약이 충분한지도 확인해.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 64
+    },
+    {
+      "resource_id": "BIA-02220",
+      "source_text": "Mac: Move Out.",
+      "ko": "맥: 출발한다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 18
+    },
+    {
+      "resource_id": "BIA-02224",
+      "source_text": "Mac: Now, there's a farmhouse down this road a bit.  An MG has been wreaking havoc on anyone who passes by.",
+      "ko": "맥: 이 길을 조금 가면 농가가 하나 있다. 거기 기관총이 지나가는 사람마다 닥치는 대로 갈겨 대고 있어.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 139
+    },
+    {
+      "resource_id": "BIA-02236",
+      "source_text": "Mac: St. Come-du-Mont is just down the road.  We are going to sit tight here for a few hours.",
+      "ko": "맥: 생콤뒤몽은 이 길로 조금만 가면 된다. 우린 여기서 몇 시간 대기한다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 98
+    },
+    {
+      "resource_id": "BIA-02238",
+      "source_text": "Mac: Still alive?  Glad to see it.",
+      "ko": "맥: 아직 살아 있군? 다행이야.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 40
+    },
+    {
+      "resource_id": "BIA-02470",
+      "source_text": "Staff Sergeant 'Mac' Hassay",
+      "ko": "‘맥’ 해시 병장",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 23
+    },
+    {
+      "resource_id": "BIA-02472",
+      "source_text": "Suppress the machine gun and cross the road.",
+      "ko": "기관총을 제압하고 도로를 건너라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 46
+    },
+    {
+      "resource_id": "BIA-02585",
+      "source_text": "Your teammate can mount one MG42 to support you.",
+      "ko": "분대원 한 명이 MG42를 운용해 지원할 수 있다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 60
+    }
+  ]
+}

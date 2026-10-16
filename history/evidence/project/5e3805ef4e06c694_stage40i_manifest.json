@@ -1,0 +1,17 @@
+{
+  "stage": "40I",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40F_ON_MEMU_RESIDENT_MASS_TEST.iso",
+  "modifies_iso": false,
+  "probe_count": 4,
+  "runtime_states": [
+    "main_menu",
+    "options_menu",
+    "options_first_submenu"
+  ],
+  "outputs": [
+    "stage40i_iso_raw_hits.tsv",
+    "stage40i_mdi_decoded_hits.tsv",
+    "stage40i_runtime_hits.tsv",
+    "stage40i_lbn_map.tsv"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40J_LOCALIZATION_KEYS_RESTORED_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40K_CONTROLS_FONT_TEST.iso",
+  "font": "0x972524c",
+  "font_count_before": 151,
+  "font_count_after": 847,
+  "shared_with": "0x972385c",
+  "changed_ranges": [
+    {
+      "offset": "0x50",
+      "size": 1032,
+      "before_sha1": "db384020723c605ecd103b0b2d0e37d3369c5e58",
+      "after_sha1": "0dbd8366a04dfa183f33b437fcdbd62e5f53e132"
+    },
+    {
+      "offset": "0x474",
+      "size": 8,
+      "before_sha1": "272e724b16b2ce4749569b7ce52878ee4c598938",
+      "after_sha1": "fb120ded86a4300fdf5e991b7d1739493cf21419"
+    },
+    {
+      "offset": "0x488",
+      "size": 4,
+      "before_sha1": "c93b66462220e09709d1c839bd8564fef2d2c33a",
+      "after_sha1": "c3e9f997d994f6dd34c33118d09525d4310803a0"
+    }
+  ],
+  "all_other_streams_unchanged": true,
+  "iso_readback_ok": true,
+  "latin_glyph_style_note": "The controls font now shares the production font glyphs and atlas; font object layout/scaling fields are unchanged.",
+  "runtime_verified": false
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "40H-retry",
+  "canonical_localize_sha1": "da7dedd4a2dfa6bbbff379e1cd28984c99f8deb5",
+  "old_stage04b_sha1": "800615456f22384e43465bed5b90f29942c190ef",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40F_ON_MEMU_RESIDENT_MASS_TEST.iso",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE40H_LOCALIZE_ENCODING_TEST.iso",
+  "variants": [
+    "mixed_utf8",
+    "mixed_utf8_bom",
+    "mixed_cp949",
+    "whole_utf16le_bom"
+  ]
+}

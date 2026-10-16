@@ -1,0 +1,69 @@
+{
+  "stage": 20,
+  "purpose": "Use unused MDI stream22 as real 128x512 TMR texture backing; native PPSSPP PSP-button automation",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE20_MDI_TEXTURE_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "texture_replacement_enabled": false,
+  "texture_storage": {
+    "mdi_stream": 22,
+    "runtime_address": "0x0987D020",
+    "bytes": 32768,
+    "sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "mdi_patch": {
+    "stream19_old_csize": 59805,
+    "stream19_new_csize": 61865,
+    "stream22_old_csize": 499,
+    "stream22_new_csize": 8580,
+    "new_glyph_ptr": "0x0971BB20",
+    "new_D5_page": "0x0971CA20",
+    "texture_runtime_address": "0x0987D020",
+    "texture_sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "dsl_descriptor_patch": {
+    "old_A0": "0xA06C4540",
+    "old_A8": "0xA8490080",
+    "old_B8": "0xB8000807",
+    "new_A0": "0xA087D020",
+    "new_A8": "0xA8090080",
+    "new_B8": "0xB8000907",
+    "absolute_texture_address": "0x0987D020"
+  },
+  "mdi_iso_relocation": {
+    "old_extent": 147920,
+    "old_size": 3775810,
+    "new_extent": 710448,
+    "new_size": 3785951
+  },
+  "iso_readback_verified": true,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "boot_automation": {
+    "input_method": "PPSSPP WebSocket input.buttons.press",
+    "fast_forward_supported": false,
+    "fast_forward_response": null,
+    "fast_forward_error": "Bad message: unknown event",
+    "start_presses": 96,
+    "elapsed_seconds": 19.423
+  },
+  "menu_detected": true,
+  "loaded_font": {
+    "glyph_count": 152,
+    "glyph_ptr": "0x0971BB20",
+    "D5_page": "0x0971CA20",
+    "D55C_map": 151,
+    "texture_address": "0x0987D020",
+    "texture_sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "runtime_patch_scope": "Story UTF-16 text only",
+  "completed": true,
+  "expected_before": "normal Story/Skirmish/Options/Profile",
+  "expected_after": "한한한한한; other menu labels normal"
+}

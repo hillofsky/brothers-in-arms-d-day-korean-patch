@@ -1,0 +1,42 @@
+{
+  "step": "STEP_059",
+  "translations_applied_to_metadata": 50,
+  "status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "TRANSLATED_REVIEWED": 734,
+    "NEEDS_TRANSLATION": 341,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "next_reference_group": "D10_0801_THEALLAMERICANS",
+  "next_unit_count": 24,
+  "remaining_group_summary": [
+    {
+      "reference_group": "D10_0801_THEALLAMERICANS",
+      "remaining_unique_units": 24
+    },
+    {
+      "reference_group": "D10_0802_THEALLAMERICANS",
+      "remaining_unique_units": 41
+    },
+    {
+      "reference_group": "D15_1130_BOOKENDS",
+      "remaining_unique_units": 43
+    },
+    {
+      "reference_group": "D15_1230_BOOKENDS2",
+      "remaining_unique_units": 29
+    },
+    {
+      "reference_group": "D15_1300_BOOKENDS4",
+      "remaining_unique_units": 25
+    },
+    {
+      "reference_group": "D15_1330_BOOKENDS3",
+      "remaining_unique_units": 29
+    }
+  ],
+  "master_sha256": "760f747b0097c09f06c01c38b824707456f0c00256b7a9060b57fc2a1167e813",
+  "next_batch_sha256": "e5b2e365d4ae9af205b7924191ca2dd7f440d2dc536e61057d3099dfc6c31baa",
+  "iso_modified": false,
+  "movie_validation_resumed": false
+}

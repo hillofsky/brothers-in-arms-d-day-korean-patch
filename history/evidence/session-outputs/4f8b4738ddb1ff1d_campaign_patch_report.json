@@ -1,0 +1,32 @@
+{
+  "stage": "43A",
+  "source": "PROJECT_ROOT\\BIA_STAGE42H_ALL8_MOVIES_512_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE43A_FIRST_CAMPAIGN_KO_TEST.iso",
+  "translated_first_mission_units": 137,
+  "new_compiled_units": 135,
+  "compiled_value_refs": 274,
+  "already_translated_title_units": 2,
+  "font_count": 880,
+  "added_hangul": 33,
+  "atlas_sha1": "58bee11656a1ea909f86640c06576954ddd81261",
+  "metadata_base": "0x9e6b020",
+  "new_payload_start": "0x9e7b020",
+  "payload_end_offset": "0x12210",
+  "changed_streams": [
+    26,
+    30,
+    34,
+    35
+  ],
+  "control_tokens_verified": true,
+  "key_metadata_unchanged": true,
+  "all_unicode_pages_verified": true,
+  "iso_readback_verified": true,
+  "runtime_verified": false,
+  "full_campaign_complete": false,
+  "runtime_text_references_verified": 274,
+  "pause_menu_korean_verified": true,
+  "mission_hud_korean_verified": false,
+  "mission_hud_issue": "Objectives, hints and introduction title render UTF-8 as mojibake; a separate campaign text rendering path requires investigation.",
+  "restart_issue": "Restart test halted at invalid execution address 0x0C47EC29; not suitable for release."
+}

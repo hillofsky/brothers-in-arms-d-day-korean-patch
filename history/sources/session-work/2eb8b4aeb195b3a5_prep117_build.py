@@ -1,0 +1,6 @@
+from pathlib import Path
+s=Path('work/build116.py').read_text(encoding='utf-8-sig').replace('BIA_STEP115_FONT_UV_INSET_TEST.iso','BIA_STEP116_TUTORIAL_CHARACTER_NAMES_KO_TEST.iso').replace('BIA_STEP116_TUTORIAL_CHARACTER_NAMES_KO_TEST.iso\').resolve()', 'BIA_STEP117_NEW_OBJECTIVE_KO_TEST.iso\').resolve()').replace('outputs/step116','outputs/step117_icon').replace('0x52000','0x54000').replace("'STEP116'","'STEP117'");Path('work/build117.py').write_text(s,encoding='utf-8')
+s=Path('work/verify116.py').read_text(encoding='utf-8-sig').replace('BIA_STEP116_TUTORIAL_CHARACTER_NAMES_KO_TEST.iso','BIA_STEP117_NEW_OBJECTIVE_KO_TEST.iso').replace('outputs/step116','outputs/step117_icon');Path('work/verify117.py').write_text(s,encoding='utf-8')
+s=Path('work/fallback116.py').read_text(encoding='utf-8-sig').replace('BIA_STEP116_TUTORIAL_CHARACTER_NAMES_KO_TEST.iso','BIA_STEP117_NEW_OBJECTIVE_KO_TEST.iso').replace('outputs/step116','outputs/step117_icon').replace("(out/'translations.json')","(out/'targets.json')");Path('work/fallback117.py').write_text(s,encoding='utf-8')
+import json
+j=json.loads(Path('outputs/step117_icon/reference_audit.json').read_text(encoding='utf-8'));Path('outputs/step117_icon/targets.json').write_text(json.dumps(j['targets'],ensure_ascii=False),encoding='utf-8')

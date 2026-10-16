@@ -1,0 +1,47 @@
+{
+  "stage": "39D",
+  "purpose": "Replace the default byte-wise narrow-to-wide fallback with a real UTF-8 -> UTF-16 BMP decoder, then prove the Stage39C on-disc UTF-8 source reaches the production Unicode font without RAM text patches.",
+  "stage39c_fixed_slot_assumption_used": false,
+  "stage39c_false_decoder_0x088B4CA8_used": false,
+  "runtime_text_patch": false,
+  "runtime_font_patch": false,
+  "runtime_code_patch": false,
+  "disc_only_code_patch": true,
+  "screenshot_failure_is_not_test_failure": true,
+  "stage39c_source": {
+    "utf8_source_hits_stream11": [
+      "0x5CB20",
+      "0x5CB94"
+    ],
+    "runtime_addresses": [
+      "0x093B1B40",
+      "0x093B1BB4"
+    ],
+    "count": 2
+  },
+  "biaon_patch": {
+    "original_full_sha1": "8c7033ca15103fa51afa9c7ec61f37c531d07ede",
+    "reference_original_sha1": "8c7033ca15103fa51afa9c7ec61f37c531d07ede",
+    "patched_full_sha1": "cfe9a3d7fd37e1a1382cba3ae4a475423a725f0c",
+    "branch_vaddr": "0x004C0388",
+    "branch_file_offset": "0x4C0408",
+    "branch_old": "c6004014",
+    "branch_new": "00000000",
+    "decoder_vaddr": "0x004C0390",
+    "decoder_file_offset": "0x4C0410",
+    "decoder_bytes": 236,
+    "decoder_sha1": "8eeb1e68f096e92dab1a3274b3120732c42eb532",
+    "converter_runtime": "0x08CC4108",
+    "utf8_store_runtime": "0x08CC4460",
+    "iso_extent": 32224,
+    "iso_size": 7874276
+  },
+  "biaon_iso_readback": {
+    "branch_bytes": "00000000",
+    "decoder_sha1": "8eeb1e68f096e92dab1a3274b3120732c42eb532",
+    "verified": true
+  },
+  "runtime_exception": "UTF-8 decoder breakpoint did not hit; last CPU status={'event': 'cpu.status', 'ticket': 3198, 'stepping': False, 'paused': False, 'pc': 142732672, 'ticks': 26750282939}, Start presses=246",
+  "runtime_traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\bia_stage39d_tools\\bia_stage39d_utf8_decoder.py\", line 985, in main\n    runtime = runtime_test(local_mod, b)\n  File \"PROJECT_ROOT\\bia_stage39d_tools\\bia_stage39d_utf8_decoder.py\", line 714, in runtime_test\n    status, presses = wait_until_stepping(\n  File \"PROJECT_ROOT\\bia_stage39d_tools\\bia_stage39d_utf8_decoder.py\", line 402, in wait_until_stepping\n    raise RuntimeError(\nRuntimeError: UTF-8 decoder breakpoint did not hit; last CPU status={'event': 'cpu.status', 'ticket': 3198, 'stepping': False, 'paused': False, 'pc': 142732672, 'ticks': 26750282939}, Start presses=246\n",
+  "completed": false
+}

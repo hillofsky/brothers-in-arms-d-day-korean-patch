@@ -1,0 +1,87 @@
+{
+  "stage": "22C",
+  "purpose": "Prove the actual runtime GE descriptor is the remaining cause by patching its three words directly in RAM",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso_fallback": "PROJECT_ROOT\\BIA_STAGE22_RUNTIME_DESCRIPTOR_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "texture_replacement_enabled": false,
+  "texture_storage": {
+    "mdi_stream": 22,
+    "runtime_address": "0x0987D020",
+    "bytes": 32768,
+    "sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "boot_iso": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso",
+  "iso_prepare": {
+    "mode": "reuse",
+    "path": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso"
+  },
+  "previous_ppsspp": {
+    "found": true,
+    "pid": 23372,
+    "closed_normally": false,
+    "terminated": true
+  },
+  "launched_ppsspp_pid": 22676,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "boot_automation": {
+    "input_method": "PPSSPP WebSocket input.buttons.press",
+    "fast_forward_supported": false,
+    "fast_forward_response": null,
+    "fast_forward_error": "Bad message: unknown event",
+    "start_presses": 96,
+    "elapsed_seconds": 19.525
+  },
+  "menu_detected": true,
+  "loaded_font_before_descriptor_patch": {
+    "glyph_count": 152,
+    "glyph_ptr": "0x0971BB20",
+    "expected_glyph_ptr": "0x0971BB20",
+    "D5_page": "0x0971CA20",
+    "expected_D5_page": "0x0971CA20",
+    "D55C_map": 151,
+    "texture_address": "0x0987D020",
+    "texture_sha1": "0fa604d1f92d576128995257311c36c5e6eac188",
+    "texture_expected_sha1": "0fa604d1f92d576128995257311c36c5e6eac188",
+    "runtime_descriptor_address": "0x08E693C0",
+    "runtime_A0": "0xA057FF40",
+    "runtime_A8": "0xA8080080",
+    "runtime_B8": "0xB8000807"
+  },
+  "runtime_descriptor_patch": {
+    "address": "0x08E693C0",
+    "before": [
+      "0xA057FF40",
+      "0xA8080080",
+      "0xB8000807"
+    ],
+    "after": [
+      "0xA087D020",
+      "0xA8090080",
+      "0xB8000907"
+    ],
+    "target_texture": "0x0987D020",
+    "target_dimensions": [
+      128,
+      512
+    ]
+  },
+  "runtime_descriptor_after_1_2s": [
+    "0xA087D020",
+    "0xA8090080",
+    "0xB8000907"
+  ],
+  "descriptor_persisted": true,
+  "runtime_patch_scope": "runtime GE descriptor + Story UTF-16 test only",
+  "completed": true,
+  "expected_before": "garbled menu before runtime descriptor fix",
+  "expected_after_descriptor": "normal English menu",
+  "expected_after": "한한한한한; other menu labels normal"
+}

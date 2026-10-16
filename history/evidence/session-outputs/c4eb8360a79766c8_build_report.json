@@ -1,0 +1,507 @@
+{
+  "step": "STEP116",
+  "source": "PROJECT_ROOT\\BIA_STEP115_FONT_UV_INSET_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STEP116_TUTORIAL_CHARACTER_NAMES_KO_TEST.iso",
+  "source_sha256": "cf19f3f4a40d873a0e31502f4af9150903e12ae1f6e1e577acb228e13cfbd266",
+  "source_preserved": true,
+  "output_sha256": "3fcba648ee0bc1aa73a1584b847ab19af3789b96febce910b34224ebc060beb0",
+  "translations": {
+    "The arrow %icon_compass_arrow% on your compass directs you toward your next objective.": "나침반 %icon_compass_arrow%는 다음 목표 방향을 가리킨다.",
+    "Press %icon_use% to jump.": "%icon_use%를 눌러 뛰어내린다.",
+    "%action_crouch% %icon_crouch% to crouch.": "%action_crouch% %icon_crouch%로 앉는다.",
+    "%action_crouch% %icon_crouch% again to stand up.": "%action_crouch% %icon_crouch%를 다시 입력하면 일어난다.",
+    "%action_zoom% %icon_zoom% to toggle looking down the sights of your weapon.": "%action_zoom% %icon_zoom%로 조준기를 들여다보는 상태를 전환한다.",
+    "Press %icon_fire% to fire your weapon.": "%icon_fire%를 눌러 무기를 발사한다.",
+    "%action_reload% %icon_reload% to reload your weapon.": "%action_reload% %icon_reload%로 무기를 재장전한다.",
+    "%action_tactical_view% %icon_tactical_view% to activate Situational Awareness view.": "%action_tactical_view% %icon_tactical_view%로 전술 상황 보기 모드를 켠다.",
+    "You are now in Situational Awareness view.%newline%Press %Button_Cross% to continue.": "전술 상황 보기 모드에 들어왔다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "The game is paused allowing you time to examine the battlefield, objectives and known combat units.%newline%Press %Button_Cross% to continue.": "게임이 일시정지돼 전장과 목표, 확인된 부대를 살펴볼 수 있다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Right now you are looking at your current position.%newline%Press %Button_Cross% to continue.": "지금은 자신의 현재 위치를 보고 있다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Move %Button_dpad% to look around.%newline%Press %Button_Cross% to continue.": "%Button_dpad%로 주위를 둘러본다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Move %Button_dpad% to rotate around what you are looking at.%newline%Press %Button_Cross% to continue.": "%Button_dpad%로 보고 있는 대상을 중심으로 시점을 돌린다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Press %icon_zoom% to zoom in and zoom out.": "%icon_zoom%를 눌러 확대하거나 축소한다.",
+    "In addition to your current position, you can examine other battlefield elements using the markers below.%newline%Press %Button_Cross% to continue.": "현재 위치뿐 아니라 아래 표시를 이용해 전장의 다른 요소도 살펴볼 수 있다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Markers represent objectives, waypoints, enemy units, and allies.%newline%Press %Button_Cross% to continue.": "표시는 목표, 경유 지점, 적 부대와 아군을 나타낸다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Press %icon_tv_pre_target% or %icon_tv_next_target% to cycle through known battlefield markers.%newline%Press %Button_Cross% to continue.": "%icon_tv_pre_target% 또는 %icon_tv_next_target%를 눌러 확인된 전장 표시를 차례로 선택한다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Notice that some markers display additional information to the right of the screen.%newline%Press %Button_Cross% to continue.": "일부 표시를 선택하면 화면 오른쪽에 추가 정보가 나타난다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Use Situational Awareness View to help you make tactical decisions or locate your objectives.%newline%Press %Button_Cross% to continue.": "전술 상황 보기를 이용해 전술을 판단하거나 목표 위치를 찾는다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Enemy AA guns can be destroyed with an explosive charge.  To plant an explosive charge, get close to the gun and press %icon_use%.": "적 대공포는 폭약으로 파괴할 수 있다. 폭약을 설치하려면 포에 다가가 %icon_use%를 누른다.",
+    "Sgt. Hassey is preparing to engage the German units directly in front of this position!%newline%Press %Button_Cross% to continue.": "해시 병장이 이 위치 바로 앞의 독일군과 교전할 준비를 하고 있다!%newline%%Button_Cross%를 눌러 계속한다.",
+    "Because the German units are behind cover, it will be very difficult for your squad to actually kill the enemy from this location.%newline%Press %Button_Cross% to continue.": "독일군이 엄폐물 뒤에 있어, 이 위치에서는 분대가 적을 사살하기 매우 어렵다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "Likewise, as long as you are behind cover, it will be very difficult for the enemy to kill you.%newline%Press %Button_Cross% to continue.": "마찬가지로 엄폐물 뒤에 있으면 적도 당신을 사살하기 매우 어렵다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "With the enemy suppressed, they will spend more time behind cover and less time firing.  This will provide Sgt. Hassey with an opportunity to move without getting hit by enemy fire.%newline%Press %Button_Cross% to continue.": "제압된 적은 엄폐물 뒤에 머무는 시간이 늘고 사격하는 시간은 줄어든다. 해시 병장은 그 틈에 적의 사격을 피해 이동할 수 있다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "The Suppression indicator over the enemy target is used to show the target's suppression level.  Red %icon_suppression_red% means unsuppressed, and gray %icon_suppression_gray% means suppressed.%newline%Press %Button_Cross% to continue.": "적 위의 제압 표시는 적의 제압 상태를 나타낸다. 빨간색 %icon_suppression_red%는 제압되지 않은 상태, 회색 %icon_suppression_gray%는 제압된 상태다.%newline%%Button_Cross%를 눌러 계속한다.",
+    "%action_tactical_view% %icon_tactical_view% to return to the game.": "%action_tactical_view% %icon_tactical_view%로 게임으로 돌아간다.",
+    "You can Press %icon_cycle_weapon% to switch weapons.": "%icon_cycle_weapon%를 눌러 무기를 바꿀 수 있다.",
+    "Cpl. Hartsock is now part of your squad and will obey your commands! He is part of your Fire Team %icon_team_fire%.%newline%Press %Button_Cross% to continue.": "하트삭 상병이 분대에 합류했다! 이제 당신의 명령을 따른다. 하트삭은 사격조 %icon_team_fire% 소속이다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "Fire teams %icon_team_fire% are equipped with rifles, light machineguns and grenades. This team is ideal for suppressing the enemy.%newline%Press %Button_Cross% to continue.": "사격조 %icon_team_fire%는 소총, 경기관총, 수류탄으로 무장한다. 적을 제압하는 데 적합하다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "Notice, as you look around, that the Fire team icon %icon_team_fire% on the outer ring of your compass adjusts to show Hartsock's position.%newline%Press %Button_Cross% to continue.": "주변을 둘러보면 나침반 바깥 고리의 사격조 아이콘 %icon_team_fire%이 하트삭의 위치에 맞춰 움직인다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "As squad leader, you can command Hartsock to move to a new location, fire on a specific target, assault (charge) an enemy's position and follow you around.%newline%Press %Button_Cross% to continue.": "분대장으로서 하트삭에게 이동, 특정 목표 사격, 적 진지 돌격, 따라오기를 명령할 수 있다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "To give a \"move\" order hold %icon_order% and move %Button_dpad% to aim the command ring. Release %icon_order% to issue the order.": "이동 명령을 내리려면 %icon_order%를 누른 채 %Button_dpad%로 명령 원을 조준한다. %icon_order%에서 손을 떼면 명령을 내린다.",
+    "While pressing %icon_order%, move the %Button_dpad% to aim the command ring.": "%icon_order%를 누른 채 %Button_dpad%로 명령 원을 조준한다.",
+    "Move the command ring to a location on the ground nearby and release %icon_order% to issue a \"move\" order.": "명령 원을 가까운 지면 위로 옮기고 %icon_order%에서 손을 떼면 이동 명령을 내린다.",
+    "Hartsock will move to the general area where you placed the command ring.": "하트삭은 명령 원을 놓은 지점 부근으로 이동한다.",
+    "Hartsock is a trained soldier. He is smart enough to find cover nearby, especially if he knows there are enemies around.%newline%Press %Button_Cross% to continue.": "하트삭은 훈련된 병사다. 특히 주변에 적이 있다는 것을 알면 스스로 가까운 엄폐물을 찾는다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "You can %action_cancel% %icon_cancel% while holding %icon_order% to exit command mode without issuing an order.": "%icon_order%를 누른 채 %action_cancel% %icon_cancel%로 명령을 내리지 않고 명령 모드에서 나올 수 있다.",
+    "Soldiers in your squad will automatically fire on enemy units.  But you'll often need to command them to intensify their fire on a specific target by using the \"fire\" order!%newline%Press %Button_Cross% to continue.": "분대원들은 자동으로 적을 사격한다. 하지만 특정 목표에 화력을 집중하려면 사격 명령을 내려야 할 때가 많다!%newline%계속하려면 %Button_Cross%를 누른다.",
+    "Up ahead there is a scarecrow dressed in a German uniform. It is your practice target.%newline%Press %Button_Cross% to continue.": "앞에 독일군 군복을 입힌 허수아비가 있다. 연습용 목표다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "To give a \"fire\" order, hold %icon_order% and aim at the scarecrow. Release %icon_order% to issue the order.": "사격 명령을 내리려면 %icon_order%를 누른 채 허수아비를 겨냥한다. %icon_order%에서 손을 떼면 명령을 내린다.",
+    "When an enemy is suppressed they will spend more time behind cover and less time firing. Their shots will also become less frequent and less accurate.%newline%Press %Button_Cross% to continue.": "제압된 적은 엄폐물 뒤에 오래 머물고 사격을 줄인다. 사격 빈도와 명중률도 낮아진다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "The Suppression indicator over the enemy target is used to show the target's suppression level. %icon_suppression_red% means unsuppressed, and %icon_suppression_gray% means suppressed.%newline%Press %Button_Cross% to continue.": "적 목표 위의 제압 표시기는 목표의 제압 수준을 보여 준다. %icon_suppression_red%는 제압되지 않은 상태, %icon_suppression_gray%는 제압된 상태를 뜻한다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "While aiming at the target, release %icon_order% to issue the fire order.": "목표를 겨냥한 채 %icon_order%에서 손을 떼면 사격 명령을 내린다.",
+    "The %icon_fire_team_flag% is now attached to the target's suppression icon.%newline%Press %Button_Cross% to continue.": "%icon_fire_team_flag%가 목표의 제압 아이콘에 붙었다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "You can also issue an \"assault\" order to command your men to charge the target's position.%newline%Press %Button_Cross% to continue.": "돌격 명령으로 대원들에게 목표 진지로 돌진하라고 지시할 수도 있다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "To issue an \"assault\" order, hold %icon_order% and aim at a target.  While still holding %icon_order%, press %icon_fire%.": "돌격 명령을 내리려면 %icon_order%를 누른 채 목표를 겨냥한다. %icon_order%를 계속 누르면서 %icon_fire%를 누른다.",
+    "The secret to issuing an \"assault\" order is to hold [command mode] while aiming at a target and press [assault command].": "[OMITTED]",
+    "Hartsock will now quickly rush the enemy's position and engage them in close combat. He may also throw grenades as he charges at the target.": "하트삭이 적 진지로 빠르게 돌진해 근접전을 벌인다. 목표를 향해 돌격하면서 수류탄을 던지기도 한다.",
+    "In combat, assaulting is a very violent and risky maneuver. It is only recommended when the enemy is heavily suppressed or very outnumbered.%newline%Press %Button_Cross% to continue.": "돌격은 매우 격렬하고 위험한 전술이다. 적이 강하게 제압되어 있거나 아군 병력이 훨씬 많을 때만 권장한다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "%action_fall_in% %icon_fall_in% to order your team to fall in. Your team will stay close to you and do what you do.": "%action_fall_in% %icon_fall_in%로 대원들을 집결시킨다. 대원들은 곁에 머물며 당신의 행동을 따른다.",
+    "The %icon_team_fire% is now inside the compass. This is to remind you that your team is following you.%newline%Press %Button_Cross% to continue.": "%icon_team_fire%가 나침반 안에 표시된다. 대원들이 당신을 따라오고 있다는 뜻이다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "%action_fall_out% %icon_fall_out% to order your team to fall out. Your team will search for the nearest cover.": "%action_fall_out% %icon_fall_out%로 집결을 해제한다. 대원들은 가장 가까운 엄폐물을 찾는다.",
+    "Use Situational Awareness View to help you make tactical decisions or locate your objectives.": "상황 파악 화면으로 전술을 판단하거나 목표 위치를 찾아라.",
+    "%action_throw_grenade% %icon_throw_grenade% to throw a grenade.": "%action_throw_grenade% %icon_throw_grenade%로 수류탄을 던진다.",
+    "Use your tank to drive through this road block.": "전차로 이 도로 봉쇄물을 돌파하라.",
+    "Enemy anti-tank guns can be destroyed with an explosive charge.  To plant an explosive charge, get close to the gun and %action_use% %icon_use%.": "적 대전차포는 폭약으로 파괴할 수 있다. 폭약을 설치하려면 포에 접근해 %action_use% %icon_use%로 폭약을 설치한다.",
+    "Weapon ammunition can be replenished at ammo re-supply points. Stand near the supply crate and %action_use% %icon_use% to replenish your ammo.": "무기 탄약은 탄약 보급 지점에서 보충할 수 있다. 보급 상자 근처에서 %action_use% %icon_use%로 탄약을 보충한다.",
+    "To defeat this enemy, Sgt. Hassey will move to a new firing position where the Germans are not protected by any type of cover. This type of maneuver is called flanking.%newline%Press %Button_Cross% to continue.": "적을 제압하려면 맥 상사가 엄폐물을 피해 사격할 수 있는 새 위치로 이동해야 한다. 이런 기동을 측면 공격이라 한다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "Once Sgt. Hassey reaches this location, he will have a clear shot at the enemy units, allowing him to easily pick them off.%newline%Press %Button_Cross% to continue.": "맥 상사가 이 위치에 도착하면 적을 직접 조준하여 쉽게 제압할 수 있다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "While Sgt. Hassey is moving, you and Leggett need to provide suppressing fire on the enemy.%newline%Press %Button_Cross% to continue.": "맥 상사가 이동하는 동안 당신과 레겟은 적에게 제압 사격을 가해야 한다.%newline%계속하려면 %Button_Cross%를 누른다.",
+    "%action_use% %icon_use% to dismount the Mortar": "%action_use% %icon_use%로 박격포에서 물러난다.",
+    "%action_fall_out% %icon_fall_out% or issue a move instruction to have your teammates dismount the Mortar.": "%action_fall_out% %icon_fall_out% 또는 이동 명령으로 대원들을 박격포에서 물러나게 한다.",
+    "Pvt. Allen": "앨런 이병",
+    "Pvt. Locke": "로크 이병",
+    "Cpl. Hartsock": "하트삭 상병",
+    "Pvt. Jameson": "제임슨 이병",
+    "Pvt. Garnett": "가넷 이병",
+    "Cpl. Corrion": "코리온 상병",
+    "Pfc. Leggett": "레겟 일병",
+    "Sgt. Baker": "베이커 하사",
+    "Pvt. Muzza": "무자 이병",
+    "Lt. Col. Cole": "콜 중령",
+    "Pvt. York": "요크 이병",
+    "Pfc. Wheaton": "휘튼 일병",
+    "Pvt. Hooper": "후퍼 이병",
+    "Pvt. Doe": "도 이병",
+    "Pvt. McCreary": "맥크리리 이병",
+    "Pvt. Rivas": "리바스 이병",
+    "Pvt. Desola": "데솔라 이병",
+    "Pfc. Zanovich": "자노비치 일병",
+    "Pfc. Obrieski": "오브리에스키 일병",
+    "Pfc. Courtland": "코틀랜드 일병",
+    "Plt. Sgt. Hassay": "하세이 상사",
+    "Lt. Combs": "콤스 중위",
+    "Sgt. Lewis": "루이스 하사",
+    "Sgt. Scott": "스콧 하사",
+    "Lt. Boyd": "보이드 중위",
+    "Sgt. Risner": "리스너 하사",
+    "Sgt. Jackson": "잭슨 하사",
+    "Sgt. Kilroy": "킬로이 하사",
+    "Cpl. Doyle": "도일 상병",
+    "Cpl. Paddock": "패독 상병",
+    "Lt. Col. Cassidy": "캐시디 중령",
+    "Pvt. Friar": "프라이어 이병",
+    "Cpl. Campbell": "캠벨 상병",
+    "Pvt. McConnel": "맥코넬 이병",
+    "Pvt. Paige": "페이지 이병",
+    "Pvt. Marsh": "마시 이병",
+    "Col. Johnson": "존슨 대령",
+    "Pvt. Hersh": "허시 이병",
+    "Col. Marshall": "마셜 대령",
+    "Soldier": "병사"
+  },
+  "maps_patched": 32,
+  "value_refs_patched": 1802,
+  "key_metadata_preserved": true,
+  "font_and_atlas_and_prx_preserved": true,
+  "all_new_ui_glyphs_available": true,
+  "mdi_and_iso_readback_verified": true,
+  "runtime_visually_verified": false,
+  "maps": [
+    {
+      "mdi": "D07_1501.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "3d19560df51b63e2cfdfb52970700e7d4d025df8109ee5f87499f9cca52c81f7",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "706ac41de0a32dc1f3faab3dec4c6f33898b6c662247efa94bf8878dac77e706",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "e3609cc5b699987b04192b5c7c7d5270b2a6a050f9841b0020741be711f1a0c1",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_0130_.MDI",
+      "value_refs_patched": 60,
+      "unique_translations": 44,
+      "changed_streams": [
+        6,
+        26,
+        35
+      ],
+      "payload_end": "0x52650",
+      "mdi_sha256": "f5cd9ed414f2dc22aa36f08fd44cb3d00eb66ccc226a0e15cef9c5384a9fffd8",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "value_refs_patched": 62,
+      "unique_translations": 42,
+      "changed_streams": [
+        6,
+        23,
+        35
+      ],
+      "payload_end": "0x52460",
+      "mdi_sha256": "f89c50e3b84fde2c5b0575ff4421b2605193e5e942a8ccf3ba3cbfd0d262baf8",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "1146316b4ce144969b590cbeea62f8893429a5311b14f0eac7e673e4d0830f16",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "bcc63558bcca1ebb2e36d9ae9c4cfb8e0e8563a1ad536014f2a8fb76403bbf52",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "4654e1504d2dd160fa7cb3c40cadced19dc4c49ef3c53b1d606f93382b6ed1bf",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "eb4bcbfdd8e33b6d6f9e96275d4e791c1e1b0eba41610b7e382ed917fc5f0bd8",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "946164d37fa28af61e2636d19169b698476cc07bb6ea71835526b3167c23bc00",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "0496ca804a3659e45eb90c06b9baef76bad963c8fc9170ed21fafbf0cc2186f1",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "2b9f15ba30d85e46fea93376a4063c1bfb0691e2cb4d53288bb0d4fdf2e579b9",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "57ca6021cc8f97681147203cc7afae803d2602f72f35d9908b16ed5edf2e8fd2",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "6890afbe71b3760034ece27d6290da9bee970bbd50888f921a37a19d2f6ac587",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "4497faba7d64605070a6a4b5448d211168c20b07dbbb6a066e946630f63cd825",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "f3b12cb9c90dc9eabf8737fc4d8a9daad4aeea2a29dd033a45c6af050afdbb5c",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "6f2065c4f15374021b5db3f4d6425de0408f9962e70a53007c2b68c80637cb14",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "22c088c02ea542e0a1dc78ee4f04008aec7d345da9ca2597b9812d33134c31d8",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "c618a935d3a3bc12c72f5119b123f29d172895659e0bb8043db3b79682e89d03",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "aa9433f148126ea26e95fe2048d1fce6461d43151390e896357bbe60b0904b08",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "0ff7a7fc2818a974d9fdb98131b6df81b0aa3c196929d8029d23f75d9c283c35",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "6901a3c5ef10bfa9dab4d5a65fe7e2df483644c1b51739981373627f9206bc5c",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "2eb33a5b24a00530c7cde92ec7152c2fd5663aa53f27f5aa276c36d5fd795925",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "f41b10a6fa447f3ae97714cfb8b0a95fc4a23b35d97fb624f6fcda04ec172ad0",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "2c29346f94757a53f557577874b1a1c17e907192e7b0eace282adc4af38eb5af",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "4582aeddc4768845a10e562ee2ed3714ac08e6d0329c6443c08ceec33b5f00bd",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "3e82bbdf16c75210b9f2340470052617d91ea1feb48b95d2a00c362a8b824b05",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "993c41cddb8e577de228296261a92ddfe81c59558bd8cc2ddcb8bb8ca1fa01f7",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "418f28ef1a581c5137cac066902988747e41977857b8b47bb0e0282957b94a5c",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "9a6f06f2b61f04d1f53b8510cbf98e658f82479a5105156f683a7af600c67a7b",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "da9bca5c3fb9d12689aa8d37ebb95632a2441f576a5baf0e7171e56be916fe0b",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "value_refs_patched": 56,
+      "unique_translations": 40,
+      "changed_streams": [
+        6,
+        35
+      ],
+      "payload_end": "0x523b0",
+      "mdi_sha256": "2decd72ed85c56b8f3a0c0a6f5e46fdde8acbb22ba0784467df6f129791fde58",
+      "all_original_keys_font_data_and_atlas_preserved": true
+    }
+  ]
+}

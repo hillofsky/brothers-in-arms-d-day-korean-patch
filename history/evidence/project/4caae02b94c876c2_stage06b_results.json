@@ -1,0 +1,10 @@
+{
+  "pid": 30428,
+  "psp_base": "0x0000025D7FE50000",
+  "phases": {
+    "A_original_donors": "y",
+    "B_low_new_codepoints": "n",
+    "C_sorted_hangul": "n"
+  },
+  "nearby_cached_max_candidates": []
+}

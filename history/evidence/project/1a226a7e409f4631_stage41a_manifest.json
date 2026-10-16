@@ -1,0 +1,11 @@
+{
+  "stage": "41A",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "video": "FM_0115EAGLESJUMP.BIK",
+  "subtitle": "FM_0115EAGLESJUMP.ST1",
+  "translated_fields": 19,
+  "st1_size_preserved": 1482,
+  "modifies_bik": false,
+  "remaining_movie_st1_tracks_after_proof": 7
+}

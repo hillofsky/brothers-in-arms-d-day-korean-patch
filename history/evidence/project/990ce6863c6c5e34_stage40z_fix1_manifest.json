@@ -1,0 +1,14 @@
+{
+  "stage": "40Z-fix1",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "modifies_iso": false,
+  "fixes": [
+    "remove dependency on MENUINT0.RAW log marker",
+    "actively skip startup Bink/title with START",
+    "detect real main menu through Story renderer breakpoint",
+    "detect campaign through proven BIAOFF hook word",
+    "prove menu return through menu module + Story renderer"
+  ],
+  "result_success_zip": "PROJECT_ROOT\\log\\bia_stage40z_fix1_upload.zip",
+  "result_failure_zip": "PROJECT_ROOT\\log\\fail_bia_stage40z_fix1_upload.zip"
+}

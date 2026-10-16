@@ -1,0 +1,391 @@
+{
+  "step": "STEP_087",
+  "status": "COMPLETE_OFFLINE_DIAGNOSTIC_CLEANUP",
+  "root": "PROJECT_ROOT",
+  "cleanup": [
+    {
+      "target": "PROJECT_ROOT\\incoming\\STEP084_20261008_181856_011",
+      "kind": "manifest-matched old extracted package",
+      "action": "deleted_verified_duplicate",
+      "saved_bytes": 22265,
+      "file_count": 5
+    },
+    {
+      "target": "PROJECT_ROOT\\incoming\\STEP085_FIX1_20261008_184009_618",
+      "kind": "manifest-matched old extracted package",
+      "action": "deleted_verified_duplicate",
+      "saved_bytes": 118278,
+      "file_count": 10
+    },
+    {
+      "target": "PROJECT_ROOT\\incoming\\STEP086_20261008_184819_899",
+      "kind": "manifest-matched old extracted package",
+      "action": "deleted_verified_duplicate",
+      "saved_bytes": 71369,
+      "file_count": 9
+    },
+    {
+      "target": "PROJECT_ROOT\\log\\STEP_083_FIX1\\20261008_181126_131_15568\\zip_contents",
+      "kind": "duplicate ZIP staging tree",
+      "archive": "PROJECT_ROOT\\log\\bia_STEP_083_FIX1_live_font_probe_20261008_181126_131_15568.zip",
+      "action": "deleted_verified_duplicate",
+      "saved_bytes": 8896628
+    },
+    {
+      "target": "PROJECT_ROOT\\log\\STEP_083_FIX1\\20261008_181126_131_15568\\outputs\\live_psp_ram_32MiB.zlib",
+      "kind": "duplicate archived RAM dump",
+      "archive": "PROJECT_ROOT\\log\\bia_STEP_083_FIX1_live_font_probe_20261008_181126_131_15568.zip",
+      "action": "deleted_verified_duplicate",
+      "saved_bytes": 8646539
+    },
+    {
+      "target": "PROJECT_ROOT\\log\\STEP_084\\20261008_181856_309_18140\\zip_contents",
+      "kind": "duplicate ZIP staging tree",
+      "archive": "PROJECT_ROOT\\log\\bia_STEP_084_offline_font_forensics_20261008_181856_309_18140.zip",
+      "action": "deleted_verified_duplicate",
+      "saved_bytes": 219583
+    },
+    {
+      "target": "PROJECT_ROOT\\log\\STEP_085\\20261008_184010_011_7080\\zip_contents",
+      "kind": "duplicate ZIP staging tree",
+      "archive": "PROJECT_ROOT\\log\\bia_STEP_085_FIX1_native_screenshot_20261008_184010_011_7080.zip",
+      "action": "deleted_verified_duplicate",
+      "saved_bytes": 9125321
+    },
+    {
+      "target": "PROJECT_ROOT\\log\\STEP_085\\20261008_184010_011_7080\\outputs\\hotkey_ram_32MiB.zlib",
+      "kind": "duplicate archived RAM dump",
+      "archive": "PROJECT_ROOT\\log\\bia_STEP_085_FIX1_native_screenshot_20261008_184010_011_7080.zip",
+      "action": "deleted_verified_duplicate",
+      "saved_bytes": 8646620
+    },
+    {
+      "target": "PROJECT_ROOT\\log\\STEP_086\\20261008_184820_257_19016\\zip_contents",
+      "kind": "duplicate ZIP staging tree",
+      "archive": "PROJECT_ROOT\\log\\bia_STEP_086_live_read_watch_20261008_184820_257_19016.zip",
+      "action": "deleted_verified_duplicate",
+      "saved_bytes": 437356
+    }
+  ],
+  "automatic_iso_delete": false,
+  "automatic_savedata_delete": false,
+  "automatic_archive_delete": false,
+  "game_iso_writes": false,
+  "disk_before": {
+    "total_bytes": 512092008448,
+    "used_bytes": 505095278592,
+    "free_bytes": 6996729856
+  },
+  "input_archive": "PROJECT_ROOT\\log\\bia_STEP_086_live_read_watch_20261008_184820_257_19016.zip",
+  "watch_status": "WATCH_TRACE_COLLECTED_UNVERIFIED",
+  "target_hits": {
+    "mission2_utf8_source": 18093,
+    "hangul_page_index_peu": 0,
+    "mission2_fontA_glyph_pointer": 0,
+    "mission2_fontB_glyph_pointer": 0
+  },
+  "sampled_log_messages": 250,
+  "dropped_messages": 17880,
+  "top_pc_sample_only": [
+    [
+      "0x08CA04B0",
+      60
+    ],
+    [
+      "0x08E02E98",
+      20
+    ],
+    [
+      "0x089F6064",
+      20
+    ],
+    [
+      "0x089F60B0",
+      19
+    ],
+    [
+      "0x089F60C4",
+      19
+    ],
+    [
+      "0x08E02EB4",
+      15
+    ],
+    [
+      "0x08E02ED4",
+      15
+    ],
+    [
+      "0x089F6070",
+      15
+    ],
+    [
+      "0x089F607C",
+      15
+    ],
+    [
+      "0x089F56E0",
+      13
+    ],
+    [
+      "0x08E02C28",
+      12
+    ],
+    [
+      "0x08E02C44",
+      9
+    ],
+    [
+      "0x08E02C64",
+      9
+    ],
+    [
+      "0x08CA04A0",
+      2
+    ],
+    [
+      "0x08CA028C",
+      2
+    ],
+    [
+      "0x089F5F84",
+      2
+    ],
+    [
+      "0x089F626C",
+      1
+    ],
+    [
+      "0x089F6278",
+      1
+    ],
+    [
+      "0x089F628C",
+      1
+    ]
+  ],
+  "top_ra_sample_only": [
+    [
+      "0x089F5FD8",
+      88
+    ],
+    [
+      "0x08CA440C",
+      62
+    ],
+    [
+      "0x089F5FCC",
+      50
+    ],
+    [
+      "0x089F570C",
+      30
+    ],
+    [
+      "0x089F5D94",
+      12
+    ],
+    [
+      "0x089F6200",
+      4
+    ],
+    [
+      "0x08CA4F98",
+      2
+    ],
+    [
+      "0x089F6DD8",
+      2
+    ]
+  ],
+  "sampled_memory_addresses": [
+    [
+      "0x09E7B048",
+      38
+    ],
+    [
+      "0x09E7B050",
+      38
+    ],
+    [
+      "0x09E7B040",
+      36
+    ],
+    [
+      "0x09E7B044",
+      31
+    ],
+    [
+      "0x09E7B04C",
+      31
+    ],
+    [
+      "0x09E7B054",
+      29
+    ],
+    [
+      "0x09E7B058",
+      28
+    ],
+    [
+      "0x09E7B05C",
+      19
+    ]
+  ],
+  "screenshot_name": "ppsspp_native_screen_at_key1.jpg",
+  "limitations": [
+    "PC frequency is a sample capped by collector at 250 messages, not all 18093 reads.",
+    "Zero page/pointer hits only applies to chosen watch windows and addresses.",
+    "No automatic ISO or PSP RAM patch applied."
+  ],
+  "inventory_scanned_files": 6413,
+  "largest_files_no_auto_delete": [
+    {
+      "bytes": 1733099520,
+      "path": "PROJECT_ROOT\\BIA_STAGE79_COMPILED967_STRUCTURAL_TEST.iso"
+    },
+    {
+      "bytes": 1554810880,
+      "path": "PROJECT_ROOT\\BIA_STAGE43R2_TITLE_ENGLISH_PROBE.iso"
+    },
+    {
+      "bytes": 1551828992,
+      "path": "PROJECT_ROOT\\BIA_STAGE69_FIX2_NONMDI_INT92_TEST.iso"
+    },
+    {
+      "bytes": 1551828992,
+      "path": "PROJECT_ROOT\\BIA_STAGE69_FIX1_NONMDI_INT92_TEST.iso"
+    },
+    {
+      "bytes": 1551773696,
+      "path": "PROJECT_ROOT\\BIA_STAGE69_NONMDI_INT92_TEST.iso"
+    },
+    {
+      "bytes": 1551773696,
+      "path": "PROJECT_ROOT\\BIA_STAGE43T_TITLE_PROMPT_FIX.iso"
+    },
+    {
+      "bytes": 1550960640,
+      "path": "PROJECT_ROOT\\BIA_STAGE43R_TITLE_ENGLISH_PROBE.iso"
+    },
+    {
+      "bytes": 1547923456,
+      "path": "PROJECT_ROOT\\BIA_STAGE43S_TITLE_PROMPT_FIX.iso"
+    },
+    {
+      "bytes": 1547110400,
+      "path": "PROJECT_ROOT\\BIA_STAGE43Q_HINT_HEIGHT_TEST.iso"
+    },
+    {
+      "bytes": 1539059712,
+      "path": "PROJECT_ROOT\\BIA_STAGE43O_RESTART_LIFETIME_TEST.iso"
+    },
+    {
+      "bytes": 1531009024,
+      "path": "PROJECT_ROOT\\BIA_STAGE43M_CAMPAIGN_OBJECTIVE_UTF8_TEST.iso"
+    },
+    {
+      "bytes": 1531009024,
+      "path": "PROJECT_ROOT\\BIA_STAGE43L_CAMPAIGN_OBJECTIVE_UTF8_TEST.iso"
+    },
+    {
+      "bytes": 1522958336,
+      "path": "PROJECT_ROOT\\BIA_STAGE43I_CAMPAIGN_HINT_FIT_TEST.iso"
+    },
+    {
+      "bytes": 1518094336,
+      "path": "PROJECT_ROOT\\BIA_STAGE43H_CAMPAIGN_ALL_TEXT_FONTS_TEST.iso"
+    },
+    {
+      "bytes": 1513230336,
+      "path": "PROJECT_ROOT\\BIA_STAGE43G_CAMPAIGN_TEXTURE_SIZE_TEST.iso"
+    },
+    {
+      "bytes": 1508376576,
+      "path": "PROJECT_ROOT\\BIA_STAGE43F_CAMPAIGN_UTF8_SAFE_CODE_TEST.iso"
+    },
+    {
+      "bytes": 1500325888,
+      "path": "PROJECT_ROOT\\BIA_STAGE43E_CAMPAIGN_UTF8_RENDER_TEST.iso"
+    },
+    {
+      "bytes": 1500325888,
+      "path": "PROJECT_ROOT\\BIA_STAGE43D_CAMPAIGN_UFONT_EXPANSION_TEST.iso"
+    },
+    {
+      "bytes": 1495472128,
+      "path": "PROJECT_ROOT\\BIA_STAGE43A_FIRST_CAMPAIGN_KO_TEST.iso"
+    },
+    {
+      "bytes": 1490626560,
+      "path": "PROJECT_ROOT\\BIA_STAGE42H_BOOKENDS2_VALIDATION_ONLY.iso"
+    },
+    {
+      "bytes": 1490626560,
+      "path": "PROJECT_ROOT\\BIA_STAGE42H_ALL8_MOVIES_512_TEST.iso"
+    },
+    {
+      "bytes": 1490626560,
+      "path": "PROJECT_ROOT\\BIA_STAGE42G_GLOBAL_512_ATLAS_PROBE.iso"
+    },
+    {
+      "bytes": 1490626560,
+      "path": "PROJECT_ROOT\\BIA_STAGE42G_FIX3_512_DIMENSION_PATCH.iso"
+    },
+    {
+      "bytes": 1490626560,
+      "path": "PROJECT_ROOT\\BIA_STAGE42G_FIX19_PERSISTENT_512_TEST.iso"
+    },
+    {
+      "bytes": 1490626560,
+      "path": "PROJECT_ROOT\\BIA_STAGE42G_FIX12_LEGACY_COORDS_512_PROBE.iso"
+    },
+    {
+      "bytes": 1489577984,
+      "path": "PROJECT_ROOT\\BIA_STAGE42F_MULTIGLYPH_TOKEN_PROBE.iso"
+    },
+    {
+      "bytes": 1489577984,
+      "path": "PROJECT_ROOT\\BIA_STAGE42E_UTF8_HASHMAP_PROBE.iso"
+    },
+    {
+      "bytes": 1489577984,
+      "path": "PROJECT_ROOT\\BIA_STAGE42D_BOOKENDS2_KO_PROOF.iso"
+    },
+    {
+      "bytes": 1489577984,
+      "path": "PROJECT_ROOT\\BIA_STAGE42C_HIGHBYTE_KEY_PROBE.iso"
+    },
+    {
+      "bytes": 1489577984,
+      "path": "PROJECT_ROOT\\BIA_STAGE42B_HASHMAP_223_PROBE.iso"
+    },
+    {
+      "bytes": 1489577984,
+      "path": "PROJECT_ROOT\\BIA_STAGE41F_FIRST_MOVIE_FULL_KO_TEST.iso"
+    },
+    {
+      "bytes": 1489577984,
+      "path": "PROJECT_ROOT\\BIA_STAGE41E_TITLE_BAKER_SINGLEBYTE_PROOF.iso"
+    },
+    {
+      "bytes": 1489577984,
+      "path": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso"
+    },
+    {
+      "bytes": 1489575936,
+      "path": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso"
+    },
+    {
+      "bytes": 1482737664,
+      "path": "PROJECT_ROOT\\BIA_STAGE40R_CAMPAIGN_RENDERER_TEST.iso"
+    }
+  ],
+  "disk_after": {
+    "total_bytes": 512092008448,
+    "used_bytes": 505058897920,
+    "free_bytes": 7033110528
+  },
+  "bytes_deleted_verified": 36183959,
+  "deleted_count": 9
+}

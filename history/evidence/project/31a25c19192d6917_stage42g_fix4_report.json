@@ -1,0 +1,225 @@
+{
+  "stage": "42G_FIX4_RUNTIME_512_DIMENSION_PATCH",
+  "iso": "PROJECT_ROOT\\BIA_STAGE42G_GLOBAL_512_ATLAS_PROBE.iso",
+  "purpose": "Patch the decompressed BIA module in RAM at the exact RAW-loader entry, then visually retest the existing Stage42G 512x512 global atlas.",
+  "patch": {
+    "height": {
+      "address_hex": "0x0893D968",
+      "old_hex": "0x34060080",
+      "new_hex": "0x34060200"
+    },
+    "width_tbw": {
+      "address_hex": "0x0893D96C",
+      "old_hex": "0x34070100",
+      "new_hex": "0x34070200"
+    }
+  },
+  "started": "2026-10-07 11:37:05",
+  "version": {
+    "event": "version",
+    "ticket": 3001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "initial_logo": {
+    "ended": true,
+    "samples": [
+      {
+        "t": 0.0,
+        "active": false
+      },
+      {
+        "t": 0.75,
+        "active": false
+      },
+      {
+        "t": 1.49,
+        "active": true
+      },
+      {
+        "t": 2.21,
+        "active": true
+      },
+      {
+        "t": 2.94,
+        "active": true
+      },
+      {
+        "t": 3.67,
+        "active": true
+      },
+      {
+        "t": 4.4,
+        "active": true
+      },
+      {
+        "t": 5.13,
+        "active": true
+      },
+      {
+        "t": 5.88,
+        "active": true
+      },
+      {
+        "t": 6.63,
+        "active": true
+      },
+      {
+        "t": 7.36,
+        "active": true
+      },
+      {
+        "t": 8.09,
+        "active": true
+      },
+      {
+        "t": 8.81,
+        "active": true
+      },
+      {
+        "t": 9.55,
+        "active": true
+      },
+      {
+        "t": 10.28,
+        "active": true
+      },
+      {
+        "t": 11.03,
+        "active": true
+      },
+      {
+        "t": 11.8,
+        "active": false
+      }
+    ]
+  },
+  "start": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3025
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3026
+    }
+  },
+  "cross_story": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3033
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3034
+    }
+  },
+  "cross_new_game": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3041
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3042
+    }
+  },
+  "breakpoint_add": {
+    "ok": true,
+    "response": {
+      "event": "cpu.breakpoint.add",
+      "ticket": 3049
+    }
+  },
+  "cross_difficulty": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3050
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3051
+    }
+  },
+  "screenshots": [
+    {
+      "index": 0,
+      "label": "title_before_START",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "000_title_before_START_04000000_rgba8888.png",
+          "rgb565": "000_title_before_START_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "000_title_before_START_04044000_rgba8888.png",
+          "rgb565": "000_title_before_START_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "label": "story_menu",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "001_story_menu_04000000_rgba8888.png",
+          "rgb565": "001_story_menu_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "001_story_menu_04044000_rgba8888.png",
+          "rgb565": "001_story_menu_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "new_game_menu",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "002_new_game_menu_04000000_rgba8888.png",
+          "rgb565": "002_new_game_menu_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "002_new_game_menu_04044000_rgba8888.png",
+          "rgb565": "002_new_game_menu_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "difficulty_menu",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "003_difficulty_menu_04000000_rgba8888.png",
+          "rgb565": "003_difficulty_menu_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "003_difficulty_menu_04044000_rgba8888.png",
+          "rgb565": "003_difficulty_menu_04044000_rgb565.png"
+        }
+      ]
+    }
+  ],
+  "completed": false,
+  "error": "RuntimeError('Unexpected runtime dimension words: H=0x8C857CEC W=0x0E24920C')",
+  "finished": "2026-10-07 11:37:36"
+}

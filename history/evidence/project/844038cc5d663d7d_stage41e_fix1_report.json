@@ -1,0 +1,929 @@
+{
+  "stage": "41E_FIX1_VALIDATE",
+  "iso": "PROJECT_ROOT\\BIA_STAGE41E_TITLE_BAKER_SINGLEBYTE_PROOF.iso",
+  "purpose": "Validate Stage41E single-byte Korean glyph proof using actual story Bink start as movie t=0.",
+  "started": "2026-10-06 22:29:59",
+  "version": {
+    "event": "version",
+    "ticket": 3001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "auto_navigation": {
+    "logo": {
+      "ended": true,
+      "samples": [
+        {
+          "t": 0.0,
+          "active": false
+        },
+        {
+          "t": 0.75,
+          "active": true
+        },
+        {
+          "t": 1.48,
+          "active": true
+        },
+        {
+          "t": 2.2,
+          "active": true
+        },
+        {
+          "t": 2.92,
+          "active": true
+        },
+        {
+          "t": 3.65,
+          "active": true
+        },
+        {
+          "t": 4.38,
+          "active": true
+        },
+        {
+          "t": 5.11,
+          "active": true
+        },
+        {
+          "t": 5.85,
+          "active": true
+        },
+        {
+          "t": 6.59,
+          "active": true
+        },
+        {
+          "t": 7.31,
+          "active": true
+        },
+        {
+          "t": 8.03,
+          "active": true
+        },
+        {
+          "t": 8.75,
+          "active": true
+        },
+        {
+          "t": 9.47,
+          "active": true
+        },
+        {
+          "t": 10.2,
+          "active": true
+        },
+        {
+          "t": 10.94,
+          "active": true
+        },
+        {
+          "t": 11.68,
+          "active": false
+        }
+      ]
+    },
+    "frontend_route": [
+      {
+        "attempt": 1,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3019
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3020
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3021
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3022
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.43,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.85,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.27,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.69,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.12,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.55,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.98,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.4,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.84,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.26,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.69,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.12,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.55,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.98,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.41,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.83,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.26,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.69,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.12,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.55,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.98,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3045
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3046
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3047
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3048
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.3,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.73,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.16,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.59,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.3,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.73,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.15,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.58,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.86,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.29,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.72,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.15,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.57,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 9.0,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3071
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3072
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3073
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3074
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.29,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.72,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.15,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.57,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.0,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.43,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.85,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.28,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.7,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.13,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.55,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.98,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.41,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.83,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.26,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.69,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.11,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.54,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.96,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3097
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3098
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3099
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3100
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.46,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.28,
+            "word_hex": "0x0E327D1A"
+          }
+        ]
+      }
+    ],
+    "campaign_loaded": true,
+    "down_to_new_game": {
+      "down": {
+        "event": "input.buttons.send",
+        "ticket": 3105
+      },
+      "up": {
+        "event": "input.buttons.send",
+        "ticket": 3106
+      }
+    },
+    "cross_new_game": {
+      "down": {
+        "event": "input.buttons.send",
+        "ticket": 3107
+      },
+      "up": {
+        "event": "input.buttons.send",
+        "ticket": 3108
+      }
+    }
+  },
+  "pre_normal_threads": {
+    "event": "hle.thread.list",
+    "ticket": 3109,
+    "threads": [
+      {
+        "id": 272,
+        "name": "idle0",
+        "status": 2,
+        "statuses": [
+          "ready"
+        ],
+        "pc": 134217728,
+        "entry": 134217728,
+        "initialStackSize": 138407936,
+        "currentStackSize": 4096,
+        "priority": 127,
+        "waitType": 0,
+        "isCurrent": false
+      },
+      {
+        "id": 273,
+        "name": "idle1",
+        "status": 2,
+        "statuses": [
+          "ready"
+        ],
+        "pc": 134217728,
+        "entry": 134217728,
+        "initialStackSize": 138403840,
+        "currentStackSize": 4096,
+        "priority": 127,
+        "waitType": 0,
+        "isCurrent": false
+      },
+      {
+        "id": 323,
+        "name": "user_main",
+        "status": 1,
+        "statuses": [
+          "running"
+        ],
+        "pc": 142697972,
+        "entry": 142718184,
+        "initialStackSize": 167463936,
+        "currentStackSize": 307200,
+        "priority": 96,
+        "waitType": 0,
+        "isCurrent": true
+      },
+      {
+        "id": 325,
+        "name": "ExitCallbackThread",
+        "status": 4,
+        "statuses": [
+          "wait"
+        ],
+        "pc": 142717376,
+        "entry": 142717312,
+        "initialStackSize": 167771136,
+        "currentStackSize": 1024,
+        "priority": 16,
+        "waitType": 1,
+        "isCurrent": false
+      }
+    ]
+  },
+  "cross_normal": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3110
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3111
+    }
+  },
+  "story_bink_start": {
+    "ok": true,
+    "samples": [
+      {
+        "t": 0.008,
+        "active": false
+      },
+      {
+        "t": 0.166,
+        "active": false
+      },
+      {
+        "t": 0.323,
+        "active": false
+      },
+      {
+        "t": 0.48,
+        "active": false
+      },
+      {
+        "t": 0.637,
+        "active": false
+      },
+      {
+        "t": 0.795,
+        "active": false
+      },
+      {
+        "t": 0.951,
+        "active": false
+      },
+      {
+        "t": 1.108,
+        "active": false
+      },
+      {
+        "t": 1.266,
+        "active": false
+      },
+      {
+        "t": 1.423,
+        "active": false
+      },
+      {
+        "t": 1.58,
+        "active": false
+      },
+      {
+        "t": 1.737,
+        "active": false
+      },
+      {
+        "t": 1.894,
+        "active": false
+      },
+      {
+        "t": 2.05,
+        "active": false
+      },
+      {
+        "t": 2.206,
+        "active": false
+      },
+      {
+        "t": 2.363,
+        "active": false
+      },
+      {
+        "t": 2.521,
+        "active": false
+      },
+      {
+        "t": 2.68,
+        "active": false
+      },
+      {
+        "t": 2.836,
+        "active": false
+      },
+      {
+        "t": 2.995,
+        "active": true
+      }
+    ]
+  },
+  "captures": [
+    {
+      "target_t": 0.0,
+      "actual_t": 0.02907419204711914,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t00p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t00p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t00p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t00p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 2.0,
+      "actual_t": 2.143247127532959,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t02p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t02p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t02p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t02p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 5.0,
+      "actual_t": 5.150914907455444,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t05p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t05p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t05p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t05p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 10.0,
+      "actual_t": 10.231996536254883,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t10p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t10p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t10p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t10p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 12.0,
+      "actual_t": 12.106996536254883,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t12p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t12p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t12p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t12p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 13.0,
+      "actual_t": 13.115841388702393,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t13p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t13p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t13p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t13p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 13.5,
+      "actual_t": 13.599151611328125,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t13p5s_04000000_rgba8888.png",
+          "subtitleband": "movie_t13p5s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t13p5s_04044000_rgba8888.png",
+          "subtitleband": "movie_t13p5s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 14.0,
+      "actual_t": 14.099261283874512,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t14p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t14p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t14p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t14p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 14.5,
+      "actual_t": 14.639031887054443,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t14p5s_04000000_rgba8888.png",
+          "subtitleband": "movie_t14p5s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t14p5s_04044000_rgba8888.png",
+          "subtitleband": "movie_t14p5s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 15.0,
+      "actual_t": 15.121307373046875,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t15p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t15p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t15p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t15p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 15.5,
+      "actual_t": 15.615670919418335,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t15p5s_04000000_rgba8888.png",
+          "subtitleband": "movie_t15p5s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t15p5s_04044000_rgba8888.png",
+          "subtitleband": "movie_t15p5s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 16.0,
+      "actual_t": 16.114911556243896,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t16p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t16p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t16p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t16p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 16.5,
+      "actual_t": 16.624407052993774,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t16p5s_04000000_rgba8888.png",
+          "subtitleband": "movie_t16p5s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t16p5s_04044000_rgba8888.png",
+          "subtitleband": "movie_t16p5s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 17.0,
+      "actual_t": 17.11894178390503,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t17p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t17p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t17p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t17p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 18.0,
+      "actual_t": 19.088292360305786,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t18p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t18p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t18p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t18p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 20.0,
+      "actual_t": 20.177650690078735,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t20p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t20p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t20p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t20p0s_04044000_subtitleband.png"
+        }
+      ]
+    },
+    {
+      "target_t": 22.0,
+      "actual_t": 22.237592458724976,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "full": "movie_t22p0s_04000000_rgba8888.png",
+          "subtitleband": "movie_t22p0s_04000000_subtitleband.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "full": "movie_t22p0s_04044000_rgba8888.png",
+          "subtitleband": "movie_t22p0s_04044000_subtitleband.png"
+        }
+      ]
+    }
+  ],
+  "st1_title_hex": "22ee2520e8eaf45cdf2be4c021fbe02720f6e75c442d446179203031313520313934342e362e362020202020202020202020202020202020202020202020202020202020202020202020202020205e",
+  "st1_baker1_hex": "ed26293a20232f20c720bfc928e22c5c2020f12af92420a1efe92e2020202020202020202020202020202020202020202020202020202020202020202020205e",
+  "completed": true,
+  "finished": "2026-10-06 22:31:38"
+}

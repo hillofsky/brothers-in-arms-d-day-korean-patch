@@ -1,0 +1,222 @@
+{
+  "stage": "40D",
+  "purpose": "Test whether Stage40C corruption came from relocating menu strings into non-resident stream20. Patch only the three top-level menu values and relocate them into definitively-live stream23.",
+  "stage40c_diagnosis": {
+    "build_was_valid": "ON_MEMU rebuilt and ISO readback succeeded; 1675 metadata actions / 690 units were structurally applied.",
+    "renderer_font_ok": "Stage39U renderer JAL and production font remained correct (glyph_count 847, glyph_ptr 0x098F5020).",
+    "runtime_symptom": "Stage40C runtime metadata dereference for translated menu values returned Invalid address and the screenshot showed Story correct but the other visible menu lines corrupted.",
+    "allocation_problem": "Stage40C put all translated payloads in stream20 because it had the largest zero tail. Stream20 was never proven resident. Stage40D instead uses stream23, whose runtime base is exactly the live production glyph_ptr 0x098F5020.",
+    "input_bug_fixed": "Stage40C sent a second Start because the Skirmish scan failed. Stage40D sends exactly one title Start and captures that state."
+  },
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE39U_BOOT_RENDER_UTF8_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40D_LIVE_STREAM23_MENU_TEST.iso",
+  "live_stream": 23,
+  "live_stream_base": "0x098F5020",
+  "build": {
+    "original_sha1": "dea7bccb789e94f0e975a2847783820226c6cb56",
+    "patched_sha1": "4727b7af02aa203ad475ab08edcb3cd450540116",
+    "original_size": 3841142,
+    "patched_size": 3841189,
+    "changed_streams": [
+      16,
+      23
+    ],
+    "live_stream": 23,
+    "live_stream_runtime_base": "0x098F5020",
+    "allocations": [
+      {
+        "label": "Skirmish",
+        "ko": "스커미시",
+        "metadata_stream": 16,
+        "metadata_offset": 259952,
+        "source_ptr": 154868576,
+        "old_num": 9,
+        "old_max": 9,
+        "alloc_stream": 23,
+        "alloc_offset": "0xA870",
+        "alloc_runtime": "0x098FF890",
+        "encoded_hex": "ec8aa4ecbba4ebafb8ec8b9c00",
+        "new_num": 13,
+        "new_max": 13
+      },
+      {
+        "label": "Options",
+        "ko": "옵션",
+        "metadata_stream": 16,
+        "metadata_offset": 259980,
+        "source_ptr": 154868608,
+        "old_num": 8,
+        "old_max": 8,
+        "alloc_stream": 23,
+        "alloc_offset": "0xA880",
+        "alloc_runtime": "0x098FF8A0",
+        "encoded_hex": "ec98b5ec859800",
+        "new_num": 7,
+        "new_max": 7
+      },
+      {
+        "label": "Profile",
+        "ko": "프로필",
+        "metadata_stream": 16,
+        "metadata_offset": 260008,
+        "source_ptr": 154868640,
+        "old_num": 8,
+        "old_max": 8,
+        "alloc_stream": 23,
+        "alloc_offset": "0xA888",
+        "alloc_runtime": "0x098FF8A8",
+        "encoded_hex": "ed9484eba19ced958400",
+        "new_num": 10,
+        "new_max": 10
+      }
+    ],
+    "rebuild_proof": [
+      {
+        "label": "Skirmish",
+        "pointer": "0x098FF890",
+        "num": 13,
+        "max": 13,
+        "target_stream": 23,
+        "target_offset": "0xA870",
+        "value": "스커미시",
+        "ok": true
+      },
+      {
+        "label": "Options",
+        "pointer": "0x098FF8A0",
+        "num": 7,
+        "max": 7,
+        "target_stream": 23,
+        "target_offset": "0xA880",
+        "value": "옵션",
+        "ok": true
+      },
+      {
+        "label": "Profile",
+        "pointer": "0x098FF8A8",
+        "num": 10,
+        "max": 10,
+        "target_stream": 23,
+        "target_offset": "0xA888",
+        "value": "프로필",
+        "ok": true
+      }
+    ],
+    "iso_readback_ok": true
+  },
+  "runtime": {
+    "pid": 3304,
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "cpu_ready": {
+      "ready": true,
+      "attempts": 3,
+      "status": {
+        "event": "cpu.status",
+        "ticket": 1005,
+        "stepping": false,
+        "paused": false,
+        "pc": 134217728,
+        "ticks": 3640871
+      },
+      "probe": "e410330e"
+    },
+    "renderer_jal": {
+      "actual": "e410330e",
+      "expected": "e410330e"
+    },
+    "menu_resource": {
+      "opened": true,
+      "startup_start_presses": 10
+    },
+    "runtime_metadata": [
+      {
+        "label": "Skirmish",
+        "metadata_runtime": "0x095EC790",
+        "raw_hex": "000000000000000000000000",
+        "ptr": "0x00000000",
+        "num": 0,
+        "max": 0,
+        "expected_ptr": "0x098FF890",
+        "expected_num": 13,
+        "expected_max": 13,
+        "metadata_ok": false,
+        "pointer_read_ok": false,
+        "pointer_read_error": "Invalid address",
+        "ok": false
+      },
+      {
+        "label": "Options",
+        "metadata_runtime": "0x095EC7AC",
+        "raw_hex": "000000000000000000000000",
+        "ptr": "0x00000000",
+        "num": 0,
+        "max": 0,
+        "expected_ptr": "0x098FF8A0",
+        "expected_num": 7,
+        "expected_max": 7,
+        "metadata_ok": false,
+        "pointer_read_ok": false,
+        "pointer_read_error": "Invalid address",
+        "ok": false
+      },
+      {
+        "label": "Profile",
+        "metadata_runtime": "0x095EC7C8",
+        "raw_hex": "000000000000000000000000",
+        "ptr": "0x00000000",
+        "num": 0,
+        "max": 0,
+        "expected_ptr": "0x098FF8A8",
+        "expected_num": 10,
+        "expected_max": 10,
+        "metadata_ok": false,
+        "pointer_read_ok": false,
+        "pointer_read_error": "Invalid address",
+        "ok": false
+      }
+    ],
+    "menu_confirmed": {
+      "ok": true,
+      "story_utf16_addr": "0x08E416C0"
+    },
+    "label_representations": {
+      "hits": {
+        "스토리": {
+          "utf8": null,
+          "utf16le": "0x08E416C0",
+          "widened_utf8_u16": null
+        },
+        "스커미시": {
+          "utf8": null,
+          "utf16le": "0x08FF57C1",
+          "widened_utf8_u16": null
+        },
+        "옵션": {
+          "utf8": null,
+          "utf16le": "0x08E42640",
+          "widened_utf8_u16": null
+        },
+        "프로필": {
+          "utf8": null,
+          "utf16le": "0x08E425B0",
+          "widened_utf8_u16": null
+        }
+      },
+      "all_labels_have_some_representation": true
+    },
+    "font_after_menu": {
+      "glyph_count": 847,
+      "glyph_count_ok": true,
+      "glyph_ptr": "0x098F5020",
+      "glyph_ptr_ok": true
+    },
+    "screenshot": {
+      "captured": true,
+      "path": "PROJECT_ROOT\\analysis\\stage40d_live_stream23_menu\\stage40d_main_menu.png"
+    },
+    "ok": false,
+    "ppsspp_closed": true
+  },
+  "completed": false
+}

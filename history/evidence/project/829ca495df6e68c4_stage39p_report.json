@@ -1,0 +1,841 @@
+{
+  "stage": "39P",
+  "purpose": "Trace the common textured-quad draw helper directly and identify the caller that submits the visibly corrupted U+00EC sprite.",
+  "stage39o_result": "Even with CPU frozen, the recorded Stage39H VERTICES batch was not resident in main RAM or VRAM at arbitrary sampled instants. PPSSPP records raw vertex bytes at the exact PRIM event, so the buffer is too transient to locate reliably by asynchronous snapshots.",
+  "new_strategy": "Break at the game's common draw helper 0x08AF6324. Its entry receives pixel-space UV rectangle in f16..f19. Match the exact Stage39H visible sprite UV instead of trying to find the later GE vertex ring buffer.",
+  "draw_helper": "0x08AF6324",
+  "visible_first_uv": [
+    107.0,
+    0.0,
+    114.0,
+    16.0
+  ],
+  "visible_fallback_uv": [
+    75.0,
+    200.0,
+    87.0,
+    215.0
+  ],
+  "visible_fourth_uv": [
+    107.0,
+    16.0,
+    114.0,
+    32.0
+  ],
+  "known_callers": {
+    "0x089726C0": "wide_unicode_text_renderer +0x16E6C0",
+    "0x0897441C": "callsite +0x17041C",
+    "0x089F5704": "callsite +0x1F1704",
+    "0x089FA134": "callsite +0x1F6134",
+    "0x08AE908C": "callsite +0x2E508C",
+    "0x08AF7D70": "callsite +0x2F3D70",
+    "0x08B7BDE8": "callsite +0x377DE8",
+    "0x08BD5B54": "callsite +0x3D1B54"
+  },
+  "iso_patch": false,
+  "runtime_patch": false,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "menu_resource_open": {
+    "opened": true,
+    "start_presses": 9
+  },
+  "source_resident": {
+    "display1": "ec8aa4ed86a0eba6ac00000000000000",
+    "display2": "ec8aa4ed86a0eba6ac00000000000000",
+    "meta1": [
+      "0x093B1B40",
+      10,
+      10
+    ],
+    "meta2": [
+      "0x093B1BF0",
+      10,
+      10
+    ],
+    "ok": true
+  },
+  "main_menu_start_sent": true,
+  "first_visible_trace": {
+    "matched": false,
+    "hits_seen": 177,
+    "caller_histogram": {
+      "0x089726C0 wide_unicode_text_renderer +0x16E6C0": 154,
+      "0x0897441C callsite +0x17041C": 23
+    },
+    "caller_first_samples": {
+      "0x0897441C callsite +0x17041C": {
+        "ra": "0x0897441C",
+        "caller": "callsite +0x17041C",
+        "uv": [
+          486.399994,
+          230.399994,
+          501.759979,
+          235.519989
+        ],
+        "xy": [
+          0.0,
+          0.0,
+          480.0,
+          272.0
+        ],
+        "uv_first_distance": 1217.079956,
+        "uv_fallback_distance": 877.0799559999999,
+        "uv_fourth_distance": 1185.079956,
+        "xy_first_distance": 729.0,
+        "texture_object_a1": "0x095E1840",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9B34"
+      },
+      "0x089726C0 wide_unicode_text_renderer +0x16E6C0": {
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          128.5,
+          384.5,
+          145.5,
+          400.5
+        ],
+        "xy": [
+          151.0,
+          177.0,
+          151.0,
+          177.0
+        ],
+        "uv_first_distance": 822.0,
+        "uv_fallback_distance": 482.0,
+        "uv_fourth_distance": 790.0,
+        "xy_first_distance": 243.0,
+        "texture_object_a1": "0x095E21C0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF99B4"
+      }
+    },
+    "nearest": [
+      {
+        "hit_index": 12,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          0.5,
+          64.5,
+          14.5
+        ],
+        "xy": [
+          165.5,
+          212.166672,
+          175.5,
+          223.0
+        ],
+        "uv_first_distance": 107.0,
+        "uv_fallback_distance": 446.0,
+        "uv_fourth_distance": 138.0,
+        "xy_first_distance": 286.166672,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 37,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          0.5,
+          64.5,
+          14.5
+        ],
+        "xy": [
+          165.5,
+          212.166672,
+          175.5,
+          223.0
+        ],
+        "uv_first_distance": 107.0,
+        "uv_fallback_distance": 446.0,
+        "uv_fourth_distance": 138.0,
+        "xy_first_distance": 286.166672,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 62,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          0.5,
+          64.5,
+          14.5
+        ],
+        "xy": [
+          165.5,
+          212.166672,
+          175.5,
+          223.0
+        ],
+        "uv_first_distance": 107.0,
+        "uv_fallback_distance": 446.0,
+        "uv_fourth_distance": 138.0,
+        "xy_first_distance": 286.166672,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 87,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          0.5,
+          64.5,
+          14.5
+        ],
+        "xy": [
+          165.5,
+          212.166672,
+          175.5,
+          223.0
+        ],
+        "uv_first_distance": 107.0,
+        "uv_fallback_distance": 446.0,
+        "uv_fourth_distance": 138.0,
+        "xy_first_distance": 286.166672,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 112,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          0.5,
+          64.5,
+          14.5
+        ],
+        "xy": [
+          165.5,
+          212.166672,
+          175.5,
+          223.0
+        ],
+        "uv_first_distance": 107.0,
+        "uv_fallback_distance": 446.0,
+        "uv_fourth_distance": 138.0,
+        "xy_first_distance": 286.166672,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 137,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          0.5,
+          64.5,
+          14.5
+        ],
+        "xy": [
+          165.5,
+          212.166672,
+          175.5,
+          223.0
+        ],
+        "uv_first_distance": 107.0,
+        "uv_fallback_distance": 446.0,
+        "uv_fourth_distance": 138.0,
+        "xy_first_distance": 286.166672,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 162,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          0.5,
+          64.5,
+          14.5
+        ],
+        "xy": [
+          165.5,
+          212.166672,
+          175.5,
+          223.0
+        ],
+        "uv_first_distance": 107.0,
+        "uv_fallback_distance": 446.0,
+        "uv_fourth_distance": 138.0,
+        "xy_first_distance": 286.166672,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 25,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          14.5,
+          64.5,
+          28.5
+        ],
+        "xy": [
+          330.5,
+          212.166672,
+          340.5,
+          223.0
+        ],
+        "uv_first_distance": 132.0,
+        "uv_fallback_distance": 418.0,
+        "uv_fourth_distance": 110.0,
+        "xy_first_distance": 609.1666720000001,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 50,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          14.5,
+          64.5,
+          28.5
+        ],
+        "xy": [
+          330.5,
+          212.166672,
+          340.5,
+          223.0
+        ],
+        "uv_first_distance": 132.0,
+        "uv_fallback_distance": 418.0,
+        "uv_fourth_distance": 110.0,
+        "xy_first_distance": 609.1666720000001,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 75,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          14.5,
+          64.5,
+          28.5
+        ],
+        "xy": [
+          330.5,
+          212.166672,
+          340.5,
+          223.0
+        ],
+        "uv_first_distance": 132.0,
+        "uv_fallback_distance": 418.0,
+        "uv_fourth_distance": 110.0,
+        "xy_first_distance": 609.1666720000001,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 100,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          14.5,
+          64.5,
+          28.5
+        ],
+        "xy": [
+          330.5,
+          212.166672,
+          340.5,
+          223.0
+        ],
+        "uv_first_distance": 132.0,
+        "uv_fallback_distance": 418.0,
+        "uv_fourth_distance": 110.0,
+        "xy_first_distance": 609.1666720000001,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 125,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          14.5,
+          64.5,
+          28.5
+        ],
+        "xy": [
+          330.5,
+          212.166672,
+          340.5,
+          223.0
+        ],
+        "uv_first_distance": 132.0,
+        "uv_fallback_distance": 418.0,
+        "uv_fourth_distance": 110.0,
+        "xy_first_distance": 609.1666720000001,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 150,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          14.5,
+          64.5,
+          28.5
+        ],
+        "xy": [
+          330.5,
+          212.166672,
+          340.5,
+          223.0
+        ],
+        "uv_first_distance": 132.0,
+        "uv_fallback_distance": 418.0,
+        "uv_fourth_distance": 110.0,
+        "xy_first_distance": 609.1666720000001,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 175,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          51.5,
+          14.5,
+          64.5,
+          28.5
+        ],
+        "xy": [
+          330.5,
+          212.166672,
+          340.5,
+          223.0
+        ],
+        "uv_first_distance": 132.0,
+        "uv_fallback_distance": 418.0,
+        "uv_fourth_distance": 110.0,
+        "xy_first_distance": 609.1666720000001,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 2,
+        "ra": "0x0897441C",
+        "caller": "callsite +0x17041C",
+        "uv": [
+          0.0,
+          0.0,
+          64.0,
+          64.0
+        ],
+        "xy": [
+          0.0,
+          0.0,
+          480.0,
+          272.0
+        ],
+        "uv_first_distance": 205.0,
+        "uv_fallback_distance": 449.0,
+        "uv_fourth_distance": 205.0,
+        "xy_first_distance": 729.0,
+        "texture_object_a1": "0x091F7D20",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9B34"
+      },
+      {
+        "hit_index": 27,
+        "ra": "0x0897441C",
+        "caller": "callsite +0x17041C",
+        "uv": [
+          0.0,
+          0.0,
+          64.0,
+          64.0
+        ],
+        "xy": [
+          0.0,
+          0.0,
+          480.0,
+          272.0
+        ],
+        "uv_first_distance": 205.0,
+        "uv_fallback_distance": 449.0,
+        "uv_fourth_distance": 205.0,
+        "xy_first_distance": 729.0,
+        "texture_object_a1": "0x091F7D20",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9B34"
+      },
+      {
+        "hit_index": 52,
+        "ra": "0x0897441C",
+        "caller": "callsite +0x17041C",
+        "uv": [
+          0.0,
+          0.0,
+          64.0,
+          64.0
+        ],
+        "xy": [
+          0.0,
+          0.0,
+          480.0,
+          272.0
+        ],
+        "uv_first_distance": 205.0,
+        "uv_fallback_distance": 449.0,
+        "uv_fourth_distance": 205.0,
+        "xy_first_distance": 729.0,
+        "texture_object_a1": "0x091F7D20",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9B34"
+      },
+      {
+        "hit_index": 77,
+        "ra": "0x0897441C",
+        "caller": "callsite +0x17041C",
+        "uv": [
+          0.0,
+          0.0,
+          64.0,
+          64.0
+        ],
+        "xy": [
+          0.0,
+          0.0,
+          480.0,
+          272.0
+        ],
+        "uv_first_distance": 205.0,
+        "uv_fallback_distance": 449.0,
+        "uv_fourth_distance": 205.0,
+        "xy_first_distance": 729.0,
+        "texture_object_a1": "0x091F7D20",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9B34"
+      },
+      {
+        "hit_index": 102,
+        "ra": "0x0897441C",
+        "caller": "callsite +0x17041C",
+        "uv": [
+          0.0,
+          0.0,
+          64.0,
+          64.0
+        ],
+        "xy": [
+          0.0,
+          0.0,
+          480.0,
+          272.0
+        ],
+        "uv_first_distance": 205.0,
+        "uv_fallback_distance": 449.0,
+        "uv_fourth_distance": 205.0,
+        "xy_first_distance": 729.0,
+        "texture_object_a1": "0x091F7D20",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9B34"
+      },
+      {
+        "hit_index": 127,
+        "ra": "0x0897441C",
+        "caller": "callsite +0x17041C",
+        "uv": [
+          0.0,
+          0.0,
+          64.0,
+          64.0
+        ],
+        "xy": [
+          0.0,
+          0.0,
+          480.0,
+          272.0
+        ],
+        "uv_first_distance": 205.0,
+        "uv_fallback_distance": 449.0,
+        "uv_fourth_distance": 205.0,
+        "xy_first_distance": 729.0,
+        "texture_object_a1": "0x091F7D20",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9B34"
+      },
+      {
+        "hit_index": 152,
+        "ra": "0x0897441C",
+        "caller": "callsite +0x17041C",
+        "uv": [
+          0.0,
+          0.0,
+          64.0,
+          64.0
+        ],
+        "xy": [
+          0.0,
+          0.0,
+          480.0,
+          272.0
+        ],
+        "uv_first_distance": 205.0,
+        "uv_fallback_distance": 449.0,
+        "uv_fourth_distance": 205.0,
+        "xy_first_distance": 729.0,
+        "texture_object_a1": "0x091F7D20",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9B34"
+      },
+      {
+        "hit_index": 177,
+        "ra": "0x0897441C",
+        "caller": "callsite +0x17041C",
+        "uv": [
+          0.0,
+          0.0,
+          64.0,
+          64.0
+        ],
+        "xy": [
+          0.0,
+          0.0,
+          480.0,
+          272.0
+        ],
+        "uv_first_distance": 205.0,
+        "uv_fallback_distance": 449.0,
+        "uv_fourth_distance": 205.0,
+        "xy_first_distance": 729.0,
+        "texture_object_a1": "0x091F7D20",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9B34"
+      },
+      {
+        "hit_index": 16,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          20.5,
+          43.5,
+          35.5,
+          62.5
+        ],
+        "xy": [
+          218.833328,
+          208.0,
+          230.5,
+          223.0
+        ],
+        "uv_first_distance": 255.0,
+        "uv_fallback_distance": 415.0,
+        "uv_fourth_distance": 223.0,
+        "xy_first_distance": 383.333328,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 19,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          20.5,
+          43.5,
+          35.5,
+          62.5
+        ],
+        "xy": [
+          260.5,
+          208.0,
+          272.166687,
+          223.0
+        ],
+        "uv_first_distance": 255.0,
+        "uv_fallback_distance": 415.0,
+        "uv_fourth_distance": 223.0,
+        "xy_first_distance": 466.666687,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 41,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          20.5,
+          43.5,
+          35.5,
+          62.5
+        ],
+        "xy": [
+          218.833328,
+          208.0,
+          230.5,
+          223.0
+        ],
+        "uv_first_distance": 255.0,
+        "uv_fallback_distance": 415.0,
+        "uv_fourth_distance": 223.0,
+        "xy_first_distance": 383.333328,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 44,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          20.5,
+          43.5,
+          35.5,
+          62.5
+        ],
+        "xy": [
+          260.5,
+          208.0,
+          272.166687,
+          223.0
+        ],
+        "uv_first_distance": 255.0,
+        "uv_fallback_distance": 415.0,
+        "uv_fourth_distance": 223.0,
+        "xy_first_distance": 466.666687,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 66,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          20.5,
+          43.5,
+          35.5,
+          62.5
+        ],
+        "xy": [
+          218.833328,
+          208.0,
+          230.5,
+          223.0
+        ],
+        "uv_first_distance": 255.0,
+        "uv_fallback_distance": 415.0,
+        "uv_fourth_distance": 223.0,
+        "xy_first_distance": 383.333328,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 69,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          20.5,
+          43.5,
+          35.5,
+          62.5
+        ],
+        "xy": [
+          260.5,
+          208.0,
+          272.166687,
+          223.0
+        ],
+        "uv_first_distance": 255.0,
+        "uv_fallback_distance": 415.0,
+        "uv_fourth_distance": 223.0,
+        "xy_first_distance": 466.666687,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 91,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          20.5,
+          43.5,
+          35.5,
+          62.5
+        ],
+        "xy": [
+          218.833328,
+          208.0,
+          230.5,
+          223.0
+        ],
+        "uv_first_distance": 255.0,
+        "uv_fallback_distance": 415.0,
+        "uv_fourth_distance": 223.0,
+        "xy_first_distance": 383.333328,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      },
+      {
+        "hit_index": 94,
+        "ra": "0x089726C0",
+        "caller": "wide_unicode_text_renderer +0x16E6C0",
+        "uv": [
+          20.5,
+          43.5,
+          35.5,
+          62.5
+        ],
+        "xy": [
+          260.5,
+          208.0,
+          272.166687,
+          223.0
+        ],
+        "uv_first_distance": 255.0,
+        "uv_fallback_distance": 415.0,
+        "uv_fourth_distance": 223.0,
+        "xy_first_distance": 466.666687,
+        "texture_object_a1": "0x095E22F0",
+        "render_context_a0": "0x08E4D6D0",
+        "color_ptr_a2": "0x09FF9A24"
+      }
+    ]
+  },
+  "completed": false,
+  "runtime_exception": "No draw-helper call matched visible UV (107,0)-(114,16)",
+  "runtime_traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\bia_stage39p_tools\\bia_stage39p_draw_helper_trace.py\", line 856, in main\n    raise RuntimeError(\nRuntimeError: No draw-helper call matched visible UV (107,0)-(114,16)\n",
+  "ppsspp_closed": true
+}

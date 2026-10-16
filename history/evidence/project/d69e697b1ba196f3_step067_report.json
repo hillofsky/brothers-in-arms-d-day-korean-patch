@@ -1,0 +1,25 @@
+{
+  "step": "STEP_067",
+  "status": "VERIFIED",
+  "input_unresolved_ids": 198,
+  "mdi_key_hits": 46623,
+  "ids_with_mdi_key_evidence": 132,
+  "iso_raw_hits": 451,
+  "ids_with_raw_int_hit": 198,
+  "ids_with_raw_non_int_hit": 23,
+  "ids_with_raw_movieish_hit": 6,
+  "history_files_with_hits": 207,
+  "ids_with_history_evidence": 198,
+  "ids_with_movie_history_evidence": 72,
+  "classification_counts": {
+    "MOVIE_SUBTITLE_EVIDENCE": 72,
+    "MDI_KEY_REFERENCE_BUT_VALUE_EXTERNAL": 78,
+    "INT_RAW_ONLY": 33,
+    "RAW_NON_INT_ASSET": 15
+  },
+  "movie_related_files_in_project": 1074,
+  "movie_evidence_files_copied": 3,
+  "iso_modified": false,
+  "movie_validation_resumed": false,
+  "next_phase": "RECONCILE_MOVIE_ALREADY_APPLIED_AND_NON_MDI_LOCALIZATION_CLASSES"
+}

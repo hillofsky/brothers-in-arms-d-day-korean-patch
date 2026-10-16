@@ -1,0 +1,53 @@
+{
+  "stage": "39M",
+  "purpose": "Locate the actual Stage39H main-menu vertex buffer in PSP RAM using the recorded GPU vertex bytes, then break on the exact write that regenerates the first visible corrupted label sprite.",
+  "stage39l_result": {
+    "wide_renderer": "Confirmed. Actual renderer uses font object 0x0972385C, glyph_ptr 0x098F5020 and production record for U+C2A4.",
+    "old_glyph_array_visible_hypothesis": "Not supported; old and new glyph135/136 UV watches did not produce a non-loader renderer hit.",
+    "implication": "The visible corrupted label must be traced from the generated GPU vertex stream rather than inferred from font-array reads."
+  },
+  "reference_vertices": {
+    "bytes": 1984,
+    "sha1": "e1c87ada5beaee44f68e1f4e5f1f1037eaaa3ad7",
+    "source": "Stage39H PPDMP entry38, texture 0x0987D020, PRIM count 124",
+    "first_visible_sprite": "UV (107,0)-(114,16), XY (169,68)-(175,85)"
+  },
+  "iso_patch": false,
+  "runtime_patch": false,
+  "process": {
+    "pid": 28772,
+    "base": "0x1DFEF350000"
+  },
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "menu_resource_open": {
+    "opened": true,
+    "start_presses": 10
+  },
+  "source_resident": {
+    "display1": "ec8aa4ed86a0eba6ac00000000000000",
+    "display2": "ec8aa4ed86a0eba6ac00000000000000",
+    "meta1": [
+      "0x093B1B40",
+      10,
+      10
+    ],
+    "meta2": [
+      "0x093B1BF0",
+      10,
+      10
+    ],
+    "ok": true
+  },
+  "main_menu_start_sent": true,
+  "vertex_buffer_search": {
+    "method": "prefix8",
+    "candidate_count": 0,
+    "candidates": [],
+    "best": null
+  },
+  "runtime_exception": "Could not locate Stage39H main-menu vertex signature in guest RAM",
+  "runtime_traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\bia_stage39m_tools\\bia_stage39m_visible_vertex_writer.py\", line 656, in main\n    raise RuntimeError(\nRuntimeError: Could not locate Stage39H main-menu vertex signature in guest RAM\n",
+  "completed": false,
+  "ppsspp_closed": true
+}

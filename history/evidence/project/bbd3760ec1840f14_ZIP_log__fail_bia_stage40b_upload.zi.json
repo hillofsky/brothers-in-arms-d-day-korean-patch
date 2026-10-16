@@ -1,0 +1,7483 @@
+{
+  "stage": "40B",
+  "purpose": "High-confidence A-priority mass insertion across compiled MDI assets, preserving the Stage39U renderer/font baseline.",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE39U_BOOT_RENDER_UTF8_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40B_A_MASS_TEST.iso",
+  "translation_units": 1082,
+  "unique_hangul": 696,
+  "uppercase_conflict_count": 0,
+  "strategy": {
+    "narrow": "Exact-case English source + matching ptr/Num/Max metadata -> relocate Korean UTF-8 into trailing-zero stream padding and repoint metadata. Original source/key bytes remain untouched.",
+    "utf16": "Unique case-insensitive English match. If ptr/Num/Max metadata exists, relocate proper Korean UTF-16. Otherwise patch only when the original field plus adjacent UTF-16 NUL padding fits.",
+    "allocator": "Only trailing all-zero padding inside existing decoded MDI stream lengths; no stream growth and no overwrite of nonzero data."
+  },
+  "mdi_files_scanned": 57,
+  "per_mdi": [
+    {
+      "mdi": "D07_1501.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        28,
+        29
+      ],
+      "matched_unit_count": 684,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1714,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x110C0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 421632
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        },
+        {
+          "stream": 21,
+          "start": "0x76830",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 6032
+        }
+      ]
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        19,
+        20,
+        28,
+        29
+      ],
+      "matched_unit_count": 600,
+      "patched_unit_count": 27,
+      "action_count": 76,
+      "skip_count": 1554,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x20D10",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 357040
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        19,
+        26,
+        29
+      ],
+      "matched_unit_count": 682,
+      "patched_unit_count": 27,
+      "action_count": 75,
+      "skip_count": 1699,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x3EAB0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 234768
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D0_0130_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        19,
+        21,
+        27,
+        30
+      ],
+      "matched_unit_count": 700,
+      "patched_unit_count": 28,
+      "action_count": 76,
+      "skip_count": 1808,
+      "allocator": [
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x33C30",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 279440
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        18,
+        27,
+        28
+      ],
+      "matched_unit_count": 675,
+      "patched_unit_count": 28,
+      "action_count": 75,
+      "skip_count": 1687,
+      "allocator": [
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x25BD0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 336880
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        19,
+        20,
+        29
+      ],
+      "matched_unit_count": 677,
+      "patched_unit_count": 27,
+      "action_count": 75,
+      "skip_count": 1757,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x4AE50",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 184688
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        19,
+        26,
+        29
+      ],
+      "matched_unit_count": 681,
+      "patched_unit_count": 27,
+      "action_count": 75,
+      "skip_count": 1747,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 29,
+          "start": "0x52080",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 155456
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 26,
+          "start": "0x71138",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 28296
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        26
+      ],
+      "matched_unit_count": 677,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1608,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 26,
+          "start": "0x620A0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 89888
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 21,
+          "start": "0x70338",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 31880
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        28
+      ],
+      "matched_unit_count": 559,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1405,
+      "allocator": [
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 28,
+          "start": "0x6F9A0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 34336
+        },
+        {
+          "stream": 21,
+          "start": "0x6F9C8",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 34296
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        28
+      ],
+      "matched_unit_count": 505,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1316,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0xCB0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 488208
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 28,
+          "start": "0x68F80",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 61504
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        23,
+        28
+      ],
+      "matched_unit_count": 704,
+      "patched_unit_count": 26,
+      "action_count": 74,
+      "skip_count": 1708,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x43C0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 474112
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 28,
+          "start": "0x6C690",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 47408
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        },
+        {
+          "stream": 23,
+          "start": "0x77A70",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1360
+        }
+      ]
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        18,
+        28
+      ],
+      "matched_unit_count": 674,
+      "patched_unit_count": 26,
+      "action_count": 74,
+      "skip_count": 1675,
+      "allocator": [
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 28,
+          "start": "0x4E220",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 171424
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        },
+        {
+          "stream": 27,
+          "start": "0x76210",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 7600
+        },
+        {
+          "stream": 22,
+          "start": "0x76EF8",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 4296
+        }
+      ]
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        19,
+        20,
+        29
+      ],
+      "matched_unit_count": 679,
+      "patched_unit_count": 27,
+      "action_count": 75,
+      "skip_count": 1767,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 29,
+          "start": "0x50C20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 160672
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        28,
+        29
+      ],
+      "matched_unit_count": 683,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1653,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x1A8B0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 382736
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        18,
+        19,
+        27,
+        28
+      ],
+      "matched_unit_count": 680,
+      "patched_unit_count": 27,
+      "action_count": 75,
+      "skip_count": 1756,
+      "allocator": [
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x1ACE0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 381664
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        },
+        {
+          "stream": 20,
+          "start": "0x77890",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1840
+        }
+      ]
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        28
+      ],
+      "matched_unit_count": 682,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1680,
+      "allocator": [
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 28,
+          "start": "0x62590",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 88624
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        29
+      ],
+      "matched_unit_count": 656,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1674,
+      "allocator": [
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x44150",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 212592
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        26
+      ],
+      "matched_unit_count": 681,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1814,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x8DF0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 455120
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 26,
+          "start": "0x710B8",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 28424
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        23,
+        26,
+        28
+      ],
+      "matched_unit_count": 679,
+      "patched_unit_count": 26,
+      "action_count": 75,
+      "skip_count": 1628,
+      "allocator": [
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 28,
+          "start": "0x629E0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 87520
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 22,
+          "start": "0x70250",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 32112
+        },
+        {
+          "stream": 27,
+          "start": "0x713F8",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 27592
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        4,
+        27
+      ],
+      "matched_unit_count": 676,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1629,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x3F190",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 233008
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 26,
+          "start": "0x719B0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 26128
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "ON_MEMU_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20
+      ],
+      "matched_unit_count": 698,
+      "patched_unit_count": 690,
+      "action_count": 1675,
+      "skip_count": 118,
+      "allocator": [
+        {
+          "stream": 20,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22773,
+          "capacity": 491392
+        },
+        {
+          "stream": 21,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 24,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 25,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 40,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 41,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 43,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 23,
+          "start": "0xA870",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 448336
+        },
+        {
+          "stream": 22,
+          "start": "0x1EE24",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 364956
+        },
+        {
+          "stream": 19,
+          "start": "0x45790",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 206896
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        },
+        {
+          "stream": 15,
+          "start": "0x77B70",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1104
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        25,
+        26
+      ],
+      "matched_unit_count": 668,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1584,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x13230",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 413072
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        19,
+        21,
+        26,
+        27,
+        28
+      ],
+      "matched_unit_count": 695,
+      "patched_unit_count": 27,
+      "action_count": 76,
+      "skip_count": 1682,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 7,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x1A760",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 383072
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        26
+      ],
+      "matched_unit_count": 669,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1562,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x3C3D0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 244720
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        18,
+        19,
+        20,
+        26
+      ],
+      "matched_unit_count": 706,
+      "patched_unit_count": 27,
+      "action_count": 76,
+      "skip_count": 1705,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x6DB0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 463376
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 22,
+          "start": "0x6CAB0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 46352
+        },
+        {
+          "stream": 26,
+          "start": "0x6FA00",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 34240
+        },
+        {
+          "stream": 25,
+          "start": "0x72938",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 22152
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        26
+      ],
+      "matched_unit_count": 707,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1682,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x4700",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 473280
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 26,
+          "start": "0x6D318",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 44200
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        20,
+        25,
+        26
+      ],
+      "matched_unit_count": 675,
+      "patched_unit_count": 27,
+      "action_count": 74,
+      "skip_count": 1566,
+      "allocator": [
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 10,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 25,
+          "start": "0x63E30",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 82320
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_CHUR_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        23,
+        25,
+        26
+      ],
+      "matched_unit_count": 701,
+      "patched_unit_count": 695,
+      "action_count": 1695,
+      "skip_count": 83,
+      "allocator": [
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22489,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 25,
+          "start": "0x706F0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 30928
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_CHUR_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        23,
+        25,
+        26,
+        27
+      ],
+      "matched_unit_count": 701,
+      "patched_unit_count": 695,
+      "action_count": 1699,
+      "skip_count": 95,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22489,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x1D210",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 372144
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_CITY_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_unit_count": 699,
+      "patched_unit_count": 693,
+      "action_count": 1721,
+      "skip_count": 90,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22437,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 26,
+          "start": "0x70150",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 32368
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_CITY_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        26,
+        28
+      ],
+      "matched_unit_count": 699,
+      "patched_unit_count": 693,
+      "action_count": 1721,
+      "skip_count": 104,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22449,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0xD1C0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 437760
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 26,
+          "start": "0x75B90",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 9264
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_DDAY_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_unit_count": 702,
+      "patched_unit_count": 696,
+      "action_count": 1697,
+      "skip_count": 83,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22553,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x204D0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 359152
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_DDAY_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_unit_count": 701,
+      "patched_unit_count": 695,
+      "action_count": 1696,
+      "skip_count": 96,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22517,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 26,
+          "start": "0x34FE0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 274400
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 25,
+          "start": "0x5F570",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 100944
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_HAML_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        26,
+        27
+      ],
+      "matched_unit_count": 699,
+      "patched_unit_count": 693,
+      "action_count": 1694,
+      "skip_count": 89,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22481,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 26,
+          "start": "0x5CB30",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 111760
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_HAML_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        26,
+        27
+      ],
+      "matched_unit_count": 699,
+      "patched_unit_count": 693,
+      "action_count": 1702,
+      "skip_count": 101,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22481,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 26,
+          "start": "0x71630",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 27024
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_HOLD_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_unit_count": 682,
+      "patched_unit_count": 674,
+      "action_count": 1660,
+      "skip_count": 84,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22133,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 26,
+          "start": "0x59470",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 125776
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_HOLD_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        24,
+        26,
+        27
+      ],
+      "matched_unit_count": 682,
+      "patched_unit_count": 674,
+      "action_count": 1663,
+      "skip_count": 96,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22133,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 26,
+          "start": "0x6E2B0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 40208
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_WARE_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        23,
+        24,
+        25,
+        26
+      ],
+      "matched_unit_count": 693,
+      "patched_unit_count": 687,
+      "action_count": 1682,
+      "skip_count": 82,
+      "allocator": [
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22377,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 25,
+          "start": "0x28AF0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 324816
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 23,
+          "start": "0x779EC",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1492
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_DE_WARE_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        23,
+        24,
+        25,
+        26
+      ],
+      "matched_unit_count": 696,
+      "patched_unit_count": 690,
+      "action_count": 1691,
+      "skip_count": 96,
+      "allocator": [
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22453,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 25,
+          "start": "0x3D640",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 240000
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_BROK_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26
+      ],
+      "matched_unit_count": 680,
+      "patched_unit_count": 672,
+      "action_count": 1687,
+      "skip_count": 82,
+      "allocator": [
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22077,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 25,
+          "start": "0x55B50",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 140400
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_BROK_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26
+      ],
+      "matched_unit_count": 680,
+      "patched_unit_count": 672,
+      "action_count": 1669,
+      "skip_count": 93,
+      "allocator": [
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22077,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 25,
+          "start": "0x6AA10",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 54704
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 23,
+          "start": "0x74C60",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 13152
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_BUNK_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25,
+        26,
+        28
+      ],
+      "matched_unit_count": 699,
+      "patched_unit_count": 693,
+      "action_count": 1761,
+      "skip_count": 87,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22465,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0xEA30",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 431504
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 26,
+          "start": "0x775D0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 2544
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_BUNK_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "matched_unit_count": 698,
+      "patched_unit_count": 692,
+      "action_count": 1791,
+      "skip_count": 100,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22433,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x23940",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 345728
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_CROS_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        24,
+        26,
+        27
+      ],
+      "matched_unit_count": 701,
+      "patched_unit_count": 695,
+      "action_count": 1754,
+      "skip_count": 84,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22553,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 26,
+          "start": "0x407F0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 227280
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_CROS_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        24,
+        26,
+        27
+      ],
+      "matched_unit_count": 701,
+      "patched_unit_count": 695,
+      "action_count": 1743,
+      "skip_count": 97,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22553,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 26,
+          "start": "0x55600",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 141760
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_RAIL_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        22,
+        24,
+        25,
+        26
+      ],
+      "matched_unit_count": 682,
+      "patched_unit_count": 674,
+      "action_count": 1676,
+      "skip_count": 81,
+      "allocator": [
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22125,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 25,
+          "start": "0x75680",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 10560
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_RAIL_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        22,
+        25,
+        26,
+        27
+      ],
+      "matched_unit_count": 682,
+      "patched_unit_count": 674,
+      "action_count": 1696,
+      "skip_count": 93,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22125,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x12570",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 416336
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 24,
+          "start": "0x72E50",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 20848
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_SNIP_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26
+      ],
+      "matched_unit_count": 679,
+      "patched_unit_count": 671,
+      "action_count": 1723,
+      "skip_count": 81,
+      "allocator": [
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 21997,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 25,
+          "start": "0x67080",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 69440
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 23,
+          "start": "0x770A0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 3872
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_SNIP_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        25,
+        27
+      ],
+      "matched_unit_count": 681,
+      "patched_unit_count": 673,
+      "action_count": 1730,
+      "skip_count": 93,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22097,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x3C50",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 476016
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 25,
+          "start": "0x6C730",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 47248
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_TAKI_C_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26
+      ],
+      "matched_unit_count": 681,
+      "patched_unit_count": 673,
+      "action_count": 1666,
+      "skip_count": 84,
+      "allocator": [
+        {
+          "stream": 26,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22057,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 25,
+          "start": "0x66330",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 72848
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_O_US_TAKI_S_O.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 50,
+      "changed_streams": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        25,
+        27
+      ],
+      "matched_unit_count": 682,
+      "patched_unit_count": 674,
+      "action_count": 1664,
+      "skip_count": 94,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 22101,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x2FE0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 479200
+        },
+        {
+          "stream": 42,
+          "start": "0x2DE20",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 303520
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 38,
+          "start": "0x467A8",
+          "end": "0x69AC4",
+          "used": 0,
+          "capacity": 144156
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x207B0",
+          "used": 0,
+          "capacity": 132976
+        },
+        {
+          "stream": 25,
+          "start": "0x6BA00",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 50624
+        },
+        {
+          "stream": 49,
+          "start": "0x180",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15936
+        },
+        {
+          "stream": 2,
+          "start": "0x77B38",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 1160
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        18,
+        25
+      ],
+      "matched_unit_count": 676,
+      "patched_unit_count": 27,
+      "action_count": 74,
+      "skip_count": 1598,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x9C90",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 451376
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 25,
+          "start": "0x72940",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 22144
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        27
+      ],
+      "matched_unit_count": 665,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1659,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x3E9C0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 235008
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        18,
+        26,
+        28
+      ],
+      "matched_unit_count": 671,
+      "patched_unit_count": 27,
+      "action_count": 74,
+      "skip_count": 1630,
+      "allocator": [
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 7,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 27,
+          "start": "0x3CE0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 475872
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 26,
+          "start": "0x6C920",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 46752
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        26
+      ],
+      "matched_unit_count": 700,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1692,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x37040",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 266112
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 25,
+          "start": "0x738A0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 18208
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        25,
+        26
+      ],
+      "matched_unit_count": 703,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1754,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0x13080",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 413504
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 21,
+          "start": "0x684E0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 64224
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        }
+      ]
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "skipped": false,
+      "changed": true,
+      "stream_count": 42,
+      "changed_streams": [
+        0,
+        4,
+        25
+      ],
+      "matched_unit_count": 697,
+      "patched_unit_count": 26,
+      "action_count": 73,
+      "skip_count": 1646,
+      "allocator": [
+        {
+          "stream": 27,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 28,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 29,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 30,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 31,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 32,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 33,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 34,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 35,
+          "start": "0x40",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 491392
+        },
+        {
+          "stream": 26,
+          "start": "0xD5B0",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 436752
+        },
+        {
+          "stream": 1,
+          "start": "0x4DE5C",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 172388
+        },
+        {
+          "stream": 0,
+          "start": "0x4E808",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 169912
+        },
+        {
+          "stream": 39,
+          "start": "0x41EE8",
+          "end": "0x65244",
+          "used": 0,
+          "capacity": 144220
+        },
+        {
+          "stream": 36,
+          "start": "0x40",
+          "end": "0x11BB0",
+          "used": 0,
+          "capacity": 72560
+        },
+        {
+          "stream": 41,
+          "start": "0x1C8",
+          "end": "0x3FC0",
+          "used": 0,
+          "capacity": 15864
+        },
+        {
+          "stream": 25,
+          "start": "0x76260",
+          "end": "0x77FC0",
+          "used": 0,
+          "capacity": 7520
+        }
+      ]
+    }
+  ],
+  "mass_patch": {
+    "action_count": 44923,
+    "patched_unit_count": 720,
+    "matched_unit_count": 730,
+    "matched_but_skipped_unit_count": 10,
+    "not_found_unit_count": 352,
+    "changed_mdi_count": 57,
+    "action_kinds": {
+      "narrow_reloc": 40787,
+      "utf16_fixed": 4136
+    },
+    "skip_count": 55325
+  },
+  "smoke_test": {
+    "pid": 21604,
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "cpu_ready": {
+      "ready": true,
+      "attempts": 1,
+      "status": {
+        "event": "cpu.status",
+        "ticket": 1001,
+        "stepping": false,
+        "paused": false,
+        "pc": 134217728,
+        "ticks": 7441540
+      },
+      "probe": "e410330e"
+    },
+    "renderer_jal": {
+      "bytes": "e410330e",
+      "expected": "e410330e"
+    },
+    "font": {
+      "glyph_count": 0,
+      "glyph_count_ok": false,
+      "glyph_ptr": "0x00000000",
+      "glyph_ptr_ok": false
+    },
+    "menu_resource": {
+      "opened": true,
+      "startup_start_presses": 9
+    },
+    "main_menu": {
+      "confirmed": false,
+      "attempts": [
+        {
+          "attempt": 1,
+          "sent": true,
+          "error": null,
+          "anchors": {
+            "ok": false,
+            "options": "47000200f10010000000000000000000",
+            "profile": "4016e408000000000000000000000000",
+            "story": "a4c2a0d1acb90000"
+          }
+        },
+        {
+          "attempt": 2,
+          "sent": true,
+          "error": null,
+          "anchors": {
+            "ok": false,
+            "options": "47000200f10010000000000000000000",
+            "profile": "4016e408000000000000000000000000",
+            "story": "a4c2a0d1acb90000"
+          }
+        }
+      ],
+      "anchors": {
+        "ok": false,
+        "options": "47000200f10010000000000000000000",
+        "profile": "4016e408000000000000000000000000",
+        "story": "a4c2a0d1acb90000"
+      }
+    },
+    "ok": false,
+    "ppsspp_closed": true
+  },
+  "completed": false
+}

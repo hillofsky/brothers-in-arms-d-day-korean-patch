@@ -1,0 +1,172 @@
+{
+  "stage": 29,
+  "purpose": "Pause the real GE relocation writer for 0x48E693C0 and identify the exact relocation-table entry that generates TMR TEXADDR/TEXBUFWIDTH",
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso_fallback": "PROJECT_ROOT\\BIA_STAGE22_RUNTIME_DESCRIPTOR_TEST.iso",
+  "ppsspp_exe": "LOCAL_PATH",
+  "texture_replacement_enabled": false,
+  "texture_storage": {
+    "mdi_stream": 22,
+    "runtime_address": "0x0987D020",
+    "bytes": 32768,
+    "sha1": "0fa604d1f92d576128995257311c36c5e6eac188"
+  },
+  "boot_iso": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso",
+  "iso_prepare": {
+    "mode": "reuse",
+    "path": "PROJECT_ROOT\\BIA_STAGE21_RELOC_DESCRIPTOR_TEST.iso"
+  },
+  "previous_ppsspp": {
+    "found": false
+  },
+  "launched_ppsspp_pid": 3148,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "descriptor_breakpoint_add": {
+    "attempts": 1,
+    "condition": "a2 == 0x48E693C0",
+    "break_pc": "0x08C3CAA8",
+    "destination_alias": "0x48E693C0",
+    "result": {
+      "event": "cpu.breakpoint.add",
+      "ticket": 1002
+    }
+  },
+  "descriptor_breakpoint_before": {
+    "event": "memory.breakpoint.list",
+    "ticket": 1003,
+    "breakpoints": []
+  },
+  "advance_to_pause": {
+    "paused": true,
+    "status": {
+      "event": "cpu.status",
+      "ticket": 4058,
+      "stepping": true,
+      "paused": false,
+      "pc": 147049128,
+      "ticks": 3107580997
+    },
+    "start_presses": 220,
+    "pending_input_tickets": [
+      3788,
+      3802,
+      3816,
+      3830,
+      3844,
+      3858,
+      3872,
+      3886,
+      3900,
+      3914,
+      3928,
+      3942,
+      3952,
+      3964,
+      3978,
+      3992,
+      4006,
+      4020,
+      4034,
+      4048
+    ],
+    "elapsed_seconds": 42.07
+  },
+  "pause_snapshot": {
+    "cpu_status": {
+      "event": "cpu.status",
+      "ticket": 4059,
+      "stepping": true,
+      "paused": false,
+      "pc": 147049128,
+      "ticks": 3107580997
+    },
+    "pc": "0x08C3CAA8",
+    "expected_pc": "0x08C3CAA8",
+    "pc_matches": true,
+    "condition": "a2 == 0x48E693C0",
+    "registers": {
+      "a0": "0x00000059",
+      "a1": "0x0000042C",
+      "a2": "0x48E693C0",
+      "a3": "0xA05C1980",
+      "t0": "0xA0000000",
+      "t1": "0x48E693C4",
+      "t2": "0xA8000000",
+      "t3": "0xA8080000",
+      "s0": "0x08E4961C",
+      "s1": "0x40000000",
+      "s2": "0xBFFFFFFF",
+      "s3": "0x00FFFFFF",
+      "s4": "0x09FFED04",
+      "s5": "0x08E4961C",
+      "s6": "0x00000000",
+      "s7": "0x08EAD684",
+      "sp": "0x09FFE4B0",
+      "ra": "0x08C3C9F4",
+      "pc": "0x08C3CAA8"
+    },
+    "relocation_object": {
+      "object": "0x08E4961C",
+      "data_base": "0x08E62E40",
+      "reloc_base_1": "0x00000000",
+      "reloc_base_2": "0x084A5A40",
+      "reloc_table": "0x08E6187C",
+      "reloc_count": "0x0000005B",
+      "reloc2_table": "0x08E61CD0",
+      "reloc2_count": "0x00000058"
+    },
+    "relocation_entry": {
+      "index": 89,
+      "entry_byte_offset": "0x42C",
+      "entry_ptr": "0x08E61CA8",
+      "dest_offset_e0": "0x40006580",
+      "second_word_low_e1": "0x00000080",
+      "reloc_value_e2_raw": "0x4011BF40",
+      "reloc_value_e2_signed": 1074904896,
+      "mode": "base2_plus_30bit_offset",
+      "calculated_relocated_address": "0x085C1980",
+      "expected_destination": "0x48E693C0",
+      "actual_destination_a2": "0x48E693C0",
+      "first_word_a3": "0xA05C1980",
+      "calculated_first_word": "0xA05C1980",
+      "dest_plus4_t1": "0x48E693C4",
+      "second_prefix_t3": "0xA8080000",
+      "calculated_second_word": "0xA8080080"
+    },
+    "mdi_mapping": {
+      "stream_index": 0,
+      "decoded_offset": "0x34C88",
+      "entry_decoded_offset": "0x34C88"
+    },
+    "target_for_final_patch": {
+      "runtime_texture": "0x0987D020",
+      "wanted_first_word": "0xA087D020",
+      "wanted_second_word": "0xA8090080",
+      "wanted_texsize_word": "0xB8000907"
+    }
+  },
+  "descriptor_breakpoint_remove": {
+    "event": "cpu.breakpoint.remove",
+    "ticket": 4062
+  },
+  "resume_status": {
+    "event": "cpu.status",
+    "ticket": 4063,
+    "stepping": false,
+    "paused": false,
+    "pc": 147049128,
+    "ticks": 3107580997
+  },
+  "completed": true,
+  "ppsspp_log_parse_error": "name 're' is not defined",
+  "expected_before": "garbled menu before UV repair",
+  "expected_after_descriptor": "normal English menu after V-coordinate x2 repair",
+  "expected_after": "한한한한한; other menu labels normal"
+}

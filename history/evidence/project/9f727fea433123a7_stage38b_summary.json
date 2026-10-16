@@ -1,0 +1,36 @@
+{
+  "stage": "38B",
+  "purpose": "Generate cleaned Korean translation worklists from original BIA .INT files, excluding internal asset identifiers",
+  "system_dir": "PROJECT_ROOT\\extracted\\PSP_GAME\\USRDIR\\SYSTEM",
+  "source_int_files": 124,
+  "accepted_entry_rows": 3624,
+  "deduplicated_translation_units": 2631,
+  "cleaning_changes_from_stage38": {
+    "exclude_known_font_test_artifacts": true,
+    "exclude_mission_image_and_name_list_asset_fields": true,
+    "exclude_single_token_underscore_identifiers": true,
+    "custom_percent_tokens_preserved": true
+  },
+  "priority_entry_counts": {
+    "A": 1624,
+    "C": 210,
+    "B": 1790
+  },
+  "priority_unit_counts": {
+    "A": 1138,
+    "B": 1302,
+    "C": 191
+  },
+  "stage37_correction": {
+    "status": "INVALID_AS_REAL_CORPUS",
+    "reason": "Stage37 guessed CP949/UTF-16 for original Western game files, creating false Hangul syllables from cp1252/ASCII bytes. Observed garbage included 뀠/뼊/윊/췗. The only meaningful Korean strings were earlier font test artifacts such as 한글테스트/한글B.",
+    "production_atlas_must_not_use_stage37_plan": true
+  },
+  "encoding_policy": [
+    "UTF-8/UTF-8-SIG",
+    "Windows-1252 fallback",
+    "UTF-16 only with BOM",
+    "NO CP949 guessing"
+  ],
+  "next_step": "Translate stage38 batch TSV files. After completed translations are merged, recalculate the actual U+AC00..U+D7A3 corpus and build the production atlas."
+}

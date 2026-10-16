@@ -1,0 +1,178 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STEP114_MENU_COMPLETION_KO_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STEP115_FONT_UV_INSET_TEST.iso",
+  "resources": [
+    {
+      "mdi": "D07_1501.MDI",
+      "glyphs": 704,
+      "stream": 35
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "glyphs": 712,
+      "stream": 35
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "glyphs": 715,
+      "stream": 35
+    },
+    {
+      "mdi": "D0_0130_.MDI",
+      "glyphs": 729,
+      "stream": 35
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "glyphs": 727,
+      "stream": 35
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "glyphs": 718,
+      "stream": 35
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "glyphs": 722,
+      "stream": 35
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "glyphs": 704,
+      "stream": 35
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "glyphs": 704,
+      "stream": 35
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "glyphs": 711,
+      "stream": 35
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "glyphs": 703,
+      "stream": 35
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "glyphs": 710,
+      "stream": 35
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "glyphs": 722,
+      "stream": 35
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "glyphs": 709,
+      "stream": 35
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "glyphs": 709,
+      "stream": 35
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "glyphs": 711,
+      "stream": 35
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "glyphs": 712,
+      "stream": 35
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "glyphs": 709,
+      "stream": 35
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "glyphs": 717,
+      "stream": 35
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "glyphs": 717,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "glyphs": 696,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "glyphs": 696,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "glyphs": 696,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "glyphs": 696,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "glyphs": 698,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "glyphs": 696,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "glyphs": 697,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "glyphs": 699,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "glyphs": 696,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "glyphs": 696,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "glyphs": 696,
+      "stream": 35
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "glyphs": 697,
+      "stream": 35
+    },
+    {
+      "mdi": "ON_MEMU_O.MDI",
+      "glyphs": 696,
+      "stream": 23
+    }
+  ],
+  "glyphs": 23320,
+  "atlas_pixels_unchanged": true,
+  "advances_and_line_height_unchanged": true,
+  "decoded_stream_lengths_unchanged": true,
+  "prx_unchanged": true,
+  "iso_readback_verified": true,
+  "runtime_visual_validation": false
+}

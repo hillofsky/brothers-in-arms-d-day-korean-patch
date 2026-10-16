@@ -1,0 +1,624 @@
+{
+  "stage": "41E_TEST",
+  "iso": "PROJECT_ROOT\\BIA_STAGE41E_TITLE_BAKER_SINGLEBYTE_PROOF.iso",
+  "started": "2026-10-06 22:10:57",
+  "version": {
+    "event": "version",
+    "ticket": 3001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "auto_navigation": {
+    "logo": {
+      "ended": true,
+      "samples": [
+        {
+          "t": 0.0,
+          "active": false
+        },
+        {
+          "t": 0.75,
+          "active": true
+        },
+        {
+          "t": 1.47,
+          "active": true
+        },
+        {
+          "t": 2.2,
+          "active": true
+        },
+        {
+          "t": 2.92,
+          "active": true
+        },
+        {
+          "t": 3.65,
+          "active": true
+        },
+        {
+          "t": 4.37,
+          "active": true
+        },
+        {
+          "t": 5.1,
+          "active": true
+        },
+        {
+          "t": 5.84,
+          "active": true
+        },
+        {
+          "t": 6.58,
+          "active": true
+        },
+        {
+          "t": 7.3,
+          "active": true
+        },
+        {
+          "t": 8.02,
+          "active": true
+        },
+        {
+          "t": 8.74,
+          "active": true
+        },
+        {
+          "t": 9.46,
+          "active": true
+        },
+        {
+          "t": 10.19,
+          "active": true
+        },
+        {
+          "t": 10.93,
+          "active": true
+        },
+        {
+          "t": 11.67,
+          "active": false
+        }
+      ]
+    },
+    "frontend_route": [
+      {
+        "attempt": 1,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3019
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3020
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3021
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3022
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.43,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.85,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.27,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.69,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.11,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.54,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.97,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.4,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.83,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.25,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.68,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.11,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.54,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.96,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.39,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.82,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.25,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.68,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.1,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.53,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.96,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3045
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3046
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3047
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3048
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.88,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.3,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.73,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.16,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.59,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.3,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.72,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.15,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.58,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.86,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.29,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.72,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.15,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.58,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 9.01,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3071
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3072
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3073
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3074
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.45,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.3,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.72,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.15,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.57,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.0,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.43,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.86,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.28,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.71,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.14,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.56,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.99,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.42,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.84,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.27,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 7.69,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.12,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.55,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 8.98,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3097
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3098
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3099
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3100
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.46,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.29,
+            "word_hex": "0x0E327D1A"
+          }
+        ]
+      }
+    ],
+    "campaign_loaded": true,
+    "down_to_new_game": {
+      "down": {
+        "event": "input.buttons.send",
+        "ticket": 3105
+      },
+      "up": {
+        "event": "input.buttons.send",
+        "ticket": 3106
+      }
+    },
+    "cross_new_game": {
+      "down": {
+        "event": "input.buttons.send",
+        "ticket": 3107
+      },
+      "up": {
+        "event": "input.buttons.send",
+        "ticket": 3108
+      }
+    }
+  },
+  "cross_normal": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3109
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3110
+    }
+  },
+  "captures": [
+    {
+      "t": 2,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "movie_01_02s_04000000_rgba8888.png",
+          "rgb565": "movie_01_02s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "movie_01_02s_04044000_rgba8888.png",
+          "rgb565": "movie_01_02s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "t": 4,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "movie_02_04s_04000000_rgba8888.png",
+          "rgb565": "movie_02_04s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "movie_02_04s_04044000_rgba8888.png",
+          "rgb565": "movie_02_04s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "t": 6,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "movie_03_06s_04000000_rgba8888.png",
+          "rgb565": "movie_03_06s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "movie_03_06s_04044000_rgba8888.png",
+          "rgb565": "movie_03_06s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "t": 8,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "movie_04_08s_04000000_rgba8888.png",
+          "rgb565": "movie_04_08s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "movie_04_08s_04044000_rgba8888.png",
+          "rgb565": "movie_04_08s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "t": 10,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "movie_05_10s_04000000_rgba8888.png",
+          "rgb565": "movie_05_10s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "movie_05_10s_04044000_rgba8888.png",
+          "rgb565": "movie_05_10s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "t": 12,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "movie_06_12s_04000000_rgba8888.png",
+          "rgb565": "movie_06_12s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "movie_06_12s_04044000_rgba8888.png",
+          "rgb565": "movie_06_12s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "t": 14,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "movie_07_14s_04000000_rgba8888.png",
+          "rgb565": "movie_07_14s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "movie_07_14s_04044000_rgba8888.png",
+          "rgb565": "movie_07_14s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "t": 16,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "movie_08_16s_04000000_rgba8888.png",
+          "rgb565": "movie_08_16s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "movie_08_16s_04044000_rgba8888.png",
+          "rgb565": "movie_08_16s_04044000_rgb565.png"
+        }
+      ]
+    }
+  ],
+  "st1_head_hex": "22ee2520e8eaf45cdf2be4c021fbe02720f6e75c442d446179203031313520313934342e362e362020202020202020202020202020202020202020202020202020202020202020202020202020205e",
+  "completed": true,
+  "finished": "2026-10-06 22:12:31"
+}

@@ -1,0 +1,57 @@
+{
+  "step": "STEP_095_FIX2",
+  "started": "2026-10-13T15:21:02.191+09:00",
+  "status": "ARMED_PASSIVE",
+  "method": "passive WebSocket memory.read while CPU runs",
+  "breakpoints_installed": 0,
+  "cpu_pause_commands_sent": 0,
+  "cpu_resume_commands_sent": 0,
+  "emulated_ram_writes": 0,
+  "iso_writes": 0,
+  "cpu_paused_by_probe": false,
+  "full_ram_dump": false,
+  "owner_address": "0x09A69A90",
+  "font_field_address": "0x09A69AB8",
+  "listener_pid_verified_by_launcher": 20340,
+  "field_events": [
+    {
+      "ts": "2026-10-13T15:21:02.209+09:00",
+      "owner": "0x09A69A90",
+      "vtable": "0x00000000",
+      "vtable_matches_prior_snapshot": false,
+      "font_field_0x28": "0x00000000",
+      "field_0x2c": "0x00000000",
+      "font_matches_prior_default": false,
+      "owner_prefix_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "errors": [],
+  "samples_total": 132,
+  "version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "game_status_at_arm": {
+    "event": "game.status",
+    "ticket": 2,
+    "game": {
+      "id": "ULUS10193",
+      "version": "1.01",
+      "title": "Brothers in Arms D-Day"
+    },
+    "paused": false
+  },
+  "armed_at": "2026-10-13T15:21:02.199+09:00",
+  "last_sample": {
+    "ts": "2026-10-13T15:22:07.970+09:00",
+    "owner": "0x09A69A90",
+    "vtable": "0x00000000",
+    "vtable_matches_prior_snapshot": false,
+    "font_field_0x28": "0x00000000",
+    "field_0x2c": "0x00000000",
+    "font_matches_prior_default": false,
+    "owner_prefix_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "step": "STEP097",
+  "source": "PROJECT_ROOT\\BIA_STAGE79_COMPILED967_STRUCTURAL_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STEP097_MISSION2_UFONT_TEST.iso",
+  "strategy": "Expand actual native UFonts; preserve font selection and original Latin records",
+  "fonts": [
+    {
+      "font": "0x9a74150",
+      "stream": 26,
+      "offset": "0x41130",
+      "old_glyph_count": 150,
+      "new_glyph_count": 877,
+      "latin_glyphs_preserved": 150,
+      "hash_lookup_cases": 877,
+      "metadata": {
+        "textures": 94208,
+        "buckets": 98304,
+        "remap": 102400,
+        "glyphs": 131072
+      }
+    },
+    {
+      "font": "0x8fc3ca0",
+      "stream": 3,
+      "offset": "0x58c80",
+      "old_glyph_count": 150,
+      "new_glyph_count": 877,
+      "latin_glyphs_preserved": 150,
+      "hash_lookup_cases": 877,
+      "metadata": {
+        "textures": 151552,
+        "buckets": 155648,
+        "remap": 159744,
+        "glyphs": 167936
+      }
+    }
+  ],
+  "added_hangul_per_font": 727,
+  "shared_atlas": "0x09DF3020",
+  "dedicated_texture": "0x9e82220",
+  "texture_dimensions": [
+    512,
+    512
+  ],
+  "changed_streams": [
+    3,
+    26,
+    35
+  ],
+  "mdi_roundtrip_verified": true,
+  "iso_readback_verified": true,
+  "prx_changed": false,
+  "runtime_verified": true,
+  "deferred_videos_resumed": false,
+  "source_sha256_verified": "ca320d514c32d34767e7255ea3079f7449783cdb2b98ec49797a87bdd69544d9",
+  "output_sha256": "31be1a117a135bdb07999a445752d9dc696ba9fe10d943cdc710160e8dcaa8c0",
+  "verified_scope": [
+    "Chapter2 location introduction text",
+    "Chapter2 Baker introduction captions",
+    "Chapter2 Leggett and Hartsock 3D scene captions",
+    "Both native UIFonts loaded with 877 glyphs",
+    "Chapter2 top tutorial hint in gameplay"
+  ],
+  "runtime_renderer": "PPSSPP 1.20.4 SoftwareRenderer=True",
+  "fresh_iso_launch": true,
+  "runtime_ram_or_register_writes": false,
+  "runtime_breakpoints": false,
+  "chapter2_route": "START -> X -> X -> X using isolated copy of saved data",
+  "source_stage79_sha256_preserved": true,
+  "full_campaign_967_visually_verified": false,
+  "other_missions_native_ufont_fix_applied": false,
+  "objective_and_top_hint_visual_check_pending": false,
+  "remaining_six_movie_tests_resumed": false,
+  "screenshots": [
+    "step097_validation/chapter2_first_screen_0x4000000.png",
+    "step097_validation/chapter2_hud_ready_0x4000000.png",
+    "step097_validation/chapter2_later_caption_0x4000000.png",
+    "step097_validation/chapter2_final_screen_0x4000000.png"
+  ],
+  "user_verified": true,
+  "user_verification": "한글 잘 나오네",
+  "objective_popup_visual_check_pending": true,
+  "save_isolation_note": "A copied memstick was requested on the command line, but the log indicates the regular PPSSPP memstick was actually used. Do not claim verified save isolation."
+}

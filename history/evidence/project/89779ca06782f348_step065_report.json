@@ -1,0 +1,21 @@
+{
+  "step": "STEP_065",
+  "status": "VERIFIED",
+  "target_unapplied_ids": 1165,
+  "mdi_files_scanned": 57,
+  "compiled_fstring_refs_found": 38,
+  "uniquely_resolved_ids": 0,
+  "unresolved_ids": 1165,
+  "unresolved_with_raw_payload_in_some_mdi": 973,
+  "unresolved_without_raw_payload_in_any_mdi": 192,
+  "ambiguous_ref_records": 0,
+  "ambiguous_refs_with_different_korean": 0,
+  "duplicate_source_different_translation_groups": 0,
+  "mdi_with_resolved_targets": 0,
+  "mdi_over_stage43a_60_extra_char_slots": 0,
+  "font_candidates_found": 5,
+  "mdi_without_dsl_or_dsx_among_targets": 0,
+  "iso_modified": false,
+  "movie_validation_resumed": false,
+  "next_phase": "BULK_PATCHER_IF_COVERAGE_SAFE_ELSE_TARGETED_RECOVERY"
+}

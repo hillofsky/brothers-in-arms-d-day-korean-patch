@@ -1,0 +1,4 @@
+Success=True
+ISO=PROJECT_ROOT\BIA_STEP125_SPEAKER_BREAKS_KO_TEST.iso
+Original_untouched=True
+Runtime_QA=NOT_DONE

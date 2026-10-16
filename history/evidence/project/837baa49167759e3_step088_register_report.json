@@ -1,0 +1,89 @@
+{
+  "step": "STEP_088",
+  "status": "FAILED",
+  "iso_modified": false,
+  "psp_ram_writes": false,
+  "read_only_game_memory": true,
+  "pid_prechecked_by_launcher": 9488,
+  "mission2_korean_render_fixed": false,
+  "mode": "nonpausing filtered instruction logging",
+  "version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "game_status": {
+    "event": "game.status",
+    "ticket": 2,
+    "game": {
+      "id": "ULUS10193",
+      "version": "1.01",
+      "title": "Brothers in Arms D-Day"
+    },
+    "paused": false
+  },
+  "scene_anchor": {
+    "address": "0x09E7B040",
+    "utf8": "프랑스 유타 해변 인근",
+    "time": "D-Day 06:00\u0000"
+  },
+  "preexisting_cpu_breakpoints": [],
+  "cpu_before": {
+    "event": "cpu.status",
+    "ticket": 6,
+    "stepping": false,
+    "paused": false,
+    "pc": 145567636,
+    "ticks": 6115973976
+  },
+  "installed": [
+    {
+      "name": "glyph_lookup_codepoint",
+      "address": "0x89f4178",
+      "condition": "a1 == 0xD504 || a1 == 0x003E || a1 == 0xFFFD",
+      "logFormat": "STEP088_LOOKUP cp={a1:x} font={a0:x} count={[a0+0x2c]:x} hashCount={[a0+0x54]:x} hashPtr={[a0+0x4c]:x} glyphPtr={[a0+0x28]:x} ra={ra:x}",
+      "response": {
+        "event": "cpu.breakpoint.add",
+        "ticket": 7
+      }
+    },
+    {
+      "name": "text_font_context",
+      "address": "0x89f5668",
+      "condition": "a1 >= 0x08000000 && a1 < 0x0A000000",
+      "logFormat": "STEP088_CONTEXT font={a1:x} state={a0:x} aux={a2:x} fontHashCount={[a1+0x54]:x} fontGlyphs={[a1+0x2c]:x} ra={ra:x}",
+      "response": {
+        "event": "cpu.breakpoint.add",
+        "ticket": 8
+      }
+    },
+    {
+      "name": "utf8_dispatch_mission2",
+      "address": "0x89f5704",
+      "condition": "a0 >= 0x09E7B040 && a0 < 0x09E7B05F",
+      "logFormat": "STEP088_DECODE src={a0:x} activeFont={s3:x} b0={[a0,1]:x} ra={ra:x}",
+      "response": {
+        "event": "cpu.breakpoint.add",
+        "ticket": 9
+      }
+    }
+  ],
+  "breakpoint_removal": [
+    {
+      "name": "utf8_dispatch_mission2",
+      "removed": true
+    },
+    {
+      "name": "text_font_context",
+      "removed": true
+    },
+    {
+      "name": "glyph_lookup_codepoint",
+      "removed": true
+    }
+  ],
+  "error": "UNEXPECTED_CPU_PAUSE",
+  "traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\incoming\\STEP088_20261008_190253_902\\scripts\\trace_capture.py\", line 108, in main\n    do_probe(ws,report)\n  File \"PROJECT_ROOT\\incoming\\STEP088_20261008_190253_902\\scripts\\trace_capture.py\", line 68, in do_probe\n    if status.get('stepping'):raise RuntimeError('UNEXPECTED_CPU_PAUSE')\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: UNEXPECTED_CPU_PAUSE\n",
+  "completed_at": "2026-10-08T19:03:29+09:00"
+}

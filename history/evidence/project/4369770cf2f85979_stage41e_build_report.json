@@ -1,0 +1,33 @@
+{
+  "stage": "41E",
+  "source": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STAGE41E_TITLE_BAKER_SINGLEBYTE_PROOF.iso",
+  "patches": [
+    {
+      "name": "FM_0115EAGLESJUMP.ST1",
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1",
+      "lbn": 727332,
+      "size": 1482,
+      "old_sha1": "22376d64818e019c78a1e26d371a7111e0f06dc9",
+      "new_sha1": "97a9b19909b476184f4ea39efbccfaf7b41182ca"
+    },
+    {
+      "name": "SUBTITLEHASHMAP.INI",
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLEHASHMAP.INI",
+      "lbn": 510976,
+      "size": 2172,
+      "old_sha1": "e151e11e3fe4f71200fa031c236c62a55bd72542",
+      "new_sha1": "705e21fd15ad05b2ffd3c8f3e11ae524e4e4636d"
+    },
+    {
+      "name": "SUBTITLETEXTURE.RAW",
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLETEXTURE.RAW",
+      "lbn": 510992,
+      "size": 131072,
+      "old_sha1": "dd5969a9ff241ab56481d2c96e107322e9b598b0",
+      "new_sha1": "7904a8cd3490df433dea2ebd1c3cfd26da18d3e4"
+    }
+  ],
+  "output_size": 1489577984,
+  "completed": true
+}

@@ -1,0 +1,11 @@
+{
+  "candidates": [
+    "work\\campaign_second_units.json",
+    "work\\first_campaign_units.json",
+    "work\\campaign_first_reference_audit.json",
+    "work\\campaign_second_reference_audit.json",
+    "work\\campaign_first_ko.json",
+    "work\\campaign_second_ko.json"
+  ],
+  "errors": []
+}

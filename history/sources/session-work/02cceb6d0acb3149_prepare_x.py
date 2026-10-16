@@ -1,0 +1,7 @@
+from pathlib import Path
+p=Path('work/build_firstmission40w.py').read_text(encoding='utf-8-sig').replace('outputs/stage40w','outputs/stage40x').replace('BIA_STAGE40W_FIRST_MISSION_UI_TEST','BIA_STAGE40X_FIRST_MISSION_UI_TEST')
+p=p.replace("keys=set()", "keys=set()\nextras={'Over Ste. Mere Eglise, France':'프랑스 생메르에글리즈 상공','June 6, 1944':'1944년 6월 6일','D-Day 0119':'D-Day 01:19','D-Day 0115':'D-Day 01:15','Stance/Action':'자세/행동','Reload/Action':'재장전/행동'}\nplan=json.loads(Path('PROJECT_ROOT/bia_stage39a_tools/stage39a_font_plan.json').read_text(encoding='utf8'));chars={x['char'] for x in plan['layout']}\nfor english,korean in extras.items():\n assert all(ord(ch)<128 or ch in chars for ch in korean)\n mapping[english]={'id':'EXTRA-'+english,'English':english,'한국어':korean}")
+p=p.replace("if row is None or english in keys:continue", "if row is None:continue")
+p=p.replace("if key.endswith(b'\\0') and key[:-1].decode('ascii',errors='replace') in keys:filtered.append((ri,ro))", "if key.endswith(b'\\0'):\n      keytext=key[:-1].decode('ascii',errors='replace')\n      if keytext in keys and keytext == keytext.upper():filtered.append((ri,ro))")
+p=p.replace("if ri==13 and ro==0x5444c and english=='Rendezvous with Destiny':filtered.append((ri,ro))", "if ri==13 and english in ['Rendezvous with Destiny','Over Ste. Mere Eglise, France','June 6, 1944','D-Day 0119','D-Day 0115']:filtered.append((ri,ro))")
+Path('work/build_firstmission40x.py').write_text(p,encoding='utf8')

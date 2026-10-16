@@ -1,0 +1,1 @@
+exec(open('work/build_firstmission40s.py',encoding='utf-8-sig').read().split('assert struct.unpack_from(\'<III\',mu[0],0x3501c)')[0]);print('MDI corresponding bytes',st[0][0x3501c:0x35028].hex());print('entry occurrences',[(i,hex(x.find(struct.pack('<III',*entry)))) for i,x in st.items() if struct.pack('<III',*entry) in x])

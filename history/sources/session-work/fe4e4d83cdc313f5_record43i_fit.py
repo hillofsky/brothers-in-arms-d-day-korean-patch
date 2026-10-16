@@ -1,0 +1,4 @@
+import json
+from pathlib import Path
+p=Path('outputs/stage43i/hint_fit_report.json');r=json.loads(p.read_text(encoding='utf-8'));r.update(runtime_verified=True,clipping_fixed=True,evidence='outputs/stage43i_validation/hint_fit_screen_0x4000000.png',scope='first mission compass direction hint');p.write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf-8')
+p=Path('outputs/bia_campaign_progress.md');s=p.read_text(encoding='utf-8');s+='\nStage43I: 잘린 나침반 힌트를 "나침반 %icon_compass_arrow%는 다음 목표 방향을 가리킨다."로 줄이고 문자열 참조 5곳에 적용했습니다. 첫 미션 실제 화면에서 문장 시작과 끝, 화살표 아이콘이 화면 안에 모두 표시됨을 확인했습니다. 본문 글자 폭 합계는 406에서 279로 줄었습니다. 검증 화면: stage43i_validation/hint_fit_screen_0x4000000.png. 다른 목표 팝업에서는 별도의 글자 깨짐이 관찰되어 추가 수정이 필요합니다. 이 검증은 해당 나침반 힌트의 잘림 해결에 한정합니다. 최신 테스트 ISO: PROJECT_ROOT/BIA_STAGE43I_CAMPAIGN_HINT_FIT_TEST.iso.\n';p.write_text(s,encoding='utf-8')

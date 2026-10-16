@@ -1,0 +1,20 @@
+{
+  "stage": "40E",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40D_LIVE_STREAM23_MENU_TEST.iso",
+  "no_new_iso_expected": true,
+  "stream23_allocations": {
+    "Skirmish": "0x098FF890",
+    "Options": "0x098FF8A0",
+    "Profile": "0x098FF8A8"
+  },
+  "renderer_probes": {
+    "Story": "토",
+    "Skirmish": "커",
+    "Options": "옵",
+    "Profile": "프"
+  },
+  "raw_vram_buffers": [
+    "0x04000000",
+    "0x04044000"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "stage": "42C_HIGHBYTE_PROBE",
+  "source": "PROJECT_ROOT\\BIA_STAGE42B_HASHMAP_223_PROBE.iso",
+  "output": "PROJECT_ROOT\\BIA_STAGE42C_HIGHBYTE_KEY_PROBE.iso",
+  "patches": [
+    {
+      "name": "SUBTITLEHASHMAP.INI",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLEHASHMAP.INI",
+      "lbn": 510976,
+      "size": 4275,
+      "old_sha1": "fad63cc62590b1ad96ef11b941d0a6ed6bf900d4",
+      "new_sha1": "441c1fb76940bc2924333920537ac39ff6e49590"
+    },
+    {
+      "name": "FM_0115EAGLESJUMP.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1",
+      "lbn": 727332,
+      "size": 1482,
+      "old_sha1": "b449f7b3afb0bfd41286462f136fa0bf49abcfdb",
+      "new_sha1": "f86716f20e80eb9110c7deb86780fe66a54367ea"
+    }
+  ],
+  "completed": true
+}

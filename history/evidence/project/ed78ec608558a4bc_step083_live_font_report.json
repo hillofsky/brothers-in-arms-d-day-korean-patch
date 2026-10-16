@@ -1,0 +1,374 @@
+{
+  "step": "STEP_083_FIX1",
+  "status": "VERIFIED_LIVE_SNAPSHOT_COLLECTED",
+  "read_only": true,
+  "iso_modified": false,
+  "target_screen": "second mission text rendered as repeated >",
+  "source": "live PPSSPP RAM at manually selected mission2 broken display",
+  "verified_local_listener_pid_by_launcher": 23332,
+  "visual_result": "not inferred from bytes; screenshot evidence reviewed separately",
+  "ppsspp_version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "game_status": {
+    "event": "game.status",
+    "ticket": 2,
+    "game": {
+      "id": "ULUS10193",
+      "version": "1.01",
+      "title": "Brothers in Arms D-Day"
+    },
+    "paused": false
+  },
+  "cpu_status_before_snapshot": {
+    "event": "cpu.status",
+    "ticket": 3,
+    "stepping": false,
+    "paused": false,
+    "pc": 142723964,
+    "ticks": 12586829401
+  },
+  "ram_uncompressed_bytes": 33554432,
+  "ram_sha256": "3644544b0b5e633240bcfc3af677639e2ae55e2c96191190fcf79933090dbbfa",
+  "ram_compressed_file": "live_psp_ram_32MiB.zlib",
+  "vram_captures": [
+    {
+      "buffer": 0,
+      "address": "0x4000000",
+      "png": "live_vram0_rgb565_preview.png",
+      "sha256": "ba8c56afe0c62919b07ae06a4c9000c5805494505121153e17255506e611275b"
+    },
+    {
+      "buffer": 1,
+      "address": "0x4044000",
+      "png": "live_vram1_rgb565_preview.png",
+      "sha256": "79095a8a9c81e1d95e90442adcddeae93061fac4611d4c1f768850eaf6787c69"
+    }
+  ],
+  "font_probe": {
+    "fonts": [
+      {
+        "runtime": "0x09B1CF24",
+        "expected_sha256": "f0c355a7316658c1ec8fc3cb1a9dbf2b6ccd1d0d8efb68497c55b4fbdd362761",
+        "runtime_sha256": "f0c355a7316658c1ec8fc3cb1a9dbf2b6ccd1d0d8efb68497c55b4fbdd362761",
+        "static_bytes_exact": true,
+        "glyph_count": 878,
+        "glyph_ptr": "0x9e6b020",
+        "widths_ptr": "0x9e75b20",
+        "heights_ptr": "0x9e75b30",
+        "texture_array_ptr": "0x9e75b40",
+        "chars": {
+          "프": {
+            "unicode": "U+D504",
+            "page_ptr": "0x9e75520",
+            "glyph_index": 795,
+            "glyph_record_cp": "U+D504",
+            "codepoint_verified": true,
+            "glyph_record_hex": "04d5100f000f101c00c06a400080603f004073400080703f"
+          },
+          "랑": {
+            "unicode": "U+B791",
+            "page_ptr": "0x9e71920",
+            "glyph_index": 338,
+            "glyph_record_cp": "U+B791",
+            "codepoint_verified": true,
+            "glyph_record_hex": "91b7100f000f101c0080803f0080303f0080913f0080403f"
+          },
+          "스": {
+            "unicode": "U+C2A4",
+            "page_ptr": "0x9e72f20",
+            "glyph_index": 154,
+            "glyph_record_cp": "U+C2A4",
+            "codepoint_verified": true,
+            "glyph_record_hex": "a4c2100f000f101c0080803f0040c03f0080913f0040c83f"
+          },
+          "유": {
+            "unicode": "U+C720",
+            "page_ptr": "0x9e73920",
+            "glyph_index": 610,
+            "glyph_record_cp": "U+C720",
+            "codepoint_verified": true,
+            "glyph_record_hex": "20c7100f000f101c004011400040983f00c019400040a03f"
+          },
+          "독": {
+            "unicode": "U+B3C5",
+            "page_ptr": "0x9e71120",
+            "glyph_index": 287,
+            "glyph_record_cp": "U+B3C5",
+            "codepoint_verified": true,
+            "glyph_record_hex": "c5b3100f000f101c0080d53f0000423e0080e63f0000813e"
+          },
+          "일": {
+            "unicode": "U+C77C",
+            "page_ptr": "0x9e73920",
+            "glyph_index": 622,
+            "glyph_record_cp": "U+C77C",
+            "codepoint_verified": true,
+            "glyph_record_hex": "7cc7100f000f101c004000400040a83f00c008400040b03f"
+          },
+          "군": {
+            "unicode": "U+AD70",
+            "page_ptr": "0x9e70520",
+            "glyph_index": 200,
+            "glyph_record_cp": "U+AD70",
+            "codepoint_verified": true,
+            "glyph_record_hex": "70ad100f000f101c00008a3e0040b03f0000ce3e0040b83f"
+          },
+          "박": {
+            "unicode": "U+BC15",
+            "page_ptr": "0x9e72320",
+            "glyph_index": 434,
+            "glyph_record_cp": "U+BC15",
+            "codepoint_verified": true,
+            "glyph_record_hex": "15bc100f000f101c0080803f0040c83f0080913f0040d03f"
+          },
+          "한": {
+            "unicode": "U+D55C",
+            "page_ptr": "0x9e75520",
+            "glyph_index": 151,
+            "glyph_record_cp": "U+D55C",
+            "codepoint_verified": true,
+            "glyph_record_hex": "5cd5100f000f101c0080803f0040803f0080913f0040883f"
+          },
+          "글": {
+            "unicode": "U+AE00",
+            "page_ptr": "0x9e70720",
+            "glyph_index": 152,
+            "glyph_record_cp": "U+AE00",
+            "codepoint_verified": true,
+            "glyph_record_hex": "00ae100f000f101c004000400040803f00c008400040883f"
+          },
+          ">": {
+            "unicode": "U+003E",
+            "page_ptr": "0x9b1ec80",
+            "glyph_index": 31,
+            "glyph_record_cp": "U+003E",
+            "codepoint_verified": true,
+            "glyph_record_hex": "3e000c0b000d0c100000ce3e0000a43d0000013f0000023e"
+          },
+          "A": {
+            "unicode": "U+0041",
+            "page_ptr": "0x9b1ec80",
+            "glyph_index": 34,
+            "glyph_record_cp": "U+0041",
+            "codepoint_verified": true,
+            "glyph_record_hex": "4100100f000f101c0000803b00805a3f00000c3e00806a3f"
+          }
+        },
+        "renderer_page_arrays": {
+          "widths": [
+            128,
+            128,
+            128,
+            128
+          ],
+          "heights": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "textures": [
+            "0x9a77fb0",
+            "0x9a77fb0",
+            "0x9a77fb0",
+            "0x9a77fb0"
+          ]
+        }
+      },
+      {
+        "runtime": "0x09B1F0BC",
+        "expected_sha256": "8df6cb07fde89fe7f40a640856f82a6c1a11979d461cccd6bc3e0a6ca4251848",
+        "runtime_sha256": "8df6cb07fde89fe7f40a640856f82a6c1a11979d461cccd6bc3e0a6ca4251848",
+        "static_bytes_exact": true,
+        "glyph_count": 878,
+        "glyph_ptr": "0x9e6b020",
+        "widths_ptr": "0x9e75b20",
+        "heights_ptr": "0x9e75b30",
+        "texture_array_ptr": "0x9e75b40",
+        "chars": {
+          "프": {
+            "unicode": "U+D504",
+            "page_ptr": "0x9e75520",
+            "glyph_index": 795,
+            "glyph_record_cp": "U+D504",
+            "codepoint_verified": true,
+            "glyph_record_hex": "04d5100f000f101c00c06a400080603f004073400080703f"
+          },
+          "랑": {
+            "unicode": "U+B791",
+            "page_ptr": "0x9e71920",
+            "glyph_index": 338,
+            "glyph_record_cp": "U+B791",
+            "codepoint_verified": true,
+            "glyph_record_hex": "91b7100f000f101c0080803f0080303f0080913f0080403f"
+          },
+          "스": {
+            "unicode": "U+C2A4",
+            "page_ptr": "0x9e72f20",
+            "glyph_index": 154,
+            "glyph_record_cp": "U+C2A4",
+            "codepoint_verified": true,
+            "glyph_record_hex": "a4c2100f000f101c0080803f0040c03f0080913f0040c83f"
+          },
+          "유": {
+            "unicode": "U+C720",
+            "page_ptr": "0x9e73920",
+            "glyph_index": 610,
+            "glyph_record_cp": "U+C720",
+            "codepoint_verified": true,
+            "glyph_record_hex": "20c7100f000f101c004011400040983f00c019400040a03f"
+          },
+          "독": {
+            "unicode": "U+B3C5",
+            "page_ptr": "0x9e71120",
+            "glyph_index": 287,
+            "glyph_record_cp": "U+B3C5",
+            "codepoint_verified": true,
+            "glyph_record_hex": "c5b3100f000f101c0080d53f0000423e0080e63f0000813e"
+          },
+          "일": {
+            "unicode": "U+C77C",
+            "page_ptr": "0x9e73920",
+            "glyph_index": 622,
+            "glyph_record_cp": "U+C77C",
+            "codepoint_verified": true,
+            "glyph_record_hex": "7cc7100f000f101c004000400040a83f00c008400040b03f"
+          },
+          "군": {
+            "unicode": "U+AD70",
+            "page_ptr": "0x9e70520",
+            "glyph_index": 200,
+            "glyph_record_cp": "U+AD70",
+            "codepoint_verified": true,
+            "glyph_record_hex": "70ad100f000f101c00008a3e0040b03f0000ce3e0040b83f"
+          },
+          "박": {
+            "unicode": "U+BC15",
+            "page_ptr": "0x9e72320",
+            "glyph_index": 434,
+            "glyph_record_cp": "U+BC15",
+            "codepoint_verified": true,
+            "glyph_record_hex": "15bc100f000f101c0080803f0040c83f0080913f0040d03f"
+          },
+          "한": {
+            "unicode": "U+D55C",
+            "page_ptr": "0x9e75520",
+            "glyph_index": 151,
+            "glyph_record_cp": "U+D55C",
+            "codepoint_verified": true,
+            "glyph_record_hex": "5cd5100f000f101c0080803f0040803f0080913f0040883f"
+          },
+          "글": {
+            "unicode": "U+AE00",
+            "page_ptr": "0x9e70720",
+            "glyph_index": 152,
+            "glyph_record_cp": "U+AE00",
+            "codepoint_verified": true,
+            "glyph_record_hex": "00ae100f000f101c004000400040803f00c008400040883f"
+          },
+          ">": {
+            "unicode": "U+003E",
+            "page_ptr": "0x9b20380",
+            "glyph_index": 31,
+            "glyph_record_cp": "U+003E",
+            "codepoint_verified": true,
+            "glyph_record_hex": "3e000c0b000d0c100000ce3e0000a43d0000013f0000023e"
+          },
+          "A": {
+            "unicode": "U+0041",
+            "page_ptr": "0x9b20380",
+            "glyph_index": 34,
+            "glyph_record_cp": "U+0041",
+            "codepoint_verified": true,
+            "glyph_record_hex": "4100100f000f101c0000803b00805a3f00000c3e00806a3f"
+          }
+        },
+        "renderer_page_arrays": {
+          "widths": [
+            128,
+            128,
+            128,
+            128
+          ],
+          "heights": [
+            256,
+            256,
+            256,
+            256
+          ],
+          "textures": [
+            "0x9a77fb0",
+            "0x9a77fb0",
+            "0x9a77fb0",
+            "0x9a77fb0"
+          ]
+        }
+      }
+    ],
+    "strings": [
+      {
+        "korean": "프랑스 유타 해변 인근",
+        "found_in_ram": true,
+        "addresses": [
+          "0x09E7B040"
+        ]
+      },
+      {
+        "korean": "독일군 박격포반",
+        "found_in_ram": true,
+        "addresses": [
+          "0x09E7B080"
+        ]
+      },
+      {
+        "korean": "제4보병사단과 합류",
+        "found_in_ram": true,
+        "addresses": [
+          "0x09AB4597",
+          "0x09E7B0E3",
+          "0x09E7B32D",
+          "0x09E7B396"
+        ]
+      }
+    ],
+    "atlas": {
+      "runtime": "0x9df3020",
+      "expected_sha256": "ee4a0b9ff381bed5a35f4a66da619382af2cf81790dfdd342cf224202617c4ef",
+      "actual_sha256": "ee4a0b9ff381bed5a35f4a66da619382af2cf81790dfdd342cf224202617c4ef",
+      "byte_identical": true
+    },
+    "english_strings": [
+      {
+        "english": "Ambush at Exit 4",
+        "addresses": [
+          "0x09614770",
+          "0x0961BE90",
+          "0x098E5250",
+          "0x098E8010",
+          "0x098E9E00"
+        ]
+      },
+      {
+        "english": "You got the German K98 Rifle.",
+        "addresses": [
+          "0x09244449",
+          "0x0932AB40",
+          "0x098ECA30"
+        ]
+      },
+      {
+        "english": "Mac: Keep moving Leggett!",
+        "addresses": []
+      }
+    ]
+  },
+  "runtime_font_records_fully_loaded": 2,
+  "runtime_atlas_matches_stage79": true,
+  "result_interpretation": "Live readback collected, NOT proof of correct Korean glyph rendering",
+  "diagnostic_next_step": "Compare runtime page pointers, glyph records and atlas to exact STEP082 static source; screenshot remains visual QA evidence.",
+  "completed_at": "2026-10-08T18:12:06+09:00"
+}

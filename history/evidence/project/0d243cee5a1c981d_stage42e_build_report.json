@@ -1,0 +1,18 @@
+{
+  "stage": "42E_UTF8_HASHMAP_PROBE",
+  "patches": [
+    {
+      "name": "SUBTITLEHASHMAP.INI",
+      "old_size": 4275,
+      "new_size": 4338,
+      "new_sha1": "0c5fb9580a0d56dbc45016c2cc39d45943b77850"
+    },
+    {
+      "name": "FM_0115EAGLESJUMP.ST1",
+      "size": 1482,
+      "new_sha1": "6a85cec55f6c33a1b069fe575fec8cb22c6217f0"
+    }
+  ],
+  "completed": true,
+  "output": "PROJECT_ROOT\\BIA_STAGE42E_UTF8_HASHMAP_PROBE.iso"
+}

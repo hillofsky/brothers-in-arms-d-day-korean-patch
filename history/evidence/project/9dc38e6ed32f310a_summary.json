@@ -1,0 +1,17 @@
+{
+  "game_id": "ULUS10193",
+  "dump_dirs": [
+    "LOCAL_PATH"
+  ],
+  "png_count": 5,
+  "new_or_updated_count": 0,
+  "font_candidate_count": 2,
+  "font_candidate_dimensions": [
+    "128x256",
+    "128x512",
+    "256x256",
+    "256x512",
+    "128x128",
+    "256x128"
+  ]
+}

@@ -1,0 +1,676 @@
+{
+  "stage": "40H-retry",
+  "purpose": "Fix the false source-hash gate and determine a loose LOCALIZE.INT Korean byte encoding compatible with the already-proven Stage39U renderer.",
+  "previous_failure": "Stage40H stopped before any ISO variant/runtime test because it incorrectly expected the old Stage04B diagnostic SHA1 800615... The Stage40F ISO contains the canonical untouched LOCALIZE.INT SHA1 da7dedd4..., which is the correct baseline.",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40F_ON_MEMU_RESIDENT_MASS_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40H_LOCALIZE_ENCODING_TEST.iso",
+  "attempts": [
+    {
+      "variant": "mixed_utf8",
+      "build": {
+        "variant": "mixed_utf8",
+        "patched_sha1": "dbd658503f86188ca2e63788ea3eb9d7cb36ab4e",
+        "patched_bytes": 29116,
+        "changes": [
+          {
+            "id": "BIA-00514",
+            "key": "MENU0PTION_CONTROLLER_CONFIG",
+            "english": "Controls Config",
+            "korean": "조작 설정",
+            "offset_before": "0x961",
+            "encoding": "utf-8",
+            "old_bytes": 15,
+            "new_bytes": 13,
+            "new_hex": "eca1b0ec9e9120ec84a4eca095"
+          },
+          {
+            "id": "BIA-00625",
+            "key": "MENU0PTION_CONTROLLER_HORZ_SEN",
+            "english": "Horizontal Sensitivity",
+            "korean": "수평 감도",
+            "offset_before": "0x9C6",
+            "encoding": "utf-8",
+            "old_bytes": 22,
+            "new_bytes": 13,
+            "new_hex": "ec8898ed8f8920eab090eb8f84"
+          },
+          {
+            "id": "BIA-01052",
+            "key": "MENU0PTION_CONTROLLER_VERT_SEN",
+            "english": "Vertical Sensitivity",
+            "korean": "수직 감도",
+            "offset_before": "0x9F4",
+            "encoding": "utf-8",
+            "old_bytes": 20,
+            "new_bytes": 13,
+            "new_hex": "ec8898eca78120eab090eb8f84"
+          },
+          {
+            "id": "BIA-01054",
+            "key": "MENU0PTION_CONTROLLER_VIBRATION",
+            "english": "Vibration",
+            "korean": "진동",
+            "offset_before": "0xA22",
+            "encoding": "utf-8",
+            "old_bytes": 9,
+            "new_bytes": 6,
+            "new_hex": "eca784eb8f99"
+          }
+        ],
+        "iso_readback_ok": true
+      },
+      "runtime": {
+        "variant": "mixed_utf8",
+        "pid": 5008,
+        "debugger_host": "::1",
+        "debugger_port": 26222,
+        "cpu_ready": {
+          "ready": true,
+          "attempts": 1,
+          "status": {
+            "event": "cpu.status",
+            "ticket": 1001,
+            "stepping": false,
+            "paused": false,
+            "pc": 134217728,
+            "ticks": 18486908
+          },
+          "renderer_probe": "e410330e"
+        },
+        "renderer_jal": {
+          "actual": "e410330e",
+          "expected": "e410330e"
+        },
+        "menu_resource": {
+          "opened": true,
+          "startup_start_presses": 9,
+          "localize_seen_in_log": true
+        },
+        "navigation": [
+          {
+            "button": "start",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "cross",
+            "ok": true
+          }
+        ],
+        "probe_scan": {
+          "scope": "full",
+          "start": "0x08800000",
+          "end": "0x0A800000",
+          "hits": {
+            "BIA-00514": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-00625": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-01052": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-01054": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            }
+          }
+        },
+        "compatibility": {
+          "all_compatible": false,
+          "per_probe": {
+            "BIA-00514": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-00625": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-01052": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-01054": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            }
+          }
+        },
+        "font": {
+          "glyph_count": 847,
+          "glyph_count_ok": true,
+          "glyph_ptr": "0x098F5020",
+          "glyph_ptr_ok": true
+        },
+        "ok": false,
+        "ppsspp_closed": true
+      }
+    },
+    {
+      "variant": "mixed_utf8_bom",
+      "build": {
+        "variant": "mixed_utf8_bom",
+        "patched_sha1": "3ef682914d633b43e3369963755ba1748d6bec79",
+        "patched_bytes": 29119,
+        "changes": [
+          {
+            "id": "BIA-00514",
+            "key": "MENU0PTION_CONTROLLER_CONFIG",
+            "english": "Controls Config",
+            "korean": "조작 설정",
+            "offset_before": "0x961",
+            "encoding": "utf-8",
+            "old_bytes": 15,
+            "new_bytes": 13,
+            "new_hex": "eca1b0ec9e9120ec84a4eca095"
+          },
+          {
+            "id": "BIA-00625",
+            "key": "MENU0PTION_CONTROLLER_HORZ_SEN",
+            "english": "Horizontal Sensitivity",
+            "korean": "수평 감도",
+            "offset_before": "0x9C6",
+            "encoding": "utf-8",
+            "old_bytes": 22,
+            "new_bytes": 13,
+            "new_hex": "ec8898ed8f8920eab090eb8f84"
+          },
+          {
+            "id": "BIA-01052",
+            "key": "MENU0PTION_CONTROLLER_VERT_SEN",
+            "english": "Vertical Sensitivity",
+            "korean": "수직 감도",
+            "offset_before": "0x9F4",
+            "encoding": "utf-8",
+            "old_bytes": 20,
+            "new_bytes": 13,
+            "new_hex": "ec8898eca78120eab090eb8f84"
+          },
+          {
+            "id": "BIA-01054",
+            "key": "MENU0PTION_CONTROLLER_VIBRATION",
+            "english": "Vibration",
+            "korean": "진동",
+            "offset_before": "0xA22",
+            "encoding": "utf-8",
+            "old_bytes": 9,
+            "new_bytes": 6,
+            "new_hex": "eca784eb8f99"
+          }
+        ],
+        "iso_readback_ok": true
+      },
+      "runtime": {
+        "variant": "mixed_utf8_bom",
+        "pid": 21156,
+        "debugger_host": "::1",
+        "debugger_port": 26222,
+        "cpu_ready": {
+          "ready": true,
+          "attempts": 1,
+          "status": {
+            "event": "cpu.status",
+            "ticket": 1001,
+            "stepping": false,
+            "paused": false,
+            "pc": 134217728,
+            "ticks": 51885940
+          },
+          "renderer_probe": "e410330e"
+        },
+        "renderer_jal": {
+          "actual": "e410330e",
+          "expected": "e410330e"
+        },
+        "menu_resource": {
+          "opened": true,
+          "startup_start_presses": 9,
+          "localize_seen_in_log": true
+        },
+        "navigation": [
+          {
+            "button": "start",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "cross",
+            "ok": true
+          }
+        ],
+        "probe_scan": {
+          "scope": "full",
+          "start": "0x08800000",
+          "end": "0x0A800000",
+          "hits": {
+            "BIA-00514": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-00625": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-01052": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-01054": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            }
+          }
+        },
+        "compatibility": {
+          "all_compatible": false,
+          "per_probe": {
+            "BIA-00514": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-00625": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-01052": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-01054": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            }
+          }
+        },
+        "font": {
+          "glyph_count": 847,
+          "glyph_count_ok": true,
+          "glyph_ptr": "0x098F5020",
+          "glyph_ptr_ok": true
+        },
+        "ok": false,
+        "ppsspp_closed": true
+      }
+    },
+    {
+      "variant": "mixed_cp949",
+      "build": {
+        "variant": "mixed_cp949",
+        "patched_sha1": "8907d33f47cbd32f80d983367bde310318faef52",
+        "patched_bytes": 29102,
+        "changes": [
+          {
+            "id": "BIA-00514",
+            "key": "MENU0PTION_CONTROLLER_CONFIG",
+            "english": "Controls Config",
+            "korean": "조작 설정",
+            "offset_before": "0x961",
+            "encoding": "cp949",
+            "old_bytes": 15,
+            "new_bytes": 9,
+            "new_hex": "c1b6c0db20bcb3c1a4"
+          },
+          {
+            "id": "BIA-00625",
+            "key": "MENU0PTION_CONTROLLER_HORZ_SEN",
+            "english": "Horizontal Sensitivity",
+            "korean": "수평 감도",
+            "offset_before": "0x9C2",
+            "encoding": "cp949",
+            "old_bytes": 22,
+            "new_bytes": 9,
+            "new_hex": "bcf6c6f220b0a8b5b5"
+          },
+          {
+            "id": "BIA-01052",
+            "key": "MENU0PTION_CONTROLLER_VERT_SEN",
+            "english": "Vertical Sensitivity",
+            "korean": "수직 감도",
+            "offset_before": "0x9EC",
+            "encoding": "cp949",
+            "old_bytes": 20,
+            "new_bytes": 9,
+            "new_hex": "bcf6c1f720b0a8b5b5"
+          },
+          {
+            "id": "BIA-01054",
+            "key": "MENU0PTION_CONTROLLER_VIBRATION",
+            "english": "Vibration",
+            "korean": "진동",
+            "offset_before": "0xA16",
+            "encoding": "cp949",
+            "old_bytes": 9,
+            "new_bytes": 4,
+            "new_hex": "c1f8b5bf"
+          }
+        ],
+        "iso_readback_ok": true
+      },
+      "runtime": {
+        "variant": "mixed_cp949",
+        "pid": 24016,
+        "debugger_host": "::1",
+        "debugger_port": 26222,
+        "cpu_ready": {
+          "ready": true,
+          "attempts": 2,
+          "status": {
+            "event": "cpu.status",
+            "ticket": 1003,
+            "stepping": false,
+            "paused": false,
+            "pc": 134217728,
+            "ticks": 3640871
+          },
+          "renderer_probe": "e410330e"
+        },
+        "renderer_jal": {
+          "actual": "e410330e",
+          "expected": "e410330e"
+        },
+        "menu_resource": {
+          "opened": true,
+          "startup_start_presses": 9,
+          "localize_seen_in_log": true
+        },
+        "navigation": [
+          {
+            "button": "start",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "cross",
+            "ok": true
+          }
+        ],
+        "probe_scan": {
+          "scope": "full",
+          "start": "0x08800000",
+          "end": "0x0A800000",
+          "hits": {
+            "BIA-00514": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-00625": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-01052": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-01054": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            }
+          }
+        },
+        "compatibility": {
+          "all_compatible": false,
+          "per_probe": {
+            "BIA-00514": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-00625": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-01052": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-01054": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            }
+          }
+        },
+        "font": {
+          "glyph_count": 847,
+          "glyph_count_ok": true,
+          "glyph_ptr": "0x098F5020",
+          "glyph_ptr_ok": true
+        },
+        "ok": false,
+        "ppsspp_closed": true
+      }
+    },
+    {
+      "variant": "whole_utf16le_bom",
+      "build": {
+        "variant": "whole_utf16le_bom",
+        "patched_sha1": "0048fc704982a19f8260443d2e557c00c7ecaec9",
+        "patched_bytes": 58178,
+        "changes": [
+          {
+            "id": "BIA-00514",
+            "key": "MENU0PTION_CONTROLLER_CONFIG",
+            "english": "Controls Config",
+            "korean": "조작 설정",
+            "encoding": "utf-16le"
+          },
+          {
+            "id": "BIA-00625",
+            "key": "MENU0PTION_CONTROLLER_HORZ_SEN",
+            "english": "Horizontal Sensitivity",
+            "korean": "수평 감도",
+            "encoding": "utf-16le"
+          },
+          {
+            "id": "BIA-01052",
+            "key": "MENU0PTION_CONTROLLER_VERT_SEN",
+            "english": "Vertical Sensitivity",
+            "korean": "수직 감도",
+            "encoding": "utf-16le"
+          },
+          {
+            "id": "BIA-01054",
+            "key": "MENU0PTION_CONTROLLER_VIBRATION",
+            "english": "Vibration",
+            "korean": "진동",
+            "encoding": "utf-16le"
+          }
+        ],
+        "iso_readback_ok": true
+      },
+      "runtime": {
+        "variant": "whole_utf16le_bom",
+        "pid": 4280,
+        "debugger_host": "::1",
+        "debugger_port": 26222,
+        "cpu_ready": {
+          "ready": true,
+          "attempts": 1,
+          "status": {
+            "event": "cpu.status",
+            "ticket": 1001,
+            "stepping": false,
+            "paused": false,
+            "pc": 134217728,
+            "ticks": 37071140
+          },
+          "renderer_probe": "e410330e"
+        },
+        "renderer_jal": {
+          "actual": "e410330e",
+          "expected": "e410330e"
+        },
+        "menu_resource": {
+          "opened": true,
+          "startup_start_presses": 9,
+          "localize_seen_in_log": true
+        },
+        "navigation": [
+          {
+            "button": "start",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "cross",
+            "ok": true
+          }
+        ],
+        "probe_scan": {
+          "scope": "full",
+          "start": "0x08800000",
+          "end": "0x0A800000",
+          "hits": {
+            "BIA-00514": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-00625": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-01052": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            },
+            "BIA-01054": {
+              "utf8": null,
+              "cp949": null,
+              "utf16le": null,
+              "widened_utf8_u16": null,
+              "widened_cp949_u16": null
+            }
+          }
+        },
+        "compatibility": {
+          "all_compatible": false,
+          "per_probe": {
+            "BIA-00514": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-00625": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-01052": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            },
+            "BIA-01054": {
+              "proper_utf16": false,
+              "widened_utf8": false,
+              "compatible_with_stage39u_renderer": false
+            }
+          }
+        },
+        "font": {
+          "glyph_count": 847,
+          "glyph_count_ok": true,
+          "glyph_ptr": "0x098F5020",
+          "glyph_ptr_ok": true
+        },
+        "ok": false,
+        "ppsspp_closed": true
+      }
+    }
+  ],
+  "selected_variant": null,
+  "source_localize": {
+    "input_sha1": "da7dedd4a2dfa6bbbff379e1cd28984c99f8deb5",
+    "normalized": false,
+    "canonical_sha1": "da7dedd4a2dfa6bbbff379e1cd28984c99f8deb5"
+  },
+  "completed": false
+}

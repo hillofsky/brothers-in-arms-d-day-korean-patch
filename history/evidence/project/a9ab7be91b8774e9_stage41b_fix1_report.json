@@ -1,0 +1,2738 @@
+{
+  "stage": "41B_FIX1",
+  "purpose": "Retry dedicated Bink/ST1 subtitle reader trace. Fixes 41B early navigation and removes unsupported memory.search dependency.",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "expected_pid": 3148,
+  "debugger_port": 26222,
+  "started": "2026-10-06 20:16:17",
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "cpu_status": {
+    "ok": true,
+    "response": {
+      "event": "cpu.status",
+      "ticket": 1002,
+      "stepping": false,
+      "paused": false,
+      "pc": 134217728,
+      "ticks": 11076860
+    }
+  },
+  "initial_bink_lifecycle": {
+    "completed": true,
+    "samples": [
+      {
+        "t": 0.0,
+        "active": false
+      },
+      {
+        "t": 0.85,
+        "active": true
+      },
+      {
+        "t": 1.67,
+        "active": true
+      },
+      {
+        "t": 2.49,
+        "active": true
+      },
+      {
+        "t": 3.31,
+        "active": true
+      },
+      {
+        "t": 4.13,
+        "active": true
+      },
+      {
+        "t": 4.94,
+        "active": true
+      },
+      {
+        "t": 5.77,
+        "active": true
+      },
+      {
+        "t": 6.61,
+        "active": true
+      },
+      {
+        "t": 7.45,
+        "active": true
+      },
+      {
+        "t": 8.26,
+        "active": true
+      },
+      {
+        "t": 9.08,
+        "active": true
+      },
+      {
+        "t": 9.9,
+        "active": true
+      },
+      {
+        "t": 10.72,
+        "active": true
+      },
+      {
+        "t": 11.54,
+        "active": true
+      },
+      {
+        "t": 12.37,
+        "active": true
+      },
+      {
+        "t": 13.21,
+        "active": true
+      },
+      {
+        "t": 14.05,
+        "active": false
+      }
+    ]
+  },
+  "navigation": [
+    {
+      "button": "start",
+      "result": {
+        "ok": true,
+        "response": [
+          {
+            "event": "input.buttons.send",
+            "ticket": 1021
+          },
+          {
+            "event": "input.buttons.send",
+            "ticket": 1022
+          }
+        ]
+      }
+    },
+    {
+      "button": "cross",
+      "result": {
+        "ok": true,
+        "response": [
+          {
+            "event": "input.buttons.send",
+            "ticket": 1023
+          },
+          {
+            "event": "input.buttons.send",
+            "ticket": 1024
+          }
+        ]
+      }
+    },
+    {
+      "button": "cross",
+      "result": {
+        "ok": true,
+        "response": [
+          {
+            "event": "input.buttons.send",
+            "ticket": 1025
+          },
+          {
+            "event": "input.buttons.send",
+            "ticket": 1026
+          }
+        ]
+      }
+    },
+    {
+      "button": "cross",
+      "result": {
+        "ok": true,
+        "response": [
+          {
+            "event": "input.buttons.send",
+            "ticket": 1027
+          },
+          {
+            "event": "input.buttons.send",
+            "ticket": 1028
+          }
+        ]
+      }
+    }
+  ],
+  "story_bink_detected": false,
+  "story_bink_samples": [
+    {
+      "t": 0.1,
+      "active": false
+    },
+    {
+      "t": 0.91,
+      "active": false
+    },
+    {
+      "t": 1.71,
+      "active": false
+    },
+    {
+      "t": 2.51,
+      "active": false
+    },
+    {
+      "t": 3.31,
+      "active": false
+    },
+    {
+      "t": 4.12,
+      "active": false
+    },
+    {
+      "t": 4.92,
+      "active": false
+    },
+    {
+      "t": 5.72,
+      "active": false
+    },
+    {
+      "t": 6.52,
+      "active": false
+    },
+    {
+      "t": 7.32,
+      "active": false
+    },
+    {
+      "t": 8.13,
+      "active": false
+    },
+    {
+      "t": 8.93,
+      "active": false
+    },
+    {
+      "t": 9.74,
+      "active": false
+    },
+    {
+      "t": 10.54,
+      "active": false
+    },
+    {
+      "t": 11.34,
+      "active": false
+    },
+    {
+      "t": 12.14,
+      "active": false
+    },
+    {
+      "t": 12.95,
+      "active": false
+    },
+    {
+      "t": 13.75,
+      "active": false
+    },
+    {
+      "t": 14.55,
+      "active": false
+    },
+    {
+      "t": 15.35,
+      "active": false
+    },
+    {
+      "t": 16.15,
+      "active": false
+    },
+    {
+      "t": 16.96,
+      "active": false
+    },
+    {
+      "t": 17.76,
+      "active": false
+    },
+    {
+      "t": 18.57,
+      "active": false
+    },
+    {
+      "t": 19.37,
+      "active": false
+    },
+    {
+      "t": 20.17,
+      "active": false
+    },
+    {
+      "t": 20.97,
+      "active": false
+    },
+    {
+      "t": 21.78,
+      "active": false
+    },
+    {
+      "t": 22.58,
+      "active": false
+    },
+    {
+      "t": 23.38,
+      "active": false
+    },
+    {
+      "t": 24.18,
+      "active": false
+    },
+    {
+      "t": 24.99,
+      "active": false
+    },
+    {
+      "t": 25.79,
+      "active": false
+    },
+    {
+      "t": 26.6,
+      "active": false
+    },
+    {
+      "t": 27.4,
+      "active": false
+    },
+    {
+      "t": 28.2,
+      "active": false
+    },
+    {
+      "t": 29.0,
+      "active": false
+    },
+    {
+      "t": 29.8,
+      "active": false
+    },
+    {
+      "t": 30.61,
+      "active": false
+    },
+    {
+      "t": 31.41,
+      "active": false
+    },
+    {
+      "t": 32.21,
+      "active": false
+    },
+    {
+      "t": 33.01,
+      "active": false
+    },
+    {
+      "t": 33.81,
+      "active": false
+    },
+    {
+      "t": 34.61,
+      "active": false
+    }
+  ],
+  "st1_search_attempts": [
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 0.06
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 1.69
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 3.31
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 4.92
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 6.53
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 8.15
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 9.77
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 11.38
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 13.99
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 15.46
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 19.06
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 20.52
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 22.14
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 23.75
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 25.38
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 29.78
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 31.4
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 33.02
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 34.65
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 37.15
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 39.77
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 41.39
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 43.02
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 44.65
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 46.28
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 47.9
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 49.52
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 51.13
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 52.76
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 54.39
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 57.0
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 59.45
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 60.91
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 62.52
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 64.14
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 65.76
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 67.38
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 69.0
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 70.61
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 74.21
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 76.59
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 79.24
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 80.85
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 82.47
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 84.09
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 85.71
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 88.35
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 89.97
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 91.58
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 93.19
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 94.8
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 96.43
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 98.96
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 101.58
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 103.13
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 104.74
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 106.37
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 107.99
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 109.61
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 111.22
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 112.83
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 114.46
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 116.06
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 117.67
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 121.07
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 122.53
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 124.14
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 126.75
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 128.22
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 129.83
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 131.45
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 134.05
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 135.67
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 137.31
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 138.92
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 140.55
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 142.13
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 144.76
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 146.19
+    },
+    {
+      "kind": "known",
+      "score": 0,
+      "verify": [
+        {
+          "label": "title",
+          "address": 149025308,
+          "address_hex": "0x08E1F21C",
+          "ok": false,
+          "got_hex": "00000000000000000000000000000000000000"
+        },
+        {
+          "label": "baker",
+          "address": 149025418,
+          "address_hex": "0x08E1F28A",
+          "ok": false,
+          "got_hex": "00000000000000000000"
+        },
+        {
+          "label": "mac",
+          "address": 149025963,
+          "address_hex": "0x08E1F4AB",
+          "ok": false,
+          "got_hex": "00000000"
+        }
+      ],
+      "t": 149.01
+    }
+  ],
+  "st1_base": null,
+  "st1_base_hex": null,
+  "threads_at_failure": {
+    "ok": true,
+    "response": {
+      "event": "hle.thread.list",
+      "ticket": 5409,
+      "threads": [
+        {
+          "id": 272,
+          "name": "idle0",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138407936,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 273,
+          "name": "idle1",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138403840,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 319,
+          "name": "user_main",
+          "status": 1,
+          "statuses": [
+            "running"
+          ],
+          "pc": 142732672,
+          "entry": 142718060,
+          "initialStackSize": 167463936,
+          "currentStackSize": 307200,
+          "priority": 96,
+          "waitType": 0,
+          "isCurrent": true
+        },
+        {
+          "id": 321,
+          "name": "ExitCallbackThread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 142716868,
+          "entry": 142716804,
+          "initialStackSize": 167771136,
+          "currentStackSize": 1024,
+          "priority": 16,
+          "waitType": 1,
+          "isCurrent": false
+        },
+        {
+          "id": 381,
+          "name": "AudioWorkerThread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 147449812,
+          "entry": 147449424,
+          "initialStackSize": 167325440,
+          "currentStackSize": 4096,
+          "priority": 16,
+          "waitType": 10,
+          "isCurrent": false
+        },
+        {
+          "id": 385,
+          "name": "SceIoAsync",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 136449536,
+          "entry": 136449536,
+          "initialStackSize": 138401280,
+          "currentStackSize": 512,
+          "priority": 16,
+          "waitType": 23,
+          "isCurrent": false
+        },
+        {
+          "id": 387,
+          "name": "SceIoAsync",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 136449792,
+          "entry": 136449792,
+          "initialStackSize": 138400768,
+          "currentStackSize": 512,
+          "priority": 16,
+          "waitType": 23,
+          "isCurrent": false
+        },
+        {
+          "id": 389,
+          "name": "SceIoAsync",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 136450048,
+          "entry": 136450048,
+          "initialStackSize": 138400256,
+          "currentStackSize": 512,
+          "priority": 16,
+          "waitType": 23,
+          "isCurrent": false
+        },
+        {
+          "id": 417,
+          "name": "SceIoAsync",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 136450304,
+          "entry": 136450304,
+          "initialStackSize": 138399744,
+          "currentStackSize": 512,
+          "priority": 16,
+          "waitType": 23,
+          "isCurrent": false
+        }
+      ]
+    }
+  },
+  "completed": false,
+  "error": "RuntimeError('Korean ST1 buffer was not found. Automatic route may have missed; no memory.search call was used.')",
+  "finished": "2026-10-06 20:19:52"
+}

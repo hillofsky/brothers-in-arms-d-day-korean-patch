@@ -1,0 +1,3 @@
+from pathlib import Path
+s=Path('work/patch112_fallbacks.py').read_text(encoding='utf-8-sig');a=s.index(';dialog=json');z=s.index(';rec=b.iso_find_record');s=s[:a]+";inter=json.loads((out/'translations.json').read_text(encoding='utf-8'));alltext=inter"+s[z:];s=s.replace('BIA_STEP112_DIALOGUE_AND_INTERACTION_KO_TEST.iso','BIA_STEP116_TUTORIAL_CHARACTER_NAMES_KO_TEST.iso').replace("outputs/step112","outputs/step116");Path('work/fallback116.py').write_text(s,encoding='utf-8')
+s=Path('work/verify114_menu.py').read_text(encoding='utf-8-sig').replace('BIA_STEP114_MENU_COMPLETION_KO_TEST.iso','BIA_STEP116_TUTORIAL_CHARACTER_NAMES_KO_TEST.iso').replace('outputs/step114_menu','outputs/step116');Path('work/verify116.py').write_text(s,encoding='utf-8')

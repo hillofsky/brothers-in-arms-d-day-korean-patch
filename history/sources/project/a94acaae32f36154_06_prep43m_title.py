@@ -1,0 +1,2 @@
+from pathlib import Path
+s=Path('work/audit_campaign_first.py').read_text(encoding='utf-8');s=s.replace('BIA_STAGE42H_ALL8_MOVIES_512_TEST.iso','BIA_STAGE43M_CAMPAIGN_OBJECTIVE_UTF8_TEST.iso').replace("rows=json.loads(Path('work/first_campaign_units.json').read_text(encoding='utf-8'))","rows=[{'id':'GBXHUD-NEW-OBJECTIVE','English':'New Objective'}]").replace('campaign_first_reference_audit.json','popup_title_reference_audit.json');Path('work/audit43m_title.py').write_text(s,encoding='utf-8')

@@ -1,0 +1,6395 @@
+{
+  "stage": "40C",
+  "purpose": "Validate the mass-relocation method on ON_MEMU_O.MDI only before touching mission MDIs.",
+  "stage40b_diagnosis": {
+    "mass_patch_actions": 44923,
+    "patched_units": 720,
+    "matched_units": 730,
+    "changed_mdis": 57,
+    "problem_1": "Stage40B patched every MDI before the ON_MEMU relocation method had been visually proven.",
+    "problem_2": "Its smoke test read the production font object before font initialization, so glyph_count=0/glyph_ptr=0 was a false failure signal.",
+    "problem_3": "Its main-menu success test still required English Options/Profile at the old Stage39R addresses even though Stage40B intentionally translated those values.",
+    "result": "The Stage40B ISO is not promoted. Stage40C restarts from the known-good Stage39U ISO and patches only ON_MEMU_O."
+  },
+  "plan": {
+    "metadata_actions": 1675,
+    "unique_units": 690,
+    "kind": "narrow_reloc only"
+  },
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE39U_BOOT_RENDER_UTF8_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40C_MENU_MASS_TEST.iso",
+  "build": {
+    "unique_allocations": 656,
+    "metadata_actions": 1675,
+    "unique_units": 690,
+    "changed_streams": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      20
+    ],
+    "allocations": [
+      {
+        "stream": 20,
+        "offset": "0x40",
+        "runtime": "0x0978D060",
+        "korean": "이름",
+        "bytes": 7,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x48",
+        "runtime": "0x0978D068",
+        "korean": "호스트",
+        "bytes": 10,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x54",
+        "runtime": "0x0978D074",
+        "korean": "보통",
+        "bytes": 7,
+        "reference_count": 9
+      },
+      {
+        "stream": 20,
+        "offset": "0x5C",
+        "runtime": "0x0978D07C",
+        "korean": "경고",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x64",
+        "runtime": "0x0978D084",
+        "korean": "이름:",
+        "bytes": 8,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x6C",
+        "runtime": "0x0978D08C",
+        "korean": "예",
+        "bytes": 4,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x70",
+        "runtime": "0x0978D090",
+        "korean": "아니요",
+        "bytes": 10,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x7C",
+        "runtime": "0x0978D09C",
+        "korean": "조준선",
+        "bytes": 10,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x88",
+        "runtime": "0x0978D0A8",
+        "korean": "게임",
+        "bytes": 7,
+        "reference_count": 10
+      },
+      {
+        "stream": 20,
+        "offset": "0x90",
+        "runtime": "0x0978D0B0",
+        "korean": "앞으로 %i개 남았습니다...",
+        "bytes": 35,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xB4",
+        "runtime": "0x0978D0D4",
+        "korean": "완료!",
+        "bytes": 8,
+        "reference_count": 7
+      },
+      {
+        "stream": 20,
+        "offset": "0xBC",
+        "runtime": "0x0978D0DC",
+        "korean": "관전 중",
+        "bytes": 11,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0xC8",
+        "runtime": "0x0978D0E8",
+        "korean": "HUD",
+        "bytes": 4,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xCC",
+        "runtime": "0x0978D0EC",
+        "korean": "연결 중",
+        "bytes": 11,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0xD8",
+        "runtime": "0x0978D0F8",
+        "korean": "일시정지",
+        "bytes": 13,
+        "reference_count": 9
+      },
+      {
+        "stream": 20,
+        "offset": "0xE8",
+        "runtime": "0x0978D108",
+        "korean": "1922년 7월 26일",
+        "bytes": 19,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0xFC",
+        "runtime": "0x0978D11C",
+        "korean": "1921년 2월 22일",
+        "bytes": 19,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x110",
+        "runtime": "0x0978D130",
+        "korean": "다른 플레이어가 사망했습니다.|계속 플레이하거나 임무를 종료할 수 있습니다.",
+        "bytes": 107,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x17C",
+        "runtime": "0x0978D19C",
+        "korean": "사망했습니다.|계속 플레이하거나 임무를 종료하거나,|메뉴에서 임무를 다시 시작할 수 있습니다.",
+        "bytes": 131,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x200",
+        "runtime": "0x0978D220",
+        "korean": "사망했습니다.|계속 플레이하거나 임무를 종료하거나,|메뉴에서 임무를 다시 시작하거나,|마지막 체크포인트를 불러올 수 있습니다.",
+        "bytes": 177,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B4",
+        "runtime": "0x0978D2D4",
+        "korean": "다른 플레이어가 사망했습니다.|계속 플레이하거나 임무를 종료하거나,|메뉴에서 임무를 다시 시작하거나,|마지막 체크포인트를 불러올 수 있습니다.",
+        "bytes": 200,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x37C",
+        "runtime": "0x0978D39C",
+        "korean": "연합군은 독일군 무기와 장비가 대량으로 보관되고 철도로 운송되던 지역을 폭격했다. 철길을 따라 폭격 지점을 정찰하고 생존자도 제거하라.",
+        "bytes": 190,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x43C",
+        "runtime": "0x0978D45C",
+        "korean": "차량 안",
+        "bytes": 11,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x448",
+        "runtime": "0x0978D468",
+        "korean": "차량",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x450",
+        "runtime": "0x0978D470",
+        "korean": "(발사 버튼을 눌러 준비 상태를 전환하십시오!)",
+        "bytes": 63,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x490",
+        "runtime": "0x0978D4B0",
+        "korean": "%action_use% %icon_use%로 가방형 폭약을 설치합니다.",
+        "bytes": 64,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x4D0",
+        "runtime": "0x0978D4F0",
+        "korean": "네트워크 오류가 발생했습니다.| 다른 플레이어와의 연결이 끊겼습니다. |이제 혼자 플레이합니다.",
+        "bytes": 132,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x554",
+        "runtime": "0x0978D574",
+        "korean": "체력:",
+        "bytes": 8,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x55C",
+        "runtime": "0x0978D57C",
+        "korean": "Fire를 눌러 시작합니다.",
+        "bytes": 32,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x57C",
+        "runtime": "0x0978D59C",
+        "korean": "킬을 달성하면 매치에서 승리합니다.",
+        "bytes": 50,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5B0",
+        "runtime": "0x0978D5D0",
+        "korean": "실시간 영상: ",
+        "bytes": 19,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5C4",
+        "runtime": "0x0978D5E4",
+        "korean": "다른 플레이어를 기다리는 중입니다.",
+        "bytes": 50,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x5F8",
+        "runtime": "0x0978D618",
+        "korean": "준비 신호를 기다리는 중입니다.",
+        "bytes": 44,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x624",
+        "runtime": "0x0978D644",
+        "korean": "준비 완료!",
+        "bytes": 15,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x634",
+        "runtime": "0x0978D654",
+        "korean": "준비되지 않았습니다!",
+        "bytes": 30,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x654",
+        "runtime": "0x0978D674",
+        "korean": "브라더스 인 암즈",
+        "bytes": 24,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x66C",
+        "runtime": "0x0978D68C",
+        "korean": "장비:",
+        "bytes": 8,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x674",
+        "runtime": "0x0978D694",
+        "korean": "%o이(가) %k을(를) %w으로 깔아뭉갰습니다.",
+        "bytes": 54,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x6AC",
+        "runtime": "0x0978D6CC",
+        "korean": "%k이(가) %o을(를) %w으로 벌집으로 만들었습니다.",
+        "bytes": 64,
+        "reference_count": 38
+      },
+      {
+        "stream": 20,
+        "offset": "0x6EC",
+        "runtime": "0x0978D70C",
+        "korean": "지원군이 도착했습니다!",
+        "bytes": 33,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x710",
+        "runtime": "0x0978D730",
+        "korean": "야전 진급",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x720",
+        "runtime": "0x0978D740",
+        "korean": "진급시킬 병사 선택",
+        "bytes": 27,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x73C",
+        "runtime": "0x0978D75C",
+        "korean": "준비 신호를 기다리는 중입니다. 준비 완료.",
+        "bytes": 59,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x778",
+        "runtime": "0x0978D798",
+        "korean": "매치가 곧 시작됩니다...3",
+        "bytes": 34,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x79C",
+        "runtime": "0x0978D7BC",
+        "korean": "매치가 곧 시작됩니다...2",
+        "bytes": 34,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x7C0",
+        "runtime": "0x0978D7E0",
+        "korean": "매치가 곧 시작됩니다...1",
+        "bytes": 34,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x7E4",
+        "runtime": "0x0978D804",
+        "korean": "경기가 시작되었습니다!",
+        "bytes": 33,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x808",
+        "runtime": "0x0978D828",
+        "korean": "연장전!",
+        "bytes": 11,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x814",
+        "runtime": "0x0978D834",
+        "korean": "준비되지 않았습니다. Fire를 누르십시오!",
+        "bytes": 55,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x84C",
+        "runtime": "0x0978D86C",
+        "korean": "FIRE를 눌러 시작!",
+        "bytes": 23,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x864",
+        "runtime": "0x0978D884",
+        "korean": "5초, 카운트다운 시작...",
+        "bytes": 32,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x884",
+        "runtime": "0x0978D8A4",
+        "korean": "10초 남았습니다!",
+        "bytes": 23,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x89C",
+        "runtime": "0x0978D8BC",
+        "korean": "30초 남았습니다!",
+        "bytes": 23,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x8B4",
+        "runtime": "0x0978D8D4",
+        "korean": "게임 종료까지 1분!",
+        "bytes": 26,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x8D0",
+        "runtime": "0x0978D8F0",
+        "korean": "게임 종료까지 2분!",
+        "bytes": 26,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x8EC",
+        "runtime": "0x0978D90C",
+        "korean": "게임 종료까지 3분!",
+        "bytes": 26,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x908",
+        "runtime": "0x0978D928",
+        "korean": "게임 종료까지 4분!",
+        "bytes": 26,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x924",
+        "runtime": "0x0978D944",
+        "korean": "게임 종료까지 5분!",
+        "bytes": 26,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x940",
+        "runtime": "0x0978D960",
+        "korean": "제91보병사단 2중대",
+        "bytes": 26,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x95C",
+        "runtime": "0x0978D97C",
+        "korean": "돌격팀",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x968",
+        "runtime": "0x0978D988",
+        "korean": "화력팀",
+        "bytes": 10,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x974",
+        "runtime": "0x0978D994",
+        "korean": "차량팀",
+        "bytes": 10,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x980",
+        "runtime": "0x0978D9A0",
+        "korean": "조 하트삭 하사 - 제502낙하산보병연대 폭스 중대 3소대",
+        "bytes": 73,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x9CC",
+        "runtime": "0x0978D9EC",
+        "korean": "제502낙하산보병연대 폭스 중대 3소대",
+        "bytes": 50,
+        "reference_count": 9
+      },
+      {
+        "stream": 20,
+        "offset": "0xA00",
+        "runtime": "0x0978DA20",
+        "korean": "제502낙하산보병연대 1대대",
+        "bytes": 36,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xA24",
+        "runtime": "0x0978DA44",
+        "korean": "제502낙하산보병연대 2대대",
+        "bytes": 36,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xA48",
+        "runtime": "0x0978DA68",
+        "korean": "제502낙하산보병연대 3대대",
+        "bytes": 36,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xA6C",
+        "runtime": "0x0978DA8C",
+        "korean": "제506낙하산보병연대 3대대",
+        "bytes": 36,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xA90",
+        "runtime": "0x0978DAB0",
+        "korean": "제508낙하산보병연대 1대대",
+        "bytes": 36,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xAB4",
+        "runtime": "0x0978DAD4",
+        "korean": "제327글라이더보병연대",
+        "bytes": 31,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xAD4",
+        "runtime": "0x0978DAF4",
+        "korean": "M5A1 스튜어트 - 제4보병사단",
+        "bytes": 37,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xAFC",
+        "runtime": "0x0978DB1C",
+        "korean": "M4A1 셔먼 - 제2기갑사단",
+        "bytes": 31,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xB1C",
+        "runtime": "0x0978DB3C",
+        "korean": "M4A1 셔먼 - 제4보병사단",
+        "bytes": 31,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xB3C",
+        "runtime": "0x0978DB5C",
+        "korean": "제709보병사단",
+        "bytes": 19,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xB50",
+        "runtime": "0x0978DB70",
+        "korean": "제91보병사단",
+        "bytes": 18,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xB64",
+        "runtime": "0x0978DB84",
+        "korean": "제17 SS 기갑척탄병사단",
+        "bytes": 31,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xB84",
+        "runtime": "0x0978DBA4",
+        "korean": "StuG III A - 제100전차대대",
+        "bytes": 32,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xBA4",
+        "runtime": "0x0978DBC4",
+        "korean": "StuG III F - 제100전차대대",
+        "bytes": 32,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xBC4",
+        "runtime": "0x0978DBE4",
+        "korean": "PzKpfw IV F - 제100전차대대",
+        "bytes": 33,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xBE8",
+        "runtime": "0x0978DC08",
+        "korean": "PzKpfw IV F - 제17 SS 기갑척탄병사단",
+        "bytes": 45,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xC18",
+        "runtime": "0x0978DC38",
+        "korean": "조 하트삭 상병 - 제502낙하산보병연대 폭스 중대 3소대",
+        "bytes": 73,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xC64",
+        "runtime": "0x0978DC84",
+        "korean": "맷 베이커 하사 - 제502낙하산보병연대 폭스 중대 3소대",
+        "bytes": 73,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0xCB0",
+        "runtime": "0x0978DCD0",
+        "korean": "PzKpfw IV F - 제91보병사단",
+        "bytes": 32,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0xCD0",
+        "runtime": "0x0978DCF0",
+        "korean": "독일군 돌격팀",
+        "bytes": 20,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xCE4",
+        "runtime": "0x0978DD04",
+        "korean": "독일군 화력팀",
+        "bytes": 20,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xCF8",
+        "runtime": "0x0978DD18",
+        "korean": "독일군 저격팀",
+        "bytes": 20,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xD0C",
+        "runtime": "0x0978DD2C",
+        "korean": "미군 돌격팀",
+        "bytes": 17,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xD20",
+        "runtime": "0x0978DD40",
+        "korean": "미군 화력팀",
+        "bytes": 17,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xD34",
+        "runtime": "0x0978DD54",
+        "korean": "미군 저격팀",
+        "bytes": 17,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xD48",
+        "runtime": "0x0978DD68",
+        "korean": "조 하트삭",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xD58",
+        "runtime": "0x0978DD78",
+        "korean": "맷 베이커",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xD68",
+        "runtime": "0x0978DD88",
+        "korean": "도일",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0xD70",
+        "runtime": "0x0978DD90",
+        "korean": "테오도어 뤼터",
+        "bytes": 20,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xD84",
+        "runtime": "0x0978DDA4",
+        "korean": "루카스 빌헬름",
+        "bytes": 20,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0xD98",
+        "runtime": "0x0978DDB8",
+        "korean": "%action_use% %icon_use%로 탄약 받기: ",
+        "bytes": 43,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0xDC4",
+        "runtime": "0x0978DDE4",
+        "korean": "탄약을 받았습니다: ",
+        "bytes": 28,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0xDE0",
+        "runtime": "0x0978DE00",
+        "korean": "%action_use% %icon_use%로 문을 엽니다.",
+        "bytes": 45,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0xE10",
+        "runtime": "0x0978DE30",
+        "korean": "%action_use% %icon_use%로 대화합니다.",
+        "bytes": 44,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0xE3C",
+        "runtime": "0x0978DE5C",
+        "korean": "%action_use% %icon_use%로 개먼 폭탄을 설치합니다.",
+        "bytes": 61,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0xE7C",
+        "runtime": "0x0978DE9C",
+        "korean": "%action_use% %icon_use%로 표지판을 읽습니다.",
+        "bytes": 54,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0xEB4",
+        "runtime": "0x0978DED4",
+        "korean": "%action_use% %icon_use%로 MG42를 사용합니다.",
+        "bytes": 52,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0xEE8",
+        "runtime": "0x0978DF08",
+        "korean": "%action_use% %icon_use%로 박격포를 사용합니다.",
+        "bytes": 57,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0xF24",
+        "runtime": "0x0978DF44",
+        "korean": "%action_use% %icon_use%로 브라우닝 기관총을 사용합니다.",
+        "bytes": 70,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0xF6C",
+        "runtime": "0x0978DF8C",
+        "korean": "%action_use% %icon_use%로 .45 권총을 사용합니다.",
+        "bytes": 58,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0xFA8",
+        "runtime": "0x0978DFC8",
+        "korean": "%%action_use% %icon_use%로 Pak 36을 사용합니다.",
+        "bytes": 55,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0xFE0",
+        "runtime": "0x0978E000",
+        "korean": "%action_use% %icon_use%로 아이템을 줍습니다.",
+        "bytes": 54,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1018",
+        "runtime": "0x0978E038",
+        "korean": "%action_use% %icon_use%로 전차 기관총을 사용합니다.",
+        "bytes": 64,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1058",
+        "runtime": "0x0978E078",
+        "korean": "%action_use% %icon_use%로 무기들을 보급합니다.",
+        "bytes": 57,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1094",
+        "runtime": "0x0978E0B4",
+        "korean": "%action_use% %icon_use%로 아이템을 보급합니다.",
+        "bytes": 57,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x10D0",
+        "runtime": "0x0978E0F0",
+        "korean": "%action_use% %icon_use%로 폭발물을 설치합니다.",
+        "bytes": 57,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x110C",
+        "runtime": "0x0978E12C",
+        "korean": "%action_use% %icon_use%로 폭발물을 해체합니다.",
+        "bytes": 57,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1148",
+        "runtime": "0x0978E168",
+        "korean": "%action_use% %icon_use%로 폭발물을 다시 무장합니다.",
+        "bytes": 64,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1188",
+        "runtime": "0x0978E1A8",
+        "korean": "%action_use% %icon_use%로 전차 안에 폭발물을 투입합니다.",
+        "bytes": 71,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x11D0",
+        "runtime": "0x0978E1F0",
+        "korean": "%action_use% %icon_use%로 폭약을 기폭합니다.",
+        "bytes": 54,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1208",
+        "runtime": "0x0978E228",
+        "korean": "%action_use% %icon_use%로 조명탄 상자를 사용합니다.",
+        "bytes": 64,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1248",
+        "runtime": "0x0978E268",
+        "korean": "%action_use% %icon_use%로 치료합니다.",
+        "bytes": 44,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x1274",
+        "runtime": "0x0978E294",
+        "korean": "%action_use% %icon_use%로 사용|",
+        "bytes": 35,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1298",
+        "runtime": "0x0978E2B8",
+        "korean": "%action_use% %icon_use%로 전리품을 사용합니다.",
+        "bytes": 57,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x12D4",
+        "runtime": "0x0978E2F4",
+        "korean": "전차에 수류탄을 넣으려면 해치가 열려 있어야 합니다.",
+        "bytes": 74,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1320",
+        "runtime": "0x0978E340",
+        "korean": "다른 플레이어가 사망했습니다.|이제 혼자 플레이합니다.",
+        "bytes": 77,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1370",
+        "runtime": "0x0978E390",
+        "korean": "%action_use% %icon_use%로 대화: ",
+        "bytes": 36,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x1394",
+        "runtime": "0x0978E3B4",
+        "korean": "%action_use% %icon_use%로 무기를 보급합니다.",
+        "bytes": 54,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x13CC",
+        "runtime": "0x0978E3EC",
+        "korean": "탄약을 받았습니다.",
+        "bytes": 27,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x13E8",
+        "runtime": "0x0978E408",
+        "korean": "체력을 회복했습니다.",
+        "bytes": 30,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1408",
+        "runtime": "0x0978E428",
+        "korean": "미군 M1 소총",
+        "bytes": 17,
+        "reference_count": 15
+      },
+      {
+        "stream": 20,
+        "offset": "0x141C",
+        "runtime": "0x0978E43C",
+        "korean": "미군 M1 카빈",
+        "bytes": 17,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1430",
+        "runtime": "0x0978E450",
+        "korean": "미군 BAR 기관총",
+        "bytes": 21,
+        "reference_count": 10
+      },
+      {
+        "stream": 20,
+        "offset": "0x1448",
+        "runtime": "0x0978E468",
+        "korean": "미군 M1A1 기관단총",
+        "bytes": 25,
+        "reference_count": 12
+      },
+      {
+        "stream": 20,
+        "offset": "0x1464",
+        "runtime": "0x0978E484",
+        "korean": "미군 .45 권총",
+        "bytes": 18,
+        "reference_count": 11
+      },
+      {
+        "stream": 20,
+        "offset": "0x1478",
+        "runtime": "0x0978E498",
+        "korean": "미군 바주카",
+        "bytes": 17,
+        "reference_count": 12
+      },
+      {
+        "stream": 20,
+        "offset": "0x148C",
+        "runtime": "0x0978E4AC",
+        "korean": "미군 스프링필드 소총",
+        "bytes": 30,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x14AC",
+        "runtime": "0x0978E4CC",
+        "korean": "독일군 K98 소총",
+        "bytes": 21,
+        "reference_count": 11
+      },
+      {
+        "stream": 20,
+        "offset": "0x14C4",
+        "runtime": "0x0978E4E4",
+        "korean": "독일군 K98 저격소총",
+        "bytes": 27,
+        "reference_count": 7
+      },
+      {
+        "stream": 20,
+        "offset": "0x14E0",
+        "runtime": "0x0978E500",
+        "korean": "독일군 MP40 기관단총",
+        "bytes": 28,
+        "reference_count": 7
+      },
+      {
+        "stream": 20,
+        "offset": "0x14FC",
+        "runtime": "0x0978E51C",
+        "korean": "독일군 MG42 기관총",
+        "bytes": 25,
+        "reference_count": 11
+      },
+      {
+        "stream": 20,
+        "offset": "0x1518",
+        "runtime": "0x0978E538",
+        "korean": "독일군 박격포",
+        "bytes": 20,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x152C",
+        "runtime": "0x0978E54C",
+        "korean": "독일군 P38 권총",
+        "bytes": 21,
+        "reference_count": 7
+      },
+      {
+        "stream": 20,
+        "offset": "0x1544",
+        "runtime": "0x0978E564",
+        "korean": "독일군 STG44 돌격소총",
+        "bytes": 29,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1564",
+        "runtime": "0x0978E584",
+        "korean": "독일군 판처파우스트",
+        "bytes": 29,
+        "reference_count": 10
+      },
+      {
+        "stream": 20,
+        "offset": "0x1584",
+        "runtime": "0x0978E5A4",
+        "korean": "독일군 FG42 기관총",
+        "bytes": 25,
+        "reference_count": 9
+      },
+      {
+        "stream": 20,
+        "offset": "0x15A0",
+        "runtime": "0x0978E5C0",
+        "korean": "독일군 FG42 저격 기관총",
+        "bytes": 32,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x15C0",
+        "runtime": "0x0978E5E0",
+        "korean": "미군 M3A1 기관단총",
+        "bytes": 25,
+        "reference_count": 9
+      },
+      {
+        "stream": 20,
+        "offset": "0x15DC",
+        "runtime": "0x0978E5FC",
+        "korean": "힌트",
+        "bytes": 7,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x15E4",
+        "runtime": "0x0978E604",
+        "korean": "다른 플레이어가 사망했습니다.|복무가 종료되었습니다.",
+        "bytes": 76,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1630",
+        "runtime": "0x0978E650",
+        "korean": "사망했습니다.|복무가 종료되었습니다.",
+        "bytes": 53,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1668",
+        "runtime": "0x0978E688",
+        "korean": "다른 플레이어가 게임을 나갔습니다.",
+        "bytes": 50,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x169C",
+        "runtime": "0x0978E6BC",
+        "korean": "다른 플레이어가 게임을 나갔습니다. |이제 혼자 플레이합니다.",
+        "bytes": 85,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x16F4",
+        "runtime": "0x0978E714",
+        "korean": " 무기 재장전",
+        "bytes": 18,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1708",
+        "runtime": "0x0978E728",
+        "korean": "R3 버튼을 눌러 조준하십시오.",
+        "bytes": 40,
+        "reference_count": 11
+      },
+      {
+        "stream": 20,
+        "offset": "0x1730",
+        "runtime": "0x0978E750",
+        "korean": "%action_use% %icon_use%로 줍기|",
+        "bytes": 35,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x1754",
+        "runtime": "0x0978E774",
+        "korean": "체크포인트 불러오기",
+        "bytes": 29,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1774",
+        "runtime": "0x0978E794",
+        "korean": "체크포인트",
+        "bytes": 16,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x1784",
+        "runtime": "0x0978E7A4",
+        "korean": "새 목표",
+        "bytes": 11,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x1790",
+        "runtime": "0x0978E7B0",
+        "korean": "주 목표",
+        "bytes": 11,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x179C",
+        "runtime": "0x0978E7BC",
+        "korean": "보조 목표",
+        "bytes": 14,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x17AC",
+        "runtime": "0x0978E7CC",
+        "korean": "실패",
+        "bytes": 7,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x17B4",
+        "runtime": "0x0978E7D4",
+        "korean": "병사 선택",
+        "bytes": 14,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x17C4",
+        "runtime": "0x0978E7E4",
+        "korean": "진급",
+        "bytes": 7,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x17CC",
+        "runtime": "0x0978E7EC",
+        "korean": "카메라 고정",
+        "bytes": 17,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x17E0",
+        "runtime": "0x0978E800",
+        "korean": "카메라 고정 해제",
+        "bytes": 24,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x17F8",
+        "runtime": "0x0978E818",
+        "korean": "관전 시점",
+        "bytes": 14,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1808",
+        "runtime": "0x0978E828",
+        "korean": "자유 시점",
+        "bytes": 14,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1818",
+        "runtime": "0x0978E838",
+        "korean": "확인",
+        "bytes": 7,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x1820",
+        "runtime": "0x0978E840",
+        "korean": "%action_use% %icon_use%로 전리품을 줍습니다.",
+        "bytes": 54,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1858",
+        "runtime": "0x0978E878",
+        "korean": "사망했습니다!",
+        "bytes": 20,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x186C",
+        "runtime": "0x0978E88C",
+        "korean": "즉시 진급",
+        "bytes": 14,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x187C",
+        "runtime": "0x0978E89C",
+        "korean": "아무 버튼이나 눌러 계속하십시오",
+        "bytes": 46,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x18AC",
+        "runtime": "0x0978E8CC",
+        "korean": "지원군 호출",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x18C0",
+        "runtime": "0x0978E8E0",
+        "korean": "관전",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x18C8",
+        "runtime": "0x0978E8E8",
+        "korean": " 점수판 표시",
+        "bytes": 18,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x18DC",
+        "runtime": "0x0978E8FC",
+        "korean": " 점수판 숨기기",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x18F4",
+        "runtime": "0x0978E914",
+        "korean": "웨이브 완료",
+        "bytes": 17,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1908",
+        "runtime": "0x0978E928",
+        "korean": "웨이브 시작",
+        "bytes": 17,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x191C",
+        "runtime": "0x0978E93C",
+        "korean": "진행 상황 저장 중...",
+        "bytes": 28,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1938",
+        "runtime": "0x0978E958",
+        "korean": "플레이어가 게임에 복귀했습니다.",
+        "bytes": 46,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1968",
+        "runtime": "0x0978E988",
+        "korean": "%icon_use%를 눌러 기폭기를 작동합니다.",
+        "bytes": 51,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x199C",
+        "runtime": "0x0978E9BC",
+        "korean": "목표 무력화!",
+        "bytes": 18,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x19B0",
+        "runtime": "0x0978E9D0",
+        "korean": "사망했습니다. [Fire]를 눌러 부활하십시오!",
+        "bytes": 57,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x19EC",
+        "runtime": "0x0978EA0C",
+        "korean": "인근",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x19F4",
+        "runtime": "0x0978EA14",
+        "korean": " 팀 기지",
+        "bytes": 12,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1A00",
+        "runtime": "0x0978EA20",
+        "korean": "기어박스 게임",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1A14",
+        "runtime": "0x0978EA34",
+        "korean": "워게임",
+        "bytes": 10,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x1A20",
+        "runtime": "0x0978EA40",
+        "korean": "네트워크 시작 지연",
+        "bytes": 27,
+        "reference_count": 7
+      },
+      {
+        "stream": 20,
+        "offset": "0x1A3C",
+        "runtime": "0x0978EA5C",
+        "korean": "최소 네트워크 플레이어",
+        "bytes": 33,
+        "reference_count": 7
+      },
+      {
+        "stream": 20,
+        "offset": "0x1A60",
+        "runtime": "0x0978EA80",
+        "korean": "재시작 지연",
+        "bytes": 17,
+        "reference_count": 7
+      },
+      {
+        "stream": 20,
+        "offset": "0x1A74",
+        "runtime": "0x0978EA94",
+        "korean": "토너먼트 게임",
+        "bytes": 20,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1A88",
+        "runtime": "0x0978EAA8",
+        "korean": "플레이어 준비 필수",
+        "bytes": 27,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1AA4",
+        "runtime": "0x0978EAC4",
+        "korean": "강제 부활",
+        "bytes": 14,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1AB4",
+        "runtime": "0x0978EAD4",
+        "korean": "봇 실력 조정",
+        "bytes": 18,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1AC8",
+        "runtime": "0x0978EAE8",
+        "korean": "부활 보호 시간",
+        "bytes": 21,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1AE0",
+        "runtime": "0x0978EB00",
+        "korean": "트랜스로케이터 허용",
+        "bytes": 29,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1B00",
+        "runtime": "0x0978EB20",
+        "korean": "최소 플레이어 수",
+        "bytes": 24,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1B18",
+        "runtime": "0x0978EB38",
+        "korean": "팀 점수 라운드",
+        "bytes": 21,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1B30",
+        "runtime": "0x0978EB50",
+        "korean": "게임 종료 지연 시간",
+        "bytes": 28,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1B4C",
+        "runtime": "0x0978EB6C",
+        "korean": "공수 작전",
+        "bytes": 14,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x1B5C",
+        "runtime": "0x0978EB7C",
+        "korean": "UT2003 통계 매치 ID",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1B74",
+        "runtime": "0x0978EB94",
+        "korean": " [Fire]를 눌러 계속하십시오!",
+        "bytes": 38,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1B9C",
+        "runtime": "0x0978EBBC",
+        "korean": "계급",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1BA4",
+        "runtime": "0x0978EBC4",
+        "korean": "플레이어",
+        "bytes": 13,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x1BB4",
+        "runtime": "0x0978EBD4",
+        "korean": "점수",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1BBC",
+        "runtime": "0x0978EBDC",
+        "korean": "시간:",
+        "bytes": 8,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1BC4",
+        "runtime": "0x0978EBE4",
+        "korean": "핑:",
+        "bytes": 5,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1BCC",
+        "runtime": "0x0978EBEC",
+        "korean": "사망",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1BD4",
+        "runtime": "0x0978EBF4",
+        "korean": "관리자",
+        "bytes": 10,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x1BE0",
+        "runtime": "0x0978EC00",
+        "korean": "네트워크",
+        "bytes": 13,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x1BF0",
+        "runtime": "0x0978EC10",
+        "korean": "경과 시간:",
+        "bytes": 15,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C00",
+        "runtime": "0x0978EC20",
+        "korean": "탈락",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C08",
+        "runtime": "0x0978EC28",
+        "korean": "준비",
+        "bytes": 7,
+        "reference_count": 8
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C10",
+        "runtime": "0x0978EC30",
+        "korean": "준비 안 됨",
+        "bytes": 15,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C20",
+        "runtime": "0x0978EC40",
+        "korean": "초보",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C28",
+        "runtime": "0x0978EC48",
+        "korean": "평균",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C30",
+        "runtime": "0x0978EC50",
+        "korean": "숙련",
+        "bytes": 7,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C38",
+        "runtime": "0x0978EC58",
+        "korean": "달인",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C40",
+        "runtime": "0x0978EC60",
+        "korean": "비인간적",
+        "bytes": 13,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C50",
+        "runtime": "0x0978EC70",
+        "korean": "초인적",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C5C",
+        "runtime": "0x0978EC7C",
+        "korean": "매치에서 패배했습니다",
+        "bytes": 32,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C7C",
+        "runtime": "0x0978EC9C",
+        "korean": "매치에서 승리했습니다",
+        "bytes": 32,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1C9C",
+        "runtime": "0x0978ECBC",
+        "korean": "최대 목숨:",
+        "bytes": 15,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1CAC",
+        "runtime": "0x0978ECCC",
+        "korean": "킬 제한:",
+        "bytes": 12,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1CB8",
+        "runtime": "0x0978ECD8",
+        "korean": "FPH",
+        "bytes": 4,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x1CBC",
+        "runtime": "0x0978ECDC",
+        "korean": "다시 시작",
+        "bytes": 14,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1CCC",
+        "runtime": "0x0978ECEC",
+        "korean": "계속",
+        "bytes": 7,
+        "reference_count": 11
+      },
+      {
+        "stream": 20,
+        "offset": "0x1CD4",
+        "runtime": "0x0978ECF4",
+        "korean": "매치가 종료되었습니다.",
+        "bytes": 33,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1CF8",
+        "runtime": "0x0978ED18",
+        "korean": "남은 시간:",
+        "bytes": 15,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1D08",
+        "runtime": "0x0978ED28",
+        "korean": "근처",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1D10",
+        "runtime": "0x0978ED30",
+        "korean": "봇 팀 균형 맞추기",
+        "bytes": 25,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1D2C",
+        "runtime": "0x0978ED4C",
+        "korean": "플레이어 팀 균형 맞추기",
+        "bytes": 34,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1D50",
+        "runtime": "0x0978ED70",
+        "korean": "최대 팀 인원",
+        "bytes": 18,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1D64",
+        "runtime": "0x0978ED84",
+        "korean": "아군 사격 피해 배율",
+        "bytes": 28,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1D80",
+        "runtime": "0x0978EDA0",
+        "korean": "팀 데스매치",
+        "bytes": 17,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1D94",
+        "runtime": "0x0978EDB4",
+        "korean": "점수 제한:",
+        "bytes": 15,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1DA4",
+        "runtime": "0x0978EDC4",
+        "korean": "임무 구역 이탈 중",
+        "bytes": 25,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1DC0",
+        "runtime": "0x0978EDE0",
+        "korean": "조 하트삭 하사",
+        "bytes": 21,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x1DD8",
+        "runtime": "0x0978EDF8",
+        "korean": "맷 베이커 하사",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1DF0",
+        "runtime": "0x0978EE10",
+        "korean": "미군",
+        "bytes": 7,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1DF8",
+        "runtime": "0x0978EE18",
+        "korean": "독일군",
+        "bytes": 10,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x1E04",
+        "runtime": "0x0978EE24",
+        "korean": "%action_use% %icon_use%로 보급:|",
+        "bytes": 36,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1E28",
+        "runtime": "0x0978EE48",
+        "korean": "헤세이 소대 선임하사",
+        "bytes": 30,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1E48",
+        "runtime": "0x0978EE68",
+        "korean": "디버그 메뉴",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1E5C",
+        "runtime": "0x0978EE7C",
+        "korean": "앨런 이병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1E6C",
+        "runtime": "0x0978EE8C",
+        "korean": "로크 이병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1E7C",
+        "runtime": "0x0978EE9C",
+        "korean": "하트삭 상병",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1E90",
+        "runtime": "0x0978EEB0",
+        "korean": "제임슨 이병",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1EA4",
+        "runtime": "0x0978EEC4",
+        "korean": "가넷 이병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1EB4",
+        "runtime": "0x0978EED4",
+        "korean": "코리온 상병",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1EC8",
+        "runtime": "0x0978EEE8",
+        "korean": "레겟 일병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1ED8",
+        "runtime": "0x0978EEF8",
+        "korean": "베이커 하사",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1EEC",
+        "runtime": "0x0978EF0C",
+        "korean": "무자 이병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1EFC",
+        "runtime": "0x0978EF1C",
+        "korean": "콜 중령",
+        "bytes": 11,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1F08",
+        "runtime": "0x0978EF28",
+        "korean": "요크 이병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1F18",
+        "runtime": "0x0978EF38",
+        "korean": "휘튼 일병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1F28",
+        "runtime": "0x0978EF48",
+        "korean": "후퍼 이병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1F38",
+        "runtime": "0x0978EF58",
+        "korean": "도 이병",
+        "bytes": 11,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1F44",
+        "runtime": "0x0978EF64",
+        "korean": "맥크리어리 이병",
+        "bytes": 23,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1F5C",
+        "runtime": "0x0978EF7C",
+        "korean": "리바스 이병",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1F70",
+        "runtime": "0x0978EF90",
+        "korean": "데솔라 이병",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1F84",
+        "runtime": "0x0978EFA4",
+        "korean": "자노비치 일병",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1F98",
+        "runtime": "0x0978EFB8",
+        "korean": "오브리에스키 일병",
+        "bytes": 26,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1FB4",
+        "runtime": "0x0978EFD4",
+        "korean": "코틀랜드 일병",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1FC8",
+        "runtime": "0x0978EFE8",
+        "korean": "콤스 소위",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x1FD8",
+        "runtime": "0x0978EFF8",
+        "korean": "루이스 하사",
+        "bytes": 17,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1FEC",
+        "runtime": "0x0978F00C",
+        "korean": "스콧 하사",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x1FFC",
+        "runtime": "0x0978F01C",
+        "korean": "보이드 소위",
+        "bytes": 17,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2010",
+        "runtime": "0x0978F030",
+        "korean": "리스너 하사",
+        "bytes": 17,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2024",
+        "runtime": "0x0978F044",
+        "korean": "잭슨 하사",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2034",
+        "runtime": "0x0978F054",
+        "korean": "킬로이 하사",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2048",
+        "runtime": "0x0978F068",
+        "korean": "도일 상병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2058",
+        "runtime": "0x0978F078",
+        "korean": "패독 상병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2068",
+        "runtime": "0x0978F088",
+        "korean": "캐시디 중령",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x207C",
+        "runtime": "0x0978F09C",
+        "korean": "프라이어 이병",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2090",
+        "runtime": "0x0978F0B0",
+        "korean": "캠벨 상병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x20A0",
+        "runtime": "0x0978F0C0",
+        "korean": "맥코넬 이병",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x20B4",
+        "runtime": "0x0978F0D4",
+        "korean": "페이지 이병",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x20C8",
+        "runtime": "0x0978F0E8",
+        "korean": "마시 이병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x20D8",
+        "runtime": "0x0978F0F8",
+        "korean": "존슨 대령",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x20E8",
+        "runtime": "0x0978F108",
+        "korean": "허시 이병",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x20F8",
+        "runtime": "0x0978F118",
+        "korean": "마셜 대령",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2108",
+        "runtime": "0x0978F128",
+        "korean": "병사",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2110",
+        "runtime": "0x0978F130",
+        "korean": "%o은(는) 숨 쉬러 올라오는 걸 잊었습니다.",
+        "bytes": 56,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x2148",
+        "runtime": "0x0978F168",
+        "korean": "벙커를 점령하고 Flak 36 대공포를 파괴하라. 점령 후에는 진지를 사수하라.",
+        "bytes": 99,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x21AC",
+        "runtime": "0x0978F1CC",
+        "korean": "미군이 점령한 도시를 돌파해 독일 전차부대와 합류하라.",
+        "bytes": 77,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x21FC",
+        "runtime": "0x0978F21C",
+        "korean": "지정되지 않은 동작",
+        "bytes": 27,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x2218",
+        "runtime": "0x0978F238",
+        "korean": "애니메이션 재생",
+        "bytes": 23,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2230",
+        "runtime": "0x0978F250",
+        "korean": "%o은(는) %k 때문에 감압되었습니다.",
+        "bytes": 47,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2260",
+        "runtime": "0x0978F280",
+        "korean": "불타는 중",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2270",
+        "runtime": "0x0978F290",
+        "korean": "%o은(는) 감압되었습니다.",
+        "bytes": 34,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2294",
+        "runtime": "0x0978F2B4",
+        "korean": "%o은(는) %k에게 녹아버렸습니다.",
+        "bytes": 43,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x22C0",
+        "runtime": "0x0978F2E0",
+        "korean": "%o은(는) 노릇하게 구워졌습니다.",
+        "bytes": 44,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x22EC",
+        "runtime": "0x0978F30C",
+        "korean": "물속",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x22F4",
+        "runtime": "0x0978F314",
+        "korean": "%o은(는) 점액에 녹아버렸습니다.",
+        "bytes": 44,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2320",
+        "runtime": "0x0978F340",
+        "korean": "%o은(는) %k의 피스톤에 짓뭉개졌습니다.",
+        "bytes": 53,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2358",
+        "runtime": "0x0978F378",
+        "korean": "용암 속",
+        "bytes": 11,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2364",
+        "runtime": "0x0978F384",
+        "korean": "점액 속",
+        "bytes": 11,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2370",
+        "runtime": "0x0978F390",
+        "korean": "진공 상태",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2380",
+        "runtime": "0x0978F3A0",
+        "korean": "미군 셔먼 전차 .50구경 탄약",
+        "bytes": 38,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x23A8",
+        "runtime": "0x0978F3C8",
+        "korean": "독일군 FG42 탄약",
+        "bytes": 22,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x23C0",
+        "runtime": "0x0978F3E0",
+        "korean": "독일군 Flakvierling 탄약",
+        "bytes": 30,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x23E0",
+        "runtime": "0x0978F400",
+        "korean": "독일군 MG42 탄약",
+        "bytes": 22,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x23F8",
+        "runtime": "0x0978F418",
+        "korean": "미군 M1A1 탄환",
+        "bytes": 19,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x240C",
+        "runtime": "0x0978F42C",
+        "korean": "독일군 MP40 탄환",
+        "bytes": 22,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2424",
+        "runtime": "0x0978F444",
+        "korean": "독일군 박격포탄",
+        "bytes": 23,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x243C",
+        "runtime": "0x0978F45C",
+        "korean": "독일군 판처파우스트 탄약",
+        "bytes": 36,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x2460",
+        "runtime": "0x0978F480",
+        "korean": "미군 .45 탄환",
+        "bytes": 18,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2474",
+        "runtime": "0x0978F494",
+        "korean": "미군 스튜어트 주포탄",
+        "bytes": 30,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2494",
+        "runtime": "0x0978F4B4",
+        "korean": "미군 M10 .50구경 탄약",
+        "bytes": 28,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x24B0",
+        "runtime": "0x0978F4D0",
+        "korean": "미군 BAR 탄환",
+        "bytes": 18,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x24C4",
+        "runtime": "0x0978F4E4",
+        "korean": "독일군 StuG 주포탄",
+        "bytes": 25,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x24E0",
+        "runtime": "0x0978F500",
+        "korean": "미군 바주카 탄약",
+        "bytes": 24,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x24F8",
+        "runtime": "0x0978F518",
+        "korean": "미군 카빈 탄환",
+        "bytes": 21,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x2510",
+        "runtime": "0x0978F530",
+        "korean": "미군 M10 주포탄",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2528",
+        "runtime": "0x0978F548",
+        "korean": "미군 M3A1 탄약",
+        "bytes": 19,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x253C",
+        "runtime": "0x0978F55C",
+        "korean": "미군 M1 탄환",
+        "bytes": 17,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2550",
+        "runtime": "0x0978F570",
+        "korean": "미군 셔먼 주포탄",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2568",
+        "runtime": "0x0978F588",
+        "korean": "미군 스튜어트 전차 .30구경 탄약",
+        "bytes": 44,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2594",
+        "runtime": "0x0978F5B4",
+        "korean": "독일군 MP40 탄약",
+        "bytes": 22,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x25AC",
+        "runtime": "0x0978F5CC",
+        "korean": "독일군 K98 탄약",
+        "bytes": 21,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x25C4",
+        "runtime": "0x0978F5E4",
+        "korean": "미군 .45 탄약",
+        "bytes": 18,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x25D8",
+        "runtime": "0x0978F5F8",
+        "korean": "미군 M1 카빈 탄약",
+        "bytes": 24,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x25F0",
+        "runtime": "0x0978F610",
+        "korean": "미군 BAR 탄약",
+        "bytes": 18,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x2604",
+        "runtime": "0x0978F624",
+        "korean": "미군 M1 탄약",
+        "bytes": 17,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2618",
+        "runtime": "0x0978F638",
+        "korean": "붕대를 주웠습니다.",
+        "bytes": 27,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2634",
+        "runtime": "0x0978F654",
+        "korean": "미군 M1A1 탄약",
+        "bytes": 19,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2648",
+        "runtime": "0x0978F668",
+        "korean": "전리품을 주웠습니다.",
+        "bytes": 30,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2668",
+        "runtime": "0x0978F688",
+        "korean": "수류탄을 주웠습니다.",
+        "bytes": 30,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2688",
+        "runtime": "0x0978F6A8",
+        "korean": "독일군 FG42를 획득했습니다.",
+        "bytes": 38,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x26B0",
+        "runtime": "0x0978F6D0",
+        "korean": "FG 42",
+        "bytes": 6,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x26B8",
+        "runtime": "0x0978F6D8",
+        "korean": "독일군 K98 저격소총을 획득했습니다.",
+        "bytes": 50,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x26EC",
+        "runtime": "0x0978F70C",
+        "korean": "독일군 K98 소총을 획득했습니다.",
+        "bytes": 44,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2718",
+        "runtime": "0x0978F738",
+        "korean": "독일군 판처파우스트를 획득했습니다.",
+        "bytes": 52,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x274C",
+        "runtime": "0x0978F76C",
+        "korean": "독일군 P38 권총을 획득했습니다.",
+        "bytes": 44,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2778",
+        "runtime": "0x0978F798",
+        "korean": "독일군 MP40을 획득했습니다.",
+        "bytes": 38,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x27A0",
+        "runtime": "0x0978F7C0",
+        "korean": "독일군 MP40",
+        "bytes": 15,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x27B0",
+        "runtime": "0x0978F7D0",
+        "korean": "미군 BAR 기관총을 획득했습니다.",
+        "bytes": 44,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x27DC",
+        "runtime": "0x0978F7FC",
+        "korean": "독일군 STG44 돌격소총을 획득했습니다.",
+        "bytes": 52,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2810",
+        "runtime": "0x0978F830",
+        "korean": "STG 44",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2818",
+        "runtime": "0x0978F838",
+        "korean": "미군 BAR",
+        "bytes": 11,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2824",
+        "runtime": "0x0978F844",
+        "korean": "미군 바주카를 획득했습니다.",
+        "bytes": 40,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x284C",
+        "runtime": "0x0978F86C",
+        "korean": ".45 권총을 획득했습니다.",
+        "bytes": 34,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2870",
+        "runtime": "0x0978F890",
+        "korean": "미군 M1 카빈 소총",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2888",
+        "runtime": "0x0978F8A8",
+        "korean": "미군 M1 카빈 소총을 획득했습니다.",
+        "bytes": 47,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x28B8",
+        "runtime": "0x0978F8D8",
+        "korean": "미군 M1 소총을 획득했습니다.",
+        "bytes": 40,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x28E0",
+        "runtime": "0x0978F900",
+        "korean": "미군 M3A1 기관단총을 획득했습니다.",
+        "bytes": 48,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2910",
+        "runtime": "0x0978F930",
+        "korean": "미군 스프링필드 소총을 획득했습니다.",
+        "bytes": 53,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2948",
+        "runtime": "0x0978F968",
+        "korean": "미군 M1A1 기관단총을 획득했습니다.",
+        "bytes": 48,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2978",
+        "runtime": "0x0978F998",
+        "korean": "독일군 수류탄",
+        "bytes": 20,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x298C",
+        "runtime": "0x0978F9AC",
+        "korean": "붕대",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2994",
+        "runtime": "0x0978F9B4",
+        "korean": "붕대. 피해 20을 회복합니다.",
+        "bytes": 38,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x29BC",
+        "runtime": "0x0978F9DC",
+        "korean": "독일군 수류탄. 아주 화끈하게 터집니다.",
+        "bytes": 55,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x29F4",
+        "runtime": "0x0978FA14",
+        "korean": "수류탄",
+        "bytes": 10,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2A00",
+        "runtime": "0x0978FA20",
+        "korean": "수류탄. 아주 화끈하게 터집니다.",
+        "bytes": 45,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2A30",
+        "runtime": "0x0978FA50",
+        "korean": "미군 M10 .50구경",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2A48",
+        "runtime": "0x0978FA68",
+        "korean": "미군 M1919 .30구경 기관총",
+        "bytes": 33,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2A6C",
+        "runtime": "0x0978FA8C",
+        "korean": "미군 셔먼 .50구경",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2A84",
+        "runtime": "0x0978FAA4",
+        "korean": "미군 스튜어트 .30구경",
+        "bytes": 30,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2AA4",
+        "runtime": "0x0978FAC4",
+        "korean": "[Use]를 눌러 브라우닝 기관총을 사용합니다.",
+        "bytes": 59,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2AE0",
+        "runtime": "0x0978FB00",
+        "korean": "[Jump]를 눌러 브라우닝 기관총에서 내립니다.",
+        "bytes": 60,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B1C",
+        "runtime": "0x0978FB3C",
+        "korean": "취소",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B24",
+        "runtime": "0x0978FB44",
+        "korean": "명중률",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B30",
+        "runtime": "0x0978FB50",
+        "korean": "전술",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B38",
+        "runtime": "0x0978FB58",
+        "korean": "제압",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B40",
+        "runtime": "0x0978FB60",
+        "korean": "매복",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B48",
+        "runtime": "0x0978FB68",
+        "korean": "계곡을 지나",
+        "bytes": 17,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B5C",
+        "runtime": "0x0978FB7C",
+        "korean": "마을 탈환",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B6C",
+        "runtime": "0x0978FB8C",
+        "korean": "참호",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B74",
+        "runtime": "0x0978FB94",
+        "korean": "창고 지구",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B84",
+        "runtime": "0x0978FBA4",
+        "korean": "둑길",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B8C",
+        "runtime": "0x0978FBAC",
+        "korean": "교차로",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2B98",
+        "runtime": "0x0978FBB8",
+        "korean": "어둠",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2BA0",
+        "runtime": "0x0978FBC0",
+        "korean": "수로",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2BA8",
+        "runtime": "0x0978FBC8",
+        "korean": "폭풍",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2BB0",
+        "runtime": "0x0978FBD0",
+        "korean": "절벽",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2BB8",
+        "runtime": "0x0978FBD8",
+        "korean": "고지대",
+        "bytes": 10,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2BC4",
+        "runtime": "0x0978FBE4",
+        "korean": "파괴된 전차",
+        "bytes": 17,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2BD8",
+        "runtime": "0x0978FBF8",
+        "korean": "종착역",
+        "bytes": 10,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2BE4",
+        "runtime": "0x0978FC04",
+        "korean": "고지 점령",
+        "bytes": 14,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2BF4",
+        "runtime": "0x0978FC14",
+        "korean": "야간 조명",
+        "bytes": 14,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2C04",
+        "runtime": "0x0978FC24",
+        "korean": "전선 사수",
+        "bytes": 14,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2C14",
+        "runtime": "0x0978FC34",
+        "korean": "잔해를 뚫고",
+        "bytes": 17,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2C28",
+        "runtime": "0x0978FC48",
+        "korean": "앙테르비앵의 매복",
+        "bytes": 26,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2C44",
+        "runtime": "0x0978FC64",
+        "korean": "참호 속에서",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2C58",
+        "runtime": "0x0978FC78",
+        "korean": "둑길의 피",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2C68",
+        "runtime": "0x0978FC88",
+        "korean": "에티엔빌의 새벽",
+        "bytes": 23,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2C80",
+        "runtime": "0x0978FCA0",
+        "korean": "펠르랭 교차로",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2C94",
+        "runtime": "0x0978FCB4",
+        "korean": "어둠 속의 한 발",
+        "bytes": 22,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2CAC",
+        "runtime": "0x0978FCCC",
+        "korean": "수로에서",
+        "bytes": 13,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2CBC",
+        "runtime": "0x0978FCDC",
+        "korean": "폭풍 전야",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2CCC",
+        "runtime": "0x0978FCEC",
+        "korean": "고요한 절벽",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2CE0",
+        "runtime": "0x0978FD00",
+        "korean": "미군 공수부대로부터 Flak 38 대공포 진지 세 곳을 방어하라.",
+        "bytes": 79,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2D30",
+        "runtime": "0x0978FD50",
+        "korean": "독일군 보급로를 확보하기 위해 마을을 탈환하라.",
+        "bytes": 67,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2D74",
+        "runtime": "0x0978FD94",
+        "korean": "창고 지구의 미군을 소탕하라.",
+        "bytes": 41,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2DA0",
+        "runtime": "0x0978FDC0",
+        "korean": "미군 공수부대가 전선을 돌파해 88 탄약고에 도달할 때까지 진지를 사수하라.",
+        "bytes": 103,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2E08",
+        "runtime": "0x0978FE28",
+        "korean": "플레이어 프로필 [ <PROFILE> ]을(를) 삭제하시겠습니까?",
+        "bytes": 71,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2E50",
+        "runtime": "0x0978FE70",
+        "korean": "START 버튼을 누르십시오",
+        "bytes": 32,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2E70",
+        "runtime": "0x0978FE90",
+        "korean": "불러오는 중...",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2E84",
+        "runtime": "0x0978FEA4",
+        "korean": "프로필 관리",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2E98",
+        "runtime": "0x0978FEB8",
+        "korean": "프로필 선택",
+        "bytes": 17,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x2EAC",
+        "runtime": "0x0978FECC",
+        "korean": "프로필 이름 입력",
+        "bytes": 24,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2EC4",
+        "runtime": "0x0978FEE4",
+        "korean": "[ <PROFILE> ] 이름의 플레이어 프로필을 만들지 못했습니다.",
+        "bytes": 77,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2F14",
+        "runtime": "0x0978FF34",
+        "korean": "이미 사용 중인 이름이거나 사용할 수 없는 문자가 포함되어 있습니다.",
+        "bytes": 95,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x2F74",
+        "runtime": "0x0978FF94",
+        "korean": "이름을 비워 둘 수 없습니다.",
+        "bytes": 39,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2F9C",
+        "runtime": "0x0978FFBC",
+        "korean": "계속하려면 새 플레이어 프로필을 만들어야 합니다.",
+        "bytes": 70,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x2FE4",
+        "runtime": "0x09790004",
+        "korean": "프로필 불러오는 중...",
+        "bytes": 30,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3004",
+        "runtime": "0x09790024",
+        "korean": "베이커",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3010",
+        "runtime": "0x09790030",
+        "korean": "프로필 없음",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3024",
+        "runtime": "0x09790044",
+        "korean": "프로필 있음",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3038",
+        "runtime": "0x09790058",
+        "korean": "임무 선택",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3048",
+        "runtime": "0x09790068",
+        "korean": "임무",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3050",
+        "runtime": "0x09790070",
+        "korean": "프로필",
+        "bytes": 10,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x305C",
+        "runtime": "0x0979007C",
+        "korean": "생성",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3064",
+        "runtime": "0x09790084",
+        "korean": "선택",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x306C",
+        "runtime": "0x0979008C",
+        "korean": "삭제",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x3074",
+        "runtime": "0x09790094",
+        "korean": "저장",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x307C",
+        "runtime": "0x0979009C",
+        "korean": "종료",
+        "bytes": 7,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x3084",
+        "runtime": "0x097900A4",
+        "korean": "뒤로",
+        "bytes": 7,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x308C",
+        "runtime": "0x097900AC",
+        "korean": "무관",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3094",
+        "runtime": "0x097900B4",
+        "korean": "기본값",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x30A0",
+        "runtime": "0x097900C0",
+        "korean": "옵션",
+        "bytes": 7,
+        "reference_count": 7
+      },
+      {
+        "stream": 20,
+        "offset": "0x30A8",
+        "runtime": "0x097900C8",
+        "korean": "참가",
+        "bytes": 7,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x30B0",
+        "runtime": "0x097900D0",
+        "korean": "나가기",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x30BC",
+        "runtime": "0x097900DC",
+        "korean": "준비 취소",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x30CC",
+        "runtime": "0x097900EC",
+        "korean": "시작",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x30D4",
+        "runtime": "0x097900F4",
+        "korean": "완료",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x30DC",
+        "runtime": "0x097900FC",
+        "korean": "재시도",
+        "bytes": 10,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x30E8",
+        "runtime": "0x09790108",
+        "korean": "끄기",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x30F0",
+        "runtime": "0x09790110",
+        "korean": "켜기",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x30F8",
+        "runtime": "0x09790118",
+        "korean": "추가 콘텐츠",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x310C",
+        "runtime": "0x0979012C",
+        "korean": "다음",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3114",
+        "runtime": "0x09790134",
+        "korean": "제작진",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3120",
+        "runtime": "0x09790140",
+        "korean": "이전",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3128",
+        "runtime": "0x09790148",
+        "korean": "음성 재생",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3138",
+        "runtime": "0x09790158",
+        "korean": "음성 정지",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3148",
+        "runtime": "0x09790168",
+        "korean": "스커미시",
+        "bytes": 13,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3158",
+        "runtime": "0x09790178",
+        "korean": "새 게임 시작",
+        "bytes": 18,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x316C",
+        "runtime": "0x0979018C",
+        "korean": "챕터",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3174",
+        "runtime": "0x09790194",
+        "korean": "새 게임을 시작하시겠습니까?",
+        "bytes": 40,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x319C",
+        "runtime": "0x097901BC",
+        "korean": "난이도",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x31A8",
+        "runtime": "0x097901C8",
+        "korean": "쉬움",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x31B0",
+        "runtime": "0x097901D0",
+        "korean": "어려움",
+        "bytes": 10,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x31BC",
+        "runtime": "0x097901DC",
+        "korean": "사실적",
+        "bytes": 10,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x31C8",
+        "runtime": "0x097901E8",
+        "korean": "여기서는 병사로서 경험을 쌓을 수 없지만, 모두가 병사가 될 필요는 없습니다. 이 적을 물리치는 데 전술적 전투는 필요하지 않습니다.",
+        "bytes": 181,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3280",
+        "runtime": "0x097902A0",
+        "korean": "브라더스 인 암즈의 신병은 여기서 시작하십시오. 독일군이 만만치 않은 교전을 벌여 당신을 긴장하게 합니다. 전술적 경험을 제공하는 최소 난이도입니다.",
+        "bytes": 208,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3350",
+        "runtime": "0x09790370",
+        "korean": "숙련된 분대장을 위한 난이도입니다. 독일군은 매우 강인하고 사격도 치명적으로 정확합니다. 뛰어난 전술 운용이 필요합니다.",
+        "bytes": 170,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x33FC",
+        "runtime": "0x0979041C",
+        "korean": "낙하산을 메고 프랑스로 뛰어내리는 것에 가장 가까운 경험입니다. 안전을 위해 이 도전을 시도하기 전에 어려움 난이도로 게임을 완료해야 합니다.",
+        "bytes": 198,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x34C4",
+        "runtime": "0x097904E4",
+        "korean": "챕터 불러오기",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x34D8",
+        "runtime": "0x097904F8",
+        "korean": "프로필 저장 중...",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x34F0",
+        "runtime": "0x09790510",
+        "korean": "조작",
+        "bytes": 7,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x34F8",
+        "runtime": "0x09790518",
+        "korean": "오디오",
+        "bytes": 10,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3504",
+        "runtime": "0x09790524",
+        "korean": "음악 음량",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3514",
+        "runtime": "0x09790534",
+        "korean": "대화 음량",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3524",
+        "runtime": "0x09790544",
+        "korean": "효과음 음량",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3538",
+        "runtime": "0x09790558",
+        "korean": "집결/산개",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3548",
+        "runtime": "0x09790568",
+        "korean": "유형",
+        "bytes": 7,
+        "reference_count": 4
+      },
+      {
+        "stream": 20,
+        "offset": "0x3550",
+        "runtime": "0x09790570",
+        "korean": "조준 반전",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3560",
+        "runtime": "0x09790580",
+        "korean": "조준 보조",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3570",
+        "runtime": "0x09790590",
+        "korean": "표준",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3578",
+        "runtime": "0x09790598",
+        "korean": "고급",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3580",
+        "runtime": "0x097905A0",
+        "korean": "평행이동 전환",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3594",
+        "runtime": "0x097905B4",
+        "korean": "명령 취소",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x35A4",
+        "runtime": "0x097905C4",
+        "korean": "산개",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x35AC",
+        "runtime": "0x097905CC",
+        "korean": "재장전",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x35B8",
+        "runtime": "0x097905D8",
+        "korean": "무기 교체",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x35C8",
+        "runtime": "0x097905E8",
+        "korean": "집결",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x35D0",
+        "runtime": "0x097905F0",
+        "korean": "앞뒤 이동",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x35E0",
+        "runtime": "0x09790600",
+        "korean": "좌우 보기",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x35F0",
+        "runtime": "0x09790610",
+        "korean": "사격",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x35F8",
+        "runtime": "0x09790618",
+        "korean": "명령 링",
+        "bytes": 11,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3604",
+        "runtime": "0x09790624",
+        "korean": "수류탄 투척",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3618",
+        "runtime": "0x09790638",
+        "korean": "확대 조준",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3628",
+        "runtime": "0x09790648",
+        "korean": "일시정지 메뉴",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x363C",
+        "runtime": "0x0979065C",
+        "korean": "전술 시점",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x364C",
+        "runtime": "0x0979066C",
+        "korean": "자세",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3654",
+        "runtime": "0x09790674",
+        "korean": "좌우 평행이동",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3668",
+        "runtime": "0x09790688",
+        "korean": "왼쪽 보기",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3678",
+        "runtime": "0x09790698",
+        "korean": "오른쪽 보기",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x368C",
+        "runtime": "0x097906AC",
+        "korean": "(길게 누르기)",
+        "bytes": 19,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x36A0",
+        "runtime": "0x097906C0",
+        "korean": "(짧게 누르기)",
+        "bytes": 19,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x36B4",
+        "runtime": "0x097906D4",
+        "korean": "제압 표시",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x36C4",
+        "runtime": "0x097906E4",
+        "korean": "자막",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x36CC",
+        "runtime": "0x097906EC",
+        "korean": "훈련",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x36D4",
+        "runtime": "0x097906F4",
+        "korean": "아군 이름",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x36E4",
+        "runtime": "0x09790704",
+        "korean": "협동 모드",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x36F4",
+        "runtime": "0x09790714",
+        "korean": "불러오기",
+        "bytes": 13,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3704",
+        "runtime": "0x09790724",
+        "korean": "백스페이스",
+        "bytes": 16,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3714",
+        "runtime": "0x09790734",
+        "korean": "진영",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x371C",
+        "runtime": "0x0979073C",
+        "korean": "숙련도",
+        "bytes": 10,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x3728",
+        "runtime": "0x09790748",
+        "korean": "목표",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x3730",
+        "runtime": "0x09790750",
+        "korean": "방어",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x3738",
+        "runtime": "0x09790758",
+        "korean": "복무",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3740",
+        "runtime": "0x09790760",
+        "korean": "플레이어 1:",
+        "bytes": 16,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3750",
+        "runtime": "0x09790770",
+        "korean": "플레이어 2:",
+        "bytes": 16,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3760",
+        "runtime": "0x09790780",
+        "korean": "대기 중...",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3770",
+        "runtime": "0x09790790",
+        "korean": "솔로 모드",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3780",
+        "runtime": "0x097907A0",
+        "korean": "체크포인트 다시 불러오기",
+        "bytes": 36,
+        "reference_count": 5
+      },
+      {
+        "stream": 20,
+        "offset": "0x37A4",
+        "runtime": "0x097907C4",
+        "korean": "스커미시 모드",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x37B8",
+        "runtime": "0x097907D8",
+        "korean": "호스트 목록",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x37CC",
+        "runtime": "0x097907EC",
+        "korean": "스커미시: 호스트",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x37E4",
+        "runtime": "0x09790804",
+        "korean": "스커미시: 솔로",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x37FC",
+        "runtime": "0x0979081C",
+        "korean": "스커미시: 참가",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3814",
+        "runtime": "0x09790834",
+        "korean": "관전 모드",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3824",
+        "runtime": "0x09790844",
+        "korean": "카메라 전환",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3838",
+        "runtime": "0x09790858",
+        "korean": "챕터 계속",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3848",
+        "runtime": "0x09790868",
+        "korean": "챕터 다시 시작",
+        "bytes": 21,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x3860",
+        "runtime": "0x09790880",
+        "korean": "챕터 종료",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3870",
+        "runtime": "0x09790890",
+        "korean": "치트",
+        "bytes": 7,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x3878",
+        "runtime": "0x09790898",
+        "korean": "챕터 완료",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3888",
+        "runtime": "0x097908A8",
+        "korean": "훈장을 획득했습니다!",
+        "bytes": 30,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x38A8",
+        "runtime": "0x097908C8",
+        "korean": "챕터 실패",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x38B8",
+        "runtime": "0x097908D8",
+        "korean": "스커미시 시작 준비",
+        "bytes": 27,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x38D4",
+        "runtime": "0x097908F4",
+        "korean": "큰 피해를 입었습니다.|의무 지원이 필요합니까?",
+        "bytes": 65,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3918",
+        "runtime": "0x09790938",
+        "korean": "치료 및 재장전",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3930",
+        "runtime": "0x09790950",
+        "korean": "피로 얻은 승리입니다... 베이커의 이야기에서는 살아남아야 할 병사 한 명을 잃었습니다. 전사자를 되살리고 베이커의 이야기를 계속하시겠습니까(불이익 없음)?",
+        "bytes": 216,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3A08",
+        "runtime": "0x09790A28",
+        "korean": "피로 얻은 승리입니다... 하트삭의 이야기에서는 살아남아야 할 병사 한 명을 잃었습니다. 전사자를 되살리고 하트삭의 이야기를 계속하시겠습니까(불이익 없음)?",
+        "bytes": 216,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3AE0",
+        "runtime": "0x09790B00",
+        "korean": "소생 후 계속",
+        "bytes": 18,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3AF4",
+        "runtime": "0x09790B14",
+        "korean": "완벽한 승리!|임무를 완수했고, 당신의 판단 덕분에 사상자가 발생하지 않았습니다. 훌륭합니다!",
+        "bytes": 129,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3B78",
+        "runtime": "0x09790B98",
+        "korean": "무적",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3B80",
+        "runtime": "0x09790BA0",
+        "korean": "미군 무적",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3B90",
+        "runtime": "0x09790BB0",
+        "korean": "전체 무적",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3BA0",
+        "runtime": "0x09790BC0",
+        "korean": "탄약 무제한",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3BB4",
+        "runtime": "0x09790BD4",
+        "korean": "고스트",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3BC0",
+        "runtime": "0x09790BE0",
+        "korean": "FPS",
+        "bytes": 4,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3BC4",
+        "runtime": "0x09790BE4",
+        "korean": "메모리",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3BD0",
+        "runtime": "0x09790BF0",
+        "korean": "임무 승리",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3BE0",
+        "runtime": "0x09790C00",
+        "korean": "임무 다시 시작",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3BF8",
+        "runtime": "0x09790C18",
+        "korean": "스커미시: 목표",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3C10",
+        "runtime": "0x09790C30",
+        "korean": "스커미시: 방어",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3C28",
+        "runtime": "0x09790C48",
+        "korean": "스커미시: 복무",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3C40",
+        "runtime": "0x09790C60",
+        "korean": "목표 완료!",
+        "bytes": 15,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3C50",
+        "runtime": "0x09790C70",
+        "korean": "임무 실패!",
+        "bytes": 15,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3C60",
+        "runtime": "0x09790C80",
+        "korean": "격파한 적",
+        "bytes": 14,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x3C70",
+        "runtime": "0x09790C90",
+        "korean": "투어 완료",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3C80",
+        "runtime": "0x09790CA0",
+        "korean": "스커미시: 연결 실패",
+        "bytes": 28,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3C9C",
+        "runtime": "0x09790CBC",
+        "korean": "스커미시: 임무 완료",
+        "bytes": 28,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3CB8",
+        "runtime": "0x09790CD8",
+        "korean": "스커미시: 임무 실패",
+        "bytes": 28,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3CD4",
+        "runtime": "0x09790CF4",
+        "korean": "연결에 실패했습니다.",
+        "bytes": 30,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3CF4",
+        "runtime": "0x09790D14",
+        "korean": "임무 실패.",
+        "bytes": 15,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3D04",
+        "runtime": "0x09790D24",
+        "korean": "임무 완료.",
+        "bytes": 15,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3D14",
+        "runtime": "0x09790D34",
+        "korean": "게임을 저장하시겠습니까?",
+        "bytes": 36,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3D38",
+        "runtime": "0x09790D58",
+        "korean": "변경 사항을 저장하시겠습니까?",
+        "bytes": 43,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3D64",
+        "runtime": "0x09790D84",
+        "korean": "이름을 입력해야 합니다!",
+        "bytes": 34,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3D88",
+        "runtime": "0x09790DA8",
+        "korean": "새 프로필을 만들려고 합니다. 현재 프로필은 사라집니다. 계속하시겠습니까?",
+        "bytes": 104,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3DF0",
+        "runtime": "0x09790E10",
+        "korean": "저장하지 않고 계속하시겠습니까?",
+        "bytes": 46,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3E20",
+        "runtime": "0x09790E40",
+        "korean": "현재 챕터를 다시 시작합니다. 계속하시겠습니까?",
+        "bytes": 67,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3E64",
+        "runtime": "0x09790E84",
+        "korean": "현재 임무를 다시 시작합니다. 계속하시겠습니까?",
+        "bytes": 67,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3EA8",
+        "runtime": "0x09790EC8",
+        "korean": "현재 게임을 종료하고 메인 메뉴로 돌아갑니다. 계속하시겠습니까?",
+        "bytes": 90,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3F04",
+        "runtime": "0x09790F24",
+        "korean": "현재 게임을 종료하고 메뉴로 돌아갑니다. 계속하시겠습니까?",
+        "bytes": 83,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3F58",
+        "runtime": "0x09790F78",
+        "korean": "마지막으로 저장된 체크포인트를 다시 불러옵니다. 계속하시겠습니까?",
+        "bytes": 95,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x3FB8",
+        "runtime": "0x09790FD8",
+        "korean": "새 게임을 시작합니다. 현재 진행 상황은 사라집니다. 계속하시겠습니까?",
+        "bytes": 98,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x401C",
+        "runtime": "0x0979103C",
+        "korean": "네트워크 연결 해제 중...",
+        "bytes": 34,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x4040",
+        "runtime": "0x09791060",
+        "korean": "네트워크 오류가 발생했습니다. WLAN 스위치가 꺼져 있습니다. WLAN 스위치를 켜십시오.",
+        "bytes": 114,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x40B4",
+        "runtime": "0x097910D4",
+        "korean": "더 이상 참가할 수 없는 게임입니다.",
+        "bytes": 49,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x40E8",
+        "runtime": "0x09791108",
+        "korean": "다른 플레이어가 게임을 나갔습니다. 다른 플레이어를 기다릴 수 있습니다.",
+        "bytes": 101,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x4150",
+        "runtime": "0x09791170",
+        "korean": "다른 플레이어가 게임을 나갔습니다. 협동 메뉴로 돌아갑니다.",
+        "bytes": 84,
+        "reference_count": 7
+      },
+      {
+        "stream": 20,
+        "offset": "0x41A4",
+        "runtime": "0x097911C4",
+        "korean": "네트워크 오류가 발생했습니다. 다른 플레이어와의 연결이 끊겼습니다. 협동 메뉴로 돌아갑니다.",
+        "bytes": 130,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x4228",
+        "runtime": "0x09791248",
+        "korean": "현재 게임을 종료합니다. 게임의 모든 플레이어도 연결이 끊깁니다. 계속하시겠습니까?",
+        "bytes": 117,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x42A0",
+        "runtime": "0x097912C0",
+        "korean": "현재 게임에서 나갑니다. 계속하시겠습니까?",
+        "bytes": 60,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x42DC",
+        "runtime": "0x097912FC",
+        "korean": "게임 호스트와의 연결이 끊겼습니다. 협동 메뉴로 돌아갑니다.",
+        "bytes": 84,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4330",
+        "runtime": "0x09791350",
+        "korean": "네트워크 오류가 발생했습니다. 네트워크 연결이 끊겼습니다.",
+        "bytes": 83,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4384",
+        "runtime": "0x097913A4",
+        "korean": "다른 플레이어가 다시 시작하기를 기다리는 중...",
+        "bytes": 66,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x43C8",
+        "runtime": "0x097913E8",
+        "korean": "다른 플레이어가 계속하기를 기다리는 중...",
+        "bytes": 59,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4404",
+        "runtime": "0x09791424",
+        "korean": "다른 플레이어가 다시 시작하려고 합니다. 다시 시작하시겠습니까?",
+        "bytes": 90,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4460",
+        "runtime": "0x09791480",
+        "korean": "다른 플레이어가 계속하려고 합니다. 계속하시겠습니까?",
+        "bytes": 76,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x44AC",
+        "runtime": "0x097914CC",
+        "korean": "운명과의 합류",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x44C0",
+        "runtime": "0x097914E0",
+        "korean": "1944년 6월 6일",
+        "bytes": 18,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x44D4",
+        "runtime": "0x097914F4",
+        "korean": "지휘할 준비도 되지 않은 분대와 떨어진 베이커 하사는 소대 선임하사 '맥' 헤세이를 따라야 한다. 맥의 목표는 독일군 대공포 두 문을 파괴하는 것이다...",
+        "bytes": 205,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x45A4",
+        "runtime": "0x097915C4",
+        "korean": "4번 출구의 매복",
+        "bytes": 22,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x45BC",
+        "runtime": "0x097915DC",
+        "korean": "부대원들과 흩어진 베이커 하사와 하트삭 상병은 유타 해변의 제4보병사단과 합류해야 한다...",
+        "bytes": 126,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x463C",
+        "runtime": "0x0979165C",
+        "korean": "XYZ 목표",
+        "bytes": 11,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4648",
+        "runtime": "0x09791668",
+        "korean": "강하 지점이 빗나가 병력이 부족해진 하트삭과 베이커는 둘이서 독일 보병중대가 점령한 노르망디의 작은 마을을 소탕해야 한다...",
+        "bytes": 175,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x46F8",
+        "runtime": "0x09791718",
+        "korean": "비에르빌 전투",
+        "bytes": 20,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x470C",
+        "runtime": "0x0979172C",
+        "korean": "1944년 6월 7일",
+        "bytes": 18,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x4720",
+        "runtime": "0x09791740",
+        "korean": "생콤뒤몽을 향해 남서쪽으로 진격하는 가운데 비에르빌의 전투는 치열해진다. D+1에는 유타 해변에 상륙한 기갑부대의 지원이 도움이 될 것이다...",
+        "bytes": 195,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x47E4",
+        "runtime": "0x09791804",
+        "korean": "죽은 자의 모퉁이",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x47FC",
+        "runtime": "0x0979181C",
+        "korean": "리스너 하사와 그의 스튜어트 전차의 지원을 받아, 베이커의 분대는 생콤뒤몽으로 이어지는 도로 진격의 선봉에 서야 한다...",
+        "bytes": 167,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x48A4",
+        "runtime": "0x097918C4",
+        "korean": "새벽녘",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x48B0",
+        "runtime": "0x097918D0",
+        "korean": "1944년 6월 8일",
+        "bytes": 18,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x48C4",
+        "runtime": "0x097918E4",
+        "korean": "베이커 하사는 전우 한 명을 잃었지만 돌격팀을 얻었다. 마음을 추스르고 그들을 이끌어 생콤으로 향해야 한다...",
+        "bytes": 151,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x495C",
+        "runtime": "0x0979197C",
+        "korean": "카랑탕 대성당의 탑에서 적과 숨바꼭질을 벌여라. 아래의 부하들을 지휘하며 밀려드는 반격을 막아내라...",
+        "bytes": 142,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x49EC",
+        "runtime": "0x09791A0C",
+        "korean": "생콤뒤몽",
+        "bytes": 13,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x49FC",
+        "runtime": "0x09791A1C",
+        "korean": "베이커 하사는 마침내 생콤뒤몽에 도착했다. 독일군은 만반의 준비를 하고 있다...",
+        "bytes": 110,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4A6C",
+        "runtime": "0x09791A8C",
+        "korean": "전사",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4A74",
+        "runtime": "0x09791A94",
+        "korean": "1944년 6월 9일",
+        "bytes": 18,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4A88",
+        "runtime": "0x09791AA8",
+        "korean": "생콤을 해방한 제101공수사단은 카랑탕으로 가는 길을 찾아야 한다. 셔먼 전차의 도움을 받아 서쪽으로 향하는 길을 찾아라...",
+        "bytes": 167,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4B30",
+        "runtime": "0x09791B50",
+        "korean": "퍼플 하트 레인",
+        "bytes": 21,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4B48",
+        "runtime": "0x09791B68",
+        "korean": "1944년 6월 10일",
+        "bytes": 19,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4B5C",
+        "runtime": "0x09791B7C",
+        "korean": "카랑탕으로 가는 길은 탁 트인 둑길 하나뿐이다. 마을로 들어가는 마지막 다리는 벨기에 게이트로 막혀 있고 기관총의 엄호를 받고 있다...",
+        "bytes": 185,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4C18",
+        "runtime": "0x09791C38",
+        "korean": "콜의 돌격",
+        "bytes": 14,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4C28",
+        "runtime": "0x09791C48",
+        "korean": "1944년 6월 11일",
+        "bytes": 19,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4C3C",
+        "runtime": "0x09791C5C",
+        "korean": "카랑탕은 외곽부터 방어되고 있다. 로버트 콜 중령에게는 수비군을 몰아낼 대담한 계획이 있다...",
+        "bytes": 130,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4CC0",
+        "runtime": "0x09791CE0",
+        "korean": "카랑탕 진격",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4CD4",
+        "runtime": "0x09791CF4",
+        "korean": "1944년 6월 12일",
+        "bytes": 19,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x4CE8",
+        "runtime": "0x09791D08",
+        "korean": "카랑탕. 드디어 도착했다. 공업 지대를 뚫고 들어가 마을에 교두보를 확보하라. 시가전에서는 사격과 기동 전술이 필수다...",
+        "bytes": 165,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4D90",
+        "runtime": "0x09791DB0",
+        "korean": "고양이와 쥐",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4DA4",
+        "runtime": "0x09791DC4",
+        "korean": "죽기 더 좋은 곳은 없다 - 1부",
+        "bytes": 39,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4DCC",
+        "runtime": "0x09791DEC",
+        "korean": "1944년 6월 13일",
+        "bytes": 19,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x4DE0",
+        "runtime": "0x09791E00",
+        "korean": "30고지. 노르망디에 온 지 8일째, 분대장 베이커에게 가장 어려운 시험이 다가온다...",
+        "bytes": 112,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4E50",
+        "runtime": "0x09791E70",
+        "korean": "죽기 더 좋은 곳은 없다 - 2부",
+        "bytes": 39,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4E78",
+        "runtime": "0x09791E98",
+        "korean": "30고지. 기갑부대를 찾아 위기를 구하라!",
+        "bytes": 54,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4EB0",
+        "runtime": "0x09791ED0",
+        "korean": "블러디 걸치",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4EC4",
+        "runtime": "0x09791EE4",
+        "korean": "베이커가 기갑부대를 찾으러 떠난 뒤, 하트삭과 하사 헤세이의 지휘 아래 전선을 지키도록 남겨진 병사들에게 30고지에서 무슨 일이 벌어졌는지 목격하라.",
+        "bytes": 206,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4F94",
+        "runtime": "0x09791FB4",
+        "korean": "근접전",
+        "bytes": 10,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4FA0",
+        "runtime": "0x09791FC0",
+        "korean": "1944년 6월 14일",
+        "bytes": 19,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x4FB4",
+        "runtime": "0x09791FD4",
+        "korean": "전우 한 명이 부상당한 뒤, 2분대와 3분대는 힘을 합쳐 카랑탕 깊숙이 숨어 있는 위협을 제거해야 한다.",
+        "bytes": 137,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5040",
+        "runtime": "0x09792060",
+        "korean": "보프테",
+        "bytes": 10,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x504C",
+        "runtime": "0x0979206C",
+        "korean": "1944년 6월 15일",
+        "bytes": 19,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x5060",
+        "runtime": "0x09792080",
+        "korean": "보프테는 제82공수사단과 제101공수사단이 합류하기로 한 마을이었다. 하트삭은 공수부대를 만날 생각으로 들어왔지만, 그곳에는 독일군이 있었다.",
+        "bytes": 196,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5124",
+        "runtime": "0x09792144",
+        "korean": "평범한 임무",
+        "bytes": 17,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5138",
+        "runtime": "0x09792158",
+        "korean": "1944년 6월 16일",
+        "bytes": 19,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x514C",
+        "runtime": "0x0979216C",
+        "korean": "하트삭은 생소뵈르로 이어지는 다리를 향해 진격할 준비를 하지만, 지도에서 예상하지 못했던 독일군 진지가 추가로 발견된다.",
+        "bytes": 170,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x51F8",
+        "runtime": "0x09792218",
+        "korean": "올 아메리칸 - 1부",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5210",
+        "runtime": "0x09792230",
+        "korean": "하트삭과 그의 분대는 고립됐다. 이제 도시를 휩쓸며 발견하는 적을 제거해 제82공수사단과 글라이더 보병대의 진로를 확보해야 한다.",
+        "bytes": 179,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x52C4",
+        "runtime": "0x097922E4",
+        "korean": "올 아메리칸 - 2부",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x52DC",
+        "runtime": "0x097922FC",
+        "korean": "하트삭과 그의 분대는 불타는 생소뵈르의 거리에서 전투를 이어간다.",
+        "bytes": 93,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x533C",
+        "runtime": "0x0979235C",
+        "korean": "마을",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5344",
+        "runtime": "0x09792364",
+        "korean": "언덕 위에 구축된 중무장 관측소를 점령하라.",
+        "bytes": 61,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5384",
+        "runtime": "0x097923A4",
+        "korean": "창고",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x538C",
+        "runtime": "0x097923AC",
+        "korean": "교회",
+        "bytes": 7,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5394",
+        "runtime": "0x097923B4",
+        "korean": "상공의 측면 공격",
+        "bytes": 24,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x53AC",
+        "runtime": "0x097923CC",
+        "korean": "강하하는 미군 공수부대로부터 마을을 방어하십시오.",
+        "bytes": 72,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x53F4",
+        "runtime": "0x09792414",
+        "korean": "제한 시간 안에 모든 적을 제거하십시오. 적을 처치하면 시간이 추가됩니다. 체크포인트는 없습니다.",
+        "bytes": 135,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x547C",
+        "runtime": "0x0979249C",
+        "korean": "독일군 전차는 진지에 도착하기 전 미군 항공기의 폭격을 받아, 많은 독일 병력이 도보로 남겨졌다. 생존자를 모두 제거하라.",
+        "bytes": 167,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5524",
+        "runtime": "0x09792544",
+        "korean": "다리를 폭파해 독일군 보급로를 끊은 뒤, 독일군 보급품을 실은 열차를 파괴하라.",
+        "bytes": 109,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5594",
+        "runtime": "0x097925B4",
+        "korean": "계곡의 독일군을 소탕하라.",
+        "bytes": 37,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x55BC",
+        "runtime": "0x097925DC",
+        "korean": "철길 수비대",
+        "bytes": 17,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x55D0",
+        "runtime": "0x097925F0",
+        "korean": "끊임없이 몰려오는 적의 공격을 버텨내십시오. 웨이브가 거듭될수록 적은 더 강해집니다.",
+        "bytes": 120,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x5648",
+        "runtime": "0x09792668",
+        "korean": "궁극의 사실적 도전입니다. 목숨 하나와 팀 하나로 미군 또는 독일군 임무 6개를 모두 완료하십시오.",
+        "bytes": 134,
+        "reference_count": 1
+      },
+      {
+        "stream": 20,
+        "offset": "0x56D0",
+        "runtime": "0x097926F0",
+        "korean": "누르기",
+        "bytes": 10,
+        "reference_count": 22
+      },
+      {
+        "stream": 20,
+        "offset": "0x56DC",
+        "runtime": "0x097926FC",
+        "korean": "길게 누르기",
+        "bytes": 17,
+        "reference_count": 22
+      },
+      {
+        "stream": 20,
+        "offset": "0x56F0",
+        "runtime": "0x09792710",
+        "korean": "떼기",
+        "bytes": 7,
+        "reference_count": 25
+      },
+      {
+        "stream": 20,
+        "offset": "0x56F8",
+        "runtime": "0x09792718",
+        "korean": "이동",
+        "bytes": 7,
+        "reference_count": 9
+      },
+      {
+        "stream": 20,
+        "offset": "0x5700",
+        "runtime": "0x09792720",
+        "korean": "당기기",
+        "bytes": 10,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x570C",
+        "runtime": "0x0979272C",
+        "korean": "당긴 채 유지",
+        "bytes": 18,
+        "reference_count": 6
+      },
+      {
+        "stream": 20,
+        "offset": "0x5720",
+        "runtime": "0x09792740",
+        "korean": "위 누르기",
+        "bytes": 14,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5730",
+        "runtime": "0x09792750",
+        "korean": "위 길게 누르기",
+        "bytes": 21,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5748",
+        "runtime": "0x09792768",
+        "korean": "위 떼기",
+        "bytes": 11,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5754",
+        "runtime": "0x09792774",
+        "korean": "아래 누르기",
+        "bytes": 17,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5768",
+        "runtime": "0x09792788",
+        "korean": "아래 길게 누르기",
+        "bytes": 24,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5780",
+        "runtime": "0x097927A0",
+        "korean": "아래 떼기",
+        "bytes": 14,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5790",
+        "runtime": "0x097927B0",
+        "korean": "왼쪽 누르기",
+        "bytes": 17,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x57A4",
+        "runtime": "0x097927C4",
+        "korean": "왼쪽 길게 누르기",
+        "bytes": 24,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x57BC",
+        "runtime": "0x097927DC",
+        "korean": "왼쪽 떼기",
+        "bytes": 14,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x57CC",
+        "runtime": "0x097927EC",
+        "korean": "오른쪽 누르기",
+        "bytes": 20,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x57E0",
+        "runtime": "0x09792800",
+        "korean": "오른쪽 길게 누르기",
+        "bytes": 27,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x57FC",
+        "runtime": "0x0979281C",
+        "korean": "오른쪽 떼기",
+        "bytes": 17,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5810",
+        "runtime": "0x09792830",
+        "korean": "START 누르기",
+        "bytes": 16,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5820",
+        "runtime": "0x09792840",
+        "korean": "START 길게 누르기",
+        "bytes": 23,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5838",
+        "runtime": "0x09792858",
+        "korean": "START 떼기",
+        "bytes": 13,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5848",
+        "runtime": "0x09792868",
+        "korean": "BACK 누르기",
+        "bytes": 15,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5858",
+        "runtime": "0x09792878",
+        "korean": "BACK 길게 누르기",
+        "bytes": 22,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5870",
+        "runtime": "0x09792890",
+        "korean": "BACK 떼기",
+        "bytes": 12,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x587C",
+        "runtime": "0x0979289C",
+        "korean": "왼쪽 스틱 누르기",
+        "bytes": 24,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x5894",
+        "runtime": "0x097928B4",
+        "korean": "왼쪽 스틱 길게 누르기",
+        "bytes": 31,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x58B4",
+        "runtime": "0x097928D4",
+        "korean": "왼쪽 스틱 떼기",
+        "bytes": 21,
+        "reference_count": 3
+      },
+      {
+        "stream": 20,
+        "offset": "0x58CC",
+        "runtime": "0x097928EC",
+        "korean": "오른쪽 스틱 누르기",
+        "bytes": 27,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x58E8",
+        "runtime": "0x09792908",
+        "korean": "오른쪽 스틱 길게 누르기",
+        "bytes": 34,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x590C",
+        "runtime": "0x0979292C",
+        "korean": "오른쪽 스틱 떼기",
+        "bytes": 24,
+        "reference_count": 2
+      },
+      {
+        "stream": 20,
+        "offset": "0x5924",
+        "runtime": "0x09792944",
+        "korean": "짧게 누르기",
+        "bytes": 17,
+        "reference_count": 2
+      }
+    ],
+    "main_menu_proof": [
+      {
+        "label": "Skirmish",
+        "pointer": "0x09790168",
+        "num": 13,
+        "max": 13,
+        "target_stream": 20,
+        "target_offset": "0x3148",
+        "utf8": "스커미시"
+      },
+      {
+        "label": "Options",
+        "pointer": "0x097900C0",
+        "num": 7,
+        "max": 7,
+        "target_stream": 20,
+        "target_offset": "0x30A0",
+        "utf8": "옵션"
+      },
+      {
+        "label": "Profile",
+        "pointer": "0x09790070",
+        "num": 10,
+        "max": 10,
+        "target_stream": 20,
+        "target_offset": "0x3050",
+        "utf8": "프로필"
+      }
+    ],
+    "original_size": 3841142,
+    "patched_size": 3848910,
+    "original_sha1": "dea7bccb789e94f0e975a2847783820226c6cb56",
+    "patched_sha1": "f2148ea2b7a9bd122a5000363aa11b50bd32c7b9",
+    "iso_readback_ok": true
+  },
+  "runtime": {
+    "pid": 13044,
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "cpu_ready": {
+      "ready": true,
+      "attempts": 1,
+      "status": {
+        "event": "cpu.status",
+        "ticket": 1001,
+        "stepping": false,
+        "paused": false,
+        "pc": 134217728,
+        "ticks": 11076860
+      },
+      "probe": "e410330e"
+    },
+    "renderer_jal": {
+      "actual": "e410330e",
+      "expected": "e410330e"
+    },
+    "menu_resource": {
+      "opened": true,
+      "startup_start_presses": 9
+    },
+    "runtime_menu_metadata": [
+      {
+        "label": "Skirmish",
+        "ok": false,
+        "error": "Invalid address"
+      },
+      {
+        "label": "Options",
+        "ok": false,
+        "error": "Invalid address"
+      },
+      {
+        "label": "Profile",
+        "ok": false,
+        "error": "Invalid address"
+      }
+    ],
+    "dynamic_label_scans": [
+      {
+        "attempt": 1,
+        "elapsed": 0.09704899787902832,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 0.31411242485046387,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 0.5309174060821533,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 0.7479748725891113,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 0.9643764495849609,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 1.2372910976409912,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 1.5534276962280273,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 1.8721158504486084,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 2.185965061187744,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 2.4044525623321533,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 2.619184970855713,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 2.833808422088623,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 3.050025463104248,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 3.267113208770752,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 3.4851856231689453,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 3.700277328491211,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 3.9171111583709717,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 4.1305763721466064,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 4.346708297729492,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 4.562077045440674,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 4.775696277618408,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 4.98968768119812,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 5.2079243659973145,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 5.425847291946411,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 5.642404317855835,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 5.8583855628967285,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 6.076241731643677,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 6.292182683944702,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 6.521376132965088,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 6.736073970794678,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 6.954304456710815,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 7.194355249404907,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 7.410344839096069,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 7.626895189285278,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 7.844009637832642,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 8.060561895370483,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 8.27732801437378,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 8.49498438835144,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 8.710955142974854,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 8.927894353866577,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 9.144181966781616,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 9.360126733779907,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 9.578020095825195,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 9.793646097183228,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 1,
+        "elapsed": 10.010554075241089,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 0.04660654067993164,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 0.26487135887145996,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 0.4816932678222656,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 0.6990277767181396,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 0.9160521030426025,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 1.133378028869629,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 1.3509953022003174,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 1.5679495334625244,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 1.7832224369049072,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 2.001131772994995,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 2.2149507999420166,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 2.4320790767669678,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 2.649967670440674,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 2.8670384883880615,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 3.1074059009552,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 3.3227858543395996,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 3.5411217212677,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 3.7817611694335938,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 3.996687650680542,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 4.213820457458496,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 4.429952621459961,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 4.645485162734985,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 4.8606791496276855,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 5.078575611114502,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 5.295482158660889,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 5.510850667953491,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 5.728342056274414,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 5.94592809677124,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 6.174657344818115,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 6.390455722808838,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 6.605350971221924,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 6.822904109954834,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 7.038189888000488,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 7.25312066078186,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 7.47101354598999,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 7.683791637420654,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 7.8998332023620605,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 8.116638898849487,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 8.335079908370972,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 8.551689386367798,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 8.76810884475708,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 8.985373973846436,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 9.229900598526001,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 9.444939136505127,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 9.66199254989624,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      },
+      {
+        "attempt": 2,
+        "elapsed": 9.903747797012329,
+        "ok": false,
+        "hits": {
+          "스토리": "0x08E416C0",
+          "스커미시": null,
+          "옵션": "0x08E42640",
+          "프로필": "0x08E425B0"
+        }
+      }
+    ],
+    "dynamic_labels": {
+      "ok": false,
+      "hits": {
+        "스토리": "0x08E416C0",
+        "스커미시": null,
+        "옵션": "0x08E42640",
+        "프로필": "0x08E425B0"
+      }
+    },
+    "font_after_menu": {
+      "glyph_count": 847,
+      "glyph_count_ok": true,
+      "glyph_ptr": "0x098F5020",
+      "glyph_ptr_ok": true
+    },
+    "screenshot": {
+      "captured": true,
+      "path": "PROJECT_ROOT\\analysis\\stage40c_menu_mass\\stage40c_main_menu.png"
+    },
+    "ok": false,
+    "ppsspp_closed": true
+  },
+  "completed": false
+}

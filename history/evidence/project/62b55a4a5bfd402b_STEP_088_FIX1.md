@@ -1,0 +1,1 @@
+2026-10-13T12:37:37+09:00 [20261013_123635_568_2784] CAPTURED_UNVERIFIED: run=20261013_123635_568_2784; phase=postflight_hash; key1 screenshot + scene-specific nonpausing memory font-argument; no ISO writes

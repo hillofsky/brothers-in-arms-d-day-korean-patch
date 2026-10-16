@@ -1,0 +1,12 @@
+{
+  "step": "STEP_082",
+  "status": "IN_PROGRESS",
+  "iso_modified": false,
+  "source_iso_sha256_before": {
+    "stage69": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+    "stage79": "ca320d514c32d34767e7255ea3079f7449783cdb2b98ec49797a87bdd69544d9"
+  },
+  "capture_kind": "exact D0_0700 source+patched MDI/DSL/DSX, first-mission patched MDI for cross-comparison",
+  "source_mdi_font_logical_integrity_only": true,
+  "runtime_font_visual_verified": false
+}

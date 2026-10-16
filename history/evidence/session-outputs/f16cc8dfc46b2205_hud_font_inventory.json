@@ -1,0 +1,1527 @@
+{
+  "translation_units": 227,
+  "first_mission_applied_units": 137,
+  "second_mission_new_units": 90,
+  "second_mission_applied": false,
+  "control_tokens_verified": true,
+  "hud_font_container": "0x09a8cac0",
+  "hud_font_stream": 26,
+  "hud_font_offset": "0x59aa0",
+  "hud_glyph_count": 150,
+  "hud_glyph_record_bytes": 20,
+  "hud_glyphs_stream": 29,
+  "hud_glyphs_offset": "0x6cd60",
+  "hud_unicode_remap_record_bytes": 8,
+  "hud_remap_stream": 30,
+  "hud_remap_offset": "0x3350",
+  "hint_processing_runtime": [
+    "0x08824504",
+    "0x088246e4",
+    "0x08824c24"
+  ],
+  "display_fix_verified": false,
+  "full_campaign_complete": false,
+  "glyphs": [
+    {
+      "character": 10,
+      "glyph_index": 0,
+      "x": 2,
+      "y": 0,
+      "width": 0,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "6d5b09"
+    },
+    {
+      "character": 13,
+      "glyph_index": 1,
+      "x": 6,
+      "y": 0,
+      "width": 0,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "a55b09"
+    },
+    {
+      "character": 32,
+      "glyph_index": 2,
+      "x": 10,
+      "y": 0,
+      "width": 5,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "b65b09"
+    },
+    {
+      "character": 33,
+      "glyph_index": 3,
+      "x": 19,
+      "y": 0,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "0b5c09"
+    },
+    {
+      "character": 34,
+      "glyph_index": 4,
+      "x": 29,
+      "y": 0,
+      "width": 8,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "605c09"
+    },
+    {
+      "character": 35,
+      "glyph_index": 5,
+      "x": 41,
+      "y": 0,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "955c09"
+    },
+    {
+      "character": 36,
+      "glyph_index": 6,
+      "x": 56,
+      "y": 0,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "1e5d09"
+    },
+    {
+      "character": 37,
+      "glyph_index": 7,
+      "x": 71,
+      "y": 0,
+      "width": 18,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "4b5d09"
+    },
+    {
+      "character": 38,
+      "glyph_index": 8,
+      "x": 93,
+      "y": 0,
+      "width": 16,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "6e5d09"
+    },
+    {
+      "character": 39,
+      "glyph_index": 9,
+      "x": 113,
+      "y": 0,
+      "width": 4,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "7d5d09"
+    },
+    {
+      "character": 40,
+      "glyph_index": 10,
+      "x": 121,
+      "y": 0,
+      "width": 7,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "8c5d09"
+    },
+    {
+      "character": 41,
+      "glyph_index": 11,
+      "x": 132,
+      "y": 0,
+      "width": 7,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "9b5d09"
+    },
+    {
+      "character": 42,
+      "glyph_index": 12,
+      "x": 143,
+      "y": 0,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "aa5d09"
+    },
+    {
+      "character": 43,
+      "glyph_index": 13,
+      "x": 157,
+      "y": 0,
+      "width": 12,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "b95d09"
+    },
+    {
+      "character": 44,
+      "glyph_index": 14,
+      "x": 173,
+      "y": 0,
+      "width": 5,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "c85d09"
+    },
+    {
+      "character": 45,
+      "glyph_index": 15,
+      "x": 182,
+      "y": 0,
+      "width": 7,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "d75d09"
+    },
+    {
+      "character": 46,
+      "glyph_index": 16,
+      "x": 193,
+      "y": 0,
+      "width": 5,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "e65d09"
+    },
+    {
+      "character": 47,
+      "glyph_index": 17,
+      "x": 202,
+      "y": 0,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "f55d09"
+    },
+    {
+      "character": 48,
+      "glyph_index": 18,
+      "x": 212,
+      "y": 0,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "045e09"
+    },
+    {
+      "character": 49,
+      "glyph_index": 19,
+      "x": 227,
+      "y": 0,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "135e09"
+    },
+    {
+      "character": 50,
+      "glyph_index": 20,
+      "x": 242,
+      "y": 0,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "235f09"
+    },
+    {
+      "character": 51,
+      "glyph_index": 21,
+      "x": 2,
+      "y": 24,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "325f09"
+    },
+    {
+      "character": 52,
+      "glyph_index": 22,
+      "x": 17,
+      "y": 24,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "415f09"
+    },
+    {
+      "character": 53,
+      "glyph_index": 23,
+      "x": 32,
+      "y": 24,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "505f09"
+    },
+    {
+      "character": 54,
+      "glyph_index": 24,
+      "x": 47,
+      "y": 24,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "5f5f09"
+    },
+    {
+      "character": 55,
+      "glyph_index": 25,
+      "x": 62,
+      "y": 24,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "6e5f09"
+    },
+    {
+      "character": 56,
+      "glyph_index": 26,
+      "x": 77,
+      "y": 24,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "7d5f09"
+    },
+    {
+      "character": 57,
+      "glyph_index": 27,
+      "x": 92,
+      "y": 24,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "8c5f09"
+    },
+    {
+      "character": 58,
+      "glyph_index": 28,
+      "x": 107,
+      "y": 24,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "9b5f09"
+    },
+    {
+      "character": 59,
+      "glyph_index": 29,
+      "x": 117,
+      "y": 24,
+      "width": 5,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "aa5f09"
+    },
+    {
+      "character": 60,
+      "glyph_index": 30,
+      "x": 126,
+      "y": 24,
+      "width": 12,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "b95f09"
+    },
+    {
+      "character": 61,
+      "glyph_index": 31,
+      "x": 142,
+      "y": 24,
+      "width": 12,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "c85f09"
+    },
+    {
+      "character": 62,
+      "glyph_index": 32,
+      "x": 158,
+      "y": 24,
+      "width": 12,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "d75f09"
+    },
+    {
+      "character": 63,
+      "glyph_index": 33,
+      "x": 174,
+      "y": 24,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "e65f09"
+    },
+    {
+      "character": 64,
+      "glyph_index": 34,
+      "x": 188,
+      "y": 24,
+      "width": 19,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "f55f09"
+    },
+    {
+      "character": 65,
+      "glyph_index": 35,
+      "x": 211,
+      "y": 24,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "036009"
+    },
+    {
+      "character": 66,
+      "glyph_index": 36,
+      "x": 229,
+      "y": 24,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "116009"
+    },
+    {
+      "character": 67,
+      "glyph_index": 37,
+      "x": 2,
+      "y": 48,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "206009"
+    },
+    {
+      "character": 68,
+      "glyph_index": 38,
+      "x": 20,
+      "y": 48,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "2e6009"
+    },
+    {
+      "character": 69,
+      "glyph_index": 39,
+      "x": 39,
+      "y": 48,
+      "width": 13,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "3c6009"
+    },
+    {
+      "character": 70,
+      "glyph_index": 40,
+      "x": 56,
+      "y": 48,
+      "width": 12,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "4a6009"
+    },
+    {
+      "character": 71,
+      "glyph_index": 41,
+      "x": 72,
+      "y": 48,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "586009"
+    },
+    {
+      "character": 72,
+      "glyph_index": 42,
+      "x": 91,
+      "y": 48,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "666009"
+    },
+    {
+      "character": 73,
+      "glyph_index": 43,
+      "x": 110,
+      "y": 48,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "746009"
+    },
+    {
+      "character": 74,
+      "glyph_index": 44,
+      "x": 120,
+      "y": 48,
+      "width": 8,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "826009"
+    },
+    {
+      "character": 75,
+      "glyph_index": 45,
+      "x": 132,
+      "y": 48,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "b86009"
+    },
+    {
+      "character": 76,
+      "glyph_index": 46,
+      "x": 151,
+      "y": 48,
+      "width": 12,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "cd6009"
+    },
+    {
+      "character": 77,
+      "glyph_index": 47,
+      "x": 167,
+      "y": 48,
+      "width": 18,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "dc6009"
+    },
+    {
+      "character": 78,
+      "glyph_index": 48,
+      "x": 189,
+      "y": 48,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "eb6009"
+    },
+    {
+      "character": 79,
+      "glyph_index": 49,
+      "x": 208,
+      "y": 48,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "fa6009"
+    },
+    {
+      "character": 80,
+      "glyph_index": 50,
+      "x": 227,
+      "y": 48,
+      "width": 12,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "096109"
+    },
+    {
+      "character": 81,
+      "glyph_index": 51,
+      "x": 2,
+      "y": 72,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "186109"
+    },
+    {
+      "character": 82,
+      "glyph_index": 52,
+      "x": 21,
+      "y": 72,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "276109"
+    },
+    {
+      "character": 83,
+      "glyph_index": 53,
+      "x": 39,
+      "y": 72,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "366109"
+    },
+    {
+      "character": 84,
+      "glyph_index": 54,
+      "x": 54,
+      "y": 72,
+      "width": 12,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "456109"
+    },
+    {
+      "character": 85,
+      "glyph_index": 55,
+      "x": 70,
+      "y": 72,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "546109"
+    },
+    {
+      "character": 86,
+      "glyph_index": 56,
+      "x": 89,
+      "y": 72,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "636109"
+    },
+    {
+      "character": 87,
+      "glyph_index": 57,
+      "x": 108,
+      "y": 72,
+      "width": 19,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "716109"
+    },
+    {
+      "character": 88,
+      "glyph_index": 58,
+      "x": 131,
+      "y": 72,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "7f6109"
+    },
+    {
+      "character": 89,
+      "glyph_index": 59,
+      "x": 149,
+      "y": 72,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "8d6109"
+    },
+    {
+      "character": 90,
+      "glyph_index": 60,
+      "x": 168,
+      "y": 72,
+      "width": 12,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "9b6109"
+    },
+    {
+      "character": 91,
+      "glyph_index": 61,
+      "x": 184,
+      "y": 72,
+      "width": 7,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "a96109"
+    },
+    {
+      "character": 92,
+      "glyph_index": 62,
+      "x": 195,
+      "y": 72,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "b76109"
+    },
+    {
+      "character": 93,
+      "glyph_index": 63,
+      "x": 205,
+      "y": 72,
+      "width": 7,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "cf6209"
+    },
+    {
+      "character": 94,
+      "glyph_index": 64,
+      "x": 216,
+      "y": 72,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "de6209"
+    },
+    {
+      "character": 95,
+      "glyph_index": 65,
+      "x": 230,
+      "y": 72,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "ed6209"
+    },
+    {
+      "character": 96,
+      "glyph_index": 66,
+      "x": 245,
+      "y": 72,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "fc6209"
+    },
+    {
+      "character": 97,
+      "glyph_index": 67,
+      "x": 2,
+      "y": 96,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "0b6309"
+    },
+    {
+      "character": 98,
+      "glyph_index": 68,
+      "x": 15,
+      "y": 96,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "196309"
+    },
+    {
+      "character": 99,
+      "glyph_index": 69,
+      "x": 29,
+      "y": 96,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "276309"
+    },
+    {
+      "character": 100,
+      "glyph_index": 70,
+      "x": 42,
+      "y": 96,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "356309"
+    },
+    {
+      "character": 101,
+      "glyph_index": 71,
+      "x": 56,
+      "y": 96,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "436309"
+    },
+    {
+      "character": 102,
+      "glyph_index": 72,
+      "x": 69,
+      "y": 96,
+      "width": 7,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "516309"
+    },
+    {
+      "character": 103,
+      "glyph_index": 73,
+      "x": 80,
+      "y": 96,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "5f6309"
+    },
+    {
+      "character": 104,
+      "glyph_index": 74,
+      "x": 94,
+      "y": 96,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "6d6309"
+    },
+    {
+      "character": 105,
+      "glyph_index": 75,
+      "x": 108,
+      "y": 96,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "7c6309"
+    },
+    {
+      "character": 106,
+      "glyph_index": 76,
+      "x": 118,
+      "y": 96,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "8b6309"
+    },
+    {
+      "character": 107,
+      "glyph_index": 77,
+      "x": 128,
+      "y": 96,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "9a6309"
+    },
+    {
+      "character": 108,
+      "glyph_index": 78,
+      "x": 142,
+      "y": 96,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "a96309"
+    },
+    {
+      "character": 109,
+      "glyph_index": 79,
+      "x": 152,
+      "y": 96,
+      "width": 16,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "f36309"
+    },
+    {
+      "character": 110,
+      "glyph_index": 80,
+      "x": 172,
+      "y": 96,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "096409"
+    },
+    {
+      "character": 111,
+      "glyph_index": 81,
+      "x": 186,
+      "y": 96,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "196409"
+    },
+    {
+      "character": 112,
+      "glyph_index": 82,
+      "x": 201,
+      "y": 96,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "286409"
+    },
+    {
+      "character": 113,
+      "glyph_index": 83,
+      "x": 215,
+      "y": 96,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "486409"
+    },
+    {
+      "character": 114,
+      "glyph_index": 84,
+      "x": 229,
+      "y": 96,
+      "width": 7,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "5d6409"
+    },
+    {
+      "character": 115,
+      "glyph_index": 85,
+      "x": 240,
+      "y": 96,
+      "width": 8,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "6b6409"
+    },
+    {
+      "character": 116,
+      "glyph_index": 86,
+      "x": 2,
+      "y": 120,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "796409"
+    },
+    {
+      "character": 117,
+      "glyph_index": 87,
+      "x": 12,
+      "y": 120,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "876409"
+    },
+    {
+      "character": 118,
+      "glyph_index": 88,
+      "x": 27,
+      "y": 120,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "956409"
+    },
+    {
+      "character": 119,
+      "glyph_index": 89,
+      "x": 41,
+      "y": 120,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "d26409"
+    },
+    {
+      "character": 120,
+      "glyph_index": 90,
+      "x": 60,
+      "y": 120,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "326509"
+    },
+    {
+      "character": 121,
+      "glyph_index": 91,
+      "x": 74,
+      "y": 120,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "446509"
+    },
+    {
+      "character": 122,
+      "glyph_index": 92,
+      "x": 87,
+      "y": 120,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "ae6609"
+    },
+    {
+      "character": 123,
+      "glyph_index": 93,
+      "x": 100,
+      "y": 120,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "c66609"
+    },
+    {
+      "character": 124,
+      "glyph_index": 94,
+      "x": 114,
+      "y": 120,
+      "width": 3,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "d76609"
+    },
+    {
+      "character": 125,
+      "glyph_index": 95,
+      "x": 121,
+      "y": 120,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "ea6609"
+    },
+    {
+      "character": 126,
+      "glyph_index": 96,
+      "x": 135,
+      "y": 120,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "f96609"
+    },
+    {
+      "character": 161,
+      "glyph_index": 97,
+      "x": 150,
+      "y": 120,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "086709"
+    },
+    {
+      "character": 169,
+      "glyph_index": 98,
+      "x": 160,
+      "y": 120,
+      "width": 16,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "176709"
+    },
+    {
+      "character": 174,
+      "glyph_index": 99,
+      "x": 180,
+      "y": 120,
+      "width": 16,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "266709"
+    },
+    {
+      "character": 176,
+      "glyph_index": 100,
+      "x": 200,
+      "y": 120,
+      "width": 8,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "356709"
+    },
+    {
+      "character": 191,
+      "glyph_index": 101,
+      "x": 212,
+      "y": 120,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "446709"
+    },
+    {
+      "character": 192,
+      "glyph_index": 102,
+      "x": 226,
+      "y": 120,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "536709"
+    },
+    {
+      "character": 193,
+      "glyph_index": 103,
+      "x": 2,
+      "y": 144,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "626709"
+    },
+    {
+      "character": 194,
+      "glyph_index": 104,
+      "x": 20,
+      "y": 144,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "716709"
+    },
+    {
+      "character": 195,
+      "glyph_index": 105,
+      "x": 38,
+      "y": 144,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "806709"
+    },
+    {
+      "character": 196,
+      "glyph_index": 106,
+      "x": 56,
+      "y": 144,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "8f6709"
+    },
+    {
+      "character": 199,
+      "glyph_index": 107,
+      "x": 74,
+      "y": 144,
+      "width": 14,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "9e6709"
+    },
+    {
+      "character": 200,
+      "glyph_index": 108,
+      "x": 92,
+      "y": 144,
+      "width": 13,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "ad6709"
+    },
+    {
+      "character": 201,
+      "glyph_index": 109,
+      "x": 109,
+      "y": 144,
+      "width": 13,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "046809"
+    },
+    {
+      "character": 202,
+      "glyph_index": 110,
+      "x": 126,
+      "y": 144,
+      "width": 13,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "186809"
+    },
+    {
+      "character": 203,
+      "glyph_index": 111,
+      "x": 143,
+      "y": 144,
+      "width": 13,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "336809"
+    },
+    {
+      "character": 204,
+      "glyph_index": 112,
+      "x": 160,
+      "y": 144,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "666809"
+    },
+    {
+      "character": 205,
+      "glyph_index": 113,
+      "x": 170,
+      "y": 144,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "826809"
+    },
+    {
+      "character": 206,
+      "glyph_index": 114,
+      "x": 180,
+      "y": 144,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "396909"
+    },
+    {
+      "character": 207,
+      "glyph_index": 115,
+      "x": 190,
+      "y": 144,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "fd6409"
+    },
+    {
+      "character": 209,
+      "glyph_index": 116,
+      "x": 200,
+      "y": 144,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "298909"
+    },
+    {
+      "character": 210,
+      "glyph_index": 117,
+      "x": 219,
+      "y": 144,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "184709"
+    },
+    {
+      "character": 211,
+      "glyph_index": 118,
+      "x": 238,
+      "y": 144,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "3c4709"
+    },
+    {
+      "character": 212,
+      "glyph_index": 119,
+      "x": 2,
+      "y": 168,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "534709"
+    },
+    {
+      "character": 213,
+      "glyph_index": 120,
+      "x": 21,
+      "y": 168,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "6f4709"
+    },
+    {
+      "character": 214,
+      "glyph_index": 121,
+      "x": 40,
+      "y": 168,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "874709"
+    },
+    {
+      "character": 217,
+      "glyph_index": 122,
+      "x": 59,
+      "y": 168,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "c34709"
+    },
+    {
+      "character": 218,
+      "glyph_index": 123,
+      "x": 78,
+      "y": 168,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "e14709"
+    },
+    {
+      "character": 219,
+      "glyph_index": 124,
+      "x": 97,
+      "y": 168,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "fd4709"
+    },
+    {
+      "character": 220,
+      "glyph_index": 125,
+      "x": 116,
+      "y": 168,
+      "width": 15,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "2f4809"
+    },
+    {
+      "character": 223,
+      "glyph_index": 126,
+      "x": 135,
+      "y": 168,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "4c4809"
+    },
+    {
+      "character": 224,
+      "glyph_index": 127,
+      "x": 149,
+      "y": 168,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "754809"
+    },
+    {
+      "character": 225,
+      "glyph_index": 128,
+      "x": 162,
+      "y": 168,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "854809"
+    },
+    {
+      "character": 226,
+      "glyph_index": 129,
+      "x": 175,
+      "y": 168,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "9a4809"
+    },
+    {
+      "character": 228,
+      "glyph_index": 130,
+      "x": 188,
+      "y": 168,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "bd4809"
+    },
+    {
+      "character": 231,
+      "glyph_index": 131,
+      "x": 201,
+      "y": 168,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "1d5b09"
+    },
+    {
+      "character": 232,
+      "glyph_index": 132,
+      "x": 214,
+      "y": 168,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "495b09"
+    },
+    {
+      "character": 233,
+      "glyph_index": 133,
+      "x": 227,
+      "y": 168,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "705b09"
+    },
+    {
+      "character": 234,
+      "glyph_index": 134,
+      "x": 240,
+      "y": 168,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "8b5b09"
+    },
+    {
+      "character": 236,
+      "glyph_index": 135,
+      "x": 2,
+      "y": 192,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "c85b09"
+    },
+    {
+      "character": 237,
+      "glyph_index": 136,
+      "x": 12,
+      "y": 192,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "e15b09"
+    },
+    {
+      "character": 238,
+      "glyph_index": 137,
+      "x": 22,
+      "y": 192,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "f65b09"
+    },
+    {
+      "character": 239,
+      "glyph_index": 138,
+      "x": 32,
+      "y": 192,
+      "width": 6,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "165c09"
+    },
+    {
+      "character": 241,
+      "glyph_index": 139,
+      "x": 42,
+      "y": 192,
+      "width": 10,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "415c09"
+    },
+    {
+      "character": 242,
+      "glyph_index": 140,
+      "x": 56,
+      "y": 192,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "695c09"
+    },
+    {
+      "character": 243,
+      "glyph_index": 141,
+      "x": 71,
+      "y": 192,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "b35c09"
+    },
+    {
+      "character": 244,
+      "glyph_index": 142,
+      "x": 86,
+      "y": 192,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "eb5c09"
+    },
+    {
+      "character": 245,
+      "glyph_index": 143,
+      "x": 101,
+      "y": 192,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "055d09"
+    },
+    {
+      "character": 246,
+      "glyph_index": 144,
+      "x": 116,
+      "y": 192,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "125d09"
+    },
+    {
+      "character": 249,
+      "glyph_index": 145,
+      "x": 131,
+      "y": 192,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "2e5d09"
+    },
+    {
+      "character": 250,
+      "glyph_index": 146,
+      "x": 146,
+      "y": 192,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "405d09"
+    },
+    {
+      "character": 251,
+      "glyph_index": 147,
+      "x": 161,
+      "y": 192,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "9a6009"
+    },
+    {
+      "character": 252,
+      "glyph_index": 148,
+      "x": 176,
+      "y": 192,
+      "width": 11,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "b56009"
+    },
+    {
+      "character": 255,
+      "glyph_index": 149,
+      "x": 191,
+      "y": 192,
+      "width": 9,
+      "height": 23,
+      "texture_index": 0,
+      "padding_hex": "e86109"
+    }
+  ],
+  "glyph_record_layout": "4 int32 metrics, 1 byte TextureIndex, 3 padding bytes; the last 4-byte word must not be interpreted as a pointer"
+}

@@ -1,0 +1,17 @@
+{
+  "step": "STEP_062",
+  "translations_applied_to_metadata": 162,
+  "status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "TRANSLATED_REVIEWED": 1075,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "campaign_translation_corpus_complete": true,
+  "campaign_untranslated_remaining": 0,
+  "unapplied_campaign_units_ready_for_iso": 1165,
+  "next_phase": "APPLY_UNAPPLIED_CAMPAIGN_TRANSLATIONS_TO_ISO",
+  "master_sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+  "unapplied_tsv_sha256": "28370763f9952064b85c64499797182aaca7d5a4d54a839be2821f9d83ca087d",
+  "iso_modified": false,
+  "movie_validation_resumed": false
+}

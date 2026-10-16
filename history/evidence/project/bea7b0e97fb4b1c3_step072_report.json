@@ -1,0 +1,1779 @@
+{
+  "step": "STEP_072",
+  "status": "BLOCKED_MISSING_EVIDENCE",
+  "root": "PROJECT_ROOT",
+  "wanted_count": 15,
+  "found_file_count": 50,
+  "found_name_count": 14,
+  "missing_names": [
+    "build_campaign43a.py"
+  ],
+  "duplicates": {
+    "bia_stage36_base.py": 2,
+    "bia_stage40i_actual_resource_trace.py": 2,
+    "campaign_unapplied_ready_for_iso.tsv": 2,
+    "movie_st1_lineage.tsv": 2,
+    "movie_st1_lineage_verified.tsv": 2,
+    "stage39a_font_plan.json": 2,
+    "text_master.tsv": 31
+  },
+  "source_iso": {
+    "stage69_fix2": {
+      "path": "PROJECT_ROOT\\BIA_STAGE69_FIX2_NONMDI_INT92_TEST.iso",
+      "exists": true,
+      "size": 1551828992,
+      "sha256": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8"
+    },
+    "stage43t": {
+      "path": "PROJECT_ROOT\\BIA_STAGE43T_TITLE_PROMPT_FIX.iso",
+      "exists": true,
+      "size": 1551773696,
+      "sha256": "28ba5e9e8fd2eedc7e665817558dabc500daa7e218c3bd4b825d1dd1a2f9d9d0"
+    }
+  },
+  "tsv_profiles": [
+    {
+      "path": "PROJECT_ROOT\\analysis\\stage38_translation_worklist\\stage38_entry_map.tsv",
+      "rows": 3903,
+      "columns": [
+        "id",
+        "priority",
+        "category",
+        "file",
+        "line",
+        "section",
+        "key",
+        "original_raw_value",
+        "quote_style",
+        "encoding",
+        "source_sha1"
+      ],
+      "classification_counts": {
+        "category": {
+          "core UI/system": 1903,
+          "story/dialogue mission": 1470,
+          "skirmish mission": 320,
+          "secondary/system": 210
+        }
+      },
+      "unique_values": {
+        "file": 65
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\analysis\\stage38_translation_worklist\\stage38_translation_units.tsv",
+      "rows": 2780,
+      "columns": [
+        "id",
+        "priority",
+        "category",
+        "English",
+        "한국어",
+        "control_tokens",
+        "reference_count",
+        "references",
+        "quote_styles",
+        "메모"
+      ],
+      "classification_counts": {
+        "category": {
+          "core UI/system": 1201,
+          "story/dialogue mission": 1142,
+          "secondary/system": 191,
+          "skirmish mission": 158,
+          "core UI/system,story/dialogue mission": 43,
+          "core UI/system,skirmish mission": 30,
+          "core UI/system,secondary/system": 12,
+          "skirmish mission,story/dialogue mission": 2,
+          "core UI/system,skirmish mission,story/dialogue mission": 1
+        }
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\incoming\\STEP_069_FIX2_nonmdi_int92_build\\movie_st1_lineage_verified.tsv",
+      "rows": 8,
+      "columns": [
+        "file",
+        "original_sha256",
+        "original_size",
+        "stage42h_sha256",
+        "stage42h_size",
+        "stage43t_sha256",
+        "stage43t_size",
+        "stage42h_equals_stage43t",
+        "stage42h_differs_from_original"
+      ],
+      "classification_counts": {},
+      "unique_values": {
+        "file": 8
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_044_FIX7\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_045\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 1013,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90,
+          "TRANSLATED_REVIEWED": 62
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_046\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 920,
+          "TRANSLATED_REVIEWED": 155,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_047\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 895,
+          "TRANSLATED_REVIEWED": 180,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_048\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 848,
+          "TRANSLATED_REVIEWED": 227,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_049\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 812,
+          "TRANSLATED_REVIEWED": 263,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_050\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 761,
+          "TRANSLATED_REVIEWED": 314,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_051\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 716,
+          "TRANSLATED_REVIEWED": 359,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_052\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 673,
+          "TRANSLATED_REVIEWED": 402,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_053\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "NEEDS_TRANSLATION": 610,
+          "TRANSLATED_REVIEWED": 465,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_054\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 542,
+          "NEEDS_TRANSLATION": 533,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_055\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 574,
+          "NEEDS_TRANSLATION": 501,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_056\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 605,
+          "NEEDS_TRANSLATION": 470,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_057\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 638,
+          "NEEDS_TRANSLATION": 437,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_058\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 638,
+          "NEEDS_TRANSLATION": 437,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_058_FIX1\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 684,
+          "NEEDS_TRANSLATION": 391,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_059\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 734,
+          "NEEDS_TRANSLATION": 341,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_060\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 794,
+          "NEEDS_TRANSLATION": 281,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_061\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 913,
+          "NEEDS_TRANSLATION": 162,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_062\\outputs\\campaign_unapplied_ready_for_iso.tsv",
+      "rows": 1165,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 2,
+        "resource_id": 1165
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_062\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_063\\outputs\\campaign_unapplied_ready_for_iso.tsv",
+      "rows": 1165,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 2,
+        "resource_id": 1165
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_063\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_064\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_065\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_066\\outputs\\allstream_font_objects.tsv",
+      "rows": 1107,
+      "columns": [
+        "mdi",
+        "object_stream",
+        "object_offset",
+        "glyph_count",
+        "glyph_ptr",
+        "glyph_stream",
+        "glyph_offset",
+        "valid_hangul_page_ptrs",
+        "page_ac_ptr",
+        "page_d7_ptr",
+        "widths_ptr",
+        "heights_ptr",
+        "textures_ptr"
+      ],
+      "classification_counts": {},
+      "unique_values": {
+        "mdi": 57
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_066\\outputs\\allstream_fstring_refs.tsv",
+      "rows": 2333,
+      "columns": [
+        "mdi",
+        "metadata_stream",
+        "metadata_offset",
+        "payload_pointer",
+        "payload_stream",
+        "payload_offset",
+        "english",
+        "korean",
+        "preceding_fstring",
+        "preceding_is_any_int_key",
+        "preceding_matches_target_int_key",
+        "confidence",
+        "resource_ids",
+        "source_files"
+      ],
+      "classification_counts": {},
+      "unique_values": {
+        "mdi": 32
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_066\\outputs\\allstream_mdi_glyph_demand.tsv",
+      "rows": 57,
+      "columns": [
+        "mdi",
+        "target_source_count",
+        "unique_nonascii_needed",
+        "additional_chars_vs_stage39",
+        "additional_chars",
+        "fits_stage43a_60_slots",
+        "font_objects_found"
+      ],
+      "classification_counts": {},
+      "unique_values": {
+        "mdi": 57
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_066\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_067\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_068\\outputs\\movie_st1_lineage.tsv",
+      "rows": 8,
+      "columns": [
+        "file",
+        "original_exists",
+        "original_sha256",
+        "original_size",
+        "original_hangul_bytes_decoded_count",
+        "stage42h_exists",
+        "stage42h_sha256",
+        "stage42h_size",
+        "stage42h_hangul_bytes_decoded_count",
+        "stage43t_exists",
+        "stage43t_sha256",
+        "stage43t_size",
+        "stage43t_hangul_bytes_decoded_count",
+        "stage42h_equals_stage43t",
+        "stage42h_differs_from_original"
+      ],
+      "classification_counts": {},
+      "unique_values": {
+        "file": 8
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_068\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_068_FIX1\\outputs\\campaign_final_apply_split.tsv",
+      "rows": 1165,
+      "columns": [
+        "resource_id",
+        "status",
+        "source_text",
+        "korean",
+        "final_apply_class"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "TRANSLATED_PENDING_APPLY": 90
+        },
+        "final_apply_class": {
+          "COMPILED_MDI_PATCH": 967,
+          "MOVIE_ST1_ALREADY_IN_STAGE43T_STATIC": 106,
+          "NON_MDI_INT_OR_RUNTIME_PATCH": 92
+        }
+      },
+      "unique_values": {
+        "resource_id": 1165
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_068_FIX1\\outputs\\movie_st1_lineage.tsv",
+      "rows": 8,
+      "columns": [
+        "file",
+        "original_sha256",
+        "original_size",
+        "stage42h_sha256",
+        "stage42h_size",
+        "stage43t_sha256",
+        "stage43t_size",
+        "stage42h_equals_stage43t",
+        "stage42h_differs_from_original"
+      ],
+      "classification_counts": {},
+      "unique_values": {
+        "file": 8
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_068_FIX1\\outputs\\nonmovie_92_refined.tsv",
+      "rows": 92,
+      "columns": [
+        "resource_id",
+        "source_files",
+        "source_text",
+        "korean",
+        "classification",
+        "mdi_key_hit_count",
+        "mdi_key_mdis",
+        "raw_hit_count",
+        "raw_extensions",
+        "raw_non_int_paths",
+        "history_evidence",
+        "movie_history_evidence",
+        "refined_classification",
+        "meaningful_non_int_paths",
+        "additional_chars_vs_stage39",
+        "additional_char_count_vs_stage39"
+      ],
+      "classification_counts": {
+        "classification": {
+          "MDI_KEY_REFERENCE_BUT_VALUE_EXTERNAL": 56,
+          "INT_RAW_ONLY": 20,
+          "RAW_NON_INT_ASSET": 15,
+          "MOVIE_SUBTITLE_EVIDENCE": 1
+        },
+        "refined_classification": {
+          "DYNAMIC_INT_KEY_CANDIDATE": 63,
+          "INT_ONLY_OR_UNUSED_CANDIDATE": 29
+        }
+      },
+      "unique_values": {
+        "resource_id": 92
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_068_FIX1\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_069\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_069_FIX1\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_069_FIX2\\outputs\\movie_st1_lineage_verified.tsv",
+      "rows": 8,
+      "columns": [
+        "file",
+        "original_sha256",
+        "original_size",
+        "stage42h_sha256",
+        "stage42h_size",
+        "stage43t_sha256",
+        "stage43t_size",
+        "stage42h_equals_stage43t",
+        "stage42h_differs_from_original"
+      ],
+      "classification_counts": {},
+      "unique_values": {
+        "file": 8
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_069_FIX2\\outputs\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    },
+    {
+      "path": "PROJECT_ROOT\\translation\\text_master.tsv",
+      "rows": 1302,
+      "columns": [
+        "id",
+        "category",
+        "source_file",
+        "resource_id",
+        "offset",
+        "context_before",
+        "source_text",
+        "context_after",
+        "ko_current",
+        "ko_review",
+        "encoding",
+        "max_bytes",
+        "control_tokens",
+        "linebreak_rule",
+        "status",
+        "notes",
+        "references",
+        "priority"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "VERIFIED_APPLIED": 137,
+          "TRANSLATED_PENDING_APPLY": 90
+        }
+      },
+      "unique_values": {
+        "source_file": 3,
+        "resource_id": 1302
+      }
+    }
+  ],
+  "json_profiles": [
+    {
+      "path": "PROJECT_ROOT\\bia_stage39a_tools\\stage39a_font_plan.json",
+      "type": "dict",
+      "top_keys": [
+        "translated_A_units",
+        "unique_hangul",
+        "glyph_count_total",
+        "first_korean_glyph",
+        "last_korean_glyph",
+        "required_high_bytes",
+        "high_byte_page_count",
+        "atlas_sha1",
+        "atlas_safe_slots_total",
+        "atlas_unused_slots",
+        "layout"
+      ]
+    },
+    {
+      "path": "PROJECT_ROOT\\bia_stage39b_tools\\stage39a_font_plan.json",
+      "type": "dict",
+      "top_keys": [
+        "translated_A_units",
+        "unique_hangul",
+        "glyph_count_total",
+        "first_korean_glyph",
+        "last_korean_glyph",
+        "required_high_bytes",
+        "high_byte_page_count",
+        "atlas_sha1",
+        "atlas_safe_slots_total",
+        "atlas_unused_slots",
+        "layout"
+      ]
+    }
+  ],
+  "python_profiles": [
+    {
+      "path": "PROJECT_ROOT\\bia_stage39a_tools\\bia_stage36_base.py",
+      "functions": [
+        "log",
+        "sha1_bytes",
+        "iso_norm_name",
+        "iso_read_record",
+        "iso_list_dir",
+        "iso_find_record",
+        "iso_read_file",
+        "patch_dir_record_extent_size",
+        "update_volume_space_size",
+        "align_up",
+        "append_iso_file_and_repoint",
+        "overwrite_iso_same_size",
+        "valid_zlib_header",
+        "parse_mdi",
+        "rebuild_mdi",
+        "patch_mdi",
+        "stream0_off",
+        "patch_dsl_descriptor",
+        "parse_dsx",
+        "dsx_logical_bytes",
+        "rebuild_dsx_from_logical",
+        "find_stage09_memstick",
+        "find_ppsspp_exe",
+        "find_original_iso",
+        "write_append_config",
+        "choose_free_port",
+        "wait_for_actual_debugger_port",
+        "find_ppsspp_hwnd",
+        "get_pid_base",
+        "open_process",
+        "rpm",
+        "wpm",
+        "guest_read",
+        "guest_write",
+        "foreground",
+        "capture",
+        "record_gpu_frame",
+        "__init__",
+        "connect",
+        "close",
+        "_read_exact",
+        "_send_frame",
+        "send_json",
+        "_recv_text_message",
+        "recv_json",
+        "request",
+        "connect_debugger",
+        "wait_for_story_native",
+        "inspect_loaded",
+        "descriptor_words_for_expanded_tmr",
+        "pre_menu_descriptor_watcher",
+        "dump_runtime_regions",
+        "inspect_tmr_vertex_uv_samples",
+        "patch_loaded_tmr_uvs",
+        "install_descriptor_pause_breakpoint",
+        "remove_descriptor_pause_breakpoint",
+        "fire_and_forget",
+        "send_request_no_wait",
+        "wait_cpu_running",
+        "regs_to_dict",
+        "hexregs",
+        "safe_guest_dump",
+        "disasm_window",
+        "u32",
+        "s32",
+        "collect_pause_snapshot",
+        "advance_until_descriptor_pause",
+        "make_zip",
+        "copy_file_with_progress",
+        "prepare_boot_iso",
+        "close_existing_ppsspp",
+        "register_ppsspp_auto_close",
+        "cleanup",
+        "main"
+      ],
+      "has_append_iso_file_and_repoint": true,
+      "has_rebuild_mdi": true,
+      "has_rebuild_dsx": true,
+      "has_parse_mdi": true
+    },
+    {
+      "path": "PROJECT_ROOT\\bia_stage39b_tools\\bia_stage36_base.py",
+      "functions": [
+        "log",
+        "sha1_bytes",
+        "iso_norm_name",
+        "iso_read_record",
+        "iso_list_dir",
+        "iso_find_record",
+        "iso_read_file",
+        "patch_dir_record_extent_size",
+        "update_volume_space_size",
+        "align_up",
+        "append_iso_file_and_repoint",
+        "overwrite_iso_same_size",
+        "valid_zlib_header",
+        "parse_mdi",
+        "rebuild_mdi",
+        "patch_mdi",
+        "stream0_off",
+        "patch_dsl_descriptor",
+        "parse_dsx",
+        "dsx_logical_bytes",
+        "rebuild_dsx_from_logical",
+        "find_stage09_memstick",
+        "find_ppsspp_exe",
+        "find_original_iso",
+        "write_append_config",
+        "choose_free_port",
+        "wait_for_actual_debugger_port",
+        "find_ppsspp_hwnd",
+        "get_pid_base",
+        "open_process",
+        "rpm",
+        "wpm",
+        "guest_read",
+        "guest_write",
+        "foreground",
+        "capture",
+        "record_gpu_frame",
+        "__init__",
+        "connect",
+        "close",
+        "_read_exact",
+        "_send_frame",
+        "send_json",
+        "_recv_text_message",
+        "recv_json",
+        "request",
+        "connect_debugger",
+        "wait_for_story_native",
+        "inspect_loaded",
+        "descriptor_words_for_expanded_tmr",
+        "pre_menu_descriptor_watcher",
+        "dump_runtime_regions",
+        "inspect_tmr_vertex_uv_samples",
+        "patch_loaded_tmr_uvs",
+        "install_descriptor_pause_breakpoint",
+        "remove_descriptor_pause_breakpoint",
+        "fire_and_forget",
+        "send_request_no_wait",
+        "wait_cpu_running",
+        "regs_to_dict",
+        "hexregs",
+        "safe_guest_dump",
+        "disasm_window",
+        "u32",
+        "s32",
+        "collect_pause_snapshot",
+        "advance_until_descriptor_pause",
+        "make_zip",
+        "copy_file_with_progress",
+        "prepare_boot_iso",
+        "close_existing_ppsspp",
+        "register_ppsspp_auto_close",
+        "cleanup",
+        "main"
+      ],
+      "has_append_iso_file_and_repoint": true,
+      "has_rebuild_mdi": true,
+      "has_rebuild_dsx": true,
+      "has_parse_mdi": true
+    },
+    {
+      "path": "PROJECT_ROOT\\bia_stage40i_tools\\bia_stage40i_actual_resource_trace.py",
+      "functions": [
+        "log",
+        "load_helpers",
+        "read_dir_record",
+        "normalize_iso_name",
+        "iso_inventory",
+        "walk_dir",
+        "map_offset_to_file",
+        "make_static_patterns",
+        "raw_iso_search",
+        "mdi_decoded_search",
+        "write_tsv",
+        "read_ws",
+        "wait_cpu_ready",
+        "wait_menu_resource",
+        "press",
+        "make_runtime_patterns",
+        "scan_ram",
+        "summarize_runtime_hits",
+        "runtime_trace",
+        "parse_lbn_log",
+        "make_zip",
+        "main"
+      ],
+      "has_append_iso_file_and_repoint": false,
+      "has_rebuild_mdi": false,
+      "has_rebuild_dsx": false,
+      "has_parse_mdi": true
+    },
+    {
+      "path": "PROJECT_ROOT\\log\\STEP_063\\outputs\\known_pipeline_files\\bia_stage40i_actual_resource_trace.py",
+      "functions": [
+        "log",
+        "load_helpers",
+        "read_dir_record",
+        "normalize_iso_name",
+        "iso_inventory",
+        "walk_dir",
+        "map_offset_to_file",
+        "make_static_patterns",
+        "raw_iso_search",
+        "mdi_decoded_search",
+        "write_tsv",
+        "read_ws",
+        "wait_cpu_ready",
+        "wait_menu_resource",
+        "press",
+        "make_runtime_patterns",
+        "scan_ram",
+        "summarize_runtime_hits",
+        "runtime_trace",
+        "parse_lbn_log",
+        "make_zip",
+        "main"
+      ],
+      "has_append_iso_file_and_repoint": false,
+      "has_rebuild_mdi": false,
+      "has_rebuild_dsx": false,
+      "has_parse_mdi": true
+    }
+  ],
+  "iso_modified": false,
+  "required_for_next": [
+    "allstream_fstring_refs.tsv",
+    "allstream_font_objects.tsv",
+    "allstream_mdi_glyph_demand.tsv",
+    "stage39a_font_plan.json",
+    "build_campaign43a.py",
+    "campaign_final_apply_split.tsv",
+    "stage38_translation_units.tsv",
+    "stage38_entry_map.tsv",
+    "bia_stage40i_actual_resource_trace.py"
+  ],
+  "required_missing": [
+    "build_campaign43a.py"
+  ],
+  "campaign_split_observed": {
+    "D:\\bia\\log\\STEP_068_FIX1\\outputs\\campaign_final_apply_split.tsv": {
+      "rows": 1165,
+      "columns": [
+        "resource_id",
+        "status",
+        "source_text",
+        "korean",
+        "final_apply_class"
+      ],
+      "classification_counts": {
+        "status": {
+          "TRANSLATED_REVIEWED": 1075,
+          "TRANSLATED_PENDING_APPLY": 90
+        },
+        "final_apply_class": {
+          "COMPILED_MDI_PATCH": 967,
+          "MOVIE_ST1_ALREADY_IN_STAGE43T_STATIC": 106,
+          "NON_MDI_INT_OR_RUNTIME_PATCH": 92
+        }
+      },
+      "unique_values": {
+        "resource_id": 1165
+      }
+    }
+  }
+}

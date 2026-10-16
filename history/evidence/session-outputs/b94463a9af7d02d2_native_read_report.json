@@ -1,0 +1,9 @@
+{
+  "pid": 21908,
+  "method": "PPSSPP read-only base-pointer query and ReadProcessMemory",
+  "guest_start": "0x08000000",
+  "guest_end": "0x0A000000",
+  "bytes": 33554432,
+  "process_write_permissions_requested": false,
+  "game_paused_or_resumed": false
+}

@@ -1,0 +1,222 @@
+{
+  "stage": "39G",
+  "purpose": "Re-run the already-correct Stage39F ISO and prove Unicode conversion using direct process-memory scanning instead of PPSSPP's unsupported memory.search debugger event.",
+  "stage39f_conclusion": {
+    "disc_patch": "verified",
+    "runtime_utf8_sources": "verified",
+    "runtime_pointer_num_max_metadata": "verified",
+    "production_font": "verified",
+    "reason_stage39f_reported_failure": "PPSSPP v1.20.4 returned 'Bad message: unknown event' for memory.search, so no actual RAM pattern search occurred.",
+    "stage39f_screenshot_state": "Loading your latest saved profile; not yet the main menu."
+  },
+  "iso_changed_in_this_stage": false,
+  "runtime_patch": false,
+  "uses_old_fixed_story_slot": false,
+  "uses_debugger_memory_search": false,
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE39F_CORRECT_NARROW_METADATA_TEST.iso",
+  "runtime": {
+    "pid": 29596,
+    "ppsspp_exe": "LOCAL_PATH",
+    "normal_jit": true,
+    "runtime_patch": false,
+    "previous_ppsspp_cleanup": {
+      "found": true,
+      "pid": 28772,
+      "closed_normally": true
+    },
+    "search_method": "host ReadProcessMemory via proven guest_read helper",
+    "guest_process": {
+      "pid": 29596,
+      "base": "0x256786E0000"
+    },
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "version": {
+      "event": "version",
+      "ticket": 1001,
+      "name": "PPSSPP",
+      "version": "v1.20.4"
+    },
+    "runtime_sources": {
+      "display1_hex": "ec8aa4ed86a0eba6ac00000000000000",
+      "display1_ok": true,
+      "menustory_key_hex": "4d656e7553746f727900000000000000",
+      "menustory_key_ok": true,
+      "display2_hex": "ec8aa4ed86a0eba6ac00000000000000",
+      "display2_ok": true,
+      "meta1": [
+        "0x093B1B40",
+        10,
+        10
+      ],
+      "meta1_ok": true,
+      "meta2": [
+        "0x093B1BF0",
+        10,
+        10
+      ],
+      "meta2_ok": true
+    },
+    "phases": [
+      {
+        "phase": "baseline_no_input",
+        "elapsed_after_press": 0,
+        "scan": {
+          "utf16_korean": [
+            "0x08E416C0",
+            "0x08E431A0",
+            "0x08FF4B89"
+          ],
+          "bytewise_widened_utf8": [],
+          "utf8_source": [
+            "0x093B1B40",
+            "0x093B1BF0"
+          ],
+          "menu_Story": [],
+          "menu_STORY": [
+            "0x08FFF02E"
+          ],
+          "menu_Options": [],
+          "menu_OPTIONS": [],
+          "menu_Profile": [
+            "0x08FFB958",
+            "0x08FFDCE5"
+          ],
+          "menu_PROFILE": [
+            "0x08FF2251",
+            "0x08FF2A44",
+            "0x08FF2B2E",
+            "0x08FF2C16",
+            "0x08FF4627",
+            "0x08FF4E56",
+            "0x08FF5432",
+            "0x08FF5B16",
+            "0x08FF77F9",
+            "0x08FF786F",
+            "0x08FFC29D",
+            "0x08FFD5C3",
+            "0x08FFF296"
+          ],
+          "utf16_korean_found": true
+        },
+        "capture": {
+          "path": "PROJECT_ROOT\\analysis\\stage39g_external_ram_proof\\stage39g_baseline.png",
+          "captured": true
+        }
+      }
+    ],
+    "utf16_proof": true,
+    "final_scan": {
+      "utf16_korean": [
+        "0x08E416C0",
+        "0x08E431A0",
+        "0x08FF4B89"
+      ],
+      "bytewise_widened_utf8": [],
+      "utf8_source": [
+        "0x093B1B40",
+        "0x093B1BF0"
+      ],
+      "menu_Story": [],
+      "menu_STORY": [
+        "0x08FFF02E"
+      ],
+      "menu_Options": [],
+      "menu_OPTIONS": [],
+      "menu_Profile": [
+        "0x08FFB958",
+        "0x08FFDCE5",
+        "0x097476A0",
+        "0x097481B4"
+      ],
+      "menu_PROFILE": [
+        "0x08FF2251",
+        "0x08FF2A44",
+        "0x08FF2B2E",
+        "0x08FF2C16",
+        "0x08FF4627",
+        "0x08FF4E56",
+        "0x08FF5432",
+        "0x08FF5B16",
+        "0x08FF77F9",
+        "0x08FF786F",
+        "0x08FFC29D",
+        "0x08FFD5C3",
+        "0x08FFF296",
+        "0x09723EF4",
+        "0x09723F0C",
+        "0x09745D94",
+        "0x09745EEC",
+        "0x0974609C",
+        "0x09746718",
+        "0x0974794C",
+        "0x09747F2C",
+        "0x09748924",
+        "0x09749826",
+        "0x097498B0",
+        "0x0974990E"
+      ],
+      "utf16_korean_found": true,
+      "new_menu_like_matches": {
+        "Story": [],
+        "STORY": [],
+        "Options": [],
+        "OPTIONS": [],
+        "Profile": [
+          "0x097476A0",
+          "0x097481B4"
+        ],
+        "PROFILE": [
+          "0x09723EF4",
+          "0x09723F0C",
+          "0x09745D94",
+          "0x09745EEC",
+          "0x0974609C",
+          "0x09746718",
+          "0x0974794C",
+          "0x09747F2C",
+          "0x09748924",
+          "0x09749826",
+          "0x097498B0",
+          "0x0974990E"
+        ]
+      },
+      "new_menu_like_match_count": 14
+    },
+    "final_capture": {
+      "path": "PROJECT_ROOT\\analysis\\stage39g_external_ram_proof\\stage39g_final.png",
+      "captured": true
+    },
+    "production_font_runtime": {
+      "glyph_count": 847,
+      "expected_glyph_count": 847,
+      "glyph_ptr": "0x098F5020",
+      "expected_glyph_ptr": "0x098F5020",
+      "descriptor": [
+        "0xA08BEA60",
+        "0xA8090200",
+        "0xB8000909"
+      ],
+      "expected_descriptor": [
+        "0xA087D020",
+        "0xA8090200",
+        "0xB8000909"
+      ],
+      "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "expected_atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "bad_mapping_samples": [],
+      "all_production_mappings_ok": true,
+      "ok": false
+    },
+    "gpu_frame": {
+      "path": "PROJECT_ROOT\\analysis\\stage39g_external_ram_proof\\stage39g_final.ppdmp",
+      "bytes": 131095,
+      "sha256": "d0059bd4e0256d148662cc158b8fde3a85c8dc5bfca8b29386ca98788b686892",
+      "magic": "PPSSPPGE",
+      "version": 6
+    },
+    "completed": false,
+    "ppsspp_closed": true
+  },
+  "completed": false
+}

@@ -1,0 +1,141 @@
+{
+  "step": "STEP_074_FIX6",
+  "status": "BLOCKED_PREBUILD",
+  "iso_built": false,
+  "compiled_ids": 967,
+  "target_refs": 2333,
+  "target_mdis": 32,
+  "dryrun_passed_mdis": 1,
+  "blocked_count": 31,
+  "blocked": [
+    {
+      "mdi": "D07_1501.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "error": "RuntimeError('Expected exactly one DSL font relocation signature, found 0')"
+    }
+  ],
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE69_FIX2_NONMDI_INT92_TEST.iso",
+  "source_sha256": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE74_FIX6_COMPILED967_BULK_TEST.iso",
+  "source_iso_preserved": true,
+  "runtime_verified": false
+}

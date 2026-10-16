@@ -1,0 +1,74 @@
+{
+  "stage": "42A",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "source_iso_size": 1489575936,
+  "st1_file_count": 8,
+  "subtitle_field_count": 133,
+  "files": [
+    {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1",
+      "name": "EM_1230_BOOKENDS2.ST1",
+      "lbn": 133472,
+      "size": 3190,
+      "sha1": "6d30acd73ce6c206b06af938ed86dead891ba4da",
+      "field_count": 37
+    },
+    {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1",
+      "name": "EM_1300_BOOKENDS4.ST1",
+      "lbn": 136112,
+      "size": 1907,
+      "sha1": "d08aca37c80487eea5238d91bbc4a6cc54f4478b",
+      "field_count": 22
+    },
+    {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1",
+      "name": "EM_1330_BOOKENDS3.ST1",
+      "lbn": 138752,
+      "size": 2297,
+      "sha1": "7c0fa157327b1ae2297db484a1f16ea8cbec1ea5",
+      "field_count": 26
+    },
+    {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/EM_1830RISNERSDEATH.ST1",
+      "name": "EM_1830RISNERSDEATH.ST1",
+      "lbn": 138832,
+      "size": 290,
+      "sha1": "d3aab8f3ae1db8031abc02f92ac219d18cff33a0",
+      "field_count": 3
+    },
+    {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/EM_D30900DEATH.ST1",
+      "name": "EM_D30900DEATH.ST1",
+      "lbn": 138912,
+      "size": 97,
+      "sha1": "99327fb155cd1e64135d2c545c6ae51dde26bf12",
+      "field_count": 1
+    },
+    {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/EM_EXIT4_ENDING.ST1",
+      "name": "EM_EXIT4_ENDING.ST1",
+      "lbn": 138992,
+      "size": 406,
+      "sha1": "b876f6dea49d321157b94189838fd43bb9878b14",
+      "field_count": 3
+    },
+    {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1",
+      "name": "EM_VICTORYINCARETAN.ST1",
+      "lbn": 139072,
+      "size": 2041,
+      "sha1": "eb4c07cbaae293ffa656dea062a67a966101b727",
+      "field_count": 22
+    },
+    {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1",
+      "name": "FM_0115EAGLESJUMP.ST1",
+      "lbn": 140368,
+      "size": 1482,
+      "sha1": "d902d293af292e6795acd69e12b0002cbc438197",
+      "field_count": 19
+    }
+  ],
+  "completed": true
+}

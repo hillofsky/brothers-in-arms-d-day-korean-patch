@@ -1,0 +1,38 @@
+{
+  "all_pass": true,
+  "offline_checks": [
+    {
+      "test": "tests/test_ws_contract.py",
+      "exit_code": 0,
+      "stdout": "PASS: version name parameter no longer collides; game.status and RAM read work; unsafe API denied",
+      "stderr": ""
+    },
+    {
+      "test": "tests/test_passive.py",
+      "exit_code": 0,
+      "stdout": "PASS: passive owner sampling and report serialization",
+      "stderr": ""
+    },
+    {
+      "test": "tests/test_passive_main_mock.py",
+      "exit_code": 0,
+      "stdout": "STEP095 FIX2 passive watcher armed (NO BREAKPOINTS)\nSTEP095 FIX2: PASSIVE_CAPTURE_COMPLETE_NO_PATCH\nPASS: simulated full watcher ready/stop/report without breakpoints",
+      "stderr": ""
+    },
+    {
+      "test": "tests/test_preserve_state.py",
+      "exit_code": 0,
+      "stdout": "FAILED mock\nCAPTURED_UNVERIFIED mock\nPASS: preceding STEP094/095 history untouched; managed block idempotent",
+      "stderr": ""
+    },
+    {
+      "test": "tests/test_package_static.py",
+      "exit_code": 0,
+      "stdout": "PASS: safe APIs, no PPSSPP termination, independent fallback ZIP, state isolation\nPASS: FIX2 prelaunch WebSocket contract regression guard",
+      "stderr": ""
+    }
+  ],
+  "no_live_ppsspp_claim": true,
+  "legacy_issue": "version request name keyword TypeError fixed in WS.request(event,...)",
+  "existing_iso_modified": false
+}

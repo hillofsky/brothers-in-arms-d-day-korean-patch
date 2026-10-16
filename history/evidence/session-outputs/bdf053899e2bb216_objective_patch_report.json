@@ -1,0 +1,205 @@
+{
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE43M_CAMPAIGN_OBJECTIVE_UTF8_TEST.iso",
+  "patches": [
+    {
+      "va": "0x1f1704",
+      "before": "0x80840000",
+      "after": "0xc17fb04"
+    },
+    {
+      "va": "0x1f170c",
+      "before": "0x42600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f1718",
+      "before": "0x42603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f1724",
+      "before": "0x42600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f1728",
+      "before": "0x42603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f1730",
+      "before": "0x308400ff",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f17b4",
+      "before": "0x288a0100",
+      "after": "0x340a0001"
+    },
+    {
+      "va": "0x1f17c0",
+      "before": "0x42e00",
+      "after": "0x802821"
+    },
+    {
+      "va": "0x1f17c4",
+      "before": "0x52e03",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f17cc",
+      "before": "0x42603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f17d0",
+      "before": "0x42600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f17d4",
+      "before": "0x42603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f17c8",
+      "before": "0x52600",
+      "after": "0xa02021"
+    },
+    {
+      "va": "0x1f17e4",
+      "before": "0x308400ff",
+      "after": "0x3084ffff"
+    },
+    {
+      "va": "0x1f19f4",
+      "before": "0x308400ff",
+      "after": "0x3084ffff"
+    },
+    {
+      "va": "0x1f0178",
+      "before": "0x55600",
+      "after": "0x30aaffff"
+    },
+    {
+      "va": "0x1f017c",
+      "before": "0xa5603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f018c",
+      "before": "0xa5600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f0198",
+      "before": "0xa5603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f01a4",
+      "before": "0xa4600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f01a8",
+      "before": "0x85603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f01b0",
+      "before": "0x314a00ff",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f01a0",
+      "before": "0x314a00ff",
+      "after": "0x314affff"
+    },
+    {
+      "va": "0x1f0218",
+      "before": "0x290a0100",
+      "after": "0x340a0001"
+    },
+    {
+      "va": "0x1f0224",
+      "before": "0x84e00",
+      "after": "0x1004821"
+    },
+    {
+      "va": "0x1f0228",
+      "before": "0x94e03",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f022c",
+      "before": "0x94600",
+      "after": "0x1204021"
+    },
+    {
+      "va": "0x1f0230",
+      "before": "0x84603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f0234",
+      "before": "0x84600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f0238",
+      "before": "0x84603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f023c",
+      "before": "0x310a00ff",
+      "after": "0x310affff"
+    },
+    {
+      "va": "0x1f2610",
+      "before": "0xafa50000",
+      "after": "0x2002021"
+    },
+    {
+      "va": "0x1f2614",
+      "before": "0xafa40004",
+      "after": "0xc17fb70"
+    },
+    {
+      "va": "0x1f2618",
+      "before": "0xc02825",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1f1fc4",
+      "before": "0x80850000",
+      "after": "0xc17fba0"
+    },
+    {
+      "va": "0x1f1fc8",
+      "before": "0x2002025",
+      "after": "0x0"
+    }
+  ],
+  "size_helper_va": "0x5fedc0",
+  "wrap_helper_va": "0x5fee80",
+  "module_end": "0x8e02f40",
+  "mdi_base": "0x08e03020",
+  "added_relocations": [
+    "0x1f1704",
+    "0x1f2614",
+    "0x1f1fc4"
+  ],
+  "iso_readback_verified": true,
+  "runtime_verified": true,
+  "objective_body_hangul_verified": true,
+  "objective_wrapping_verified": true,
+  "runtime_evidence": "outputs/stage43m_validation/objective_korean_screen_0x4000000.png",
+  "verified_text": "가장 가까운 교차로로 이동하라.",
+  "remaining_issues": [
+    "mission restart stability unresolved",
+    "New Objective heading remains English",
+    "second mission translation not applied"
+  ]
+}

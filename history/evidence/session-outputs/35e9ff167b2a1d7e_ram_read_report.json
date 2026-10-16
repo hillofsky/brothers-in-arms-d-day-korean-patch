@@ -1,0 +1,7 @@
+{
+  "start": "0x08000000",
+  "end": "0x0A000000",
+  "bytes": 33554432,
+  "chunks": 256,
+  "all_reads_complete": true
+}

@@ -1,0 +1,2 @@
+from pathlib import Path
+s=Path('work/build43l_popup.py').read_text(encoding='utf-8-sig').replace('new_shoff=current_shoff+len(rel_payload)','new_shoff=current_shoff+(len(rel_payload) if current_shoff>=rel_at else 0)').replace('BIA_STAGE43L_CAMPAIGN_OBJECTIVE_UTF8_TEST.iso','BIA_STAGE43M_CAMPAIGN_OBJECTIVE_UTF8_TEST.iso').replace('outputs/stage43l','outputs/stage43m');Path('work/build43m_popup.py').write_text(s,encoding='utf-8')

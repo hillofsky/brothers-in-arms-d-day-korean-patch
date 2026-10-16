@@ -1,0 +1,122 @@
+[
+  {
+    "source": "original",
+    "name": "D0_0130_.MDI",
+    "type": "MDI",
+    "archive_member": "original/D0_0130_.MDI",
+    "bytes": 4768995,
+    "sha256": "bef820d7a512f88501a7ee7e83324c69e2a5722af1f41d5c804f2eadfe942968"
+  },
+  {
+    "source": "original",
+    "name": "D0_0130_.DSL",
+    "type": "DSL",
+    "archive_member": "original/D0_0130_.DSL",
+    "bytes": 4945442,
+    "sha256": "877b97509c13b71f531d312096efca34c2cd723e0df27d2ce12280081f290e7c"
+  },
+  {
+    "source": "original",
+    "name": "D0_0130_.DSX",
+    "type": "DSX",
+    "archive_member": "original/D0_0130_.DSX",
+    "bytes": 1995984,
+    "sha256": "e2729b84b993416a3cc69d171871b12b0f0babbe44897c27712749bd01aaa1af"
+  },
+  {
+    "source": "stage69",
+    "name": "D0_0130_.MDI",
+    "type": "MDI",
+    "archive_member": "stage69/D0_0130_.MDI",
+    "bytes": 4862804,
+    "sha256": "976230e01c0a16058f996ffea5c8df2e6e4915497eed5c5b147eb2e8f86bd708"
+  },
+  {
+    "source": "stage69",
+    "name": "D0_0130_.DSL",
+    "type": "DSL",
+    "archive_member": "stage69/D0_0130_.DSL",
+    "bytes": 4945442,
+    "sha256": "79e03da16fb00a7e0f75a8ea1407b7ac1a81041bbc30c0a518f5f1d4726ba60b"
+  },
+  {
+    "source": "stage69",
+    "name": "D0_0130_.DSX",
+    "type": "DSX",
+    "archive_member": "stage69/D0_0130_.DSX",
+    "bytes": 1995990,
+    "sha256": "26d2611b8ef70dfc06bac7005285977e67e3d73abdf361b06ab99163a72f7afd"
+  },
+  {
+    "source": "stage69",
+    "name": "D0_0700_.MDI",
+    "type": "MDI",
+    "archive_member": "stage69/D0_0700_.MDI",
+    "bytes": 4405254,
+    "sha256": "293179a89cfef8f0f2c70be8ec28e9b71769781aade64566cb32e47256386532"
+  },
+  {
+    "source": "stage69",
+    "name": "D0_0700_.DSL",
+    "type": "DSL",
+    "archive_member": "stage69/D0_0700_.DSL",
+    "bytes": 3352130,
+    "sha256": "694758bf982eba531a1b4c41ab999f49eea081a07a49f864aedbfa4dd6f3908d"
+  },
+  {
+    "source": "stage69",
+    "name": "D0_0700_.DSX",
+    "type": "DSX",
+    "archive_member": "stage69/D0_0700_.DSX",
+    "bytes": 1287336,
+    "sha256": "75a26f6c06dc46400231f44b9de656aaba7a9f03df26d68bbf0f1dce4efb878a"
+  },
+  {
+    "source": "stage69",
+    "name": "D0_1015_.DSL",
+    "type": "DSL",
+    "archive_member": "stage69/D0_1015_.DSL",
+    "bytes": 3392846,
+    "sha256": "26a52bc3099707cb4800a1f6b8cdccfd00a73293df9ccb6ecf2544362e8b5881"
+  },
+  {
+    "source": "stage69",
+    "name": "D0_1015_.DSX",
+    "type": "DSX",
+    "archive_member": "stage69/D0_1015_.DSX",
+    "bytes": 1276776,
+    "sha256": "179bff7b34c75de6125aa1ea168decc44ba3f09327d91562ca34a04d7efb6edf"
+  },
+  {
+    "source": "stage69",
+    "name": "D1_1830_.DSL",
+    "type": "DSL",
+    "archive_member": "stage69/D1_1830_.DSL",
+    "bytes": 3980098,
+    "sha256": "b7b6ea766ee2ef97ad0f481cee0ca33d92438f78546d336d8099e0bd724bb956"
+  },
+  {
+    "source": "stage69",
+    "name": "D1_1830_.DSX",
+    "type": "DSX",
+    "archive_member": "stage69/D1_1830_.DSX",
+    "bytes": 1548373,
+    "sha256": "f960c66b8cd4f09d7754b3b9fa72751c00c88f9d972142fe75d9cf226d970f55"
+  },
+  {
+    "source": "stage69",
+    "name": "SKR_DE_HOLD.DSL",
+    "type": "DSL",
+    "archive_member": "stage69/SKR_DE_HOLD.DSL",
+    "bytes": 3383594,
+    "sha256": "006e2b17b6a6add598c8eea5830f3aab340dbee21a6a54aefafffd7565a68daa"
+  },
+  {
+    "source": "stage69",
+    "name": "SKR_DE_HOLD.DSX",
+    "type": "DSX",
+    "archive_member": "stage69/SKR_DE_HOLD.DSX",
+    "bytes": 1358625,
+    "sha256": "f941978952e52626a4838c134cdc4f589963cad178c3e48a9f5fc6625c65de26"
+  }
+]

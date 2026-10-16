@@ -1,0 +1,29 @@
+{
+  "stage": "41F",
+  "patches": [
+    {
+      "name": "FM_0115EAGLESJUMP.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1",
+      "lbn": 727332,
+      "size": 1482,
+      "sha1": "b449f7b3afb0bfd41286462f136fa0bf49abcfdb"
+    },
+    {
+      "name": "SUBTITLEHASHMAP.INI",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLEHASHMAP.INI",
+      "lbn": 510976,
+      "size": 2172,
+      "sha1": "373904d416b40b19190a86b7fc28194a28de9c10"
+    },
+    {
+      "name": "SUBTITLETEXTURE.RAW",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLETEXTURE.RAW",
+      "lbn": 510992,
+      "size": 131072,
+      "sha1": "d25634c34ecdd27abd16b4706781f6d5e04d3e4d"
+    }
+  ],
+  "completed": true,
+  "output": "PROJECT_ROOT\\BIA_STAGE41F_FIRST_MOVIE_FULL_KO_TEST.iso",
+  "output_size": 1489577984
+}

@@ -1,0 +1,236 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STEP105_MORTAR_PICKUP_KO_TEST.iso",
+  "output": "SESSION_SESSION_OUTPUTS\\step106_fix\\BIA_STEP106_FONT_RENDER_OWNER_TEST.iso",
+  "maps": [
+    {
+      "mdi": "D07_1501.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xcfa3ec3ce82220e0"
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xd764c308e82220e0"
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x41779461e82220e0"
+    },
+    {
+      "mdi": "D0_0130_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xcb9b1adbe82220e0"
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x3c1c09c1e82220e0"
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xd7188e9ce82220e0"
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x2cd31b36e82220e0"
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x418c49dbe82220e0"
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x62c330be82220e0"
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xe818c433e82220e0"
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x221ca73e82220e0"
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x9932aa03e82220e0"
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x79cead5ae82220e0"
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xb0747df2e82220e0"
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x429e7cace82220e0"
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x775b3f1ae82220e0"
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x968cc4ffe82220e0"
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x8b32d9a5e82220e0"
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x8cd30fe2e82220e0"
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x40790f7ce82220e0"
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xbfba608de82220e0"
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xa541898de82220e0"
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x9d48727ce82220e0"
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x471d901de82220e0"
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xec0e7324e82220e0"
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x1d1661a5e82220e0"
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x3acb9d39e82220e0"
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x34307012e82220e0"
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xa6f141e4e82220e0"
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x743f154ce82220e0"
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0xebcd1fb8e82220e0"
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "previous_render_interface": "0x0",
+      "descriptor": "0x9e82420",
+      "owner": "0x9e82220",
+      "cache_id": "0x377832b0e82220e0"
+    }
+  ],
+  "only_clone_render_pointer_and_empty_descriptor_space_changed": true,
+  "atlas_glyphs_translations_prx_unchanged": true,
+  "iso_readback_verified": true,
+  "runtime_verified": false,
+  "output_sha256": "3d28dd65cf09e9921b01d061c0262afe81beb1950bb591f95a918125b17bc0ab",
+  "distinct_per_map_cache_ids": 32
+}

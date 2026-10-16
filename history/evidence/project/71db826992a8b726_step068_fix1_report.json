@@ -1,0 +1,25 @@
+{
+  "step": "STEP_068_FIX1",
+  "status": "VERIFIED",
+  "failure_fixed": "STEP068 incorrectly hard-coded movie overlap=71; actual Stage42A ST1-derived overlap=106",
+  "input_unapplied_campaign_ids": 1165,
+  "compiled_mdi_patch_ids": 967,
+  "movie_st1_campaign_ids": 106,
+  "movie_crosswalk_rows": 111,
+  "movie_crosswalk_match_kinds": {
+    "SEGMENT_EQUAL": 10,
+    "NORMALIZED_CONTAINMENT": 7,
+    "FIELD_EQUAL": 94
+  },
+  "nonmovie_remaining_ids": 92,
+  "nonmovie_refined_counts": {
+    "DYNAMIC_INT_KEY_CANDIDATE": 63,
+    "INT_ONLY_OR_UNUSED_CANDIDATE": 29
+  },
+  "stage42h_equals_stage43t_all8_st1": true,
+  "stage42h_differs_from_original_all8_st1": true,
+  "movie_static_lineage_proven": true,
+  "movie_playback_validation_resumed": false,
+  "iso_modified": false,
+  "next_phase": "BUILD_COMPILED_967_PLUS_NONMOVIE_92_PATCHER_PRESERVE_MOVIE106"
+}

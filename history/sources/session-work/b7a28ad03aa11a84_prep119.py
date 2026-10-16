@@ -1,0 +1,2 @@
+from pathlib import Path
+s=Path('work/audit117.py').read_text(encoding='utf-8-sig').replace('BIA_STEP116_TUTORIAL_CHARACTER_NAMES_KO_TEST.iso','BIA_STEP118_FONT_GUTTER_TEST.iso').replace('outputs/step117_icon','outputs/step119');i=s.index(';targets=');e=s.index(';keys=set()',i);s=s[:i]+";targets={'Free Look':'자유 시점','Checkpoint':'체크포인트','Press':'누르기','Hold':'길게 누르기'}"+s[e:];Path('work/audit119.py').write_text(s,encoding='utf-8')

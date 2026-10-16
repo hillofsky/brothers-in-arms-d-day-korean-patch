@@ -33,3 +33,11 @@ docs/portability_results.json
 docs/RECOVERY_PROVENANCE.json
 tools/develop.py
 tools/dev/bia_formats.py
+
+작업 이력 추가:
+history/ (선별·경로 치환 코드/근거)
+docs/HISTORY_INDEX.md
+docs/HISTORY_INVENTORY.json
+docs/KNOWLEDGE_LEDGER.md
+docs/SOURCE_MAP.json
+tools/check_history.py

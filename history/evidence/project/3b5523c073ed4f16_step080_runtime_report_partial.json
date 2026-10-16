@@ -1,0 +1,798 @@
+{
+  "step": "STEP_080",
+  "status": "IN_PROGRESS",
+  "iso_sha256_expected": "ca320d514c32d34767e7255ea3079f7449783cdb2b98ec49797a87bdd69544d9",
+  "target_game_id_expected": "ULUS10193",
+  "capture_method": "PROVEN_STEP071_RAW_VRAM_RGB565_SOFTWARE_RENDERER",
+  "debugger_local_only": true,
+  "compiled967_static_built": true,
+  "compiled967_runtime_verified": false,
+  "int92_runtime_verified": false,
+  "six_deferred_movie_playback_tests_resumed": false,
+  "no_iso_modified": true,
+  "visual_review_required": true,
+  "notes": "RAM text presence is not proof of rendered Korean. Story entry does not constitute movie playback validation.",
+  "version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "game": {
+    "id": "ULUS10193",
+    "version": "1.01",
+    "title": "Brothers in Arms D-Day"
+  },
+  "title_seek": [
+    {
+      "attempt": 0,
+      "images": [
+        "00_title_seek_00_vram0_04000000.png",
+        "00_title_seek_00_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 72.322,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 66.49666666666667,
+          "best_close_ratio": 0.0
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 66.65666666666667,
+          "best_close_ratio": 0.0
+        },
+        "raw_hashes": [
+          "4bf4d9e2bac1dd94ad8ea0a8c465bd3abef560d82d5c5f48d60a116e044ef628",
+          "4bf62e59b8c2edcc66c79c6e4878e511bf4ec6d61036ed3bcc58d0f53762e555"
+        ]
+      }
+    },
+    {
+      "attempt": 1,
+      "images": [
+        "00_title_seek_01_vram0_04000000.png",
+        "00_title_seek_01_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 80.03133333333334,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 75.19333333333333,
+          "best_close_ratio": 0.012
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 75.27333333333333,
+          "best_close_ratio": 0.012
+        },
+        "raw_hashes": [
+          "286f7326cea8635aa8e22189d3933f536e3a0ae19941c48edf233b15756b0309",
+          "794a6bd8c78a2c3364bf31cc1a24ef1ab0bd85eabaa52c29e939f78488d0ed4a"
+        ]
+      }
+    },
+    {
+      "attempt": 2,
+      "images": [
+        "00_title_seek_02_vram0_04000000.png",
+        "00_title_seek_02_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 99.636,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 57.56666666666667,
+          "best_close_ratio": 0.002
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 58.19466666666667,
+          "best_close_ratio": 0.002
+        },
+        "raw_hashes": [
+          "c682d5f0331c443cd6dae53d70ca3f62a68a531fe64feac3a30f59ac6f641861",
+          "3eb5c45bdcd5705189f5cd3b05dccb92af3538eb0c76a5e39ceb6f13d7335751"
+        ]
+      }
+    },
+    {
+      "attempt": 3,
+      "images": [
+        "00_title_seek_03_vram0_04000000.png",
+        "00_title_seek_03_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 72.718,
+          "best_close_ratio": 0.002
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 63.656666666666666,
+          "best_close_ratio": 0.002
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 63.57,
+          "best_close_ratio": 0.002
+        },
+        "raw_hashes": [
+          "c4eb31524f49d1ccf24d8177f8ac88f1c25f433eda93794b65ea908430a04553",
+          "648d026693e6a214d976c46ac699a856c667db5e348d0187670d87316bb2d8a0"
+        ]
+      }
+    },
+    {
+      "attempt": 4,
+      "images": [
+        "00_title_seek_04_vram0_04000000.png",
+        "00_title_seek_04_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 74.422,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 67.66733333333333,
+          "best_close_ratio": 0.0
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 67.97,
+          "best_close_ratio": 0.0
+        },
+        "raw_hashes": [
+          "fe53bff6debab2268b93666f15b6af0e46178a569152434821dccf1091ae365d",
+          "b1fa9a36a7c363e455061bbb676f3440524ce4de9320450387c4d383bbd4ff65"
+        ]
+      }
+    },
+    {
+      "attempt": 5,
+      "images": [
+        "00_title_seek_05_vram0_04000000.png",
+        "00_title_seek_05_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 103.72133333333333,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 56.86866666666667,
+          "best_close_ratio": 0.0
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 57.49666666666667,
+          "best_close_ratio": 0.0
+        },
+        "raw_hashes": [
+          "6a1b3bed4669450305ebb36b0a7834541f203add41bea152bf5cccdddf488d58",
+          "e77a8fd92256621324d0c0945976ec3795bfdd1a90f118952bc7c5bce4967157"
+        ]
+      }
+    },
+    {
+      "attempt": 6,
+      "images": [
+        "00_title_seek_06_vram0_04000000.png",
+        "00_title_seek_06_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 48.952666666666666,
+          "best_close_ratio": 0.048
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 34.239333333333335,
+          "best_close_ratio": 0.128
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 34.694,
+          "best_close_ratio": 0.132
+        },
+        "raw_hashes": [
+          "b17d65a49560005f5bf6d03003faf5e97511759e8411a97a095feadb28dac081",
+          "b17d65a49560005f5bf6d03003faf5e97511759e8411a97a095feadb28dac081"
+        ]
+      }
+    },
+    {
+      "attempt": 7,
+      "images": [
+        "00_title_seek_07_vram0_04000000.png",
+        "00_title_seek_07_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 48.952666666666666,
+          "best_close_ratio": 0.048
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 34.239333333333335,
+          "best_close_ratio": 0.128
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 34.694,
+          "best_close_ratio": 0.132
+        },
+        "raw_hashes": [
+          "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094",
+          "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094"
+        ]
+      }
+    },
+    {
+      "attempt": 8,
+      "images": [
+        "00_title_seek_08_vram0_04000000.png",
+        "00_title_seek_08_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": true,
+          "best_mae": 0.0,
+          "best_close_ratio": 1.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 49.49333333333333,
+          "best_close_ratio": 0.03
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 49.78666666666667,
+          "best_close_ratio": 0.03
+        },
+        "raw_hashes": [
+          "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+          "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f"
+        ]
+      }
+    }
+  ],
+  "title_verified_by_known_signature": true,
+  "menu_seek": [
+    {
+      "poll": 0,
+      "images": [
+        "01_menu_wait_00_vram0_04000000.png",
+        "01_menu_wait_00_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 107.64133333333334,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 56.86866666666667,
+          "best_close_ratio": 0.0
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 57.49666666666667,
+          "best_close_ratio": 0.0
+        },
+        "raw_hashes": [
+          "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+          "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618"
+        ]
+      }
+    },
+    {
+      "poll": 1,
+      "images": [
+        "01_menu_wait_01_vram0_04000000.png",
+        "01_menu_wait_01_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 107.64133333333334,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 56.86866666666667,
+          "best_close_ratio": 0.0
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 57.49666666666667,
+          "best_close_ratio": 0.0
+        },
+        "raw_hashes": [
+          "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+          "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618"
+        ]
+      }
+    },
+    {
+      "poll": 2,
+      "images": [
+        "01_menu_wait_02_vram0_04000000.png",
+        "01_menu_wait_02_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 107.64133333333334,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 56.86866666666667,
+          "best_close_ratio": 0.0
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 57.49666666666667,
+          "best_close_ratio": 0.0
+        },
+        "raw_hashes": [
+          "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+          "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618"
+        ]
+      }
+    },
+    {
+      "poll": 3,
+      "images": [
+        "01_menu_wait_03_vram0_04000000.png",
+        "01_menu_wait_03_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 77.714,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 31.865333333333332,
+          "best_close_ratio": 0.014
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 32.30533333333333,
+          "best_close_ratio": 0.014
+        },
+        "raw_hashes": [
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06"
+        ]
+      }
+    },
+    {
+      "poll": 4,
+      "images": [
+        "01_menu_wait_04_vram0_04000000.png",
+        "01_menu_wait_04_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 77.714,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 31.865333333333332,
+          "best_close_ratio": 0.014
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 32.30533333333333,
+          "best_close_ratio": 0.014
+        },
+        "raw_hashes": [
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06"
+        ]
+      }
+    },
+    {
+      "poll": 5,
+      "images": [
+        "01_menu_wait_05_vram0_04000000.png",
+        "01_menu_wait_05_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 77.714,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 31.865333333333332,
+          "best_close_ratio": 0.014
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 32.30533333333333,
+          "best_close_ratio": 0.014
+        },
+        "raw_hashes": [
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06"
+        ]
+      }
+    },
+    {
+      "poll": 6,
+      "images": [
+        "01_menu_wait_06_vram0_04000000.png",
+        "01_menu_wait_06_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 77.714,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 31.865333333333332,
+          "best_close_ratio": 0.014
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 32.30533333333333,
+          "best_close_ratio": 0.014
+        },
+        "raw_hashes": [
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06"
+        ]
+      }
+    },
+    {
+      "poll": 7,
+      "images": [
+        "01_menu_wait_07_vram0_04000000.png",
+        "01_menu_wait_07_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 77.714,
+          "best_close_ratio": 0.0
+        },
+        "menu_story": {
+          "matched": false,
+          "best_mae": 31.865333333333332,
+          "best_close_ratio": 0.014
+        },
+        "menu_skirmish": {
+          "matched": false,
+          "best_mae": 32.30533333333333,
+          "best_close_ratio": 0.014
+        },
+        "raw_hashes": [
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+          "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06"
+        ]
+      }
+    },
+    {
+      "poll": 8,
+      "images": [
+        "01_menu_wait_08_vram0_04000000.png",
+        "01_menu_wait_08_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.54933333333334,
+          "best_close_ratio": 0.03
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 0.0,
+          "best_close_ratio": 1.0
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 1.6453333333333333,
+          "best_close_ratio": 0.962
+        },
+        "raw_hashes": [
+          "47136d342d2e30bca2cbada4a88d7ffca27571248b8486e809ad3f6961c426fd",
+          "47136d342d2e30bca2cbada4a88d7ffca27571248b8486e809ad3f6961c426fd"
+        ]
+      }
+    }
+  ],
+  "main_menu_story_selected_verified": true,
+  "canaries_at_main_menu": {
+    "loaded_ids": [
+      "BIA-02116"
+    ],
+    "loaded_count": 1,
+    "hits_file": "menu_canary_ram_hits.json"
+  },
+  "story_timeline": [
+    {
+      "seconds_after_confirm_target": 0,
+      "images": [
+        "02_story_00_t00s_vram0_04000000.png",
+        "02_story_00_t00s_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.10133333333333,
+          "best_close_ratio": 0.032
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 3.102,
+          "best_close_ratio": 0.936
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 3.6313333333333335,
+          "best_close_ratio": 0.93
+        },
+        "raw_hashes": [
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae"
+        ]
+      }
+    },
+    {
+      "seconds_after_confirm_target": 2,
+      "images": [
+        "02_story_01_t02s_vram0_04000000.png",
+        "02_story_01_t02s_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.10133333333333,
+          "best_close_ratio": 0.032
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 3.102,
+          "best_close_ratio": 0.936
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 3.6313333333333335,
+          "best_close_ratio": 0.93
+        },
+        "raw_hashes": [
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae"
+        ]
+      }
+    },
+    {
+      "seconds_after_confirm_target": 4,
+      "images": [
+        "02_story_02_t04s_vram0_04000000.png",
+        "02_story_02_t04s_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.10133333333333,
+          "best_close_ratio": 0.032
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 3.102,
+          "best_close_ratio": 0.936
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 3.6313333333333335,
+          "best_close_ratio": 0.93
+        },
+        "raw_hashes": [
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae"
+        ]
+      }
+    },
+    {
+      "seconds_after_confirm_target": 6,
+      "images": [
+        "02_story_03_t06s_vram0_04000000.png",
+        "02_story_03_t06s_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.10133333333333,
+          "best_close_ratio": 0.032
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 3.102,
+          "best_close_ratio": 0.936
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 3.6313333333333335,
+          "best_close_ratio": 0.93
+        },
+        "raw_hashes": [
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae"
+        ]
+      }
+    },
+    {
+      "seconds_after_confirm_target": 9,
+      "images": [
+        "02_story_04_t09s_vram0_04000000.png",
+        "02_story_04_t09s_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.10133333333333,
+          "best_close_ratio": 0.032
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 3.102,
+          "best_close_ratio": 0.936
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 3.6313333333333335,
+          "best_close_ratio": 0.93
+        },
+        "raw_hashes": [
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae"
+        ]
+      }
+    },
+    {
+      "seconds_after_confirm_target": 12,
+      "images": [
+        "02_story_05_t12s_vram0_04000000.png",
+        "02_story_05_t12s_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.10133333333333,
+          "best_close_ratio": 0.032
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 3.102,
+          "best_close_ratio": 0.936
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 3.6313333333333335,
+          "best_close_ratio": 0.93
+        },
+        "raw_hashes": [
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae"
+        ]
+      }
+    },
+    {
+      "seconds_after_confirm_target": 16,
+      "images": [
+        "02_story_06_t16s_vram0_04000000.png",
+        "02_story_06_t16s_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.10133333333333,
+          "best_close_ratio": 0.032
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 3.102,
+          "best_close_ratio": 0.936
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 3.6313333333333335,
+          "best_close_ratio": 0.93
+        },
+        "raw_hashes": [
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae"
+        ]
+      }
+    },
+    {
+      "seconds_after_confirm_target": 22,
+      "images": [
+        "02_story_07_t22s_vram0_04000000.png",
+        "02_story_07_t22s_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.10133333333333,
+          "best_close_ratio": 0.032
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 3.102,
+          "best_close_ratio": 0.936
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 3.6313333333333335,
+          "best_close_ratio": 0.93
+        },
+        "raw_hashes": [
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae"
+        ]
+      }
+    },
+    {
+      "seconds_after_confirm_target": 30,
+      "images": [
+        "02_story_08_t30s_vram0_04000000.png",
+        "02_story_08_t30s_vram1_04044000.png"
+      ],
+      "signature": {
+        "title": {
+          "matched": false,
+          "best_mae": 69.10133333333333,
+          "best_close_ratio": 0.032
+        },
+        "menu_story": {
+          "matched": true,
+          "best_mae": 3.102,
+          "best_close_ratio": 0.936
+        },
+        "menu_skirmish": {
+          "matched": true,
+          "best_mae": 3.6313333333333335,
+          "best_close_ratio": 0.93
+        },
+        "raw_hashes": [
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+          "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae"
+        ]
+      }
+    }
+  ],
+  "last_checkpoint": "story_t30s"
+}

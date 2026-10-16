@@ -1,0 +1,248 @@
+{
+  "stage": "40Z",
+  "purpose": "Reproduce the Stage40Y second-pause navigation failure, compare multiple official PPSSPP input injection paths, and if any path works, automatically navigate to Chapter End and prove return to the main menu.",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "handoff_constraints": {
+    "do_not_patch_iso": true,
+    "software_renderer": true,
+    "physical_ram_range": "0x08000000..0x0A000000",
+    "only_terminate_owned_ppsspp_pid": true
+  },
+  "ppsspp_pid": 22328,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "cpu_ready": {
+    "ready": true,
+    "attempts": 6,
+    "status": {
+      "event": "cpu.status",
+      "ticket": 1011,
+      "stepping": false,
+      "paused": false,
+      "pc": 134217728,
+      "ticks": 3640871
+    }
+  },
+  "menu_marker_count_initial": 0,
+  "campaign_entry": {
+    "ok": false,
+    "reason": "MENUINT0.RAW did not open",
+    "navigation": [],
+    "fallback_new_game": {
+      "ok": false,
+      "navigation": [
+        {
+          "action": "cancel_continue_path",
+          "events": [
+            {
+              "phase": "release_all_before",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1013
+              }
+            },
+            {
+              "phase": "press",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1014
+              }
+            },
+            {
+              "phase": "release",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1015
+              }
+            }
+          ]
+        },
+        {
+          "action": "story_cross_again",
+          "events": [
+            {
+              "phase": "release_all_before",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1016
+              }
+            },
+            {
+              "phase": "press",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1017
+              }
+            },
+            {
+              "phase": "release",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1018
+              }
+            }
+          ]
+        },
+        {
+          "action": "new_game_down",
+          "events": [
+            {
+              "phase": "release_all_before",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1019
+              }
+            },
+            {
+              "phase": "press",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1020
+              }
+            },
+            {
+              "phase": "release",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1021
+              }
+            }
+          ]
+        },
+        {
+          "action": "new_game_cross",
+          "events": [
+            {
+              "phase": "release_all_before",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1022
+              }
+            },
+            {
+              "phase": "press",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1023
+              }
+            },
+            {
+              "phase": "release",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1024
+              }
+            }
+          ]
+        },
+        {
+          "action": "possible_confirm_cross",
+          "events": [
+            {
+              "phase": "release_all_before",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1025
+              }
+            },
+            {
+              "phase": "press",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1026
+              }
+            },
+            {
+              "phase": "release",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1027
+              }
+            }
+          ]
+        },
+        {
+          "action": "difficulty_down_to_normal",
+          "events": [
+            {
+              "phase": "release_all_before",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1028
+              }
+            },
+            {
+              "phase": "press",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1029
+              }
+            },
+            {
+              "phase": "release",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1030
+              }
+            }
+          ]
+        },
+        {
+          "action": "difficulty_cross",
+          "events": [
+            {
+              "phase": "release_all_before",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1031
+              }
+            },
+            {
+              "phase": "press",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1032
+              }
+            },
+            {
+              "phase": "release",
+              "ok": true,
+              "response": {
+                "event": "input.buttons.send",
+                "ticket": 1033
+              }
+            }
+          ]
+        }
+      ],
+      "campaign": {
+        "ok": false,
+        "last_renderer_word": "0x14A00007"
+      }
+    }
+  },
+  "exception": "Could not enter Stage40Y campaign via Continue or fallback New Game",
+  "traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\bia_stage40z_tools\\bia_stage40z_pause_input_trace.py\", line 1353, in main\n    raise RuntimeError(\nRuntimeError: Could not enter Stage40Y campaign via Continue or fallback New Game\n",
+  "completed": false,
+  "owned_ppsspp_closed": true
+}

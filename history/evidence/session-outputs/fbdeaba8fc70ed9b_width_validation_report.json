@@ -1,0 +1,65 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE40K_CONTROLS_FONT_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40L_CONTROLS_UTF8_WIDTH_TEST.iso",
+  "helper_size": 256,
+  "helper_va": "0x4c0480",
+  "helper_runtime": "0x8cc4480",
+  "width_call_runtime": "0x8853cc0",
+  "width_call_disk": "0xc130120",
+  "width_call_runtime_word": "0xe331120",
+  "helper_sha1": "e7ee04ed87c4982d4dc733de8eea788a1fee130d",
+  "source_boot_sha1": "34942fd8a7ad95655d370e662043728832f5696f",
+  "new_boot_sha1": "b83356d10ccf9ee37dd2acb572e04e1b31a208e4",
+  "disabled_old_cjis_relocs": [
+    {
+      "record": "0x734c0c",
+      "offset": "0x4c0530",
+      "type": 5
+    },
+    {
+      "record": "0x734c14",
+      "offset": "0x4c0538",
+      "type": 6
+    }
+  ],
+  "reused_none_relocation_record": "0x734bec",
+  "resource_files_and_eboot_unchanged": true,
+  "iso_readback_ok": true,
+  "runtime_verified": false,
+  "runtime_helper_sha1": "b208db1a2f72848b3cae7ef0e213e30cd3c2a697",
+  "runtime_helper_matches": false,
+  "runtime_width_call_word": "0xe331120",
+  "runtime_width_call_matches": true,
+  "width_lookup_trace": {
+    "count": 6907,
+    "decoded_hangul_calls": 3514,
+    "byte_calls_80_ff": 3393,
+    "examples": [
+      "0xc120",
+      "0xd0dd",
+      "0xb4a4",
+      "0xb85c",
+      "0xc720",
+      "0xd615",
+      "0xc870",
+      "0xc900",
+      "0xbc18",
+      "0xc804",
+      "0xbcf4",
+      "0xcf1c",
+      "0xae30",
+      "0xc544",
+      "0xb2c8",
+      "0xc694",
+      "0xd45c",
+      "0xd655",
+      "0xc778",
+      "0xbcf8",
+      "0xac12",
+      "0xed",
+      "0x8f",
+      "0x89",
+      "0x96"
+    ]
+  }
+}

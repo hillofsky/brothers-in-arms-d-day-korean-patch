@@ -1,0 +1,25 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE43A_FIRST_CAMPAIGN_KO_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE43D_CAMPAIGN_UFONT_EXPANSION_TEST.iso",
+  "original_hud_glyphs_preserved": 150,
+  "added_hangul_glyphs": 729,
+  "total_hud_glyphs": 879,
+  "texture_count": 2,
+  "textures": [
+    "0x09a8cb30",
+    "0x09a8d6d0"
+  ],
+  "hash_lookup_verified": 879,
+  "mdi_readback_verified": true,
+  "iso_readback_verified": true,
+  "utf8_hud_decoder_fixed": false,
+  "runtime_verified": false,
+  "full_campaign_complete": false,
+  "record_layout": "4 signed 32-bit metrics, 1-byte TextureIndex, 3 padding bytes",
+  "locations": {
+    "textures": "0x9e82020",
+    "buckets": "0x9e83020",
+    "remap": "0x9e84020",
+    "glyphs": "0x9e8b020"
+  }
+}

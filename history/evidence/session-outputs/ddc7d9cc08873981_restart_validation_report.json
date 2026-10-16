@@ -1,0 +1,27 @@
+{
+  "iso": "PROJECT_ROOT/BIA_STAGE43O_RESTART_LIFETIME_TEST.iso",
+  "scope": "first mission chapter restart",
+  "renderer": "software",
+  "initial_mission_entry_verified": true,
+  "restart_menu_visually_verified": true,
+  "restart_confirmation_visually_verified": true,
+  "no_skip_input_after_restart_confirmation": true,
+  "no_runtime_memory_or_register_modification": true,
+  "heap_reset_helper_executed": true,
+  "stale_engine_reference_cleared": true,
+  "fresh_engine": "0x8fea540",
+  "fresh_viewport": "0x9a8ce40",
+  "fresh_viewport_vtable": "0x8d72ea8",
+  "valid_post_movie_callback": "0x8b9b4d8",
+  "returned_to_gameplay": true,
+  "korean_objective_and_hint_visible": true,
+  "analog_movement_visually_verified": true,
+  "invalid_callback_breakpoint_not_hit": true,
+  "complete_campaign_verified": false,
+  "screenshots": [
+    "restart_o2_row_verified_0x4000000.png",
+    "restart_o2_confirm_verified_0x4000000.png",
+    "restart_returned_to_gameplay_0x4000000.png",
+    "restart_walk_test_0x4000000.png"
+  ]
+}

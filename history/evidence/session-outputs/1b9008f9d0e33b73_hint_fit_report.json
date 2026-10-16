@@ -1,0 +1,43 @@
+{
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE43I_CAMPAIGN_HINT_FIT_TEST.iso",
+  "id": "BIA-01454",
+  "before": "나침반의 화살표 %icon_compass_arrow%는 다음 목표가 있는 방향을 가리킨다.",
+  "after": "나침반 %icon_compass_arrow%는 다음 목표 방향을 가리킨다.",
+  "updated_references": [
+    {
+      "stream": 26,
+      "offset": "0x71ebc",
+      "pointer": "0x9e7b950"
+    },
+    {
+      "stream": 26,
+      "offset": "0x7207c",
+      "pointer": "0x9e7b950"
+    },
+    {
+      "stream": 26,
+      "offset": "0x72c88",
+      "pointer": "0x9e7b950"
+    },
+    {
+      "stream": 26,
+      "offset": "0x73b54",
+      "pointer": "0x9e7b950"
+    },
+    {
+      "stream": 26,
+      "offset": "0x73d14",
+      "pointer": "0x9e7b950"
+    }
+  ],
+  "control_tokens_preserved": true,
+  "iso_readback_verified": true,
+  "runtime_verified": true,
+  "before_glyph_width": 406,
+  "before_icon_width_estimate": 17,
+  "after_glyph_width": 279,
+  "after_icon_width_estimate": 17,
+  "clipping_fixed": true,
+  "evidence": "outputs/stage43i_validation/hint_fit_screen_0x4000000.png",
+  "scope": "first mission compass direction hint"
+}

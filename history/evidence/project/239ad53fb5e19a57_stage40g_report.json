@@ -1,0 +1,1712 @@
+{
+  "stage": "40G",
+  "purpose": "Resolve Stage40F's false-negative possibility by arming renderer breakpoints BEFORE the initial main-menu render, then validate the three exact top-level metadata records and all 656 resident payloads.",
+  "stage40f_result": {
+    "build_iso_readback": true,
+    "metadata_actions": 1675,
+    "unique_units": 690,
+    "unique_payloads": 656,
+    "payload_runtime": "656/656 exact",
+    "metadata_runtime": "1589/1675 exact at the sampled menu state",
+    "font": "847 / 0x098F5020",
+    "old_probe_result": "Story hit; Skirmish/Options/Profile missed because Stage40F performed 2331 RAM reads before arming those breakpoints."
+  },
+  "source": {
+    "reused": true,
+    "mdi_sha1": "297216ed0f00948f64dd644952b90a71a58dd638",
+    "path": "PROJECT_ROOT\\BIA_STAGE40F_ON_MEMU_RESIDENT_MASS_TEST.iso"
+  },
+  "runtime": {
+    "pid": 23176,
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "cpu_ready": {
+      "ready": true,
+      "attempts": 1,
+      "status": {
+        "event": "cpu.status",
+        "ticket": 1001,
+        "stepping": false,
+        "paused": false,
+        "pc": 134217728,
+        "ticks": 22256340
+      },
+      "probe": "e410330e"
+    },
+    "renderer_jal": {
+      "actual": "e410330e",
+      "expected": "e410330e"
+    },
+    "menu_resource": {
+      "opened": true,
+      "startup_start_presses": 9
+    },
+    "top_level_metadata": [
+      {
+        "label": "Skirmish",
+        "metadata_addr": "0x095EC790",
+        "raw_hex": "982990090d0000000d000000",
+        "ptr": "0x09902998",
+        "num": 13,
+        "max": 13,
+        "value": "스커미시",
+        "expected_ptr": "0x09902998",
+        "expected_num": 13,
+        "ok": true
+      },
+      {
+        "label": "Options",
+        "metadata_addr": "0x095EC7AC",
+        "raw_hex": "f02890090700000007000000",
+        "ptr": "0x099028F0",
+        "num": 7,
+        "max": 7,
+        "value": "옵션",
+        "expected_ptr": "0x099028F0",
+        "expected_num": 7,
+        "ok": true
+      },
+      {
+        "label": "Profile",
+        "metadata_addr": "0x095EC7C8",
+        "raw_hex": "a02890090a0000000a000000",
+        "ptr": "0x099028A0",
+        "num": 10,
+        "max": 10,
+        "value": "프로필",
+        "expected_ptr": "0x099028A0",
+        "expected_num": 10,
+        "ok": true
+      }
+    ],
+    "first_frame_renderer_probes": [
+      {
+        "label": "Skirmish",
+        "char": "커",
+        "codepoint": "U+CEE4",
+        "hit": true,
+        "pc": "0x08C7F2FC",
+        "ra": "0x08972368",
+        "a1": "0x0000CEE4",
+        "s0": "0x08E4E926",
+        "s4": 255,
+        "s5": 5,
+        "source_sample_hex": "a400eb00af00b800ec008b009c0000007ffe530182003808000040f8e408e8e8e4085501840000002a971200af017f7f"
+      },
+      {
+        "label": "Options",
+        "char": "옵",
+        "codepoint": "U+C635",
+        "hit": true,
+        "pc": "0x08C7F2FC",
+        "ra": "0x08972368",
+        "a1": "0x0000C635",
+        "s0": "0x08E41684",
+        "s4": 255,
+        "s5": 2,
+        "source_sample_hex": "b500ec0085009800000000007016e4089c3f7209b93f7209ba3f72093100000012ac000000000000000000004016e408"
+      },
+      {
+        "label": "Profile",
+        "char": "프",
+        "codepoint": "U+D504",
+        "hit": true,
+        "pc": "0x08C7F2FC",
+        "ra": "0x08972368",
+        "a1": "0x0000D504",
+        "s0": "0x08E4E868",
+        "s4": 255,
+        "s5": 2,
+        "source_sample_hex": "8400eb00a1009c00ed0095008400000028000000ed0094008400eb00a1009c00ed00950084000000230063007f7f7ffe"
+      },
+      {
+        "label": "Story",
+        "char": "토",
+        "codepoint": "U+D1A0",
+        "hit": true,
+        "pc": "0x08C7F2FC",
+        "ra": "0x08972368",
+        "a1": "0x0000D1A0",
+        "s0": "0x08E4E86E",
+        "s4": 255,
+        "s5": 5,
+        "source_sample_hex": "a000eb00a600ac00000028000000ed0094008400eb00a1009c00ed00950084000000230063007f7f7ffe31017b000000"
+      }
+    ],
+    "payload_runtime": {
+      "checked": 656,
+      "total": 656,
+      "failure_count": 0,
+      "failures": [],
+      "ok": true
+    },
+    "metadata_census": {
+      "total": 1675,
+      "exact": 1589,
+      "mismatch_count": 86,
+      "mismatch_by_stream": {
+        "19": 86
+      },
+      "mismatches": [
+        {
+          "unit_id": "BIA-00005",
+          "english": "press",
+          "korean": "누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35D20",
+          "metadata_runtime": "0x0974AD40",
+          "expected": [
+            "0x09904F20",
+            10,
+            10
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00012",
+          "english": "press and hold",
+          "korean": "길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35D3C",
+          "metadata_runtime": "0x0974AD5C",
+          "expected": [
+            "0x09904F2C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08BC76A4",
+            146569052,
+            146569084
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35D58",
+          "metadata_runtime": "0x0974AD78",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x08C91E94",
+            147398488,
+            147398488
+          ]
+        },
+        {
+          "unit_id": "BIA-00005",
+          "english": "press",
+          "korean": "누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35D74",
+          "metadata_runtime": "0x0974AD94",
+          "expected": [
+            "0x09904F20",
+            10,
+            10
+          ],
+          "actual": [
+            "0x08BC7978",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00012",
+          "english": "press and hold",
+          "korean": "길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35D90",
+          "metadata_runtime": "0x0974ADB0",
+          "expected": [
+            "0x09904F2C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35DAC",
+          "metadata_runtime": "0x0974ADCC",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x08BC7708",
+            146568868,
+            146569052
+          ]
+        },
+        {
+          "unit_id": "BIA-00005",
+          "english": "press",
+          "korean": "누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35DC8",
+          "metadata_runtime": "0x0974ADE8",
+          "expected": [
+            "0x09904F20",
+            10,
+            10
+          ],
+          "actual": [
+            "0x08C91E6C",
+            147398292,
+            147398488
+          ]
+        },
+        {
+          "unit_id": "BIA-00012",
+          "english": "press and hold",
+          "korean": "길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35DE4",
+          "metadata_runtime": "0x0974AE04",
+          "expected": [
+            "0x09904F2C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08BC7854",
+            146569592,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35E00",
+          "metadata_runtime": "0x0974AE20",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00005",
+          "english": "press",
+          "korean": "누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35928",
+          "metadata_runtime": "0x0974A948",
+          "expected": [
+            "0x09904F20",
+            10,
+            10
+          ],
+          "actual": [
+            "0x08C91DF0",
+            147398184,
+            147398192
+          ]
+        },
+        {
+          "unit_id": "BIA-00005",
+          "english": "press",
+          "korean": "누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35E1C",
+          "metadata_runtime": "0x0974AE3C",
+          "expected": [
+            "0x09904F20",
+            10,
+            10
+          ],
+          "actual": [
+            "0x08BC76AC",
+            146568968,
+            146568868
+          ]
+        },
+        {
+          "unit_id": "BIA-00012",
+          "english": "press and hold",
+          "korean": "길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35944",
+          "metadata_runtime": "0x0974A964",
+          "expected": [
+            "0x09904F2C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08C91E94",
+            147398488,
+            147398488
+          ]
+        },
+        {
+          "unit_id": "BIA-00012",
+          "english": "press and hold",
+          "korean": "길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35E38",
+          "metadata_runtime": "0x0974AE58",
+          "expected": [
+            "0x09904F2C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08C91E48",
+            147398252,
+            147398292
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35960",
+          "metadata_runtime": "0x0974A980",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35E54",
+          "metadata_runtime": "0x0974AE74",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x08E430E0",
+            146569300,
+            146569592
+          ]
+        },
+        {
+          "unit_id": "BIA-00005",
+          "english": "press",
+          "korean": "누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x3597C",
+          "metadata_runtime": "0x0974A99C",
+          "expected": [
+            "0x09904F20",
+            10,
+            10
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00005",
+          "english": "press",
+          "korean": "누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35E70",
+          "metadata_runtime": "0x0974AE90",
+          "expected": [
+            "0x09904F20",
+            10,
+            10
+          ],
+          "actual": [
+            "0xFFFFFFFE",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00012",
+          "english": "press and hold",
+          "korean": "길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35998",
+          "metadata_runtime": "0x0974A9B8",
+          "expected": [
+            "0x09904F2C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08BC7708",
+            146568868,
+            146569052
+          ]
+        },
+        {
+          "unit_id": "BIA-00012",
+          "english": "press and hold",
+          "korean": "길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35E8C",
+          "metadata_runtime": "0x0974AEAC",
+          "expected": [
+            "0x09904F2C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x00000000",
+            146568876,
+            146568968
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x359B4",
+          "metadata_runtime": "0x0974A9D4",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x08C91E6C",
+            147398292,
+            147398488
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35EA8",
+          "metadata_runtime": "0x0974AEC8",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x08BC7970",
+            147398216,
+            147398252
+          ]
+        },
+        {
+          "unit_id": "BIA-00005",
+          "english": "press",
+          "korean": "누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x359D0",
+          "metadata_runtime": "0x0974A9F0",
+          "expected": [
+            "0x09904F20",
+            10,
+            10
+          ],
+          "actual": [
+            "0x08BC7854",
+            146569592,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00005",
+          "english": "press",
+          "korean": "누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35EC4",
+          "metadata_runtime": "0x0974AEE4",
+          "expected": [
+            "0x09904F20",
+            10,
+            10
+          ],
+          "actual": [
+            "0x00000001",
+            149172416,
+            146569300
+          ]
+        },
+        {
+          "unit_id": "BIA-00012",
+          "english": "press and hold",
+          "korean": "길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x359EC",
+          "metadata_runtime": "0x0974AA0C",
+          "expected": [
+            "0x09904F2C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00012",
+          "english": "press and hold",
+          "korean": "길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35EE0",
+          "metadata_runtime": "0x0974AF00",
+          "expected": [
+            "0x09904F2C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x00000000",
+            4294967294,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35A08",
+          "metadata_runtime": "0x0974AA28",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x08BC76AC",
+            146568968,
+            146568868
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35EFC",
+          "metadata_runtime": "0x0974AF1C",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            146568876
+          ]
+        },
+        {
+          "unit_id": "BIA-00235",
+          "english": "pull",
+          "korean": "당기기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35A24",
+          "metadata_runtime": "0x0974AA44",
+          "expected": [
+            "0x09904F50",
+            10,
+            10
+          ],
+          "actual": [
+            "0x08C91E48",
+            147398252,
+            147398292
+          ]
+        },
+        {
+          "unit_id": "BIA-00235",
+          "english": "pull",
+          "korean": "당기기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35F18",
+          "metadata_runtime": "0x0974AF38",
+          "expected": [
+            "0x09904F50",
+            10,
+            10
+          ],
+          "actual": [
+            "0x08C91E38",
+            146569584,
+            147398216
+          ]
+        },
+        {
+          "unit_id": "BIA-00236",
+          "english": "pull and hold",
+          "korean": "당긴 채 유지",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35A40",
+          "metadata_runtime": "0x0974AA60",
+          "expected": [
+            "0x09904F5C",
+            18,
+            18
+          ],
+          "actual": [
+            "0x08E430E0",
+            146569300,
+            146569592
+          ]
+        },
+        {
+          "unit_id": "BIA-00236",
+          "english": "pull and hold",
+          "korean": "당긴 채 유지",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35F34",
+          "metadata_runtime": "0x0974AF54",
+          "expected": [
+            "0x09904F5C",
+            18,
+            18
+          ],
+          "actual": [
+            "0x00000000",
+            1,
+            149172512
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35A5C",
+          "metadata_runtime": "0x0974AA7C",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0xFFFFFFFE",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35F50",
+          "metadata_runtime": "0x0974AF70",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            4294967294
+          ]
+        },
+        {
+          "unit_id": "BIA-00235",
+          "english": "pull",
+          "korean": "당기기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35A78",
+          "metadata_runtime": "0x0974AA98",
+          "expected": [
+            "0x09904F50",
+            10,
+            10
+          ],
+          "actual": [
+            "0x00000000",
+            146568876,
+            146568968
+          ]
+        },
+        {
+          "unit_id": "BIA-00235",
+          "english": "pull",
+          "korean": "당기기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35F6C",
+          "metadata_runtime": "0x0974AF8C",
+          "expected": [
+            "0x09904F50",
+            10,
+            10
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00236",
+          "english": "pull and hold",
+          "korean": "당긴 채 유지",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35A94",
+          "metadata_runtime": "0x0974AAB4",
+          "expected": [
+            "0x09904F5C",
+            18,
+            18
+          ],
+          "actual": [
+            "0x08BC7970",
+            147398216,
+            147398252
+          ]
+        },
+        {
+          "unit_id": "BIA-00236",
+          "english": "pull and hold",
+          "korean": "당긴 채 유지",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35F88",
+          "metadata_runtime": "0x0974AFA8",
+          "expected": [
+            "0x09904F5C",
+            18,
+            18
+          ],
+          "actual": [
+            "0x08BC777C",
+            147398200,
+            146569584
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35AB0",
+          "metadata_runtime": "0x0974AAD0",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x00000001",
+            149172448,
+            146569300
+          ]
+        },
+        {
+          "unit_id": "BIA-00006",
+          "english": "release",
+          "korean": "떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35FA4",
+          "metadata_runtime": "0x0974AFC4",
+          "expected": [
+            "0x09904F40",
+            7,
+            7
+          ],
+          "actual": [
+            "0x08C91F58",
+            0,
+            1
+          ]
+        },
+        {
+          "unit_id": "BIA-00795",
+          "english": "press up",
+          "korean": "위 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35ACC",
+          "metadata_runtime": "0x0974AAEC",
+          "expected": [
+            "0x09904F70",
+            14,
+            14
+          ],
+          "actual": [
+            "0x00000000",
+            4294967294,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00795",
+          "english": "press up",
+          "korean": "위 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35FC0",
+          "metadata_runtime": "0x0974AFE0",
+          "expected": [
+            "0x09904F70",
+            14,
+            14
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00786",
+          "english": "press and hold up",
+          "korean": "위 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35AE8",
+          "metadata_runtime": "0x0974AB08",
+          "expected": [
+            "0x09904F80",
+            21,
+            21
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            146568876
+          ]
+        },
+        {
+          "unit_id": "BIA-00786",
+          "english": "press and hold up",
+          "korean": "위 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35FDC",
+          "metadata_runtime": "0x0974AFFC",
+          "expected": [
+            "0x09904F80",
+            21,
+            21
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00832",
+          "english": "release up",
+          "korean": "위 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35B04",
+          "metadata_runtime": "0x0974AB24",
+          "expected": [
+            "0x09904F98",
+            11,
+            11
+          ],
+          "actual": [
+            "0x08C91E38",
+            146569584,
+            147398216
+          ]
+        },
+        {
+          "unit_id": "BIA-00832",
+          "english": "release up",
+          "korean": "위 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35FF8",
+          "metadata_runtime": "0x0974B018",
+          "expected": [
+            "0x09904F98",
+            11,
+            11
+          ],
+          "actual": [
+            "0x08BC775C",
+            146569084,
+            147398200
+          ]
+        },
+        {
+          "unit_id": "BIA-00789",
+          "english": "press down",
+          "korean": "아래 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35B20",
+          "metadata_runtime": "0x0974AB40",
+          "expected": [
+            "0x09904FA4",
+            17,
+            17
+          ],
+          "actual": [
+            "0x00000000",
+            1,
+            149172448
+          ]
+        },
+        {
+          "unit_id": "BIA-00789",
+          "english": "press down",
+          "korean": "아래 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36014",
+          "metadata_runtime": "0x0974B034",
+          "expected": [
+            "0x09904FA4",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08C91F58",
+            147398488,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00780",
+          "english": "press and hold down",
+          "korean": "아래 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35B3C",
+          "metadata_runtime": "0x0974AB5C",
+          "expected": [
+            "0x09904FB8",
+            24,
+            24
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            4294967294
+          ]
+        },
+        {
+          "unit_id": "BIA-00780",
+          "english": "press and hold down",
+          "korean": "아래 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36030",
+          "metadata_runtime": "0x0974B050",
+          "expected": [
+            "0x09904FB8",
+            24,
+            24
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00826",
+          "english": "release down",
+          "korean": "아래 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35B58",
+          "metadata_runtime": "0x0974AB78",
+          "expected": [
+            "0x09904FD0",
+            14,
+            14
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00826",
+          "english": "release down",
+          "korean": "아래 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x3604C",
+          "metadata_runtime": "0x0974B06C",
+          "expected": [
+            "0x09904FD0",
+            14,
+            14
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00792",
+          "english": "press left",
+          "korean": "왼쪽 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35B74",
+          "metadata_runtime": "0x0974AB94",
+          "expected": [
+            "0x09904FE0",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08BC777C",
+            147398200,
+            146569584
+          ]
+        },
+        {
+          "unit_id": "BIA-00792",
+          "english": "press left",
+          "korean": "왼쪽 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36068",
+          "metadata_runtime": "0x0974B088",
+          "expected": [
+            "0x09904FE0",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08BC76A4",
+            146569052,
+            146569084
+          ]
+        },
+        {
+          "unit_id": "BIA-00781",
+          "english": "press and hold left",
+          "korean": "왼쪽 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35B90",
+          "metadata_runtime": "0x0974ABB0",
+          "expected": [
+            "0x09904FF4",
+            24,
+            24
+          ],
+          "actual": [
+            "0x08C91F58",
+            0,
+            1
+          ]
+        },
+        {
+          "unit_id": "BIA-00781",
+          "english": "press and hold left",
+          "korean": "왼쪽 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36084",
+          "metadata_runtime": "0x0974B0A4",
+          "expected": [
+            "0x09904FF4",
+            24,
+            24
+          ],
+          "actual": [
+            "0x08C91E94",
+            147398488,
+            147398488
+          ]
+        },
+        {
+          "unit_id": "BIA-00827",
+          "english": "release left",
+          "korean": "왼쪽 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35BAC",
+          "metadata_runtime": "0x0974ABCC",
+          "expected": [
+            "0x0990500C",
+            14,
+            14
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00827",
+          "english": "release left",
+          "korean": "왼쪽 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x360A0",
+          "metadata_runtime": "0x0974B0C0",
+          "expected": [
+            "0x0990500C",
+            14,
+            14
+          ],
+          "actual": [
+            "0x08BC7978",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00793",
+          "english": "press right",
+          "korean": "오른쪽 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35BC8",
+          "metadata_runtime": "0x0974ABE8",
+          "expected": [
+            "0x0990501C",
+            20,
+            20
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00793",
+          "english": "press right",
+          "korean": "오른쪽 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x360BC",
+          "metadata_runtime": "0x0974B0DC",
+          "expected": [
+            "0x0990501C",
+            20,
+            20
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00783",
+          "english": "press and hold right",
+          "korean": "오른쪽 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35BE4",
+          "metadata_runtime": "0x0974AC04",
+          "expected": [
+            "0x09905030",
+            27,
+            27
+          ],
+          "actual": [
+            "0x08BC775C",
+            146569084,
+            147398200
+          ]
+        },
+        {
+          "unit_id": "BIA-00783",
+          "english": "press and hold right",
+          "korean": "오른쪽 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x360D8",
+          "metadata_runtime": "0x0974B0F8",
+          "expected": [
+            "0x09905030",
+            27,
+            27
+          ],
+          "actual": [
+            "0x08BC7708",
+            146568868,
+            146569052
+          ]
+        },
+        {
+          "unit_id": "BIA-00829",
+          "english": "release right",
+          "korean": "오른쪽 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35C00",
+          "metadata_runtime": "0x0974AC20",
+          "expected": [
+            "0x0990504C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08C91F58",
+            147398488,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00829",
+          "english": "release right",
+          "korean": "오른쪽 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x360F4",
+          "metadata_runtime": "0x0974B114",
+          "expected": [
+            "0x0990504C",
+            17,
+            17
+          ],
+          "actual": [
+            "0x08C91E6C",
+            147398292,
+            147398488
+          ]
+        },
+        {
+          "unit_id": "BIA-00794",
+          "english": "press START",
+          "korean": "START 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35C1C",
+          "metadata_runtime": "0x0974AC3C",
+          "expected": [
+            "0x09905060",
+            16,
+            16
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00794",
+          "english": "press START",
+          "korean": "START 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36110",
+          "metadata_runtime": "0x0974B130",
+          "expected": [
+            "0x09905060",
+            16,
+            16
+          ],
+          "actual": [
+            "0x08BC7854",
+            146569592,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00785",
+          "english": "press and hold START",
+          "korean": "START 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35C38",
+          "metadata_runtime": "0x0974AC58",
+          "expected": [
+            "0x09905070",
+            23,
+            23
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00785",
+          "english": "press and hold START",
+          "korean": "START 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x3612C",
+          "metadata_runtime": "0x0974B14C",
+          "expected": [
+            "0x09905070",
+            23,
+            23
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00831",
+          "english": "release START",
+          "korean": "START 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35C54",
+          "metadata_runtime": "0x0974AC74",
+          "expected": [
+            "0x09905088",
+            13,
+            13
+          ],
+          "actual": [
+            "0x08BC76A4",
+            146569052,
+            146569084
+          ]
+        },
+        {
+          "unit_id": "BIA-00831",
+          "english": "release START",
+          "korean": "START 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36148",
+          "metadata_runtime": "0x0974B168",
+          "expected": [
+            "0x09905088",
+            13,
+            13
+          ],
+          "actual": [
+            "0x08BC76AC",
+            146568968,
+            146568868
+          ]
+        },
+        {
+          "unit_id": "BIA-00788",
+          "english": "press BACK",
+          "korean": "BACK 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35C70",
+          "metadata_runtime": "0x0974AC90",
+          "expected": [
+            "0x09905098",
+            15,
+            15
+          ],
+          "actual": [
+            "0x08C91E94",
+            147398488,
+            147398488
+          ]
+        },
+        {
+          "unit_id": "BIA-00788",
+          "english": "press BACK",
+          "korean": "BACK 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36164",
+          "metadata_runtime": "0x0974B184",
+          "expected": [
+            "0x09905098",
+            15,
+            15
+          ],
+          "actual": [
+            "0x08C91E48",
+            147398252,
+            147398292
+          ]
+        },
+        {
+          "unit_id": "BIA-00779",
+          "english": "press and hold BACK",
+          "korean": "BACK 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35C8C",
+          "metadata_runtime": "0x0974ACAC",
+          "expected": [
+            "0x099050A8",
+            22,
+            22
+          ],
+          "actual": [
+            "0x08BC7978",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00779",
+          "english": "press and hold BACK",
+          "korean": "BACK 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36180",
+          "metadata_runtime": "0x0974B1A0",
+          "expected": [
+            "0x099050A8",
+            22,
+            22
+          ],
+          "actual": [
+            "0x08E430E0",
+            146569300,
+            146569592
+          ]
+        },
+        {
+          "unit_id": "BIA-00825",
+          "english": "release BACK",
+          "korean": "BACK 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35CA8",
+          "metadata_runtime": "0x0974ACC8",
+          "expected": [
+            "0x099050C0",
+            12,
+            12
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00825",
+          "english": "release BACK",
+          "korean": "BACK 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x3619C",
+          "metadata_runtime": "0x0974B1BC",
+          "expected": [
+            "0x099050C0",
+            12,
+            12
+          ],
+          "actual": [
+            "0xFFFFFFFE",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00495",
+          "english": "click left thumbstick",
+          "korean": "왼쪽 스틱 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35CC4",
+          "metadata_runtime": "0x0974ACE4",
+          "expected": [
+            "0x099050CC",
+            24,
+            24
+          ],
+          "actual": [
+            "0x08BC7708",
+            146568868,
+            146569052
+          ]
+        },
+        {
+          "unit_id": "BIA-00495",
+          "english": "click left thumbstick",
+          "korean": "왼쪽 스틱 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x361B8",
+          "metadata_runtime": "0x0974B1D8",
+          "expected": [
+            "0x099050CC",
+            24,
+            24
+          ],
+          "actual": [
+            "0x00000000",
+            146568876,
+            146568968
+          ]
+        },
+        {
+          "unit_id": "BIA-00782",
+          "english": "press and hold left thumbstick",
+          "korean": "왼쪽 스틱 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35CE0",
+          "metadata_runtime": "0x0974AD00",
+          "expected": [
+            "0x099050E4",
+            31,
+            31
+          ],
+          "actual": [
+            "0x08C91E6C",
+            147398292,
+            147398488
+          ]
+        },
+        {
+          "unit_id": "BIA-00782",
+          "english": "press and hold left thumbstick",
+          "korean": "왼쪽 스틱 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x361D4",
+          "metadata_runtime": "0x0974B1F4",
+          "expected": [
+            "0x099050E4",
+            31,
+            31
+          ],
+          "actual": [
+            "0x08BC7970",
+            147398216,
+            147398252
+          ]
+        },
+        {
+          "unit_id": "BIA-00828",
+          "english": "release left thumbstick",
+          "korean": "왼쪽 스틱 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x35CFC",
+          "metadata_runtime": "0x0974AD1C",
+          "expected": [
+            "0x09905104",
+            21,
+            21
+          ],
+          "actual": [
+            "0x08BC7854",
+            146569592,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00828",
+          "english": "release left thumbstick",
+          "korean": "왼쪽 스틱 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x361F0",
+          "metadata_runtime": "0x0974B210",
+          "expected": [
+            "0x09905104",
+            21,
+            21
+          ],
+          "actual": [
+            "0x00000001",
+            149172448,
+            146569300
+          ]
+        },
+        {
+          "unit_id": "BIA-00496",
+          "english": "click right thumbstick",
+          "korean": "오른쪽 스틱 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x3620C",
+          "metadata_runtime": "0x0974B22C",
+          "expected": [
+            "0x0990511C",
+            27,
+            27
+          ],
+          "actual": [
+            "0x00000000",
+            4294967294,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00784",
+          "english": "press and hold right thumbstick",
+          "korean": "오른쪽 스틱 길게 누르기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36228",
+          "metadata_runtime": "0x0974B248",
+          "expected": [
+            "0x09905138",
+            34,
+            34
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            64
+          ]
+        },
+        {
+          "unit_id": "BIA-00830",
+          "english": "release right thumbstick",
+          "korean": "오른쪽 스틱 떼기",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36244",
+          "metadata_runtime": "0x0974B264",
+          "expected": [
+            "0x0990515C",
+            24,
+            24
+          ],
+          "actual": [
+            "0x00000034",
+            0,
+            0
+          ]
+        },
+        {
+          "unit_id": "BIA-00029",
+          "english": "move",
+          "korean": "이동",
+          "metadata_stream": 19,
+          "metadata_offset": "0x36260",
+          "metadata_runtime": "0x0974B280",
+          "expected": [
+            "0x09904F48",
+            7,
+            7
+          ],
+          "actual": [
+            "0x00000000",
+            0,
+            84934912
+          ]
+        },
+        {
+          "unit_id": "BIA-00029",
+          "english": "move",
+          "korean": "이동",
+          "metadata_stream": 19,
+          "metadata_offset": "0x362B4",
+          "metadata_runtime": "0x0974B2D4",
+          "expected": [
+            "0x09904F48",
+            7,
+            7
+          ],
+          "actual": [
+            "0x5F524B53",
+            1415533397,
+            1598638913
+          ]
+        }
+      ]
+    },
+    "font_after_menu": {
+      "glyph_count": 847,
+      "glyph_count_ok": true,
+      "glyph_ptr": "0x098F5020",
+      "glyph_ptr_ok": true
+    },
+    "ok": true,
+    "ppsspp_closed": true
+  },
+  "completed": true,
+  "metadata_mismatch_tsv": "PROJECT_ROOT\\analysis\\stage40g_first_frame_renderer_proof\\stage40g_metadata_mismatches.tsv"
+}

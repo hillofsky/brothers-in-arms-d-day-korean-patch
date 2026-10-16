@@ -1,0 +1,36 @@
+{
+  "stage": "13B",
+  "purpose": "fully automated PPSSPP launch + Stage12 Unicode page-table test + screenshots",
+  "ppsspp_exe": "LOCAL_PATH",
+  "iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "append_config": "PROJECT_ROOT\\analysis\\stage13_auto_runner\\stage13_append.ini",
+  "test_codepoint": "U+D55C",
+  "expected_visual": "AAAAA, or 한한한한한 if a replacement A glyph is active",
+  "renderer_function": "0x08C7F2FC",
+  "glyph_lookup_instruction": "0x08C7F35C",
+  "pid": 24544,
+  "psp_base": "0x000002A5FFFE0000",
+  "menu_detected": true,
+  "fonts": [
+    {
+      "font": "TMR18",
+      "page_table": "0x097238B4",
+      "borrowed_page_21": "0x09725020",
+      "patched_page_D5_slot": "0x09723C08",
+      "patched_D55C_entry": "0x097250D8"
+    },
+    {
+      "font": "AB18",
+      "page_table": "0x097252A4",
+      "borrowed_page_21": "0x09726720",
+      "patched_page_D5_slot": "0x097255F8",
+      "patched_D55C_entry": "0x097267D8"
+    }
+  ],
+  "ram_patch_verified": true,
+  "screenshot_before": "PROJECT_ROOT\\analysis\\stage13_auto_runner\\stage13_before.png",
+  "screenshot_after": "PROJECT_ROOT\\analysis\\stage13_auto_runner\\stage13_after.png",
+  "completed": true,
+  "restore_errors": [],
+  "ram_restored": true
+}

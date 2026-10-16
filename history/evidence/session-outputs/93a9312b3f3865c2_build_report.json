@@ -1,0 +1,178 @@
+{
+  "output": "PROJECT_ROOT\\BIA_STEP118_FONT_GUTTER_TEST.iso",
+  "source": "PROJECT_ROOT\\BIA_STEP117_NEW_OBJECTIVE_KO_TEST.iso",
+  "resources": [
+    {
+      "mdi": "D07_1501.MDI",
+      "hangul_cells": 704,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "hangul_cells": 712,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "hangul_cells": 715,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D0_0130_.MDI",
+      "hangul_cells": 729,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "hangul_cells": 727,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "hangul_cells": 718,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "hangul_cells": 722,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "hangul_cells": 704,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "hangul_cells": 704,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "hangul_cells": 711,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "hangul_cells": 703,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "hangul_cells": 708,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "hangul_cells": 722,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "hangul_cells": 709,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "hangul_cells": 709,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "hangul_cells": 711,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "hangul_cells": 712,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "hangul_cells": 709,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "hangul_cells": 717,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "hangul_cells": 717,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "hangul_cells": 696,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "hangul_cells": 696,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "hangul_cells": 696,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "hangul_cells": 696,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "hangul_cells": 698,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "hangul_cells": 696,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "hangul_cells": 697,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "hangul_cells": 699,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "hangul_cells": 696,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "hangul_cells": 696,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "hangul_cells": 696,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "hangul_cells": 697,
+      "transparent_border_verified": true
+    },
+    {
+      "mdi": "ON_MEMU_O.MDI",
+      "hangul_cells": 696,
+      "transparent_border_verified": true
+    }
+  ],
+  "raster_font_size": 14,
+  "previous_size": 16,
+  "minimum_clear_border_pixels": 1,
+  "latin_and_icon_pixels_unchanged": true,
+  "all_metadata_metrics_and_uv_unchanged": true,
+  "iso_readback_verified": true,
+  "runtime_visual_validation": false
+}

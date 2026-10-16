@@ -9,10 +9,16 @@
     "tools/develop.py": "ba801d61e3bc8892a2417488404d1c0dd6c136a3ec7b85e3b6b021f0a5c2bfd2",
     "tools/dev/bia_formats.py": "c9d4978055caa7b88ed15daad8a7d01b8b0e1373a1920c7ff0722fbbb49e9d51",
     "data/recovered/movie_subtitles_ko.tsv": "baa023448881530f5372f21d6cef52e69119311c1aac23f01501eedf50bd68c3",
-    "data/recovered/text_master.tsv": "d2b3787bf119d6f585c07073bf425bd5a6a106e89cb4cdb95b3ebb66c1d3a1b9"
+    "data/recovered/text_master.tsv": "d2b3787bf119d6f585c07073bf425bd5a6a106e89cb4cdb95b3ebb66c1d3a1b9",
+    "tools/check_history.py": "0bd0a81b7386150b17e03892d2ecd41b2eb8d70844b2dfc019e5ec474f5ce97a",
+    "docs/HISTORY_INDEX.md": "5386db8431a566a5e24c1c54a8fe080698c9ee0ea34599b05efca3c0b6c17d29",
+    "docs/KNOWLEDGE_LEDGER.md": "fa71ff62aac4db8c87bc59b90a6ee6089271466808ad2b2841f63763fe83d5ea",
+    "docs/HISTORY_INVENTORY.json": "4f0eac63022e8a6a88d57d04db5095a6116bcbe87a496bd507eafc292a2b41e7",
+    "docs/SOURCE_MAP.json": "a88159ad1afa35abefc06432d3619a72bbf70eb5f667adb79426e9ca2b17698f"
   },
   "development_review_date": "2026-10-16",
   "initial_review_scope": "Repository file integrity only; no ISO, patch decode or runtime verification",
   "development_validation": "docs/PORTABILITY_VALIDATION.md",
-  "line_endings": "Pinned text files use LF, enforced by .gitattributes; legacy Windows CRLF digests were normalized without content changes."
+  "line_endings": "Pinned text files use LF, enforced by .gitattributes; legacy Windows CRLF digests were normalized without content changes.",
+  "history_review_date": "2026-10-16"
 }

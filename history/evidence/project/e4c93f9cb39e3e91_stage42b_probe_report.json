@@ -1,0 +1,712 @@
+{
+  "stage": "42B_HASHMAP_223_PROBE",
+  "iso": "PROJECT_ROOT\\BIA_STAGE42B_HASHMAP_223_PROBE.iso",
+  "purpose": "Calibrated deterministic auto-entry based on visual evidence from Stage41F diagnostic.",
+  "sequence": [
+    "wait initial Bink end",
+    "wait 4.0s for title to stabilize",
+    "START once",
+    "wait 6.0s for profile load + Story menu",
+    "CROSS Story",
+    "wait 2.0s",
+    "CROSS New Game",
+    "wait 2.0s",
+    "CROSS default difficulty",
+    "wait for BIAOFF + story Bink"
+  ],
+  "started": "2026-10-06 23:26:19",
+  "version": {
+    "event": "version",
+    "ticket": 3001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "initial_logo": {
+    "ended": true,
+    "samples": [
+      {
+        "t": 0.0,
+        "active": false
+      },
+      {
+        "t": 0.74,
+        "active": true
+      },
+      {
+        "t": 1.47,
+        "active": true
+      },
+      {
+        "t": 2.19,
+        "active": true
+      },
+      {
+        "t": 2.91,
+        "active": true
+      },
+      {
+        "t": 3.64,
+        "active": true
+      },
+      {
+        "t": 4.36,
+        "active": true
+      },
+      {
+        "t": 5.09,
+        "active": true
+      },
+      {
+        "t": 5.82,
+        "active": true
+      },
+      {
+        "t": 6.56,
+        "active": true
+      },
+      {
+        "t": 7.28,
+        "active": true
+      },
+      {
+        "t": 8.01,
+        "active": true
+      },
+      {
+        "t": 8.73,
+        "active": true
+      },
+      {
+        "t": 9.45,
+        "active": true
+      },
+      {
+        "t": 10.17,
+        "active": true
+      },
+      {
+        "t": 10.91,
+        "active": true
+      },
+      {
+        "t": 11.64,
+        "active": false
+      }
+    ]
+  },
+  "start": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3025
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3026
+    }
+  },
+  "cross_story": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3033
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3034
+    }
+  },
+  "cross_new_game": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3041
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3042
+    }
+  },
+  "cross_difficulty": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3049
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3050
+    }
+  },
+  "post_difficulty_wait": {
+    "success": true,
+    "samples": [
+      {
+        "t": 0.014,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 0.227,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 0.459,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 0.661,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 0.878,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 1.091,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 1.304,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 1.539,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 1.756,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 1.973,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 2.189,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 2.406,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 2.622,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 2.84,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.057,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.274,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.49,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.707,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.924,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 4.141,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 4.358,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 4.575,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 4.792,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.009,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.225,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.442,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.659,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.876,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.093,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.309,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.527,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.744,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.961,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 7.178,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 7.394,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 7.611,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 7.828,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.045,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.262,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.479,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.695,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.913,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.13,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.346,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.563,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.78,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.997,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 10.214,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 10.431,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 10.648,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 10.864,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.081,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.298,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.515,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.732,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.949,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 12.166,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 12.383,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 12.6,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 12.817,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.033,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.25,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.467,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.684,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.901,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 14.118,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 14.335,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 14.552,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 14.769,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": true
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "index": 0,
+      "label": "title_stable_before_START",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "000_title_stable_before_START_04000000_rgba8888.png",
+          "rgb565": "000_title_stable_before_START_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "000_title_stable_before_START_04044000_rgba8888.png",
+          "rgb565": "000_title_stable_before_START_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "label": "story_menu_before_CROSS",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "001_story_menu_before_CROSS_04000000_rgba8888.png",
+          "rgb565": "001_story_menu_before_CROSS_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "001_story_menu_before_CROSS_04044000_rgba8888.png",
+          "rgb565": "001_story_menu_before_CROSS_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "new_game_menu_before_CROSS",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "002_new_game_menu_before_CROSS_04000000_rgba8888.png",
+          "rgb565": "002_new_game_menu_before_CROSS_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "002_new_game_menu_before_CROSS_04044000_rgba8888.png",
+          "rgb565": "002_new_game_menu_before_CROSS_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "difficulty_menu_before_CROSS",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "003_difficulty_menu_before_CROSS_04000000_rgba8888.png",
+          "rgb565": "003_difficulty_menu_before_CROSS_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "003_difficulty_menu_before_CROSS_04044000_rgba8888.png",
+          "rgb565": "003_difficulty_menu_before_CROSS_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "story_movie_started",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "004_story_movie_started_04000000_rgba8888.png",
+          "rgb565": "004_story_movie_started_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "004_story_movie_started_04044000_rgba8888.png",
+          "rgb565": "004_story_movie_started_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "story_movie_t08s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "005_story_movie_t08s_04000000_rgba8888.png",
+          "rgb565": "005_story_movie_t08s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "005_story_movie_t08s_04044000_rgba8888.png",
+          "rgb565": "005_story_movie_t08s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "story_movie_t14s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "006_story_movie_t14s_04000000_rgba8888.png",
+          "rgb565": "006_story_movie_t14s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "006_story_movie_t14s_04044000_rgba8888.png",
+          "rgb565": "006_story_movie_t14s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "label": "story_movie_t16s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "007_story_movie_t16s_04000000_rgba8888.png",
+          "rgb565": "007_story_movie_t16s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "007_story_movie_t16s_04044000_rgba8888.png",
+          "rgb565": "007_story_movie_t16s_04044000_rgb565.png"
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "finished": "2026-10-06 23:27:21"
+}

@@ -1,0 +1,452 @@
+[
+  {
+    "name": "stage38_entry_map.tsv",
+    "path": "PROJECT_ROOT\\analysis\\stage38_translation_worklist\\stage38_entry_map.tsv",
+    "relative_path": "analysis\\stage38_translation_worklist\\stage38_entry_map.tsv",
+    "size": 708880,
+    "mtime": 1791179768.50618,
+    "sha256": "9d572294f2b85eaeab07d37080bfe4dc7ef0ea9e439bd6dbd620846725b615f9",
+    "copied_as": "001_stage38_entry_map.tsv"
+  },
+  {
+    "name": "stage38_translation_units.tsv",
+    "path": "PROJECT_ROOT\\analysis\\stage38_translation_worklist\\stage38_translation_units.tsv",
+    "relative_path": "analysis\\stage38_translation_worklist\\stage38_translation_units.tsv",
+    "size": 447134,
+    "mtime": 1791179768.4936266,
+    "sha256": "dd2d02f23fd4c3390f6925edbd95d6e81b6007769627e88812b9085a69fd70da",
+    "copied_as": "002_stage38_translation_units.tsv"
+  },
+  {
+    "name": "bia_stage36_base.py",
+    "path": "PROJECT_ROOT\\bia_stage39a_tools\\bia_stage36_base.py",
+    "relative_path": "bia_stage39a_tools\\bia_stage36_base.py",
+    "size": 91950,
+    "mtime": 1791148902.0,
+    "sha256": "8203ee8d2d1956cace39be848151c479cf8b901b52354ab2e688f14bb761da8c",
+    "copied_as": "003_bia_stage36_base.py"
+  },
+  {
+    "name": "stage39a_font_plan.json",
+    "path": "PROJECT_ROOT\\bia_stage39a_tools\\stage39a_font_plan.json",
+    "relative_path": "bia_stage39a_tools\\stage39a_font_plan.json",
+    "size": 145691,
+    "mtime": 1791148678.0,
+    "sha256": "024ab905e75597994368c74a3472a52dec02fc1cf71fe34cb9660349a18d7951",
+    "copied_as": "004_stage39a_font_plan.json"
+  },
+  {
+    "name": "bia_stage36_base.py",
+    "path": "PROJECT_ROOT\\bia_stage39b_tools\\bia_stage36_base.py",
+    "relative_path": "bia_stage39b_tools\\bia_stage36_base.py",
+    "size": 91950,
+    "mtime": 1791148902.0,
+    "sha256": "8203ee8d2d1956cace39be848151c479cf8b901b52354ab2e688f14bb761da8c",
+    "copied_as": "005_bia_stage36_base.py"
+  },
+  {
+    "name": "stage39a_font_plan.json",
+    "path": "PROJECT_ROOT\\bia_stage39b_tools\\stage39a_font_plan.json",
+    "relative_path": "bia_stage39b_tools\\stage39a_font_plan.json",
+    "size": 145691,
+    "mtime": 1791148678.0,
+    "sha256": "024ab905e75597994368c74a3472a52dec02fc1cf71fe34cb9660349a18d7951",
+    "copied_as": "006_stage39a_font_plan.json"
+  },
+  {
+    "name": "bia_stage40i_actual_resource_trace.py",
+    "path": "PROJECT_ROOT\\bia_stage40i_tools\\bia_stage40i_actual_resource_trace.py",
+    "relative_path": "bia_stage40i_tools\\bia_stage40i_actual_resource_trace.py",
+    "size": 27218,
+    "mtime": 1791270536.165658,
+    "sha256": "cfee1d5862a1dec643871b6d5128805785966a54f92c432fab62d98ae438c51c",
+    "copied_as": "007_bia_stage40i_actual_resource_trace.py"
+  },
+  {
+    "name": "movie_st1_lineage_verified.tsv",
+    "path": "PROJECT_ROOT\\incoming\\STEP_069_FIX2_nonmdi_int92_build\\movie_st1_lineage_verified.tsv",
+    "relative_path": "incoming\\STEP_069_FIX2_nonmdi_int92_build\\movie_st1_lineage_verified.tsv",
+    "size": 2029,
+    "mtime": 1791388998.0,
+    "sha256": "8baaa09ff2cd028a979743f0b34138b2902850e42fc6e0f3aee29a66f2f0e5de",
+    "copied_as": "008_movie_st1_lineage_verified.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_044_FIX7\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_044_FIX7\\outputs\\text_master.tsv",
+    "size": 358134,
+    "mtime": 1791376821.023225,
+    "sha256": "99a9e37edb3cdc3c8db77da1670ce0c6ac4d5a7eb353980d86b14187fc27c13e",
+    "copied_as": "009_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_045\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_045\\outputs\\text_master.tsv",
+    "size": 364460,
+    "mtime": 1791377239.3433747,
+    "sha256": "1a78ae8fc5a3e93fe5d636a990de4f8270e4e866681b00012fcb07036670a9ab",
+    "copied_as": "010_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_046\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_046\\outputs\\text_master.tsv",
+    "size": 380079,
+    "mtime": 1791377671.7160895,
+    "sha256": "02adf70509658e9e333f0c15cdb44750548fabe9325073026ec94903a03d81a6",
+    "copied_as": "011_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_047\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_047\\outputs\\text_master.tsv",
+    "size": 383962,
+    "mtime": 1791377931.5594373,
+    "sha256": "3dc3eddee60d34a55e6d7db0184289b4e51d724ccc1af482a79441cf1d996093",
+    "copied_as": "012_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_048\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_048\\outputs\\text_master.tsv",
+    "size": 392473,
+    "mtime": 1791378186.6473799,
+    "sha256": "a393d702c285b4ed69751c4448d256d673b9f1e4ecba16ca4debbb94f0614c51",
+    "copied_as": "013_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_049\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_049\\outputs\\text_master.tsv",
+    "size": 397727,
+    "mtime": 1791378400.0961618,
+    "sha256": "3fb235b7e27334c13ecd0bb2752d2ef3f876c891cf1629fad57c07913bb80415",
+    "copied_as": "014_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_050\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_050\\outputs\\text_master.tsv",
+    "size": 404816,
+    "mtime": 1791378592.870679,
+    "sha256": "e96d78e21ebbb955d450158d75898ad7af150d8bb190296f86fb798d17b55e9c",
+    "copied_as": "015_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_051\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_051\\outputs\\text_master.tsv",
+    "size": 410917,
+    "mtime": 1791378757.6279218,
+    "sha256": "2710dd633d1933ffd8ec6c52ba0d682e628ed8dbd004f1a451e8b63b50f5cca5",
+    "copied_as": "016_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_052\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_052\\outputs\\text_master.tsv",
+    "size": 417748,
+    "mtime": 1791378945.286371,
+    "sha256": "b0e7379438b944b5c79f7f98b010e9cc41e6020704a7107121a34bd1a6fcd595",
+    "copied_as": "017_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_053\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_053\\outputs\\text_master.tsv",
+    "size": 426927,
+    "mtime": 1791379250.8796618,
+    "sha256": "d25b7d0995cc0c69ef45e2c375df04d90df9e711fd89e69641faa2f149f90c9f",
+    "copied_as": "018_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_054\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_054\\outputs\\text_master.tsv",
+    "size": 440745,
+    "mtime": 1791380005.5500867,
+    "sha256": "ab7ab4cf277a6e834453f3e7bd7ac66399df9035a3f12c60784e39a5859c1684",
+    "copied_as": "019_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_055\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_055\\outputs\\text_master.tsv",
+    "size": 445887,
+    "mtime": 1791380211.1514437,
+    "sha256": "535d066b75f49c28f36080f75129ec9c913c4feb6c094536525fb1cc0d291840",
+    "copied_as": "020_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_056\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_056\\outputs\\text_master.tsv",
+    "size": 450844,
+    "mtime": 1791380423.6292624,
+    "sha256": "2fc4c93ef861f0458cc0117ad9d10d36cadf3aab60a3703b3044d6495c393678",
+    "copied_as": "021_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_057\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_057\\outputs\\text_master.tsv",
+    "size": 456637,
+    "mtime": 1791380602.4103699,
+    "sha256": "21f37d7ba5a9bdb3c4fc65df0f475ab8c6cf2863baebb7496510ba0093ffff9c",
+    "copied_as": "022_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_058\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_058\\outputs\\text_master.tsv",
+    "size": 456637,
+    "mtime": 1791380602.4103699,
+    "sha256": "21f37d7ba5a9bdb3c4fc65df0f475ab8c6cf2863baebb7496510ba0093ffff9c",
+    "copied_as": "023_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_058_FIX1\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_058_FIX1\\outputs\\text_master.tsv",
+    "size": 465831,
+    "mtime": 1791381097.1943657,
+    "sha256": "89c487768814b57cd4d4a0f6aece66d03c89a7ba0886846d45975054a11f3a01",
+    "copied_as": "024_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_059\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_059\\outputs\\text_master.tsv",
+    "size": 474909,
+    "mtime": 1791381332.7434134,
+    "sha256": "760f747b0097c09f06c01c38b824707456f0c00256b7a9060b57fc2a1167e813",
+    "copied_as": "025_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_060\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_060\\outputs\\text_master.tsv",
+    "size": 486439,
+    "mtime": 1791381639.7639468,
+    "sha256": "2c7d56cfb61e930d5b794b7589e83f5f5361f2dde7a0f9e241e7b1bf784e9176",
+    "copied_as": "026_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_061\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_061\\outputs\\text_master.tsv",
+    "size": 508294,
+    "mtime": 1791381998.7072904,
+    "sha256": "d7294ee666167f63ca08c03513c16059204598168e0920dab17da8b18a159fcf",
+    "copied_as": "027_text_master.tsv"
+  },
+  {
+    "name": "campaign_unapplied_ready_for_iso.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_062\\outputs\\campaign_unapplied_ready_for_iso.tsv",
+    "relative_path": "log\\STEP_062\\outputs\\campaign_unapplied_ready_for_iso.tsv",
+    "size": 483797,
+    "mtime": 1791382363.2975988,
+    "sha256": "28370763f9952064b85c64499797182aaca7d5a4d54a839be2821f9d83ca087d",
+    "copied_as": "028_campaign_unapplied_ready_for_iso.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_062\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_062\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "029_text_master.tsv"
+  },
+  {
+    "name": "campaign_unapplied_ready_for_iso.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_063\\outputs\\campaign_unapplied_ready_for_iso.tsv",
+    "relative_path": "log\\STEP_063\\outputs\\campaign_unapplied_ready_for_iso.tsv",
+    "size": 483797,
+    "mtime": 1791382612.7139535,
+    "sha256": "28370763f9952064b85c64499797182aaca7d5a4d54a839be2821f9d83ca087d",
+    "copied_as": "030_campaign_unapplied_ready_for_iso.tsv"
+  },
+  {
+    "name": "bia_stage40i_actual_resource_trace.py",
+    "path": "PROJECT_ROOT\\log\\STEP_063\\outputs\\known_pipeline_files\\bia_stage40i_actual_resource_trace.py",
+    "relative_path": "log\\STEP_063\\outputs\\known_pipeline_files\\bia_stage40i_actual_resource_trace.py",
+    "size": 27218,
+    "mtime": 1791270536.165658,
+    "sha256": "cfee1d5862a1dec643871b6d5128805785966a54f92c432fab62d98ae438c51c",
+    "copied_as": "031_bia_stage40i_actual_resource_trace.py"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_063\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_063\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "032_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_064\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_064\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "033_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_065\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_065\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "034_text_master.tsv"
+  },
+  {
+    "name": "allstream_font_objects.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_066\\outputs\\allstream_font_objects.tsv",
+    "relative_path": "log\\STEP_066\\outputs\\allstream_font_objects.tsv",
+    "size": 117635,
+    "mtime": 1791384309.5419424,
+    "sha256": "ef61e17e4f604a925e837d0abb7d77cf0165d668212e65d9dcc00600caf6314a",
+    "copied_as": "035_allstream_font_objects.tsv"
+  },
+  {
+    "name": "allstream_fstring_refs.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_066\\outputs\\allstream_fstring_refs.tsv",
+    "relative_path": "log\\STEP_066\\outputs\\allstream_fstring_refs.tsv",
+    "size": 503791,
+    "mtime": 1791384309.5106184,
+    "sha256": "0005bc3ff795934cdcc5734c5b81b2da20ee6031c8b5bab58c98d4f4e506d673",
+    "copied_as": "036_allstream_fstring_refs.tsv"
+  },
+  {
+    "name": "allstream_mdi_glyph_demand.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_066\\outputs\\allstream_mdi_glyph_demand.tsv",
+    "relative_path": "log\\STEP_066\\outputs\\allstream_mdi_glyph_demand.tsv",
+    "size": 2865,
+    "mtime": 1791384309.5419424,
+    "sha256": "d36e6cf72e35f6fa61369c8b5eea95bc616ad94d45e3c0f7d61d11596d2c4665",
+    "copied_as": "037_allstream_mdi_glyph_demand.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_066\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_066\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "038_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_067\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_067\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "039_text_master.tsv"
+  },
+  {
+    "name": "movie_st1_lineage.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_068\\outputs\\movie_st1_lineage.tsv",
+    "relative_path": "log\\STEP_068\\outputs\\movie_st1_lineage.tsv",
+    "size": 2281,
+    "mtime": 1791385378.1494696,
+    "sha256": "fe99e658efa27e8b4231a846410ec84dab224cdcf7cffbef62cc9675a85f63e6",
+    "copied_as": "040_movie_st1_lineage.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_068\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_068\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "041_text_master.tsv"
+  },
+  {
+    "name": "campaign_final_apply_split.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_068_FIX1\\outputs\\campaign_final_apply_split.tsv",
+    "relative_path": "log\\STEP_068_FIX1\\outputs\\campaign_final_apply_split.tsv",
+    "size": 188815,
+    "mtime": 1791385669.275957,
+    "sha256": "6d972f4258071084c75b62154631427c4d71be7abde72ac1a9f5fac0f1888338",
+    "copied_as": "042_campaign_final_apply_split.tsv"
+  },
+  {
+    "name": "movie_st1_lineage.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_068_FIX1\\outputs\\movie_st1_lineage.tsv",
+    "relative_path": "log\\STEP_068_FIX1\\outputs\\movie_st1_lineage.tsv",
+    "size": 2029,
+    "mtime": 1791385669.2619586,
+    "sha256": "8baaa09ff2cd028a979743f0b34138b2902850e42fc6e0f3aee29a66f2f0e5de",
+    "copied_as": "043_movie_st1_lineage.tsv"
+  },
+  {
+    "name": "nonmovie_92_refined.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_068_FIX1\\outputs\\nonmovie_92_refined.tsv",
+    "relative_path": "log\\STEP_068_FIX1\\outputs\\nonmovie_92_refined.tsv",
+    "size": 68265,
+    "mtime": 1791385669.266958,
+    "sha256": "e05a8867f10d1295ec9edcdf55e53c8e37a37a6e569933cf98f8a5a680be7576",
+    "copied_as": "044_nonmovie_92_refined.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_068_FIX1\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_068_FIX1\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "045_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_069\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_069\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "046_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_069_FIX1\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_069_FIX1\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "047_text_master.tsv"
+  },
+  {
+    "name": "movie_st1_lineage_verified.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_069_FIX2\\outputs\\movie_st1_lineage_verified.tsv",
+    "relative_path": "log\\STEP_069_FIX2\\outputs\\movie_st1_lineage_verified.tsv",
+    "size": 2029,
+    "mtime": 1791388998.0,
+    "sha256": "8baaa09ff2cd028a979743f0b34138b2902850e42fc6e0f3aee29a66f2f0e5de",
+    "copied_as": "048_movie_st1_lineage_verified.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\log\\STEP_069_FIX2\\outputs\\text_master.tsv",
+    "relative_path": "log\\STEP_069_FIX2\\outputs\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "049_text_master.tsv"
+  },
+  {
+    "name": "text_master.tsv",
+    "path": "PROJECT_ROOT\\translation\\text_master.tsv",
+    "relative_path": "translation\\text_master.tsv",
+    "size": 530326,
+    "mtime": 1791382363.2835982,
+    "sha256": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "copied_as": "050_text_master.tsv"
+  }
+]

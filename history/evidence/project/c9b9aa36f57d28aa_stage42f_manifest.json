@@ -1,0 +1,33 @@
+{
+  "stage": "42F",
+  "purpose": "Prove one byte can render a multi-glyph Korean token, enabling global dictionary compression.",
+  "probe": {
+    "token_byte": "0xFD",
+    "token_text": "베이커",
+    "rect": {
+      "x": 4,
+      "y": 100,
+      "w": 32,
+      "h": 13
+    },
+    "st1_field_offset": "0x06E",
+    "before_prefix_hex": "FD FE FF 3A",
+    "after_prefix_hex": "FD 3A",
+    "expected_visible_prefix": "베이커:"
+  },
+  "interpretation": {
+    "normal_베이커": "multi-glyph token works; build one global <=221-token dictionary for all 133 subtitles",
+    "cropped_or_overlap": "wide rectangles are accepted but advance/geometry needs adjustment",
+    "only_베_or_garbage": "renderer assumes one glyph per key; fall back to per-movie map/atlas switching"
+  },
+  "source_sha1": {
+    "INI": "441c1fb76940bc2924333920537ac39ff6e49590",
+    "RAW": "[OMITTED: possible raw game or memory payload]",
+    "ST1": "f86716f20e80eb9110c7deb86780fe66a54367ea"
+  },
+  "output_sha1": {
+    "INI": "53898f7b2c6e14c022bb8a86484fbc3e61c9a4c9",
+    "RAW": "[OMITTED: possible raw game or memory payload]",
+    "ST1": "ef4c6e9505bf65d418d621af0b37587e3ec9312e"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "game": {
+    "event": "game.status",
+    "ticket": 1001,
+    "game": {
+      "id": "ULUS10193",
+      "version": "1.01",
+      "title": "Brothers in Arms D-Day"
+    },
+    "paused": false
+  },
+  "cpu": {
+    "event": "cpu.status",
+    "ticket": 1002,
+    "stepping": false,
+    "paused": false,
+    "pc": 142723852,
+    "ticks": 15148225475
+  },
+  "threads": {
+    "event": "hle.thread.list",
+    "ticket": 1003,
+    "threads": [
+      {
+        "id": 272,
+        "name": "idle0",
+        "status": 2,
+        "statuses": [
+          "ready"
+        ],
+        "pc": 134217728,
+        "entry": 134217728,
+        "initialStackSize": 138407936,
+        "currentStackSize": 4096,
+        "priority": 127,
+        "waitType": 0,
+        "isCurrent": false
+      },
+      {
+        "id": 273,
+        "name": "idle1",
+        "status": 2,
+        "statuses": [
+          "ready"
+        ],
+        "pc": 134217728,
+        "entry": 134217728,
+        "initialStackSize": 138403840,
+        "currentStackSize": 4096,
+        "priority": 127,
+        "waitType": 0,
+        "isCurrent": false
+      },
+      {
+        "id": 319,
+        "name": "user_main",
+        "status": 1,
+        "statuses": [
+          "running"
+        ],
+        "pc": 142723852,
+        "entry": 142718060,
+        "initialStackSize": 167463936,
+        "currentStackSize": 307200,
+        "priority": 96,
+        "waitType": 0,
+        "isCurrent": true
+      },
+      {
+        "id": 321,
+        "name": "ExitCallbackThread",
+        "status": 4,
+        "statuses": [
+          "wait"
+        ],
+        "pc": 142716868,
+        "entry": 142716804,
+        "initialStackSize": 167771136,
+        "currentStackSize": 1024,
+        "priority": 16,
+        "waitType": 1,
+        "isCurrent": false
+      },
+      {
+        "id": 381,
+        "name": "AudioWorkerThread",
+        "status": 4,
+        "statuses": [
+          "wait"
+        ],
+        "pc": 147449812,
+        "entry": 147449424,
+        "initialStackSize": 167325440,
+        "currentStackSize": 4096,
+        "priority": 16,
+        "waitType": 10,
+        "isCurrent": false
+      },
+      {
+        "id": 385,
+        "name": "SceIoAsync",
+        "status": 4,
+        "statuses": [
+          "wait"
+        ],
+        "pc": 136449536,
+        "entry": 136449536,
+        "initialStackSize": 138401280,
+        "currentStackSize": 512,
+        "priority": 16,
+        "waitType": 23,
+        "isCurrent": false
+      },
+      {
+        "id": 387,
+        "name": "SceIoAsync",
+        "status": 4,
+        "statuses": [
+          "wait"
+        ],
+        "pc": 136449792,
+        "entry": 136449792,
+        "initialStackSize": 138400768,
+        "currentStackSize": 512,
+        "priority": 16,
+        "waitType": 23,
+        "isCurrent": false
+      },
+      {
+        "id": 389,
+        "name": "SceIoAsync",
+        "status": 4,
+        "statuses": [
+          "wait"
+        ],
+        "pc": 136450048,
+        "entry": 136450048,
+        "initialStackSize": 138400256,
+        "currentStackSize": 512,
+        "priority": 16,
+        "waitType": 23,
+        "isCurrent": false
+      },
+      {
+        "id": 417,
+        "name": "SceIoAsync",
+        "status": 4,
+        "statuses": [
+          "wait"
+        ],
+        "pc": 136450304,
+        "entry": 136450304,
+        "initialStackSize": 138399744,
+        "currentStackSize": 512,
+        "priority": 16,
+        "waitType": 23,
+        "isCurrent": false
+      },
+      {
+        "id": 428,
+        "name": "AudioDecodeThread",
+        "status": 4,
+        "statuses": [
+          "wait"
+        ],
+        "pc": 147544656,
+        "entry": 147544404,
+        "initialStackSize": 167309056,
+        "currentStackSize": 16384,
+        "priority": 17,
+        "waitType": 1,
+        "isCurrent": false
+      }
+    ]
+  }
+}

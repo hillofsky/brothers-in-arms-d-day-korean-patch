@@ -1,0 +1,414 @@
+{
+  "stage": "39H",
+  "purpose": "Reach the real selectable main menu, preserve the corrected Stage39F Unicode path, and capture the menu for visual Korean glyph verification.",
+  "stage39g_reclassification": {
+    "unicode_conversion": "PASS",
+    "evidence": [
+      "UTF-16LE Korean found at 0x08E416C0",
+      "UTF-16LE Korean found at 0x08E431A0",
+      "no byte-wise-widened UTF-8 pattern found"
+    ],
+    "why_stage39g_zip_was_named_fail": "The old production-font helper required a transient GE descriptor value while the screen was still in startup/title state. Core font/glyph/atlas checks themselves passed.",
+    "stage39g_actual_font_core": {
+      "glyph_count": 847,
+      "glyph_ptr": "0x098F5020",
+      "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "all_696_mappings": "PASS"
+    }
+  },
+  "iso_changed_in_this_stage": false,
+  "runtime_patch": false,
+  "automatic_success_is_not_final_visual_claim": "Final screenshot must still be inspected for normal Korean glyph appearance.",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE39F_CORRECT_NARROW_METADATA_TEST.iso",
+  "runtime": {
+    "pid": 29116,
+    "normal_jit": true,
+    "runtime_patch": false,
+    "previous_ppsspp_cleanup": {
+      "found": false
+    },
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "runtime_sources": {
+      "display1_hex": "ec8aa4ed86a0eba6ac00000000000000",
+      "display1_ok": true,
+      "menustory_key_hex": "4d656e7553746f727900000000000000",
+      "menustory_key_ok": true,
+      "display2_hex": "ec8aa4ed86a0eba6ac00000000000000",
+      "display2_ok": true,
+      "meta1": [
+        "0x093B1B40",
+        10,
+        10
+      ],
+      "meta1_ok": true,
+      "meta2": [
+        "0x093B1BF0",
+        10,
+        10
+      ],
+      "meta2_ok": true
+    },
+    "pre_menu_scan": {
+      "korean_story": [
+        "0x08E416C0",
+        "0x08E431A0",
+        "0x08FF4B89"
+      ],
+      "OPTIONS": [],
+      "Options": [],
+      "EXTRAS": [],
+      "Extras": [
+        "0x08FF86DF"
+      ],
+      "PROFILE": [
+        "0x08FF2251",
+        "0x08FF2A44",
+        "0x08FF2B2E",
+        "0x08FF2C16",
+        "0x08FF4627",
+        "0x08FF4E56",
+        "0x08FF5432",
+        "0x08FF5B16",
+        "0x08FF77F9",
+        "0x08FF786F",
+        "0x08FFC29D",
+        "0x08FFD5C3",
+        "0x08FFF296"
+      ],
+      "Profile": [
+        "0x08FFB958",
+        "0x08FFDCE5"
+      ],
+      "CONTINUE": [],
+      "Continue": [],
+      "stage39g_match_samples": {
+        "0x08E416C0": "a4c2a0d1acb9000000000000000000000000e4084d454e55",
+        "0x08E431A0": "a4c2a0d1acb90000000000001e00000035c658c100000000"
+      },
+      "korean_found": true,
+      "menu_sibling_match_count": 16
+    },
+    "menu_resource_open": {
+      "opened": true,
+      "start_presses": 0
+    },
+    "title_or_menu_capture": {
+      "path": "PROJECT_ROOT\\analysis\\stage39h_main_menu_visual_proof\\stage39h_menu_resource_open.png",
+      "captured": true
+    },
+    "scan_after_menu_resource": {
+      "korean_story": [
+        "0x08E416C0",
+        "0x08E431A0",
+        "0x08FF4B89"
+      ],
+      "OPTIONS": [],
+      "Options": [],
+      "EXTRAS": [],
+      "Extras": [
+        "0x08FF86DF"
+      ],
+      "PROFILE": [
+        "0x08FF2251",
+        "0x08FF2A44",
+        "0x08FF2B2E",
+        "0x08FF2C16",
+        "0x08FF4627",
+        "0x08FF4E56",
+        "0x08FF5432",
+        "0x08FF5B16",
+        "0x08FF77F9",
+        "0x08FF786F",
+        "0x08FFC29D",
+        "0x08FFD5C3",
+        "0x08FFF296"
+      ],
+      "Profile": [
+        "0x08FFB958",
+        "0x08FFDCE5"
+      ],
+      "CONTINUE": [],
+      "Continue": [],
+      "stage39g_match_samples": {
+        "0x08E416C0": "a4c2a0d1acb9000000000000000000000000e4084d454e55",
+        "0x08E431A0": "a4c2a0d1acb90000000000001e00000035c658c100000000"
+      },
+      "korean_found": true,
+      "menu_sibling_match_count": 16
+    },
+    "main_menu_start_press_sent": true,
+    "main_menu_checkpoints": [
+      {
+        "elapsed_after_start": 1.0,
+        "scan": {
+          "korean_story": [
+            "0x08E416C0",
+            "0x08E431A0",
+            "0x08FF4B89"
+          ],
+          "OPTIONS": [],
+          "Options": [],
+          "EXTRAS": [],
+          "Extras": [
+            "0x08FF86DF"
+          ],
+          "PROFILE": [
+            "0x08FF2251",
+            "0x08FF2A44",
+            "0x08FF2B2E",
+            "0x08FF2C16",
+            "0x08FF4627",
+            "0x08FF4E56",
+            "0x08FF5432",
+            "0x08FF5B16",
+            "0x08FF77F9",
+            "0x08FF786F",
+            "0x08FFC29D",
+            "0x08FFD5C3",
+            "0x08FFF296"
+          ],
+          "Profile": [
+            "0x08FFB958",
+            "0x08FFDCE5"
+          ],
+          "CONTINUE": [],
+          "Continue": [],
+          "stage39g_match_samples": {
+            "0x08E416C0": "a4c2a0d1acb9000000000000000000000000e4084d454e55",
+            "0x08E431A0": "a4c2a0d1acb90000000000001e00000035c658c100000000"
+          },
+          "korean_found": true,
+          "menu_sibling_match_count": 16
+        },
+        "capture": {
+          "path": "PROJECT_ROOT\\analysis\\stage39h_main_menu_visual_proof\\stage39h_main_menu_1p0s.png",
+          "captured": true
+        }
+      },
+      {
+        "elapsed_after_start": 2.5,
+        "scan": {
+          "korean_story": [
+            "0x08E416C0",
+            "0x08E431A0",
+            "0x08FF4B89"
+          ],
+          "OPTIONS": [],
+          "Options": [],
+          "EXTRAS": [],
+          "Extras": [
+            "0x08FF86DF"
+          ],
+          "PROFILE": [
+            "0x08FF2251",
+            "0x08FF2A44",
+            "0x08FF2B2E",
+            "0x08FF2C16",
+            "0x08FF4627",
+            "0x08FF4E56",
+            "0x08FF5432",
+            "0x08FF5B16",
+            "0x08FF77F9",
+            "0x08FF786F",
+            "0x08FFC29D",
+            "0x08FFD5C3",
+            "0x08FFF296"
+          ],
+          "Profile": [
+            "0x08FFB958",
+            "0x08FFDCE5"
+          ],
+          "CONTINUE": [],
+          "Continue": [],
+          "stage39g_match_samples": {
+            "0x08E416C0": "a4c2a0d1acb9000000000000000000000000e4084d454e55",
+            "0x08E431A0": "a4c2a0d1acb90000000000001e00000035c658c100000000"
+          },
+          "korean_found": true,
+          "menu_sibling_match_count": 16
+        },
+        "capture": {
+          "path": "PROJECT_ROOT\\analysis\\stage39h_main_menu_visual_proof\\stage39h_main_menu_2p5s.png",
+          "captured": true
+        }
+      },
+      {
+        "elapsed_after_start": 5.0,
+        "scan": {
+          "korean_story": [
+            "0x08E416C0",
+            "0x08E431A0",
+            "0x08FF4B89"
+          ],
+          "OPTIONS": [],
+          "Options": [
+            "0x08E41660"
+          ],
+          "EXTRAS": [],
+          "Extras": [
+            "0x08FF86DF"
+          ],
+          "PROFILE": [
+            "0x08FF2251",
+            "0x08FF2A44",
+            "0x08FF2B2E",
+            "0x08FF2C16",
+            "0x08FF4627",
+            "0x08FF4E56",
+            "0x08FF5432",
+            "0x08FF5B16",
+            "0x08FF77F9",
+            "0x08FF786F",
+            "0x08FFC29D",
+            "0x08FFD5C3",
+            "0x08FFF296"
+          ],
+          "Profile": [
+            "0x08E41680",
+            "0x08FFB958",
+            "0x08FFDCE5"
+          ],
+          "CONTINUE": [],
+          "Continue": [],
+          "stage39g_match_samples": {
+            "0x08E416C0": "a4c2a0d1acb9000000000000000000000000e4084d454e55",
+            "0x08E431A0": "a4c2a0d1acb90000000000001e00000035c658c100000000"
+          },
+          "korean_found": true,
+          "menu_sibling_match_count": 18
+        },
+        "capture": {
+          "path": "PROJECT_ROOT\\analysis\\stage39h_main_menu_visual_proof\\stage39h_main_menu_5p0s.png",
+          "captured": true
+        }
+      },
+      {
+        "elapsed_after_start": 8.0,
+        "scan": {
+          "korean_story": [
+            "0x08E416C0",
+            "0x08E431A0",
+            "0x08FF4B89"
+          ],
+          "OPTIONS": [],
+          "Options": [
+            "0x08E41660"
+          ],
+          "EXTRAS": [],
+          "Extras": [
+            "0x08FF86DF"
+          ],
+          "PROFILE": [
+            "0x08FF2251",
+            "0x08FF2A44",
+            "0x08FF2B2E",
+            "0x08FF2C16",
+            "0x08FF4627",
+            "0x08FF4E56",
+            "0x08FF5432",
+            "0x08FF5B16",
+            "0x08FF77F9",
+            "0x08FF786F",
+            "0x08FFC29D",
+            "0x08FFD5C3",
+            "0x08FFF296"
+          ],
+          "Profile": [
+            "0x08E41680",
+            "0x08FFB958",
+            "0x08FFDCE5"
+          ],
+          "CONTINUE": [],
+          "Continue": [],
+          "stage39g_match_samples": {
+            "0x08E416C0": "a4c2a0d1acb9000000000000000000000000e4084d454e55",
+            "0x08E431A0": "a4c2a0d1acb90000000000001e00000035c658c100000000"
+          },
+          "korean_found": true,
+          "menu_sibling_match_count": 18
+        },
+        "capture": {
+          "path": "PROJECT_ROOT\\analysis\\stage39h_main_menu_visual_proof\\stage39h_main_menu_8p0s.png",
+          "captured": true
+        }
+      }
+    ],
+    "final_scan": {
+      "korean_story": [
+        "0x08E416C0",
+        "0x08E431A0",
+        "0x08FF4B89"
+      ],
+      "OPTIONS": [],
+      "Options": [
+        "0x08E41660"
+      ],
+      "EXTRAS": [],
+      "Extras": [
+        "0x08FF86DF"
+      ],
+      "PROFILE": [
+        "0x08FF2251",
+        "0x08FF2A44",
+        "0x08FF2B2E",
+        "0x08FF2C16",
+        "0x08FF4627",
+        "0x08FF4E56",
+        "0x08FF5432",
+        "0x08FF5B16",
+        "0x08FF77F9",
+        "0x08FF786F",
+        "0x08FFC29D",
+        "0x08FFD5C3",
+        "0x08FFF296"
+      ],
+      "Profile": [
+        "0x08E41680",
+        "0x08FFB958",
+        "0x08FFDCE5"
+      ],
+      "CONTINUE": [],
+      "Continue": [],
+      "stage39g_match_samples": {
+        "0x08E416C0": "a4c2a0d1acb9000000000000000000000000e4084d454e55",
+        "0x08E431A0": "a4c2a0d1acb90000000000001e00000035c658c100000000"
+      },
+      "korean_found": true,
+      "menu_sibling_match_count": 18
+    },
+    "main_menu_candidate": true,
+    "production_font_runtime": {
+      "glyph_count": 847,
+      "expected_glyph_count": 847,
+      "glyph_ptr": "0x098F5020",
+      "expected_glyph_ptr": "0x098F5020",
+      "descriptor": [
+        "0xA087D020",
+        "0xA8090200",
+        "0xB8000909"
+      ],
+      "expected_descriptor": [
+        "0xA087D020",
+        "0xA8090200",
+        "0xB8000909"
+      ],
+      "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "expected_atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "bad_mapping_samples": [],
+      "all_production_mappings_ok": true,
+      "ok": true
+    },
+    "font_core_ok": true,
+    "gpu_frame": {
+      "path": "PROJECT_ROOT\\analysis\\stage39h_main_menu_visual_proof\\stage39h_main_menu.ppdmp",
+      "bytes": 136195,
+      "sha256": "35517a0ee72288225c65ca45bdae3c936db11fdd6b2027c463fa6e5c616532e7",
+      "magic": "PPSSPPGE",
+      "version": 6
+    },
+    "completed": true,
+    "ppsspp_closed": true
+  },
+  "completed": true
+}

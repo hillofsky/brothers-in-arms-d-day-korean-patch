@@ -1,0 +1,66 @@
+{
+  "step": "STEP_054",
+  "translations_applied_to_metadata": 77,
+  "completed_reference_groups": [
+    "D7_1400_NOBETTERSPOT",
+    "D7_1500_NOBETTERSPOT"
+  ],
+  "status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "NEEDS_TRANSLATION": 533,
+    "TRANSLATED_REVIEWED": 542,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "next_reference_group": "D07_1500_BLOODYGULCH",
+  "next_unit_count": 32,
+  "remaining_group_summary": [
+    {
+      "reference_group": "D07_1500_BLOODYGULCH",
+      "remaining_unique_units": 32
+    },
+    {
+      "reference_group": "D8_0930_VICTORYINCARENTAN",
+      "remaining_unique_units": 31
+    },
+    {
+      "reference_group": "D08_1030_CLOSEQUARTERS",
+      "remaining_unique_units": 35
+    },
+    {
+      "reference_group": "D09_0800_BAUPTE",
+      "remaining_unique_units": 46
+    },
+    {
+      "reference_group": "D10_0600_RUNOFTHEMILL",
+      "remaining_unique_units": 51
+    },
+    {
+      "reference_group": "D10_0801_THEALLAMERICANS",
+      "remaining_unique_units": 25
+    },
+    {
+      "reference_group": "D10_0802_THEALLAMERICANS",
+      "remaining_unique_units": 41
+    },
+    {
+      "reference_group": "D15_1130_BOOKENDS",
+      "remaining_unique_units": 44
+    },
+    {
+      "reference_group": "D15_1230_BOOKENDS2",
+      "remaining_unique_units": 29
+    },
+    {
+      "reference_group": "D15_1300_BOOKENDS4",
+      "remaining_unique_units": 25
+    },
+    {
+      "reference_group": "D15_1330_BOOKENDS3",
+      "remaining_unique_units": 29
+    }
+  ],
+  "master_sha256": "ab7ab4cf277a6e834453f3e7bd7ac66399df9035a3f12c60784e39a5859c1684",
+  "next_batch_sha256": "e59b76f5f2127e0386915bffb312caff566eb3c3198f53eace68ad35196035cf",
+  "iso_modified": false,
+  "movie_validation_resumed": false
+}

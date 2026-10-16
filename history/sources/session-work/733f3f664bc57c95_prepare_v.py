@@ -1,0 +1,4 @@
+from pathlib import Path
+p=Path('work/build_firstmission40u.py').read_text(encoding='utf-8-sig').replace('outputs/stage40u','outputs/stage40v').replace('BIA_STAGE40U_FIRST_MISSION_KOREAN_TEST','BIA_STAGE40V_FIRST_MISSION_UI_TEST')
+p=p.replace("  if not refs:continue\n  korean=row['한국어']", "  filtered=[]\n  for ri,ro in refLOCAL_PATH   if ro >= 12:\n    kp,kn,kc=struct.unpack_from('<III',st[ri],ro-12)\n    ki=(kp-seq)//stride;ko=(kp-seq)%stride\n    if ki in st and 1<=kn<=512 and kn<=kc<=0x100000:\n     key=st[ki][ko:ko+kn]\n     if key.endswith(b'\\0') and key[:-1].decode('ascii',errors='replace') in keys:filtered.append((ri,ro))\n   if ri==13 and ro==0x5444c and english=='Rendezvous with Destiny':filtered.append((ri,ro))\n  refs=list(set(filtered))\n  if not refs:continue\n  korean=row['한국어']")
+Path('work/build_firstmission40v.py').write_text(p,encoding='utf8')

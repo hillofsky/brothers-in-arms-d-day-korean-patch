@@ -1,0 +1,141 @@
+{
+  "step": "STEP_074_FIX5",
+  "status": "BLOCKED_PREBUILD",
+  "iso_built": false,
+  "compiled_ids": 967,
+  "target_refs": 2333,
+  "target_mdis": 32,
+  "dryrun_passed_mdis": 1,
+  "blocked_count": 31,
+  "blocked": [
+    {
+      "mdi": "D07_1501.MDI",
+      "error": "RuntimeError(\"D07_1501.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '7787a378f9237ffa2cffe4df32838fb756565ae7aa5691a9c76ba223c47293d1', 'normalized_sha256': '7787a378f9237ffa2cffe4df32838fb756565ae7aa5691a9c76ba223c47293d1', 'similarity': 0.38333333333333336} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '7787a378f9237ffa2cffe4df32838fb756565ae7aa5691a9c76ba223c47293d1', 'normalized_sha256': '7787a378f9237ffa2cffe4df32838fb756565ae7aa5691a9c76ba223c47293d1', 'similarity': 0.38333333333333336}\")"
+    },
+    {
+      "mdi": "D08_1030.MDI",
+      "error": "RuntimeError(\"D08_1030.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '3b52900d6e3d1f53b3c9ee4d6130910bab8341ac3a9db983426e4b3ae072b4ef', 'normalized_sha256': '718800a806200ef006eef98f69e4a0d365a9323a190a9d73fac01f61c8dbb251', 'similarity': 0.7125} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '3b52900d6e3d1f53b3c9ee4d6130910bab8341ac3a9db983426e4b3ae072b4ef', 'normalized_sha256': '718800a806200ef006eef98f69e4a0d365a9323a190a9d73fac01f61c8dbb251', 'similarity': 0.7125}\")"
+    },
+    {
+      "mdi": "D09_0800.MDI",
+      "error": "RuntimeError(\"D09_0800.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'b3ea25dd6e224bca7e08a8bfc0215942e9d5f5b7812b27ac20f0e79968b70106', 'normalized_sha256': 'b3ea25dd6e224bca7e08a8bfc0215942e9d5f5b7812b27ac20f0e79968b70106', 'similarity': 0.2125} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'b3ea25dd6e224bca7e08a8bfc0215942e9d5f5b7812b27ac20f0e79968b70106', 'normalized_sha256': 'b3ea25dd6e224bca7e08a8bfc0215942e9d5f5b7812b27ac20f0e79968b70106', 'similarity': 0.2125}\")"
+    },
+    {
+      "mdi": "D0_0700_.MDI",
+      "error": "RuntimeError(\"D0_0700_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    },
+    {
+      "mdi": "D0_1015_.MDI",
+      "error": "RuntimeError(\"D0_1015_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '3df5b72c27d0408fee443ebc6f0e684b0c97d4514123bd13ca1fc3a5c537a9fd', 'normalized_sha256': '3df5b72c27d0408fee443ebc6f0e684b0c97d4514123bd13ca1fc3a5c537a9fd', 'similarity': 0.22916666666666666} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '3df5b72c27d0408fee443ebc6f0e684b0c97d4514123bd13ca1fc3a5c537a9fd', 'normalized_sha256': '3df5b72c27d0408fee443ebc6f0e684b0c97d4514123bd13ca1fc3a5c537a9fd', 'similarity': 0.22916666666666666}\")"
+    },
+    {
+      "mdi": "D10_0600.MDI",
+      "error": "RuntimeError(\"D10_0600.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'c90d8451726aff42a6936bf81c55ca0d9e6e0c061ebb753025e6e00b2652c66c', 'normalized_sha256': 'c90d8451726aff42a6936bf81c55ca0d9e6e0c061ebb753025e6e00b2652c66c', 'similarity': 0.675} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'c90d8451726aff42a6936bf81c55ca0d9e6e0c061ebb753025e6e00b2652c66c', 'normalized_sha256': 'c90d8451726aff42a6936bf81c55ca0d9e6e0c061ebb753025e6e00b2652c66c', 'similarity': 0.675}\")"
+    },
+    {
+      "mdi": "D10_0801.MDI",
+      "error": "RuntimeError(\"D10_0801.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    },
+    {
+      "mdi": "D10_0802.MDI",
+      "error": "RuntimeError(\"D10_0802.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'c7afb0192d44501827ec02b27e8fd94f3487582acc68b06cbfe25358aa8734f3', 'normalized_sha256': 'dd5a3e3d52c091faa9b7e5d0264021ce551ca04734103fb433f557e490a5ebc7', 'similarity': 0.3625} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'c7afb0192d44501827ec02b27e8fd94f3487582acc68b06cbfe25358aa8734f3', 'normalized_sha256': 'dd5a3e3d52c091faa9b7e5d0264021ce551ca04734103fb433f557e490a5ebc7', 'similarity': 0.3625}\")"
+    },
+    {
+      "mdi": "D1_0900_.MDI",
+      "error": "RuntimeError(\"D1_0900_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '06f588b696c3af1941c87cc8e9143ebd614c77aa8ac9ef94ccf5ffdee612c3cb', 'normalized_sha256': '7929ede2b71f10f0c8d47f816d07b2f3901af4c4b8212b1cc7e398b4abb3cf27', 'similarity': 0.6083333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '06f588b696c3af1941c87cc8e9143ebd614c77aa8ac9ef94ccf5ffdee612c3cb', 'normalized_sha256': '7929ede2b71f10f0c8d47f816d07b2f3901af4c4b8212b1cc7e398b4abb3cf27', 'similarity': 0.6083333333333333}\")"
+    },
+    {
+      "mdi": "D1_1830_.MDI",
+      "error": "RuntimeError(\"D1_1830_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '0a55016256041a90692cb21239f5d6e63f5cb085ac7ca3ba067bccab06d6d25b', 'normalized_sha256': '0a55016256041a90692cb21239f5d6e63f5cb085ac7ca3ba067bccab06d6d25b', 'similarity': 0.3} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '0a55016256041a90692cb21239f5d6e63f5cb085ac7ca3ba067bccab06d6d25b', 'normalized_sha256': '0a55016256041a90692cb21239f5d6e63f5cb085ac7ca3ba067bccab06d6d25b', 'similarity': 0.3}\")"
+    },
+    {
+      "mdi": "D2_0630_.MDI",
+      "error": "RuntimeError(\"D2_0630_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '57d27e8a5b25390ecb2a694ed48ab6268a5a67c2027903bacad6e216b5333755', 'normalized_sha256': 'cb30b2d35dcad35091e3e7711773a8b824910f813808724c8c085190e2c0ef90', 'similarity': 0.7375} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '57d27e8a5b25390ecb2a694ed48ab6268a5a67c2027903bacad6e216b5333755', 'normalized_sha256': 'cb30b2d35dcad35091e3e7711773a8b824910f813808724c8c085190e2c0ef90', 'similarity': 0.7375}\")"
+    },
+    {
+      "mdi": "D2_1000_.MDI",
+      "error": "RuntimeError(\"D2_1000_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '102bb96f935310d7394d19d03aabaf7aa56d7964431b38fb63a0fbed8df01c37', 'normalized_sha256': '102bb96f935310d7394d19d03aabaf7aa56d7964431b38fb63a0fbed8df01c37', 'similarity': 0.14166666666666666} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '102bb96f935310d7394d19d03aabaf7aa56d7964431b38fb63a0fbed8df01c37', 'normalized_sha256': '102bb96f935310d7394d19d03aabaf7aa56d7964431b38fb63a0fbed8df01c37', 'similarity': 0.14166666666666666}\")"
+    },
+    {
+      "mdi": "D3_0900_.MDI",
+      "error": "RuntimeError(\"D3_0900_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '5496e9d762c1a77999165cb86d530ae54c1d0cdead5a207ced76ce2db8742f5f', 'normalized_sha256': '3476579e85abe2246c82a0681050b9528630428065ae7cf70db1f02c0a06b42b', 'similarity': 0.5666666666666667} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '5496e9d762c1a77999165cb86d530ae54c1d0cdead5a207ced76ce2db8742f5f', 'normalized_sha256': '3476579e85abe2246c82a0681050b9528630428065ae7cf70db1f02c0a06b42b', 'similarity': 0.5666666666666667}\")"
+    },
+    {
+      "mdi": "D4_1800_.MDI",
+      "error": "RuntimeError(\"D4_1800_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'b4a2e80464935a9f638dfb22194a96ef5d9e5cc0f6bf947f3189e33625d1b872', 'normalized_sha256': 'b04271d63998a27f748bac7e28d55bac5d6180088cb38a41e710bf0db13cfd06', 'similarity': 0.15416666666666667} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'b4a2e80464935a9f638dfb22194a96ef5d9e5cc0f6bf947f3189e33625d1b872', 'normalized_sha256': 'b04271d63998a27f748bac7e28d55bac5d6180088cb38a41e710bf0db13cfd06', 'similarity': 0.15416666666666667}\")"
+    },
+    {
+      "mdi": "D5_0615_.MDI",
+      "error": "RuntimeError(\"D5_0615_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '642cc068d990935a29b4da2495bf478104a98f1d01e66b8ddc92517026475746', 'normalized_sha256': 'b9b11cdbaf23aa40d3da27a4d22fef4122c31d1c12b23545fc6d322a8b144f34', 'similarity': 0.7875} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '642cc068d990935a29b4da2495bf478104a98f1d01e66b8ddc92517026475746', 'normalized_sha256': 'b9b11cdbaf23aa40d3da27a4d22fef4122c31d1c12b23545fc6d322a8b144f34', 'similarity': 0.7875}\")"
+    },
+    {
+      "mdi": "D6_0500_.MDI",
+      "error": "RuntimeError(\"D6_0500_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '34f3341cc52161ed5469a7287773bada7e0acedcf92b82c5a9d2e7eb9cffb40f', 'normalized_sha256': '34f3341cc52161ed5469a7287773bada7e0acedcf92b82c5a9d2e7eb9cffb40f', 'similarity': 0.30416666666666664} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '34f3341cc52161ed5469a7287773bada7e0acedcf92b82c5a9d2e7eb9cffb40f', 'normalized_sha256': '34f3341cc52161ed5469a7287773bada7e0acedcf92b82c5a9d2e7eb9cffb40f', 'similarity': 0.30416666666666664}\")"
+    },
+    {
+      "mdi": "D6_1200_.MDI",
+      "error": "RuntimeError(\"D6_1200_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '17e670b5084ed3409194887e5dfc41541d60efc1c161b22c7be1635afbc20f6d', 'normalized_sha256': 'a84bbc39226a6f6800319eb429d13cb036b2ccbea9fb872ddd9eccaec5f6488e', 'similarity': 0.45416666666666666} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '17e670b5084ed3409194887e5dfc41541d60efc1c161b22c7be1635afbc20f6d', 'normalized_sha256': 'a84bbc39226a6f6800319eb429d13cb036b2ccbea9fb872ddd9eccaec5f6488e', 'similarity': 0.45416666666666666}\")"
+    },
+    {
+      "mdi": "D7_1400_.MDI",
+      "error": "RuntimeError(\"D7_1400_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'c38acdc0ffe6b02adc1576927edcef77341a049808f8e45276da1ac079013d46', 'normalized_sha256': 'cb1f7bc680188a1765c264cb1753a8ef617fa979487f96f2bb9f1b9ee8643e81', 'similarity': 0.6125} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'c38acdc0ffe6b02adc1576927edcef77341a049808f8e45276da1ac079013d46', 'normalized_sha256': 'cb1f7bc680188a1765c264cb1753a8ef617fa979487f96f2bb9f1b9ee8643e81', 'similarity': 0.6125}\")"
+    },
+    {
+      "mdi": "D7_1500_.MDI",
+      "error": "RuntimeError(\"D7_1500_.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'fbbc52ff72d3ebe4eb745bd572f47e1a136e30b6df192316b30a0e49af12eb6b', 'normalized_sha256': 'a5112fbaaef5e4cad75bb767308bb99501c01db5db437eac7749a1e0ee85969c', 'similarity': 0.5708333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'fbbc52ff72d3ebe4eb745bd572f47e1a136e30b6df192316b30a0e49af12eb6b', 'normalized_sha256': 'a5112fbaaef5e4cad75bb767308bb99501c01db5db437eac7749a1e0ee85969c', 'similarity': 0.5708333333333333}\")"
+    },
+    {
+      "mdi": "SKR_DE_CHUR.MDI",
+      "error": "RuntimeError(\"SKR_DE_CHUR.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    },
+    {
+      "mdi": "SKR_DE_CITY.MDI",
+      "error": "RuntimeError(\"SKR_DE_CITY.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'fd4db8999578b0f9c3d4cdfffd9fce5822abbc90ced707b1a704313f925a43f0', 'normalized_sha256': '48ee64d2510d65fcb6105a1b6b1a0c5de14ccf4f5c86fcad0a175eaa79f0e116', 'similarity': 0.5541666666666667} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'fd4db8999578b0f9c3d4cdfffd9fce5822abbc90ced707b1a704313f925a43f0', 'normalized_sha256': '48ee64d2510d65fcb6105a1b6b1a0c5de14ccf4f5c86fcad0a175eaa79f0e116', 'similarity': 0.5541666666666667}\")"
+    },
+    {
+      "mdi": "SKR_DE_DDAY.MDI",
+      "error": "RuntimeError(\"SKR_DE_DDAY.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    },
+    {
+      "mdi": "SKR_DE_HAML.MDI",
+      "error": "RuntimeError(\"SKR_DE_HAML.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '93ea39f39e561cafdf10aa18a4e870fb99a0fe8596fb6f3fb16a1445ef5676e8', 'normalized_sha256': 'ff6ebc0b884ae816c38a725f4a03281f42b7b4475a807513f8869bdff9b93341', 'similarity': 0.425} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '93ea39f39e561cafdf10aa18a4e870fb99a0fe8596fb6f3fb16a1445ef5676e8', 'normalized_sha256': 'ff6ebc0b884ae816c38a725f4a03281f42b7b4475a807513f8869bdff9b93341', 'similarity': 0.425}\")"
+    },
+    {
+      "mdi": "SKR_DE_HOLD.MDI",
+      "error": "RuntimeError(\"SKR_DE_HOLD.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '123aaa5504399c07b62e2b214be2577443887f2b1968bfbcc8fa182d32dbc89e', 'normalized_sha256': 'a0089807726f1ddfefbdc900b87258a46539765aaaf0b1d1cfa46fd30920fa30', 'similarity': 0.6458333333333334} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '123aaa5504399c07b62e2b214be2577443887f2b1968bfbcc8fa182d32dbc89e', 'normalized_sha256': 'a0089807726f1ddfefbdc900b87258a46539765aaaf0b1d1cfa46fd30920fa30', 'similarity': 0.6458333333333334}\")"
+    },
+    {
+      "mdi": "SKR_DE_WARE.MDI",
+      "error": "RuntimeError(\"SKR_DE_WARE.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    },
+    {
+      "mdi": "SKR_US_BROK.MDI",
+      "error": "RuntimeError(\"SKR_US_BROK.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    },
+    {
+      "mdi": "SKR_US_BUNK.MDI",
+      "error": "RuntimeError(\"SKR_US_BUNK.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    },
+    {
+      "mdi": "SKR_US_CROS.MDI",
+      "error": "RuntimeError(\"SKR_US_CROS.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'b61ae01c3fa9f07b0ae6b9ea71c9e68860c222f913ddb597303de6b6465a03da', 'normalized_sha256': '9a082d2e2a02d1fd8d4e03ae27cd77e0fd887b8e1da21c67ac764e776bd3d964', 'similarity': 0.65} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': 'b61ae01c3fa9f07b0ae6b9ea71c9e68860c222f913ddb597303de6b6465a03da', 'normalized_sha256': '9a082d2e2a02d1fd8d4e03ae27cd77e0fd887b8e1da21c67ac764e776bd3d964', 'similarity': 0.65}\")"
+    },
+    {
+      "mdi": "SKR_US_RAIL.MDI",
+      "error": "RuntimeError(\"SKR_US_RAIL.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    },
+    {
+      "mdi": "SKR_US_SNIP.MDI",
+      "error": "RuntimeError(\"SKR_US_SNIP.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    },
+    {
+      "mdi": "SKR_US_TAKI.MDI",
+      "error": "RuntimeError(\"SKR_US_TAKI.MDI: expanded texture-object fingerprint mismatch: original={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333} source={'ptr': '0x9a8d6d0', 'present': True, 'raw_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'normalized_sha256': '2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537', 'similarity': 0.8208333333333333}\")"
+    }
+  ],
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE69_FIX2_NONMDI_INT92_TEST.iso",
+  "source_sha256": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE74_FIX5_COMPILED967_BULK_TEST.iso",
+  "source_iso_preserved": true,
+  "runtime_verified": false
+}

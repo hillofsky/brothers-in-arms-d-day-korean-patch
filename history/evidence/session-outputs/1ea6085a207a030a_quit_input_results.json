@@ -1,0 +1,37 @@
+[
+  {
+    "button": "down",
+    "response": {
+      "event": "input.buttons.press",
+      "ticket": 1001
+    }
+  },
+  {
+    "button": "down",
+    "response": {
+      "event": "input.buttons.press",
+      "ticket": 1002
+    }
+  },
+  {
+    "button": "down",
+    "response": {
+      "event": "input.buttons.press",
+      "ticket": 1003
+    }
+  },
+  {
+    "button": "down",
+    "response": {
+      "event": "input.buttons.press",
+      "ticket": 1004
+    }
+  },
+  {
+    "button": "cross",
+    "response": {
+      "event": "input.buttons.press",
+      "ticket": 1005
+    }
+  }
+]

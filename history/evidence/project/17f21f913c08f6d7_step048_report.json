@@ -1,0 +1,90 @@
+{
+  "step": "STEP_048",
+  "translations_applied_to_metadata": 47,
+  "status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "NEEDS_TRANSLATION": 848,
+    "TRANSLATED_REVIEWED": 227,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "next_reference_group": "D3_0900_BUYINGTHEFARM",
+  "next_unit_count": 36,
+  "remaining_group_summary": [
+    {
+      "reference_group": "D3_0900_BUYINGTHEFARM",
+      "remaining_unique_units": 36
+    },
+    {
+      "reference_group": "D4_1800_PURPLEHEARTLANE",
+      "remaining_unique_units": 51
+    },
+    {
+      "reference_group": "D5_0615_COLESCHARGE",
+      "remaining_unique_units": 48
+    },
+    {
+      "reference_group": "D6_0500_PUSHINTOCARENTAN",
+      "remaining_unique_units": 43
+    },
+    {
+      "reference_group": "D6_1200_CHURCHTOWER",
+      "remaining_unique_units": 63
+    },
+    {
+      "reference_group": "D7_1400_NOBETTERSPOT",
+      "remaining_unique_units": 75
+    },
+    {
+      "reference_group": "D07_1500_BLOODYGULCH",
+      "remaining_unique_units": 32
+    },
+    {
+      "reference_group": "D7_1500_NOBETTERSPOT",
+      "remaining_unique_units": 75
+    },
+    {
+      "reference_group": "D8_0930_VICTORYINCARENTAN",
+      "remaining_unique_units": 31
+    },
+    {
+      "reference_group": "D08_1030_CLOSEQUARTERS",
+      "remaining_unique_units": 35
+    },
+    {
+      "reference_group": "D09_0800_BAUPTE",
+      "remaining_unique_units": 46
+    },
+    {
+      "reference_group": "D10_0600_RUNOFTHEMILL",
+      "remaining_unique_units": 51
+    },
+    {
+      "reference_group": "D10_0801_THEALLAMERICANS",
+      "remaining_unique_units": 25
+    },
+    {
+      "reference_group": "D10_0802_THEALLAMERICANS",
+      "remaining_unique_units": 41
+    },
+    {
+      "reference_group": "D15_1130_BOOKENDS",
+      "remaining_unique_units": 44
+    },
+    {
+      "reference_group": "D15_1230_BOOKENDS2",
+      "remaining_unique_units": 29
+    },
+    {
+      "reference_group": "D15_1300_BOOKENDS4",
+      "remaining_unique_units": 25
+    },
+    {
+      "reference_group": "D15_1330_BOOKENDS3",
+      "remaining_unique_units": 29
+    }
+  ],
+  "master_sha256": "a393d702c285b4ed69751c4448d256d673b9f1e4ecba16ca4debbb94f0614c51",
+  "next_batch_sha256": "39f458ba176d6fc351cd27fc4e9eca3fbe005ec1d642cf443c3cd39e6d293776",
+  "iso_modified": false,
+  "movie_validation_resumed": false
+}

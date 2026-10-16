@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-13T15:23:18.9523840+09:00",
+  "success": false,
+  "child_pid": 30528,
+  "child_exit_code": null,
+  "ppsspp_pid": 31528,
+  "ppsspp_still_running": true,
+  "phase_at_last_poll": "complete",
+  "child_done_marker": true,
+  "screenshot_count": 1,
+  "supervisor_error": "",
+  "note": "Child exit code 0 alone never indicates success",
+  "ppsspp_was_not_killed_by_launcher": true
+}

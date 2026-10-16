@@ -1,0 +1,88 @@
+{
+  "stage": 15,
+  "purpose": "expanded atlas prototype: append an independent Hangul bitmap without replacing existing Latin glyphs",
+  "ppsspp_exe": "LOCAL_PATH",
+  "iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "append_config": "PROJECT_ROOT\\analysis\\stage15_expanded_atlas\\stage15_append.ini",
+  "test_codepoint": "U+D55C",
+  "expected_visual": "한한한한한 while Skirmish/Options/Profile remain visually normal",
+  "renderer_function": "0x08C7F2FC",
+  "glyph_lookup_instruction": "0x08C7F35C",
+  "confirmed_font_object_layout": {
+    "glyph_count_u16": "+0x50",
+    "glyph_pointer_u32": "+0x54",
+    "page_table": "+0x58",
+    "glyph_record_size": 24
+  },
+  "stage14_new_glyph_index": 151,
+  "stage14_new_glyph_count": 152,
+  "stage14_uses_existing_U21_page": false,
+  "replacement_texture_dir": "LOCAL_PATH",
+  "replacement_textures": [
+    "0857ff40f65c4402a4ab474d.png",
+    "08583f8013cdbd38892cdd5d.png"
+  ],
+  "stage15_preserves_original_latin_atlas": true,
+  "stage15_appended_bitmap": "U+D55C 한 in bottom half of expanded atlas",
+  "pid": 27960,
+  "psp_base": "0x000001F8180A0000",
+  "menu_detected": true,
+  "fonts": [
+    {
+      "font": "TMR18",
+      "font_object": "0x0972385C",
+      "page_table": "0x097238B4",
+      "old_glyph_count": 151,
+      "new_glyph_count": 152,
+      "old_glyph_ptr": "0x09723FD8",
+      "new_glyph_ptr": "0x09E7E000",
+      "new_record_index": 151,
+      "new_record_addr": "0x09E7EE28",
+      "new_record_codepoint": "U+D55C",
+      "old_texture_height": 256,
+      "replacement_texture_height": 512,
+      "existing_record_v_scale": 0.5,
+      "new_uv": [
+        0.00390625,
+        0.5009765625,
+        0.13671875,
+        0.5322265625
+      ],
+      "new_D5_page": "0x09E7F000",
+      "D55C_map_value": 151,
+      "scratch": "0x09E7E000"
+    },
+    {
+      "font": "AB18",
+      "font_object": "0x0972524C",
+      "page_table": "0x097252A4",
+      "old_glyph_count": 151,
+      "new_glyph_count": 152,
+      "old_glyph_ptr": "0x097256E0",
+      "new_glyph_ptr": "0x09E7C000",
+      "new_record_index": 151,
+      "new_record_addr": "0x09E7CE28",
+      "new_record_codepoint": "U+D55C",
+      "old_texture_height": 512,
+      "replacement_texture_height": 1024,
+      "existing_record_v_scale": 0.5,
+      "new_uv": [
+        0.00390625,
+        0.50048828125,
+        0.15234375,
+        0.51904296875
+      ],
+      "new_D5_page": "0x09E7D000",
+      "D55C_map_value": 151,
+      "scratch": "0x09E7C000"
+    }
+  ],
+  "ram_patch_verified": true,
+  "screenshot_before": "PROJECT_ROOT\\analysis\\stage15_expanded_atlas\\stage15_before.png",
+  "screenshot_after": "PROJECT_ROOT\\analysis\\stage15_expanded_atlas\\stage15_after.png",
+  "completed": true,
+  "restore_errors": [],
+  "ram_restored": true,
+  "texture_restore_errors": [],
+  "texture_replacements_restored": true
+}

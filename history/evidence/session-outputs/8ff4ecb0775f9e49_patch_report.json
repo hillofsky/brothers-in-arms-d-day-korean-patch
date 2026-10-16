@@ -1,0 +1,23 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE43Q_HINT_HEIGHT_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STAGE43S_TITLE_PROMPT_FIX.iso",
+  "fixed_file": "ON_MEMU.DSL and equivalent ON_MEMU.DSX",
+  "relocation_offset": "0x169e12",
+  "old_entry": [
+    "0x40006580",
+    "0x200",
+    "0x41419020"
+  ],
+  "new_entry": [
+    "0x40006580",
+    "0x200",
+    "0xf6782fe0"
+  ],
+  "atlas_runtime": "0x987d020",
+  "previous_blank_atlas_runtime": "0x098BEA60",
+  "translation": "START 버튼을 누르십시오",
+  "prx_and_campaign_and_font_metadata_unchanged": true,
+  "chapter_restart_and_hint_height_fixes_preserved": true,
+  "iso_readback_verified": true,
+  "runtime_verified": false
+}

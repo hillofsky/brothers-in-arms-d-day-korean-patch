@@ -1,0 +1,224 @@
+{
+  "stage": "40I",
+  "purpose": "Trace the actual runtime/source location for the four controller strings after Stage40H proved that repointing loose LOCALIZE.INT does not affect RAM.",
+  "stage40h_conclusion": "All four encoding variants rebuilt and read back correctly, but none of the four Korean probes appeared anywhere in 32 MiB RAM. The PPSSPP log only showed LOCALIZE.INT in directory enumeration; there were zero sceIoOpen() calls naming any .INT file.",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40F_ON_MEMU_RESIDENT_MASS_TEST.iso",
+  "iso_file_count": 1147,
+  "raw_iso_hit_count": 37,
+  "mdi_decoded_hit_count": 0,
+  "runtime": {
+    "pid": 21344,
+    "stages": [
+      {
+        "stage": "main_menu",
+        "navigation": [
+          {
+            "button": "start",
+            "ok": true
+          }
+        ],
+        "hits": {
+          "BIA-00514:key_ascii": [],
+          "BIA-00514:key_utf16le": [],
+          "BIA-00514:english_ascii": [],
+          "BIA-00514:english_utf16le": [],
+          "BIA-00514:korean_utf8": [],
+          "BIA-00514:korean_utf16le": [],
+          "BIA-00514:korean_cp949": [],
+          "BIA-00514:korean_widened_utf8_u16": [],
+          "BIA-00514:korean_widened_cp949_u16": [],
+          "BIA-00625:key_ascii": [],
+          "BIA-00625:key_utf16le": [],
+          "BIA-00625:english_ascii": [],
+          "BIA-00625:english_utf16le": [],
+          "BIA-00625:korean_utf8": [],
+          "BIA-00625:korean_utf16le": [],
+          "BIA-00625:korean_cp949": [],
+          "BIA-00625:korean_widened_utf8_u16": [],
+          "BIA-00625:korean_widened_cp949_u16": [],
+          "BIA-01052:key_ascii": [],
+          "BIA-01052:key_utf16le": [],
+          "BIA-01052:english_ascii": [],
+          "BIA-01052:english_utf16le": [],
+          "BIA-01052:korean_utf8": [],
+          "BIA-01052:korean_utf16le": [],
+          "BIA-01052:korean_cp949": [],
+          "BIA-01052:korean_widened_utf8_u16": [],
+          "BIA-01052:korean_widened_cp949_u16": [],
+          "BIA-01054:key_ascii": [],
+          "BIA-01054:key_utf16le": [],
+          "BIA-01054:english_ascii": [],
+          "BIA-01054:english_utf16le": [],
+          "BIA-01054:korean_utf8": [],
+          "BIA-01054:korean_utf16le": [],
+          "BIA-01054:korean_cp949": [],
+          "BIA-01054:korean_widened_utf8_u16": [],
+          "BIA-01054:korean_widened_cp949_u16": []
+        }
+      },
+      {
+        "stage": "options_menu",
+        "navigation": [
+          {
+            "button": "start",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "cross",
+            "ok": true
+          }
+        ],
+        "hits": {
+          "BIA-00514:key_ascii": [],
+          "BIA-00514:key_utf16le": [],
+          "BIA-00514:english_ascii": [],
+          "BIA-00514:english_utf16le": [],
+          "BIA-00514:korean_utf8": [],
+          "BIA-00514:korean_utf16le": [],
+          "BIA-00514:korean_cp949": [],
+          "BIA-00514:korean_widened_utf8_u16": [],
+          "BIA-00514:korean_widened_cp949_u16": [],
+          "BIA-00625:key_ascii": [],
+          "BIA-00625:key_utf16le": [],
+          "BIA-00625:english_ascii": [],
+          "BIA-00625:english_utf16le": [],
+          "BIA-00625:korean_utf8": [],
+          "BIA-00625:korean_utf16le": [],
+          "BIA-00625:korean_cp949": [],
+          "BIA-00625:korean_widened_utf8_u16": [],
+          "BIA-00625:korean_widened_cp949_u16": [],
+          "BIA-01052:key_ascii": [],
+          "BIA-01052:key_utf16le": [],
+          "BIA-01052:english_ascii": [],
+          "BIA-01052:english_utf16le": [],
+          "BIA-01052:korean_utf8": [],
+          "BIA-01052:korean_utf16le": [],
+          "BIA-01052:korean_cp949": [],
+          "BIA-01052:korean_widened_utf8_u16": [],
+          "BIA-01052:korean_widened_cp949_u16": [],
+          "BIA-01054:key_ascii": [],
+          "BIA-01054:key_utf16le": [],
+          "BIA-01054:english_ascii": [],
+          "BIA-01054:english_utf16le": [],
+          "BIA-01054:korean_utf8": [],
+          "BIA-01054:korean_utf16le": [],
+          "BIA-01054:korean_cp949": [],
+          "BIA-01054:korean_widened_utf8_u16": [],
+          "BIA-01054:korean_widened_cp949_u16": []
+        }
+      },
+      {
+        "stage": "options_first_submenu",
+        "navigation": [
+          {
+            "button": "start",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "down",
+            "ok": true
+          },
+          {
+            "button": "cross",
+            "ok": true
+          },
+          {
+            "button": "cross",
+            "ok": true
+          }
+        ],
+        "hits": {
+          "BIA-00514:key_ascii": [],
+          "BIA-00514:key_utf16le": [],
+          "BIA-00514:english_ascii": [],
+          "BIA-00514:english_utf16le": [],
+          "BIA-00514:korean_utf8": [],
+          "BIA-00514:korean_utf16le": [],
+          "BIA-00514:korean_cp949": [],
+          "BIA-00514:korean_widened_utf8_u16": [],
+          "BIA-00514:korean_widened_cp949_u16": [],
+          "BIA-00625:key_ascii": [],
+          "BIA-00625:key_utf16le": [],
+          "BIA-00625:english_ascii": [],
+          "BIA-00625:english_utf16le": [],
+          "BIA-00625:korean_utf8": [],
+          "BIA-00625:korean_utf16le": [],
+          "BIA-00625:korean_cp949": [],
+          "BIA-00625:korean_widened_utf8_u16": [],
+          "BIA-00625:korean_widened_cp949_u16": [],
+          "BIA-01052:key_ascii": [],
+          "BIA-01052:key_utf16le": [],
+          "BIA-01052:english_ascii": [],
+          "BIA-01052:english_utf16le": [],
+          "BIA-01052:korean_utf8": [],
+          "BIA-01052:korean_utf16le": [],
+          "BIA-01052:korean_cp949": [],
+          "BIA-01052:korean_widened_utf8_u16": [],
+          "BIA-01052:korean_widened_cp949_u16": [],
+          "BIA-01054:key_ascii": [],
+          "BIA-01054:key_utf16le": [],
+          "BIA-01054:english_ascii": [],
+          "BIA-01054:english_utf16le": [],
+          "BIA-01054:korean_utf8": [],
+          "BIA-01054:korean_utf16le": [],
+          "BIA-01054:korean_cp949": [],
+          "BIA-01054:korean_widened_utf8_u16": [],
+          "BIA-01054:korean_widened_cp949_u16": []
+        }
+      }
+    ],
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "cpu_ready": {
+      "ready": true,
+      "attempts": 1,
+      "status": {
+        "event": "cpu.status",
+        "ticket": 1001,
+        "stepping": false,
+        "paused": false,
+        "pc": 134217728,
+        "ticks": 51885940
+      },
+      "probe": "e410330e"
+    },
+    "renderer_jal": {
+      "actual": "e410330e",
+      "expected": "e410330e"
+    },
+    "menu_resource": {
+      "opened": true,
+      "startup_start_presses": 9
+    },
+    "font": {
+      "glyph_count": 847,
+      "glyph_count_ok": true,
+      "glyph_ptr": "0x098F5020",
+      "glyph_ptr_ok": true
+    },
+    "ppsspp_closed": true
+  },
+  "exception": "name 'defaultdict' is not defined",
+  "traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\bia_stage40i_tools\\bia_stage40i_actual_resource_trace.py\", line 914, in main\n    lbn_rows = parse_lbn_log(\n  File \"PROJECT_ROOT\\bia_stage40i_tools\\bia_stage40i_actual_resource_trace.py\", line 743, in parse_lbn_log\n    file_by_lba = defaultdict(list)\nNameError: name 'defaultdict' is not defined\n",
+  "completed": false,
+  "recovery": {
+    "postprocessing_completed": true,
+    "runtime_rerun": false,
+    "original_exception": "name 'defaultdict' is not defined",
+    "lbn_records": 9,
+    "unmatched_lbn_records": 0,
+    "note": "Recovered existing trace; screen navigation and absence of probes do not establish that remaining entries are unused."
+  }
+}

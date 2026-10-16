@@ -1,0 +1,28 @@
+{
+  "step": "STEP_070_FIX3",
+  "status": "IN_PROGRESS",
+  "port": 26420,
+  "runtime_verified": false,
+  "route_discovery_only": true,
+  "debugger_version_response": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "last_game_status": {
+    "event": "game.status",
+    "ticket": 2,
+    "game": {
+      "id": "ULUS10193",
+      "version": "1.01",
+      "title": "Brothers in Arms D-Day"
+    },
+    "paused": false
+  },
+  "game": {
+    "id": "ULUS10193",
+    "version": "1.01",
+    "title": "Brothers in Arms D-Day"
+  }
+}

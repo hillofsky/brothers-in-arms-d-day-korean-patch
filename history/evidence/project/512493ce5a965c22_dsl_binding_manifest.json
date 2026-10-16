@@ -1,0 +1,423 @@
+{
+  "step": "STEP_079",
+  "source_evidence": "STEP076 complete 32 DSL profiles+STEP078 5 raw DSL verification",
+  "status": "STRUCTURALLY_UNIQUE_NOT_RUNTIME_VERIFIED",
+  "bindings": {
+    "D07_1501.MDI": {
+      "relocation_offset": 2832286,
+      "original_relocation": [
+        1073922752,
+        128,
+        1074955776
+      ],
+      "expected_gpu_texsize_offset": 4289688,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D08_1030.MDI": {
+      "relocation_offset": 2490550,
+      "original_relocation": [
+        1073897984,
+        128,
+        1074901440
+      ],
+      "expected_gpu_texsize_offset": 3922888,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D09_0800.MDI": {
+      "relocation_offset": 3038026,
+      "original_relocation": [
+        1073918912,
+        128,
+        1074955328
+      ],
+      "expected_gpu_texsize_offset": 4491640,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D0_0130_.MDI": {
+      "relocation_offset": 3269294,
+      "original_relocation": [
+        1074090304,
+        128,
+        1074850240
+      ],
+      "expected_gpu_texsize_offset": 4902628,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D0_0700_.MDI": {
+      "relocation_offset": 2192382,
+      "original_relocation": [
+        1073864000,
+        128,
+        1074834048
+      ],
+      "expected_gpu_texsize_offset": 3338244,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D0_1015_.MDI": {
+      "relocation_offset": 2021402,
+      "original_relocation": [
+        1073897920,
+        128,
+        1074797120
+      ],
+      "expected_gpu_texsize_offset": 3375920,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D10_0600.MDI": {
+      "relocation_offset": 2610726,
+      "original_relocation": [
+        1073904704,
+        128,
+        1074888640
+      ],
+      "expected_gpu_texsize_offset": 4049104,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D10_0801.MDI": {
+      "relocation_offset": 2396902,
+      "original_relocation": [
+        1073921024,
+        128,
+        1074833408
+      ],
+      "expected_gpu_texsize_offset": 3853128,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D10_0802.MDI": {
+      "relocation_offset": 2335194,
+      "original_relocation": [
+        1073919168,
+        128,
+        1074902144
+      ],
+      "expected_gpu_texsize_offset": 3789228,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D1_0900_.MDI": {
+      "relocation_offset": 2508950,
+      "original_relocation": [
+        1073870016,
+        128,
+        1074943488
+      ],
+      "expected_gpu_texsize_offset": 3910176,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D1_1830_.MDI": {
+      "relocation_offset": 2545466,
+      "original_relocation": [
+        1073886720,
+        128,
+        1074934848
+      ],
+      "expected_gpu_texsize_offset": 3963908,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D2_0630_.MDI": {
+      "relocation_offset": 2138382,
+      "original_relocation": [
+        1073857152,
+        128,
+        1074827648
+      ],
+      "expected_gpu_texsize_offset": 3513940,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D2_1000_.MDI": {
+      "relocation_offset": 2037406,
+      "original_relocation": [
+        1073859584,
+        128,
+        1074807680
+      ],
+      "expected_gpu_texsize_offset": 3040588,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D3_0900_.MDI": {
+      "relocation_offset": 2689670,
+      "original_relocation": [
+        1073859520,
+        128,
+        1075036032
+      ],
+      "expected_gpu_texsize_offset": 3840472,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D4_1800_.MDI": {
+      "relocation_offset": 2358362,
+      "original_relocation": [
+        1073875264,
+        128,
+        1074878144
+      ],
+      "expected_gpu_texsize_offset": 3503212,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D5_0615_.MDI": {
+      "relocation_offset": 2444102,
+      "original_relocation": [
+        1073879424,
+        128,
+        1074871296
+      ],
+      "expected_gpu_texsize_offset": 3839380,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D6_0500_.MDI": {
+      "relocation_offset": 2246838,
+      "original_relocation": [
+        1073852928,
+        128,
+        1074841728
+      ],
+      "expected_gpu_texsize_offset": 3265976,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D6_1200_.MDI": {
+      "relocation_offset": 2234722,
+      "original_relocation": [
+        1073830336,
+        128,
+        1074868672
+      ],
+      "expected_gpu_texsize_offset": 3251980,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D7_1400_.MDI": {
+      "relocation_offset": 2746838,
+      "original_relocation": [
+        1073845184,
+        128,
+        1074996992
+      ],
+      "expected_gpu_texsize_offset": 3493720,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "D7_1500_.MDI": {
+      "relocation_offset": 2564510,
+      "original_relocation": [
+        1073864384,
+        128,
+        1075074304
+      ],
+      "expected_gpu_texsize_offset": 3543504,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_DE_CHUR.MDI": {
+      "relocation_offset": 1937366,
+      "original_relocation": [
+        1073859328,
+        128,
+        1074744256
+      ],
+      "expected_gpu_texsize_offset": 2784968,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_DE_CITY.MDI": {
+      "relocation_offset": 2285830,
+      "original_relocation": [
+        1073918080,
+        128,
+        1074875456
+      ],
+      "expected_gpu_texsize_offset": 3740120,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_DE_DDAY.MDI": {
+      "relocation_offset": 1933882,
+      "original_relocation": [
+        1073937536,
+        128,
+        1074689920
+      ],
+      "expected_gpu_texsize_offset": 3232552,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_DE_HAML.MDI": {
+      "relocation_offset": 2084046,
+      "original_relocation": [
+        1073861952,
+        128,
+        1074757440
+      ],
+      "expected_gpu_texsize_offset": 3476968,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_DE_HOLD.MDI": {
+      "relocation_offset": 2095322,
+      "original_relocation": [
+        1073903488,
+        128,
+        1074771008
+      ],
+      "expected_gpu_texsize_offset": 3366044,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_DE_WARE.MDI": {
+      "relocation_offset": 2034470,
+      "original_relocation": [
+        1073873216,
+        128,
+        1074787840
+      ],
+      "expected_gpu_texsize_offset": 3293812,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_US_BROK.MDI": {
+      "relocation_offset": 1979694,
+      "original_relocation": [
+        1073886144,
+        128,
+        1074729472
+      ],
+      "expected_gpu_texsize_offset": 3134156,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_US_BUNK.MDI": {
+      "relocation_offset": 2004426,
+      "original_relocation": [
+        1073856896,
+        128,
+        1074765696
+      ],
+      "expected_gpu_texsize_offset": 3352836,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_US_CROS.MDI": {
+      "relocation_offset": 2034574,
+      "original_relocation": [
+        1073894784,
+        128,
+        1074774144
+      ],
+      "expected_gpu_texsize_offset": 3287920,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_US_RAIL.MDI": {
+      "relocation_offset": 2025566,
+      "original_relocation": [
+        1073878400,
+        128,
+        1074753280
+      ],
+      "expected_gpu_texsize_offset": 3428244,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_US_SNIP.MDI": {
+      "relocation_offset": 2034542,
+      "original_relocation": [
+        1073888512,
+        128,
+        1074811520
+      ],
+      "expected_gpu_texsize_offset": 3455168,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    },
+    "SKR_US_TAKI.MDI": {
+      "relocation_offset": 1981878,
+      "original_relocation": [
+        1073891328,
+        128,
+        1074744064
+      ],
+      "expected_gpu_texsize_offset": 3094300,
+      "expected_gpu_texsize_before": 3087009799,
+      "relocation_structural_rule": "preceded by one 0x80 record, followed by exactly eight contiguous 0x10 records with ascending target pointers",
+      "gpu_texsize_rule": "last original B8000807 with A0/A8 input commands; ranked reference-context #1",
+      "source_evidence": "STEP_076 ranked relocation group neighborhood and ranked texsize commands"
+    }
+  }
+}

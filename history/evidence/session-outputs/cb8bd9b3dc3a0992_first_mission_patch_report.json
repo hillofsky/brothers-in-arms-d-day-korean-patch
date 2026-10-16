@@ -1,0 +1,47 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE40R_CAMPAIGN_RENDERER_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40T_CAMPAIGN_FONT_ISOLATION_TEST.iso",
+  "mission_mdi_base": "0x8e03020",
+  "font_objects": [
+    {
+      "runtime": "0x9c1af84",
+      "count": 847,
+      "glyph_pointer": "0x9df3020"
+    },
+    {
+      "runtime": "0x9c1d11c",
+      "count": 847,
+      "glyph_pointer": "0x9df3020"
+    }
+  ],
+  "atlas_runtime": "0x9d7b020",
+  "atlas_bytes": 131072,
+  "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+  "font_metadata_runtime": "0x9df3020",
+  "font_metadata_bytes": 43104,
+  "payloads": [],
+  "metadata_actions": 0,
+  "unique_units": 0,
+  "unique_payloads": 0,
+  "changed_streams": [
+    30,
+    33,
+    34
+  ],
+  "DSL_relocation": {
+    "offset": "0x31e2ae",
+    "old": [
+      "0x40055140",
+      "0x80",
+      "0x4010e9c0"
+    ],
+    "new": [
+      "0x40055140",
+      "0x200",
+      "0xf6284fe0"
+    ],
+    "address_mode": "negative_absolute"
+  },
+  "iso_readback_ok": true,
+  "runtime_verified": false
+}

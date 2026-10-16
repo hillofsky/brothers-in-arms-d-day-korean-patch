@@ -1,0 +1,3084 @@
+{
+  "stage": "40Z-fix3",
+  "purpose": "Follow the actually observed Story submenu state: Continue is disabled, New Game is selected, so enter New Game, prove the difficulty menu, then load D0_0130 before running the two-pause input diagnosis.",
+  "previous_fix2_result": {
+    "selectable_main_menu_proven": true,
+    "story_submenu_proven": true,
+    "actual_story_submenu_state": "Continue was greyed out; New Game Start was selected.",
+    "fix2_error": "The harness nevertheless pressed Cross and then waited for BIAOFF as if Continue had been selected. It was actually sitting on the difficulty-selection screen, so the campaign module never loaded.",
+    "stage40y_regression_proven": false
+  },
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "modifies_iso": false,
+  "ppsspp_pid": 12000,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "cpu_ready": {
+    "ready": true,
+    "attempts": 3,
+    "status": {
+      "event": "cpu.status",
+      "ticket": 1005,
+      "stepping": false,
+      "paused": false,
+      "pc": 142622792,
+      "ticks": 25231
+    }
+  },
+  "title_story_preload": {
+    "ok": true,
+    "arm": {
+      "ok": true,
+      "response": {
+        "event": "cpu.breakpoint.add",
+        "ticket": 1008
+      }
+    },
+    "events": [
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1014
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1015
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1016
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1085
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1086
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1087
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1153
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1154
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1155
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1224
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1225
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1226
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1295
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1296
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1297
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1365
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1366
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1367
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1433
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1434
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1435
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1504
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1505
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1506
+          }
+        }
+      ],
+      [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1575
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1576
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 1577
+          }
+        }
+      ]
+    ],
+    "capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\title_story_preload_04000000.png",
+          "visible_sha1": "ff4946b1b63775d791f5453653db24bd0b4e3be8",
+          "underline": {
+            "found": true,
+            "row": 225,
+            "red_pixels": 88
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\title_story_preload_04044000.png",
+          "visible_sha1": "ff4946b1b63775d791f5453653db24bd0b4e3be8",
+          "underline": {
+            "found": true,
+            "row": 225,
+            "red_pixels": 88
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 225,
+        "red_pixels": 88
+      }
+    }
+  },
+  "selectable_main_menu": {
+    "ok": true,
+    "records": [
+      {
+        "attempt": 1,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 1610
+          }
+        },
+        "start": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1611
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1612
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1613
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\selectable_menu_try_1_04000000.png",
+              "visible_sha1": "831e8cdfa1b2fa90b354addbf7ebbd2b1a4267c0",
+              "underline": {
+                "found": true,
+                "row": 126,
+                "red_pixels": 20
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\selectable_menu_try_1_04044000.png",
+              "visible_sha1": "99962180c3302afdb0bf83422d854261136789e0",
+              "underline": {
+                "found": true,
+                "row": 92,
+                "red_pixels": 52
+              }
+            }
+          ],
+          "best_address": "0x04044000",
+          "underline": {
+            "found": true,
+            "row": 92,
+            "red_pixels": 52
+          }
+        }
+      },
+      {
+        "attempt": 2,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 1902
+          }
+        },
+        "start": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1903
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1904
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 1905
+            }
+          }
+        ],
+        "hit": true,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\selectable_main_menu_04000000.png",
+              "visible_sha1": "99962180c3302afdb0bf83422d854261136789e0",
+              "underline": {
+                "found": true,
+                "row": 92,
+                "red_pixels": 52
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\selectable_main_menu_04044000.png",
+              "visible_sha1": "99962180c3302afdb0bf83422d854261136789e0",
+              "underline": {
+                "found": true,
+                "row": 92,
+                "red_pixels": 52
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 92,
+            "red_pixels": 52
+          }
+        }
+      }
+    ]
+  },
+  "story_new_game": {
+    "story_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1911
+        }
+      },
+      {
+        "phase": "press",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1912
+        }
+      },
+      {
+        "phase": "release",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1913
+        }
+      }
+    ],
+    "continue_renderer_hit": true,
+    "story_submenu_capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\story_submenu_04000000.png",
+          "visible_sha1": "97983f44830766ea73a89d5bef29785349511a4e",
+          "underline": {
+            "found": true,
+            "row": 152,
+            "red_pixels": 100
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\story_submenu_04044000.png",
+          "visible_sha1": "97983f44830766ea73a89d5bef29785349511a4e",
+          "underline": {
+            "found": true,
+            "row": 152,
+            "red_pixels": 100
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 152,
+        "red_pixels": 100
+      }
+    },
+    "observed_submenu_selection": {
+      "underline": {
+        "found": true,
+        "row": 152,
+        "red_pixels": 100
+      },
+      "new_game_selected_by_known_layout": true
+    },
+    "new_game_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1924
+        }
+      },
+      {
+        "phase": "press",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1925
+        }
+      },
+      {
+        "phase": "release",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1926
+        }
+      }
+    ],
+    "difficulty_hit_first_try": true,
+    "difficulty_renderer_hit": true,
+    "difficulty_capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\difficulty_menu_04000000.png",
+          "visible_sha1": "7782023266f995195fbb61f9d17e390b4e7152cb",
+          "underline": {
+            "found": true,
+            "row": 105,
+            "red_pixels": 34
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\difficulty_menu_04044000.png",
+          "visible_sha1": "7782023266f995195fbb61f9d17e390b4e7152cb",
+          "underline": {
+            "found": true,
+            "row": 105,
+            "red_pixels": 34
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 105,
+        "red_pixels": 34
+      }
+    },
+    "difficulty_selection_policy": "Cross current default row; difficulty is irrelevant to the pause-input diagnostic and is not claimed as Normal.",
+    "difficulty_cross": [
+      {
+        "phase": "neutral",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1932
+        }
+      },
+      {
+        "phase": "press",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1933
+        }
+      },
+      {
+        "phase": "release",
+        "ok": true,
+        "response": {
+          "event": "input.buttons.send",
+          "ticket": 1934
+        }
+      }
+    ]
+  },
+  "campaign_module": {
+    "ok": true,
+    "word": "0x0E327D1A",
+    "samples": [
+      "0x14A00007",
+      "0x0E327D1A"
+    ],
+    "start_pulse_count": 1
+  },
+  "first_mission_resources": {
+    "ok": true,
+    "final": {
+      "fonts": [
+        {
+          "object": "0x09C1AF84",
+          "count": 847,
+          "ptr": "0x09E6B020",
+          "ok": true
+        },
+        {
+          "object": "0x09C1D11C",
+          "count": 847,
+          "ptr": "0x09E6B020",
+          "ok": true
+        }
+      ],
+      "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "atlas_ok": true,
+      "pause_payload_hex": "ecb195ed84b020eab384ec868d00",
+      "pause_payload_ok": true,
+      "ready": true
+    },
+    "samples": [
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      },
+      {
+        "fonts": [
+          {
+            "object": "0x09C1AF84",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          },
+          {
+            "object": "0x09C1D11C",
+            "count": 0,
+            "ptr": "0x00000000",
+            "ok": false
+          }
+        ],
+        "atlas_sha1": "67dfd19f3eb3649d6f3f6631e44d0bd36b8d8d19",
+        "atlas_ok": false,
+        "pause_payload_hex": "0000000000000000000000000000",
+        "pause_payload_ok": false,
+        "ready": false
+      }
+    ],
+    "start_pulse_count": 176,
+    "capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_mission_resources_ready_04000000.png",
+          "visible_sha1": "b0dc5dd9d9088f8ad7cca6334052735292e6906d",
+          "underline": {
+            "found": true,
+            "row": 124,
+            "red_pixels": 69
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_mission_resources_ready_04044000.png",
+          "visible_sha1": "b0dc5dd9d9088f8ad7cca6334052735292e6906d",
+          "underline": {
+            "found": true,
+            "row": 124,
+            "red_pixels": 69
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 124,
+        "red_pixels": 69
+      }
+    }
+  },
+  "campaign_invariants": {
+    "renderer_call": {
+      "actual": "0x0E327D1A",
+      "expected": "0x0E327D1A"
+    },
+    "width_call1": {
+      "actual": "0x0E327D58",
+      "expected": "0x0E327D58"
+    },
+    "width_call2": {
+      "actual": "0x0E327D98",
+      "expected": "0x0E327D98"
+    },
+    "mission_state": {
+      "fonts": [
+        {
+          "object": "0x09C1AF84",
+          "count": 847,
+          "ptr": "0x09E6B020",
+          "ok": true
+        },
+        {
+          "object": "0x09C1D11C",
+          "count": 847,
+          "ptr": "0x09E6B020",
+          "ok": true
+        }
+      ],
+      "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+      "atlas_ok": true,
+      "pause_payload_hex": "ecb195ed84b020eab384ec868d00",
+      "pause_payload_ok": true,
+      "ready": true
+    },
+    "ok": true
+  },
+  "first_pause_open": {
+    "ok": true,
+    "records": [
+      {
+        "attempt": 1,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 3544
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3545
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3546
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3547
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_pause_try_1_04000000.png",
+              "visible_sha1": "42b6ff1e106bcb51d8a812c37f9fd6565eb30af2",
+              "underline": {
+                "found": true,
+                "row": 124,
+                "red_pixels": 193
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_pause_try_1_04044000.png",
+              "visible_sha1": "a0f72861af8e176a1fb761cf144aa8da0c3577d1",
+              "underline": {
+                "found": true,
+                "row": 124,
+                "red_pixels": 193
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 124,
+            "red_pixels": 193
+          }
+        }
+      },
+      {
+        "attempt": 2,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 3742
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3743
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3744
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3745
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_pause_try_2_04000000.png",
+              "visible_sha1": "26d405fb8373042286bc97dc8f24ea7fd9cb7e6d",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_pause_try_2_04044000.png",
+              "visible_sha1": "6348e07b603e1f74222a4be05478b11e08c7cb48",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": false,
+            "row": null,
+            "red_pixels": 0
+          }
+        }
+      },
+      {
+        "attempt": 3,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 3939
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3940
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3941
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 3942
+            }
+          }
+        ],
+        "hit": false,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_pause_try_3_04000000.png",
+              "visible_sha1": "dc5606cd6adb73341da46d44ed918f0ab62a1a08",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_pause_try_3_04044000.png",
+              "visible_sha1": "78d555d3e745834cbea2941f627e0ff28335a045",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": false,
+            "row": null,
+            "red_pixels": 0
+          }
+        }
+      },
+      {
+        "attempt": 4,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 4137
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4138
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4139
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4140
+            }
+          }
+        ],
+        "hit": true,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_pause_opened_04000000.png",
+              "visible_sha1": "8f88a393a5c36e134ebf12dd930efc2adddb76cf",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_pause_opened_04044000.png",
+              "visible_sha1": "8f88a393a5c36e134ebf12dd930efc2adddb76cf",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 71,
+            "red_pixels": 70
+          }
+        }
+      }
+    ]
+  },
+  "first_pause_down_methods": {
+    "working_method": {
+      "name": "legacy_duration_2",
+      "kind": "legacy",
+      "duration": 2
+    },
+    "attempts": [
+      {
+        "method": {
+          "name": "legacy_duration_2",
+          "kind": "legacy",
+          "duration": 2
+        },
+        "events": {
+          "ok": true,
+          "response": {
+            "event": "input.buttons.press",
+            "ticket": 4149
+          }
+        },
+        "before": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_legacy_duration_2_before_04000000.png",
+              "visible_sha1": "8f88a393a5c36e134ebf12dd930efc2adddb76cf",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_legacy_duration_2_before_04044000.png",
+              "visible_sha1": "8f88a393a5c36e134ebf12dd930efc2adddb76cf",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 71,
+            "red_pixels": 70
+          }
+        },
+        "after": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_legacy_duration_2_after_04000000.png",
+              "visible_sha1": "6cadc94e1d2fd601500dc9d7b380d212d4c0ca8a",
+              "underline": {
+                "found": true,
+                "row": 106,
+                "red_pixels": 32
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_legacy_duration_2_after_04044000.png",
+              "visible_sha1": "6cadc94e1d2fd601500dc9d7b380d212d4c0ca8a",
+              "underline": {
+                "found": true,
+                "row": 106,
+                "red_pixels": 32
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 106,
+            "red_pixels": 32
+          }
+        },
+        "moved": true
+      }
+    ]
+  },
+  "first_pause_reset": {
+    "ok": true,
+    "via": "up",
+    "capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_reset_up_04000000.png",
+          "visible_sha1": "8f88a393a5c36e134ebf12dd930efc2adddb76cf",
+          "underline": {
+            "found": true,
+            "row": 71,
+            "red_pixels": 70
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\first_reset_up_04044000.png",
+          "visible_sha1": "8f88a393a5c36e134ebf12dd930efc2adddb76cf",
+          "underline": {
+            "found": true,
+            "row": 71,
+            "red_pixels": 70
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 71,
+        "red_pixels": 70
+      }
+    }
+  },
+  "gameplay_before_turn": {
+    "buffers": [
+      {
+        "address": "0x04000000",
+        "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\gameplay_before_turn_04000000.png",
+        "visible_sha1": "b1b97682532ff1be27a781a29535c00bd29fe5c6",
+        "underline": {
+          "found": false,
+          "row": null,
+          "red_pixels": 0
+        }
+      },
+      {
+        "address": "0x04044000",
+        "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\gameplay_before_turn_04044000.png",
+        "visible_sha1": "00faeced1b5d65dfd4c17577d9949e7d4210fe9a",
+        "underline": {
+          "found": false,
+          "row": null,
+          "red_pixels": 0
+        }
+      }
+    ],
+    "best_address": "0x04000000",
+    "underline": {
+      "found": false,
+      "row": null,
+      "red_pixels": 0
+    }
+  },
+  "turn_input": [
+    {
+      "ok": true,
+      "response": {
+        "event": "input.analog.send",
+        "ticket": 4163
+      }
+    },
+    {
+      "ok": true,
+      "response": {
+        "event": "input.analog.send",
+        "ticket": 4164
+      }
+    }
+  ],
+  "gameplay_after_turn": {
+    "buffers": [
+      {
+        "address": "0x04000000",
+        "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\gameplay_after_turn_04000000.png",
+        "visible_sha1": "d5f2543b1a486a3d151008b66659520d9d5f0b63",
+        "underline": {
+          "found": false,
+          "row": null,
+          "red_pixels": 0
+        }
+      },
+      {
+        "address": "0x04044000",
+        "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\gameplay_after_turn_04044000.png",
+        "visible_sha1": "3eef2ad79f21005456d44c9545549577d23c6ff2",
+        "underline": {
+          "found": false,
+          "row": null,
+          "red_pixels": 0
+        }
+      }
+    ],
+    "best_address": "0x04000000",
+    "underline": {
+      "found": false,
+      "row": null,
+      "red_pixels": 0
+    }
+  },
+  "later_pause_open": {
+    "ok": true,
+    "records": [
+      {
+        "attempt": 1,
+        "arm": {
+          "ok": true,
+          "response": {
+            "event": "cpu.breakpoint.add",
+            "ticket": 4168
+          }
+        },
+        "input": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4169
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4170
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4171
+            }
+          }
+        ],
+        "hit": true,
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\later_pause_opened_04000000.png",
+              "visible_sha1": "655775d6f3319ea8a1bf2bd52e007cce058ecc20",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\later_pause_opened_04044000.png",
+              "visible_sha1": "655775d6f3319ea8a1bf2bd52e007cce058ecc20",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 71,
+            "red_pixels": 70
+          }
+        }
+      }
+    ]
+  },
+  "later_pause_down_methods": {
+    "working_method": {
+      "name": "legacy_duration_2",
+      "kind": "legacy",
+      "duration": 2
+    },
+    "attempts": [
+      {
+        "method": {
+          "name": "legacy_duration_2",
+          "kind": "legacy",
+          "duration": 2
+        },
+        "events": {
+          "ok": true,
+          "response": {
+            "event": "input.buttons.press",
+            "ticket": 4182
+          }
+        },
+        "before": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\later_legacy_duration_2_before_04000000.png",
+              "visible_sha1": "655775d6f3319ea8a1bf2bd52e007cce058ecc20",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\later_legacy_duration_2_before_04044000.png",
+              "visible_sha1": "655775d6f3319ea8a1bf2bd52e007cce058ecc20",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 71,
+            "red_pixels": 70
+          }
+        },
+        "after": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\later_legacy_duration_2_after_04000000.png",
+              "visible_sha1": "668c07678dd769ed03b4042d8adcc86a5e48bfd0",
+              "underline": {
+                "found": true,
+                "row": 106,
+                "red_pixels": 32
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\later_legacy_duration_2_after_04044000.png",
+              "visible_sha1": "668c07678dd769ed03b4042d8adcc86a5e48bfd0",
+              "underline": {
+                "found": true,
+                "row": 106,
+                "red_pixels": 32
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 106,
+            "red_pixels": 32
+          }
+        },
+        "moved": true
+      }
+    ]
+  },
+  "diagnosis": "The proven later pause accepts an explicit input method. The original stuck selection was debugger injection/timing/state related, not Stage40Y localization corruption.",
+  "later_pause_reset": {
+    "ok": true,
+    "via": "up",
+    "capture": {
+      "buffers": [
+        {
+          "address": "0x04000000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\later_reset_up_04000000.png",
+          "visible_sha1": "655775d6f3319ea8a1bf2bd52e007cce058ecc20",
+          "underline": {
+            "found": true,
+            "row": 71,
+            "red_pixels": 70
+          }
+        },
+        {
+          "address": "0x04044000",
+          "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\later_reset_up_04044000.png",
+          "visible_sha1": "655775d6f3319ea8a1bf2bd52e007cce058ecc20",
+          "underline": {
+            "found": true,
+            "row": 71,
+            "red_pixels": 70
+          }
+        }
+      ],
+      "best_address": "0x04000000",
+      "underline": {
+        "found": true,
+        "row": 71,
+        "red_pixels": 70
+      }
+    }
+  },
+  "exit_to_main_menu": {
+    "returned": false,
+    "navigation": [
+      {
+        "step": 1,
+        "events": {
+          "ok": true,
+          "response": {
+            "event": "input.buttons.press",
+            "ticket": 4192
+          }
+        },
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_down_1_04000000.png",
+              "visible_sha1": "668c07678dd769ed03b4042d8adcc86a5e48bfd0",
+              "underline": {
+                "found": true,
+                "row": 106,
+                "red_pixels": 32
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_down_1_04044000.png",
+              "visible_sha1": "668c07678dd769ed03b4042d8adcc86a5e48bfd0",
+              "underline": {
+                "found": true,
+                "row": 106,
+                "red_pixels": 32
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 106,
+            "red_pixels": 32
+          }
+        }
+      },
+      {
+        "step": 2,
+        "events": {
+          "ok": true,
+          "response": {
+            "event": "input.buttons.press",
+            "ticket": 4197
+          }
+        },
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_down_2_04000000.png",
+              "visible_sha1": "958900db345f09e65bc754892a9e97a8aa7e6c49",
+              "underline": {
+                "found": true,
+                "row": 176,
+                "red_pixels": 108
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_down_2_04044000.png",
+              "visible_sha1": "958900db345f09e65bc754892a9e97a8aa7e6c49",
+              "underline": {
+                "found": true,
+                "row": 176,
+                "red_pixels": 108
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 176,
+            "red_pixels": 108
+          }
+        }
+      },
+      {
+        "step": 3,
+        "events": {
+          "ok": true,
+          "response": {
+            "event": "input.buttons.press",
+            "ticket": 4202
+          }
+        },
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_down_3_04000000.png",
+              "visible_sha1": "110197431a5b6b820fcacd80cafdf9fa794f8e35",
+              "underline": {
+                "found": true,
+                "row": 211,
+                "red_pixels": 70
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_down_3_04044000.png",
+              "visible_sha1": "110197431a5b6b820fcacd80cafdf9fa794f8e35",
+              "underline": {
+                "found": true,
+                "row": 211,
+                "red_pixels": 70
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 211,
+            "red_pixels": 70
+          }
+        }
+      },
+      {
+        "step": 4,
+        "events": {
+          "ok": true,
+          "response": {
+            "event": "input.buttons.press",
+            "ticket": 4207
+          }
+        },
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_down_4_04000000.png",
+              "visible_sha1": "655775d6f3319ea8a1bf2bd52e007cce058ecc20",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_down_4_04044000.png",
+              "visible_sha1": "655775d6f3319ea8a1bf2bd52e007cce058ecc20",
+              "underline": {
+                "found": true,
+                "row": 71,
+                "red_pixels": 70
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": true,
+            "row": 71,
+            "red_pixels": 70
+          }
+        }
+      }
+    ],
+    "confirmation_open": {
+      "events": [
+        {
+          "phase": "neutral",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 4211
+          }
+        },
+        {
+          "phase": "press",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 4212
+          }
+        },
+        {
+          "phase": "release",
+          "ok": true,
+          "response": {
+            "event": "input.buttons.send",
+            "ticket": 4213
+          }
+        }
+      ],
+      "capture": {
+        "buffers": [
+          {
+            "address": "0x04000000",
+            "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_confirmation_04000000.png",
+            "visible_sha1": "2b007aaadf6eccc188d05003542f1b87906d116f",
+            "underline": {
+              "found": false,
+              "row": null,
+              "red_pixels": 0
+            }
+          },
+          {
+            "address": "0x04044000",
+            "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_confirmation_04044000.png",
+            "visible_sha1": "cf03b03da5dd96cac5c913d9cf2f01cad4202bc0",
+            "underline": {
+              "found": false,
+              "row": null,
+              "red_pixels": 0
+            }
+          }
+        ],
+        "best_address": "0x04000000",
+        "underline": {
+          "found": false,
+          "row": null,
+          "red_pixels": 0
+        }
+      }
+    },
+    "decisions": [
+      {
+        "decision": "default",
+        "moves": [],
+        "confirm": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4216
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4217
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4218
+            }
+          }
+        ],
+        "returned": {
+          "ok": false,
+          "module": {
+            "ok": false,
+            "samples": [
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0"
+            ]
+          }
+        },
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_default_04000000.png",
+              "visible_sha1": "46e36facff54d0427748265491f1ff0ce894ac09",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 1
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_default_04044000.png",
+              "visible_sha1": "cb460e904d87070bc949ec7a0011be39b245a992",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 1
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": false,
+            "row": null,
+            "red_pixels": 1
+          }
+        }
+      },
+      {
+        "decision": "down",
+        "moves": [
+          {
+            "button": "down",
+            "events": [
+              {
+                "phase": "neutral",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4308
+                }
+              },
+              {
+                "phase": "press",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4309
+                }
+              },
+              {
+                "phase": "release",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4310
+                }
+              }
+            ]
+          }
+        ],
+        "confirm": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4311
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4312
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4313
+            }
+          }
+        ],
+        "returned": {
+          "ok": false,
+          "module": {
+            "ok": false,
+            "samples": [
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0"
+            ]
+          }
+        },
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_down_04000000.png",
+              "visible_sha1": "2e050562a960bb82f557398d0dbc7da4e89dd166",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 1
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_down_04044000.png",
+              "visible_sha1": "e0ba26f46cd34e1a4df7ee7849251c5ff66f8679",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 2
+              }
+            }
+          ],
+          "best_address": "0x04044000",
+          "underline": {
+            "found": false,
+            "row": null,
+            "red_pixels": 2
+          }
+        }
+      },
+      {
+        "decision": "up",
+        "moves": [
+          {
+            "button": "up",
+            "events": [
+              {
+                "phase": "neutral",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4403
+                }
+              },
+              {
+                "phase": "press",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4404
+                }
+              },
+              {
+                "phase": "release",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4405
+                }
+              }
+            ]
+          }
+        ],
+        "confirm": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4406
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4407
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4408
+            }
+          }
+        ],
+        "returned": {
+          "ok": false,
+          "module": {
+            "ok": false,
+            "samples": [
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0"
+            ]
+          }
+        },
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_up_04000000.png",
+              "visible_sha1": "2092096aefd80ff6270c456bb71b14fa1bf77d36",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_up_04044000.png",
+              "visible_sha1": "5095628164ea66ee622c51ef550064f0b157f280",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": false,
+            "row": null,
+            "red_pixels": 0
+          }
+        }
+      },
+      {
+        "decision": "left",
+        "moves": [
+          {
+            "button": "left",
+            "events": [
+              {
+                "phase": "neutral",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4498
+                }
+              },
+              {
+                "phase": "press",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4499
+                }
+              },
+              {
+                "phase": "release",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4500
+                }
+              }
+            ]
+          }
+        ],
+        "confirm": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4501
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4502
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4503
+            }
+          }
+        ],
+        "returned": {
+          "ok": false,
+          "module": {
+            "ok": false,
+            "samples": [
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0"
+            ]
+          }
+        },
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_left_04000000.png",
+              "visible_sha1": "484dfb1cb2a5d7f09df8b4a197f82bba6ae000a7",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_left_04044000.png",
+              "visible_sha1": "52e9b2a797b8f602194f9ce9709e8dd3534b502c",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 1
+              }
+            }
+          ],
+          "best_address": "0x04044000",
+          "underline": {
+            "found": false,
+            "row": null,
+            "red_pixels": 1
+          }
+        }
+      },
+      {
+        "decision": "right",
+        "moves": [
+          {
+            "button": "right",
+            "events": [
+              {
+                "phase": "neutral",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4593
+                }
+              },
+              {
+                "phase": "press",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4594
+                }
+              },
+              {
+                "phase": "release",
+                "ok": true,
+                "response": {
+                  "event": "input.buttons.send",
+                  "ticket": 4595
+                }
+              }
+            ]
+          }
+        ],
+        "confirm": [
+          {
+            "phase": "neutral",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4596
+            }
+          },
+          {
+            "phase": "press",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4597
+            }
+          },
+          {
+            "phase": "release",
+            "ok": true,
+            "response": {
+              "event": "input.buttons.send",
+              "ticket": 4598
+            }
+          }
+        ],
+        "returned": {
+          "ok": false,
+          "module": {
+            "ok": false,
+            "samples": [
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0",
+              "0x24A5D0D0"
+            ]
+          }
+        },
+        "capture": {
+          "buffers": [
+            {
+              "address": "0x04000000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_right_04000000.png",
+              "visible_sha1": "1ef4906ca13a6e8623f1a8b2df504e4a3792a278",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            },
+            {
+              "address": "0x04044000",
+              "path": "PROJECT_ROOT\\analysis\\stage40z_fix3_pause_input\\chapter_end_after_right_04044000.png",
+              "visible_sha1": "e6c9c1082c4b7c57f53946261703ce319e222a68",
+              "underline": {
+                "found": false,
+                "row": null,
+                "red_pixels": 0
+              }
+            }
+          ],
+          "best_address": "0x04000000",
+          "underline": {
+            "found": false,
+            "row": null,
+            "red_pixels": 0
+          }
+        }
+      }
+    ]
+  },
+  "main_menu_returned": false,
+  "issue_resolved": false,
+  "completed": true,
+  "owned_ppsspp_closed": true
+}

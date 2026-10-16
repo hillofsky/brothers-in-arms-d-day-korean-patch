@@ -1,0 +1,674 @@
+{
+  "stage": "41B_FIX3",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "purpose": "Restore Stage41A-style fully automatic entry, then trace the dedicated ST1/Bink subtitle reader.",
+  "started": "2026-10-06 20:37:16",
+  "version": {
+    "event": "version",
+    "ticket": 3001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "auto_navigation": {
+    "steps": [],
+    "logo": {
+      "ended": true,
+      "samples": [
+        {
+          "t": 0.0,
+          "active": false
+        },
+        {
+          "t": 0.74,
+          "active": false
+        },
+        {
+          "t": 1.47,
+          "active": true
+        },
+        {
+          "t": 2.19,
+          "active": true
+        },
+        {
+          "t": 2.92,
+          "active": true
+        },
+        {
+          "t": 3.64,
+          "active": true
+        },
+        {
+          "t": 4.36,
+          "active": true
+        },
+        {
+          "t": 5.09,
+          "active": true
+        },
+        {
+          "t": 5.83,
+          "active": true
+        },
+        {
+          "t": 6.57,
+          "active": true
+        },
+        {
+          "t": 7.29,
+          "active": true
+        },
+        {
+          "t": 8.01,
+          "active": true
+        },
+        {
+          "t": 8.73,
+          "active": true
+        },
+        {
+          "t": 9.45,
+          "active": true
+        },
+        {
+          "t": 10.18,
+          "active": true
+        },
+        {
+          "t": 10.91,
+          "active": true
+        },
+        {
+          "t": 11.65,
+          "active": false
+        }
+      ]
+    },
+    "frontend_route": [
+      {
+        "attempt": 1,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3019
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3020
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3021
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3022
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.43,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.85,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.27,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.69,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.11,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.54,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.97,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.39,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.82,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.25,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.68,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.08,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.52,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.95,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3038
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3039
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3040
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3041
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.3,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.73,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.16,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.59,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.45,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.88,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.3,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.73,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.16,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.59,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.87,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3059
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3060
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3061
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3062
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.02,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.87,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.3,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.73,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.15,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 2.58,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.44,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 3.86,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.29,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 4.71,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.14,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.57,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 5.99,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.42,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 6.85,
+            "word_hex": "0x14A00007"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "start": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3080
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3081
+          }
+        },
+        "cross_story": {
+          "down": {
+            "event": "input.buttons.send",
+            "ticket": 3082
+          },
+          "up": {
+            "event": "input.buttons.send",
+            "ticket": 3083
+          }
+        },
+        "campaign_samples": [
+          {
+            "t": 0.01,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.46,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 0.86,
+            "word_hex": "0x14A00007"
+          },
+          {
+            "t": 1.28,
+            "word_hex": "0x0E327D1A"
+          }
+        ]
+      }
+    ],
+    "campaign_loaded": true,
+    "new_game_route": {
+      "down_to_new_game": {
+        "down": {
+          "event": "input.buttons.send",
+          "ticket": 3088
+        },
+        "up": {
+          "event": "input.buttons.send",
+          "ticket": 3089
+        }
+      },
+      "cross_new_game": {
+        "down": {
+          "event": "input.buttons.send",
+          "ticket": 3090
+        },
+        "up": {
+          "event": "input.buttons.send",
+          "ticket": 3091
+        }
+      },
+      "cross_normal": {
+        "down": {
+          "event": "input.buttons.send",
+          "ticket": 3092
+        },
+        "up": {
+          "event": "input.buttons.send",
+          "ticket": 3093
+        }
+      }
+    }
+  },
+  "st1_search": [
+    {
+      "t": 0.04,
+      "known_score": 0
+    },
+    {
+      "t": 2.31,
+      "known_score": 0
+    },
+    {
+      "t": 2.94,
+      "known_score": 0
+    },
+    {
+      "t": 3.57,
+      "known_score": 0
+    },
+    {
+      "t": 4.21,
+      "known_score": 0
+    },
+    {
+      "t": 4.84,
+      "known_score": 0
+    },
+    {
+      "t": 5.48,
+      "known_score": 0
+    },
+    {
+      "t": 6.11,
+      "known_score": 3
+    }
+  ],
+  "st1_base_hex": "0x08E1F21C",
+  "st1_verify": [
+    {
+      "label": "title",
+      "address_hex": "0x08E1F21C",
+      "ok": true,
+      "got_hex": "ec9ab4ebaa85ec9d9820eb9e91eb8db0ebb680"
+    },
+    {
+      "label": "baker",
+      "address_hex": "0x08E1F28A",
+      "ok": true,
+      "got_hex": "ebb2a0ec9db4ecbba43a"
+    },
+    {
+      "label": "mac",
+      "address_hex": "0x08E1F4AB",
+      "ok": true,
+      "got_hex": "eba7a53a"
+    }
+  ],
+  "watchpoints": [
+    {
+      "offset_hex": "0x0",
+      "address_hex": "0x08E1F21C",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3374
+        }
+      }
+    },
+    {
+      "offset_hex": "0x6e",
+      "address_hex": "0x08E1F28A",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3375
+        }
+      }
+    },
+    {
+      "offset_hex": "0x28f",
+      "address_hex": "0x08E1F4AB",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3376
+        }
+      }
+    },
+    {
+      "offset_hex": "0x39e",
+      "address_hex": "0x08E1F5BA",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3377
+        }
+      }
+    },
+    {
+      "offset_hex": "0x4b5",
+      "address_hex": "0x08E1F6D1",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3378
+        }
+      }
+    },
+    {
+      "offset_hex": "0x55c",
+      "address_hex": "0x08E1F778",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3379
+        }
+      }
+    },
+    {
+      "offset_hex": "0x59d",
+      "address_hex": "0x08E1F7B9",
+      "result": {
+        "ok": true,
+        "response": {
+          "event": "memory.breakpoint.add",
+          "ticket": 3380
+        }
+      }
+    }
+  ],
+  "memory_hit_count": 0,
+  "reader_pcs": [],
+  "candidate_disasm": [],
+  "completed": false,
+  "error": "RuntimeError('ST1 loaded successfully, but no read-watchpoint hits were observed.')",
+  "threads_at_failure": {
+    "ok": true,
+    "response": {
+      "event": "hle.thread.list",
+      "ticket": 3388,
+      "threads": [
+        {
+          "id": 272,
+          "name": "idle0",
+          "status": 1,
+          "statuses": [
+            "running"
+          ],
+          "pc": 143918028,
+          "entry": 134217728,
+          "initialStackSize": 138407936,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": true
+        },
+        {
+          "id": 273,
+          "name": "idle1",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 134217728,
+          "entry": 134217728,
+          "initialStackSize": 138403840,
+          "currentStackSize": 4096,
+          "priority": 127,
+          "waitType": 0,
+          "isCurrent": false
+        },
+        {
+          "id": 323,
+          "name": "user_main",
+          "status": 2,
+          "statuses": [
+            "ready"
+          ],
+          "pc": 143907288,
+          "entry": 142718184,
+          "initialStackSize": 167463936,
+          "currentStackSize": 307200,
+          "priority": 96,
+          "waitType": 12,
+          "isCurrent": false
+        },
+        {
+          "id": 325,
+          "name": "ExitCallbackThread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 142717376,
+          "entry": 142717312,
+          "initialStackSize": 167771136,
+          "currentStackSize": 1024,
+          "priority": 16,
+          "waitType": 1,
+          "isCurrent": false
+        },
+        {
+          "id": 364,
+          "name": "Bink audio thread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 147098716,
+          "entry": 147096768,
+          "initialStackSize": 167431168,
+          "currentStackSize": 32768,
+          "priority": 14,
+          "waitType": 10,
+          "isCurrent": false
+        },
+        {
+          "id": 367,
+          "name": "Bink thread",
+          "status": 4,
+          "statuses": [
+            "wait"
+          ],
+          "pc": 147123172,
+          "entry": 147123096,
+          "initialStackSize": 167398400,
+          "currentStackSize": 32768,
+          "priority": 18,
+          "waitType": 13,
+          "isCurrent": false
+        }
+      ]
+    }
+  },
+  "finished": "2026-10-06 20:39:38"
+}

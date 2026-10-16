@@ -1,0 +1,9 @@
+{
+  "stage": "40B",
+  "source": "Stage40A discovered exact 1082-row Stage39A A-priority corpus",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE39U_BOOT_RENDER_UTF8_TEST.iso",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE40B_A_MASS_TEST.iso",
+  "narrow_policy": "exact-case + ptr/Num/Max required + UTF-8 relocation",
+  "utf16_policy": "unique uppercase mapping + metadata relocation or proven fixed capacity",
+  "allocation_policy": "trailing zero padding only; decoded stream size unchanged"
+}

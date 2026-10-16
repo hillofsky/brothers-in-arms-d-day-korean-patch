@@ -1,0 +1,50 @@
+{
+  "step": "STEP_057",
+  "translations_applied_to_metadata": 33,
+  "status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "NEEDS_TRANSLATION": 437,
+    "TRANSLATED_REVIEWED": 638,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "next_reference_group": "D09_0800_BAUPTE",
+  "next_unit_count": 46,
+  "remaining_group_summary": [
+    {
+      "reference_group": "D09_0800_BAUPTE",
+      "remaining_unique_units": 46
+    },
+    {
+      "reference_group": "D10_0600_RUNOFTHEMILL",
+      "remaining_unique_units": 51
+    },
+    {
+      "reference_group": "D10_0801_THEALLAMERICANS",
+      "remaining_unique_units": 24
+    },
+    {
+      "reference_group": "D10_0802_THEALLAMERICANS",
+      "remaining_unique_units": 41
+    },
+    {
+      "reference_group": "D15_1130_BOOKENDS",
+      "remaining_unique_units": 44
+    },
+    {
+      "reference_group": "D15_1230_BOOKENDS2",
+      "remaining_unique_units": 29
+    },
+    {
+      "reference_group": "D15_1300_BOOKENDS4",
+      "remaining_unique_units": 25
+    },
+    {
+      "reference_group": "D15_1330_BOOKENDS3",
+      "remaining_unique_units": 29
+    }
+  ],
+  "master_sha256": "21f37d7ba5a9bdb3c4fc65df0f475ab8c6cf2863baebb7496510ba0093ffff9c",
+  "next_batch_sha256": "3726812d82a8a93154572b8d01c5288aeff951ac0423cd88ddced75bf9d2ffd7",
+  "iso_modified": false,
+  "movie_validation_resumed": false
+}

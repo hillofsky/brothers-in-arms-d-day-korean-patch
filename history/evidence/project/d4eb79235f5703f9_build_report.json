@@ -1,0 +1,214 @@
+{
+  "step": "STEP128",
+  "status": "BUILT_UNVERIFIED",
+  "started": "20261015_212857",
+  "source_expected_sha256": "c76f757c2bb306640df2cfecf3055adcd68f6fc2ec6df275bbfb849501217958",
+  "runtime_verified": false,
+  "original_ppsspp_touched": false,
+  "original_saves_touched": false,
+  "system_files_count": 403,
+  "source_iso": "PROJECT_ROOT\\BIA_STEP127_FIX1_LEGGETT_MDI_KO_TEST.iso",
+  "target_iso": "PROJECT_ROOT\\BIA_STEP128_WITHOUT_SAVING_KO_TEST.iso",
+  "candidate_inventory": [
+    {
+      "name": "D0_0130_.MDI",
+      "base": "0x8e03020",
+      "raw_default_english_occurrences": 1,
+      "verified_key_default_pairs": [
+        {
+          "key_at": "0xa310",
+          "value_at": "0xa330"
+        }
+      ],
+      "compiled_korean_text_present": true,
+      "status": "PREPARED",
+      "stream": 24,
+      "offset": "0xa330",
+      "changed_decoded_bytes": 48,
+      "old_mdi_size": 4853863,
+      "new_mdi_size": 4853895,
+      "compressed_old": 240962,
+      "compressed_new": 240994,
+      "zlib_level": 9,
+      "old_sha256": "90fcd2550bf23f4b7763c67596cdcf4ffeacacb34bc7ffc1190eeb8ebea32677",
+      "new_sha256": "4a3c996f974a43baf131bfc10c455222c7c100d6c4c3501c5512e4354af78b71",
+      "compiled_value_and_other_decoded_streams_preserved": true
+    },
+    {
+      "name": "D0_1015_.MDI",
+      "base": "0x8e03020",
+      "raw_default_english_occurrences": 1,
+      "verified_key_default_pairs": [
+        {
+          "key_at": "0x65d30",
+          "value_at": "0x65d50"
+        }
+      ],
+      "compiled_korean_text_present": false,
+      "status": "SKIPPED_KOREAN_NOT_PRESENT"
+    },
+    {
+      "name": "ON_MEMU_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_DE_CHUR.MDI",
+      "base": "0x8e03020",
+      "raw_default_english_occurrences": 1,
+      "verified_key_default_pairs": [
+        {
+          "key_at": "0xd370",
+          "value_at": "0xd390"
+        }
+      ],
+      "compiled_korean_text_present": false,
+      "status": "SKIPPED_KOREAN_NOT_PRESENT"
+    },
+    {
+      "name": "SKR_O_DE_CHUR_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_CHUR_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_CITY_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_CITY_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_DDAY_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_DDAY_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_HAML_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_HAML_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_HOLD_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_HOLD_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_WARE_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_DE_WARE_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_BROK_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_BROK_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_BUNK_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_BUNK_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_CROS_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_CROS_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_RAIL_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_RAIL_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_SNIP_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_SNIP_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_TAKI_C_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    },
+    {
+      "name": "SKR_O_US_TAKI_S_O.MDI",
+      "status": "UNSUPPORTED_CODEC",
+      "error": "Unsupported MDI header"
+    }
+  ],
+  "int_candidates_read_only": [
+    {
+      "name": "MEMORYCARD.INT",
+      "english_phrase": true,
+      "key_present": false
+    },
+    {
+      "name": "NEWLOCALIZE.INT",
+      "english_phrase": true,
+      "key_present": true
+    }
+  ],
+  "modified_mdi_count": 1,
+  "modified_mdi_names": [
+    "D0_0130_.MDI"
+  ],
+  "source_sha256": "c76f757c2bb306640df2cfecf3055adcd68f6fc2ec6df275bbfb849501217958",
+  "target_sha256": "01533a85a663f6fe0e8ecf1833dfcd6778a948914899c2af44195a3261d80f0a",
+  "target_size": 3311890432,
+  "source_preserved": true,
+  "ppsspp_untouched": true,
+  "saves_untouched": true,
+  "static_iso_readback_pass": true,
+  "project_state_update": "appended",
+  "finished": "2026-10-15T21:29:21.125598"
+}

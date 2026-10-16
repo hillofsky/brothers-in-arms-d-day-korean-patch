@@ -1,0 +1,818 @@
+{
+  "stage": "42D_BOOKENDS2_KO_PROOF",
+  "iso": "PROJECT_ROOT\\BIA_STAGE42D_BOOKENDS2_KO_PROOF.iso",
+  "purpose": "Auto-enter the aliased BOOKENDS2 movie and visually capture its Korean subtitles.",
+  "started": "2026-10-06 23:53:01",
+  "version": {
+    "event": "version",
+    "ticket": 3001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "initial_logo": {
+    "ended": true,
+    "samples": [
+      {
+        "t": 0.0,
+        "active": false
+      },
+      {
+        "t": 0.73,
+        "active": false
+      },
+      {
+        "t": 1.5,
+        "active": true
+      },
+      {
+        "t": 2.23,
+        "active": true
+      },
+      {
+        "t": 2.96,
+        "active": true
+      },
+      {
+        "t": 3.7,
+        "active": true
+      },
+      {
+        "t": 4.43,
+        "active": true
+      },
+      {
+        "t": 5.16,
+        "active": true
+      },
+      {
+        "t": 5.89,
+        "active": true
+      },
+      {
+        "t": 6.64,
+        "active": true
+      },
+      {
+        "t": 7.37,
+        "active": true
+      },
+      {
+        "t": 8.1,
+        "active": true
+      },
+      {
+        "t": 8.82,
+        "active": true
+      },
+      {
+        "t": 9.54,
+        "active": true
+      },
+      {
+        "t": 10.27,
+        "active": true
+      },
+      {
+        "t": 10.99,
+        "active": true
+      },
+      {
+        "t": 11.74,
+        "active": true
+      },
+      {
+        "t": 12.46,
+        "active": false
+      }
+    ]
+  },
+  "start": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3026
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3027
+    }
+  },
+  "cross_story": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3034
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3035
+    }
+  },
+  "cross_new_game": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3042
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3043
+    }
+  },
+  "cross_difficulty": {
+    "down": {
+      "event": "input.buttons.send",
+      "ticket": 3050
+    },
+    "up": {
+      "event": "input.buttons.send",
+      "ticket": 3051
+    }
+  },
+  "movie_start_wait": {
+    "success": true,
+    "samples": [
+      {
+        "t": 0.014,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 0.229,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 0.456,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 0.663,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 0.88,
+        "campaign_word_hex": "0x14A00007",
+        "campaign": false,
+        "bink": false
+      },
+      {
+        "t": 1.094,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 1.304,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 1.562,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 1.77,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 1.981,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 2.189,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 2.405,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 2.623,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 2.839,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.056,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.273,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.491,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.707,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 3.924,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 4.14,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 4.358,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 4.574,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 4.791,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.008,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.225,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.442,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.658,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 5.875,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.092,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.31,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.526,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.743,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 6.96,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 7.177,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 7.394,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 7.611,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 7.827,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.044,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.261,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.477,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.695,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 8.912,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.129,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.346,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.563,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.78,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 9.997,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 10.214,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 10.43,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 10.648,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 10.865,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.081,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.297,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.515,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.732,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 11.948,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 12.165,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 12.383,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 12.6,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 12.816,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.034,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.25,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.466,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.683,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 13.901,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 14.117,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 14.334,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 14.551,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": false
+      },
+      {
+        "t": 14.767,
+        "campaign_word_hex": "0x0E327D1A",
+        "campaign": true,
+        "bink": true
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "index": 0,
+      "label": "title_before_START",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "000_title_before_START_04000000_rgba8888.png",
+          "rgb565": "000_title_before_START_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "000_title_before_START_04044000_rgba8888.png",
+          "rgb565": "000_title_before_START_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "label": "story_menu",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "001_story_menu_04000000_rgba8888.png",
+          "rgb565": "001_story_menu_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "001_story_menu_04044000_rgba8888.png",
+          "rgb565": "001_story_menu_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "new_game_menu",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "002_new_game_menu_04000000_rgba8888.png",
+          "rgb565": "002_new_game_menu_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "002_new_game_menu_04044000_rgba8888.png",
+          "rgb565": "002_new_game_menu_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "difficulty_menu",
+      "campaign_word_hex": "0x14A00007",
+      "campaign_loaded": false,
+      "bink_active": false,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "003_difficulty_menu_04000000_rgba8888.png",
+          "rgb565": "003_difficulty_menu_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "003_difficulty_menu_04044000_rgba8888.png",
+          "rgb565": "003_difficulty_menu_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "bookends2_started",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "004_bookends2_started_04000000_rgba8888.png",
+          "rgb565": "004_bookends2_started_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "004_bookends2_started_04044000_rgba8888.png",
+          "rgb565": "004_bookends2_started_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "bookends2_t02s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "005_bookends2_t02s_04000000_rgba8888.png",
+          "rgb565": "005_bookends2_t02s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "005_bookends2_t02s_04044000_rgba8888.png",
+          "rgb565": "005_bookends2_t02s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "bookends2_t05s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "006_bookends2_t05s_04000000_rgba8888.png",
+          "rgb565": "006_bookends2_t05s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "006_bookends2_t05s_04044000_rgba8888.png",
+          "rgb565": "006_bookends2_t05s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "label": "bookends2_t08s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "007_bookends2_t08s_04000000_rgba8888.png",
+          "rgb565": "007_bookends2_t08s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "007_bookends2_t08s_04044000_rgba8888.png",
+          "rgb565": "007_bookends2_t08s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "bookends2_t12s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "008_bookends2_t12s_04000000_rgba8888.png",
+          "rgb565": "008_bookends2_t12s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "008_bookends2_t12s_04044000_rgba8888.png",
+          "rgb565": "008_bookends2_t12s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "bookends2_t16s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "009_bookends2_t16s_04000000_rgba8888.png",
+          "rgb565": "009_bookends2_t16s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "009_bookends2_t16s_04044000_rgba8888.png",
+          "rgb565": "009_bookends2_t16s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "label": "bookends2_t20s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "010_bookends2_t20s_04000000_rgba8888.png",
+          "rgb565": "010_bookends2_t20s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "010_bookends2_t20s_04044000_rgba8888.png",
+          "rgb565": "010_bookends2_t20s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "label": "bookends2_t24s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "011_bookends2_t24s_04000000_rgba8888.png",
+          "rgb565": "011_bookends2_t24s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "011_bookends2_t24s_04044000_rgba8888.png",
+          "rgb565": "011_bookends2_t24s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "label": "bookends2_t28s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "012_bookends2_t28s_04000000_rgba8888.png",
+          "rgb565": "012_bookends2_t28s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "012_bookends2_t28s_04044000_rgba8888.png",
+          "rgb565": "012_bookends2_t28s_04044000_rgb565.png"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "label": "bookends2_t32s",
+      "campaign_word_hex": "0x0E327D1A",
+      "campaign_loaded": true,
+      "bink_active": true,
+      "files": [
+        {
+          "address_hex": "0x04000000",
+          "rgba8888": "013_bookends2_t32s_04000000_rgba8888.png",
+          "rgb565": "013_bookends2_t32s_04000000_rgb565.png"
+        },
+        {
+          "address_hex": "0x04044000",
+          "rgba8888": "013_bookends2_t32s_04044000_rgba8888.png",
+          "rgb565": "013_bookends2_t32s_04044000_rgb565.png"
+        }
+      ]
+    }
+  ],
+  "completed": true,
+  "finished": "2026-10-06 23:54:22"
+}

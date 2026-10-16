@@ -1,0 +1,540 @@
+{
+  "stage": "41A",
+  "purpose": "Patch the separate English ST1 subtitle track for the first Bink movie into Korean without changing ST1 size/record boundaries, then determine whether the existing Stage40R/Y campaign renderer and current movie subtitle font can actually render the Korean.",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "target_st1": "PSP_GAME\\USRDIR\\SYSTEM\\FM_0115EAGLESJUMP.ST1",
+  "subtitle_file_model": "FM_0115EAGLESJUMP.BIK uses external FM_0115EAGLESJUMP.ST1; ST2..ST5 are the other European languages.",
+  "build": {
+    "original_size": 1482,
+    "patched_size": 1482,
+    "original_sha1": "d902d293af292e6795acd69e12b0002cbc438197",
+    "patched_sha1": "22376d64818e019c78a1e26d371a7111e0f06dc9",
+    "field_count": 19,
+    "size_preserved": true,
+    "patches": [
+      {
+        "index": 1,
+        "offset": "0x0",
+        "field_bytes": 79,
+        "korean_bytes": 72,
+        "english": "Rendezvous with Destiny\\ Over Ste. Mere Eglise, France\\D-Day 0115 June 6, 1944^",
+        "korean": "운명의 랑데부\\생트메르에글리즈 상공\\D-Day 0115 1944.6.6^",
+        "replacement_hex": "ec9ab4ebaa85ec9d9820eb9e91eb8db0ebb6805cec839ded8ab8eba994eba5b4ec9790eab880eba6aceca68820ec8381eab3b55c442d446179203031313520313934342e362e36202020202020205e"
+      },
+      {
+        "index": 2,
+        "offset": "0x6E",
+        "field_bytes": 64,
+        "korean_bytes": 62,
+        "english": "Baker: I never asked to be squad leader,\\  but I had no choice.^",
+        "korean": "베이커: 원한 건 아니지만,\\  선택권은 없었다.^",
+        "replacement_hex": "ebb2a0ec9db4ecbba43a20ec9b90ed959c20eab1b420ec9584eb8b88eca780eba78c2c5c2020ec84a0ed839deab68cec9d8020ec9786ec9788eb8ba42e20205e"
+      },
+      {
+        "index": 3,
+        "offset": "0xCF",
+        "field_bytes": 56,
+        "korean_bytes": 46,
+        "english": "Baker: Now I've got thirteen soldiers under my command.^",
+        "korean": "베이커: 이제 열세 명을 지휘한다.^",
+        "replacement_hex": "ebb2a0ec9db4ecbba43a20ec9db4eca09c20ec97b4ec84b820ebaa85ec9d8420eca780ed9c98ed959ceb8ba42e202020202020202020205e"
+      },
+      {
+        "index": 4,
+        "offset": "0x128",
+        "field_bytes": 91,
+        "korean_bytes": 89,
+        "english": "Baker: Thirteen men depending on me to make the right\\  decisions and not get them killed.^",
+        "korean": "베이커: 내가 옳은 결정을 내려\\  살아남게 해주길 바라는 열세 명.^",
+        "replacement_hex": "ebb2a0ec9db4ecbba43a20eb82b4eab08020ec98b3ec9d8020eab2b0eca095ec9d8420eb82b4eba0a45c2020ec82b4ec9584eb82a8eab28c20ed95b4eca3bceab8b820ebb094eb9dbceb8a9420ec97b4ec84b820ebaa852e20205e"
+      },
+      {
+        "index": 5,
+        "offset": "0x1A4",
+        "field_bytes": 80,
+        "korean_bytes": 74,
+        "english": "Baker: Thirteen families relying on me to bring their\\  husbands and sons home.^",
+        "korean": "베이커: 남편과 아들이 돌아오길\\  기다리는 열세 가족.^",
+        "replacement_hex": "ebb2a0ec9db4ecbba43a20eb82a8ed8eb8eab3bc20ec9584eb93a4ec9db420eb8f8cec9584ec98a4eab8b85c2020eab8b0eb8ba4eba6aceb8a9420ec97b4ec84b820eab080eca1b12e2020202020205e"
+      },
+      {
+        "index": 6,
+        "offset": "0x215",
+        "field_bytes": 17,
+        "korean_bytes": 15,
+        "english": "Baker: Thirteen.^",
+        "korean": "베이커: 13.^",
+        "replacement_hex": "ebb2a0ec9db4ecbba43a2031332e20205e"
+      },
+      {
+        "index": 7,
+        "offset": "0x247",
+        "field_bytes": 39,
+        "korean_bytes": 38,
+        "english": "Baker: Thirteen is not a lucky number.^",
+        "korean": "베이커: 13은 불길한 숫자다.^",
+        "replacement_hex": "ebb2a0ec9db4ecbba43a203133ec9d8020ebb688eab8b8ed959c20ec88abec9e90eb8ba42e205e"
+      },
+      {
+        "index": 8,
+        "offset": "0x28F",
+        "field_bytes": 15,
+        "korean_bytes": 13,
+        "english": "Mac: Stand up!^",
+        "korean": "맥: 기립!^",
+        "replacement_hex": "eba7a53a20eab8b0eba6bd2120205e"
+      },
+      {
+        "index": 9,
+        "offset": "0x2BF",
+        "field_bytes": 14,
+        "korean_bytes": 13,
+        "english": "Mac: Hook up!^",
+        "korean": "맥: 결속!^",
+        "replacement_hex": "eba7a53a20eab2b0ec868d21205e"
+      },
+      {
+        "index": 10,
+        "offset": "0x2EE",
+        "field_bytes": 27,
+        "korean_bytes": 20,
+        "english": "Mac: Check your equipment!^",
+        "korean": "맥: 장비 확인!^",
+        "replacement_hex": "eba7a53a20ec9ea5ebb98420ed9995ec9db821202020202020205e"
+      },
+      {
+        "index": 11,
+        "offset": "0x32A",
+        "field_bytes": 83,
+        "korean_bytes": 83,
+        "english": "Mac: Remember!  This squad sticks together!\\  Once you hit the ground, find Baker!^",
+        "korean": "맥: 기억해! 분대는 함께 움직인다!\\  착지하면 베이커를 찾아!^",
+        "replacement_hex": "eba7a53a20eab8b0ec96b5ed95b42120ebb684eb8c80eb8a9420ed95a8eabb9820ec9b80eca781ec9db8eb8ba4215c2020ecb0a9eca780ed9598eba9b420ebb2a0ec9db4ecbba4eba5bc20ecb0beec9584215e"
+      },
+      {
+        "index": 12,
+        "offset": "0x39E",
+        "field_bytes": 16,
+        "korean_bytes": 13,
+        "english": "Mac: Sound Off!^",
+        "korean": "맥: 번호!^",
+        "replacement_hex": "eba7a53a20ebb288ed98b8212020205e"
+      },
+      {
+        "index": 13,
+        "offset": "0x3CF",
+        "field_bytes": 37,
+        "korean_bytes": 33,
+        "english": "Fourteen OK!\\Thirteen OK!\\Twelve OK!^",
+        "korean": "14 확인!\\13 확인!\\12 확인!^",
+        "replacement_hex": "313420ed9995ec9db8215c313320ed9995ec9db8215c313220ed9995ec9db821202020205e"
+      },
+      {
+        "index": 14,
+        "offset": "0x415",
+        "field_bytes": 24,
+        "korean_bytes": 18,
+        "english": "Hartsock: Corrions hit!^",
+        "korean": "코리온 피격!^",
+        "replacement_hex": "ecbd94eba6acec98a820ed94bceab2a9212020202020205e"
+      },
+      {
+        "index": 15,
+        "offset": "0x44E",
+        "field_bytes": 70,
+        "korean_bytes": 68,
+        "english": "Garnett: Lets get the hell out of here!\\  Allen: We gotta jump Sarge!^",
+        "korean": "가넷: 여기서 나가자!\\  앨런: 중사님, 뛰어야 해요!^",
+        "replacement_hex": "eab080eb84b73a20ec97aceab8b0ec849c20eb8298eab080ec9e90215c2020ec95a8eb9fb03a20eca491ec82aceb8b982c20eb9bb0ec96b4ec95bc20ed95b4ec9a942120205e"
+      },
+      {
+        "index": 16,
+        "offset": "0x4B5",
+        "field_bytes": 34,
+        "korean_bytes": 29,
+        "english": "Mac: We wait for the green light!^",
+        "korean": "맥: 초록불을 기다려!^",
+        "replacement_hex": "eba7a53a20ecb488eba19debb688ec9d8420eab8b0eb8ba4eba0a42120202020205e"
+      },
+      {
+        "index": 17,
+        "offset": "0x4F8",
+        "field_bytes": 67,
+        "korean_bytes": 64,
+        "english": "Allen: We wait any longer, there won't be a\\  fucking green light!^",
+        "korean": "앨런: 더 기다리면\\  빌어먹을 초록불도 없어요!^",
+        "replacement_hex": "ec95a8eb9fb03a20eb8d9420eab8b0eb8ba4eba6aceba9b45c2020ebb98cec96b4eba8b9ec9d8420ecb488eba19debb688eb8f8420ec9786ec96b4ec9a94212020205e"
+      },
+      {
+        "index": 18,
+        "offset": "0x55C",
+        "field_bytes": 32,
+        "korean_bytes": 32,
+        "english": "Mac: Baker!  Stand in the door!^",
+        "korean": "맥: 베이커! 문 앞에 서!^",
+        "replacement_hex": "eba7a53a20ebb2a0ec9db4ecbba42120ebacb820ec959eec979020ec849c215e"
+      },
+      {
+        "index": 19,
+        "offset": "0x59D",
+        "field_bytes": 41,
+        "korean_bytes": 36,
+        "english": "Baker: I never asked to be squad leader.^",
+        "korean": "베이커: 원한 건 아니었다.^",
+        "replacement_hex": "ebb2a0ec9db4ecbba43a20ec9b90ed959c20eab1b420ec9584eb8b88ec9788eb8ba42e20202020205e"
+      }
+    ],
+    "iso_readback_ok": true
+  },
+  "ppsspp_pid": 27864,
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "cpu_ready": {
+    "ready": true,
+    "attempts": 3,
+    "status": {
+      "event": "cpu.status",
+      "ticket": 1005,
+      "stepping": false,
+      "paused": false,
+      "pc": 134217728,
+      "ticks": 3640871
+    }
+  },
+  "title_story_preload": true,
+  "selectable_main_menu": true,
+  "new_game_route": {
+    "continue_renderer_hit": true,
+    "difficulty_renderer_hit": true
+  },
+  "difficulty_cross": {
+    "down": {
+      "ok": true,
+      "response": {
+        "event": "input.buttons.send",
+        "ticket": 2063
+      }
+    },
+    "up": {
+      "ok": true,
+      "response": {
+        "event": "input.buttons.send",
+        "ticket": 2064
+      }
+    }
+  },
+  "campaign_module": {
+    "ok": true,
+    "samples": [
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x14A00007",
+      "0x0E327D1A"
+    ]
+  },
+  "early_title_probe": {
+    "hit": false
+  },
+  "subtitle_renderer_probes": [
+    {
+      "name": "title_운",
+      "hit": false,
+      "arm": {
+        "ok": true,
+        "response": {
+          "event": "cpu.breakpoint.add",
+          "ticket": 2083
+        }
+      },
+      "periodic_captures": [
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_1_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_1_04000000_rgba8888.png",
+            "raw_sha1": "ae0f25a78df5dd7ca436b19480563cef0d246508"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_1_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_1_04044000_rgba8888.png",
+            "raw_sha1": "37e09f69ec36e3ad607108c684d95bb06903debb"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_2_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_2_04000000_rgba8888.png",
+            "raw_sha1": "f0e62f849296bc724183846ce1c9f1705bcacb08"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_2_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_2_04044000_rgba8888.png",
+            "raw_sha1": "80c0bed250b85c57d39bf085e07724411f62f5f4"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_3_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_3_04000000_rgba8888.png",
+            "raw_sha1": "aa512a4d10aa28f56a04067844297503f59fbf4c"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_3_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_3_04044000_rgba8888.png",
+            "raw_sha1": "39e5b2accb7a5e0cb8ea5d3944e8053e93e41853"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_4_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_4_04000000_rgba8888.png",
+            "raw_sha1": "aa512a4d10aa28f56a04067844297503f59fbf4c"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_4_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_title_운_4_04044000_rgba8888.png",
+            "raw_sha1": "39e5b2accb7a5e0cb8ea5d3944e8053e93e41853"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "baker_베",
+      "hit": false,
+      "arm": {
+        "ok": true,
+        "response": {
+          "event": "cpu.breakpoint.add",
+          "ticket": 2545
+        }
+      },
+      "periodic_captures": [
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_1_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_1_04000000_rgba8888.png",
+            "raw_sha1": "4efb02a50e6b05424663636e2c002ba74484bd45"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_1_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_1_04044000_rgba8888.png",
+            "raw_sha1": "b8f034a4b2a77354e3574cdea96619cd6d194251"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_2_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_2_04000000_rgba8888.png",
+            "raw_sha1": "7bc29435527a66eec2b8b799c26dbf116e6210cd"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_2_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_2_04044000_rgba8888.png",
+            "raw_sha1": "6f8008a1a65ead04da8b995be466edc259b286ee"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_3_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_3_04000000_rgba8888.png",
+            "raw_sha1": "c19d6daf259e77ff1ad6847019b7c983c62a8636"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_3_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_3_04044000_rgba8888.png",
+            "raw_sha1": "3db2e5b77f21c869d191bc3df1cabedfd4dda620"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_4_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_4_04000000_rgba8888.png",
+            "raw_sha1": "78aa33b3568500c23849dad845207491b4055e0b"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_4_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_4_04044000_rgba8888.png",
+            "raw_sha1": "6c9e07da406c36d18f3c5eb1f2062683e3e752db"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_5_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_5_04000000_rgba8888.png",
+            "raw_sha1": "68a1666acbc935cac76f9f527491095a06447a2d"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_5_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_5_04044000_rgba8888.png",
+            "raw_sha1": "e2092d2874085cf90a7640f67e6b4ae0f573d642"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_6_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_6_04000000_rgba8888.png",
+            "raw_sha1": "63065b2d682d3668d63100cae6aef807cef13b3f"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_6_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_baker_베_6_04044000_rgba8888.png",
+            "raw_sha1": "da8143538da1ed2dd96a004d5500dbf952bc893a"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "mac_맥",
+      "hit": false,
+      "arm": {
+        "ok": true,
+        "response": {
+          "event": "cpu.breakpoint.add",
+          "ticket": 3176
+        }
+      },
+      "periodic_captures": [
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_1_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_1_04000000_rgba8888.png",
+            "raw_sha1": "2c2a57a6d48f3fc21787a6e9a5d39b4c513b5c20"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_1_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_1_04044000_rgba8888.png",
+            "raw_sha1": "b94b3ab78653bf38f0ce9ccdb49cf35a6b69c7bb"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_2_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_2_04000000_rgba8888.png",
+            "raw_sha1": "64713b1b27c6faa3f215460ca31e37b82af5805e"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_2_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_2_04044000_rgba8888.png",
+            "raw_sha1": "1d4b6557e2eb7b55525f48339ece2dc9e02126de"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_3_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_3_04000000_rgba8888.png",
+            "raw_sha1": "beef052e28bd5df323aca1e202e681e022157db7"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_3_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_3_04044000_rgba8888.png",
+            "raw_sha1": "440f6c3b31328fa0996844efa846742f002f70f0"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_4_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_4_04000000_rgba8888.png",
+            "raw_sha1": "5ea0ad714a176c13cc48ae276e0a902afd2bdd58"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_4_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_4_04044000_rgba8888.png",
+            "raw_sha1": "950388be2f6d521c0514ef4b52ad70097eefc2ae"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_5_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_5_04000000_rgba8888.png",
+            "raw_sha1": "eee0cb971f67f4a7ff45431e4cfd28b5b758ef13"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_5_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_5_04044000_rgba8888.png",
+            "raw_sha1": "b8fa73321da10686d13f6f4bf3d32c41c076ca9e"
+          }
+        ],
+        [
+          {
+            "address": "0x04000000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_6_04000000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_6_04000000_rgba8888.png",
+            "raw_sha1": "65a64b9c381d8dc5491cd8969f79cf2785466ab9"
+          },
+          {
+            "address": "0x04044000",
+            "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_6_04044000_rgb565.png",
+            "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_wait_mac_맥_6_04044000_rgba8888.png",
+            "raw_sha1": "568531f7ffd63cf768d3649ef281fdff45fd4822"
+          }
+        ]
+      ]
+    }
+  ],
+  "ram_subtitle_hits": {
+    "title_utf8": [
+      "0x08E1F21C"
+    ],
+    "baker_utf8": [
+      "0x08E1F28A"
+    ],
+    "title_widened_utf8": [],
+    "baker_widened_utf8": []
+  },
+  "final_capture": [
+    {
+      "address": "0x04000000",
+      "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_final_04000000_rgb565.png",
+      "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_final_04000000_rgba8888.png",
+      "raw_sha1": "de987b88823cd93f6001cb6814f2093fcc40232a"
+    },
+    {
+      "address": "0x04044000",
+      "rgb565": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_final_04044000_rgb565.png",
+      "rgba8888": "PROJECT_ROOT\\analysis\\stage41a_first_movie_subtitle\\subtitle_final_04044000_rgba8888.png",
+      "raw_sha1": "16e8b769a4ea72e9720bd6ce2beac632621c9ff9"
+    }
+  ],
+  "completed": true,
+  "owned_ppsspp_closed": true
+}

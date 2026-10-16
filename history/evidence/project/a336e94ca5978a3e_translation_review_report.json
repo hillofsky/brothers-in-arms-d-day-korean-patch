@@ -1,0 +1,1093 @@
+{
+  "step": "STEP_046",
+  "rows": 93,
+  "missions": {
+    "D1_0900_VIERVILLE": 64,
+    "D1_1830_DEADMANSCORNER": 29
+  },
+  "control_tokens_pass": true,
+  "pipe_counts_pass": true,
+  "expected_status_after": {
+    "VERIFIED_APPLIED": 137,
+    "TRANSLATED_PENDING_APPLY": 90,
+    "TRANSLATED_REVIEWED": 155,
+    "NEEDS_TRANSLATION": 920
+  },
+  "iso_modified": false,
+  "movie_validation_resumed": false,
+  "checks": [
+    {
+      "resource_id": "BIA-01429",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Meet with Risner and his tank.",
+      "ko": "리스너와 그의 전차와 합류하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 43
+    },
+    {
+      "resource_id": "BIA-01437",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner",
+      "ko": "리스너",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 9
+    },
+    {
+      "resource_id": "BIA-01487",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Allen: An iron cross?",
+      "ko": "앨런: 철십자 훈장?",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 25
+    },
+    {
+      "resource_id": "BIA-01501",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Allen: Sergeant, your fondness for understatement never ceases to amaze me.",
+      "ko": "앨런: 병장님은 늘 별일 아닌 듯 말하시네요. 정말 놀라울 정도예요.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 90
+    },
+    {
+      "resource_id": "BIA-01503",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Allen: Sounds like you guys have been busy.",
+      "ko": "앨런: 너희 꽤 바빴던 모양이네.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 42
+    },
+    {
+      "resource_id": "BIA-01504",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Allen: That better be ours.",
+      "ko": "앨런: 우리 편이어야 할 텐데.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 39
+    },
+    {
+      "resource_id": "BIA-01509",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Allen: We're running out of towns to clear.",
+      "ko": "앨런: 소탕할 마을이 점점 없어지는데.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 51
+    },
+    {
+      "resource_id": "BIA-01514",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Alternatively, you can approach the rear of an enemy tank and press %icon_use% to climb onto it and throw a grenade in the hatch.",
+      "ko": "또는 적 전차 뒤로 접근해 %icon_use%를 눌러 올라탄 뒤 해치 안으로 수류탄을 던질 수 있다.",
+      "source_tokens": [
+        "%icon_use%"
+      ],
+      "ko_tokens": [
+        "%icon_use%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 118
+    },
+    {
+      "resource_id": "BIA-01547",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Baker: How he could be dead right now and I wouldn't even know it.",
+      "ko": "베이커: 지금 조지가 죽어 있어도 난 알 수조차 없다는 생각.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 80
+    },
+    {
+      "resource_id": "BIA-01548",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Baker: How we always seemed to go after the same girls in high school.",
+      "ko": "베이커: 고등학교 때 늘 같은 여자애들을 좋아했던 일.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 72
+    },
+    {
+      "resource_id": "BIA-01549",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Baker: How we used to launch bottle rockets in a creek behind his house and blame it on the kids down the street.",
+      "ko": "베이커: 그 녀석 집 뒤 개울에서 로켓 폭죽을 쏘고 길 아래쪽 애들 짓이라고 둘러대곤 했던 일.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 125
+    },
+    {
+      "resource_id": "BIA-01550",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Baker: I couldn't sleep, so I made sure the guys pulling guard were awake.",
+      "ko": "베이커: 잠이 오지 않아 경계 서는 녀석들이 깨어 있는지 확인했다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 89
+    },
+    {
+      "resource_id": "BIA-01566",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Baker: I was thinking about George.",
+      "ko": "베이커: 조지 생각을 하고 있었다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 45
+    },
+    {
+      "resource_id": "BIA-01571",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Baker: In the dark you can't help but think about home.",
+      "ko": "베이커: 어둠 속에 있으면 고향 생각을 하지 않을 수 없다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 77
+    },
+    {
+      "resource_id": "BIA-01636",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Clear the Town of Vierville.",
+      "ko": "비에르빌 마을을 소탕하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 36
+    },
+    {
+      "resource_id": "BIA-01637",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Clear the town of Vierville.",
+      "ko": "비에르빌 마을을 소탕하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 36
+    },
+    {
+      "resource_id": "BIA-01729",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "D+1 0930",
+      "ko": "D+1 09:30",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 9
+    },
+    {
+      "resource_id": "BIA-01896",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Garnett: Sounds like it was good luck.",
+      "ko": "가넷: 운이 좋았던 모양이네.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 38
+    },
+    {
+      "resource_id": "BIA-01905",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Garnett: You should wear it.",
+      "ko": "가넷: 그거 달고 다녀.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 29
+    },
+    {
+      "resource_id": "BIA-01927",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Hartsock: A Stuart.",
+      "ko": "하트삭: 스튜어트 전차야.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 34
+    },
+    {
+      "resource_id": "BIA-01985",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Hartsock: It's ours.  I see it.",
+      "ko": "하트삭: 우리 편이야. 보여.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 36
+    },
+    {
+      "resource_id": "BIA-02054",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Leggett: ...and then I shot him square in the chest while he was reloading the MG.",
+      "ko": "레겟: ...그리고 그놈이 기관총을 재장전할 때 가슴 한복판에 쐈죠.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 88
+    },
+    {
+      "resource_id": "BIA-02064",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Leggett: Can't complain though.  Pulled this off the Kraut.",
+      "ko": "레겟: 그래도 불평할 건 없죠. 독일놈한테서 이걸 떼어냈으니까요.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 88
+    },
+    {
+      "resource_id": "BIA-02068",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Leggett: He was wearing it.",
+      "ko": "레겟: 그놈이 달고 있더군요.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 38
+    },
+    {
+      "resource_id": "BIA-02075",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Leggett: I only saw Krauts there at the end.",
+      "ko": "레겟: 마지막엔 독일군만 보였어요.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 47
+    },
+    {
+      "resource_id": "BIA-02104",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Leggett: Very funny.",
+      "ko": "레겟: 웃기시네요.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 24
+    },
+    {
+      "resource_id": "BIA-02107",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Leggett: Well, most of the time I was relaying radio messages to higher headquarters for Mac.",
+      "ko": "레겟: 뭐, 대부분은 맥 대신 상급 본부에 무전을 중계하고 있었죠.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 87
+    },
+    {
+      "resource_id": "BIA-02144",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Mac: Baker!  We've got an M5 light tank moving here to provide support.",
+      "ko": "맥: 베이커! 지원해 줄 M5 경전차 한 대가 이쪽으로 오고 있다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 81
+    },
+    {
+      "resource_id": "BIA-02177",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Mac: Good luck boys.",
+      "ko": "맥: 다들 행운을 빈다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 29
+    },
+    {
+      "resource_id": "BIA-02187",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Mac: I don't know how many Krauts are in the area, so take it easy.",
+      "ko": "맥: 이 지역에 독일군이 얼마나 있는지 모르니 조심해서 움직여.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 85
+    },
+    {
+      "resource_id": "BIA-02190",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Mac: I don't think so.  There are plenty more in Germany.",
+      "ko": "맥: 그렇진 않을걸. 독일에는 아직 잔뜩 남아 있으니까.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 73
+    },
+    {
+      "resource_id": "BIA-02215",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Mac: Link up with 'em and clear the town.",
+      "ko": "맥: 전차와 합류해서 마을을 소탕해.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 48
+    },
+    {
+      "resource_id": "BIA-02279",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Mac: You guys look like you had a rough morning.",
+      "ko": "맥: 너희들 아침부터 꽤 고생한 모양이군.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 55
+    },
+    {
+      "resource_id": "BIA-02343",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Meet with Risner and his tank to end your mission.",
+      "ko": "리스너와 그의 전차와 합류해 임무를 마쳐라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 60
+    },
+    {
+      "resource_id": "BIA-02344",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Meet with the tank commander.",
+      "ko": "전차장과 합류하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 26
+    },
+    {
+      "resource_id": "BIA-02433",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner: Alright let's get moving, just stay close and we'll be fine.",
+      "ko": "리스너: 좋아, 움직이자. 가까이만 붙어 있으면 괜찮을 거야.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 80
+    },
+    {
+      "resource_id": "BIA-02434",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner: Consider me part of the squad.",
+      "ko": "리스너: 나도 분대원으로 생각해.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 44
+    },
+    {
+      "resource_id": "BIA-02436",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner: Glad to see you're still alive.",
+      "ko": "리스너: 아직 살아 있어서 반갑군.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 45
+    },
+    {
+      "resource_id": "BIA-02437",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner: I heard on the radio that four guys from Fox Company were kicking the hell out of the Germans.",
+      "ko": "리스너: 무전으로 폭스 중대 네 명이 독일군을 박살 내고 있다더군.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 89
+    },
+    {
+      "resource_id": "BIA-02438",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner: I knew right away it had to be you, Matt.",
+      "ko": "리스너: 듣자마자 너인 줄 알았지, 맷.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 50
+    },
+    {
+      "resource_id": "BIA-02439",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner: I'm always saving your ass Matt!",
+      "ko": "리스너: 내가 항상 네 목숨을 구해 주잖아, 맷!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 61
+    },
+    {
+      "resource_id": "BIA-02441",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner: It doesn't have a name on the map.",
+      "ko": "리스너: 지도에는 이름도 없는 곳이야.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 51
+    },
+    {
+      "resource_id": "BIA-02442",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner: Just tell me what you want me to do and I'll do it.",
+      "ko": "리스너: 뭘 하면 되는지만 말해. 그대로 할게.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 60
+    },
+    {
+      "resource_id": "BIA-02443",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Risner: We're headed to a crossroads up ahead.",
+      "ko": "리스너: 앞쪽 교차로로 가는 중이야.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 48
+    },
+    {
+      "resource_id": "BIA-02447",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Sector cleared.",
+      "ko": "구역 확보 완료.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 21
+    },
+    {
+      "resource_id": "BIA-02448",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Sector Five",
+      "ko": "구역 5",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 8
+    },
+    {
+      "resource_id": "BIA-02449",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Sector Four",
+      "ko": "구역 4",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 8
+    },
+    {
+      "resource_id": "BIA-02450",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Sector One",
+      "ko": "구역 1",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 8
+    },
+    {
+      "resource_id": "BIA-02451",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Sector Seven",
+      "ko": "구역 7",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 8
+    },
+    {
+      "resource_id": "BIA-02452",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Sector Six",
+      "ko": "구역 6",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 8
+    },
+    {
+      "resource_id": "BIA-02453",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Sector Three",
+      "ko": "구역 3",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 8
+    },
+    {
+      "resource_id": "BIA-02454",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Sector Two",
+      "ko": "구역 2",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 8
+    },
+    {
+      "resource_id": "BIA-02464",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Sgt. Risner and his tank %icon_tank% are now part of your squad. You can command your tank using the same orders that you use to command your Fire Team.%newline%Press %Button_Cross% to continue.",
+      "ko": "리스너 병장과 그의 전차 %icon_tank%가 이제 분대에 합류했다. 사격조에 명령하는 것과 같은 방식으로 전차에 명령할 수 있다.%newline%계속하려면 %Button_Cross%를 누른다.",
+      "source_tokens": [
+        "%icon_tank%",
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "ko_tokens": [
+        "%icon_tank%",
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 217
+    },
+    {
+      "resource_id": "BIA-02484",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Tanks %icon_tank% are ideal for suppressing and killing enemy units. They are also impervious to machine gun and small arms fire making them useful as mobile cover.%newline%Press %Button_Cross% to continue.",
+      "ko": "전차 %icon_tank%는 적 부대를 제압하고 처치하는 데 매우 효과적이다. 또한 기관총과 소화기 사격에 피해를 입지 않아 이동 엄폐물로 활용할 수 있다.%newline%계속하려면 %Button_Cross%를 누른다.",
+      "source_tokens": [
+        "%icon_tank%",
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "ko_tokens": [
+        "%icon_tank%",
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 248
+    },
+    {
+      "resource_id": "BIA-02486",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Tanks are only vulnerable to German panzerfausts, anti-tank guns, or other tanks.",
+      "ko": "전차는 독일군의 판처파우스트, 대전차포 또는 다른 전차에만 피해를 입는다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 103
+    },
+    {
+      "resource_id": "BIA-02514",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "This tank also features a turret mounted machine gun that you can use!  To climb up onto the tank and use the machine gun, approach the tank from behind and press %icon_use%.%newline%Press %Button_Cross% to continue.",
+      "ko": "이 전차에는 직접 사용할 수 있는 포탑 기관총도 장착되어 있다! 전차 뒤로 접근해 %icon_use%를 누르면 전차에 올라 기관총을 사용할 수 있다.%newline%계속하려면 %Button_Cross%를 누른다.",
+      "source_tokens": [
+        "%icon_use%",
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "ko_tokens": [
+        "%icon_use%",
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 238
+    },
+    {
+      "resource_id": "BIA-02536",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Use the Church walls to defend against the German counter-attack.",
+      "ko": "교회 벽을 이용해 독일군의 반격을 막아라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 57
+    },
+    {
+      "resource_id": "BIA-02543",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Use your tank or find an Anti-Tank rocket to destroy the enemy's armor.",
+      "ko": "전차를 이용하거나 대전차 로켓을 찾아 적 전차를 파괴하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 80
+    },
+    {
+      "resource_id": "BIA-02549",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Vierville, France",
+      "ko": "프랑스 비에르빌",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 22
+    },
+    {
+      "resource_id": "BIA-02567",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "You can command your tank just like your soldiers.",
+      "ko": "병사들에게 명령하듯 전차에도 명령할 수 있다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 63
+    },
+    {
+      "resource_id": "BIA-02569",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "You can mount the Stuart's machine gun by pressing %use% at its rear.",
+      "ko": "스튜어트 전차 뒤에서 %use%를 누르면 기관총을 사용할 수 있다.",
+      "source_tokens": [
+        "%use%"
+      ],
+      "ko_tokens": [
+        "%use%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 83
+    },
+    {
+      "resource_id": "BIA-02577",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "You don't have to follow the path your compass set for you.",
+      "ko": "나침반이 안내하는 경로를 꼭 따라갈 필요는 없다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 67
+    },
+    {
+      "resource_id": "BIA-02579",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "You let Risner die.Mission Failed.",
+      "ko": "리스너를 죽게 내버려 뒀다.임무 실패.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 51
+    },
+    {
+      "resource_id": "BIA-02583",
+      "mission_group": "D1_0900_VIERVILLE",
+      "source_text": "Your tank is only vulnerable to enemy tanks, anti-tank guns, or enemy infantry with anti-tank rockets.%newline%Press %Button_Cross% to continue.",
+      "ko": "아군 전차는 적 전차, 대전차포 또는 대전차 로켓을 보유한 적 보병에게만 피해를 입는다.%newline%계속하려면 %Button_Cross%를 누른다.",
+      "source_tokens": [
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "ko_tokens": [
+        "%newline%",
+        "%Button_Cross%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 172
+    },
+    {
+      "resource_id": "BIA-01323",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Tank destroyed.",
+      "ko": "전차가 파괴됐다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 23
+    },
+    {
+      "resource_id": "BIA-01338",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Clear the area of Germans before you can move out.",
+      "ko": "이동하기 전에 이 지역의 독일군을 소탕하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 60
+    },
+    {
+      "resource_id": "BIA-01339",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Clear the Area.",
+      "ko": "지역을 소탕하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 23
+    },
+    {
+      "resource_id": "BIA-01366",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Escort the tank to the crossroads.",
+      "ko": "전차를 교차로까지 호위하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 39
+    },
+    {
+      "resource_id": "BIA-01367",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Exit of the Road",
+      "ko": "도로 출구",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 13
+    },
+    {
+      "resource_id": "BIA-01443",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Southeast of St. Come-du-Mont, France",
+      "ko": "프랑스 생콤뒤몽 남동쪽",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 32
+    },
+    {
+      "resource_id": "BIA-01448",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Talk To Mac.",
+      "ko": "맥과 대화하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 20
+    },
+    {
+      "resource_id": "BIA-01525",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "AT Gun",
+      "ko": "대전차포",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 12
+    },
+    {
+      "resource_id": "BIA-01541",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Baker: For once it didn't taste like paste in a can.",
+      "ko": "베이커: 웬일로 통조림 풀 같은 맛이 아니었다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 62
+    },
+    {
+      "resource_id": "BIA-01542",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Baker: George and I sat on the back of his tank and talked for an hour about home over a K Ration.",
+      "ko": "베이커: 조지와 나는 그의 전차 뒤에 앉아 K레이션을 먹으며 한 시간 동안 고향 얘기를 했다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 122
+    },
+    {
+      "resource_id": "BIA-01577",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Baker: It's the weirdest feeling being at war with your best friend there.",
+      "ko": "베이커: 절친과 함께 전쟁터에 있다는 건 정말 묘한 기분이다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 82
+    },
+    {
+      "resource_id": "BIA-01610",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Baker: You feel almost invincible, like nothing can stop you from driving all the way to Berlin and winning that ticket home.",
+      "ko": "베이커: 거의 무적이 된 기분이다. 베를린까지 밀고 가서 고향행 티켓을 거머쥐는 걸 아무것도 막지 못할 것처럼.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 150
+    },
+    {
+      "resource_id": "BIA-01630",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Clear the Area and keep your tank alive.",
+      "ko": "지역을 소탕하고 전차를 지켜라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 43
+    },
+    {
+      "resource_id": "BIA-01730",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "D+1 1830",
+      "ko": "D+1 18:30",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 9
+    },
+    {
+      "resource_id": "BIA-01790",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Disable the PAK 36 Anti-tank weapon.",
+      "ko": "PAK 36 대전차포를 무력화하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 39
+    },
+    {
+      "resource_id": "BIA-01840",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Enemy anti-tank guns can be destroyed with an explosive charge.  To plant an explosive charge, get close to the gun and %action_use% %icon_use%.",
+      "ko": "적 대전차포는 폭약으로 파괴할 수 있다. 폭약을 설치하려면 포에 접근해 %action_use% %icon_use%로 폭약을 설치한다.",
+      "source_tokens": [
+        "%action_use%",
+        "%icon_use%"
+      ],
+      "ko_tokens": [
+        "%action_use%",
+        "%icon_use%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 148
+    },
+    {
+      "resource_id": "BIA-02164",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Mac: Desola and Corrion are back in Beaumont with some guys from the 506.",
+      "ko": "맥: 데솔라와 코리온은 506연대 몇 명과 함께 보몽으로 돌아갔다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 85
+    },
+    {
+      "resource_id": "BIA-02217",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Mac: Listen, I saw what happened, but we've got to clear out of here. We'll have time to think about it later.",
+      "ko": "맥: 잘 들어, 무슨 일이 있었는지 나도 봤다. 하지만 여기서 빠져나가야 해. 생각할 시간은 나중에 있을 거다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 144
+    },
+    {
+      "resource_id": "BIA-02232",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Mac: Sink wants to take St. Come at the crack of dawn.",
+      "ko": "맥: 싱크는 새벽에 생콤을 점령하길 원한다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 58
+    },
+    {
+      "resource_id": "BIA-02263",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Mac: We have to get back and regroup.",
+      "ko": "맥: 돌아가서 재정비해야 한다.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 41
+    },
+    {
+      "resource_id": "BIA-02432",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Risner: Alright Baker, we can't sit here.  Let's clear this road.",
+      "ko": "리스너: 좋아 베이커, 여기 앉아 있을 순 없어. 이 도로를 소탕하자.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 89
+    },
+    {
+      "resource_id": "BIA-02435",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Risner: Dammit! I'm out of ammo!",
+      "ko": "리스너: 젠장! 탄약이 다 떨어졌어!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 46
+    },
+    {
+      "resource_id": "BIA-02440",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Risner: I'm gonna have to shove through it.",
+      "ko": "리스너: 밀고 지나가야겠어.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 37
+    },
+    {
+      "resource_id": "BIA-02444",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Risner: You have to go!  Matt get the Hell out of here!",
+      "ko": "리스너: 넌 가야 해! 맷, 당장 여기서 빠져나가!",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 62
+    },
+    {
+      "resource_id": "BIA-02445",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Risner: Your guys can use my tank as cover and keep the Kraut infantry off me.  Let's go.",
+      "ko": "리스너: 네 부하들은 내 전차를 엄폐물로 쓰면서 독일군 보병이 접근하지 못하게 해 줘. 가자.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 124
+    },
+    {
+      "resource_id": "BIA-02544",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Use your tank to drive through this road block.",
+      "ko": "전차로 이 도로 봉쇄물을 돌파하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 47
+    },
+    {
+      "resource_id": "BIA-02545",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Use your tank to drive through this roadblock.",
+      "ko": "전차로 이 도로 봉쇄물을 돌파하라.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 47
+    },
+    {
+      "resource_id": "BIA-02550",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "Weapon ammunition can be replenished at ammo re-supply points. Stand near the supply crate and %action_use% %icon_use% to replenish your ammo.",
+      "ko": "무기 탄약은 탄약 보급 지점에서 보충할 수 있다. 보급 상자 근처에서 %action_use% %icon_use%로 탄약을 보충한다.",
+      "source_tokens": [
+        "%action_use%",
+        "%icon_use%"
+      ],
+      "ko_tokens": [
+        "%action_use%",
+        "%icon_use%"
+      ],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 143
+    },
+    {
+      "resource_id": "BIA-02578",
+      "mission_group": "D1_1830_DEADMANSCORNER",
+      "source_text": "You let Risner die. Mission Failed.",
+      "ko": "리스너를 죽게 내버려 뒀다. 임무 실패.",
+      "source_tokens": [],
+      "ko_tokens": [],
+      "token_ok": true,
+      "pipe_count_ok": true,
+      "ko_utf8_bytes": 52
+    }
+  ]
+}

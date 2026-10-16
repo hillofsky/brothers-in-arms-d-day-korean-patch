@@ -1,0 +1,16 @@
+from pathlib import Path
+import json,re
+out=Path('outputs/step109');out.mkdir(exist_ok=True)
+t={'Rendezvous with Destiny':'운명과의 만남','Ambush at Exit 4':'제4출구 매복','Objective XYZ':'XYZ 목표','Action at Vierville':'비에르빌 전투',"Dead Man's Corner":'죽음의 교차로','The Crack of Dawn':'동틀 무렵','The Fall of St. Come-du-Mont':'생콤뒤몽 함락','St. Come-du-Mont':'생콤뒤몽','Buying the Farm':'죽음의 농장','Purple Heart Lane':'퍼플 하트 레인',"Cole's Charge":'콜의 돌격','Push Into Carentan':'카랑탕 진격','Cat and Mouse':'쫓고 쫓기는 싸움','No Better Spot to Die':'죽기에 더없이 좋은 곳','No Better Spot to Die Part 1':'죽기에 더없이 좋은 곳 1부','No Better Spot to Die Part 2':'죽기에 더없이 좋은 곳 2부','No Better Spot to Die - Part 1':'죽기에 더없이 좋은 곳 1부','No Better Spot to Die - Part 2':'죽기에 더없이 좋은 곳 2부','Bloody Gulch':'피의 계곡','Close Quarters':'근접 전투','Baupte':'보트','Run of the Mill':'풍차 전투','The All Americans':'올 아메리칸','The All Americans Part 1':'올 아메리칸 1부','The All Americans Part 2':'올 아메리칸 2부','The All Americans - Part 1':'올 아메리칸 1부','The All Americans - Part 2':'올 아메리칸 2부','Bookends':'에필로그','Victory in Carentan':'카랑탕의 승리','Through the Rubble':'잔해를 뚫고','Night Lights':'밤의 불빛','Hamlet':'마을','Taking Back the Hamlet':'마을 탈환','Holding the Line':'전선 사수','Warehouse':'창고','The Warehouse District':'창고 지구','Church':'교회','Flanked from Above':'공중에서의 기습','Broken Tanks':'파괴된 전차들','High Ground':'고지','Last Stop':'종착역','Through the Valley':'계곡을 지나','Taking the Hill':'고지 점령','Crossing Guard':'교차로 경비'}
+loc={'Over Ste. Mere Eglise, France':'프랑스 생메르에글리즈 상공','Near Utah Beach, France':'프랑스 유타 해변 인근','Normandy, France':'프랑스 노르망디','Vierville, France':'프랑스 비에르빌','Southeast of St. Come-du-Mont, France':'프랑스 생콤뒤몽 남동쪽','St. Come-du-Mont, France':'프랑스 생콤뒤몽','West of St. Come-du-Mont, France':'프랑스 생콤뒤몽 서쪽','Northwest of Carentan, France':'프랑스 카랑탕 북서쪽','Near Carentan, France':'프랑스 카랑탕 인근','Carentan, France':'프랑스 카랑탕','Near Hill 30, France':'프랑스 30고지 인근','Baupte, France':'프랑스 보트','St. Sauveur-Le-Vicomte, France':'프랑스 생소뵈르르비콩트','St. Sauveur, France':'프랑스 생소뵈르','Near Cherbourg, France':'프랑스 셰르부르 인근'};t.update(loc)
+# Preserve original whitespace in source matching; normalize only display translations.
+for p in Path('PROJECT_ROOT/extracted/PSP_GAME/USRDIR/SYSTEM').glob('*.INT'):
+ for line in p.read_bytes().decode('cp1252',errors='replace').splitlines():
+  if '=' not in line:continue
+  key,val=line.split('=',1);v=val.strip().strip('"')
+  if v in t:t[val.strip('"')]=t[v]
+  if key in ['TitleDate','TitleDay']:pass
+for day in range(6,22):t[f'June {day}, 1944']=f'1944년 6월 {day}일';t[f' June {day}, 1944']=f'1944년 6월 {day}일';t[f'  June {day}, 1944']=f'1944년 6월 {day}일'
+(out/'translations.json').write_text(json.dumps(t,ensure_ascii=False,indent=2),encoding='utf-8')
+src=str(Path('outputs/step108/BIA_STEP108_CARENTAN_LOCATION_KO_TEST.iso').resolve()).replace('\\','/')
+p=Path('work/audit108_carentan.py').read_text(encoding='utf-8-sig');a=p.index('src=Path(');z=p.index(';names=',a);p=p[:a]+"src=Path('"+src+"')"+p[z:];a=p.index('targets=');z=p.index(';keys=set()',a);p=p[:a]+"targets=json.loads(Path('outputs/step109/translations.json').read_text(encoding='utf-8'))"+p[z:];p=p.replace("out=Path('outputs/step108')","out=Path('outputs/step109')");Path('work/audit109_titles.py').write_text(p,encoding='utf-8')

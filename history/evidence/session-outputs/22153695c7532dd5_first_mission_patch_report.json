@@ -1,0 +1,3287 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE40R_CAMPAIGN_RENDERER_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40U_FIRST_MISSION_KOREAN_TEST.iso",
+  "mission_mdi_base": "0x8e03020",
+  "font_objects": [
+    {
+      "runtime": "0x9c1af84",
+      "count": 847,
+      "glyph_pointer": "0x9e6b020"
+    },
+    {
+      "runtime": "0x9c1d11c",
+      "count": 847,
+      "glyph_pointer": "0x9e6b020"
+    }
+  ],
+  "atlas_runtime": "0x9df3020",
+  "atlas_bytes": 131072,
+  "atlas_sha1": "b58e6ef06af9555a23d8be1f70a0e8d65b2ce4c6",
+  "font_metadata_runtime": "0x9e6b020",
+  "font_metadata_bytes": 43104,
+  "payloads": [
+    {
+      "korean": "보통",
+      "runtime": "0x9e76020",
+      "bytes": 7
+    },
+    {
+      "korean": "이름:",
+      "runtime": "0x9e76028",
+      "bytes": 8
+    },
+    {
+      "korean": "조준선",
+      "runtime": "0x9e76030",
+      "bytes": 10
+    },
+    {
+      "korean": "게임",
+      "runtime": "0x9e7603c",
+      "bytes": 7
+    },
+    {
+      "korean": "앞으로 %i개 남았습니다...",
+      "runtime": "0x9e76044",
+      "bytes": 35
+    },
+    {
+      "korean": "완료!",
+      "runtime": "0x9e76068",
+      "bytes": 8
+    },
+    {
+      "korean": "관전 중",
+      "runtime": "0x9e76070",
+      "bytes": 11
+    },
+    {
+      "korean": "연결 중",
+      "runtime": "0x9e7607c",
+      "bytes": 11
+    },
+    {
+      "korean": "일시정지",
+      "runtime": "0x9e76088",
+      "bytes": 13
+    },
+    {
+      "korean": "1922년 7월 26일",
+      "runtime": "0x9e76098",
+      "bytes": 19
+    },
+    {
+      "korean": "1921년 2월 22일",
+      "runtime": "0x9e760ac",
+      "bytes": 19
+    },
+    {
+      "korean": "다른 플레이어가 사망했습니다.|계속 플레이하거나 임무를 종료할 수 있습니다.",
+      "runtime": "0x9e760c0",
+      "bytes": 107
+    },
+    {
+      "korean": "사망했습니다.|계속 플레이하거나 임무를 종료하거나,|메뉴에서 임무를 다시 시작할 수 있습니다.",
+      "runtime": "0x9e7612c",
+      "bytes": 131
+    },
+    {
+      "korean": "사망했습니다.|계속 플레이하거나 임무를 종료하거나,|메뉴에서 임무를 다시 시작하거나,|마지막 체크포인트를 불러올 수 있습니다.",
+      "runtime": "0x9e761b0",
+      "bytes": 177
+    },
+    {
+      "korean": "다른 플레이어가 사망했습니다.|계속 플레이하거나 임무를 종료하거나,|메뉴에서 임무를 다시 시작하거나,|마지막 체크포인트를 불러올 수 있습니다.",
+      "runtime": "0x9e76264",
+      "bytes": 200
+    },
+    {
+      "korean": "차량 안",
+      "runtime": "0x9e7632c",
+      "bytes": 11
+    },
+    {
+      "korean": "차량",
+      "runtime": "0x9e76338",
+      "bytes": 7
+    },
+    {
+      "korean": "(발사 버튼을 눌러 준비 상태를 전환하십시오!)",
+      "runtime": "0x9e76340",
+      "bytes": 63
+    },
+    {
+      "korean": "%action_use% %icon_use%로 가방형 폭약을 설치합니다.",
+      "runtime": "0x9e76380",
+      "bytes": 64
+    },
+    {
+      "korean": "네트워크 오류가 발생했습니다.| 다른 플레이어와의 연결이 끊겼습니다. |이제 혼자 플레이합니다.",
+      "runtime": "0x9e763c0",
+      "bytes": 132
+    },
+    {
+      "korean": "체력:",
+      "runtime": "0x9e76444",
+      "bytes": 8
+    },
+    {
+      "korean": "Fire를 눌러 시작합니다.",
+      "runtime": "0x9e7644c",
+      "bytes": 32
+    },
+    {
+      "korean": "킬을 달성하면 매치에서 승리합니다.",
+      "runtime": "0x9e7646c",
+      "bytes": 50
+    },
+    {
+      "korean": "실시간 영상: ",
+      "runtime": "0x9e764a0",
+      "bytes": 19
+    },
+    {
+      "korean": "다른 플레이어를 기다리는 중입니다.",
+      "runtime": "0x9e764b4",
+      "bytes": 50
+    },
+    {
+      "korean": "준비 신호를 기다리는 중입니다.",
+      "runtime": "0x9e764e8",
+      "bytes": 44
+    },
+    {
+      "korean": "준비 완료!",
+      "runtime": "0x9e76514",
+      "bytes": 15
+    },
+    {
+      "korean": "준비되지 않았습니다!",
+      "runtime": "0x9e76524",
+      "bytes": 30
+    },
+    {
+      "korean": "브라더스 인 암즈",
+      "runtime": "0x9e76544",
+      "bytes": 24
+    },
+    {
+      "korean": "장비:",
+      "runtime": "0x9e7655c",
+      "bytes": 8
+    },
+    {
+      "korean": "%o이(가) %k을(를) %w으로 깔아뭉갰습니다.",
+      "runtime": "0x9e76564",
+      "bytes": 54
+    },
+    {
+      "korean": "%k이(가) %o을(를) %w으로 벌집으로 만들었습니다.",
+      "runtime": "0x9e7659c",
+      "bytes": 64
+    },
+    {
+      "korean": "지원군이 도착했습니다!",
+      "runtime": "0x9e765dc",
+      "bytes": 33
+    },
+    {
+      "korean": "야전 진급",
+      "runtime": "0x9e76600",
+      "bytes": 14
+    },
+    {
+      "korean": "진급시킬 병사 선택",
+      "runtime": "0x9e76610",
+      "bytes": 27
+    },
+    {
+      "korean": "준비 신호를 기다리는 중입니다. 준비 완료.",
+      "runtime": "0x9e7662c",
+      "bytes": 59
+    },
+    {
+      "korean": "매치가 곧 시작됩니다...3",
+      "runtime": "0x9e76668",
+      "bytes": 34
+    },
+    {
+      "korean": "매치가 곧 시작됩니다...2",
+      "runtime": "0x9e7668c",
+      "bytes": 34
+    },
+    {
+      "korean": "매치가 곧 시작됩니다...1",
+      "runtime": "0x9e766b0",
+      "bytes": 34
+    },
+    {
+      "korean": "경기가 시작되었습니다!",
+      "runtime": "0x9e766d4",
+      "bytes": 33
+    },
+    {
+      "korean": "연장전!",
+      "runtime": "0x9e766f8",
+      "bytes": 11
+    },
+    {
+      "korean": "준비되지 않았습니다. Fire를 누르십시오!",
+      "runtime": "0x9e76704",
+      "bytes": 55
+    },
+    {
+      "korean": "FIRE를 눌러 시작!",
+      "runtime": "0x9e7673c",
+      "bytes": 23
+    },
+    {
+      "korean": "5초, 카운트다운 시작...",
+      "runtime": "0x9e76754",
+      "bytes": 32
+    },
+    {
+      "korean": "10초 남았습니다!",
+      "runtime": "0x9e76774",
+      "bytes": 23
+    },
+    {
+      "korean": "30초 남았습니다!",
+      "runtime": "0x9e7678c",
+      "bytes": 23
+    },
+    {
+      "korean": "게임 종료까지 1분!",
+      "runtime": "0x9e767a4",
+      "bytes": 26
+    },
+    {
+      "korean": "게임 종료까지 2분!",
+      "runtime": "0x9e767c0",
+      "bytes": 26
+    },
+    {
+      "korean": "게임 종료까지 3분!",
+      "runtime": "0x9e767dc",
+      "bytes": 26
+    },
+    {
+      "korean": "게임 종료까지 4분!",
+      "runtime": "0x9e767f8",
+      "bytes": 26
+    },
+    {
+      "korean": "게임 종료까지 5분!",
+      "runtime": "0x9e76814",
+      "bytes": 26
+    },
+    {
+      "korean": "제91보병사단 2중대",
+      "runtime": "0x9e76830",
+      "bytes": 26
+    },
+    {
+      "korean": "돌격팀",
+      "runtime": "0x9e7684c",
+      "bytes": 10
+    },
+    {
+      "korean": "화력팀",
+      "runtime": "0x9e76858",
+      "bytes": 10
+    },
+    {
+      "korean": "차량팀",
+      "runtime": "0x9e76864",
+      "bytes": 10
+    },
+    {
+      "korean": "조 하트삭 하사 - 제502낙하산보병연대 폭스 중대 3소대",
+      "runtime": "0x9e76870",
+      "bytes": 73
+    },
+    {
+      "korean": "제502낙하산보병연대 폭스 중대 3소대",
+      "runtime": "0x9e768bc",
+      "bytes": 50
+    },
+    {
+      "korean": "제502낙하산보병연대 1대대",
+      "runtime": "0x9e768f0",
+      "bytes": 36
+    },
+    {
+      "korean": "제502낙하산보병연대 2대대",
+      "runtime": "0x9e76914",
+      "bytes": 36
+    },
+    {
+      "korean": "제502낙하산보병연대 3대대",
+      "runtime": "0x9e76938",
+      "bytes": 36
+    },
+    {
+      "korean": "제506낙하산보병연대 3대대",
+      "runtime": "0x9e7695c",
+      "bytes": 36
+    },
+    {
+      "korean": "제508낙하산보병연대 1대대",
+      "runtime": "0x9e76980",
+      "bytes": 36
+    },
+    {
+      "korean": "제327글라이더보병연대",
+      "runtime": "0x9e769a4",
+      "bytes": 31
+    },
+    {
+      "korean": "M5A1 스튜어트 - 제4보병사단",
+      "runtime": "0x9e769c4",
+      "bytes": 37
+    },
+    {
+      "korean": "M4A1 셔먼 - 제2기갑사단",
+      "runtime": "0x9e769ec",
+      "bytes": 31
+    },
+    {
+      "korean": "M4A1 셔먼 - 제4보병사단",
+      "runtime": "0x9e76a0c",
+      "bytes": 31
+    },
+    {
+      "korean": "제709보병사단",
+      "runtime": "0x9e76a2c",
+      "bytes": 19
+    },
+    {
+      "korean": "제91보병사단",
+      "runtime": "0x9e76a40",
+      "bytes": 18
+    },
+    {
+      "korean": "제17 SS 기갑척탄병사단",
+      "runtime": "0x9e76a54",
+      "bytes": 31
+    },
+    {
+      "korean": "StuG III A - 제100전차대대",
+      "runtime": "0x9e76a74",
+      "bytes": 32
+    },
+    {
+      "korean": "StuG III F - 제100전차대대",
+      "runtime": "0x9e76a94",
+      "bytes": 32
+    },
+    {
+      "korean": "PzKpfw IV F - 제100전차대대",
+      "runtime": "0x9e76ab4",
+      "bytes": 33
+    },
+    {
+      "korean": "PzKpfw IV F - 제17 SS 기갑척탄병사단",
+      "runtime": "0x9e76ad8",
+      "bytes": 45
+    },
+    {
+      "korean": "조 하트삭 상병 - 제502낙하산보병연대 폭스 중대 3소대",
+      "runtime": "0x9e76b08",
+      "bytes": 73
+    },
+    {
+      "korean": "맷 베이커 하사 - 제502낙하산보병연대 폭스 중대 3소대",
+      "runtime": "0x9e76b54",
+      "bytes": 73
+    },
+    {
+      "korean": "PzKpfw IV F - 제91보병사단",
+      "runtime": "0x9e76ba0",
+      "bytes": 32
+    },
+    {
+      "korean": "독일군 돌격팀",
+      "runtime": "0x9e76bc0",
+      "bytes": 20
+    },
+    {
+      "korean": "독일군 화력팀",
+      "runtime": "0x9e76bd4",
+      "bytes": 20
+    },
+    {
+      "korean": "독일군 저격팀",
+      "runtime": "0x9e76be8",
+      "bytes": 20
+    },
+    {
+      "korean": "미군 돌격팀",
+      "runtime": "0x9e76bfc",
+      "bytes": 17
+    },
+    {
+      "korean": "미군 화력팀",
+      "runtime": "0x9e76c10",
+      "bytes": 17
+    },
+    {
+      "korean": "미군 저격팀",
+      "runtime": "0x9e76c24",
+      "bytes": 17
+    },
+    {
+      "korean": "조 하트삭",
+      "runtime": "0x9e76c38",
+      "bytes": 14
+    },
+    {
+      "korean": "맷 베이커",
+      "runtime": "0x9e76c48",
+      "bytes": 14
+    },
+    {
+      "korean": "도일",
+      "runtime": "0x9e76c58",
+      "bytes": 7
+    },
+    {
+      "korean": "테오도어 뤼터",
+      "runtime": "0x9e76c60",
+      "bytes": 20
+    },
+    {
+      "korean": "루카스 빌헬름",
+      "runtime": "0x9e76c74",
+      "bytes": 20
+    },
+    {
+      "korean": "%action_use% %icon_use%로 탄약 받기: ",
+      "runtime": "0x9e76c88",
+      "bytes": 43
+    },
+    {
+      "korean": "탄약을 받았습니다: ",
+      "runtime": "0x9e76cb4",
+      "bytes": 28
+    },
+    {
+      "korean": "%action_use% %icon_use%로 문을 엽니다.",
+      "runtime": "0x9e76cd0",
+      "bytes": 45
+    },
+    {
+      "korean": "%action_use% %icon_use%로 대화합니다.",
+      "runtime": "0x9e76d00",
+      "bytes": 44
+    },
+    {
+      "korean": "%action_use% %icon_use%로 개먼 폭탄을 설치합니다.",
+      "runtime": "0x9e76d2c",
+      "bytes": 61
+    },
+    {
+      "korean": "%action_use% %icon_use%로 표지판을 읽습니다.",
+      "runtime": "0x9e76d6c",
+      "bytes": 54
+    },
+    {
+      "korean": "%action_use% %icon_use%로 MG42를 사용합니다.",
+      "runtime": "0x9e76da4",
+      "bytes": 52
+    },
+    {
+      "korean": "%action_use% %icon_use%로 박격포를 사용합니다.",
+      "runtime": "0x9e76dd8",
+      "bytes": 57
+    },
+    {
+      "korean": "%action_use% %icon_use%로 브라우닝 기관총을 사용합니다.",
+      "runtime": "0x9e76e14",
+      "bytes": 70
+    },
+    {
+      "korean": "%action_use% %icon_use%로 .45 권총을 사용합니다.",
+      "runtime": "0x9e76e5c",
+      "bytes": 58
+    },
+    {
+      "korean": "%%action_use% %icon_use%로 Pak 36을 사용합니다.",
+      "runtime": "0x9e76e98",
+      "bytes": 55
+    },
+    {
+      "korean": "%action_use% %icon_use%로 아이템을 줍습니다.",
+      "runtime": "0x9e76ed0",
+      "bytes": 54
+    },
+    {
+      "korean": "%action_use% %icon_use%로 전차 기관총을 사용합니다.",
+      "runtime": "0x9e76f08",
+      "bytes": 64
+    },
+    {
+      "korean": "%action_use% %icon_use%로 무기들을 보급합니다.",
+      "runtime": "0x9e76f48",
+      "bytes": 57
+    },
+    {
+      "korean": "%action_use% %icon_use%로 아이템을 보급합니다.",
+      "runtime": "0x9e76f84",
+      "bytes": 57
+    },
+    {
+      "korean": "%action_use% %icon_use%로 폭발물을 설치합니다.",
+      "runtime": "0x9e76fc0",
+      "bytes": 57
+    },
+    {
+      "korean": "%action_use% %icon_use%로 폭발물을 해체합니다.",
+      "runtime": "0x9e76ffc",
+      "bytes": 57
+    },
+    {
+      "korean": "%action_use% %icon_use%로 폭발물을 다시 무장합니다.",
+      "runtime": "0x9e77038",
+      "bytes": 64
+    },
+    {
+      "korean": "%action_use% %icon_use%로 전차 안에 폭발물을 투입합니다.",
+      "runtime": "0x9e77078",
+      "bytes": 71
+    },
+    {
+      "korean": "%action_use% %icon_use%로 폭약을 기폭합니다.",
+      "runtime": "0x9e770c0",
+      "bytes": 54
+    },
+    {
+      "korean": "%action_use% %icon_use%로 조명탄 상자를 사용합니다.",
+      "runtime": "0x9e770f8",
+      "bytes": 64
+    },
+    {
+      "korean": "%action_use% %icon_use%로 치료합니다.",
+      "runtime": "0x9e77138",
+      "bytes": 44
+    },
+    {
+      "korean": "%action_use% %icon_use%로 사용|",
+      "runtime": "0x9e77164",
+      "bytes": 35
+    },
+    {
+      "korean": "%action_use% %icon_use%로 전리품을 사용합니다.",
+      "runtime": "0x9e77188",
+      "bytes": 57
+    },
+    {
+      "korean": "전차에 수류탄을 넣으려면 해치가 열려 있어야 합니다.",
+      "runtime": "0x9e771c4",
+      "bytes": 74
+    },
+    {
+      "korean": "다른 플레이어가 사망했습니다.|이제 혼자 플레이합니다.",
+      "runtime": "0x9e77210",
+      "bytes": 77
+    },
+    {
+      "korean": "%action_use% %icon_use%로 대화: ",
+      "runtime": "0x9e77260",
+      "bytes": 36
+    },
+    {
+      "korean": "%action_use% %icon_use%로 무기를 보급합니다.",
+      "runtime": "0x9e77284",
+      "bytes": 54
+    },
+    {
+      "korean": "탄약을 받았습니다.",
+      "runtime": "0x9e772bc",
+      "bytes": 27
+    },
+    {
+      "korean": "체력을 회복했습니다.",
+      "runtime": "0x9e772d8",
+      "bytes": 30
+    },
+    {
+      "korean": "미군 M1 소총",
+      "runtime": "0x9e772f8",
+      "bytes": 17
+    },
+    {
+      "korean": "미군 M1 카빈",
+      "runtime": "0x9e7730c",
+      "bytes": 17
+    },
+    {
+      "korean": "미군 BAR 기관총",
+      "runtime": "0x9e77320",
+      "bytes": 21
+    },
+    {
+      "korean": "미군 M1A1 기관단총",
+      "runtime": "0x9e77338",
+      "bytes": 25
+    },
+    {
+      "korean": "미군 .45 권총",
+      "runtime": "0x9e77354",
+      "bytes": 18
+    },
+    {
+      "korean": "미군 바주카",
+      "runtime": "0x9e77368",
+      "bytes": 17
+    },
+    {
+      "korean": "미군 스프링필드 소총",
+      "runtime": "0x9e7737c",
+      "bytes": 30
+    },
+    {
+      "korean": "독일군 K98 소총",
+      "runtime": "0x9e7739c",
+      "bytes": 21
+    },
+    {
+      "korean": "독일군 K98 저격소총",
+      "runtime": "0x9e773b4",
+      "bytes": 27
+    },
+    {
+      "korean": "독일군 MP40 기관단총",
+      "runtime": "0x9e773d0",
+      "bytes": 28
+    },
+    {
+      "korean": "독일군 MG42 기관총",
+      "runtime": "0x9e773ec",
+      "bytes": 25
+    },
+    {
+      "korean": "독일군 박격포",
+      "runtime": "0x9e77408",
+      "bytes": 20
+    },
+    {
+      "korean": "독일군 P38 권총",
+      "runtime": "0x9e7741c",
+      "bytes": 21
+    },
+    {
+      "korean": "독일군 STG44 돌격소총",
+      "runtime": "0x9e77434",
+      "bytes": 29
+    },
+    {
+      "korean": "독일군 판처파우스트",
+      "runtime": "0x9e77454",
+      "bytes": 29
+    },
+    {
+      "korean": "독일군 FG42 기관총",
+      "runtime": "0x9e77474",
+      "bytes": 25
+    },
+    {
+      "korean": "독일군 FG42 저격 기관총",
+      "runtime": "0x9e77490",
+      "bytes": 32
+    },
+    {
+      "korean": "미군 M3A1 기관단총",
+      "runtime": "0x9e774b0",
+      "bytes": 25
+    },
+    {
+      "korean": "힌트",
+      "runtime": "0x9e774cc",
+      "bytes": 7
+    },
+    {
+      "korean": "다른 플레이어가 사망했습니다.|복무가 종료되었습니다.",
+      "runtime": "0x9e774d4",
+      "bytes": 76
+    },
+    {
+      "korean": "사망했습니다.|복무가 종료되었습니다.",
+      "runtime": "0x9e77520",
+      "bytes": 53
+    },
+    {
+      "korean": "다른 플레이어가 게임을 나갔습니다.",
+      "runtime": "0x9e77558",
+      "bytes": 50
+    },
+    {
+      "korean": "다른 플레이어가 게임을 나갔습니다. |이제 혼자 플레이합니다.",
+      "runtime": "0x9e7758c",
+      "bytes": 85
+    },
+    {
+      "korean": " 무기 재장전",
+      "runtime": "0x9e775e4",
+      "bytes": 18
+    },
+    {
+      "korean": "R3 버튼을 눌러 조준하십시오.",
+      "runtime": "0x9e775f8",
+      "bytes": 40
+    },
+    {
+      "korean": "%action_use% %icon_use%로 줍기|",
+      "runtime": "0x9e77620",
+      "bytes": 35
+    },
+    {
+      "korean": "체크포인트 불러오기",
+      "runtime": "0x9e77644",
+      "bytes": 29
+    },
+    {
+      "korean": "체크포인트",
+      "runtime": "0x9e77664",
+      "bytes": 16
+    },
+    {
+      "korean": "새 목표",
+      "runtime": "0x9e77674",
+      "bytes": 11
+    },
+    {
+      "korean": "주 목표",
+      "runtime": "0x9e77680",
+      "bytes": 11
+    },
+    {
+      "korean": "보조 목표",
+      "runtime": "0x9e7768c",
+      "bytes": 14
+    },
+    {
+      "korean": "실패",
+      "runtime": "0x9e7769c",
+      "bytes": 7
+    },
+    {
+      "korean": "병사 선택",
+      "runtime": "0x9e776a4",
+      "bytes": 14
+    },
+    {
+      "korean": "진급",
+      "runtime": "0x9e776b4",
+      "bytes": 7
+    },
+    {
+      "korean": "카메라 고정",
+      "runtime": "0x9e776bc",
+      "bytes": 17
+    },
+    {
+      "korean": "카메라 고정 해제",
+      "runtime": "0x9e776d0",
+      "bytes": 24
+    },
+    {
+      "korean": "관전 시점",
+      "runtime": "0x9e776e8",
+      "bytes": 14
+    },
+    {
+      "korean": "자유 시점",
+      "runtime": "0x9e776f8",
+      "bytes": 14
+    },
+    {
+      "korean": "확인",
+      "runtime": "0x9e77708",
+      "bytes": 7
+    },
+    {
+      "korean": "%action_use% %icon_use%로 전리품을 줍습니다.",
+      "runtime": "0x9e77710",
+      "bytes": 54
+    },
+    {
+      "korean": "사망했습니다!",
+      "runtime": "0x9e77748",
+      "bytes": 20
+    },
+    {
+      "korean": "즉시 진급",
+      "runtime": "0x9e7775c",
+      "bytes": 14
+    },
+    {
+      "korean": "아무 버튼이나 눌러 계속하십시오",
+      "runtime": "0x9e7776c",
+      "bytes": 46
+    },
+    {
+      "korean": "지원군 호출",
+      "runtime": "0x9e7779c",
+      "bytes": 17
+    },
+    {
+      "korean": "관전",
+      "runtime": "0x9e777b0",
+      "bytes": 7
+    },
+    {
+      "korean": " 점수판 표시",
+      "runtime": "0x9e777b8",
+      "bytes": 18
+    },
+    {
+      "korean": " 점수판 숨기기",
+      "runtime": "0x9e777cc",
+      "bytes": 21
+    },
+    {
+      "korean": "웨이브 완료",
+      "runtime": "0x9e777e4",
+      "bytes": 17
+    },
+    {
+      "korean": "웨이브 시작",
+      "runtime": "0x9e777f8",
+      "bytes": 17
+    },
+    {
+      "korean": "진행 상황 저장 중...",
+      "runtime": "0x9e7780c",
+      "bytes": 28
+    },
+    {
+      "korean": "플레이어가 게임에 복귀했습니다.",
+      "runtime": "0x9e77828",
+      "bytes": 46
+    },
+    {
+      "korean": "%icon_use%를 눌러 기폭기를 작동합니다.",
+      "runtime": "0x9e77858",
+      "bytes": 51
+    },
+    {
+      "korean": "목표 무력화!",
+      "runtime": "0x9e7788c",
+      "bytes": 18
+    },
+    {
+      "korean": "사망했습니다. [Fire]를 눌러 부활하십시오!",
+      "runtime": "0x9e778a0",
+      "bytes": 57
+    },
+    {
+      "korean": "인근",
+      "runtime": "0x9e778dc",
+      "bytes": 7
+    },
+    {
+      "korean": " 팀 기지",
+      "runtime": "0x9e778e4",
+      "bytes": 12
+    },
+    {
+      "korean": "기어박스 게임",
+      "runtime": "0x9e778f0",
+      "bytes": 20
+    },
+    {
+      "korean": "네트워크 시작 지연",
+      "runtime": "0x9e77904",
+      "bytes": 27
+    },
+    {
+      "korean": "최소 네트워크 플레이어",
+      "runtime": "0x9e77920",
+      "bytes": 33
+    },
+    {
+      "korean": "재시작 지연",
+      "runtime": "0x9e77944",
+      "bytes": 17
+    },
+    {
+      "korean": "토너먼트 게임",
+      "runtime": "0x9e77958",
+      "bytes": 20
+    },
+    {
+      "korean": "플레이어 준비 필수",
+      "runtime": "0x9e7796c",
+      "bytes": 27
+    },
+    {
+      "korean": "강제 부활",
+      "runtime": "0x9e77988",
+      "bytes": 14
+    },
+    {
+      "korean": "봇 실력 조정",
+      "runtime": "0x9e77998",
+      "bytes": 18
+    },
+    {
+      "korean": "부활 보호 시간",
+      "runtime": "0x9e779ac",
+      "bytes": 21
+    },
+    {
+      "korean": "트랜스로케이터 허용",
+      "runtime": "0x9e779c4",
+      "bytes": 29
+    },
+    {
+      "korean": "최소 플레이어 수",
+      "runtime": "0x9e779e4",
+      "bytes": 24
+    },
+    {
+      "korean": "팀 점수 라운드",
+      "runtime": "0x9e779fc",
+      "bytes": 21
+    },
+    {
+      "korean": "게임 종료 지연 시간",
+      "runtime": "0x9e77a14",
+      "bytes": 28
+    },
+    {
+      "korean": "공수 작전",
+      "runtime": "0x9e77a30",
+      "bytes": 14
+    },
+    {
+      "korean": "UT2003 통계 매치 ID",
+      "runtime": "0x9e77a40",
+      "bytes": 24
+    },
+    {
+      "korean": " [Fire]를 눌러 계속하십시오!",
+      "runtime": "0x9e77a58",
+      "bytes": 38
+    },
+    {
+      "korean": "계급",
+      "runtime": "0x9e77a80",
+      "bytes": 7
+    },
+    {
+      "korean": "플레이어",
+      "runtime": "0x9e77a88",
+      "bytes": 13
+    },
+    {
+      "korean": "점수",
+      "runtime": "0x9e77a98",
+      "bytes": 7
+    },
+    {
+      "korean": "시간:",
+      "runtime": "0x9e77aa0",
+      "bytes": 8
+    },
+    {
+      "korean": "핑:",
+      "runtime": "0x9e77aa8",
+      "bytes": 5
+    },
+    {
+      "korean": "사망",
+      "runtime": "0x9e77ab0",
+      "bytes": 7
+    },
+    {
+      "korean": "관리자",
+      "runtime": "0x9e77ab8",
+      "bytes": 10
+    },
+    {
+      "korean": "네트워크",
+      "runtime": "0x9e77ac4",
+      "bytes": 13
+    },
+    {
+      "korean": "경과 시간:",
+      "runtime": "0x9e77ad4",
+      "bytes": 15
+    },
+    {
+      "korean": "탈락",
+      "runtime": "0x9e77ae4",
+      "bytes": 7
+    },
+    {
+      "korean": "준비 안 됨",
+      "runtime": "0x9e77aec",
+      "bytes": 15
+    },
+    {
+      "korean": "초보",
+      "runtime": "0x9e77afc",
+      "bytes": 7
+    },
+    {
+      "korean": "평균",
+      "runtime": "0x9e77b04",
+      "bytes": 7
+    },
+    {
+      "korean": "숙련",
+      "runtime": "0x9e77b0c",
+      "bytes": 7
+    },
+    {
+      "korean": "달인",
+      "runtime": "0x9e77b14",
+      "bytes": 7
+    },
+    {
+      "korean": "비인간적",
+      "runtime": "0x9e77b1c",
+      "bytes": 13
+    },
+    {
+      "korean": "초인적",
+      "runtime": "0x9e77b2c",
+      "bytes": 10
+    },
+    {
+      "korean": "매치에서 패배했습니다",
+      "runtime": "0x9e77b38",
+      "bytes": 32
+    },
+    {
+      "korean": "매치에서 승리했습니다",
+      "runtime": "0x9e77b58",
+      "bytes": 32
+    },
+    {
+      "korean": "최대 목숨:",
+      "runtime": "0x9e77b78",
+      "bytes": 15
+    },
+    {
+      "korean": "킬 제한:",
+      "runtime": "0x9e77b88",
+      "bytes": 12
+    },
+    {
+      "korean": "매치가 종료되었습니다.",
+      "runtime": "0x9e77b94",
+      "bytes": 33
+    },
+    {
+      "korean": "남은 시간:",
+      "runtime": "0x9e77bb8",
+      "bytes": 15
+    },
+    {
+      "korean": "근처",
+      "runtime": "0x9e77bc8",
+      "bytes": 7
+    },
+    {
+      "korean": "봇 팀 균형 맞추기",
+      "runtime": "0x9e77bd0",
+      "bytes": 25
+    },
+    {
+      "korean": "플레이어 팀 균형 맞추기",
+      "runtime": "0x9e77bec",
+      "bytes": 34
+    },
+    {
+      "korean": "최대 팀 인원",
+      "runtime": "0x9e77c10",
+      "bytes": 18
+    },
+    {
+      "korean": "아군 사격 피해 배율",
+      "runtime": "0x9e77c24",
+      "bytes": 28
+    },
+    {
+      "korean": "팀 데스매치",
+      "runtime": "0x9e77c40",
+      "bytes": 17
+    },
+    {
+      "korean": "점수 제한:",
+      "runtime": "0x9e77c54",
+      "bytes": 15
+    },
+    {
+      "korean": "임무 구역 이탈 중",
+      "runtime": "0x9e77c64",
+      "bytes": 25
+    },
+    {
+      "korean": "조 하트삭 하사",
+      "runtime": "0x9e77c80",
+      "bytes": 21
+    },
+    {
+      "korean": "맷 베이커 하사",
+      "runtime": "0x9e77c98",
+      "bytes": 21
+    },
+    {
+      "korean": "미군",
+      "runtime": "0x9e77cb0",
+      "bytes": 7
+    },
+    {
+      "korean": "독일군",
+      "runtime": "0x9e77cb8",
+      "bytes": 10
+    },
+    {
+      "korean": "%action_use% %icon_use%로 보급:|",
+      "runtime": "0x9e77cc4",
+      "bytes": 36
+    },
+    {
+      "korean": "헤세이 소대 선임하사",
+      "runtime": "0x9e77ce8",
+      "bytes": 30
+    },
+    {
+      "korean": "디버그 메뉴",
+      "runtime": "0x9e77d08",
+      "bytes": 17
+    },
+    {
+      "korean": "앨런 이병",
+      "runtime": "0x9e77d1c",
+      "bytes": 14
+    },
+    {
+      "korean": "로크 이병",
+      "runtime": "0x9e77d2c",
+      "bytes": 14
+    },
+    {
+      "korean": "하트삭 상병",
+      "runtime": "0x9e77d3c",
+      "bytes": 17
+    },
+    {
+      "korean": "제임슨 이병",
+      "runtime": "0x9e77d50",
+      "bytes": 17
+    },
+    {
+      "korean": "가넷 이병",
+      "runtime": "0x9e77d64",
+      "bytes": 14
+    },
+    {
+      "korean": "코리온 상병",
+      "runtime": "0x9e77d74",
+      "bytes": 17
+    },
+    {
+      "korean": "레겟 일병",
+      "runtime": "0x9e77d88",
+      "bytes": 14
+    },
+    {
+      "korean": "베이커 하사",
+      "runtime": "0x9e77d98",
+      "bytes": 17
+    },
+    {
+      "korean": "무자 이병",
+      "runtime": "0x9e77dac",
+      "bytes": 14
+    },
+    {
+      "korean": "콜 중령",
+      "runtime": "0x9e77dbc",
+      "bytes": 11
+    },
+    {
+      "korean": "요크 이병",
+      "runtime": "0x9e77dc8",
+      "bytes": 14
+    },
+    {
+      "korean": "휘튼 일병",
+      "runtime": "0x9e77dd8",
+      "bytes": 14
+    },
+    {
+      "korean": "후퍼 이병",
+      "runtime": "0x9e77de8",
+      "bytes": 14
+    },
+    {
+      "korean": "도 이병",
+      "runtime": "0x9e77df8",
+      "bytes": 11
+    },
+    {
+      "korean": "맥크리어리 이병",
+      "runtime": "0x9e77e04",
+      "bytes": 23
+    },
+    {
+      "korean": "리바스 이병",
+      "runtime": "0x9e77e1c",
+      "bytes": 17
+    },
+    {
+      "korean": "데솔라 이병",
+      "runtime": "0x9e77e30",
+      "bytes": 17
+    },
+    {
+      "korean": "자노비치 일병",
+      "runtime": "0x9e77e44",
+      "bytes": 20
+    },
+    {
+      "korean": "오브리에스키 일병",
+      "runtime": "0x9e77e58",
+      "bytes": 26
+    },
+    {
+      "korean": "코틀랜드 일병",
+      "runtime": "0x9e77e74",
+      "bytes": 20
+    },
+    {
+      "korean": "콤스 소위",
+      "runtime": "0x9e77e88",
+      "bytes": 14
+    },
+    {
+      "korean": "루이스 하사",
+      "runtime": "0x9e77e98",
+      "bytes": 17
+    },
+    {
+      "korean": "스콧 하사",
+      "runtime": "0x9e77eac",
+      "bytes": 14
+    },
+    {
+      "korean": "보이드 소위",
+      "runtime": "0x9e77ebc",
+      "bytes": 17
+    },
+    {
+      "korean": "리스너 하사",
+      "runtime": "0x9e77ed0",
+      "bytes": 17
+    },
+    {
+      "korean": "잭슨 하사",
+      "runtime": "0x9e77ee4",
+      "bytes": 14
+    },
+    {
+      "korean": "킬로이 하사",
+      "runtime": "0x9e77ef4",
+      "bytes": 17
+    },
+    {
+      "korean": "도일 상병",
+      "runtime": "0x9e77f08",
+      "bytes": 14
+    },
+    {
+      "korean": "패독 상병",
+      "runtime": "0x9e77f18",
+      "bytes": 14
+    },
+    {
+      "korean": "캐시디 중령",
+      "runtime": "0x9e77f28",
+      "bytes": 17
+    },
+    {
+      "korean": "프라이어 이병",
+      "runtime": "0x9e77f3c",
+      "bytes": 20
+    },
+    {
+      "korean": "캠벨 상병",
+      "runtime": "0x9e77f50",
+      "bytes": 14
+    },
+    {
+      "korean": "맥코넬 이병",
+      "runtime": "0x9e77f60",
+      "bytes": 17
+    },
+    {
+      "korean": "페이지 이병",
+      "runtime": "0x9e77f74",
+      "bytes": 17
+    },
+    {
+      "korean": "마시 이병",
+      "runtime": "0x9e77f88",
+      "bytes": 14
+    },
+    {
+      "korean": "존슨 대령",
+      "runtime": "0x9e77f98",
+      "bytes": 14
+    },
+    {
+      "korean": "허시 이병",
+      "runtime": "0x9e77fa8",
+      "bytes": 14
+    },
+    {
+      "korean": "마셜 대령",
+      "runtime": "0x9e77fb8",
+      "bytes": 14
+    },
+    {
+      "korean": "병사",
+      "runtime": "0x9e77fc8",
+      "bytes": 7
+    },
+    {
+      "korean": "%o은(는) 숨 쉬러 올라오는 걸 잊었습니다.",
+      "runtime": "0x9e77fd0",
+      "bytes": 56
+    },
+    {
+      "korean": "벙커를 점령하고 Flak 36 대공포를 파괴하라. 점령 후에는 진지를 사수하라.",
+      "runtime": "0x9e78008",
+      "bytes": 99
+    },
+    {
+      "korean": "미군이 점령한 도시를 돌파해 독일 전차부대와 합류하라.",
+      "runtime": "0x9e7806c",
+      "bytes": 77
+    },
+    {
+      "korean": "지정되지 않은 동작",
+      "runtime": "0x9e780bc",
+      "bytes": 27
+    },
+    {
+      "korean": "애니메이션 재생",
+      "runtime": "0x9e780d8",
+      "bytes": 23
+    },
+    {
+      "korean": "%o은(는) %k 때문에 감압되었습니다.",
+      "runtime": "0x9e780f0",
+      "bytes": 47
+    },
+    {
+      "korean": "불타는 중",
+      "runtime": "0x9e78120",
+      "bytes": 14
+    },
+    {
+      "korean": "%o은(는) 감압되었습니다.",
+      "runtime": "0x9e78130",
+      "bytes": 34
+    },
+    {
+      "korean": "%o은(는) %k에게 녹아버렸습니다.",
+      "runtime": "0x9e78154",
+      "bytes": 43
+    },
+    {
+      "korean": "%o은(는) 노릇하게 구워졌습니다.",
+      "runtime": "0x9e78180",
+      "bytes": 44
+    },
+    {
+      "korean": "물속",
+      "runtime": "0x9e781ac",
+      "bytes": 7
+    },
+    {
+      "korean": "%o은(는) 점액에 녹아버렸습니다.",
+      "runtime": "0x9e781b4",
+      "bytes": 44
+    },
+    {
+      "korean": "%o은(는) %k의 피스톤에 짓뭉개졌습니다.",
+      "runtime": "0x9e781e0",
+      "bytes": 53
+    },
+    {
+      "korean": "용암 속",
+      "runtime": "0x9e78218",
+      "bytes": 11
+    },
+    {
+      "korean": "점액 속",
+      "runtime": "0x9e78224",
+      "bytes": 11
+    },
+    {
+      "korean": "진공 상태",
+      "runtime": "0x9e78230",
+      "bytes": 14
+    },
+    {
+      "korean": "미군 셔먼 전차 .50구경 탄약",
+      "runtime": "0x9e78240",
+      "bytes": 38
+    },
+    {
+      "korean": "독일군 FG42 탄약",
+      "runtime": "0x9e78268",
+      "bytes": 22
+    },
+    {
+      "korean": "독일군 Flakvierling 탄약",
+      "runtime": "0x9e78280",
+      "bytes": 30
+    },
+    {
+      "korean": "독일군 MG42 탄약",
+      "runtime": "0x9e782a0",
+      "bytes": 22
+    },
+    {
+      "korean": "미군 M1A1 탄환",
+      "runtime": "0x9e782b8",
+      "bytes": 19
+    },
+    {
+      "korean": "독일군 MP40 탄환",
+      "runtime": "0x9e782cc",
+      "bytes": 22
+    },
+    {
+      "korean": "독일군 박격포탄",
+      "runtime": "0x9e782e4",
+      "bytes": 23
+    },
+    {
+      "korean": "독일군 판처파우스트 탄약",
+      "runtime": "0x9e782fc",
+      "bytes": 36
+    },
+    {
+      "korean": "미군 .45 탄환",
+      "runtime": "0x9e78320",
+      "bytes": 18
+    },
+    {
+      "korean": "미군 스튜어트 주포탄",
+      "runtime": "0x9e78334",
+      "bytes": 30
+    },
+    {
+      "korean": "미군 M10 .50구경 탄약",
+      "runtime": "0x9e78354",
+      "bytes": 28
+    },
+    {
+      "korean": "미군 BAR 탄환",
+      "runtime": "0x9e78370",
+      "bytes": 18
+    },
+    {
+      "korean": "독일군 StuG 주포탄",
+      "runtime": "0x9e78384",
+      "bytes": 25
+    },
+    {
+      "korean": "미군 바주카 탄약",
+      "runtime": "0x9e783a0",
+      "bytes": 24
+    },
+    {
+      "korean": "미군 카빈 탄환",
+      "runtime": "0x9e783b8",
+      "bytes": 21
+    },
+    {
+      "korean": "미군 M10 주포탄",
+      "runtime": "0x9e783d0",
+      "bytes": 21
+    },
+    {
+      "korean": "미군 M3A1 탄약",
+      "runtime": "0x9e783e8",
+      "bytes": 19
+    },
+    {
+      "korean": "미군 M1 탄환",
+      "runtime": "0x9e783fc",
+      "bytes": 17
+    },
+    {
+      "korean": "미군 셔먼 주포탄",
+      "runtime": "0x9e78410",
+      "bytes": 24
+    },
+    {
+      "korean": "미군 스튜어트 전차 .30구경 탄약",
+      "runtime": "0x9e78428",
+      "bytes": 44
+    },
+    {
+      "korean": "미군 M1 카빈 탄약",
+      "runtime": "0x9e78454",
+      "bytes": 24
+    },
+    {
+      "korean": "독일군 K98 소총을 획득했습니다.",
+      "runtime": "0x9e7846c",
+      "bytes": 44
+    },
+    {
+      "korean": "미군 M1 소총을 획득했습니다.",
+      "runtime": "0x9e78498",
+      "bytes": 40
+    },
+    {
+      "korean": "미군 M10 .50구경",
+      "runtime": "0x9e784c0",
+      "bytes": 21
+    },
+    {
+      "korean": "미군 M1919 .30구경 기관총",
+      "runtime": "0x9e784d8",
+      "bytes": 33
+    },
+    {
+      "korean": "미군 셔먼 .50구경",
+      "runtime": "0x9e784fc",
+      "bytes": 24
+    },
+    {
+      "korean": "미군 스튜어트 .30구경",
+      "runtime": "0x9e78514",
+      "bytes": 30
+    },
+    {
+      "korean": "[Use]를 눌러 브라우닝 기관총을 사용합니다.",
+      "runtime": "0x9e78534",
+      "bytes": 59
+    },
+    {
+      "korean": "[Jump]를 눌러 브라우닝 기관총에서 내립니다.",
+      "runtime": "0x9e78570",
+      "bytes": 60
+    },
+    {
+      "korean": "독일군 K98 탄약",
+      "runtime": "0x9e785ac",
+      "bytes": 21
+    },
+    {
+      "korean": "독일군 MP40 탄약",
+      "runtime": "0x9e785c4",
+      "bytes": 22
+    },
+    {
+      "korean": "미군 .45 탄약",
+      "runtime": "0x9e785dc",
+      "bytes": 18
+    },
+    {
+      "korean": "미군 M1A1 탄약",
+      "runtime": "0x9e785f0",
+      "bytes": 19
+    },
+    {
+      "korean": "미군 M1 탄약",
+      "runtime": "0x9e78604",
+      "bytes": 17
+    },
+    {
+      "korean": "미군 BAR 탄약",
+      "runtime": "0x9e78618",
+      "bytes": 18
+    },
+    {
+      "korean": "취소",
+      "runtime": "0x9e7862c",
+      "bytes": 7
+    },
+    {
+      "korean": "명중률",
+      "runtime": "0x9e78634",
+      "bytes": 10
+    },
+    {
+      "korean": "전술",
+      "runtime": "0x9e78640",
+      "bytes": 7
+    },
+    {
+      "korean": "제압",
+      "runtime": "0x9e78648",
+      "bytes": 7
+    },
+    {
+      "korean": "매복",
+      "runtime": "0x9e78650",
+      "bytes": 7
+    },
+    {
+      "korean": "계곡을 지나",
+      "runtime": "0x9e78658",
+      "bytes": 17
+    },
+    {
+      "korean": "마을 탈환",
+      "runtime": "0x9e7866c",
+      "bytes": 14
+    },
+    {
+      "korean": "참호",
+      "runtime": "0x9e7867c",
+      "bytes": 7
+    },
+    {
+      "korean": "창고 지구",
+      "runtime": "0x9e78684",
+      "bytes": 14
+    },
+    {
+      "korean": "둑길",
+      "runtime": "0x9e78694",
+      "bytes": 7
+    },
+    {
+      "korean": "교차로",
+      "runtime": "0x9e7869c",
+      "bytes": 10
+    },
+    {
+      "korean": "어둠",
+      "runtime": "0x9e786a8",
+      "bytes": 7
+    },
+    {
+      "korean": "수로",
+      "runtime": "0x9e786b0",
+      "bytes": 7
+    },
+    {
+      "korean": "폭풍",
+      "runtime": "0x9e786b8",
+      "bytes": 7
+    },
+    {
+      "korean": "절벽",
+      "runtime": "0x9e786c0",
+      "bytes": 7
+    },
+    {
+      "korean": "고지대",
+      "runtime": "0x9e786c8",
+      "bytes": 10
+    },
+    {
+      "korean": "파괴된 전차",
+      "runtime": "0x9e786d4",
+      "bytes": 17
+    },
+    {
+      "korean": "종착역",
+      "runtime": "0x9e786e8",
+      "bytes": 10
+    },
+    {
+      "korean": "고지 점령",
+      "runtime": "0x9e786f4",
+      "bytes": 14
+    },
+    {
+      "korean": "야간 조명",
+      "runtime": "0x9e78704",
+      "bytes": 14
+    },
+    {
+      "korean": "전선 사수",
+      "runtime": "0x9e78714",
+      "bytes": 14
+    },
+    {
+      "korean": "잔해를 뚫고",
+      "runtime": "0x9e78724",
+      "bytes": 17
+    },
+    {
+      "korean": "앙테르비앵의 매복",
+      "runtime": "0x9e78738",
+      "bytes": 26
+    },
+    {
+      "korean": "참호 속에서",
+      "runtime": "0x9e78754",
+      "bytes": 17
+    },
+    {
+      "korean": "둑길의 피",
+      "runtime": "0x9e78768",
+      "bytes": 14
+    },
+    {
+      "korean": "에티엔빌의 새벽",
+      "runtime": "0x9e78778",
+      "bytes": 23
+    },
+    {
+      "korean": "펠르랭 교차로",
+      "runtime": "0x9e78790",
+      "bytes": 20
+    },
+    {
+      "korean": "어둠 속의 한 발",
+      "runtime": "0x9e787a4",
+      "bytes": 22
+    },
+    {
+      "korean": "수로에서",
+      "runtime": "0x9e787bc",
+      "bytes": 13
+    },
+    {
+      "korean": "폭풍 전야",
+      "runtime": "0x9e787cc",
+      "bytes": 14
+    },
+    {
+      "korean": "고요한 절벽",
+      "runtime": "0x9e787dc",
+      "bytes": 17
+    },
+    {
+      "korean": "미군 공수부대로부터 Flak 38 대공포 진지 세 곳을 방어하라.",
+      "runtime": "0x9e787f0",
+      "bytes": 79
+    },
+    {
+      "korean": "독일군 보급로를 확보하기 위해 마을을 탈환하라.",
+      "runtime": "0x9e78840",
+      "bytes": 67
+    },
+    {
+      "korean": "창고 지구의 미군을 소탕하라.",
+      "runtime": "0x9e78884",
+      "bytes": 41
+    },
+    {
+      "korean": "미군 공수부대가 전선을 돌파해 88 탄약고에 도달할 때까지 진지를 사수하라.",
+      "runtime": "0x9e788b0",
+      "bytes": 103
+    },
+    {
+      "korean": "현재 게임을 종료하고 메인 메뉴로 돌아갑니다. 계속하시겠습니까?",
+      "runtime": "0x9e78918",
+      "bytes": 90
+    },
+    {
+      "korean": "운명과의 합류",
+      "runtime": "0x9e78974",
+      "bytes": 20
+    },
+    {
+      "korean": "이름을 비워 둘 수 없습니다.",
+      "runtime": "0x9e78988",
+      "bytes": 39
+    },
+    {
+      "korean": "새 게임을 시작하시겠습니까?",
+      "runtime": "0x9e789b0",
+      "bytes": 40
+    },
+    {
+      "korean": "변경 사항을 저장하시겠습니까?",
+      "runtime": "0x9e789d8",
+      "bytes": 43
+    },
+    {
+      "korean": "더 이상 참가할 수 없는 게임입니다.",
+      "runtime": "0x9e78a04",
+      "bytes": 49
+    },
+    {
+      "korean": "다른 플레이어가 다시 시작하기를 기다리는 중...",
+      "runtime": "0x9e78a38",
+      "bytes": 66
+    },
+    {
+      "korean": "프로필 선택",
+      "runtime": "0x9e78a7c",
+      "bytes": 17
+    },
+    {
+      "korean": "프로필 관리",
+      "runtime": "0x9e78a90",
+      "bytes": 17
+    },
+    {
+      "korean": "START 버튼을 누르십시오",
+      "runtime": "0x9e78aa4",
+      "bytes": 32
+    },
+    {
+      "korean": "롬멜의 아스파라거스",
+      "runtime": "0x9e78ac4",
+      "bytes": 29
+    },
+    {
+      "korean": "보급품을 획득했습니다.",
+      "runtime": "0x9e78ae4",
+      "bytes": 33
+    },
+    {
+      "korean": "지도를 획득했습니다.",
+      "runtime": "0x9e78b08",
+      "bytes": 30
+    },
+    {
+      "korean": "프로필 저장 중...",
+      "runtime": "0x9e78b28",
+      "bytes": 24
+    },
+    {
+      "korean": "임무 선택",
+      "runtime": "0x9e78b40",
+      "bytes": 14
+    },
+    {
+      "korean": "프로필 불러오는 중...",
+      "runtime": "0x9e78b50",
+      "bytes": 30
+    },
+    {
+      "korean": "명령서를 획득했습니다.",
+      "runtime": "0x9e78b70",
+      "bytes": 33
+    },
+    {
+      "korean": "폭발물을 획득했습니다.",
+      "runtime": "0x9e78b94",
+      "bytes": 33
+    },
+    {
+      "korean": "지역을 두고 교전 중입니다!",
+      "runtime": "0x9e78bb8",
+      "bytes": 38
+    },
+    {
+      "korean": "암호책을 획득했습니다.",
+      "runtime": "0x9e78be0",
+      "bytes": 33
+    },
+    {
+      "korean": "프로필 이름 입력",
+      "runtime": "0x9e78c04",
+      "bytes": 24
+    },
+    {
+      "korean": "맥거핀을 획득했습니다.",
+      "runtime": "0x9e78c1c",
+      "bytes": 33
+    },
+    {
+      "korean": "협동 모드",
+      "runtime": "0x9e78c40",
+      "bytes": 14
+    },
+    {
+      "korean": "집결/산개",
+      "runtime": "0x9e78c50",
+      "bytes": 14
+    },
+    {
+      "korean": "좌우 평행이동",
+      "runtime": "0x9e78c60",
+      "bytes": 20
+    },
+    {
+      "korean": "앞뒤 이동",
+      "runtime": "0x9e78c74",
+      "bytes": 14
+    },
+    {
+      "korean": "제압 표시",
+      "runtime": "0x9e78c84",
+      "bytes": 14
+    },
+    {
+      "korean": "맥거핀",
+      "runtime": "0x9e78c94",
+      "bytes": 10
+    },
+    {
+      "korean": "약함",
+      "runtime": "0x9e78ca0",
+      "bytes": 7
+    },
+    {
+      "korean": "최상",
+      "runtime": "0x9e78ca8",
+      "bytes": 7
+    },
+    {
+      "korean": "플레이어 합계",
+      "runtime": "0x9e78cb0",
+      "bytes": 20
+    },
+    {
+      "korean": "연합군 합계",
+      "runtime": "0x9e78cc4",
+      "bytes": 17
+    },
+    {
+      "korean": "추축군 합계",
+      "runtime": "0x9e78cd8",
+      "bytes": 17
+    },
+    {
+      "korean": "킬",
+      "runtime": "0x9e78cec",
+      "bytes": 4
+    },
+    {
+      "korean": "폭발물",
+      "runtime": "0x9e78cf0",
+      "bytes": 10
+    },
+    {
+      "korean": "이(가) 압도하고 있습니다!",
+      "runtime": "0x9e78cfc",
+      "bytes": 36
+    },
+    {
+      "korean": "미군 팀",
+      "runtime": "0x9e78d20",
+      "bytes": 11
+    },
+    {
+      "korean": "독일군 팀",
+      "runtime": "0x9e78d2c",
+      "bytes": 14
+    },
+    {
+      "korean": "암호책",
+      "runtime": "0x9e78d3c",
+      "bytes": 10
+    },
+    {
+      "korean": "지도",
+      "runtime": "0x9e78d48",
+      "bytes": 7
+    },
+    {
+      "korean": "명령서",
+      "runtime": "0x9e78d50",
+      "bytes": 10
+    },
+    {
+      "korean": "보급품",
+      "runtime": "0x9e78d5c",
+      "bytes": 10
+    },
+    {
+      "korean": "아스파라거스",
+      "runtime": "0x9e78d68",
+      "bytes": 19
+    },
+    {
+      "korean": "불러오는 중...",
+      "runtime": "0x9e78d7c",
+      "bytes": 20
+    },
+    {
+      "korean": "플레이어 프로필 [ <PROFILE> ]을(를) 삭제하시겠습니까?",
+      "runtime": "0x9e78d90",
+      "bytes": 71
+    },
+    {
+      "korean": "[ <PROFILE> ] 이름의 플레이어 프로필을 만들지 못했습니다.",
+      "runtime": "0x9e78dd8",
+      "bytes": 77
+    },
+    {
+      "korean": "이미 사용 중인 이름이거나 사용할 수 없는 문자가 포함되어 있습니다.",
+      "runtime": "0x9e78e28",
+      "bytes": 95
+    },
+    {
+      "korean": "계속하려면 새 플레이어 프로필을 만들어야 합니다.",
+      "runtime": "0x9e78e88",
+      "bytes": 70
+    },
+    {
+      "korean": "베이커",
+      "runtime": "0x9e78ed0",
+      "bytes": 10
+    },
+    {
+      "korean": "프로필 없음",
+      "runtime": "0x9e78edc",
+      "bytes": 17
+    },
+    {
+      "korean": "프로필 있음",
+      "runtime": "0x9e78ef0",
+      "bytes": 17
+    },
+    {
+      "korean": "임무",
+      "runtime": "0x9e78f04",
+      "bytes": 7
+    },
+    {
+      "korean": "프로필",
+      "runtime": "0x9e78f0c",
+      "bytes": 10
+    },
+    {
+      "korean": "생성",
+      "runtime": "0x9e78f18",
+      "bytes": 7
+    },
+    {
+      "korean": "선택",
+      "runtime": "0x9e78f20",
+      "bytes": 7
+    },
+    {
+      "korean": "삭제",
+      "runtime": "0x9e78f28",
+      "bytes": 7
+    },
+    {
+      "korean": "저장",
+      "runtime": "0x9e78f30",
+      "bytes": 7
+    },
+    {
+      "korean": "종료",
+      "runtime": "0x9e78f38",
+      "bytes": 7
+    },
+    {
+      "korean": "무관",
+      "runtime": "0x9e78f40",
+      "bytes": 7
+    },
+    {
+      "korean": "기본값",
+      "runtime": "0x9e78f48",
+      "bytes": 10
+    },
+    {
+      "korean": "옵션",
+      "runtime": "0x9e78f54",
+      "bytes": 7
+    },
+    {
+      "korean": "참가",
+      "runtime": "0x9e78f5c",
+      "bytes": 7
+    },
+    {
+      "korean": "나가기",
+      "runtime": "0x9e78f64",
+      "bytes": 10
+    },
+    {
+      "korean": "준비 취소",
+      "runtime": "0x9e78f70",
+      "bytes": 14
+    },
+    {
+      "korean": "완료",
+      "runtime": "0x9e78f80",
+      "bytes": 7
+    },
+    {
+      "korean": "재시도",
+      "runtime": "0x9e78f88",
+      "bytes": 10
+    },
+    {
+      "korean": "끄기",
+      "runtime": "0x9e78f94",
+      "bytes": 7
+    },
+    {
+      "korean": "켜기",
+      "runtime": "0x9e78f9c",
+      "bytes": 7
+    },
+    {
+      "korean": "추가 콘텐츠",
+      "runtime": "0x9e78fa4",
+      "bytes": 17
+    },
+    {
+      "korean": "다음",
+      "runtime": "0x9e78fb8",
+      "bytes": 7
+    },
+    {
+      "korean": "제작진",
+      "runtime": "0x9e78fc0",
+      "bytes": 10
+    },
+    {
+      "korean": "이전",
+      "runtime": "0x9e78fcc",
+      "bytes": 7
+    },
+    {
+      "korean": "음성 재생",
+      "runtime": "0x9e78fd4",
+      "bytes": 14
+    },
+    {
+      "korean": "음성 정지",
+      "runtime": "0x9e78fe4",
+      "bytes": 14
+    },
+    {
+      "korean": "스토리",
+      "runtime": "0x9e78ff4",
+      "bytes": 10
+    },
+    {
+      "korean": "스커미시",
+      "runtime": "0x9e79000",
+      "bytes": 13
+    },
+    {
+      "korean": "새 게임 시작",
+      "runtime": "0x9e79010",
+      "bytes": 18
+    },
+    {
+      "korean": "난이도",
+      "runtime": "0x9e79024",
+      "bytes": 10
+    },
+    {
+      "korean": "쉬움",
+      "runtime": "0x9e79030",
+      "bytes": 7
+    },
+    {
+      "korean": "어려움",
+      "runtime": "0x9e79038",
+      "bytes": 10
+    },
+    {
+      "korean": "사실적",
+      "runtime": "0x9e79044",
+      "bytes": 10
+    },
+    {
+      "korean": "여기서는 병사로서 경험을 쌓을 수 없지만, 모두가 병사가 될 필요는 없습니다. 이 적을 물리치는 데 전술적 전투는 필요하지 않습니다.",
+      "runtime": "0x9e79050",
+      "bytes": 181
+    },
+    {
+      "korean": "브라더스 인 암즈의 신병은 여기서 시작하십시오. 독일군이 만만치 않은 교전을 벌여 당신을 긴장하게 합니다. 전술적 경험을 제공하는 최소 난이도입니다.",
+      "runtime": "0x9e79108",
+      "bytes": 208
+    },
+    {
+      "korean": "숙련된 분대장을 위한 난이도입니다. 독일군은 매우 강인하고 사격도 치명적으로 정확합니다. 뛰어난 전술 운용이 필요합니다.",
+      "runtime": "0x9e791d8",
+      "bytes": 170
+    },
+    {
+      "korean": "낙하산을 메고 프랑스로 뛰어내리는 것에 가장 가까운 경험입니다. 안전을 위해 이 도전을 시도하기 전에 어려움 난이도로 게임을 완료해야 합니다.",
+      "runtime": "0x9e79284",
+      "bytes": 198
+    },
+    {
+      "korean": "챕터 불러오기",
+      "runtime": "0x9e7934c",
+      "bytes": 20
+    },
+    {
+      "korean": "조작",
+      "runtime": "0x9e79360",
+      "bytes": 7
+    },
+    {
+      "korean": "오디오",
+      "runtime": "0x9e79368",
+      "bytes": 10
+    },
+    {
+      "korean": "음악 음량",
+      "runtime": "0x9e79374",
+      "bytes": 14
+    },
+    {
+      "korean": "대화 음량",
+      "runtime": "0x9e79384",
+      "bytes": 14
+    },
+    {
+      "korean": "효과음 음량",
+      "runtime": "0x9e79394",
+      "bytes": 17
+    },
+    {
+      "korean": "유형",
+      "runtime": "0x9e793a8",
+      "bytes": 7
+    },
+    {
+      "korean": "조준 반전",
+      "runtime": "0x9e793b0",
+      "bytes": 14
+    },
+    {
+      "korean": "조준 보조",
+      "runtime": "0x9e793c0",
+      "bytes": 14
+    },
+    {
+      "korean": "표준",
+      "runtime": "0x9e793d0",
+      "bytes": 7
+    },
+    {
+      "korean": "고급",
+      "runtime": "0x9e793d8",
+      "bytes": 7
+    },
+    {
+      "korean": "평행이동 전환",
+      "runtime": "0x9e793e0",
+      "bytes": 20
+    },
+    {
+      "korean": "명령 취소",
+      "runtime": "0x9e793f4",
+      "bytes": 14
+    },
+    {
+      "korean": "산개",
+      "runtime": "0x9e79404",
+      "bytes": 7
+    },
+    {
+      "korean": "재장전",
+      "runtime": "0x9e7940c",
+      "bytes": 10
+    },
+    {
+      "korean": "무기 교체",
+      "runtime": "0x9e79418",
+      "bytes": 14
+    },
+    {
+      "korean": "집결",
+      "runtime": "0x9e79428",
+      "bytes": 7
+    },
+    {
+      "korean": "좌우 보기",
+      "runtime": "0x9e79430",
+      "bytes": 14
+    },
+    {
+      "korean": "사격",
+      "runtime": "0x9e79440",
+      "bytes": 7
+    },
+    {
+      "korean": "명령 링",
+      "runtime": "0x9e79448",
+      "bytes": 11
+    },
+    {
+      "korean": "수류탄 투척",
+      "runtime": "0x9e79454",
+      "bytes": 17
+    },
+    {
+      "korean": "확대 조준",
+      "runtime": "0x9e79468",
+      "bytes": 14
+    },
+    {
+      "korean": "일시정지 메뉴",
+      "runtime": "0x9e79478",
+      "bytes": 20
+    },
+    {
+      "korean": "전술 시점",
+      "runtime": "0x9e7948c",
+      "bytes": 14
+    },
+    {
+      "korean": "자세",
+      "runtime": "0x9e7949c",
+      "bytes": 7
+    },
+    {
+      "korean": "왼쪽 보기",
+      "runtime": "0x9e794a4",
+      "bytes": 14
+    },
+    {
+      "korean": "오른쪽 보기",
+      "runtime": "0x9e794b4",
+      "bytes": 17
+    },
+    {
+      "korean": "(길게 누르기)",
+      "runtime": "0x9e794c8",
+      "bytes": 19
+    },
+    {
+      "korean": "(짧게 누르기)",
+      "runtime": "0x9e794dc",
+      "bytes": 19
+    },
+    {
+      "korean": "HUD",
+      "runtime": "0x9e794f0",
+      "bytes": 4
+    },
+    {
+      "korean": "자막",
+      "runtime": "0x9e794f4",
+      "bytes": 7
+    },
+    {
+      "korean": "훈련",
+      "runtime": "0x9e794fc",
+      "bytes": 7
+    },
+    {
+      "korean": "아군 이름",
+      "runtime": "0x9e79504",
+      "bytes": 14
+    },
+    {
+      "korean": "불러오기",
+      "runtime": "0x9e79514",
+      "bytes": 13
+    },
+    {
+      "korean": "백스페이스",
+      "runtime": "0x9e79524",
+      "bytes": 16
+    },
+    {
+      "korean": "진영",
+      "runtime": "0x9e79534",
+      "bytes": 7
+    },
+    {
+      "korean": "숙련도",
+      "runtime": "0x9e7953c",
+      "bytes": 10
+    },
+    {
+      "korean": "목표",
+      "runtime": "0x9e79548",
+      "bytes": 7
+    },
+    {
+      "korean": "방어",
+      "runtime": "0x9e79550",
+      "bytes": 7
+    },
+    {
+      "korean": "복무",
+      "runtime": "0x9e79558",
+      "bytes": 7
+    },
+    {
+      "korean": "플레이어 1:",
+      "runtime": "0x9e79560",
+      "bytes": 16
+    },
+    {
+      "korean": "플레이어 2:",
+      "runtime": "0x9e79570",
+      "bytes": 16
+    },
+    {
+      "korean": "대기 중...",
+      "runtime": "0x9e79580",
+      "bytes": 14
+    },
+    {
+      "korean": "솔로 모드",
+      "runtime": "0x9e79590",
+      "bytes": 14
+    },
+    {
+      "korean": "체크포인트 다시 불러오기",
+      "runtime": "0x9e795a0",
+      "bytes": 36
+    },
+    {
+      "korean": "스커미시 모드",
+      "runtime": "0x9e795c4",
+      "bytes": 20
+    },
+    {
+      "korean": "호스트 목록",
+      "runtime": "0x9e795d8",
+      "bytes": 17
+    },
+    {
+      "korean": "스커미시: 호스트",
+      "runtime": "0x9e795ec",
+      "bytes": 24
+    },
+    {
+      "korean": "스커미시: 솔로",
+      "runtime": "0x9e79604",
+      "bytes": 21
+    },
+    {
+      "korean": "스커미시: 참가",
+      "runtime": "0x9e7961c",
+      "bytes": 21
+    },
+    {
+      "korean": "관전 모드",
+      "runtime": "0x9e79634",
+      "bytes": 14
+    },
+    {
+      "korean": "카메라 전환",
+      "runtime": "0x9e79644",
+      "bytes": 17
+    },
+    {
+      "korean": "챕터 계속",
+      "runtime": "0x9e79658",
+      "bytes": 14
+    },
+    {
+      "korean": "챕터 다시 시작",
+      "runtime": "0x9e79668",
+      "bytes": 21
+    },
+    {
+      "korean": "챕터 종료",
+      "runtime": "0x9e79680",
+      "bytes": 14
+    },
+    {
+      "korean": "치트",
+      "runtime": "0x9e79690",
+      "bytes": 7
+    },
+    {
+      "korean": "챕터 완료",
+      "runtime": "0x9e79698",
+      "bytes": 14
+    },
+    {
+      "korean": "훈장을 획득했습니다!",
+      "runtime": "0x9e796a8",
+      "bytes": 30
+    },
+    {
+      "korean": "챕터 실패",
+      "runtime": "0x9e796c8",
+      "bytes": 14
+    },
+    {
+      "korean": "스커미시 시작 준비",
+      "runtime": "0x9e796d8",
+      "bytes": 27
+    },
+    {
+      "korean": "큰 피해를 입었습니다.|의무 지원이 필요합니까?",
+      "runtime": "0x9e796f4",
+      "bytes": 65
+    },
+    {
+      "korean": "치료 및 재장전",
+      "runtime": "0x9e79738",
+      "bytes": 21
+    },
+    {
+      "korean": "피로 얻은 승리입니다... 베이커의 이야기에서는 살아남아야 할 병사 한 명을 잃었습니다. 전사자를 되살리고 베이커의 이야기를 계속하시겠습니까(불이익 없음)?",
+      "runtime": "0x9e79750",
+      "bytes": 216
+    },
+    {
+      "korean": "피로 얻은 승리입니다... 하트삭의 이야기에서는 살아남아야 할 병사 한 명을 잃었습니다. 전사자를 되살리고 하트삭의 이야기를 계속하시겠습니까(불이익 없음)?",
+      "runtime": "0x9e79828",
+      "bytes": 216
+    },
+    {
+      "korean": "소생 후 계속",
+      "runtime": "0x9e79900",
+      "bytes": 18
+    },
+    {
+      "korean": "완벽한 승리!|임무를 완수했고, 당신의 판단 덕분에 사상자가 발생하지 않았습니다. 훌륭합니다!",
+      "runtime": "0x9e79914",
+      "bytes": 129
+    },
+    {
+      "korean": "무적",
+      "runtime": "0x9e79998",
+      "bytes": 7
+    },
+    {
+      "korean": "미군 무적",
+      "runtime": "0x9e799a0",
+      "bytes": 14
+    },
+    {
+      "korean": "전체 무적",
+      "runtime": "0x9e799b0",
+      "bytes": 14
+    },
+    {
+      "korean": "탄약 무제한",
+      "runtime": "0x9e799c0",
+      "bytes": 17
+    },
+    {
+      "korean": "고스트",
+      "runtime": "0x9e799d4",
+      "bytes": 10
+    },
+    {
+      "korean": "메모리",
+      "runtime": "0x9e799e0",
+      "bytes": 10
+    },
+    {
+      "korean": "임무 승리",
+      "runtime": "0x9e799ec",
+      "bytes": 14
+    },
+    {
+      "korean": "계속",
+      "runtime": "0x9e799fc",
+      "bytes": 7
+    },
+    {
+      "korean": "임무 다시 시작",
+      "runtime": "0x9e79a04",
+      "bytes": 21
+    },
+    {
+      "korean": "스커미시: 목표",
+      "runtime": "0x9e79a1c",
+      "bytes": 21
+    },
+    {
+      "korean": "스커미시: 방어",
+      "runtime": "0x9e79a34",
+      "bytes": 21
+    },
+    {
+      "korean": "스커미시: 복무",
+      "runtime": "0x9e79a4c",
+      "bytes": 21
+    },
+    {
+      "korean": "목표 완료!",
+      "runtime": "0x9e79a64",
+      "bytes": 15
+    },
+    {
+      "korean": "임무 실패!",
+      "runtime": "0x9e79a74",
+      "bytes": 15
+    },
+    {
+      "korean": "격파한 적",
+      "runtime": "0x9e79a84",
+      "bytes": 14
+    },
+    {
+      "korean": "투어 완료",
+      "runtime": "0x9e79a94",
+      "bytes": 14
+    },
+    {
+      "korean": "스커미시: 연결 실패",
+      "runtime": "0x9e79aa4",
+      "bytes": 28
+    },
+    {
+      "korean": "스커미시: 임무 완료",
+      "runtime": "0x9e79ac0",
+      "bytes": 28
+    },
+    {
+      "korean": "스커미시: 임무 실패",
+      "runtime": "0x9e79adc",
+      "bytes": 28
+    },
+    {
+      "korean": "연결에 실패했습니다.",
+      "runtime": "0x9e79af8",
+      "bytes": 30
+    },
+    {
+      "korean": "임무 실패.",
+      "runtime": "0x9e79b18",
+      "bytes": 15
+    },
+    {
+      "korean": "임무 완료.",
+      "runtime": "0x9e79b28",
+      "bytes": 15
+    },
+    {
+      "korean": "게임을 저장하시겠습니까?",
+      "runtime": "0x9e79b38",
+      "bytes": 36
+    },
+    {
+      "korean": "이름을 입력해야 합니다!",
+      "runtime": "0x9e79b5c",
+      "bytes": 34
+    },
+    {
+      "korean": "새 프로필을 만들려고 합니다. 현재 프로필은 사라집니다. 계속하시겠습니까?",
+      "runtime": "0x9e79b80",
+      "bytes": 104
+    },
+    {
+      "korean": "저장하지 않고 계속하시겠습니까?",
+      "runtime": "0x9e79be8",
+      "bytes": 46
+    },
+    {
+      "korean": "현재 챕터를 다시 시작합니다. 계속하시겠습니까?",
+      "runtime": "0x9e79c18",
+      "bytes": 67
+    },
+    {
+      "korean": "현재 임무를 다시 시작합니다. 계속하시겠습니까?",
+      "runtime": "0x9e79c5c",
+      "bytes": 67
+    },
+    {
+      "korean": "현재 게임을 종료하고 메뉴로 돌아갑니다. 계속하시겠습니까?",
+      "runtime": "0x9e79ca0",
+      "bytes": 83
+    },
+    {
+      "korean": "마지막으로 저장된 체크포인트를 다시 불러옵니다. 계속하시겠습니까?",
+      "runtime": "0x9e79cf4",
+      "bytes": 95
+    },
+    {
+      "korean": "새 게임을 시작합니다. 현재 진행 상황은 사라집니다. 계속하시겠습니까?",
+      "runtime": "0x9e79d54",
+      "bytes": 98
+    },
+    {
+      "korean": "네트워크 연결 해제 중...",
+      "runtime": "0x9e79db8",
+      "bytes": 34
+    },
+    {
+      "korean": "네트워크 오류가 발생했습니다. WLAN 스위치가 꺼져 있습니다. WLAN 스위치를 켜십시오.",
+      "runtime": "0x9e79ddc",
+      "bytes": 114
+    },
+    {
+      "korean": "다른 플레이어가 게임을 나갔습니다. 다른 플레이어를 기다릴 수 있습니다.",
+      "runtime": "0x9e79e50",
+      "bytes": 101
+    },
+    {
+      "korean": "다른 플레이어가 게임을 나갔습니다. 협동 메뉴로 돌아갑니다.",
+      "runtime": "0x9e79eb8",
+      "bytes": 84
+    },
+    {
+      "korean": "네트워크 오류가 발생했습니다. 다른 플레이어와의 연결이 끊겼습니다. 협동 메뉴로 돌아갑니다.",
+      "runtime": "0x9e79f0c",
+      "bytes": 130
+    },
+    {
+      "korean": "현재 게임을 종료합니다. 게임의 모든 플레이어도 연결이 끊깁니다. 계속하시겠습니까?",
+      "runtime": "0x9e79f90",
+      "bytes": 117
+    },
+    {
+      "korean": "현재 게임에서 나갑니다. 계속하시겠습니까?",
+      "runtime": "0x9e7a008",
+      "bytes": 60
+    },
+    {
+      "korean": "게임 호스트와의 연결이 끊겼습니다. 협동 메뉴로 돌아갑니다.",
+      "runtime": "0x9e7a044",
+      "bytes": 84
+    },
+    {
+      "korean": "네트워크 오류가 발생했습니다. 네트워크 연결이 끊겼습니다.",
+      "runtime": "0x9e7a098",
+      "bytes": 83
+    },
+    {
+      "korean": "다른 플레이어가 계속하기를 기다리는 중...",
+      "runtime": "0x9e7a0ec",
+      "bytes": 59
+    },
+    {
+      "korean": "다른 플레이어가 다시 시작하려고 합니다. 다시 시작하시겠습니까?",
+      "runtime": "0x9e7a128",
+      "bytes": 90
+    },
+    {
+      "korean": "다른 플레이어가 계속하려고 합니다. 계속하시겠습니까?",
+      "runtime": "0x9e7a184",
+      "bytes": 76
+    },
+    {
+      "korean": "1944년 6월 6일",
+      "runtime": "0x9e7a1d0",
+      "bytes": 18
+    },
+    {
+      "korean": "지휘할 준비도 되지 않은 분대와 떨어진 베이커 하사는 소대 선임하사 '맥' 헤세이를 따라야 한다. 맥의 목표는 독일군 대공포 두 문을 파괴하는 것이다...",
+      "runtime": "0x9e7a1e4",
+      "bytes": 205
+    },
+    {
+      "korean": "4번 출구의 매복",
+      "runtime": "0x9e7a2b4",
+      "bytes": 22
+    },
+    {
+      "korean": "부대원들과 흩어진 베이커 하사와 하트삭 상병은 유타 해변의 제4보병사단과 합류해야 한다...",
+      "runtime": "0x9e7a2cc",
+      "bytes": 126
+    },
+    {
+      "korean": "XYZ 목표",
+      "runtime": "0x9e7a34c",
+      "bytes": 11
+    },
+    {
+      "korean": "강하 지점이 빗나가 병력이 부족해진 하트삭과 베이커는 둘이서 독일 보병중대가 점령한 노르망디의 작은 마을을 소탕해야 한다...",
+      "runtime": "0x9e7a358",
+      "bytes": 175
+    },
+    {
+      "korean": "비에르빌 전투",
+      "runtime": "0x9e7a408",
+      "bytes": 20
+    },
+    {
+      "korean": "1944년 6월 7일",
+      "runtime": "0x9e7a41c",
+      "bytes": 18
+    },
+    {
+      "korean": "생콤뒤몽을 향해 남서쪽으로 진격하는 가운데 비에르빌의 전투는 치열해진다. D+1에는 유타 해변에 상륙한 기갑부대의 지원이 도움이 될 것이다...",
+      "runtime": "0x9e7a430",
+      "bytes": 195
+    },
+    {
+      "korean": "죽은 자의 모퉁이",
+      "runtime": "0x9e7a4f4",
+      "bytes": 24
+    },
+    {
+      "korean": "리스너 하사와 그의 스튜어트 전차의 지원을 받아, 베이커의 분대는 생콤뒤몽으로 이어지는 도로 진격의 선봉에 서야 한다...",
+      "runtime": "0x9e7a50c",
+      "bytes": 167
+    },
+    {
+      "korean": "새벽녘",
+      "runtime": "0x9e7a5b4",
+      "bytes": 10
+    },
+    {
+      "korean": "1944년 6월 8일",
+      "runtime": "0x9e7a5c0",
+      "bytes": 18
+    },
+    {
+      "korean": "베이커 하사는 전우 한 명을 잃었지만 돌격팀을 얻었다. 마음을 추스르고 그들을 이끌어 생콤으로 향해야 한다...",
+      "runtime": "0x9e7a5d4",
+      "bytes": 151
+    },
+    {
+      "korean": "카랑탕 대성당의 탑에서 적과 숨바꼭질을 벌여라. 아래의 부하들을 지휘하며 밀려드는 반격을 막아내라...",
+      "runtime": "0x9e7a66c",
+      "bytes": 142
+    },
+    {
+      "korean": "생콤뒤몽",
+      "runtime": "0x9e7a6fc",
+      "bytes": 13
+    },
+    {
+      "korean": "베이커 하사는 마침내 생콤뒤몽에 도착했다. 독일군은 만반의 준비를 하고 있다...",
+      "runtime": "0x9e7a70c",
+      "bytes": 110
+    },
+    {
+      "korean": "전사",
+      "runtime": "0x9e7a77c",
+      "bytes": 7
+    },
+    {
+      "korean": "1944년 6월 9일",
+      "runtime": "0x9e7a784",
+      "bytes": 18
+    },
+    {
+      "korean": "생콤을 해방한 제101공수사단은 카랑탕으로 가는 길을 찾아야 한다. 셔먼 전차의 도움을 받아 서쪽으로 향하는 길을 찾아라...",
+      "runtime": "0x9e7a798",
+      "bytes": 167
+    },
+    {
+      "korean": "퍼플 하트 레인",
+      "runtime": "0x9e7a840",
+      "bytes": 21
+    },
+    {
+      "korean": "1944년 6월 10일",
+      "runtime": "0x9e7a858",
+      "bytes": 19
+    },
+    {
+      "korean": "카랑탕으로 가는 길은 탁 트인 둑길 하나뿐이다. 마을로 들어가는 마지막 다리는 벨기에 게이트로 막혀 있고 기관총의 엄호를 받고 있다...",
+      "runtime": "0x9e7a86c",
+      "bytes": 185
+    },
+    {
+      "korean": "콜의 돌격",
+      "runtime": "0x9e7a928",
+      "bytes": 14
+    },
+    {
+      "korean": "1944년 6월 11일",
+      "runtime": "0x9e7a938",
+      "bytes": 19
+    },
+    {
+      "korean": "카랑탕은 외곽부터 방어되고 있다. 로버트 콜 중령에게는 수비군을 몰아낼 대담한 계획이 있다...",
+      "runtime": "0x9e7a94c",
+      "bytes": 130
+    },
+    {
+      "korean": "카랑탕 진격",
+      "runtime": "0x9e7a9d0",
+      "bytes": 17
+    },
+    {
+      "korean": "1944년 6월 12일",
+      "runtime": "0x9e7a9e4",
+      "bytes": 19
+    },
+    {
+      "korean": "카랑탕. 드디어 도착했다. 공업 지대를 뚫고 들어가 마을에 교두보를 확보하라. 시가전에서는 사격과 기동 전술이 필수다...",
+      "runtime": "0x9e7a9f8",
+      "bytes": 165
+    },
+    {
+      "korean": "고양이와 쥐",
+      "runtime": "0x9e7aaa0",
+      "bytes": 17
+    },
+    {
+      "korean": "죽기 더 좋은 곳은 없다 - 1부",
+      "runtime": "0x9e7aab4",
+      "bytes": 39
+    },
+    {
+      "korean": "1944년 6월 13일",
+      "runtime": "0x9e7aadc",
+      "bytes": 19
+    },
+    {
+      "korean": "30고지. 노르망디에 온 지 8일째, 분대장 베이커에게 가장 어려운 시험이 다가온다...",
+      "runtime": "0x9e7aaf0",
+      "bytes": 112
+    },
+    {
+      "korean": "죽기 더 좋은 곳은 없다 - 2부",
+      "runtime": "0x9e7ab60",
+      "bytes": 39
+    },
+    {
+      "korean": "30고지. 기갑부대를 찾아 위기를 구하라!",
+      "runtime": "0x9e7ab88",
+      "bytes": 54
+    },
+    {
+      "korean": "블러디 걸치",
+      "runtime": "0x9e7abc0",
+      "bytes": 17
+    },
+    {
+      "korean": "베이커가 기갑부대를 찾으러 떠난 뒤, 하트삭과 하사 헤세이의 지휘 아래 전선을 지키도록 남겨진 병사들에게 30고지에서 무슨 일이 벌어졌는지 목격하라.",
+      "runtime": "0x9e7abd4",
+      "bytes": 206
+    },
+    {
+      "korean": "근접전",
+      "runtime": "0x9e7aca4",
+      "bytes": 10
+    },
+    {
+      "korean": "1944년 6월 14일",
+      "runtime": "0x9e7acb0",
+      "bytes": 19
+    },
+    {
+      "korean": "전우 한 명이 부상당한 뒤, 2분대와 3분대는 힘을 합쳐 카랑탕 깊숙이 숨어 있는 위협을 제거해야 한다.",
+      "runtime": "0x9e7acc4",
+      "bytes": 137
+    },
+    {
+      "korean": "보프테",
+      "runtime": "0x9e7ad50",
+      "bytes": 10
+    },
+    {
+      "korean": "1944년 6월 15일",
+      "runtime": "0x9e7ad5c",
+      "bytes": 19
+    },
+    {
+      "korean": "보프테는 제82공수사단과 제101공수사단이 합류하기로 한 마을이었다. 하트삭은 공수부대를 만날 생각으로 들어왔지만, 그곳에는 독일군이 있었다.",
+      "runtime": "0x9e7ad70",
+      "bytes": 196
+    },
+    {
+      "korean": "평범한 임무",
+      "runtime": "0x9e7ae34",
+      "bytes": 17
+    },
+    {
+      "korean": "1944년 6월 16일",
+      "runtime": "0x9e7ae48",
+      "bytes": 19
+    },
+    {
+      "korean": "하트삭은 생소뵈르로 이어지는 다리를 향해 진격할 준비를 하지만, 지도에서 예상하지 못했던 독일군 진지가 추가로 발견된다.",
+      "runtime": "0x9e7ae5c",
+      "bytes": 170
+    },
+    {
+      "korean": "올 아메리칸 - 1부",
+      "runtime": "0x9e7af08",
+      "bytes": 24
+    },
+    {
+      "korean": "하트삭과 그의 분대는 고립됐다. 이제 도시를 휩쓸며 발견하는 적을 제거해 제82공수사단과 글라이더 보병대의 진로를 확보해야 한다.",
+      "runtime": "0x9e7af20",
+      "bytes": 179
+    },
+    {
+      "korean": "올 아메리칸 - 2부",
+      "runtime": "0x9e7afd4",
+      "bytes": 24
+    },
+    {
+      "korean": "하트삭과 그의 분대는 불타는 생소뵈르의 거리에서 전투를 이어간다.",
+      "runtime": "0x9e7afec",
+      "bytes": 93
+    },
+    {
+      "korean": "마을",
+      "runtime": "0x9e7b04c",
+      "bytes": 7
+    },
+    {
+      "korean": "언덕 위에 구축된 중무장 관측소를 점령하라.",
+      "runtime": "0x9e7b054",
+      "bytes": 61
+    },
+    {
+      "korean": "창고",
+      "runtime": "0x9e7b094",
+      "bytes": 7
+    },
+    {
+      "korean": "교회",
+      "runtime": "0x9e7b09c",
+      "bytes": 7
+    },
+    {
+      "korean": "상공의 측면 공격",
+      "runtime": "0x9e7b0a4",
+      "bytes": 24
+    },
+    {
+      "korean": "강하하는 미군 공수부대로부터 마을을 방어하십시오.",
+      "runtime": "0x9e7b0bc",
+      "bytes": 72
+    },
+    {
+      "korean": "제한 시간 안에 모든 적을 제거하십시오. 적을 처치하면 시간이 추가됩니다. 체크포인트는 없습니다.",
+      "runtime": "0x9e7b104",
+      "bytes": 135
+    },
+    {
+      "korean": "독일군 전차는 진지에 도착하기 전 미군 항공기의 폭격을 받아, 많은 독일 병력이 도보로 남겨졌다. 생존자를 모두 제거하라.",
+      "runtime": "0x9e7b18c",
+      "bytes": 167
+    },
+    {
+      "korean": "다리를 폭파해 독일군 보급로를 끊은 뒤, 독일군 보급품을 실은 열차를 파괴하라.",
+      "runtime": "0x9e7b234",
+      "bytes": 109
+    },
+    {
+      "korean": "계곡의 독일군을 소탕하라.",
+      "runtime": "0x9e7b2a4",
+      "bytes": 37
+    },
+    {
+      "korean": "철길 수비대",
+      "runtime": "0x9e7b2cc",
+      "bytes": 17
+    },
+    {
+      "korean": "연합군은 독일군 무기와 장비가 대량으로 보관되고 철도로 운송되던 지역을 폭격했다. 철길을 따라 폭격 지점을 정찰하고 생존자도 제거하라.",
+      "runtime": "0x9e7b2e0",
+      "bytes": 190
+    },
+    {
+      "korean": "끊임없이 몰려오는 적의 공격을 버텨내십시오. 웨이브가 거듭될수록 적은 더 강해집니다.",
+      "runtime": "0x9e7b3a0",
+      "bytes": 120
+    },
+    {
+      "korean": "궁극의 사실적 도전입니다. 목숨 하나와 팀 하나로 미군 또는 독일군 임무 6개를 모두 완료하십시오.",
+      "runtime": "0x9e7b418",
+      "bytes": 134
+    },
+    {
+      "korean": "미군 M1A1 기관단총을 획득했습니다.",
+      "runtime": "0x9e7b4a0",
+      "bytes": 48
+    },
+    {
+      "korean": ".45 권총을 획득했습니다.",
+      "runtime": "0x9e7b4d0",
+      "bytes": 34
+    },
+    {
+      "korean": "독일군 P38 권총을 획득했습니다.",
+      "runtime": "0x9e7b4f4",
+      "bytes": 44
+    },
+    {
+      "korean": "누르기",
+      "runtime": "0x9e7b520",
+      "bytes": 10
+    },
+    {
+      "korean": "길게 누르기",
+      "runtime": "0x9e7b52c",
+      "bytes": 17
+    },
+    {
+      "korean": "떼기",
+      "runtime": "0x9e7b540",
+      "bytes": 7
+    },
+    {
+      "korean": "이동",
+      "runtime": "0x9e7b548",
+      "bytes": 7
+    },
+    {
+      "korean": "당기기",
+      "runtime": "0x9e7b550",
+      "bytes": 10
+    },
+    {
+      "korean": "당긴 채 유지",
+      "runtime": "0x9e7b55c",
+      "bytes": 18
+    },
+    {
+      "korean": "위 누르기",
+      "runtime": "0x9e7b570",
+      "bytes": 14
+    },
+    {
+      "korean": "위 길게 누르기",
+      "runtime": "0x9e7b580",
+      "bytes": 21
+    },
+    {
+      "korean": "위 떼기",
+      "runtime": "0x9e7b598",
+      "bytes": 11
+    },
+    {
+      "korean": "아래 누르기",
+      "runtime": "0x9e7b5a4",
+      "bytes": 17
+    },
+    {
+      "korean": "아래 길게 누르기",
+      "runtime": "0x9e7b5b8",
+      "bytes": 24
+    },
+    {
+      "korean": "아래 떼기",
+      "runtime": "0x9e7b5d0",
+      "bytes": 14
+    },
+    {
+      "korean": "왼쪽 누르기",
+      "runtime": "0x9e7b5e0",
+      "bytes": 17
+    },
+    {
+      "korean": "왼쪽 길게 누르기",
+      "runtime": "0x9e7b5f4",
+      "bytes": 24
+    },
+    {
+      "korean": "왼쪽 떼기",
+      "runtime": "0x9e7b60c",
+      "bytes": 14
+    },
+    {
+      "korean": "오른쪽 누르기",
+      "runtime": "0x9e7b61c",
+      "bytes": 20
+    },
+    {
+      "korean": "오른쪽 길게 누르기",
+      "runtime": "0x9e7b630",
+      "bytes": 27
+    },
+    {
+      "korean": "오른쪽 떼기",
+      "runtime": "0x9e7b64c",
+      "bytes": 17
+    },
+    {
+      "korean": "START 누르기",
+      "runtime": "0x9e7b660",
+      "bytes": 16
+    },
+    {
+      "korean": "START 길게 누르기",
+      "runtime": "0x9e7b670",
+      "bytes": 23
+    },
+    {
+      "korean": "START 떼기",
+      "runtime": "0x9e7b688",
+      "bytes": 13
+    },
+    {
+      "korean": "BACK 누르기",
+      "runtime": "0x9e7b698",
+      "bytes": 15
+    },
+    {
+      "korean": "BACK 길게 누르기",
+      "runtime": "0x9e7b6a8",
+      "bytes": 22
+    },
+    {
+      "korean": "BACK 떼기",
+      "runtime": "0x9e7b6c0",
+      "bytes": 12
+    },
+    {
+      "korean": "왼쪽 스틱 누르기",
+      "runtime": "0x9e7b6cc",
+      "bytes": 24
+    },
+    {
+      "korean": "왼쪽 스틱 길게 누르기",
+      "runtime": "0x9e7b6e4",
+      "bytes": 31
+    },
+    {
+      "korean": "왼쪽 스틱 떼기",
+      "runtime": "0x9e7b704",
+      "bytes": 21
+    },
+    {
+      "korean": "오른쪽 스틱 누르기",
+      "runtime": "0x9e7b71c",
+      "bytes": 27
+    },
+    {
+      "korean": "오른쪽 스틱 길게 누르기",
+      "runtime": "0x9e7b738",
+      "bytes": 34
+    },
+    {
+      "korean": "오른쪽 스틱 떼기",
+      "runtime": "0x9e7b75c",
+      "bytes": 24
+    },
+    {
+      "korean": "짧게 누르기",
+      "runtime": "0x9e7b774",
+      "bytes": 17
+    }
+  ],
+  "metadata_actions": 1834,
+  "unique_units": 664,
+  "unique_payloads": 644,
+  "changed_streams": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    22,
+    26,
+    27,
+    30,
+    34,
+    35
+  ],
+  "DSL_relocation": {
+    "offset": "0x31e2ae",
+    "old": [
+      "0x40055140",
+      "0x80",
+      "0x4010e9c0"
+    ],
+    "new": [
+      "0x40055140",
+      "0x200",
+      "0xf620cfe0"
+    ],
+    "address_mode": "negative_absolute"
+  },
+  "iso_readback_ok": true,
+  "runtime_verified": false
+}

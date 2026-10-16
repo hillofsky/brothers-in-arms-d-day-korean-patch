@@ -1,0 +1,28 @@
+{
+  "step": "STEP_069_FIX2",
+  "status": "BUILT_UNVERIFIED",
+  "failure_fixed": [
+    "STEP069_FIX1 used guessed movie ST1 filenames; actual verified STEP068 lineage filenames are now used.",
+    "STEP069_FIX1 preservation list used ON_MEMU.MDI; actual Stage43T file is ON_MEMU_O.MDI."
+  ],
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE43T_TITLE_PROMPT_FIX.iso",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE69_FIX2_NONMDI_INT92_TEST.iso",
+  "source_iso_sha256_before": "28ba5e9e8fd2eedc7e665817558dabc500daa7e218c3bd4b825d1dd1a2f9d9d0",
+  "source_iso_sha256_after": "28ba5e9e8fd2eedc7e665817558dabc500daa7e218c3bd4b825d1dd1a2f9d9d0",
+  "output_iso_sha256": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+  "target_ids": 92,
+  "target_occurrences": 99,
+  "target_int_files": 18,
+  "occurrences_changed": 99,
+  "occurrences_already_target_korean": 0,
+  "occurrences_drifted_from_stage38": 13,
+  "files_changed": 18,
+  "iso_readback_verified_files": 18,
+  "movie_st1_files_preserved": 8,
+  "stage43t_baseline_files_preserved": 6,
+  "source_iso_preserved": true,
+  "compiled_mdi_967_applied": false,
+  "movie_106_repatched": false,
+  "runtime_verified": false,
+  "movie_playback_validation_resumed": false
+}

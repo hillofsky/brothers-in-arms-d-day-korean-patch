@@ -1,0 +1,23 @@
+{
+  "step": "STEP_078",
+  "status": "VERIFIED_BINARY_EVIDENCE_EXPORTED",
+  "iso_modified": false,
+  "output_iso_created": false,
+  "original_sha_before": "3d138a30a4e468532d551c74c848b4ec1ab7a044a726c5434e8a6a20e6814f66",
+  "original_sha_after": "3d138a30a4e468532d551c74c848b4ec1ab7a044a726c5434e8a6a20e6814f66",
+  "stage69_sha_before": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+  "stage69_sha_after": "5683ad64d2ca2764fc05bb5a690402ae17c47398298878ca1bfc5e04ecb514b8",
+  "original_preserved": true,
+  "stage69_preserved": true,
+  "archive_name": "STEP078_binary_evidence.zip",
+  "archive_size": 31993928,
+  "captured_resources": 15,
+  "dsl_dsx_consistency_checks": 6,
+  "first_mission_dsl_changed_bytes": 8,
+  "payloads_exact_not_rewritten": true,
+  "compiled967_iso_built": false,
+  "first_mission_korean_runtime_state": "previously VERIFIED (not re-tested)",
+  "int92_runtime_state": "BUILT_UNVERIFIED",
+  "six_movie_playbacks_deferred": true,
+  "next_action": "Analyze captured full original/modified first-mission DSL, other campaign and skirmish DSL, DSX, and MDI binaries OFFLINE in the conversation; derive a semantics-based binding before modifying 31 other missions."
+}

@@ -1,0 +1,182 @@
+{
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE43E_CAMPAIGN_UTF8_RENDER_TEST.iso",
+  "code_sha1": "135a37aed96adc5329e6da958c9f9977dfbac7d5",
+  "hooks": [
+    "0x08827b04",
+    "0x088248dc"
+  ],
+  "helpers": [
+    {
+      "va": "0x49b780",
+      "bytes": 188
+    },
+    {
+      "va": "0x49b900",
+      "bytes": 188
+    }
+  ],
+  "disabled_old_relocations": [
+    "0x6f51e8",
+    "0x6f51f0",
+    "0x6f51f8"
+  ],
+  "new_jal_relocation_offsets": [
+    "0x6f51c8",
+    "0x6f51d0"
+  ],
+  "patches": [
+    {
+      "va": "0x23b04",
+      "before": "0x80840000",
+      "after": "0xc126de0"
+    },
+    {
+      "va": "0x208dc",
+      "before": "0x80860000",
+      "after": "0xc126e40"
+    },
+    {
+      "va": "0x23b0c",
+      "before": "0x42600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x23b18",
+      "before": "0x42603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x23b24",
+      "before": "0x42600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x23b28",
+      "before": "0x42603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x23b30",
+      "before": "0x308400ff",
+      "after": "0x3084ffff"
+    },
+    {
+      "va": "0x23bb4",
+      "before": "0x28890100",
+      "after": "0x34090001"
+    },
+    {
+      "va": "0x23bc0",
+      "before": "0x42e00",
+      "after": "0x802821"
+    },
+    {
+      "va": "0x23bc4",
+      "before": "0x52e03",
+      "after": "0x0"
+    },
+    {
+      "va": "0x23bcc",
+      "before": "0x42603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x23bd0",
+      "before": "0x42600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x23bd4",
+      "before": "0x42603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x23bc8",
+      "before": "0x52600",
+      "after": "0xa02021"
+    },
+    {
+      "va": "0x23be0",
+      "before": "0x308400ff",
+      "after": "0x3084ffff"
+    },
+    {
+      "va": "0x1b2b4",
+      "before": "0x65600",
+      "after": "0x30caffff"
+    },
+    {
+      "va": "0x1b2b8",
+      "before": "0xa5603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1b2c8",
+      "before": "0xa5600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1b2d4",
+      "before": "0xa5603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1b2e0",
+      "before": "0xa3600",
+      "after": "0x1403021"
+    },
+    {
+      "va": "0x1b2e4",
+      "before": "0x65603",
+      "after": "0xc05021"
+    },
+    {
+      "va": "0x1b2ec",
+      "before": "0x314a00ff",
+      "after": "0x314affff"
+    },
+    {
+      "va": "0x1b354",
+      "before": "0x28ca0100",
+      "after": "0x340a0001"
+    },
+    {
+      "va": "0x1b360",
+      "before": "0x64e00",
+      "after": "0xc04821"
+    },
+    {
+      "va": "0x1b364",
+      "before": "0x94e03",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1b368",
+      "before": "0x93600",
+      "after": "0x1203021"
+    },
+    {
+      "va": "0x1b36c",
+      "before": "0x63603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1b370",
+      "before": "0x63600",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1b374",
+      "before": "0x63603",
+      "after": "0x0"
+    },
+    {
+      "va": "0x1b378",
+      "before": "0x30ca00ff",
+      "after": "0x30caffff"
+    }
+  ],
+  "iso_readback_verified": true,
+  "runtime_verified": false,
+  "full_campaign_complete": false
+}

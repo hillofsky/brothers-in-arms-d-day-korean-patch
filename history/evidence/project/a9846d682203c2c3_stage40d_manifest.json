@@ -1,0 +1,18 @@
+{
+  "stage": "40D",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE39U_BOOT_RENDER_UTF8_TEST.iso",
+  "output_iso": "PROJECT_ROOT\\BIA_STAGE40D_LIVE_STREAM23_MENU_TEST.iso",
+  "target": "ON_MEMU_O.MDI",
+  "changed_streams_expected": [
+    16,
+    23
+  ],
+  "allocation_stream": 23,
+  "allocation_stream_runtime_base": "0x098F5020",
+  "allocation_start": "0xA870",
+  "translations": {
+    "Skirmish": "스커미시",
+    "Options": "옵션",
+    "Profile": "프로필"
+  }
+}

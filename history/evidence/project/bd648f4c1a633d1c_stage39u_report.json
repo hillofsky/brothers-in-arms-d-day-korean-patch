@@ -1,0 +1,181 @@
+{
+  "stage": "39U",
+  "purpose": "Repeat the corrected BOOT.BIN executable test with an explicit debugger CPU-start gate before runtime code verification.",
+  "stage39t_failure_root_cause": "Stage39T successfully forced PPSSPP to load patched BOOT.BIN, but the debugger WebSocket became available roughly 0.3 seconds before the emulated CPU started. Its first memory.read therefore failed with 'CPU not started'. The PPSSPP log later shows user_main started; SELF-POWERDOWN was the test script cleanup after that exception.",
+  "stage39s_failure_root_cause": {
+    "iso_biaon_patch": "The Stage39S BIAON.PRX file was correctly patched on disc.",
+    "runtime_renderer_bytes": "bffc310e = original relocated JAL 0x08C7F2FC",
+    "runtime_helper_sha1": "did not match the injected helper",
+    "reason": "PPSSPP boots PSP_GAME/SYSDIR/EBOOT.BIN. BIAON.PRX is merely a plaintext copy of BOOT.BIN and was not the executable being run."
+  },
+  "executable_relationship": {
+    "BOOT_BIN_SHA1": "8c7033ca15103fa51afa9c7ec61f37c531d07ede",
+    "BIAON_PRX_SHA1": "8c7033ca15103fa51afa9c7ec61f37c531d07ede",
+    "BOOT_equals_BIAON": true,
+    "EBOOT_BIN_SHA1": "0ea1b9eeb594440545fe0310b229439cbbd12fa9",
+    "EBOOT_magic": "~PSP encrypted wrapper"
+  },
+  "relocation_fix": "The chosen C-JIS helper region had four original HI16/LO16 relocation records. Stage39U changes those four records to R_MIPS_NONE so they cannot corrupt the helper. The renderer J26 relocation remains active so its on-disc JAL is relocated to runtime 0x08CC4390.",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE39F_CORRECT_NARROW_METADATA_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE39U_BOOT_RENDER_UTF8_TEST.iso",
+  "ppsspp_only_boot_override": "Diagnostic ISO invalidates the encrypted EBOOT magic so PPSSPP uses patched plaintext SYSDIR/BOOT.BIN. This is not yet the real-hardware packaging method.",
+  "build": {
+    "source_boot_sha1": "8c7033ca15103fa51afa9c7ec61f37c531d07ede",
+    "source_eboot_sha1": "0ea1b9eeb594440545fe0310b229439cbbd12fa9",
+    "patched_boot_sha1": "34942fd8a7ad95655d370e662043728832f5696f",
+    "patched_biaon_sha1": "34942fd8a7ad95655d370e662043728832f5696f",
+    "patched_eboot_magic": "4e4f5045",
+    "renderer_jal_disk": "e400130c",
+    "helper_disk_sha1": "5b6b493c890ea797f0b59d176a1a7b84fa0913a2",
+    "renderer_relocation": [
+      1500000,
+      4
+    ],
+    "disabled_helper_relocations": [
+      {
+        "record_file_offset": "0x734BEC",
+        "target_vaddr": "0x004C03F0",
+        "old_type": 5,
+        "new_type": 0
+      },
+      {
+        "record_file_offset": "0x734BF4",
+        "target_vaddr": "0x004C0414",
+        "old_type": 6,
+        "new_type": 0
+      },
+      {
+        "record_file_offset": "0x734BFC",
+        "target_vaddr": "0x004C03F4",
+        "old_type": 5,
+        "new_type": 0
+      },
+      {
+        "record_file_offset": "0x734C04",
+        "target_vaddr": "0x004C0418",
+        "old_type": 6,
+        "new_type": 0
+      }
+    ],
+    "iso_readback_ok": true
+  },
+  "runtime": {
+    "pid": 1924,
+    "normal_jit": true,
+    "debugger_host": "::1",
+    "debugger_port": 26222,
+    "cpu_ready": {
+      "ready": true,
+      "attempts": 1,
+      "status": {
+        "event": "cpu.status",
+        "ticket": 1001,
+        "stepping": false,
+        "paused": false,
+        "pc": 134217728,
+        "ticks": 37071140
+      },
+      "probe_hex": "e410330e"
+    },
+    "runtime_code": {
+      "renderer_jal": "e410330e",
+      "renderer_jal_expected": "e410330e",
+      "renderer_jal_ok": true,
+      "helper_sha1": "5b6b493c890ea797f0b59d176a1a7b84fa0913a2",
+      "helper_expected_sha1": "5b6b493c890ea797f0b59d176a1a7b84fa0913a2",
+      "helper_ok": true
+    },
+    "boot_log": {
+      "loads_boot_bin": true,
+      "loads_eboot_bin": false,
+      "decrypting_psp": false
+    },
+    "menu_resource_open": {
+      "opened": true,
+      "start_presses": 9
+    },
+    "source_resident": {
+      "display1": "ec8aa4ed86a0eba6ac00000000000000",
+      "display2": "ec8aa4ed86a0eba6ac00000000000000",
+      "meta1": [
+        "0x093B1B40",
+        10,
+        10
+      ],
+      "meta2": [
+        "0x093B1BF0",
+        10,
+        10
+      ],
+      "ok": true
+    },
+    "main_menu_state": {
+      "confirmed": true,
+      "anchors": {
+        "ok": true,
+        "options_hex": "4f007000740069006f006e0073000000",
+        "profile_hex": "500072006f00660069006c0065000000",
+        "story_hex": "a4c2a0d1acb90000"
+      },
+      "attempts": [
+        {
+          "attempt": 1,
+          "sent": true,
+          "elapsed": 5.190722942352295
+        }
+      ]
+    },
+    "helper_trace": {
+      "hit": true,
+      "pc": "0x08CC4390",
+      "ra": "0x08972368",
+      "a0": "0x097238B4",
+      "a1": "0x000000EC",
+      "s0_source": "0x08E4E85C",
+      "s5_before": 0,
+      "source_20_hex": "ec008a00a400ed008600a000eb00a600ac000000",
+      "decoded_lookup": {
+        "hit": true,
+        "a1": "0x0000C2A4",
+        "s0_after_preconsume": "0x08E4E860",
+        "s5_after_preconsume": 2,
+        "expected_s0": "0x08E4E860",
+        "expected_s5": 2,
+        "ra": "0x08972368"
+      }
+    },
+    "first_decoded_draw": {
+      "hit": true,
+      "pc": "0x08AF6324",
+      "ra": "0x089726C0",
+      "s0": "0x08E4E860",
+      "s5": 2,
+      "texture": "0x095E21C0",
+      "uv_float": [
+        128.5,
+        384.5,
+        145.5,
+        400.5
+      ],
+      "uv_floor": [
+        128,
+        384,
+        145,
+        400
+      ],
+      "xy_float": [
+        169.0,
+        68.636368,
+        186.454544,
+        85.0
+      ]
+    },
+    "menu_capture": {
+      "path": "PROJECT_ROOT\\analysis\\stage39u_boot_renderer_utf8\\stage39u_main_menu.png",
+      "captured": true
+    },
+    "completed": true,
+    "ppsspp_closed": true
+  },
+  "completed": true
+}

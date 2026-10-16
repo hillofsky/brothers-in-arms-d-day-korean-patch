@@ -1,0 +1,15 @@
+{
+  "texture_dump_dir": "LOCAL_PATH",
+  "replacement_path": "LOCAL_PATH",
+  "replacement_sha1": "dd95b3cd4cb52bf20576f74baa3435fe0be5f8a4",
+  "test_mapping": "U+0080 -> glyph A(index33), atlas A cell replaced by 한",
+  "font_tables": [
+    "0x09723FF0",
+    "0x097256F8"
+  ],
+  "charmaps": [
+    "0x09724E10",
+    "0x09726510"
+  ],
+  "visual_result": "y"
+}

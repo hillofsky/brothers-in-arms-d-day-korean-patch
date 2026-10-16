@@ -1,0 +1,6 @@
+exec(open('work/audit43r_title.py',encoding='utf-8-sig').read().split('for name,iso')[0])
+import hashlib
+src=Path('PROJECT_ROOT/BIA_STAGE43Q_HINT_HEIGHT_TEST.iso');dst=Path('PROJECT_ROOT/BIA_STAGE43T_TITLE_PROMPT_FIX.iso');checks={}
+for p in [['PSP_GAME','SYSDIR','BOOT.BIN'],['PSP_GAME','USRDIR','SYSTEM','BIAON.PRX'],['PSP_GAME','USRDIR','SYSTEM','BIAOFF.PRX'],['PSP_GAME','USRDIR','SYSTEM','D0_0130_.MDI'],['PSP_GAME','USRDIR','SYSTEM','D0_0130_.DSL'],['PSP_GAME','USRDIR','SYSTEM','D0_0130_.DSX']]:
+ a=b.iso_read_file(src,p)[1];z=b.iso_read_file(dst,p)[1];assert a==z;checks[p[-1]]=hashlib.sha256(z).hexdigest()
+a={x['index']:bytes(x['decoded']) for x in b.parse_mdi(b.iso_read_file(src,b.TARGET_MDI)[1])};z={x['index']:bytes(x['decoded']) for x in b.parse_mdi(b.iso_read_file(dst,b.TARGET_MDI)[1])};diff=[(i,o) for i in a for o,(v,w) in enumerate(zip(a[i],z[i])) if v!=w];assert all(i==16 and 0x351a0+0x44<=o<0x351a0+0x58 for i,o in diff);print('PRESERVED PRX/CAMPAIGN; MENU ONLY TEXTURE DIMENSIONS',diff);Path('outputs/stage43t/integrity_check.json').write_text(json.dumps({'identical_files_sha256':checks,'menu_mdi_changed_bytes':diff,'all_other_menu_streams_and_strings_and_glyphs_preserved':True},indent=2))

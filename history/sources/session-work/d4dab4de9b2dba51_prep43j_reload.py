@@ -1,0 +1,2 @@
+from pathlib import Path
+s=Path('work/nav43j_auto.py').read_text(encoding='utf-8');s=s[s.index('import json'):];start=s.index('for i in range(2)');end=s.index('for i in range(100)');s=s[:start]+s[end:];s=s.replace("'load'+str(i)","'reload'+str(i)").replace("if 'HUDCP' in (out/'ppsspp.log').read_text(errors='ignore'):","if 'BIA40Y a0=09c1' in (out/'ppsspp.log').read_text(errors='ignore') and i>70:").replace("'hint_fit_verified'","'popup_reloaded'");Path('work/nav43j_reload.py').write_text(s,encoding='utf-8')

@@ -1,0 +1,31 @@
+{
+  "step": "STEP_066",
+  "status": "VERIFIED",
+  "target_ids": 1165,
+  "target_unique_source_texts": 1165,
+  "mdi_files_scanned": 57,
+  "raw_payload_occurrences": 7771,
+  "structural_fstring_refs": 2333,
+  "high_confidence_fstring_refs": 1970,
+  "medium_confidence_fstring_refs": 363,
+  "ids_with_high_confidence_ref": 967,
+  "ids_with_any_structural_ref": 967,
+  "unresolved_high_confidence_ids": 198,
+  "unresolved_all_structural_ids": 198,
+  "d0_0700_canary": {
+    "expected_units": 90,
+    "actual_units": 90,
+    "expected_refs": 179,
+    "actual_refs": 179,
+    "pass": true
+  },
+  "target_mdis": 32,
+  "target_mdis_without_dsl_or_dsx": 0,
+  "font_objects_found": 1107,
+  "target_mdis_without_font_object": 0,
+  "target_mdis_over_60_extra_chars": 0,
+  "source_text_translation_conflicts": 0,
+  "iso_modified": false,
+  "movie_validation_resumed": false,
+  "next_phase": "BUILD_PATCH_MANIFEST_IF_CANARY_AND_COVERAGE_PASS"
+}

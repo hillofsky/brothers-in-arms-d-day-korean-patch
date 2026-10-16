@@ -1,0 +1,48 @@
+{
+  "stage": "41B",
+  "purpose": "Trace the dedicated Bink/ST1 subtitle reader/renderer using an interpreter-mode RAM read watchpoint. No ISO patching.",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "expected_pid": 18808,
+  "debugger_port": 26222,
+  "started": "2026-10-06 20:01:00",
+  "version": {
+    "event": "version",
+    "ticket": 1001,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "auto_navigation": [
+    {
+      "button": "start",
+      "result": {
+        "event": "input.buttons.press",
+        "ticket": 1003
+      }
+    },
+    {
+      "button": "cross",
+      "result": {
+        "event": "input.buttons.press",
+        "ticket": 1004
+      }
+    },
+    {
+      "button": "cross",
+      "result": {
+        "event": "input.buttons.press",
+        "ticket": 1005
+      }
+    },
+    {
+      "button": "cross",
+      "result": {
+        "event": "input.buttons.press",
+        "ticket": 1006
+      }
+    }
+  ],
+  "subtitle_address": null,
+  "completed": false,
+  "error": "RuntimeError('Korean ST1 buffer was not found within timeout.')",
+  "finished": "2026-10-06 20:03:16"
+}

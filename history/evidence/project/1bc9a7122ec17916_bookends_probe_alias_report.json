@@ -1,0 +1,68 @@
+[
+  {
+    "target": "FM_0115EAGLESJUMP.BIK",
+    "source": "EM_1230_BOOKENDS2.BIK",
+    "extent": 514032,
+    "size": 59114156
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.ST1",
+    "source": "EM_1230_BOOKENDS2.ST1",
+    "extent": 133472,
+    "size": 3190
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.ST2",
+    "source": "EM_1230_BOOKENDS2.ST2",
+    "extent": 133488,
+    "size": 3509
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.ST3",
+    "source": "EM_1230_BOOKENDS2.ST3",
+    "extent": 133504,
+    "size": 3201
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.ST4",
+    "source": "EM_1230_BOOKENDS2.ST4",
+    "extent": 133520,
+    "size": 3261
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.ST5",
+    "source": "EM_1230_BOOKENDS2.ST5",
+    "extent": 133536,
+    "size": 3116
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.TI1",
+    "source": "EM_1230_BOOKENDS2.TI1",
+    "extent": 133552,
+    "size": 1048576
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.TI2",
+    "source": "EM_1230_BOOKENDS2.TI2",
+    "extent": 134064,
+    "size": 1048576
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.TI3",
+    "source": "EM_1230_BOOKENDS2.TI3",
+    "extent": 134576,
+    "size": 1048576
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.TI4",
+    "source": "EM_1230_BOOKENDS2.TI4",
+    "extent": 135088,
+    "size": 1048576
+  },
+  {
+    "target": "FM_0115EAGLESJUMP.TI5",
+    "source": "EM_1230_BOOKENDS2.TI5",
+    "extent": 135600,
+    "size": 1048576
+  }
+]

@@ -1,0 +1,5 @@
+from pathlib import Path
+p=Path('work/stage40p_live.py').read_text(encoding='utf-8-sig').replace('outputs/stage40p_campaign','outputs/stage40q_campaign')
+p=p.replace("snap(c.get('name','current'))", "snap(c.get('name','current'))\n   if c.get('vram'):\n    (out/(c.get('name','current')+'_vram.bin')).write_bytes(m.read_ws(ws,0x04000000,0x200000))\n   if c.get('memoryAddress'):\n    (out/(c.get('name','current')+'_memory.bin')).write_bytes(m.read_ws(ws,int(c['memoryAddress'],0),c.get('memorySize',512)))\n   if c.get('regs'):\n    (out/(c.get('name','current')+'_regs.json')).write_text(json.dumps(ws.request('cpu.getAllRegs'),indent=2))")
+p=p.replace("address=0x08C7F2FC,enabled=False", "address=int(c.get('trace_address','0x08C7F2FC'),0),enabled=False").replace("if c.get('trace'):\n    ws.request('cpu.breakpoint.remove',address=0x08C7F2FC)","if c.get('trace'):\n    ws.request('cpu.breakpoint.remove',address=int(c.get('trace_address','0x08C7F2FC'),0))")
+Path('work/stage40q_live.py').write_text(p,encoding='utf8')

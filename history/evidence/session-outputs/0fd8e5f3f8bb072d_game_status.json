@@ -1,0 +1,10 @@
+{
+  "event": "game.status",
+  "ticket": 1001,
+  "game": {
+    "id": "ULUS10193",
+    "version": "1.01",
+    "title": "Brothers in Arms D-Day"
+  },
+  "paused": true
+}

@@ -1,0 +1,153 @@
+{
+  "step": "STEP_072_FIX1",
+  "status": "VERIFIED_READY_FOR_GENERALIZED_PATCHER",
+  "iso_modified": false,
+  "previous_step072_exists": true,
+  "evidence": {
+    "allstream_fstring_refs.tsv": {
+      "found": true,
+      "source": "PROJECT_ROOT\\log\\STEP_072\\outputs\\evidence\\036_allstream_fstring_refs.tsv",
+      "provenance": "STEP_072_PREVIOUS_EVIDENCE",
+      "size": 503791,
+      "sha256": "0005bc3ff795934cdcc5734c5b81b2da20ee6031c8b5bab58c98d4f4e506d673"
+    },
+    "allstream_font_objects.tsv": {
+      "found": true,
+      "source": "PROJECT_ROOT\\log\\STEP_072\\outputs\\evidence\\035_allstream_font_objects.tsv",
+      "provenance": "STEP_072_PREVIOUS_EVIDENCE",
+      "size": 117635,
+      "sha256": "ef61e17e4f604a925e837d0abb7d77cf0165d668212e65d9dcc00600caf6314a"
+    },
+    "allstream_mdi_glyph_demand.tsv": {
+      "found": true,
+      "source": "PROJECT_ROOT\\log\\STEP_072\\outputs\\evidence\\037_allstream_mdi_glyph_demand.tsv",
+      "provenance": "STEP_072_PREVIOUS_EVIDENCE",
+      "size": 2865,
+      "sha256": "d36e6cf72e35f6fa61369c8b5eea95bc616ad94d45e3c0f7d61d11596d2c4665"
+    },
+    "stage39a_font_plan.json": {
+      "found": true,
+      "source": "PROJECT_ROOT\\log\\STEP_072\\outputs\\evidence\\004_stage39a_font_plan.json",
+      "provenance": "STEP_072_PREVIOUS_EVIDENCE",
+      "size": 145691,
+      "sha256": "024ab905e75597994368c74a3472a52dec02fc1cf71fe34cb9660349a18d7951"
+    },
+    "campaign_final_apply_split.tsv": {
+      "found": true,
+      "source": "PROJECT_ROOT\\log\\STEP_072\\outputs\\evidence\\042_campaign_final_apply_split.tsv",
+      "provenance": "STEP_072_PREVIOUS_EVIDENCE",
+      "size": 188815,
+      "sha256": "6d972f4258071084c75b62154631427c4d71be7abde72ac1a9f5fac0f1888338"
+    },
+    "stage38_translation_units.tsv": {
+      "found": true,
+      "source": "PROJECT_ROOT\\log\\STEP_072\\outputs\\evidence\\002_stage38_translation_units.tsv",
+      "provenance": "STEP_072_PREVIOUS_EVIDENCE",
+      "size": 447134,
+      "sha256": "dd2d02f23fd4c3390f6925edbd95d6e81b6007769627e88812b9085a69fd70da"
+    },
+    "stage38_entry_map.tsv": {
+      "found": true,
+      "source": "PROJECT_ROOT\\log\\STEP_072\\outputs\\evidence\\001_stage38_entry_map.tsv",
+      "provenance": "STEP_072_PREVIOUS_EVIDENCE",
+      "size": 708880,
+      "sha256": "9d572294f2b85eaeab07d37080bfe4dc7ef0ea9e439bd6dbd620846725b615f9"
+    },
+    "bia_stage40i_actual_resource_trace.py": {
+      "found": true,
+      "source": "PROJECT_ROOT\\log\\STEP_072\\outputs\\evidence\\007_bia_stage40i_actual_resource_trace.py",
+      "provenance": "STEP_072_PREVIOUS_EVIDENCE",
+      "size": 27218,
+      "sha256": "cfee1d5862a1dec643871b6d5128805785966a54f92c432fab62d98ae438c51c"
+    },
+    "bia_stage36_base.py": {
+      "found": true,
+      "source": "PROJECT_ROOT\\log\\STEP_072\\outputs\\evidence\\003_bia_stage36_base.py",
+      "provenance": "STEP_072_PREVIOUS_EVIDENCE",
+      "size": 91950,
+      "sha256": "8203ee8d2d1956cace39be848151c479cf8b901b52354ab2e688f14bb761da8c"
+    }
+  },
+  "required_evidence_missing": [],
+  "historical_campaign43a": {
+    "plain_hits": [],
+    "archive_hits": [],
+    "candidate_43a_scripts": [
+      {
+        "zip": "PROJECT_ROOT\\log\\bia_STEP_064_exact_campaign_apply_recovery_RESULT.zip",
+        "entry": "outputs/recovered_pipeline_files/FS_log__STEP_044_FIX6__outputs__source_evidence__07_build_campaign43a.py__07_build_campaign43a.py"
+      },
+      {
+        "zip": "PROJECT_ROOT\\log\\fall_bia_STEP_044_campaign_next_batch_RESULT.zip",
+        "entry": "outputs/source_evidence/07_build_campaign43a.py"
+      },
+      {
+        "zip": "PROJECT_ROOT\\log\\fall_bia_STEP_068_movie_nonmdi_reconcile_RESULT.zip",
+        "entry": "outputs/movie_pipeline_evidence/log_STEP_044_FIX6_outputs_source_evidence_07_build_campaign43a.py"
+      }
+    ],
+    "archives_checked": 120
+  },
+  "compiled967_validation": {
+    "compiled_ids": 967,
+    "movie_ids": 106,
+    "nonmdi_ids": 92,
+    "all_split_total": 1165,
+    "matched_compiled_ids": 967,
+    "missing_compiled_ids": [],
+    "structural_reference_rows": 2333,
+    "target_mdis": 32,
+    "target_mdi_names": [
+      "D07_1501.MDI",
+      "D08_1030.MDI",
+      "D09_0800.MDI",
+      "D0_0130_.MDI",
+      "D0_0700_.MDI",
+      "D0_1015_.MDI",
+      "D10_0600.MDI",
+      "D10_0801.MDI",
+      "D10_0802.MDI",
+      "D1_0900_.MDI",
+      "D1_1830_.MDI",
+      "D2_0630_.MDI",
+      "D2_1000_.MDI",
+      "D3_0900_.MDI",
+      "D4_1800_.MDI",
+      "D5_0615_.MDI",
+      "D6_0500_.MDI",
+      "D6_1200_.MDI",
+      "D7_1400_.MDI",
+      "D7_1500_.MDI",
+      "SKR_DE_CHUR.MDI",
+      "SKR_DE_CITY.MDI",
+      "SKR_DE_DDAY.MDI",
+      "SKR_DE_HAML.MDI",
+      "SKR_DE_HOLD.MDI",
+      "SKR_DE_WARE.MDI",
+      "SKR_US_BROK.MDI",
+      "SKR_US_BUNK.MDI",
+      "SKR_US_CROS.MDI",
+      "SKR_US_RAIL.MDI",
+      "SKR_US_SNIP.MDI",
+      "SKR_US_TAKI.MDI"
+    ],
+    "confidence_counts": {
+      "MEDIUM": 363,
+      "HIGH": 1970
+    },
+    "glyph_plan_missing_mdis": [],
+    "glyph_capacity_fail_mdis": [],
+    "font_object_missing_mdis": [],
+    "helper_checks": {
+      "append_iso_file_and_repoint": true,
+      "parse_mdi": true,
+      "rebuild_mdi": true,
+      "parse_dsx": true,
+      "rebuild_dsx_from_logical": true,
+      "patch_dsl_descriptor": true
+    }
+  },
+  "generalized_patcher_prerequisites_verified": true,
+  "historical_43a_recovered": false,
+  "historical_43a_required_for_next": false
+}

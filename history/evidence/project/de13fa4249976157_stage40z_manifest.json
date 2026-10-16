@@ -1,0 +1,21 @@
+{
+  "stage": "40Z",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "modifies_iso": false,
+  "focus": "later pause input navigation and main-menu return",
+  "input_methods": [
+    "input.buttons.press duration=2",
+    "input.buttons.press duration=8",
+    "input.buttons.send 80ms",
+    "input.buttons.send 250ms",
+    "input.buttons.send 650ms",
+    "analog y +0.85",
+    "analog y -0.85"
+  ],
+  "framebuffers": [
+    "0x04000000",
+    "0x04044000"
+  ],
+  "physical_ram": "0x08000000..0x0A000000",
+  "owned_process_cleanup_only": true
+}

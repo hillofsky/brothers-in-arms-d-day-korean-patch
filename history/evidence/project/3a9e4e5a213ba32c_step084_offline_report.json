@@ -1,0 +1,499 @@
+{
+  "step": "STEP_084",
+  "status": "VERIFIED_OFFLINE_MEMORY_CONSISTENCY",
+  "isolation": "No emulator launched or controlled. No ISO or SAVEDATA files modified.",
+  "input_zip": "bia_STEP_083_FIX1_live_font_probe_20261008_181126_131_15568.zip",
+  "input_zip_sha256": "0398fced4d6d2923edda750f47924cfcc37652045d511daf890ccaf468c98e18",
+  "ram_sha256": "3644544b0b5e633240bcfc3af677639e2ae55e2c96191190fcf79933090dbbfa",
+  "source_iso_sha256_at_STEP083": "CA320D514C32D34767E7255EA3079F7449783CDB2B98EC49797A87BDD69544D9",
+  "scene_caveat": "The supplied VRAM0 PNG shows two soldiers but NO visible broken Korean or repeated > text (human inspection). No automatic image-to-text proof.",
+  "runtime_korean_render_verified": false,
+  "mission2_gt_fallback_unresolved": true,
+  "font_objects": [
+    {
+      "runtime": "0x09B1CF24",
+      "object_sha256": "f0c355a7316658c1ec8fc3cb1a9dbf2b6ccd1d0d8efb68497c55b4fbdd362761",
+      "matches_static": true,
+      "glyph_count": 878,
+      "glyph_array": "0x09E6B020",
+      "chars_tested": 26,
+      "all_expected_characters_map_correctly": true,
+      "matches": [
+        {
+          "char": " ",
+          "unicode": "U+0020",
+          "index": 1,
+          "record_unicode": "U+0020"
+        },
+        {
+          "char": "4",
+          "unicode": "U+0034",
+          "index": 21,
+          "record_unicode": "U+0034"
+        },
+        {
+          "char": "격",
+          "unicode": "U+ACA9",
+          "index": 179,
+          "record_unicode": "U+ACA9"
+        },
+        {
+          "char": "과",
+          "unicode": "U+ACFC",
+          "index": 192,
+          "record_unicode": "U+ACFC"
+        },
+        {
+          "char": "군",
+          "unicode": "U+AD70",
+          "index": 200,
+          "record_unicode": "U+AD70"
+        },
+        {
+          "char": "근",
+          "unicode": "U+ADFC",
+          "index": 210,
+          "record_unicode": "U+ADFC"
+        },
+        {
+          "char": "단",
+          "unicode": "U+B2E8",
+          "index": 273,
+          "record_unicode": "U+B2E8"
+        },
+        {
+          "char": "독",
+          "unicode": "U+B3C5",
+          "index": 287,
+          "record_unicode": "U+B3C5"
+        },
+        {
+          "char": "랑",
+          "unicode": "U+B791",
+          "index": 338,
+          "record_unicode": "U+B791"
+        },
+        {
+          "char": "류",
+          "unicode": "U+B958",
+          "index": 373,
+          "record_unicode": "U+B958"
+        },
+        {
+          "char": "박",
+          "unicode": "U+BC15",
+          "index": 434,
+          "record_unicode": "U+BC15"
+        },
+        {
+          "char": "반",
+          "unicode": "U+BC18",
+          "index": 436,
+          "record_unicode": "U+BC18"
+        },
+        {
+          "char": "변",
+          "unicode": "U+BCC0",
+          "index": 451,
+          "record_unicode": "U+BCC0"
+        },
+        {
+          "char": "병",
+          "unicode": "U+BCD1",
+          "index": 454,
+          "record_unicode": "U+BCD1"
+        },
+        {
+          "char": "보",
+          "unicode": "U+BCF4",
+          "index": 455,
+          "record_unicode": "U+BCF4"
+        },
+        {
+          "char": "사",
+          "unicode": "U+C0AC",
+          "index": 482,
+          "record_unicode": "U+C0AC"
+        },
+        {
+          "char": "스",
+          "unicode": "U+C2A4",
+          "index": 154,
+          "record_unicode": "U+C2A4"
+        },
+        {
+          "char": "유",
+          "unicode": "U+C720",
+          "index": 610,
+          "record_unicode": "U+C720"
+        },
+        {
+          "char": "인",
+          "unicode": "U+C778",
+          "index": 621,
+          "record_unicode": "U+C778"
+        },
+        {
+          "char": "일",
+          "unicode": "U+C77C",
+          "index": 622,
+          "record_unicode": "U+C77C"
+        },
+        {
+          "char": "제",
+          "unicode": "U+C81C",
+          "index": 648,
+          "record_unicode": "U+C81C"
+        },
+        {
+          "char": "타",
+          "unicode": "U+D0C0",
+          "index": 747,
+          "record_unicode": "U+D0C0"
+        },
+        {
+          "char": "포",
+          "unicode": "U+D3EC",
+          "index": 787,
+          "record_unicode": "U+D3EC"
+        },
+        {
+          "char": "프",
+          "unicode": "U+D504",
+          "index": 795,
+          "record_unicode": "U+D504"
+        },
+        {
+          "char": "합",
+          "unicode": "U+D569",
+          "index": 805,
+          "record_unicode": "U+D569"
+        },
+        {
+          "char": "해",
+          "unicode": "U+D574",
+          "index": 807,
+          "record_unicode": "U+D574"
+        }
+      ],
+      "misses": [],
+      "renderer_page_arrays": {
+        "widths": [
+          128,
+          128,
+          128,
+          128
+        ],
+        "heights": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "textures": [
+          "0x09A77FB0",
+          "0x09A77FB0",
+          "0x09A77FB0",
+          "0x09A77FB0"
+        ]
+      },
+      "references_to_font_object": {
+        "total": 3,
+        "first_addresses": [
+          "0x08E04630",
+          "0x08E04638",
+          "0x09B1CEB0"
+        ]
+      }
+    },
+    {
+      "runtime": "0x09B1F0BC",
+      "object_sha256": "8df6cb07fde89fe7f40a640856f82a6c1a11979d461cccd6bc3e0a6ca4251848",
+      "matches_static": true,
+      "glyph_count": 878,
+      "glyph_array": "0x09E6B020",
+      "chars_tested": 26,
+      "all_expected_characters_map_correctly": true,
+      "matches": [
+        {
+          "char": " ",
+          "unicode": "U+0020",
+          "index": 1,
+          "record_unicode": "U+0020"
+        },
+        {
+          "char": "4",
+          "unicode": "U+0034",
+          "index": 21,
+          "record_unicode": "U+0034"
+        },
+        {
+          "char": "격",
+          "unicode": "U+ACA9",
+          "index": 179,
+          "record_unicode": "U+ACA9"
+        },
+        {
+          "char": "과",
+          "unicode": "U+ACFC",
+          "index": 192,
+          "record_unicode": "U+ACFC"
+        },
+        {
+          "char": "군",
+          "unicode": "U+AD70",
+          "index": 200,
+          "record_unicode": "U+AD70"
+        },
+        {
+          "char": "근",
+          "unicode": "U+ADFC",
+          "index": 210,
+          "record_unicode": "U+ADFC"
+        },
+        {
+          "char": "단",
+          "unicode": "U+B2E8",
+          "index": 273,
+          "record_unicode": "U+B2E8"
+        },
+        {
+          "char": "독",
+          "unicode": "U+B3C5",
+          "index": 287,
+          "record_unicode": "U+B3C5"
+        },
+        {
+          "char": "랑",
+          "unicode": "U+B791",
+          "index": 338,
+          "record_unicode": "U+B791"
+        },
+        {
+          "char": "류",
+          "unicode": "U+B958",
+          "index": 373,
+          "record_unicode": "U+B958"
+        },
+        {
+          "char": "박",
+          "unicode": "U+BC15",
+          "index": 434,
+          "record_unicode": "U+BC15"
+        },
+        {
+          "char": "반",
+          "unicode": "U+BC18",
+          "index": 436,
+          "record_unicode": "U+BC18"
+        },
+        {
+          "char": "변",
+          "unicode": "U+BCC0",
+          "index": 451,
+          "record_unicode": "U+BCC0"
+        },
+        {
+          "char": "병",
+          "unicode": "U+BCD1",
+          "index": 454,
+          "record_unicode": "U+BCD1"
+        },
+        {
+          "char": "보",
+          "unicode": "U+BCF4",
+          "index": 455,
+          "record_unicode": "U+BCF4"
+        },
+        {
+          "char": "사",
+          "unicode": "U+C0AC",
+          "index": 482,
+          "record_unicode": "U+C0AC"
+        },
+        {
+          "char": "스",
+          "unicode": "U+C2A4",
+          "index": 154,
+          "record_unicode": "U+C2A4"
+        },
+        {
+          "char": "유",
+          "unicode": "U+C720",
+          "index": 610,
+          "record_unicode": "U+C720"
+        },
+        {
+          "char": "인",
+          "unicode": "U+C778",
+          "index": 621,
+          "record_unicode": "U+C778"
+        },
+        {
+          "char": "일",
+          "unicode": "U+C77C",
+          "index": 622,
+          "record_unicode": "U+C77C"
+        },
+        {
+          "char": "제",
+          "unicode": "U+C81C",
+          "index": 648,
+          "record_unicode": "U+C81C"
+        },
+        {
+          "char": "타",
+          "unicode": "U+D0C0",
+          "index": 747,
+          "record_unicode": "U+D0C0"
+        },
+        {
+          "char": "포",
+          "unicode": "U+D3EC",
+          "index": 787,
+          "record_unicode": "U+D3EC"
+        },
+        {
+          "char": "프",
+          "unicode": "U+D504",
+          "index": 795,
+          "record_unicode": "U+D504"
+        },
+        {
+          "char": "합",
+          "unicode": "U+D569",
+          "index": 805,
+          "record_unicode": "U+D569"
+        },
+        {
+          "char": "해",
+          "unicode": "U+D574",
+          "index": 807,
+          "record_unicode": "U+D574"
+        }
+      ],
+      "misses": [],
+      "renderer_page_arrays": {
+        "widths": [
+          128,
+          128,
+          128,
+          128
+        ],
+        "heights": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "textures": [
+          "0x09A77FB0",
+          "0x09A77FB0",
+          "0x09A77FB0",
+          "0x09A77FB0"
+        ]
+      },
+      "references_to_font_object": {
+        "total": 3,
+        "first_addresses": [
+          "0x08E04634",
+          "0x08E0463C",
+          "0x09B1D440"
+        ]
+      }
+    }
+  ],
+  "font_atlas": {
+    "expected_base": "0x09DF3020",
+    "matches_expected_bytes": true,
+    "sha256": "ee4a0b9ff381bed5a35f4a66da619382af2cf81790dfdd342cf224202617c4ef"
+  },
+  "korean_strings": [
+    {
+      "phrase": "프랑스 유타 해변 인근",
+      "utf8_occurrences": [
+        {
+          "address": "0x09E7B040",
+          "pointer_references": {
+            "total": 2,
+            "first_addresses": [
+              "0x09105EC0",
+              "0x0946F490"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "phrase": "독일군 박격포반",
+      "utf8_occurrences": [
+        {
+          "address": "0x09E7B080",
+          "pointer_references": {
+            "total": 2,
+            "first_addresses": [
+              "0x095AA4EC",
+              "0x098DD954"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "phrase": "제4보병사단과 합류",
+      "utf8_occurrences": [
+        {
+          "address": "0x09AB4597",
+          "pointer_references": {
+            "total": 0,
+            "first_addresses": []
+          }
+        },
+        {
+          "address": "0x09E7B0E3",
+          "pointer_references": {
+            "total": 0,
+            "first_addresses": []
+          }
+        },
+        {
+          "address": "0x09E7B32D",
+          "pointer_references": {
+            "total": 0,
+            "first_addresses": []
+          }
+        },
+        {
+          "address": "0x09E7B396",
+          "pointer_references": {
+            "total": 0,
+            "first_addresses": []
+          }
+        }
+      ]
+    }
+  ],
+  "texture_object": {
+    "target_address": "0x09A77FB0",
+    "references": {
+      "total": 8,
+      "first_addresses": [
+        "0x08DCD544",
+        "0x08E03BF0",
+        "0x08F93C3C",
+        "0x09B1D3C8",
+        "0x09E75B40",
+        "0x09E75B44",
+        "0x09E75B48",
+        "0x09E75B4C"
+      ]
+    },
+    "first_64_bytes_sha256": "9627113508dfd9483f2cb0810f2b3c1529fe341bcf1ffce9c25537774f1c3f04",
+    "first_64_bytes_present": true
+  },
+  "frame_previews": [
+    "live_vram0_preview.png",
+    "live_vram1_preview.png"
+  ],
+  "next_required_evidence": "Capture the ACTUAL visible > text at the same time as its font consumer/call path; or collect trace/log from the active draw call. RAM tables alone do not prove draw-time selection."
+}

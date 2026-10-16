@@ -1,0 +1,110 @@
+{
+  "stage": "39O",
+  "purpose": "Freeze the emulated CPU before scanning for the transient main-menu vertex ring buffer, then break on its next write.",
+  "stage39n_failure": "Stage39N found the first UV pair hundreds of times but no multi-vertex sequence. Its full-RAM scan and candidate scoring were performed while the CPU continued running, so a transient ring buffer could be overwritten between discovery and scoring.",
+  "critical_change": "Use cpu.stepping to freeze emulation for every scan. Also search PSP VRAM and require the first two vertex UV pairs before scoring.",
+  "reference": {
+    "size": 1984,
+    "sha1": "e1c87ada5beaee44f68e1f4e5f1f1037eaaa3ad7",
+    "first_uv": "6b000000",
+    "second_uv": "72001000"
+  },
+  "iso_patch": false,
+  "runtime_patch": false,
+  "process": {
+    "pid": 20104,
+    "base": "0x212EA440000"
+  },
+  "debugger_host": "::1",
+  "debugger_port": 26222,
+  "menu_resource_open": {
+    "opened": true,
+    "start_presses": 13
+  },
+  "source_resident": {
+    "display1": "ec8aa4ed86a0eba6ac00000000000000",
+    "display2": "ec8aa4ed86a0eba6ac00000000000000",
+    "meta1": [
+      "0x093B1B40",
+      10,
+      10
+    ],
+    "meta2": [
+      "0x093B1BF0",
+      10,
+      10
+    ],
+    "ok": true
+  },
+  "main_menu_start_sent": true,
+  "frozen_search_cycles": [
+    {
+      "cycle": 1,
+      "paused_pc": "0x08CB2308",
+      "main_two_uv_hits": 0,
+      "vram_two_uv_hits": 0,
+      "top_candidates": [],
+      "qualified": []
+    },
+    {
+      "cycle": 2,
+      "paused_pc": "0x0881CB0C",
+      "main_two_uv_hits": 0,
+      "vram_two_uv_hits": 0,
+      "top_candidates": [],
+      "qualified": []
+    },
+    {
+      "cycle": 3,
+      "paused_pc": "0x0881CB0C",
+      "main_two_uv_hits": 0,
+      "vram_two_uv_hits": 0,
+      "top_candidates": [],
+      "qualified": []
+    },
+    {
+      "cycle": 4,
+      "paused_pc": "0x0881CB0C",
+      "main_two_uv_hits": 0,
+      "vram_two_uv_hits": 0,
+      "top_candidates": [],
+      "qualified": []
+    },
+    {
+      "cycle": 5,
+      "paused_pc": "0x0881CB0C",
+      "main_two_uv_hits": 0,
+      "vram_two_uv_hits": 0,
+      "top_candidates": [],
+      "qualified": []
+    },
+    {
+      "cycle": 6,
+      "paused_pc": "0x0881CB0C",
+      "main_two_uv_hits": 0,
+      "vram_two_uv_hits": 0,
+      "top_candidates": [],
+      "qualified": []
+    },
+    {
+      "cycle": 7,
+      "paused_pc": "0x0881CB0C",
+      "main_two_uv_hits": 0,
+      "vram_two_uv_hits": 0,
+      "top_candidates": [],
+      "qualified": []
+    },
+    {
+      "cycle": 8,
+      "paused_pc": "0x0881CB0C",
+      "main_two_uv_hits": 0,
+      "vram_two_uv_hits": 0,
+      "top_candidates": [],
+      "qualified": []
+    }
+  ],
+  "runtime_exception": "No frozen main-RAM/VRAM vertex buffer matched the Stage39H UV sequence",
+  "runtime_traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\bia_stage39o_tools\\bia_stage39o_frozen_vertex_writer.py\", line 1067, in main\n    raise RuntimeError(\nRuntimeError: No frozen main-RAM/VRAM vertex buffer matched the Stage39H UV sequence\n",
+  "completed": false,
+  "ppsspp_closed": true
+}

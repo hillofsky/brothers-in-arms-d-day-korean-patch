@@ -1,0 +1,50 @@
+[
+  {
+    "label": "build_campaign43a.py",
+    "source": "PROJECT_ROOT\\log\\bia_STEP_064_exact_campaign_apply_recovery_RESULT.zip",
+    "entry": "outputs/recovered_pipeline_files/FS_log__STEP_044_FIX6__outputs__source_evidence__07_build_campaign43a.py__07_build_campaign43a.py",
+    "output": "PROJECT_ROOT\\log\\STEP_073\\outputs\\recovered\\build_campaign43a.py",
+    "size": 7206,
+    "sha256": "f91d0662977848fe05ddaf8d91bcdebf2b43c27446ebbc8085470ec7c9849cd1"
+  },
+  {
+    "label": "bia_stage39b_compiled_mdi_text.py",
+    "source": "PROJECT_ROOT\\bia_stage39b_tools\\bia_stage39b_compiled_mdi_text.py",
+    "entry": "",
+    "output": "PROJECT_ROOT\\log\\STEP_073\\outputs\\recovered\\bia_stage39b_compiled_mdi_text.py",
+    "size": 12984,
+    "sha256": "ca0fa1a7f24032b18d414b5c442ef28f91925cae70815f7e52f130a6d185631f"
+  },
+  {
+    "label": "bia_stage36_base.py",
+    "source": "PROJECT_ROOT\\bia_stage39b_tools\\bia_stage36_base.py",
+    "entry": "",
+    "output": "PROJECT_ROOT\\log\\STEP_073\\outputs\\recovered\\bia_stage36_base.py",
+    "size": 91950,
+    "sha256": "8203ee8d2d1956cace39be848151c479cf8b901b52354ab2e688f14bb761da8c"
+  },
+  {
+    "label": "bia_stage40i_actual_resource_trace.py",
+    "source": "PROJECT_ROOT\\bia_stage40i_tools\\bia_stage40i_actual_resource_trace.py",
+    "entry": "",
+    "output": "PROJECT_ROOT\\log\\STEP_073\\outputs\\recovered\\bia_stage40i_actual_resource_trace.py",
+    "size": 27218,
+    "sha256": "cfee1d5862a1dec643871b6d5128805785966a54f92c432fab62d98ae438c51c"
+  },
+  {
+    "label": "build_campaign40r.py",
+    "source": "SESSION_SESSION_OUTPUTS\\bia_stage40y_handoff.zip",
+    "entry": "tools/build_campaign40r.py",
+    "output": "PROJECT_ROOT\\log\\STEP_073\\outputs\\recovered\\build_campaign40r.py",
+    "size": 2590,
+    "sha256": "cb99a33b8e7ca5d4d773b43c81d5771a5c4380004e3edf0c4f972673a9593b3f"
+  },
+  {
+    "label": "build_firstmission40y.py",
+    "source": "SESSION_SESSION_OUTPUTS\\bia_stage40y_handoff.zip",
+    "entry": "tools/build_firstmission40y.py",
+    "output": "PROJECT_ROOT\\log\\STEP_073\\outputs\\recovered\\build_firstmission40y.py",
+    "size": 7479,
+    "sha256": "5f3c4bb2bb75b75b9f632510e31deb9d34e201ff3b14b14105b6318a17aa8aa4"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "stage": "40Z-fix4",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE40Y_FIRST_MISSION_UI_TEST.iso",
+  "modifies_iso": false,
+  "fix3_proven": {
+    "first_pause_down": "y=71 -> y=106 with legacy duration=2",
+    "later_pause_down": "y=71 -> y=106 with legacy duration=2",
+    "diagnosis": "original stuck state was input injection/timing/state, not localization corruption"
+  },
+  "fix4_change": {
+    "chapter_end_down_count": 3,
+    "proven_rows": [
+      71,
+      106,
+      176,
+      211,
+      71
+    ],
+    "confirmation_probe": "예 U+C608 at campaign Unicode lookup"
+  },
+  "success_zip": "PROJECT_ROOT\\log\\bia_stage40z_fix4_upload.zip",
+  "failure_zip": "PROJECT_ROOT\\log\\fail_bia_stage40z_fix4_upload.zip"
+}

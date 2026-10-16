@@ -1,0 +1,63 @@
+{
+  "stage": "14B",
+  "purpose": "dynamic-scratch scalable font prototype: relocate glyph array, extend glyph count, allocate independent Hangul page",
+  "ppsspp_exe": "LOCAL_PATH",
+  "iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "append_config": "PROJECT_ROOT\\analysis\\stage14b_scalable_font\\stage14b_append.ini",
+  "test_codepoint": "U+D55C",
+  "expected_visual": "AAAAA, or 한한한한한 if an external A-glyph replacement is active",
+  "renderer_function": "0x08C7F2FC",
+  "glyph_lookup_instruction": "0x08C7F35C",
+  "confirmed_font_object_layout": {
+    "glyph_count_u16": "+0x50",
+    "glyph_pointer_u32": "+0x54",
+    "page_table": "+0x58",
+    "glyph_record_size": 24
+  },
+  "stage14_new_glyph_index": 151,
+  "stage14_new_glyph_count": 152,
+  "stage14_uses_existing_U21_page": false,
+  "pid": 20292,
+  "psp_base": "0x000001D47CFA0000",
+  "menu_detected": true,
+  "fonts": [
+    {
+      "font": "TMR18",
+      "font_object": "0x0972385C",
+      "page_table": "0x097238B4",
+      "old_glyph_count": 151,
+      "new_glyph_count": 152,
+      "old_glyph_ptr": "0x09723FD8",
+      "new_glyph_ptr": "0x09E7E000",
+      "new_record_index": 151,
+      "new_record_addr": "0x09E7EE28",
+      "new_record_source": "clone of A glyph record (map value 34)",
+      "new_D5_page": "0x09E7F000",
+      "D55C_map_value": 151,
+      "scratch_block": "0x09E7E000-0x09E7FFFF",
+      "scratch_was_all_zero": true
+    },
+    {
+      "font": "AB18",
+      "font_object": "0x0972524C",
+      "page_table": "0x097252A4",
+      "old_glyph_count": 151,
+      "new_glyph_count": 152,
+      "old_glyph_ptr": "0x097256E0",
+      "new_glyph_ptr": "0x09E7C000",
+      "new_record_index": 151,
+      "new_record_addr": "0x09E7CE28",
+      "new_record_source": "clone of A glyph record (map value 34)",
+      "new_D5_page": "0x09E7D000",
+      "D55C_map_value": 151,
+      "scratch_block": "0x09E7C000-0x09E7DFFF",
+      "scratch_was_all_zero": true
+    }
+  ],
+  "ram_patch_verified": true,
+  "screenshot_before": "PROJECT_ROOT\\analysis\\stage14b_scalable_font\\stage14b_before.png",
+  "screenshot_after": "PROJECT_ROOT\\analysis\\stage14b_scalable_font\\stage14b_after.png",
+  "completed": true,
+  "restore_errors": [],
+  "ram_restored": true
+}

@@ -1,0 +1,21 @@
+{
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE43F_CAMPAIGN_UTF8_SAFE_CODE_TEST.iso",
+  "helper_vas": [
+    "0x5fec10",
+    "0x5fed00"
+  ],
+  "helper_runtime": [
+    "0x8e02c10",
+    "0x8e02d00"
+  ],
+  "original_cjis_code_preserved": true,
+  "original_bss_zero_initialized": true,
+  "module_end_before": "0x08e02c04",
+  "module_end_after": "0x08e02dc0",
+  "first_mission_base": "0x08e03020",
+  "file_growth_bytes": 414896,
+  "memory_growth_bytes": 444,
+  "new_helpers_executable_segment": true,
+  "iso_readback_verified": true,
+  "runtime_verified": false
+}

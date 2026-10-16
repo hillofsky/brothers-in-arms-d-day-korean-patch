@@ -1,0 +1,11 @@
+import json,re,struct,hashlib
+from pathlib import Path
+out=Path('outputs/stage40y_validation');ram=(out/'controls_ram.bin').read_bytes();r=json.loads(Path('outputs/stage40y/first_mission_patch_report.json').read_text(encoding='utf8'));read=lambda a,n:ram[a-0x8000000:a-0x8000000+n];assert len(ram)==0x2000000
+assert all(read(int(x['runtime'],0),x['bytes'])==x['korean'].encode()+b'\0' for x in r['payloads']);assert hashlib.sha1(read(int(r['atlas_runtime'],0),r['atlas_bytes'])).hexdigest()==r['atlas_sha1']
+for x in r['font_objects']:assert struct.unpack('<H',read(int(x['runtime'],0)+0x50,2))[0]==847;assert struct.unpack('<I',read(int(x['runtime'],0)+0x54,4))[0]==int(x['glyph_pointer'],0)
+ops={x['address']:x['encoding'] for x in json.loads((out/'disasm_0x8c9f468.json').read_text())['lines'] if x['type']=='opcode'};pr=json.loads(Path('outputs/stage40r/campaign_renderer_patch_report.json').read_text())
+for h in pr['helpers']:
+ a=int(h['runtime'],0);actual=b''.join(struct.pack('<I',ops[a+i]) for i in range(0,h['size'],4));assert hashlib.sha1(actual).hexdigest()==h['sha1']
+for c in pr['calls']:assert struct.unpack('<I',read(int(c['runtime'],0),4))[0]==int(c['expected_word'],0)
+lines=(out/'ppsspp.log').read_text(errors='replace').splitlines();data=[(int(re.search('a1=([0-9a-f]+)',x)[1],16),int(re.search('ra=([0-9a-f]+)',x)[1],16)) for x in lines if 'BIA40Y' in x];width=[cp for cp,ra in data if ra==0x08c5d594];render=[cp for cp,ra in data if ra==0x0898e35c];assert width and render and not any(0x80<=cp<=0xff for cp in width)
+r.update({'runtime_verified':True,'payload_exact_count':len(r['payloads']),'atlas_exact_runtime_match':True,'renderer_helpers_exact_match_via_debugger_disasm':True,'renderer_call_words_match':True,'width_trace':{'calls':len(width),'hangul_calls':sum(0xac00<=cp<=0xd7a3 for cp in width),'raw_utf8_bytes':sum(0x80<=cp<=0xff for cp in width)},'render_trace':{'calls':len(render),'hangul_calls':sum(0xac00<=cp<=0xd7a3 for cp in render)},'texture_GE_descriptor':read(0x09c8be40,12).hex(),'ram_read':json.loads((out/'ram_read_report.json').read_text()),'ready_for_final_release':False});(out/'stage40y_report.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf8');print({k:r[k] for k in ['payload_exact_count','atlas_exact_runtime_match','width_trace','render_trace','runtime_verified']})

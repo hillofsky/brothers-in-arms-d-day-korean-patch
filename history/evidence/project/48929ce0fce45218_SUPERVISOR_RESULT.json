@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-13T15:33:46.8975400+09:00",
+  "success": true,
+  "dynamic_scan_ok": true,
+  "postflight_ok": true,
+  "child_exit_unknown": true,
+  "child_pid": 29524,
+  "child_exit_code": null,
+  "ppsspp_pid": 32376,
+  "ppsspp_still_running": true,
+  "phase_at_last_poll": "dynamic_font_discovery",
+  "child_done_marker": true,
+  "screenshot_count": 1,
+  "supervisor_error": "",
+  "note": "Child exit code 0 alone never indicates success",
+  "ppsspp_was_not_killed_by_launcher": true
+}

@@ -1,0 +1,4 @@
+import json
+from pathlib import Path
+p=Path('outputs/stage43a/campaign_patch_report.json');d=json.loads(p.read_text(encoding='utf-8'));d.update(runtime_verified=False,runtime_text_references_verified=274,pause_menu_korean_verified=True,mission_hud_korean_verified=False,mission_hud_issue='Objectives, hints and introduction title render UTF-8 as mojibake; a separate campaign text rendering path requires investigation.',restart_issue='Restart test halted at invalid execution address 0x0C47EC29; not suitable for release.');p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8')
+Path('outputs/bia_campaign_progress.md').write_text('캠페인 번역 진행 기록\n\n첫 미션의 목표·조작 설명·대사 137개를 번역하고 테스트 ISO에 반영했습니다. 274개 문구 참조의 실행 중 메모리 검증을 통과했습니다.\n\n일시정지 메뉴는 한글로 표시되지만 목표·힌트·첫 미션 소개 문구가 깨집니다. 미션 재시작 검사에서도 실행 오류가 발생하여 현재 ISO는 배포 가능한 완성본이 아닙니다.\n\n영상 검증은 사용자 요청에 따라 보류했습니다. 캠페인 전체 번역은 아직 완료되지 않았습니다. 다음 작업은 목표·힌트의 별도 렌더링 경로 수정과 재시작 안정성 확인입니다.\n',encoding='utf-8')

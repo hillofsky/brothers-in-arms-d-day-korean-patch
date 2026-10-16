@@ -1,0 +1,1004 @@
+[
+  {
+    "mdi": "D07_1501.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 855,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 854,
+        "hash_lookup_cases": 854,
+        "translated_codepoints_checked": 207,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9a1d640",
+        "glyph_count": 854,
+        "hash_lookup_cases": 854,
+        "translated_codepoints_checked": 207,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      25,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "a72fca1100771c32b080bbc1f3d7a7c7f10287a4d98c91b25b23783bcc00e976",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 704,
+    "hangul_added_per_font": 704,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D08_1030.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 863,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 862,
+        "hash_lookup_cases": 862,
+        "translated_codepoints_checked": 228,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b49f30",
+        "glyph_count": 862,
+        "hash_lookup_cases": 862,
+        "translated_codepoints_checked": 228,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      28,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "a63c172225f6b68416a3bca4c5c8cc42bb82fbdf09fcbc31fbb0b15918e7adad",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 712,
+    "hangul_added_per_font": 712,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D09_0800.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 866,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 865,
+        "hash_lookup_cases": 865,
+        "translated_codepoints_checked": 276,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9a3c950",
+        "glyph_count": 865,
+        "hash_lookup_cases": 865,
+        "translated_codepoints_checked": 276,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      26,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "66d1a0faaa3be1e23b4f2048b74f643e2cb5dcfda46558652f808d45b3f07211",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 715,
+    "hangul_added_per_font": 715,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D0_0130_.MDI",
+    "action": "PRESERVED_ALREADY_FIXED",
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 879,
+        "hash_lookup_cases": 879,
+        "translated_codepoints_checked": 5,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9a8cac0",
+        "glyph_count": 879,
+        "hash_lookup_cases": 879,
+        "translated_codepoints_checked": 5,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "mdi_sha256": "fcff4f219edf7dd5aa843051b03aa9fb5c7ae6060193530e707bd36a2118a2cf"
+  },
+  {
+    "mdi": "D0_0700_.MDI",
+    "action": "PRESERVED_ALREADY_FIXED",
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 877,
+        "hash_lookup_cases": 877,
+        "translated_codepoints_checked": 374,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9a74150",
+        "glyph_count": 877,
+        "hash_lookup_cases": 877,
+        "translated_codepoints_checked": 374,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "mdi_sha256": "b06ca624235e5c929262efe9659ff28f2ba915f1d153938fad4fa6e18addea04"
+  },
+  {
+    "mdi": "D0_1015_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 869,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 868,
+        "hash_lookup_cases": 868,
+        "translated_codepoints_checked": 280,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b79cf0",
+        "glyph_count": 868,
+        "hash_lookup_cases": 868,
+        "translated_codepoints_checked": 280,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      28,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "572834110c0bdf939d745b8c660a4af641b728229256a123c744629f3eb60780",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 718,
+    "hangul_added_per_font": 718,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D10_0600.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 873,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 872,
+        "hash_lookup_cases": 872,
+        "translated_codepoints_checked": 277,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9a9e390",
+        "glyph_count": 872,
+        "hash_lookup_cases": 872,
+        "translated_codepoints_checked": 277,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      26,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "eb3b82fbddbe9b6edd229ddac4594cb486837af1766613ffd8e232a2fbf11f61",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 722,
+    "hangul_added_per_font": 722,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D10_0801.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 855,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 854,
+        "hash_lookup_cases": 854,
+        "translated_codepoints_checked": 195,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x99173c0",
+        "glyph_count": 854,
+        "hash_lookup_cases": 854,
+        "translated_codepoints_checked": 195,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      23,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "e49d44022eef73e65c80c58c9bf852363013e777a6bd2337bdc1dfd9849d67ce",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 704,
+    "hangul_added_per_font": 704,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D10_0802.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 855,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 854,
+        "hash_lookup_cases": 854,
+        "translated_codepoints_checked": 218,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b417a0",
+        "glyph_count": 854,
+        "hash_lookup_cases": 854,
+        "translated_codepoints_checked": 218,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      28,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "132e2489c41575a1a8280d780726eb3c5ed238fb5899c26d26e580fd05559ae2",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 704,
+    "hangul_added_per_font": 704,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D1_0900_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 862,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 861,
+        "hash_lookup_cases": 861,
+        "translated_codepoints_checked": 308,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b2cd80",
+        "glyph_count": 861,
+        "hash_lookup_cases": 861,
+        "translated_codepoints_checked": 308,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      28,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "96d4ec3793ba2f0d2b504ef25f27e24a571c9fc5bd741375c7215af463d6a1df",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 711,
+    "hangul_added_per_font": 711,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D1_1830_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 854,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 853,
+        "hash_lookup_cases": 853,
+        "translated_codepoints_checked": 215,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b251f0",
+        "glyph_count": 853,
+        "hash_lookup_cases": 853,
+        "translated_codepoints_checked": 215,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      28,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "0bd943d0412da82238d2ec93d20f0d9566ca568632f5127beb02f3d6014d1cc5",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 703,
+    "hangul_added_per_font": 703,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D2_0630_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 861,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 860,
+        "hash_lookup_cases": 860,
+        "translated_codepoints_checked": 179,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9a8e270",
+        "glyph_count": 860,
+        "hash_lookup_cases": 860,
+        "translated_codepoints_checked": 179,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      26,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "b4858c766a517000b53244931be1db7da97f8dd7cefca38005895dfbc9210a05",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 710,
+    "hangul_added_per_font": 708,
+    "curly_quotes_added_per_font": 2
+  },
+  {
+    "mdi": "D2_1000_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 873,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 872,
+        "hash_lookup_cases": 872,
+        "translated_codepoints_checked": 286,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b4e9b0",
+        "glyph_count": 872,
+        "hash_lookup_cases": 872,
+        "translated_codepoints_checked": 286,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      28,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "0d7184fe56e6d3ffd4ee3841668b596d9275fb79174ba162226465febbaa724b",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 722,
+    "hangul_added_per_font": 722,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D3_0900_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 860,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 859,
+        "hash_lookup_cases": 859,
+        "translated_codepoints_checked": 211,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b55900",
+        "glyph_count": 859,
+        "hash_lookup_cases": 859,
+        "translated_codepoints_checked": 211,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      28,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "1cd03bf20d2c817b794a882ee4dc3b00c18b88579d385f12540ad9c2f594c193",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 709,
+    "hangul_added_per_font": 709,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D4_1800_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 860,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 859,
+        "hash_lookup_cases": 859,
+        "translated_codepoints_checked": 219,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9ac4de0",
+        "glyph_count": 859,
+        "hash_lookup_cases": 859,
+        "translated_codepoints_checked": 219,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      27,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "609677458145803cdf2353129305a7cdadb2393ca34ddcbb25e62282353f777c",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 709,
+    "hangul_added_per_font": 709,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D5_0615_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 862,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 861,
+        "hash_lookup_cases": 861,
+        "translated_codepoints_checked": 240,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b26610",
+        "glyph_count": 861,
+        "hash_lookup_cases": 861,
+        "translated_codepoints_checked": 240,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      28,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "7ad8fe6105d7d7b575b1b200625fc850bc3c90606b6670c19237185058290d7d",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 711,
+    "hangul_added_per_font": 711,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D6_0500_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 863,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 862,
+        "hash_lookup_cases": 862,
+        "translated_codepoints_checked": 239,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b56ed0",
+        "glyph_count": 862,
+        "hash_lookup_cases": 862,
+        "translated_codepoints_checked": 239,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      28,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "2c052239d2d34275878d7a7ebb0e5b3145ffa41e00cc03e54d049a05fe8626f1",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 712,
+    "hangul_added_per_font": 712,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D6_1200_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 860,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 859,
+        "hash_lookup_cases": 859,
+        "translated_codepoints_checked": 252,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9a1f6d0",
+        "glyph_count": 859,
+        "hash_lookup_cases": 859,
+        "translated_codepoints_checked": 252,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      25,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "edf597aaa0dfe3a4eae205dc3ff74ad72acdebf8ec944e83440d123b3261e9ad",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 709,
+    "hangul_added_per_font": 709,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D7_1400_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 868,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 867,
+        "hash_lookup_cases": 867,
+        "translated_codepoints_checked": 282,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9b17170",
+        "glyph_count": 867,
+        "hash_lookup_cases": 867,
+        "translated_codepoints_checked": 282,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      27,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "b390c1e744f520e2091c7adee86dbdef9deb3a12e648d111bd6656ae0dafe02d",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 717,
+    "hangul_added_per_font": 717,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "D7_1500_.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 868,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 867,
+        "hash_lookup_cases": 867,
+        "translated_codepoints_checked": 277,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x97f6770",
+        "glyph_count": 867,
+        "hash_lookup_cases": 867,
+        "translated_codepoints_checked": 277,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      21,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "a2d6dba3a4ef6e3a90217a92fe7880104def061097401a2942ccde8e1ec74fb5",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 717,
+    "hangul_added_per_font": 717,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_DE_CHUR.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 847,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 58,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x99bb470",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 58,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      25,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "9d1bb253333e461a62b69386e79e002b58d5b8dbc0ac44ed69484e1819324339",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 696,
+    "hangul_added_per_font": 696,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_DE_CITY.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 847,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 81,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x98f9da0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 81,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      23,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "e236eba0bd473cd97732d6cd3e592f1fe25363e07f9d0afcee7e05e4bebcbe82",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 696,
+    "hangul_added_per_font": 696,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_DE_DDAY.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 847,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 74,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x99ec1f0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 74,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      25,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "e6f87b576dc482047a0f59bcd03ca783adf8bff9d2b67f89bbc6b2ed8fdd93ee",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 696,
+    "hangul_added_per_font": 696,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_DE_HAML.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 847,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 77,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9a2c3b0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 77,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      25,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "a8e9b6a277689fc126d49cceb253c151aa0b2a728262b352bdba80bf5cde8f31",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 696,
+    "hangul_added_per_font": 696,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_DE_HOLD.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 849,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 848,
+        "hash_lookup_cases": 848,
+        "translated_codepoints_checked": 76,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x98e9580",
+        "glyph_count": 848,
+        "hash_lookup_cases": 848,
+        "translated_codepoints_checked": 76,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      23,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "1d3ff682ba8a7835630f530a1173f2b6672e02d129af4d71781e2f43acfe02a2",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 698,
+    "hangul_added_per_font": 698,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_DE_WARE.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 847,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 66,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9852430",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 66,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      21,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "2d2d5eb350571e0ec33d4796ffbd9c8ae2ccdb519b92bb33b43543b1f17664d9",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 696,
+    "hangul_added_per_font": 696,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_US_BROK.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 848,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 847,
+        "hash_lookup_cases": 847,
+        "translated_codepoints_checked": 74,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x99c9190",
+        "glyph_count": 847,
+        "hash_lookup_cases": 847,
+        "translated_codepoints_checked": 74,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      25,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "27bbbbb9d36eaddf60f580f16db9532900e7af5c9aebf6c58c1ec63ed5f48415",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 697,
+    "hangul_added_per_font": 697,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_US_BUNK.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 850,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 849,
+        "hash_lookup_cases": 849,
+        "translated_codepoints_checked": 134,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9a75de0",
+        "glyph_count": 849,
+        "hash_lookup_cases": 849,
+        "translated_codepoints_checked": 134,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      26,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "6a5926dbe0fe6c8fdce006062bfb57534ffb6e59f60d5bf702db72b712124ed4",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 699,
+    "hangul_added_per_font": 699,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_US_CROS.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 847,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 64,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x98f21e0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 64,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      23,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "aabc5419c10e0abedaf34d6d4e74b065e813aa3a7be87ee99476015eae5e580e",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 696,
+    "hangul_added_per_font": 696,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_US_RAIL.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 847,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 68,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x99f1e60",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 68,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      25,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "539557aebc858f89731ab058c2d4ccfa0b4a94c47aa8cda501354273511b51c8",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 696,
+    "hangul_added_per_font": 696,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_US_SNIP.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 847,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 83,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x9886eb0",
+        "glyph_count": 846,
+        "hash_lookup_cases": 846,
+        "translated_codepoints_checked": 83,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      22,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "35fdb0c7ad2a8b0d4967cf3b8a7bc72794df944c1d78a3c20553e6373c1742f4",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 696,
+    "hangul_added_per_font": 696,
+    "curly_quotes_added_per_font": 0
+  },
+  {
+    "mdi": "SKR_US_TAKI.MDI",
+    "action": "NATIVE_UFONT_EXPANDED",
+    "rfont_count": 848,
+    "fonts": [
+      {
+        "font": "0x8fc3ca0",
+        "glyph_count": 847,
+        "hash_lookup_cases": 847,
+        "translated_codepoints_checked": 91,
+        "missing_translated_codepoints": 0
+      },
+      {
+        "font": "0x987ba70",
+        "glyph_count": 847,
+        "hash_lookup_cases": 847,
+        "translated_codepoints_checked": 91,
+        "missing_translated_codepoints": 0
+      }
+    ],
+    "changed_streams": [
+      3,
+      22,
+      35
+    ],
+    "texture_clone": "0x9e82220",
+    "mdi_sha256": "a39e819cac7dfac207c2ec8eccd71ccf56f3db837d93f8ad241c68e8c087966f",
+    "original_strings_and_atlas_and_latin_and_icons_preserved": true,
+    "unicode_glyphs_added_per_font": 697,
+    "hangul_added_per_font": 697,
+    "curly_quotes_added_per_font": 0
+  }
+]

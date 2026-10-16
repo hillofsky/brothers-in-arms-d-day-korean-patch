@@ -1,0 +1,1 @@
+2026-10-13T13:40:51+09:00 [20261013_133951_693_17716] CAPTURED_UNVERIFIED: run=20261013_133951_693_17716; phase=postflight_hash; key1 screenshot + live renderer a1 and upstream t0 source, read-only; ISO/RAM unchanged

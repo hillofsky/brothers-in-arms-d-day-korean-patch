@@ -1,0 +1,20 @@
+{
+  "stage": "39E",
+  "purpose": "Catch the actual instruction that writes the Stage39C observed byte-wise widened UTF-8 copy, without assuming any decoder function.",
+  "stage39d_conclusion": "The injected decoder at 0x08CC4390/0x08CC4460 was never executed for the menu localization path, so 0x08CC4108 is not yet proven to be this path's converter.",
+  "uses_stage39d_decoder_assumption": false,
+  "uses_old_story_fixed_slot": false,
+  "uses_stage39c_wide_copy_only_as_write_target": true,
+  "wide_copy_address": "0x08E4E82C",
+  "narrow_source_addresses": [
+    "0x093B1B40",
+    "0x093B1BB4"
+  ],
+  "test_utf8_hex": "ec8aa4ed86a0eba6ac",
+  "expected_bytewise_widened_hex": "ec008a00a400ed008600a000eb00a600ac00",
+  "true_utf16_hex": "a4c2a0d1acb9",
+  "runtime_patch": false,
+  "runtime_exception": "Timed out waiting for memory writer; last=None",
+  "runtime_traceback": "Traceback (most recent call last):\n  File \"PROJECT_ROOT\\bia_stage39e_tools\\bia_stage39e_widen_writer_trace.py\", line 619, in main\n    rt = runtime(local_mod, b)\n  File \"PROJECT_ROOT\\bia_stage39e_tools\\bia_stage39e_widen_writer_trace.py\", line 477, in runtime\n    trace = trace_writer(ws)\n  File \"PROJECT_ROOT\\bia_stage39e_tools\\bia_stage39e_widen_writer_trace.py\", line 282, in trace_writer\n    status, presses = wait_pause(\n  File \"PROJECT_ROOT\\bia_stage39e_tools\\bia_stage39e_widen_writer_trace.py\", line 229, in wait_pause\n    raise RuntimeError(\nRuntimeError: Timed out waiting for memory writer; last=None\n",
+  "completed": false
+}

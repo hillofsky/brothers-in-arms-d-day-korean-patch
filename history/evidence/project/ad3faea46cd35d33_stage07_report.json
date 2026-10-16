@@ -1,0 +1,35 @@
+{
+  "source_iso": "PROJECT_ROOT\\Brothers in Arms - D-Day (USA) (v1.01).iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE07_FONTLOAD_TEST.iso",
+  "original_mdi_sha1": "22de1f889d1617199a3e21d4a1f63fcaf87b944a",
+  "patched_mdi_sha1": "5209ab1f0de0571b88314342bca7d4721de23254",
+  "mdi_stream": 19,
+  "compressed_size": 59805,
+  "font_tables_decoded_offsets": [
+    "0xefd0",
+    "0x106d8"
+  ],
+  "font_mapping_changes": [
+    {
+      "table": 0,
+      "decoded_table_offset": "0xEFD0",
+      "decoded_record_offset": "0xFDC8",
+      "old": "U+2122 ™",
+      "new": "U+D55C 한"
+    },
+    {
+      "table": 1,
+      "decoded_table_offset": "0x106D8",
+      "decoded_record_offset": "0x114D0",
+      "old": "U+2122 ™",
+      "new": "U+D55C 한"
+    }
+  ],
+  "iso_lba": 147920,
+  "iso_file_offset": "0x120e8000",
+  "runtime_font_tables": [
+    "0x9723ff0",
+    "0x97256f8"
+  ],
+  "visual_result": "n"
+}

@@ -1,0 +1,1319 @@
+{
+  "step": "STEP_081",
+  "status": "IN_PROGRESS",
+  "target_iso_sha256": "ca320d514c32d34767e7255ea3079f7449783cdb2b98ec49797a87bdd69544d9",
+  "game_id_expected": "ULUS10193",
+  "isolated_memstick": "PROJECT_ROOT\\log\\STEP_081\\STEP_081_ISOLATED_MEMSTICK",
+  "original_save_data_touched": false,
+  "old_step080_false_negative_fixed": true,
+  "compiled967_static_applied": true,
+  "compiled967_visual_runtime_verified": false,
+  "int92_visual_runtime_verified": false,
+  "six_deferred_movie_playbacks_tested": false,
+  "first_mission_runtime_previously_verified": true,
+  "first_mission_runtime_this_run_verified": false,
+  "new_game_selected_by_verified_story_submenu": true,
+  "mission_started_visually_verified": false,
+  "notes": "New Game entry can show a cutscene/another menu. Screenshots and RAM are evidence, not automatic proof of localized dialog rendering.",
+  "version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "game": {
+    "id": "ULUS10193",
+    "version": "1.01",
+    "title": "Brothers in Arms D-Day"
+  },
+  "boot_captures": [
+    [
+      {
+        "file": "00_boot_00_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "d494f1e1bc81bd51b875f287ec538aea60502fcc034130bb9df03f43277940fd",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 77.59466666666667,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 68.024,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 68.336,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "00_boot_00_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "3a31f5f994efb346101c7284244030b8f2f929dd5ac9583fa41816d7f42cc800",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 85.12533333333333,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 64.08533333333334,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 64.92266666666667,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_01_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "55a4fcae02ed6b0e4ecfe438d8abafaf1fa81869a189c77b18330eb6b6ee4dba",
+        "state": "OTHER",
+        "main_story_bright_pixels": 20,
+        "new_game_bright_pixels": 37,
+        "known_signatures": {
+          "title": {
+            "mae": 85.016,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 121.45,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 121.67533333333333,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "00_boot_01_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "96f8e81e77182f67493eb5fc40054d4bdb95f4593efbefc771ee226a02a21bc6",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 111.06866666666667,
+            "close_ratio": 0.002
+          },
+          "menu_story": {
+            "mae": 159.15533333333335,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 158.64466666666667,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_02_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "286f7326cea8635aa8e22189d3933f536e3a0ae19941c48edf233b15756b0309",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 86.19533333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 75.19333333333333,
+            "close_ratio": 0.012
+          },
+          "menu_skirmish": {
+            "mae": 75.27333333333333,
+            "close_ratio": 0.012
+          }
+        }
+      },
+      {
+        "file": "00_boot_02_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "794a6bd8c78a2c3364bf31cc1a24ef1ab0bd85eabaa52c29e939f78488d0ed4a",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 4,
+        "known_signatures": {
+          "title": {
+            "mae": 80.03133333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 85.72266666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 85.87866666666666,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_03_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "3b2c394d88d1a3fcd1503b28eaa451e2faeb036c26bfd934d0ec8b5a8428bcf9",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 106.148,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 57.438,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 58.066,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "00_boot_03_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "2c25eef7798675843cca7f33683d64d277c96c32780f9080c043931261b984da",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 10,
+        "known_signatures": {
+          "title": {
+            "mae": 102.46066666666667,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 66.33133333333333,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 66.92466666666667,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_04_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "1789f7b04c3b9338115ed5927aade56cc0a3ebc943a06d67f4243410236009ef",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 72.08733333333333,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 63.727333333333334,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 64.06866666666667,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "00_boot_04_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "5e11b088cb3f5933d4cef1a62fad3f56ef830a156321aa7040f782f70a24d97f",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 71.72533333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 64.47266666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 64.642,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_05_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "3b9c5fb1f079bfa09b616291a81d7d9bcecb9d9b0d3bb3b4199f0bc75bbb6c9e",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 74.84066666666666,
+            "close_ratio": 0.002
+          },
+          "menu_story": {
+            "mae": 65.56533333333333,
+            "close_ratio": 0.002
+          },
+          "menu_skirmish": {
+            "mae": 66.08,
+            "close_ratio": 0.002
+          }
+        }
+      },
+      {
+        "file": "00_boot_05_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "52b0068250c3cb866b47171a2511126519c21c00939c141f2c912438312127e4",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 71.54666666666667,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 66.52,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 66.55066666666667,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_06_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "8f7003d9cc3156ff520e39cd3184fce849dfef429b07d62930ac4dd1e03d2763",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 77.97266666666667,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 62.682,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 62.61266666666667,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "00_boot_06_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "da9972daae57fa87262284d5d46f82f7716472db2678521a2a2c903980de6f2f",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 73.876,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 69.45266666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 69.102,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_07_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "677bac22f8b3a84d17860d321b2c506f4425e1ff1a1a2b6cd7d7af305aa72afe",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 106.992,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 56.93066666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 57.55866666666667,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "00_boot_07_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "175321641c4e52fdfbf6df770ae33cfff0e704faecdb26ee47e37d29f1ceccae",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 99.40733333333333,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 57.086,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 57.674,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_08_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "d059a30096e924bebfb68ee636f31001865103943438abd35a7e36d74110d35c",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 107.64133333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 56.86866666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 57.49666666666667,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "00_boot_08_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "1a3efa3923b648ca690ba9523d29413f73e1f0c45690dc4246bad6f26cc50ae3",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 102.39466666666667,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 58.175333333333334,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 58.803333333333335,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_09_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "a23bdb87f633f51d4f6da5e9a423deec5b949cce420918a5d83f1fa9cf71a40e",
+        "state": "OTHER",
+        "main_story_bright_pixels": 215,
+        "new_game_bright_pixels": 540,
+        "known_signatures": {
+          "title": {
+            "mae": 48.952666666666666,
+            "close_ratio": 0.048
+          },
+          "menu_story": {
+            "mae": 34.239333333333335,
+            "close_ratio": 0.128
+          },
+          "menu_skirmish": {
+            "mae": 34.694,
+            "close_ratio": 0.132
+          }
+        }
+      },
+      {
+        "file": "00_boot_09_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "a23bdb87f633f51d4f6da5e9a423deec5b949cce420918a5d83f1fa9cf71a40e",
+        "state": "OTHER",
+        "main_story_bright_pixels": 215,
+        "new_game_bright_pixels": 540,
+        "known_signatures": {
+          "title": {
+            "mae": 48.952666666666666,
+            "close_ratio": 0.048
+          },
+          "menu_story": {
+            "mae": 34.239333333333335,
+            "close_ratio": 0.128
+          },
+          "menu_skirmish": {
+            "mae": 34.694,
+            "close_ratio": 0.132
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_10_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094",
+        "state": "OTHER",
+        "main_story_bright_pixels": 215,
+        "new_game_bright_pixels": 540,
+        "known_signatures": {
+          "title": {
+            "mae": 48.952666666666666,
+            "close_ratio": 0.048
+          },
+          "menu_story": {
+            "mae": 34.239333333333335,
+            "close_ratio": 0.128
+          },
+          "menu_skirmish": {
+            "mae": 34.694,
+            "close_ratio": 0.132
+          }
+        }
+      },
+      {
+        "file": "00_boot_10_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "31844ba526afa560eb8fee0fd03aed4740946b133b99e1fe0595fb8acc1da094",
+        "state": "OTHER",
+        "main_story_bright_pixels": 215,
+        "new_game_bright_pixels": 540,
+        "known_signatures": {
+          "title": {
+            "mae": 48.952666666666666,
+            "close_ratio": 0.048
+          },
+          "menu_story": {
+            "mae": 34.239333333333335,
+            "close_ratio": 0.128
+          },
+          "menu_skirmish": {
+            "mae": 34.694,
+            "close_ratio": 0.132
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "00_boot_11_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+        "state": "TITLE",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 0.0,
+            "close_ratio": 1.0
+          },
+          "menu_story": {
+            "mae": 49.49333333333333,
+            "close_ratio": 0.03
+          },
+          "menu_skirmish": {
+            "mae": 49.78666666666667,
+            "close_ratio": 0.03
+          }
+        }
+      },
+      {
+        "file": "00_boot_11_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "eb85b039ec9c531c33f1647ce38e25fc079f535f052adf2c388c342b5a3bcd9f",
+        "state": "TITLE",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 0.0,
+            "close_ratio": 1.0
+          },
+          "menu_story": {
+            "mae": 49.49333333333333,
+            "close_ratio": 0.03
+          },
+          "menu_skirmish": {
+            "mae": 49.78666666666667,
+            "close_ratio": 0.03
+          }
+        }
+      }
+    ]
+  ],
+  "title_observed": true,
+  "main_seek": [
+    [
+      {
+        "file": "01_main_seek_00_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 107.64133333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 56.86866666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 57.49666666666667,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "01_main_seek_00_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 107.64133333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 56.86866666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 57.49666666666667,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "01_main_seek_01_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 107.64133333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 56.86866666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 57.49666666666667,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "01_main_seek_01_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 107.64133333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 56.86866666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 57.49666666666667,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "01_main_seek_02_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 107.64133333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 56.86866666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 57.49666666666667,
+            "close_ratio": 0.0
+          }
+        }
+      },
+      {
+        "file": "01_main_seek_02_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "f1e8d94c97038cbd7165355e4dc1b0612a06022986968e5be4aebf43fd4bb618",
+        "state": "OTHER",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 0,
+        "known_signatures": {
+          "title": {
+            "mae": 107.64133333333334,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 56.86866666666667,
+            "close_ratio": 0.0
+          },
+          "menu_skirmish": {
+            "mae": 57.49666666666667,
+            "close_ratio": 0.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "01_main_seek_03_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      },
+      {
+        "file": "01_main_seek_03_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "01_main_seek_04_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      },
+      {
+        "file": "01_main_seek_04_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "01_main_seek_05_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      },
+      {
+        "file": "01_main_seek_05_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "01_main_seek_06_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      },
+      {
+        "file": "01_main_seek_06_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "01_main_seek_07_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      },
+      {
+        "file": "01_main_seek_07_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "ed0e57bce99313c72abe7a03c4b24259a9ca3eda6f272b62da0005498f1caf06",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 420,
+        "known_signatures": {
+          "title": {
+            "mae": 77.714,
+            "close_ratio": 0.0
+          },
+          "menu_story": {
+            "mae": 31.865333333333332,
+            "close_ratio": 0.014
+          },
+          "menu_skirmish": {
+            "mae": 32.30533333333333,
+            "close_ratio": 0.014
+          }
+        }
+      }
+    ],
+    [
+      {
+        "file": "01_main_seek_08_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "47136d342d2e30bca2cbada4a88d7ffca27571248b8486e809ad3f6961c426fd",
+        "state": "MAIN_STORY_SELECTED",
+        "main_story_bright_pixels": 293,
+        "new_game_bright_pixels": 27,
+        "known_signatures": {
+          "title": {
+            "mae": 69.54933333333334,
+            "close_ratio": 0.03
+          },
+          "menu_story": {
+            "mae": 0.0,
+            "close_ratio": 1.0
+          },
+          "menu_skirmish": {
+            "mae": 1.6453333333333333,
+            "close_ratio": 0.962
+          }
+        }
+      },
+      {
+        "file": "01_main_seek_08_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "47136d342d2e30bca2cbada4a88d7ffca27571248b8486e809ad3f6961c426fd",
+        "state": "MAIN_STORY_SELECTED",
+        "main_story_bright_pixels": 293,
+        "new_game_bright_pixels": 27,
+        "known_signatures": {
+          "title": {
+            "mae": 69.54933333333334,
+            "close_ratio": 0.03
+          },
+          "menu_story": {
+            "mae": 0.0,
+            "close_ratio": 1.0
+          },
+          "menu_skirmish": {
+            "mae": 1.6453333333333333,
+            "close_ratio": 0.962
+          }
+        }
+      }
+    ]
+  ],
+  "main_menu_story_selected_verified": true,
+  "submenu_seek": [
+    [
+      {
+        "file": "02_story_submenu_00_vram0_04000000.png",
+        "buffer": 0,
+        "raw_sha256": "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 247,
+        "known_signatures": {
+          "title": {
+            "mae": 69.10133333333333,
+            "close_ratio": 0.032
+          },
+          "menu_story": {
+            "mae": 3.102,
+            "close_ratio": 0.936
+          },
+          "menu_skirmish": {
+            "mae": 3.6313333333333335,
+            "close_ratio": 0.93
+          }
+        }
+      },
+      {
+        "file": "02_story_submenu_00_vram1_04044000.png",
+        "buffer": 1,
+        "raw_sha256": "28f9f3cee5a9db79c7cbddfcb6123fe648b0c9f136b08e2bc97726b8494a09ae",
+        "state": "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "main_story_bright_pixels": 0,
+        "new_game_bright_pixels": 247,
+        "known_signatures": {
+          "title": {
+            "mae": 69.10133333333333,
+            "close_ratio": 0.032
+          },
+          "menu_story": {
+            "mae": 3.102,
+            "close_ratio": 0.936
+          },
+          "menu_skirmish": {
+            "mae": 3.6313333333333335,
+            "close_ratio": 0.93
+          }
+        }
+      }
+    ]
+  ],
+  "story_submenu_verified": true,
+  "new_game_selection_visible": true,
+  "post_new_game_frames": [
+    {
+      "second": 0,
+      "states": [
+        "MAIN_STORY_SELECTED",
+        "MAIN_STORY_SELECTED"
+      ],
+      "images": [
+        "03_new_game_00_t00s_vram0_04000000.png",
+        "03_new_game_00_t00s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        181,
+        181
+      ],
+      "new_game_bright_pixels": [
+        88,
+        88
+      ],
+      "raw_hashes": [
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2",
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2"
+      ]
+    },
+    {
+      "second": 1,
+      "states": [
+        "MAIN_STORY_SELECTED",
+        "MAIN_STORY_SELECTED"
+      ],
+      "images": [
+        "03_new_game_01_t01s_vram0_04000000.png",
+        "03_new_game_01_t01s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        181,
+        181
+      ],
+      "new_game_bright_pixels": [
+        88,
+        88
+      ],
+      "raw_hashes": [
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2",
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2"
+      ]
+    },
+    {
+      "second": 3,
+      "states": [
+        "MAIN_STORY_SELECTED",
+        "MAIN_STORY_SELECTED"
+      ],
+      "images": [
+        "03_new_game_02_t03s_vram0_04000000.png",
+        "03_new_game_02_t03s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        181,
+        181
+      ],
+      "new_game_bright_pixels": [
+        88,
+        88
+      ],
+      "raw_hashes": [
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2",
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2"
+      ]
+    },
+    {
+      "second": 5,
+      "states": [
+        "MAIN_STORY_SELECTED",
+        "MAIN_STORY_SELECTED"
+      ],
+      "images": [
+        "03_new_game_03_t05s_vram0_04000000.png",
+        "03_new_game_03_t05s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        181,
+        181
+      ],
+      "new_game_bright_pixels": [
+        88,
+        88
+      ],
+      "raw_hashes": [
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2",
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2"
+      ]
+    },
+    {
+      "second": 8,
+      "states": [
+        "MAIN_STORY_SELECTED",
+        "MAIN_STORY_SELECTED"
+      ],
+      "images": [
+        "03_new_game_04_t08s_vram0_04000000.png",
+        "03_new_game_04_t08s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        181,
+        181
+      ],
+      "new_game_bright_pixels": [
+        88,
+        88
+      ],
+      "raw_hashes": [
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2",
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2"
+      ]
+    },
+    {
+      "second": 12,
+      "states": [
+        "MAIN_STORY_SELECTED",
+        "MAIN_STORY_SELECTED"
+      ],
+      "images": [
+        "03_new_game_05_t12s_vram0_04000000.png",
+        "03_new_game_05_t12s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        181,
+        181
+      ],
+      "new_game_bright_pixels": [
+        88,
+        88
+      ],
+      "raw_hashes": [
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2",
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2"
+      ]
+    },
+    {
+      "second": 18,
+      "states": [
+        "MAIN_STORY_SELECTED",
+        "MAIN_STORY_SELECTED"
+      ],
+      "images": [
+        "03_new_game_06_t18s_vram0_04000000.png",
+        "03_new_game_06_t18s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        181,
+        181
+      ],
+      "new_game_bright_pixels": [
+        88,
+        88
+      ],
+      "raw_hashes": [
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2",
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2"
+      ]
+    },
+    {
+      "second": 25,
+      "states": [
+        "MAIN_STORY_SELECTED",
+        "MAIN_STORY_SELECTED"
+      ],
+      "images": [
+        "03_new_game_07_t25s_vram0_04000000.png",
+        "03_new_game_07_t25s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        181,
+        181
+      ],
+      "new_game_bright_pixels": [
+        88,
+        88
+      ],
+      "raw_hashes": [
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2",
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2"
+      ]
+    },
+    {
+      "second": 35,
+      "states": [
+        "MAIN_STORY_SELECTED",
+        "MAIN_STORY_SELECTED"
+      ],
+      "images": [
+        "03_new_game_08_t35s_vram0_04000000.png",
+        "03_new_game_08_t35s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        181,
+        181
+      ],
+      "new_game_bright_pixels": [
+        88,
+        88
+      ],
+      "raw_hashes": [
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2",
+        "7401f9fa6db2f674796c592eabe5d91822c8f807df220ba9d30a43e46dfd16b2"
+      ]
+    },
+    {
+      "second": 50,
+      "states": [
+        "STORY_SUBMENU_NEW_GAME_SELECTED",
+        "STORY_SUBMENU_NEW_GAME_SELECTED"
+      ],
+      "images": [
+        "03_new_game_09_t50s_vram0_04000000.png",
+        "03_new_game_09_t50s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        0,
+        0
+      ],
+      "new_game_bright_pixels": [
+        357,
+        348
+      ],
+      "raw_hashes": [
+        "080860502545d536c281b02cf473cba56ee12de79cdf255ffb0ae7b8a84aeac8",
+        "71284781b0cc1ecd9bc8499c8f5b24db7b64f3c335d6fee5a391a87276fc2de7"
+      ]
+    },
+    {
+      "second": 70,
+      "states": [
+        "OTHER",
+        "OTHER"
+      ],
+      "images": [
+        "03_new_game_10_t70s_vram0_04000000.png",
+        "03_new_game_10_t70s_vram1_04044000.png"
+      ],
+      "main_story_bright_pixels": [
+        0,
+        0
+      ],
+      "new_game_bright_pixels": [
+        0,
+        0
+      ],
+      "raw_hashes": [
+        "9566b61ea19d3fdda66be2be51c955a3c5a24930712d818f2afc0532e63c5b44",
+        "81f686a0086a4103e5c2d5c1391722576a29ce33d80850f987a2c1ca38e27a6c"
+      ]
+    }
+  ],
+  "canaries_t25": {
+    "loaded_ids": [
+      "BIA-02116"
+    ],
+    "file": "game_t25_ram_hits.json"
+  },
+  "canaries_t70": {
+    "loaded_ids": [
+      "BIA-02504",
+      "BIA-02116"
+    ],
+    "file": "game_t70_ram_hits.json"
+  }
+}

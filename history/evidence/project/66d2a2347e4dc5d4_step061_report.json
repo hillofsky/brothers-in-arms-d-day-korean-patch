@@ -1,0 +1,23 @@
+{
+  "step": "STEP_061",
+  "translations_applied_to_metadata": 119,
+  "completed_reference_groups": [
+    "D15_1130_BOOKENDS",
+    "D15_1230_BOOKENDS2",
+    "D15_1300_BOOKENDS4",
+    "D15_1330_BOOKENDS3"
+  ],
+  "status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "TRANSLATED_REVIEWED": 913,
+    "NEEDS_TRANSLATION": 162,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "chronological_story_groups_remaining": 0,
+  "next_pool": "SKIRMISH_AND_SYSTEM_CAMPAIGN_REMAINDER",
+  "next_unit_count": 162,
+  "master_sha256": "d7294ee666167f63ca08c03513c16059204598168e0920dab17da8b18a159fcf",
+  "next_batch_sha256": "c11fe2bc0362baa060e8cb4eda3072443ff81ba7aa13d234c784062f92164347",
+  "iso_modified": false,
+  "movie_validation_resumed": false
+}

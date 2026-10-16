@@ -1,0 +1,1457 @@
+{
+  "stage": "41D",
+  "source_iso": "PROJECT_ROOT\\BIA_STAGE41A_FIRST_MOVIE_KO_SUB_TEST.iso",
+  "purpose": "Extract and analyze SubtitleManagerPreRendered resources.",
+  "known_runtime": {
+    "texture_loader": "0x0893E764",
+    "hashmap_loader": "0x0893E58C",
+    "texture_path": "disc0:/PSP_GAME/USRDIR/SYSTEM/SUBTITLETEXTURE.RAW",
+    "hashmap_path": "disc0:/PSP_GAME/USRDIR/SYSTEM/SUBTITLEHASHMAP.INI"
+  },
+  "volume_id": "BIAPSP",
+  "logical_block_size": 2048,
+  "found": {
+    "SUBTITLEHASHMAP.INI": {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLEHASHMAP.INI",
+      "extent_lbn": 510976,
+      "file_offset_hex": "0x3E600000",
+      "size": 2172,
+      "sha1": "e151e11e3fe4f71200fa031c236c62a55bd72542"
+    },
+    "SUBTITLETEXTURE.RAW": {
+      "iso_path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLETEXTURE.RAW",
+      "extent_lbn": 510992,
+      "file_offset_hex": "0x3E608000",
+      "size": 131072,
+      "sha1": "dd5969a9ff241ab56481d2c96e107322e9b598b0"
+    }
+  },
+  "hashmap": {
+    "encoding_guess": "cp1252",
+    "line_count": 117,
+    "printable_unique": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz¡¿ÀÇÉßàâäçèéêíîïñôöùûü",
+    "rows": [
+      {
+        "line": 1,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "!-001",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 2,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "\"-008",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 3,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "comment_or_blank"
+      },
+      {
+        "line": 4,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "$-026",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 5,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "%-036",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 6,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "&-045",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 7,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "'-056",
+          "000",
+          "006",
+          "011"
+        ]
+      },
+      {
+        "line": 8,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "(-062",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 9,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          ")-072",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 10,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "*-081",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 11,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "+-089",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 12,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "-098",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 13,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "--108",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 14,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          ".-118",
+          "000",
+          "005",
+          "011"
+        ]
+      },
+      {
+        "line": 15,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "/-126",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 16,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          ":-136",
+          "000",
+          "005",
+          "011"
+        ]
+      },
+      {
+        "line": 17,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "comment_or_blank"
+      },
+      {
+        "line": 18,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "<-154",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 19,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "key_value",
+        "key": "",
+        "value": "-162,000,009,011"
+      },
+      {
+        "line": 20,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          ">-172",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 21,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "?-181",
+          "000",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 22,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "-189",
+          "000",
+          "004",
+          "011"
+        ]
+      },
+      {
+        "line": 23,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "0-144",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 24,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "1-153",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 25,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "2-162",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 26,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "3-171",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 27,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "4-180",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 28,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "5-189",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 29,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "6-198",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 30,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "7-206",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 31,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "8-216",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 32,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "9-226",
+          "014",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 33,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "@-062",
+          "013",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 34,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "A-000",
+          "028",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 35,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "B-010",
+          "028",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 36,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "C-018",
+          "028",
+          "008",
+          "011"
+        ]
+      },
+      {
+        "line": 37,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "D-027",
+          "028",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 38,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "E-037",
+          "028",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 39,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "F-045",
+          "028",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 40,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "G-053",
+          "028",
+          "008",
+          "011"
+        ]
+      },
+      {
+        "line": 41,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "H-062",
+          "028",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 42,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "I-073",
+          "028",
+          "002",
+          "011"
+        ]
+      },
+      {
+        "line": 43,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "J-077",
+          "028",
+          "006",
+          "011"
+        ]
+      },
+      {
+        "line": 44,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "K-084",
+          "028",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 45,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "L-094",
+          "028",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 46,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "M-102",
+          "028",
+          "011",
+          "011"
+        ]
+      },
+      {
+        "line": 47,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "N-114",
+          "028",
+          "008",
+          "011"
+        ]
+      },
+      {
+        "line": 48,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "O-123",
+          "028",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 49,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "P-133",
+          "028",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 50,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "Q-141",
+          "028",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 51,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "R-151",
+          "028",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 52,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "S-161",
+          "028",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 53,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "T-169",
+          "028",
+          "010",
+          "011"
+        ]
+      },
+      {
+        "line": 54,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "U-180",
+          "028",
+          "008",
+          "011"
+        ]
+      },
+      {
+        "line": 55,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "V-189",
+          "028",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 56,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "W-199",
+          "028",
+          "011",
+          "011"
+        ]
+      },
+      {
+        "line": 57,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "X-209",
+          "028",
+          "010",
+          "011"
+        ]
+      },
+      {
+        "line": 58,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "Y-219",
+          "028",
+          "010",
+          "011"
+        ]
+      },
+      {
+        "line": 59,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "Z-229",
+          "028",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 60,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "[-000",
+          "027",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 61,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "]-018",
+          "027",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 62,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "^-026",
+          "027",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 63,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "_-036",
+          "027",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 64,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "`-045",
+          "027",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 65,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "@-054",
+          "027",
+          "009",
+          "011"
+        ]
+      },
+      {
+        "line": 66,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "a-001",
+          "042",
+          "008",
+          "012"
+        ]
+      },
+      {
+        "line": 67,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "b-010",
+          "042",
+          "008",
+          "012"
+        ]
+      },
+      {
+        "line": 68,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "c-019",
+          "042",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 69,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "d-028",
+          "042",
+          "008",
+          "012"
+        ]
+      },
+      {
+        "line": 70,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "e-037",
+          "042",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 71,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "f-045",
+          "042",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 72,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "g-053",
+          "040",
+          "007",
+          "014"
+        ]
+      },
+      {
+        "line": 73,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "h-063",
+          "042",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 74,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "i-071",
+          "042",
+          "003",
+          "012"
+        ]
+      },
+      {
+        "line": 75,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "j-077",
+          "042",
+          "006",
+          "012"
+        ]
+      },
+      {
+        "line": 76,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "k-084",
+          "042",
+          "008",
+          "012"
+        ]
+      },
+      {
+        "line": 77,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "l-094",
+          "042",
+          "004",
+          "012"
+        ]
+      },
+      {
+        "line": 78,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "m-100",
+          "042",
+          "009",
+          "012"
+        ]
+      },
+      {
+        "line": 79,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "n-110",
+          "042",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 80,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "o-119",
+          "042",
+          "008",
+          "012"
+        ]
+      },
+      {
+        "line": 81,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "p-129",
+          "040",
+          "008",
+          "014"
+        ]
+      },
+      {
+        "line": 82,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "q-136",
+          "040",
+          "008",
+          "014"
+        ]
+      },
+      {
+        "line": 83,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "r-147",
+          "042",
+          "006",
+          "012"
+        ]
+      },
+      {
+        "line": 84,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "s-155",
+          "042",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 85,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "t-164",
+          "042",
+          "006",
+          "012"
+        ]
+      },
+      {
+        "line": 86,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "u-172",
+          "042",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 87,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "v-181",
+          "042",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 88,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "w-188",
+          "042",
+          "011",
+          "012"
+        ]
+      },
+      {
+        "line": 89,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "x-201",
+          "042",
+          "008",
+          "012"
+        ]
+      },
+      {
+        "line": 90,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "y-210",
+          "042",
+          "009",
+          "012"
+        ]
+      },
+      {
+        "line": 91,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "z-220",
+          "042",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 92,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "Ç-045",
+          "056",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 93,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ç-101",
+          "071",
+          "005",
+          "011"
+        ]
+      },
+      {
+        "line": 94,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ù-019",
+          "070",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 95,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "û-028",
+          "070",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 96,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ü-047",
+          "086",
+          "005",
+          "011"
+        ]
+      },
+      {
+        "line": 97,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "É-055",
+          "056",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 98,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "é-119",
+          "071",
+          "005",
+          "011"
+        ]
+      },
+      {
+        "line": 99,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ê-128",
+          "070",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 100,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "è-110",
+          "071",
+          "005",
+          "011"
+        ]
+      },
+      {
+        "line": 101,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "À-010",
+          "054",
+          "007",
+          "012"
+        ]
+      },
+      {
+        "line": 102,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "à-064",
+          "070",
+          "006",
+          "011"
+        ]
+      },
+      {
+        "line": 103,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "â-083",
+          "070",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 104,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ä-092",
+          "071",
+          "006",
+          "011"
+        ]
+      },
+      {
+        "line": 105,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "î-115",
+          "070",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 106,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "í-147",
+          "071",
+          "003",
+          "011"
+        ]
+      },
+      {
+        "line": 107,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ô-199",
+          "070",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 108,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ö-011",
+          "086",
+          "006",
+          "011"
+        ]
+      },
+      {
+        "line": 109,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ß-053",
+          "070",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 110,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ñ-163",
+          "070",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 111,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ü-047",
+          "086",
+          "005",
+          "011"
+        ]
+      },
+      {
+        "line": 112,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "¿-136",
+          "013",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 113,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "¡-100",
+          "056",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 114,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "tokens",
+        "tokens": [
+          "ï-110",
+          "056",
+          "007",
+          "011"
+        ]
+      },
+      {
+        "line": 115,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "comment_or_blank"
+      },
+      {
+        "line": 116,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "comment_or_blank"
+      },
+      {
+        "line": 117,
+        "raw": "[OMITTED: possible raw game or memory payload]",
+        "kind": "comment_or_blank"
+      }
+    ]
+  },
+  "texture": {
+    "size": 131072,
+    "sha1": "dd5969a9ff241ab56481d2c96e107322e9b598b0",
+    "zero_fraction": 0.86944580078125,
+    "ff_fraction": 0.08846282958984375,
+    "divisibility": {
+      "128": true,
+      "256": true,
+      "512": true,
+      "1024": true,
+      "2048": true,
+      "4096": true,
+      "8192": true,
+      "16384": true,
+      "32768": true,
+      "65536": true,
+      "131072": true,
+      "262144": false,
+      "524288": false
+    },
+    "candidate_previews": [
+      {
+        "format": "T4_linear",
+        "width": 64,
+        "height": 4096,
+        "file": "T4_linear_64x4096.pgm"
+      },
+      {
+        "format": "T4_linear",
+        "width": 128,
+        "height": 2048,
+        "file": "T4_linear_128x2048.pgm"
+      },
+      {
+        "format": "T4_linear",
+        "width": 256,
+        "height": 1024,
+        "file": "T4_linear_256x1024.pgm"
+      },
+      {
+        "format": "T4_linear",
+        "width": 512,
+        "height": 512,
+        "file": "T4_linear_512x512.pgm"
+      },
+      {
+        "format": "T4_linear",
+        "width": 1024,
+        "height": 256,
+        "file": "T4_linear_1024x256.pgm"
+      },
+      {
+        "format": "T4_linear",
+        "width": 2048,
+        "height": 128,
+        "file": "T4_linear_2048x128.pgm"
+      },
+      {
+        "format": "GRAY8",
+        "width": 64,
+        "height": 2048,
+        "file": "GRAY8_64x2048.pgm"
+      },
+      {
+        "format": "GRAY8",
+        "width": 128,
+        "height": 1024,
+        "file": "GRAY8_128x1024.pgm"
+      },
+      {
+        "format": "GRAY8",
+        "width": 256,
+        "height": 512,
+        "file": "GRAY8_256x512.pgm"
+      },
+      {
+        "format": "GRAY8",
+        "width": 512,
+        "height": 256,
+        "file": "GRAY8_512x256.pgm"
+      },
+      {
+        "format": "GRAY8",
+        "width": 1024,
+        "height": 128,
+        "file": "GRAY8_1024x128.pgm"
+      },
+      {
+        "format": "GRAY8",
+        "width": 2048,
+        "height": 64,
+        "file": "GRAY8_2048x64.pgm"
+      },
+      {
+        "format": "RGB565",
+        "width": 64,
+        "height": 1024,
+        "file": "RGB565_64x1024.ppm"
+      },
+      {
+        "format": "RGB565",
+        "width": 128,
+        "height": 512,
+        "file": "RGB565_128x512.ppm"
+      },
+      {
+        "format": "RGB565",
+        "width": 256,
+        "height": 256,
+        "file": "RGB565_256x256.ppm"
+      },
+      {
+        "format": "RGB565",
+        "width": 512,
+        "height": 128,
+        "file": "RGB565_512x128.ppm"
+      },
+      {
+        "format": "RGB565",
+        "width": 1024,
+        "height": 64,
+        "file": "RGB565_1024x64.ppm"
+      },
+      {
+        "format": "RGB565",
+        "width": 2048,
+        "height": 32,
+        "file": "RGB565_2048x32.ppm"
+      },
+      {
+        "format": "RGBA8888",
+        "width": 64,
+        "height": 512,
+        "file": "RGBA8888_64x512.ppm"
+      },
+      {
+        "format": "RGBA8888",
+        "width": 128,
+        "height": 256,
+        "file": "RGBA8888_128x256.ppm"
+      },
+      {
+        "format": "RGBA8888",
+        "width": 256,
+        "height": 128,
+        "file": "RGBA8888_256x128.ppm"
+      },
+      {
+        "format": "RGBA8888",
+        "width": 512,
+        "height": 64,
+        "file": "RGBA8888_512x64.ppm"
+      },
+      {
+        "format": "RGBA8888",
+        "width": 1024,
+        "height": 32,
+        "file": "RGBA8888_1024x32.ppm"
+      },
+      {
+        "format": "RGBA8888",
+        "width": 2048,
+        "height": 16,
+        "file": "RGBA8888_2048x16.ppm"
+      }
+    ]
+  },
+  "completed": true
+}

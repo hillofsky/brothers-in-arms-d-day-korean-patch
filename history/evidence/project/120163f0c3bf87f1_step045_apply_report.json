@@ -1,0 +1,15 @@
+{
+  "step": "STEP_045",
+  "mission": "D0_1015_.MDI",
+  "translation_rows_applied": 62,
+  "status_counts": {
+    "VERIFIED_APPLIED": 137,
+    "NEEDS_TRANSLATION": 1013,
+    "TRANSLATED_REVIEWED": 62,
+    "TRANSLATED_PENDING_APPLY": 90
+  },
+  "batch_sha256": "a59b846da789d10473ceb4089c4b8bdd17421d580501ab91fb7254ea63dee995",
+  "master_sha256": "1a78ae8fc5a3e93fe5d636a990de4f8270e4e866681b00012fcb07036670a9ab",
+  "iso_modified": false,
+  "movie_validation_resumed": false
+}

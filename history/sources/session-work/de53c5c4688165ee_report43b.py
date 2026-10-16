@@ -1,0 +1,8 @@
+import json,struct
+from pathlib import Path
+p=Path('outputs/stage43b');d=(p/'glyphs20.bin').read_bytes();m=(p/'remap8.bin').read_bytes();entries=[]
+for i in range(150):
+ next,key,index=struct.unpack_from('<IHH',m,i*8);g=struct.unpack_from('<5I',d,index*20);entries.append({'character':key,'glyph_index':index,'x':g[0],'y':g[1],'width':g[2],'height':g[3],'glyph_image_pointer':hex(g[4])})
+r={'translation_units':227,'first_mission_applied_units':137,'second_mission_new_units':90,'second_mission_applied':False,'control_tokens_verified':True,'hud_font_container':'0x09a8cac0','hud_font_stream':26,'hud_font_offset':'0x59aa0','hud_glyph_count':150,'hud_glyph_record_bytes':20,'hud_glyphs_stream':29,'hud_glyphs_offset':'0x6cd60','hud_unicode_remap_record_bytes':8,'hud_remap_stream':30,'hud_remap_offset':'0x3350','hint_processing_runtime':['0x08824504','0x088246e4','0x08824c24'],'display_fix_verified':False,'full_campaign_complete':False,'glyphs':entries}
+(p/'hud_font_inventory.json').write_text(json.dumps(r,ensure_ascii=False,indent=2),encoding='utf-8')
+Path('outputs/bia_campaign_progress.md').write_text('캠페인 번역 진행 기록\n\n첫 미션 137개, 두 번째 미션의 추가 문구 90개를 번역했습니다. 총 227개이며 버튼·아이콘·줄바꿈 제어 표시 보존 검사를 통과했습니다. 두 번째 미션은 아직 ISO에 적용하지 않았습니다.\n\n첫 미션 적용본에서 274개 문구 참조를 실행 중 메모리로 검증했습니다. 일시정지 메뉴 한글은 정상이지만 목표·힌트와 소개 문구는 깨집니다. 미션 재시작 오류도 해결되지 않았습니다.\n\n목표·힌트 경로가 메뉴의 유니코드 글꼴과 별개임을 실행 추적으로 확인했습니다. 게임용 UFont는 150개 글자, 20바이트 글자 레코드, 8바이트 문자 변환표를 사용합니다. 글자마다 별도 이미지 객체를 참조하므로 이 객체의 텍스처와 문자 처리 경로도 추가로 조사해야 합니다. 상세 주소와 레코드는 stage43b/hud_font_inventory.json에 저장했습니다.\n\n영상 검증은 보류 중입니다. 현재 테스트 ISO는 배포 가능한 완성본이 아니며 캠페인 전체 번역도 아직 미완료입니다.\n',encoding='utf-8')

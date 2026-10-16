@@ -1,0 +1,31 @@
+{
+  "pid": 25872,
+  "psp_base": "0x0000028D1B740000",
+  "font_tables": [
+    {
+      "font_table": "0x09723FF0",
+      "final_record_codepoint": "U+D55C",
+      "direct_charmap": "0x09724E10"
+    },
+    {
+      "font_table": "0x097256F8",
+      "final_record_codepoint": "U+D55C",
+      "direct_charmap": "0x09726510"
+    }
+  ],
+  "test_codepoints": [
+    "U+0080",
+    "U+0081",
+    "U+0082",
+    "U+0083",
+    "U+0084"
+  ],
+  "mapped_to": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "visual_result": "y"
+}

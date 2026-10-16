@@ -1,0 +1,15 @@
+BIA baseline recovery scan
+==========================
+
+Free D: 29.55 GiB
+ISO candidates: 0
+ZIP candidates: 20
+
+IMPORTANT:
+- This script deletes NOTHING.
+- It only inventories files and generator artifacts.
+- Stage39U/39F were already absent before the previous cleanup stopped.
+- Do not delete more files until this scan is reviewed.
+
+Upload:
+PROJECT_ROOT\log\bia_baseline_recovery_scan_upload.zip

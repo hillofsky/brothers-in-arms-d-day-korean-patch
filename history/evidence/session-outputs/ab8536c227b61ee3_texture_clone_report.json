@@ -1,0 +1,12 @@
+{
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE43G_CAMPAIGN_TEXTURE_SIZE_TEST.iso",
+  "old_gui_texture_preserved": true,
+  "dedicated_hud_hangul_texture": "0x9e82220",
+  "logical_texture_size": [
+    512,
+    512
+  ],
+  "shared_physical_atlas": "0x09df3020",
+  "iso_readback_verified": true,
+  "runtime_verified": false
+}

@@ -1,0 +1,29 @@
+{
+  "source": "PROJECT_ROOT\\BIA_STAGE40L_CONTROLS_UTF8_WIDTH_TEST.iso",
+  "test_iso": "PROJECT_ROOT\\BIA_STAGE40M_CONTROLS_COMPLETE_TEST.iso",
+  "new_ui_translations": [
+    {
+      "key": "STANCE_OR_ACTION",
+      "english": "Stance/Action",
+      "korean": "자세/행동",
+      "metadata_offset": "0x44ea8",
+      "runtime": "0x9905188",
+      "bytes": 14,
+      "allocation_offset": "0x10168"
+    },
+    {
+      "key": "RELOAD_OR_ACTION",
+      "english": "Reload/Action",
+      "korean": "재장전/행동",
+      "metadata_offset": "0x44f18",
+      "runtime": "0x9905198",
+      "bytes": 17,
+      "allocation_offset": "0x10178"
+    }
+  ],
+  "allocation_start": "0x10168",
+  "allocation_end": "0x1018c",
+  "key_identifiers_unchanged": true,
+  "iso_readback_ok": true,
+  "runtime_verified": false
+}

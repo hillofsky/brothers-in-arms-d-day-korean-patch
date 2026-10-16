@@ -1,0 +1,7 @@
+{
+  "status": "failed_runtime_validation",
+  "promote_iso": false,
+  "test_iso": "PROJECT_ROOT/BIA_STAGE40S_FIRST_MISSION_KOREAN_TEST.iso",
+  "reason": "First mission load stopped on invalid 0x2a2a2a40 write at 0x08ca045c. No working campaign font or translation claim.",
+  "baseline_campaign_verified": "Stage40O entered first mission and pause menu."
+}

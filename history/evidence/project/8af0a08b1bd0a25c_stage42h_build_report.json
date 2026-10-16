@@ -1,0 +1,1155 @@
+{
+  "stage": "42H_LOCAL",
+  "source": "PROJECT_ROOT\\BIA_STAGE42G_FIX19_PERSISTENT_512_TEST.iso",
+  "output": "PROJECT_ROOT\\BIA_STAGE42H_ALL8_MOVIES_512_TEST.iso",
+  "subtitle_files": 8,
+  "fields": 133,
+  "field_verification": [
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 1,
+      "offset": "0x0",
+      "budget": 55,
+      "used": 21,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 2,
+      "offset": "0x57",
+      "budget": 131,
+      "used": 14,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 3,
+      "offset": "0xfc",
+      "budget": 82,
+      "used": 19,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 4,
+      "offset": "0x170",
+      "budget": 40,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 5,
+      "offset": "0x1ba",
+      "budget": 24,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 6,
+      "offset": "0x1f4",
+      "budget": 68,
+      "used": 22,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 7,
+      "offset": "0x25a",
+      "budget": 48,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 8,
+      "offset": "0x2ac",
+      "budget": 46,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 9,
+      "offset": "0x2fc",
+      "budget": 34,
+      "used": 13,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 10,
+      "offset": "0x340",
+      "budget": 53,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 11,
+      "offset": "0x397",
+      "budget": 90,
+      "used": 16,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 12,
+      "offset": "0x413",
+      "budget": 35,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 13,
+      "offset": "0x458",
+      "budget": 27,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 14,
+      "offset": "0x495",
+      "budget": 37,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 15,
+      "offset": "0x4dc",
+      "budget": 49,
+      "used": 12,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 16,
+      "offset": "0x52f",
+      "budget": 45,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 17,
+      "offset": "0x57e",
+      "budget": 31,
+      "used": 14,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 18,
+      "offset": "0x5bf",
+      "budget": 30,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 19,
+      "offset": "0x5ff",
+      "budget": 21,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 20,
+      "offset": "0x636",
+      "budget": 105,
+      "used": 18,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 21,
+      "offset": "0x6c1",
+      "budget": 55,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 22,
+      "offset": "0x71a",
+      "budget": 35,
+      "used": 12,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 23,
+      "offset": "0x75f",
+      "budget": 35,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 24,
+      "offset": "0x7a4",
+      "budget": 28,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 25,
+      "offset": "0x7e2",
+      "budget": 66,
+      "used": 18,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 26,
+      "offset": "0x846",
+      "budget": 32,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 27,
+      "offset": "0x888",
+      "budget": 19,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 28,
+      "offset": "0x8bd",
+      "budget": 77,
+      "used": 16,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 29,
+      "offset": "0x92c",
+      "budget": 81,
+      "used": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 30,
+      "offset": "0x99f",
+      "budget": 57,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 31,
+      "offset": "0x9fa",
+      "budget": 25,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 32,
+      "offset": "0xa35",
+      "budget": 155,
+      "used": 19,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 33,
+      "offset": "0xaf2",
+      "budget": 68,
+      "used": 20,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 34,
+      "offset": "0xb58",
+      "budget": 31,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 35,
+      "offset": "0xb99",
+      "budget": 66,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 36,
+      "offset": "0xbfd",
+      "budget": 40,
+      "used": 2,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "field": 37,
+      "offset": "0xc47",
+      "budget": 46,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 1,
+      "offset": "0x0",
+      "budget": 55,
+      "used": 21,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 2,
+      "offset": "0x57",
+      "budget": 36,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 3,
+      "offset": "0x9d",
+      "budget": 30,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 4,
+      "offset": "0xdd",
+      "budget": 145,
+      "used": 16,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 5,
+      "offset": "0x190",
+      "budget": 61,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 6,
+      "offset": "0x1ef",
+      "budget": 118,
+      "used": 17,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 7,
+      "offset": "0x287",
+      "budget": 63,
+      "used": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 8,
+      "offset": "0x2e8",
+      "budget": 33,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 9,
+      "offset": "0x32b",
+      "budget": 22,
+      "used": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 10,
+      "offset": "0x363",
+      "budget": 36,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 11,
+      "offset": "0x3a9",
+      "budget": 28,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 12,
+      "offset": "0x3e7",
+      "budget": 66,
+      "used": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 13,
+      "offset": "0x44b",
+      "budget": 28,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 14,
+      "offset": "0x489",
+      "budget": 52,
+      "used": 14,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 15,
+      "offset": "0x4df",
+      "budget": 25,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 16,
+      "offset": "0x51a",
+      "budget": 72,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 17,
+      "offset": "0x584",
+      "budget": 61,
+      "used": 13,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 18,
+      "offset": "0x5e3",
+      "budget": 82,
+      "used": 14,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 19,
+      "offset": "0x657",
+      "budget": 30,
+      "used": 12,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 20,
+      "offset": "0x697",
+      "budget": 20,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 21,
+      "offset": "0x6cd",
+      "budget": 56,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "field": 22,
+      "offset": "0x727",
+      "budget": 73,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 1,
+      "offset": "0x0",
+      "budget": 55,
+      "used": 21,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 2,
+      "offset": "0x57",
+      "budget": 33,
+      "used": 12,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 3,
+      "offset": "0x9a",
+      "budget": 125,
+      "used": 20,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 4,
+      "offset": "0x139",
+      "budget": 42,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 5,
+      "offset": "0x185",
+      "budget": 162,
+      "used": 19,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 6,
+      "offset": "0x249",
+      "budget": 115,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 7,
+      "offset": "0x2de",
+      "budget": 70,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 8,
+      "offset": "0x346",
+      "budget": 78,
+      "used": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 9,
+      "offset": "0x3b6",
+      "budget": 30,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 10,
+      "offset": "0x3f6",
+      "budget": 50,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 11,
+      "offset": "0x44a",
+      "budget": 83,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 12,
+      "offset": "0x4bf",
+      "budget": 54,
+      "used": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 13,
+      "offset": "0x517",
+      "budget": 52,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 14,
+      "offset": "0x56d",
+      "budget": 27,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 15,
+      "offset": "0x5aa",
+      "budget": 36,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 16,
+      "offset": "0x5f0",
+      "budget": 24,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 17,
+      "offset": "0x62a",
+      "budget": 31,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 18,
+      "offset": "0x66b",
+      "budget": 40,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 19,
+      "offset": "0x6b5",
+      "budget": 44,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 20,
+      "offset": "0x703",
+      "budget": 19,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 21,
+      "offset": "0x738",
+      "budget": 85,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 22,
+      "offset": "0x7af",
+      "budget": 32,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 23,
+      "offset": "0x7f1",
+      "budget": 46,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 24,
+      "offset": "0x841",
+      "budget": 22,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 25,
+      "offset": "0x879",
+      "budget": 69,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "field": 26,
+      "offset": "0x8e0",
+      "budget": 22,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1830RISNERSDEATH.ST1",
+      "field": 1,
+      "offset": "0x6c",
+      "budget": 43,
+      "used": 2,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1830RISNERSDEATH.ST1",
+      "field": 2,
+      "offset": "0xb9",
+      "budget": 38,
+      "used": 3,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_1830RISNERSDEATH.ST1",
+      "field": 3,
+      "offset": "0x101",
+      "budget": 32,
+      "used": 2,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_D30900DEATH.ST1",
+      "field": 1,
+      "offset": "0x1d",
+      "budget": 62,
+      "used": 15,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_EXIT4_ENDING.ST1",
+      "field": 1,
+      "offset": "0x5f",
+      "budget": 83,
+      "used": 13,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_EXIT4_ENDING.ST1",
+      "field": 2,
+      "offset": "0xd4",
+      "budget": 63,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_EXIT4_ENDING.ST1",
+      "field": 3,
+      "offset": "0x135",
+      "budget": 89,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 1,
+      "offset": "0x0",
+      "budget": 59,
+      "used": 21,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 2,
+      "offset": "0x5b",
+      "budget": 73,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 3,
+      "offset": "0xc6",
+      "budget": 53,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 4,
+      "offset": "0x11d",
+      "budget": 61,
+      "used": 13,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 5,
+      "offset": "0x17c",
+      "budget": 39,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 6,
+      "offset": "0x1c5",
+      "budget": 54,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 7,
+      "offset": "0x21d",
+      "budget": 94,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 8,
+      "offset": "0x29d",
+      "budget": 25,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 9,
+      "offset": "0x2d8",
+      "budget": 81,
+      "used": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 10,
+      "offset": "0x34b",
+      "budget": 28,
+      "used": 12,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 11,
+      "offset": "0x389",
+      "budget": 53,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 12,
+      "offset": "0x3e0",
+      "budget": 27,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 13,
+      "offset": "0x41d",
+      "budget": 127,
+      "used": 16,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 14,
+      "offset": "0x4be",
+      "budget": 38,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 15,
+      "offset": "0x506",
+      "budget": 42,
+      "used": 11,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 16,
+      "offset": "0x552",
+      "budget": 142,
+      "used": 17,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 17,
+      "offset": "0x602",
+      "budget": 56,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 18,
+      "offset": "0x65c",
+      "budget": 20,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 19,
+      "offset": "0x692",
+      "budget": 139,
+      "used": 19,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 20,
+      "offset": "0x73f",
+      "budget": 29,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 21,
+      "offset": "0x77e",
+      "budget": 36,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "field": 22,
+      "offset": "0x7c4",
+      "budget": 50,
+      "used": 16,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 1,
+      "offset": "0x0",
+      "budget": 78,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 2,
+      "offset": "0x6e",
+      "budget": 63,
+      "used": 17,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 3,
+      "offset": "0xcf",
+      "budget": 55,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 4,
+      "offset": "0x128",
+      "budget": 90,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 5,
+      "offset": "0x1a4",
+      "budget": 79,
+      "used": 9,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 6,
+      "offset": "0x215",
+      "budget": 16,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 7,
+      "offset": "0x247",
+      "budget": 38,
+      "used": 10,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 8,
+      "offset": "0x28f",
+      "budget": 14,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 9,
+      "offset": "0x2bf",
+      "budget": 13,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 10,
+      "offset": "0x2ee",
+      "budget": 26,
+      "used": 7,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 11,
+      "offset": "0x32a",
+      "budget": 82,
+      "used": 12,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 12,
+      "offset": "0x39e",
+      "budget": 15,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 13,
+      "offset": "0x3cf",
+      "budget": 36,
+      "used": 17,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 14,
+      "offset": "0x415",
+      "budget": 23,
+      "used": 4,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 15,
+      "offset": "0x44e",
+      "budget": 69,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 16,
+      "offset": "0x4b5",
+      "budget": 33,
+      "used": 5,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 17,
+      "offset": "0x4f8",
+      "budget": 66,
+      "used": 6,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 18,
+      "offset": "0x55c",
+      "budget": 31,
+      "used": 8,
+      "roundtrip": true
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "field": 19,
+      "offset": "0x59d",
+      "budget": 40,
+      "used": 10,
+      "roundtrip": true
+    }
+  ],
+  "patches": [
+    {
+      "file": "EM_1230_BOOKENDS2.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1",
+      "size": 3190,
+      "before_sha1": "6d30acd73ce6c206b06af938ed86dead891ba4da",
+      "after_sha1": "b68e8222f93cc561c08be38b8f774551de97f97f"
+    },
+    {
+      "file": "EM_1300_BOOKENDS4.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1",
+      "size": 1907,
+      "before_sha1": "d08aca37c80487eea5238d91bbc4a6cc54f4478b",
+      "after_sha1": "51e034226543b6797d9adf820efebfde8d68e2b7"
+    },
+    {
+      "file": "EM_1330_BOOKENDS3.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1",
+      "size": 2297,
+      "before_sha1": "7c0fa157327b1ae2297db484a1f16ea8cbec1ea5",
+      "after_sha1": "5fb569a0a007c60aced9ecc250d85ac752166b73"
+    },
+    {
+      "file": "EM_1830RISNERSDEATH.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/EM_1830RISNERSDEATH.ST1",
+      "size": 290,
+      "before_sha1": "d3aab8f3ae1db8031abc02f92ac219d18cff33a0",
+      "after_sha1": "6555c43740bfc17d0e2761c1a923068a5843ea21"
+    },
+    {
+      "file": "EM_D30900DEATH.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/EM_D30900DEATH.ST1",
+      "size": 97,
+      "before_sha1": "99327fb155cd1e64135d2c545c6ae51dde26bf12",
+      "after_sha1": "a19d656f5bed4cab4886f0d65ca8bc201ac6f0ae"
+    },
+    {
+      "file": "EM_EXIT4_ENDING.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/EM_EXIT4_ENDING.ST1",
+      "size": 406,
+      "before_sha1": "b876f6dea49d321157b94189838fd43bb9878b14",
+      "after_sha1": "d134dc83ccc0df5781db5f44ea59b0870bf75539"
+    },
+    {
+      "file": "EM_VICTORYINCARETAN.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1",
+      "size": 2041,
+      "before_sha1": "eb4c07cbaae293ffa656dea062a67a966101b727",
+      "after_sha1": "8c381be004f69881a092f0768f6eb849919bcdaf"
+    },
+    {
+      "file": "FM_0115EAGLESJUMP.ST1",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1",
+      "size": 1482,
+      "before_sha1": "db4155d8ad32422df0339dff1dd968260e022612",
+      "after_sha1": "db4155d8ad32422df0339dff1dd968260e022612"
+    },
+    {
+      "file": "SUBTITLEHASHMAP.INI",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLEHASHMAP.INI",
+      "size": 4275,
+      "before_sha1": "cf6536df752d248920b956c0a23612d58a1f9ce5",
+      "after_sha1": "c9d5ccad298d814f6f52093a0671e7c355e3e310"
+    },
+    {
+      "file": "SUBTITLETEXTURE.RAW",
+      "path": "/PSP_GAME/USRDIR/SYSTEM/SUBTITLETEXTURE.RAW",
+      "size": 1048576,
+      "before_sha1": "0d5e4f21ef6cd99bf2d075e5be28898fe287611f",
+      "after_sha1": "9ab68dee919c47de559ede488f2c3835e43ca4a8"
+    }
+  ],
+  "static_verified": true,
+  "runtime_verified": true,
+  "full_campaign_verified": false,
+  "runtime_verified_movies": [
+    "FM_0115EAGLESJUMP",
+    "EM_1230_BOOKENDS2"
+  ],
+  "runtime_verification_scope": "Two movie samples only; the other six movies have static byte/roundtrip/width checks.",
+  "first_movie_end_confirmed_in_final_run": false,
+  "release_ready": false
+}

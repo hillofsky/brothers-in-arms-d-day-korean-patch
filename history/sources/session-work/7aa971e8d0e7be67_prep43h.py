@@ -1,0 +1,3 @@
+from pathlib import Path
+s=Path('work/stage43g_live.py').read_text(encoding='utf-8').replace('stage43g_validation','stage43h_validation').replace('nav43g_command','nav43h_command').replace('BIA_STAGE43G_CAMPAIGN_TEXTURE_SIZE_TEST.iso','BIA_STAGE43H_CAMPAIGN_ALL_TEXT_FONTS_TEST.iso');Path('work/stage43h_live.py').write_text(s,encoding='utf-8')
+s=Path('work/nav43g_auto.py').read_text(encoding='utf-8').replace('nav43g','nav43h').replace('stage43g_validation','stage43h_validation').replace('0x09c1afd4','0x08fc3ccc').replace('==880','==879').replace('range(28)','range(60)');Path('work/nav43h_auto.py').write_text(s,encoding='utf-8')
