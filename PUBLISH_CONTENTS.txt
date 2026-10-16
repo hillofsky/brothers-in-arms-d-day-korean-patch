@@ -24,3 +24,12 @@ HANDOFF.md
 docs/OPERATIONS.md
 docs/resume_baseline.json
 tools/check_resume.py
+
+개발 재개 추가 파일:
+data/recovered/*.tsv
+docs/DEVELOPMENT.md
+docs/PORTABILITY_VALIDATION.md
+docs/portability_results.json
+docs/RECOVERY_PROVENANCE.json
+tools/develop.py
+tools/dev/bia_formats.py

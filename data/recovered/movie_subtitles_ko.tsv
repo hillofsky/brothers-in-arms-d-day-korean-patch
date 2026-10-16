@@ -1,0 +1,134 @@
+iso_path	file	field_index	offset_hex	field_bytes	time_start	time_end	coord_x	coord_y	english	korean
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	1	0x0	56					Bookends\Near Cherbourg, France\D+15 1230 June 21, 1944	북엔드\프랑스 셰르부르 근교\D+15 12:30 1944.6.21
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	2	0x57	132	00:01	00:10	047	065	Marshall: At ease, Sergeant.  Have a seat.\  You... You want some coffee son?  It's fresh.\  Well, as fresh as it gets around here.	마셜: 편히 있게, 병장. 앉게.\커피 한잔 하겠나? 갓 끓였네.\뭐, 여기선 이게 최선이지.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	3	0xFC	83	00:11	00:16	047	055	Hartsock: Yes, sir.  Haven't had a good cup o' coffee in\  three or four days now.	하트삭: 네, 대령님. 제대로 된 커피는\사흘이나 나흘 만입니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	4	0x170	41	00:17	00:19	047	045	Hartsock: Smells great.  Thank you, sir.	하트삭: 향 좋군요. 감사합니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	5	0x1BA	25	00:20	00:21	047	045	Marshall: Name and rank?	마셜: 이름과 계급은?
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	6	0x1F4	69	00:22	00:27	047	055	Hartsock: Sgt. Joe Hartsock, sir.  Uh, well everyone\  calls me Red.	하트삭: 조 하트삭 병장입니다.\다들 레드라고 부릅니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	7	0x25A	49	00:30	00:34	047	055	Hartsock: So how long is this gonna take?\  Sir.	하트삭: 이거 얼마나 걸립니까?\대령님.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	8	0x2AC	47	00:34	00:36	047	045	Hartsock: I'd just like to get back to my men.	하트삭: 부하들에게 돌아가고 싶습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	9	0x2FC	35	00:37	00:38	047	055	Marshall: Second?\  Hartsock: Sir?	마셜: 2분대?\하트삭: 네?
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	10	0x340	54	00:40	00:43	047	045	Marshall: You and your men are in 2nd squad, correct?	마셜: 자네와 부하들은 2분대가 맞지?
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	11	0x397	91	00:44	00:49	047	055	Hartsock: Oh!  Yes, sir.  2nd took heavy losses in\  Carentan. I was with 3rd at the time.	하트삭: 네. 카랑탕에서 2분대 피해가 컸죠.\전 그때 3분대였습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	12	0x413	36	00:50	00:52	047	045	Marshall: Under Sgt. Matthew Baker?	마셜: 매튜 베이커 병장 밑이었나?
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	13	0x458	28	00:53	00:55	047	045	Hartsock: Sort of, yes sir.	하트삭: 뭐, 그런 셈입니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	14	0x495	38	00:59	01:01	047	045	Marshall: Which brings us to Hill 30.	마셜: 그래서 30고지 얘기로 넘어가지.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	15	0x4DC	50	01:02	01:04	047	045	Marshall: Sgt. Baker did a good job on that line.	마셜: 베이커 병장은 그 전선에서 잘했어.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	16	0x52F	46	01:06	01:08	047	045	Marshall: Must have been one hell of a fight.	마셜: 정말 지독한 싸움이었겠군.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	17	0x57E	32	01:11	01:13	047	045	Hartsock: Baker didn't save us.	하트삭: 우릴 구한 건 베이커가 아닙니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	18	0x5BF	31	01:14	01:15	047	045	Marshall: Excuse me, Sergeant?	마셜: 뭐라고 했나, 병장?
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	19	0x5FF	22	01:17	01:18	047	045	Hartsock: Sorry, sir.	하트삭: 죄송합니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	20	0x636	106	01:20	01:24	047	055	Hartsock: What I mean is... I've been hearing a lot of\  talk around here that Baker saved us at Hill 30,	하트삭: 제 말은... 30고지에서 베이커가\우릴 구했다는 얘기를 많이 들었습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	21	0x6C1	56	01:24	01:26	047	045	Hartsock: bringing in the 2nd Armored Division and all.	하트삭: 2기갑사단까지 데려왔다고 말이죠.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	22	0x71A	36	01:27	01:29	047	045	Hartsock: That's not what happened.	하트삭: 하지만 사실은 다릅니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	23	0x75F	36	01:31	01:33	047	045	Leggett: I need armor support now!!	레게트: 당장 기갑 지원이 필요해!!
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	24	0x7A4	29	01:33	01:34	047	045	Leggett: I mean right now!!!	레게트: 지금 당장이라고!!!
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	25	0x7E2	67	01:39	01:42	047	055	Hartsock: Leggett saved us.  Just no one wants to talk\  about it.	하트삭: 우릴 구한 건 레게트입니다.\아무도 그 얘길 안 하려 하죠.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	26	0x846	33	01:43	01:45	047	045	Marshall: Why is that, Sergeant?	마셜: 왜 그런가, 병장?
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	27	0x888	20	01:46	01:49	047	045	Leggett: TAKE ME!!!	레게트: 날 데려가!!!
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	28	0x8BD	78	01:50	01:54	047	055	Hartsock: He somehow managed to reach HQ on the radio.\  They sent the tanks.	하트삭: 무전으로 어떻게든 본부에 닿았고,\그들이 전차를 보냈습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	29	0x92C	82	01:54	01:58	047	055	Marshall: I can't confirm that.  I thought Pvt.\  Leggett's radio wasn't working.	마셜: 확인이 안 되는군. 레게트 일병의\무전기는 고장 난 줄 알았네.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	30	0x99F	58	01:58	02:02	047	045	Hartsock: Couldn't receive, sir, but he was transmitting.	하트삭: 수신은 못 했지만 송신은 됐습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	31	0x9FA	26	02:02	02:03	047	045	Marshall: And Sgt. Baker?	마셜: 베이커 병장은?
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	32	0xA35	156	02:08	02:15	047	065	Hartsock: He loved being in the thick of it.  Every time\  I turned around in Normandy he'd been knocked out by\  artillery or a mortar or some damn thing.	하트삭: 그는 늘 한복판에 뛰어들었죠.\노르망디에선 돌아볼 때마다 포탄이나\박격포에 맞아 쓰러져 있었습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	33	0xAF2	69	02:17	02:19	047	055	Hartsock: Yeah, he earned his stripes.  But so did the\  rest of us.	하트삭: 네, 계급장을 얻을 만했죠.\하지만 우리 모두 그랬습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	34	0xB58	32	02:22	02:23	047	045	Hartsock: And I do mean earned.	하트삭: 정말 죽도록 얻은 겁니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	35	0xB99	67	02:30	02:34	047	055	Marshall: Baker got quite a scar.\  Is yours from that battle too?	마셜: 베이커에게 큰 흉터가 있더군.\자네 것도 그 전투에서 생겼나?
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	36	0xBFD	41	02:35	02:37	047	045	Drunken Man: How dare you touch my wife!	취객: 감히 내 아내를 만져!
+/PSP_GAME/USRDIR/SYSTEM/EM_1230_BOOKENDS2.ST1	EM_1230_BOOKENDS2.ST1	37	0xC47	47	02:41	02:43	047	045	Hartsock: Can we just talk about Hill 30, sir?	하트삭: 그냥 30고지 얘기나 하시죠.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	1	0x0	56					Bookends\Near Cherbourg, France\D+15 1300 June 21, 1944	북엔드\프랑스 셰르부르 근교\D+15 13:00 1944.6.21
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	2	0x57	37	00:04	00:06	047	045	Hartsock: Can I speak candidly, sir?	하트삭: 솔직히 말씀드려도 됩니까?
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	3	0x9D	31	00:07	00:08	047	045	Marshall: Of course, Sergeant.	마셜: 물론이지, 병장.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	4	0xDD	146	00:09	00:17	047	065	Hartsock: Well, me and Baker... way before either\  one of us made Sergeant, used to joke about how\  jumping in a squad of thirteen is bad luck.	하트삭: 저와 베이커가 병장이 되기 전,\13명이 한 분대로 뛰면 재수 없다고\농담하곤 했습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	5	0x190	62	00:18	00:20	047	055	Marshall: That's a bit juvenile,\  don't you think, Sergeant?	마셜: 좀 유치하지 않나,\병장?
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	6	0x1EF	119	00:21	00:27	047	065	Hartsock: Well, we were all so young then, sir.\  We even went so far as to paint a 13 on\  the back of our helmets...	하트삭: 그땐 다들 어렸습니다.\헬멧 뒤에 13까지 그려 넣었죠...
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	7	0x287	64	00:28	00:31	047	055	Hartsock: Basically saying if fate wants\  us fate can have us.	하트삭: 운명이 원하면\우릴 가져가란 뜻이었죠.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	8	0x2E8	34	00:32	00:33	047	045	Hartsock: Like we weren't afraid.	하트삭: 겁나지 않는 척한 겁니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	9	0x32B	23	00:34	00:36	047	045	Hartsock: But we were.	하트삭: 하지만 겁났죠.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	10	0x363	37	00:37	00:39	047	045	Hartsock: Seeing Desola like that...	하트삭: 데솔라의 그 모습을 보고...
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	11	0x3A9	29	00:40	00:42	047	045	Hartsock: I was afraid, sir.	하트삭: 무서웠습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	12	0x3E7	67	00:43	00:45	047	055	Hartsock: I guess you could say I changed\  my mind at that point.	하트삭: 그때 생각이\바뀌었다고 할 수 있죠.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	13	0x44B	29	00:46	00:48	047	045	Marshall: Changed your mind?	마셜: 생각이 바뀌었다?
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	14	0x489	53	00:51	00:55	047	055	Hartsock: Yeah, I decided fate\  couldn't have me...	하트삭: 네. 운명에게\절 내주지 않기로 했죠...
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	15	0x4DF	26	00:56	00:57	047	045	Hartsock: Or anyone else.	하트삭: 누구도요.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	16	0x51A	73	00:58	01:01	047	055	Marshall: Was this around the time\  when you were promoted to Sergeant?	마셜: 그 무렵 병장으로\진급한 건가?
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	17	0x584	62	01:02	01:04	047	055	Hartsock: It was around the time I started\  to act like one.	하트삭: 그 무렵부터 병장답게\행동하기 시작했습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	18	0x5E3	83	01:05	01:07	047	055	Hartsock: There was one person who was going\  to get me home safely to my family.	하트삭: 가족에게 무사히 돌아가게 해 줄\사람은 단 한 명뿐이었습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	19	0x657	31	01:08	01:09	047	045	Hartsock: And it wasn't Baker.	하트삭: 베이커가 아니었죠.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	20	0x697	21	01:13	01:14	047	045	Hartsock: It was me.	하트삭: 바로 저였습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	21	0x6CD	57	01:18	01:20	047	055	Marshall: Then why did you go to St.\  Sauveur to fight?	마셜: 그런데 왜 생소뵈르에\싸우러 갔나?
+/PSP_GAME/USRDIR/SYSTEM/EM_1300_BOOKENDS4.ST1	EM_1300_BOOKENDS4.ST1	22	0x727	74	01:21	01:24	047	055	Hartsock: Because I wasn't going to let the\  same thing happen to Doyle.	하트삭: 도일에게 같은 일이\생기게 둘 수 없었으니까요.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	1	0x0	56					Bookends\Near Cherbourg, France\D+15 1330 June 21, 1944	북엔드\프랑스 셰르부르 근교\D+15 13:30 1944.6.21
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	2	0x57	34	00:04	00:06	047	045	Hartsock: That was five days ago.	하트삭: 그게 닷새 전이었습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	3	0x9A	126	00:08	00:15	047	065	Hartsock: I remember on the way to St. Martin he was\  going on and on about himself.  Sort of like a Doyle\  history lesson.	하트삭: 생마르탱 가는 길에 도일은\자기 얘기를 끝도 없이 했죠.\도일 역사 수업 같았습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	4	0x139	43	00:15	00:17	047	045	Doyle: Well, my full name is Seamus Doyle.	도일: 제 본명은 셰이머스 도일입니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	5	0x185	163	00:17	00:25	047	065	Doyle: You see, Seamus was my father's name, which is\  odd because I never knew my father, so I guess I never\  understood why my mother would name me after him.	도일: 셰이머스는 아버지 이름입니다.\전 아버지를 몰랐는데, 어머니가 왜\그 이름을 줬는진 모르겠습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	6	0x249	116	00:25	00:30	047	055	Doyle: And my mother, she was a piece of work. She once\  made me wash the dishes at three o' clock in the morning.	도일: 어머니도 대단했죠. 새벽 세 시에\절 깨워 설거지를 시킨 적도 있습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	7	0x2DE	71	00:31	00:34	047	055	Doyle: I mean she could cook like nobody's business,\  but the smell-	도일: 요리는 정말 끝내줬는데,\그 냄새가-
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	8	0x346	79	00:35	00:38	047	055	Doyle: She once caught my sister kissing this guy...\  stapled her dress shut.	도일: 누나가 남자와 키스하는 걸 보고...\드레스를 스테이플러로 박아 버렸죠.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	9	0x3B6	31	00:40	00:42	047	045	Hartsock: That boy could talk.	하트삭: 정말 말 많은 녀석이었죠.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	10	0x3F6	51	00:44	00:46	047	045	Marshall: I think that's all the questions I have.	마셜: 질문은 이 정도면 된 것 같네.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	11	0x44A	84	00:47	00:50	047	055	Marshall: Everything you said is important,\  a lot of good we can learn from this.	마셜: 자네가 한 말은 모두 중요하네.\여기서 배울 게 많을 거야.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	12	0x4BF	55	00:51	00:55	047	045	Marshall: Sergeant Hartsock, you should get some rest.	마셜: 하트삭 병장, 좀 쉬게.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	13	0x517	53	00:56	00:58	047	045	Hartsock: Still got miles to go before we rest, sir.	하트삭: 쉬려면 아직 멀었습니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	14	0x56D	28	01:04	01:06	047	045	Corrion: That took a while.	코리온: 꽤 오래 걸렸군.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	15	0x5AA	37	01:08	01:10	047	045	Hartsock: Got a lot on my mind, Sam.	하트삭: 생각할 게 많았어, 샘.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	16	0x5F0	25	01:16	01:17	047	045	Marshall: Name and rank?	마셜: 이름과 계급은?
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	17	0x62A	32	01:19	01:20	047	045	Corrion: Cpl. Sam Corrion, sir.	코리온: 샘 코리온 상병입니다.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	18	0x66B	41	01:23	01:25	047	045	Baker: How did it go with Col. Marshall?	베이커: 마셜 대령과 얘기는 어땠어?
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	19	0x6B5	45	01:27	01:29	047	045	Hartsock: Oh you know, I talked his ear off.	하트삭: 뭐, 귀가 아프게 떠들었지.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	20	0x703	20	01:30	01:31	047	045	Baker: Yeah me too.	베이커: 나도 그랬어.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	21	0x738	86	01:31	01:37	047	055	Baker: You know, we should write a book.\  Baker and Red, Through Hell and Highwater.	베이커: 우리 책 하나 써야겠군.\베이커와 레드, 지옥과 격랑을 넘어.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	22	0x7AF	33	01:37	01:38	047	045	Hartsock: Why not Red and Baker?	하트삭: 레드와 베이커는 어때?
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	23	0x7F1	47	01:38	01:40	047	045	Baker: Because I made Sergeant before you did.	베이커: 내가 먼저 병장이 됐잖아.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	24	0x841	23	01:41	01:42	047	045	Hartsock: Fair enough.	하트삭: 그건 인정.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	25	0x879	70	01:44	01:47	047	055	Hartsock: If we ever get back to England,\  I'm buying you a whiskey.	하트삭: 영국에 돌아가면,\내가 위스키 한잔 살게.
+/PSP_GAME/USRDIR/SYSTEM/EM_1330_BOOKENDS3.ST1	EM_1330_BOOKENDS3.ST1	26	0x8E0	23	01:47	01:49	047	045	Baker: I like whiskey.	베이커: 위스키 좋지.
+/PSP_GAME/USRDIR/SYSTEM/EM_1830RISNERSDEATH.ST1	EM_1830RISNERSDEATH.ST1	1	0x6C	44	00:02	00:04	047	045	Risner: I'm gonna have to shove through it.	리스너: 그냥 밀고 지나가야겠어.
+/PSP_GAME/USRDIR/SYSTEM/EM_1830RISNERSDEATH.ST1	EM_1830RISNERSDEATH.ST1	2	0xB9	39	00:19	00:21	047	045	Risner: Matt get the Hell out of here!	리스너: 맷, 당장 여기서 나가!
+/PSP_GAME/USRDIR/SYSTEM/EM_1830RISNERSDEATH.ST1	EM_1830RISNERSDEATH.ST1	3	0x101	33	00:22	00:24	047	045	Risner: Dammit! I'm out of ammo!	리스너: 젠장! 탄약이 다 떨어졌어!
+/PSP_GAME/USRDIR/SYSTEM/EM_D30900DEATH.ST1	EM_D30900DEATH.ST1	1	0x1D	63	00:09	00:21	047	045	Leggett: They are... dead. There were too many of em...\  God.	레게트: 다... 죽었어. 너무 많았어...\신이시여.
+/PSP_GAME/USRDIR/SYSTEM/EM_EXIT4_ENDING.ST1	EM_EXIT4_ENDING.ST1	1	0x5F	84	00:06	00:10	047	055	Leggett: I understand the large hearts of heroes,\  the courage of present times...	레게트: 영웅들의 큰 마음과,\이 시대의 용기를 이해한다...
+/PSP_GAME/USRDIR/SYSTEM/EM_EXIT4_ENDING.ST1	EM_EXIT4_ENDING.ST1	2	0xD4	64	00:11	00:13	047	055	Leggett: It's from a poem my dad used to read to\  me as a kid.	레게트: 어릴 때 아버지가 읽어 주던\시의 한 구절이야.
+/PSP_GAME/USRDIR/SYSTEM/EM_EXIT4_ENDING.ST1	EM_EXIT4_ENDING.ST1	3	0x135	90	00:18	00:35	047	055	Leggett: It amazes me that something so beautiful could\  be a part of something so ugly.	레게트: 이렇게 아름다운 것이\이토록 끔찍한 것의 일부라니 놀라워.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	1	0x0	60					Victory in Carentan\D+8 0930 June 14, 1944\Carentan, France	카랑탕의 승리\D+8 09:30 1944.6.14\프랑스 카랑탕
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	2	0x5B	74	00:12	00:15	047	055	Hartsock: Why in the hell did you bring back that\  busted piece of crap?	하트삭: 대체 왜 그 망가진 고물을\도로 가져온 거야?
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	3	0xC6	54	00:16	00:18	047	045	Corrion: Not sure, seemed like the right thing to do.	코리온: 몰라, 그래야 할 것 같았어.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	4	0x11D	62	00:19	00:22	047	055	Hartsock: What are you gonna do, bury it?\  Corrion: I might.	하트삭: 어쩌려고, 묻어 주게?\코리온: 그럴지도.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	5	0x17C	40	00:24	00:27	047	045	Mac: Knock off the chatter and fall in.	맥: 잡담 그만하고 집합.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	6	0x1C5	55	00:28	00:31	047	045	Mac: I'm not one for speeches so I'll make this short.	맥: 연설은 체질이 아니니 짧게 한다.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	7	0x21D	95	00:32	00:37	047	055	Mac: First, there's a Colonel Marshall here to interview\  some of you for General Eisenhower.	맥: 먼저, 아이젠하워 장군 때문에\마셜 대령이 몇 명을 면담할 거다.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	8	0x29D	26	00:38	00:40	047	045	Mac: Don't screw that up.	맥: 망치지 마라.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	9	0x2D8	82	00:41	00:45	047	055	Mac: Second, I've been in the Army a long time and in some\  pretty good units...	맥: 둘째, 난 군 생활도 오래 했고\좋은 부대도 많이 겪었다...
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	10	0x34B	29	00:46	00:47	047	045	Mac: but in all that time...	맥: 하지만 그동안...
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	11	0x389	54	00:48	00:50	047	045	Mac: well, I just want to say that you guys did good.	맥: 그냥, 너희가 정말 잘했다고 말하고 싶다.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	12	0x3E0	28	00:51	00:52	047	045	Mac: We lost some good men.	맥: 좋은 전우들을 잃었다.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	13	0x41D	128	00:53	00:59	047	065	Mac: But at the same time, we sent a message to Hitler and\  his boys that we're coming for him - that his days\  are numbered.	맥: 하지만 히틀러와 그놈들에게도\우리가 간다는 걸 알렸다.\놈의 날도 얼마 안 남았다.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	14	0x4BE	39	01:00	01:02	047	045	Mac: Now I've got a promotion to make.	맥: 이제 진급자를 발표한다.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	15	0x506	43	01:03	01:06	047	045	Mac: Sergeant Hartsock - front and center!	맥: 하트삭 병장, 앞으로!
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	16	0x552	143	01:08	01:16	047	065	Mac: Second squad needs a new leader and the\  responsibility is now yours.  Sew on these stripes or\  I'll cite you for being out of uniform.	맥: 2분대에 새 지휘관이 필요하다.\이제 네 책임이다. 계급장을 달아라.\안 달면 복장 불량으로 처벌한다.
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	17	0x602	57	01:17	01:20	047	045	Mac: All right, men... Second and third squad, fall out!	맥: 좋아... 2분대와 3분대, 해산!
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	18	0x65C	21	01:22	01:23	047	045	Mac: Sergeant Baker!	맥: 베이커 병장!
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	19	0x692	140	01:26	01:33	047	065	Mac: You know this isn't over right?  Hell of a thing\  we've been through these last eight days.  Welcome to\  the end of the beginning...	맥: 아직 끝난 게 아닌 거 알지?\지난 8일은 정말 지독했다.\이제 시작의 끝에 온 걸 환영한다...
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	20	0x73F	30	01:36	01:37	047	045	Mac: Grab your gear troopers!	맥: 장비 챙겨라!
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	21	0x77E	37	01:37	01:39	047	045	Mac: We've still got a war to fight!	맥: 아직 끝낼 전쟁이 남았다!
+/PSP_GAME/USRDIR/SYSTEM/EM_VICTORYINCARETAN.ST1	EM_VICTORYINCARETAN.ST1	22	0x7C4	51	01:40	01:42	047	055	Baker: Third Squad! You heard the man.\  Move out!	베이커: 3분대! 들었지.\이동한다!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	1	0x0	79					Rendezvous with Destiny\ Over Ste. Mere Eglise, France\D-Day 0115 June 6, 1944	운명의 날\1944.6.6
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	2	0x6E	64	00:14	00:17	047	055	Baker: I never asked to be squad leader,\  but I had no choice.	베이커: 원한 건 아니지만,\  선택권은 없었다.
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	3	0xCF	56	00:18	00:21	047	045	Baker: Now I've got thirteen soldiers under my command.	베이커: 이제 열세 명을 지휘한다.
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	4	0x128	91	00:22	00:26	047	055	Baker: Thirteen men depending on me to make the right\  decisions and not get them killed.	베이커: 내가 옳은 결정을 내려\  살아남게 해주길 바라는 열세 명.
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	5	0x1A4	80	00:27	00:32	047	055	Baker: Thirteen families relying on me to bring their\  husbands and sons home.	베이커: 남편과 아들이 돌아오길\  기다리는 열세 가족.
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	6	0x215	17	00:33	00:35	047	045	Baker: Thirteen.	베이커: 13.
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	7	0x247	39	00:36	00:38	047	045	Baker: Thirteen is not a lucky number.	베이커: 13은 불길한 숫자다.
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	8	0x28F	15	00:46	00:47	047	045	Mac: Stand up!	맥: 기립!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	9	0x2BF	14	00:50	00:52	047	045	Mac: Hook up!	맥: 결속!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	10	0x2EE	27	00:55	00:57	047	045	Mac: Check your equipment!	맥: 장비 확인!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	11	0x32A	83	00:59	01:05	047	055	Mac: Remember!  This squad sticks together!\  Once you hit the ground, find Baker!	맥: 기억해! 분대는 함께 움직인다!\  착지하면 베이커를 찾아!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	12	0x39E	16	01:06	01:07	047	045	Mac: Sound Off!	맥: 번호!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	13	0x3CF	37	01:08	01:12	047	045	Fourteen OK!\Thirteen OK!\Twelve OK!	14 확인!\13 확인!\12 확인!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	14	0x415	24	01:14	01:15	047	045	Hartsock: Corrions hit!	코리온 피격!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	15	0x44E	70	01:17	01:19	047	055	Garnett: Lets get the hell out of here!\  Allen: We gotta jump Sarge!	가넷: 여기서 나가자!\  앨런: 중사님, 뛰어야 해요!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	16	0x4B5	34	01:20	01:21	047	045	Mac: We wait for the green light!	맥: 초록불을 기다려!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	17	0x4F8	67	01:22	01:26	047	055	Allen: We wait any longer, there won't be a\  fucking green light!	앨런: 더 기다리면\  빌어먹을 초록불도 없어요!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	18	0x55C	32	01:27	01:30	047	045	Mac: Baker!  Stand in the door!	맥: 베이커! 문 앞에 서!
+/PSP_GAME/USRDIR/SYSTEM/FM_0115EAGLESJUMP.ST1	FM_0115EAGLESJUMP.ST1	19	0x59D	41	01:35	01:37	047	045	Baker: I never asked to be squad leader.	베이커: 원한 건 아니었다.

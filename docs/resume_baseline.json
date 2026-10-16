@@ -1,11 +1,18 @@
 {
   "schema_version": 1,
   "inspected_commit": "9358177671e8d49e53e59e11bf15b6c3dbddf836",
-  "verified_this_session": "Repository file integrity only; no ISO, patch decode or runtime verification",
   "files": {
     "patch/manifest.json": "170d3815a483d9f196c9682be1c02fbf9e6c7165938549ac6f657eee45026fa7",
     "docs/QA_STATUS.md": "e4fc9f0fb9f781f32469ff49df10d936c0dac453ce6298a4af69ed4a17292ce6",
     "tools/apply_patch.py": "61da797f5e41445c3abe0acff8824ce6549ed0718e9ae6165c034fe3b9167809",
-    "tools/verify_release.py": "a8ce3ab83c43ffd502b9f6d104d03efd18a56bd390a8e54ac279f17729681928"
-  }
+    "tools/verify_release.py": "a8ce3ab83c43ffd502b9f6d104d03efd18a56bd390a8e54ac279f17729681928",
+    "tools/develop.py": "ba801d61e3bc8892a2417488404d1c0dd6c136a3ec7b85e3b6b021f0a5c2bfd2",
+    "tools/dev/bia_formats.py": "c9d4978055caa7b88ed15daad8a7d01b8b0e1373a1920c7ff0722fbbb49e9d51",
+    "data/recovered/movie_subtitles_ko.tsv": "baa023448881530f5372f21d6cef52e69119311c1aac23f01501eedf50bd68c3",
+    "data/recovered/text_master.tsv": "d2b3787bf119d6f585c07073bf425bd5a6a106e89cb4cdb95b3ebb66c1d3a1b9"
+  },
+  "development_review_date": "2026-10-16",
+  "initial_review_scope": "Repository file integrity only; no ISO, patch decode or runtime verification",
+  "development_validation": "docs/PORTABILITY_VALIDATION.md",
+  "line_endings": "Pinned text files use LF, enforced by .gitattributes; legacy Windows CRLF digests were normalized without content changes."
 }

@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-16",
+  "source_files": {
+    "bia_stage36_base.py": "8203ee8d2d1956cace39be848151c479cf8b901b52354ab2e688f14bb761da8c",
+    "text_master.tsv": "2c9347b39e8f733f12c823c975bb31d54fdc228d782fd6718f9378402b197905",
+    "movie_subtitles_ko.tsv": "c49ca029a113f663262e930c1d07d92eddab56c049c7190c235bfdc15a8dea0c"
+  },
+  "method": "Recovered pure file-format definitions; excluded runtime code and game assets. Translation tables retain historical statuses, not current application proof."
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-16",
+  "results": {
+    "bia_isolated_build": {
+      "output_sha256": "e25e3712d2c392ad54f783d7eaafc187ccd88f9cbeaee66f9962112750e37090",
+      "static_readback": "PASS",
+      "runtime_qa": "PENDING",
+      "baseline_preserved": true
+    },
+    "bia_output_overwrite_rejected": true,
+    "bia_wrong_old_text_rejected": true,
+    "bia_wrong_baseline_rejected": true
+  },
+  "runtime_qa": "NOT_RUN"
+}
