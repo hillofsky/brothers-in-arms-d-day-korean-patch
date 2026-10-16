@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-16",
+  "verification": {
+    "repository": "brothers-in-arms-d-day-korean-patch",
+    "commit": "483ca440e6f701f651d887edbbd429d1efebe9e5",
+    "release": "https://github.com/hillofsky/brothers-in-arms-d-day-korean-patch/releases/tag/v0.1.0-beta",
+    "remote_manifest_matches_repository": true,
+    "source_sha256": "3d138a30a4e468532d551c74c848b4ec1ab7a044a726c5434e8a6a20e6814f66",
+    "downloaded_patch_sha256": "90ba149e29c4463a7e7a2e489bcda8d79d7e6a12b0414449807ea5530b6b1f48",
+    "restored_iso_size": 1413019648,
+    "restored_iso_sha256": "99091ae6abd1c3d5462ba1e299116eb77081aa4fb5bb417542f2039fe2254cae",
+    "fresh_clone_integrity": "PASS",
+    "restored_iso_development_inspect": "PASS",
+    "runtime_qa": "NOT_RUN"
+  },
+  "scope": "Fresh public clone and fresh public release downloads; original ISO supplied locally. No prior final ISO or historical private build input used. Runtime not tested."
+}
